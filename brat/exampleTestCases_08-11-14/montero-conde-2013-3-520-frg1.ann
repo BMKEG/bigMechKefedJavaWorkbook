@@ -1,0 +1,100 @@
+T1	Statistical-Effect 60 72	the increase
+T2	Parameter 76 80	HER3
+T3	Parameter 84 107	MAPK pathway inhibitors
+T4	Parameter 111 141	BRAF mutant thyroid cell lines
+R1	parameterizes Arg1:T2 Arg2:T1	
+R2	parameterizes Arg1:T3 Arg2:T1	
+R3	parameterizes Arg1:T4 Arg2:T1	
+T5	Parameter 396 412	PLX4032 treatmen
+T6	Parameter 424 428	HER3
+T7	Parameter 433 437	HER2
+T8	DepVb 438 443	mRNAs
+T9	Statistical-Effect 414 423	increased
+R6	provides-input-for Arg1:T8 Arg2:T9	
+R4	parameterizes Arg1:T7 Arg2:T8	
+R5	parameterizes Arg1:T6 Arg2:T8	
+R7	parameterizes Arg1:T5 Arg2:T8	
+T10	Parameter 447 492	all six BRAF-mutant thyroid cancer cell lines
+R8	parameterizes Arg1:T10 Arg2:T8	
+T11	Parameter 553 578	the MEK inhibitor AZD6244
+T12	Parameter 607 624	the MEK inhibitor
+T13	DepVb 628 652	total HER2, HER3 protein
+T14	Parameter 634 638	HER2
+T15	Parameter 640 644	HER3
+T16	DepVb 660 665	pHER3
+T17	Statistical-Effect 671 685	dose dependent
+R9	parameterizes Arg1:T12 Arg2:T13	
+R10	parameterizes Arg1:T12 Arg2:T16	
+R11	parameterizes Arg1:T15 Arg2:T13	
+R12	parameterizes Arg1:T14 Arg2:T13	
+R13	provides-input-for Arg1:T13 Arg2:T17	
+T18	Statistical-Effect 691 711	inversely associated
+T19	IndepVb 717 749	the degree of inhibition of pERK
+R14	parameterizes Arg1:T19 Arg2:T18	
+R15	provides-input-for Arg1:T16 Arg2:T18	
+R16	provides-input-for Arg1:T16 Arg2:T17	
+R17	provides-input-for Arg1:T13 Arg2:T18	
+T20	Parameter 761 782	RAF or MEK inhibitors
+T21	Measurement 791 810	luciferase activity
+T22	Parameter 814 898	a HER3 promoter construct spanning ~ 1 kb upstream of the transcriptional start site
+T23	Parameter 902 913	8505C cells
+R18	parameterizes Arg1:T22 Arg2:T21	
+R19	parameterizes Arg1:T20 Arg2:T21	
+R20	parameterizes Arg1:T23 Arg2:T21	
+T24	Parameter 1156 1163	PLX4032
+T25	Statistical-Effect 1171 1182	an increase
+T26	DepVb 1186 1201	phosphorylation
+T27	Parameter 1205 1213	FoxO1/3A
+T28	Parameter 1222 1227	4–10h
+T29	IndepVb 1234 1254	addition of compound
+R21	measures Arg1:T28 Arg2:T29	
+R22	parameterizes Arg1:T27 Arg2:T26	
+R23	parameterizes Arg1:T28 Arg2:T26	
+R24	parameterizes Arg1:T24 Arg2:T26	
+R25	provides-input-for Arg1:T26 Arg2:T25	
+T30	Process 1812 1821	Silencing
+T31	Parameter 1825 1830	CtBP1
+T32	Parameter 1855 1860	CtBP2
+R26	parameterizes Arg1:T31 Arg2:T30	
+R27	parameterizes Arg1:T32 Arg2:T30	
+T33	Statistical-Effect 1862 1871	increased
+T34	DepVb 1872 1882	basal HER3
+T35	Parameter 1878 1882	HER3
+T36	Entity 1892 1897	cells
+T37	Parameter 1886 1891	8505C
+R28	parameterizes Arg1:T37 Arg2:T36	
+R29	precedes Arg1:T36 Arg2:T30	
+R30	parameterizes Arg1:T35 Arg2:T34	
+R31	parameterizes Arg1:T37 Arg2:T34	
+T38	Statistical-Effect 1903 1923	markedly potentiated
+T39	DepVb 1924 1935	the effects
+T40	Parameter 1939 1946	PLX4032
+R32	parameterizes Arg1:T40 Arg2:T39	
+R33	provides-input-for Arg1:T39 Arg2:T38	
+T41	Parameter 1978 1991	these factors
+T42	Process 1965 1974	Knockdown
+R34	parameterizes Arg1:T41 Arg2:T42	
+T43	Statistical-Effect 1992 2010	modestly increased
+T44	Parameter 2011 2016	basal
+T45	Parameter 2021 2036	PLX4032-induced
+T46	Parameter 2037 2041	HER2
+T47	DepVb 2042 2048	levels
+R35	provides-input-for Arg1:T47 Arg2:T43	
+R36	parameterizes Arg1:T46 Arg2:T47	
+R37	parameterizes Arg1:T45 Arg2:T47	
+R38	parameterizes Arg1:T44 Arg2:T47	
+T48	Statistical-Effect 2078 2101	the remarkable increase
+T49	DepVb 2105 2110	pHER3
+R39	provides-input-for Arg1:T49 Arg2:T48	
+T50	Parameter 2150 2155	CtBP1
+T51	Parameter 2160 2165	CtBP2
+T52	Process 2166 2202	chromatin immunoprecipitation assays
+T53	Statistical-Effect 2210 2219	decreased
+T54	DepVb 2220 2248	binding to the HER3 promoter
+R40	provides-input-for Arg1:T54 Arg2:T53	
+T55	Process 2255 2264	treatment
+T56	Parameter 2270 2277	PLX4032
+R41	parameterizes Arg1:T56 Arg2:T55	
+R42	precedes Arg1:T55 Arg2:T52	
+R43	parameterizes Arg1:T51 Arg2:T52	
+R44	parameterizes Arg1:T50 Arg2:T52	

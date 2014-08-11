@@ -1,0 +1,40 @@
+T1	Statistical-Effect 58 90	the activation of PI3K signaling
+T2	Parameter 197 223	the HCC827 NSCLC cell line
+T3	Parameter 249 284	EGFR (exon 19del) wild-type at T669
+T4	Parameter 289 332	EGFR (exon 19del) carrying a T669A mutation
+T5	Process 115 141	we used shRNA to knockdown
+T6	Parameter 142 193	endogenous EGFR (which carries an exon 19 deletion)
+T7	Parameter 351 381	the same EGFR-mutant cell line
+T8	Parameter 408 417	EGFR T669
+T9	Statistical-Effect 439 459	MEK-dependent manner
+T10	DepVb 421 435	phosphorylated
+T11	Parameter 501 516	endogenous EGFR
+T12	Parameter 535 561	EGFR (exon19del) wild-type
+T13	Parameter 565 569	T669
+T14	Statistical-Effect 593 624	significant feedback activation
+T15	Parameter 571 585	MEK inhibition
+T16	Parameter 628 633	ERBB3
+T17	Parameter 634 638	PI3K
+T18	Parameter 639 642	AKT
+T19	DepVb 643 652	signaling
+T20	Parameter 692 726	the EGFR (exon19 del) T669A mutant
+T21	Statistical-Effect 734 768	increased tyrosine phosphorylation
+T22	Parameter 777 781	EGFR
+T23	Parameter 786 791	ERBB3
+T24	Parameter 811 815	PI3K
+T25	Parameter 816 819	AKT
+T26	Statistical-Effect 797 807	activation
+T27	DepVb 820 829	signaling
+T28	Parameter 908 915	AZD6244
+T29	Process 896 904	addition
+T30	Statistical-Effect 916 941	failed to further augment
+T31	DepVb 956 971	phosphorylation
+T32	Parameter 942 947	ERBB3
+T33	Parameter 952 955	AKT
+R1	parameterizes Arg1:T33 Arg2:T31	
+R2	parameterizes Arg1:T32 Arg2:T31	
+R3	provides-input-for Arg1:T31 Arg2:T30	
+R4	parameterizes Arg1:T28 Arg2:T29	
+T34	Entity 975 980	cells
+T35	Parameter 992 1007	the 669A mutant
+R5	parameterizes Arg1:T35 Arg2:T34	

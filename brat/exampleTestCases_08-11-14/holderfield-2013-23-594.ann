@@ -1,0 +1,128 @@
+T1	Parameter 1794 1805	RAFWT cells
+T2	Parameter 1844 1853	Cmpds A-G
+T3	Parameter 1894 1903	BRAFV600E
+T4	DepVb 1944 1952	activity
+T7	Parameter 1990 2004	SW620 (BRAFWT)
+T5	Parameter 1961 1985	A375 (BRAFV600E mutated)
+T6	DepVb 2005 2015	cell lines
+T8	Parameter 2165 2176	SW620 cells
+T9	IndepVb 2233 2259	maximal pathway activation
+T10	Measurement 2273 2300	low compound concentrations
+T11	Measurement 2305 2330	modest pathway inhibition
+T12	Parameter 2334 2360	the highest concentrations
+T14	DepVb 2460 2476	compound potency
+T15	IndepVb 2481 2495	MAPK induction
+T16	Parameter 2499 2504	SW620
+T17	DepVb 2526 2589	compound inhibition half-maximal effective concentration (EC50)
+T18	Parameter 2600 2604	A375
+T19	Parameter 2652 2658	Cmpd A
+T20	Parameter 2663 2669	Cmpd B
+T21	Parameter 2700 2734	the lowest concentrations in SW620
+T13	DepVb 2788 2794	growth
+T22	Parameter 2798 2807	BRAFV600E
+T23	Parameter 2838 2844	BRAFWT
+T24	DepVb 2828 2834	growth
+T25	Parameter 2757 2781	catalytic RAF inhibitors
+T26	Parameter 3228 3241	RAF compounds
+T27	DepVb 3265 3273	activity
+T28	Parameter 3291 3335	BRAFV600E, BRAFWT, and CRAFWT kinase domains
+T29	Parameter 3359 3368	BRAFV600E
+T30	Parameter 3466 3502	a subphysiological ATP concentration
+T31	Parameter 3430 3436	BRAFWT
+T32	Parameter 3441 3453	CRAF enzymes
+T33	IndepVb 3406 3414	compound
+T34	Parameter 3566 3572	BRAFWT
+T35	Parameter 3577 3581	CRAF
+T36	Parameter 3585 3617	physiological ATP concentrations
+T37	DepVb 3627 3646	MEK phosphorylation
+T38	Statistical-Effect 3652 3667	biphasic manner
+T40	DepVb 3923 3937	basal activity
+T39	IndepVb 3877 3904	cellular ATP concentrations
+T41	Parameter 3908 3914	1-5 mM
+T42	Parameter 3946 3960	RAFWT isoforms
+T43	Measurement 3965 3983	greatly diminished
+T44	Parameter 4000 4009	BRAFV600E
+T45	Measurement 4017 4035	increased activity
+T46	Parameter 4039 4043	1 mM
+T47	IndepVb 4044 4047	ATP
+T48	DepVb 4119 4135	compound potency
+T49	Parameter 4140 4146	BRAFWT
+T50	Parameter 4151 4155	CRAF
+T51	IndepVb 4140 4167	BRAFWT and CRAF stimulation
+T52	Statistical-Effect 4168 4183	correlated with
+T53	DepVb 4184 4237	compound half-maximal inhibitory concentration (IC50)
+T54	Parameter 4242 4251	BRAFV600E
+T55	IndepVb 4242 4262	BRAFV600E inhibition
+T61	Parameter 4514 4520	BRAFWT
+T62	Parameter 4525 4529	CRAF
+T60	DepVb 4487 4529	basal kinase activities of BRAFWT and CRAF
+T63	Parameter 4535 4545	diminished
+T64	Parameter 4549 4581	physiological ATP concentrations
+T65	Statistical-Effect 4602 4650	kinetic differences between BRAFV600E and BRAFWT
+T56	Measurement 4678 4696	a maximum velocity
+T57	Parameter 4729 4734	44 μM
+T58	DepVb 4715 4725	Km(ATP)app
+T59	DepVb 4736 4762	initial rates of catalysis
+T66	Parameter 4767 4773	BRAFWT
+T67	Parameter 4778 4782	CRAF
+T68	Parameter 4788 4808	dramatically reduced
+T69	DepVb 4812 4830	ATP concentrations
+T70	Parameter 4837 4842	40 μM
+T71	DepVb 4849 4868	The catalytic rates
+T72	Parameter 4877 4887	WT enzymes
+T73	DepVb 4965 4975	Km(ATP)app
+T74	DepVb 5175 5199	wild-type RAF constructs
+T75	Parameter 5212 5223	inactivated
+T76	Parameter 5227 5253	high concentrations of ATP
+T77	Parameter 5265 5309	BRAF kinase domain isolated to a single band
+T78	DepVb 5380 5406	the initial enzymatic rate
+T79	DepVb 5435 5449	concentrations
+T80	Parameter 5462 5472	100 μM ATP
+T81	DepVb 5486 5511	the catalytic rate change
+T82	Parameter 5534 5540	BRAFWT
+T83	Parameter 5545 5549	CRAF
+T84	Parameter 5558 5568	0.5 μM ATP
+T85	Parameter 5641 5694	concentrations below the observed initial rate change
+T86	Parameter 5702 5711	40 μM ATP
+T87	DepVb 5717 5728	rate change
+T88	Parameter 5738 5744	faster
+T89	Parameter 5748 5761	ATP increased
+T90	Parameter 5770 5790	nearly instantaneous
+T91	Parameter 5794 5827	the highest concentrations of ATP
+T92	DepVb 5837 5872	the observed initial enzymatic rate
+T93	Parameter 5883 5893	diminished
+T94	DepVb 1876 1885	potencies
+T95	IndepVb 2183 2191	compound
+T96	Parameter 2202 2205	ERK
+T99	Parameter 2622 2631	BRAFV600E
+T100	Measurement 2606 2642	the most potent BRAFV600E inhibitors
+T101	Parameter 2646 2650	A375
+T102	IndepVb 2798 2813	BRAFV600E cells
+T104	IndepVb 3232 3241	compounds
+T105	IndepVb 3321 3335	kinase domains
+T106	DepVb 3369 3384	phosphorylation
+T107	Parameter 3337 3350	All compounds
+T108	Statistical-Effect 3351 3358	blocked
+T109	Parameter 3388 3391	MEK
+R1	parameterizes Arg1:T29 Arg2:T108	
+R2	measures Arg1:T108 Arg2:T106	
+R3	parameterizes Arg1:T109 Arg2:T108	
+R4	parameterizes Arg1:T107 Arg2:T108	
+T110	Statistical-Effect 3420 3429	inhibited
+T97	Statistical-Effect 2209 2227	a biphasic pattern
+T98	Statistical-Effect 2505 2520	correlated well
+T103	Statistical-Effect 2671 2679	activate
+T111	Parameter 2680 2696	the MAPK pathway
+T112	IndepVb 3554 3562	compound
+R5	measures Arg1:T43 Arg2:T40	
+R6	measures Arg1:T41 Arg2:T39	
+R7	parameterizes Arg1:T41 Arg2:T43	
+R8	parameterizes Arg1:T42 Arg2:T43	
+R9	parameterizes Arg1:T44 Arg2:T43	
+R10	measures Arg1:T45 Arg2:T40	
+R11	parameterizes Arg1:T46 Arg2:T45	
+R12	measures Arg1:T46 Arg2:T47	
+R15	measures Arg1:T52 Arg2:T48	
+R16	measures Arg1:T52 Arg2:T53	
+R13	parameterizes Arg1:T51 Arg2:T48	
+R14	parameterizes Arg1:T55 Arg2:T53	

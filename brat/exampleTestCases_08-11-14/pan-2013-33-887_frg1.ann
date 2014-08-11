@@ -1,0 +1,20 @@
+T1	Parameter 822 858	DNA-binding-defective mutant (pmHMG)
+T2	Statistical-Effect 883 911	sequence-specific repression
+T3	DepVb 915 933	the DNMT1 promoter
+T5	Parameter 1009 1038	Wild-type HBP1 overexpression
+T6	Parameter 1049 1054	DNMT1
+T7	DepVb 1049 1068	DNMT1 protein level
+T8	Statistical-Effect 1039 1048	decreased
+R1	parameterizes Arg1:T6 Arg2:T8	
+R4	parameterizes Arg1:T6 Arg2:T7	
+T9	Parameter 1078 1114	DNA-binding-defective mutant (pmHMG)
+T10	Statistical-Effect 1115 1128	had no effect
+T11	Parameter 1132 1137	DNMT1
+T12	DepVb 1132 1145	DNMT1 protein
+T13	Parameter 1158 1171	control cells
+R5	parameterizes Arg1:T13 Arg2:T10	
+R6	parameterizes Arg1:T11 Arg2:T10	
+R7	parameterizes Arg1:T9 Arg2:T10	
+R8	parameterizes Arg1:T11 Arg2:T12	
+R2	parameterizes Arg1:T5 Arg2:T8	
+R3	measures Arg1:T8 Arg2:T7	

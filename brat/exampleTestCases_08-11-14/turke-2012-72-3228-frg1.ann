@@ -1,0 +1,58 @@
+T1	Process 240 263	transiently transfected
+T2	Entity 264 276	CHO-KI cells
+T3	Parameter 333 348	wild-type ERBB3
+R1	precedes Arg1:T2 Arg2:T1	
+R2	parameterizes Arg1:T3 Arg2:T1	
+T4	Parameter 361 375	wild-type EGFR
+T5	Parameter 379 389	EGFR T669A
+R3	parameterizes Arg1:T4 Arg2:T1	
+R4	parameterizes Arg1:T5 Arg2:T1	
+T6	Entity 394 399	cells
+T7	Process 400 411	transfected
+T8	Parameter 417 431	wild-type EGFR
+T9	Parameter 433 447	MEK inhibition
+T10	Statistical-Effect 455 474	feedback activation
+T11	Parameter 478 491	phospho-ERBB3
+T12	Parameter 496 507	phosho-EGFR
+T13	Parameter 612 633	the EGFR T669A mutant
+T14	Parameter 649 659	basal EGFR
+T15	DepVb 670 694	tyrosine phosphorylation
+T16	Statistical-Effect 634 643	increased
+T17	Parameter 664 669	ERBB3
+R5	parameterizes Arg1:T17 Arg2:T15	
+R6	parameterizes Arg1:T14 Arg2:T15	
+R7	parameterizes Arg1:T13 Arg2:T16	
+T18	Parameter 762 765	CHO
+T19	Parameter 786 812	EGFR T669A with HRG ligand
+T20	DepVb 837 852	phosphorylation
+T21	Parameter 831 836	ERBB3
+R8	parameterizes Arg1:T21 Arg2:T20	
+T22	Statistical-Effect 813 829	to induce maxima
+R9	parameterizes Arg1:T19 Arg2:T22	
+R10	parameterizes Arg1:T18 Arg2:T22	
+T23	Statistical-Effect 882 903	the lack of induction
+T24	DepVb 907 920	phospho-ERBB3
+T25	Entity 946 951	cells
+T26	Process 962 976	MEK inhibition
+R11	follows Arg1:T25 Arg2:T26	
+T27	Parameter 924 934	EGFR T669A
+R12	parameterizes Arg1:T27 Arg2:T25	
+R13	provides-input-for Arg1:T20 Arg2:T22	
+R14	provides-input-for Arg1:T15 Arg2:T16	
+R15	parameterizes Arg1:T9 Arg2:T10	
+R16	parameterizes Arg1:T11 Arg2:T10	
+R17	parameterizes Arg1:T12 Arg2:T10	
+R18	parameterizes Arg1:T8 Arg2:T10	
+R19	parameterizes Arg1:T8 Arg2:T7	
+R20	precedes Arg1:T6 Arg2:T7	
+R21	provides-input-for Arg1:T24 Arg2:T23	
+R22	parameterizes Arg1:T27 Arg2:T24	
+T28	Parameter 1081 1087	CHO-KI
+T29	Entity 769 774	cells
+R23	parameterizes Arg1:T18 Arg2:T29	
+T30	Entity 1088 1093	cells
+R24	parameterizes Arg1:T28 Arg2:T30	
+T31	Parameter 1105 1120	wild-type ERBB3
+T32	DepVb 1094 1104	expressing
+T33	Parameter 1141 1150	wild-type
+T34	Parameter 1154 1171	T677A mutant HER2

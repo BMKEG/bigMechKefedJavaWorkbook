@@ -1,0 +1,46 @@
+T1	Parameter 111 131	His-tagged ubiquitin
+T2	Parameter 136 155	Flag-tagged K-Ras4B
+T3	Parameter 157 162	K-Ras
+T4	Parameter 192 205	HEK293T cells
+T5	DepVb 179 188	expressed
+T6	Statistical-Effect 209 226	levels similar to
+T7	Parameter 227 243	endogenous K-Ras
+R1	parameterizes Arg1:T7 Arg2:T6	
+R2	parameterizes Arg1:T3 Arg2:T6	
+R3	measures Arg1:T6 Arg2:T5	
+R4	indirectly-parameterizes Arg1:T4 Arg2:T6	
+R5	indirectly-parameterizes Arg1:T2 Arg2:T6	
+R6	indirectly-parameterizes Arg1:T1 Arg2:T6	
+T8	Entity 325 333	proteins
+T9	Process 339 385	purified by Co2+ metal affinity chromatography
+T10	Parameter 389 418	8M urea denaturing conditions
+R7	precedes Arg1:T8 Arg2:T9	
+R8	parameterizes Arg1:T10 Arg2:T9	
+T11	Parameter 307 324	His-ubiquitinated
+R9	parameterizes Arg1:T11 Arg2:T8	
+T12	Process 461 469	purified
+T13	Parameter 475 490	anti-Flag resin
+R10	parameterizes Arg1:T13 Arg2:T12	
+T14	Parameter 420 437	His-ubiquitinated
+T15	Entity 438 443	K-Ras
+R11	parameterizes Arg1:T14 Arg2:T15	
+R12	precedes Arg1:T15 Arg2:T12	
+T16	Statistical-Effect 906 920	ubiquitination
+T17	Parameter 924 957	Lys residues 104 and 147 of K-Ras
+T18	Parameter 963 1002	Lys residues 117, 147 and 170 for H-Ras
+R13	parameterizes Arg1:T17 Arg2:T16	
+R14	parameterizes Arg1:T18 Arg2:T16	
+T19	Statistical-Effect 1040 1054	ubiquitination
+T20	Parameter 1058 1071	Lys147 (K147)
+T21	Statistical-Effect 1076 1112	the most frequently observed peptide
+T22	Parameter 1122 1127	K-Ras
+T23	Parameter 1132 1137	H-Ras
+T24	Parameter 1145 1151	Lys117
+R15	parameterizes Arg1:T20 Arg2:T19	
+R16	parameterizes Arg1:T20 Arg2:T21	
+R17	parameterizes Arg1:T22 Arg2:T21	
+R18	parameterizes Arg1:T23 Arg2:T21	
+T25	Statistical-Effect 1152 1201	appeared as a secondary major ubiquitination site
+R19	parameterizes Arg1:T24 Arg2:T25	
+T26	Parameter 1205 1210	H-Ras
+R20	parameterizes Arg1:T26 Arg2:T25	
