@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Cell Biol</journal-id>
+      <journal-id journal-id-type="publisher-id">JCB</journal-id>
+      <journal-title>The Journal of Cell Biology</journal-title>
+      <issn pub-type="ppub">0021-9525</issn>
+      <issn pub-type="epub">1540-8140</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">16520382</article-id>
+      <article-id pub-id-type="pmc">2063726</article-id>
+      <article-id pub-id-type="publisher-id">200506001</article-id>
+      <article-id pub-id-type="doi">10.1083/jcb.200506001</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Articles</subject>
+          <subj-group>
+            <subject>Report</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Sos-mediated activation of rac1 by p66shc</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Khanday</surname>
+            <given-names>Firdous A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Santhanam</surname>
+            <given-names>Lakshmi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kasuno</surname>
+            <given-names>Kenji</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamamori</surname>
+            <given-names>Tohru</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Naqvi</surname>
+            <given-names>Asma</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DeRicco</surname>
+            <given-names>Jeremy</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bugayenko</surname>
+            <given-names>Artem</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mattagajasingh</surname>
+            <given-names>Ilwola</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Disanza</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scita</surname>
+            <given-names>Giorgio</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Irani</surname>
+            <given-names>Kaikobad</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Cardiovascular Institute, University of Pittsburgh Medical Center, Pittsburgh, PA 15213</aff>
+      <aff id="aff2"><label>2</label>The Johns Hopkins University, Baltimore, MD 21205</aff>
+      <aff id="aff3"><label>3</label>Instituto Fondazione Italiana Ricerca sul Cancro di Oncologia Molecolare, 20139 Milan, Italy</aff>
+      <author-notes>
+        <fn>
+          <p>Correspondence to Kaikobad Irani: <email>iranik@upmc.edu</email></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>13</day>
+        <month>3</month>
+        <year>2006</year>
+      </pub-date>
+      <volume>172</volume>
+      <issue>6</issue>
+      <fpage>817</fpage>
+      <lpage>822</lpage>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>6</month>
+          <year>2005</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>2</month>
+          <year>2006</year>
+        </date>
+      </history>
+      <copyright-statement>Copyright &#xA9; 2006, The Rockefeller University Press</copyright-statement>
+      <copyright-year>2006</copyright-year>
+      <abstract>
+        <p>The Son of Sevenless 1 protein (sos1) is a guanine nucleotide exchange factor (GEF) for either the ras or rac1 GTPase. We show that p66shc, an adaptor protein that promotes oxidative stress, increases the rac1-specific GEF activity of sos1, resulting in rac1 activation. P66shc decreases sos1 bound to the growth factor receptor bound protein (grb2) and increases the formation of the sos1&#x2013;eps8&#x2013;e3b1 tricomplex. The NH<sub>2</sub>-terminal proline-rich collagen homology 2 (CH2) domain of p66shc associates with full-length grb2 in vitro via the COOH-terminal src homology 3 (C-SH3) domain of grb2. A proline-rich motif (PPLP) in the CH2 domain mediates this association. The CH2 domain competes with the proline-rich COOH-terminal region of sos1 for the C-SH3 domain of grb2. P66shc-induced dissociation of sos1 from grb2, formation of the sos1&#x2013;eps8&#x2013;e3b1 complex, rac1-specific GEF activity of sos1, rac1 activation, and oxidative stress are also mediated by the PPLP motif in the CH2 domain. This relationship between p66shc, grb2, and sos1 provides a novel mechanism for the activation of rac1.</p>
+      </abstract>
+    </article-meta>
+    <notes>
+      <fn-group>
+        <fn>
+          <p>Abbreviations used in this paper: CH, collagen homology; C-SH3, COOH-terminal SH3; C-sos1, COOH-terminal region of sos1; GEF, guanine nucleotide exchange factor; HEK, human embryonic kidney; MEF, mouse embryonic fibroblast; N-SH3, NH<sub>2</sub>-terminal SH3; ROS, reactive oxygen species; RTK, receptor tyrosine kinase; SH, src homology.</p>
+        </fn>
+      </fn-group>
+    </notes>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Son of Sevenless 1 protein (sos1), by stimulating the substitution of GDP for GTP, functions as a guanine nucleotide exchange factor (GEF) for the small GTPase ras. The proline-rich COOH-terminal region of sos1 (C-sos1) binds to the src homology (SH) 3 domains of the adaptor protein growth factor receptor bound protein (grb2). The grb2&#x2013;sos1 complex, via the central SH2 domain of grb2, interacts with phosphotyrosine residues of activated receptor tyrosine kinases (RTKs) on the cytoplasmic side of the plasma membrane. The translocation of the grb2&#x2013;sos1 complex from the cytosol to the membrane upon RTK activation allows the presentation of sos1 to ras, leading to the exchange of GDP for GTP and ras activation (<xref ref-type="bibr" rid="bib1">Chardin et al., 1993</xref>). Although the grb2&#x2013;sos1 complex functions exclusively as a ras activator, sos1 can also function as a GEF that is specific to the GTPase rac1. These two distinct catalytic functions of sos1 are mutually exclusive and reciprocally related. When associated with the actin binding protein eps8 and the Abl-interacting protein e3b1/Abi1 (Abl interactor-1) in a heterotrimeric complex, sos1 displays rac1-specific GEF activity (<xref ref-type="bibr" rid="bib5">Innocenti et al., 2002</xref>). Tyrosine phosphorylation of sos1 by Abl tyrosine kinase promotes its rac1-specific GEF activity without compromising its ras-specific GEF activity (<xref ref-type="bibr" rid="bib14">Sini et al., 2004</xref>). This implies that although Abl-induced phosphorylation modulates the rac1-specific GEF activity of sos1 within the sos1&#x2013;eps8&#x2013;e3b1 complex, it does not lead to the dissociation of sos1 from grb2. The mechanisms that govern the dissociation of sos1 from grb2 and the pool of free sos1 available for the formation of the sos1&#x2013;eps8&#x2013;e3b1 complex remain unknown.</p>
+      <p>ShcA proteins, consisting of p46-, p52-, and p66shc, interact with the SH2 domain of grb2 upon tyrosine phosphorylation and can serve as coupling molecules between RTKs and grb2&#x2013;sos1 complexes (<xref ref-type="bibr" rid="bib12">Pelicci et al., 1992</xref>; <xref ref-type="bibr" rid="bib3">Egan et al., 1993</xref>). All three ShcA isoforms have a COOH-terminal SH2 domain (that binds to phosphorylated RTKs), a central collagen homology (CH) 1 domain, and a phosphotyrosine binding domain. P66shc has an additional NH<sub>2</sub>-terminal proline-rich CH2 domain that is not found in the other two isoforms. The CH2 domain imparts functional diversity to p66shc. Unlike p46- and p52shc, p66shc inhibits rather than activates ras (<xref ref-type="bibr" rid="bib7">Migliaccio et al., 1997</xref>). In addition, p66shc is unique in the ShcA family in its ability to control intracellular oxidant levels (<xref ref-type="bibr" rid="bib8">Migliaccio et al., 1999</xref>). However, the molecular mechanism through which p66shc regulates reactive oxygen species (ROS) levels are not fully characterized. Because of the role of p66shc in inhibiting ras, the reciprocal relationship between the ras and rac1 GEF activities of sos1, and the importance of rac1 in regulating ROS production (<xref ref-type="bibr" rid="bib7">Migliaccio et al., 1997</xref>), we were curious as to whether p66shc, by virtue of its CH2 domain, governs ROS levels by regulating the activity of rac1.</p>
+    </sec>
+    <sec>
+      <title>Results and discussion</title>
+      <p>To determine whether p66shc can activate rac1, we compared rac1 activity in mouse embryonic fibroblast (MEF) cell lines derived from mice with targeted knockout of the p66shc gene (p66shc &#x2212;/&#x2212; MEF) with that of their wild-type littermates (p66shc +/+ MEF). With transfection of sos1, eps8, and e3b1, active GTP-rac1 was significantly higher in p66shc +/+ than in &#x2212;/&#x2212; MEF (<xref rid="fig1" ref-type="fig">Fig. 1 A</xref>). Moreover, rac1 activity was rescued in p66shc &#x2212;/&#x2212; MEF that were reconstituted with full-length wild-type p66shc (p66shcWT) but not in cells expressing the CH2 domain of p66shc (p66shcCH2; <xref rid="fig1" ref-type="fig">Fig. 1 A</xref>). A difference in active rac1 levels between p66shc &#x2212;/&#x2212; and +/+ cells was also apparent under basal conditions in which ectopic constructs were not transfected (unpublished data). These findings show that full-length p66shc activates rac1, whereas its NH<sub>2</sub>-terminal CH2 domain in isolation does not.</p>
+      <fig position="float" id="fig1">
+        <label>Figure 1.</label>
+        <caption>
+          <p><bold>P66shc stimulates rac1 activity and rac1-specific GEF activity of sos1.</bold> (A) Comparison of rac1 activity in MEF cell lines derived from p66shcWT (p66shc +/+) and p66shc &#x2212;/&#x2212; mice with rac1 activity in p66shc &#x2212;/&#x2212; MEF transiently transfected with empty vector or the indicated p66shc constructs. Expression of the Xpress-tagged p66shc constructs sos1, eps8, and e3b1 are shown at bottom. The black line indicates that intervening lanes have been spliced. (B, left) Comparison of rac1-specific GEF activity of immunoprecipitated sos1 in wild-type and p66shc &#x2212;/&#x2212; MEF (top) with p66shc &#x2212;/&#x2212; MEF transfected with empty vector or the indicated p66shc constructs (bottom). All cells were cotransfected with sos1, eps8, and e3b1. (right) Immunoprecipitated sos1. Error bars depict mean &#xB1; SEM.</p>
+        </caption>
+        <graphic xlink:href="jcb1720817f01"/>
+      </fig>
+      <p>We then asked if p66shcWT stimulates the rac1-specific GEF activity of sos1. With transfection of sos1, eps8, and e3b1, the GEF activity of immunoprecipitated sos1 was twofold greater in lysates from p66shc +/+ than &#x2212;/&#x2212; MEF (<xref rid="fig1" ref-type="fig">Fig. 1 B</xref>). Expression of p66shcWT, but not -CH2, in p66shc &#x2212;/&#x2212; MEF, restored the rac1-specific GEF activity of sos1 to that in p66shc +/+ MEF. These findings suggest that p66shc regulates the rac1-specific GEF activity of sos1.</p>
+      <p>Most SH3 domains bind to proline-rich sequences containing a core XPxXP element (where P = proline, X = hydrophobic residue, and x = any amino acid), with the prolines in the peptide core making direct contact with the hydrophobic pocket of the SH3 domain. The CH2 domain of p66shc has one putative SH3 binding core element encompassing residues 46&#x2013;50 (<sup>46</sup>LPPLP<sup>50</sup>). We determined the importance of this motif in p66shc-stimulated rac1 activity. A mutant of p66shc in which prolines 47 and 50 were changed to alanine (p66shcP47A/P50A) was generated. In contrast to p66shcWT, expression of p66shcP47A/P50A in p66shc &#x2212;/&#x2212; MEF did not rescue rac1 activity (<xref rid="fig1" ref-type="fig">Fig. 1 A</xref>) or rac1-specific GEF activity of sos1 (<xref rid="fig1" ref-type="fig">Fig. 1 B</xref>), suggesting that proline-mediated interactions play an important role in mediating these functions of p66shc.</p>
+      <p>Sos1 functions as a ras-specific GEF when bound to grb2 and as a rac1-specific GEF when it is part of the sos1&#x2013;eps8&#x2013;e3b1 complex. We therefore examined the role of p66shc in regulating the formation of these sos1-containing complexes. The amount of sos1 associated with eps8 was significantly greater in p66shc +/+ than in &#x2212;/&#x2212; MEF (<xref rid="fig2" ref-type="fig">Fig. 2 A</xref>). Conversely, the amount of sos1 bound to grb2 was appreciably less in p66shc +/+ MEF than in &#x2212;/&#x2212; cells (<xref rid="fig2" ref-type="fig">Fig. 2 B</xref>). A similar inverse relationship between p66shc expression and grb2&#x2013;sos1 binding was observed in human embryonic kidney (HEK) 293 cells (<xref rid="fig2" ref-type="fig">Fig. 2 C</xref>). Reconstitution of p66shcWT in p66shc &#x2212;/&#x2212; MEF increased sos1 associated with eps8 (<xref rid="fig2" ref-type="fig">Fig. 2 A</xref>) while decreasing sos1 bound to grb2 (<xref rid="fig2" ref-type="fig">Fig. 2 B</xref>). In contrast, p66shcCH2 and -P47A/P50A led to little or no change in the amounts of grb2 and eps8 bound sos1 (<xref rid="fig2" ref-type="fig">Figs. 2, A and B</xref>). Thus, full-length p66shc, via prolines 47 and 50, promotes dissociation of sos1 from grb2 in vivo and increases the formation of the sos1&#x2013;eps8&#x2013;e3b1 complex.</p>
+      <fig position="float" id="fig2">
+        <label>Figure 2.</label>
+        <caption>
+          <p><bold>P66shc promotes the formation of the sos1&#x2013;eps8&#x2013;e3b1 complex and dissociation of sos1 from grb2.</bold> (A and B) Comparison of sos1&#x2013;eps8 (A) and sos1&#x2013;grb2 (B) coprecipitates in p66shc +/+ and &#x2212;/&#x2212; MEF and in p66shc &#x2212;/&#x2212; MEF transfected with empty vector or the indicated p66shc construct. All cells were cotransfected with sos1, eps8, and e3b1 (A) or sos1 and grb2 (B). (C) Comparison of sos1&#x2013;grb2 coprecipitates in HEK 293 with and without p66shcWT overexpression. All cells were cotransfected with sos1 and grb2. (D) Comparison of sos1&#x2013;grb2 and shc&#x2013;grb2 coprecipitates in HEK 293 cells transfected with the indicated p66shc construct. All cells were cotransfected with sos1 and grb2. (E) Comparison of shc&#x2013;grb2 coprecipitates in HEK 293 cells transfected with the indicated p66shc construct. All cells were cotransfected with grb2.</p>
+        </caption>
+        <graphic xlink:href="jcb1720817f02"/>
+      </fig>
+      <p>Proteins of the shcA family are known to associate with grb2 via phosphotyrosine&#x2013;SH2 interactions (<xref ref-type="bibr" rid="bib13">Rozakis-Adcock et al., 1993</xref>; <xref ref-type="bibr" rid="bib4">Gotoh et al., 1996</xref>). To determine whether such interactions are important to p66shc-stimulated dissociation of sos1 from grb2, tyrosines 349, 350, and 427&#x2014;the residues on p66shc that when phosphorylated mediate the recruitment of grb2&#x2014;were mutated, and the capacity of this triple mutant (p66shcY3A) to displace sos1 from grb2 in vivo was examined. When compared with p66shcWT, p66shcY3A expression led to a decrease in displacement of sos1 from grb2 (<xref rid="fig2" ref-type="fig">Fig. 2 D</xref>). In addition, p66shcY3A bound less avidly to grb2 than p66shcWT (<xref rid="fig2" ref-type="fig">Fig. 2 D</xref>). In contrast, the in vivo binding affinity of p66shcP47A/P50A for grb2 was not appreciably diminished when compared with that of p66shcWT (<xref rid="fig2" ref-type="fig">Fig. 2 E</xref>). This indicates that phosphorylation of the targeted tyrosine residues is in part responsible for the binding of p66shc to grb2 and, more important, the consequent displacement of sos1 from grb2.</p>
+      <p>We were intrigued by the possibility that the same features of the CH2 domain that confer upon p66shc its ability to govern rac1 activity may also determine its ability to regulate oxidative stress. We therefore assessed the importance of the CH2 domain and prolines 47 and 50 in this domain to p66shc-induced intracellular ROS generation. Expression of p66shcWT in p66shc &#x2212;/&#x2212; MEF resulted in a significant increase in H<sub>2</sub>O<sub>2</sub>, whereas expression of p66shcP47A/P50A or -CH2 had no appreciable effect (<xref rid="fig3" ref-type="fig">Fig. 3 A</xref>). Comparison of H<sub>2</sub>O<sub>2</sub> levels between p66shc +/+ and &#x2212;/&#x2212; MEF showed significantly lower levels in the latter, which could be rescued by expression of p66shcWT (<xref rid="fig3" ref-type="fig">Fig. 3 B</xref>). In addition, expression of dominant-inhibitory rac1 (rac1N17) suppressed H<sub>2</sub>O<sub>2</sub> levels to a considerably larger degree in p66shc +/+ MEF than in p66shc &#x2212;/&#x2212; cells (<xref rid="fig3" ref-type="fig">Fig. 3 C</xref>) and abrogated p66shc-induced rescue of H<sub>2</sub>O<sub>2</sub> levels in p66shc &#x2212;/&#x2212; MEF (<xref rid="fig3" ref-type="fig">Fig. 3 D</xref>). Collectively, these findings suggest that rac1-dependent mechanisms play a larger role in regulating H<sub>2</sub>O<sub>2</sub> production in p66shc +/+ than in &#x2212;/&#x2212; MEF and that p66shc-mediated rescue of H<sub>2</sub>O<sub>2</sub> levels in p66shc &#x2212;/&#x2212; cells is dependent on endogenous rac1 activity.</p>
+      <fig position="float" id="fig3">
+        <label>Figure 3.</label>
+        <caption>
+          <p><bold>Rac1 and e3b1 mediate p66shc-induced H<sub>2</sub>O<sub>2</sub> generation.</bold> (A) Comparison of intracellular H<sub>2</sub>O<sub>2</sub> levels in p66shc &#x2212;/&#x2212; MEF transfected with empty vector or the indicated p66shc construct. All cells were cotransfected with e3b1. Values are expressed as fold change in mean fluorescence compared with empty vector&#x2013;transfected cells. (B) Comparison of H<sub>2</sub>O<sub>2</sub> levels in media of p66shc &#x2212;/&#x2212; and MEF and rescue of H<sub>2</sub>O<sub>2</sub> levels in p66shc &#x2212;/&#x2212; MEF transfected with p66shc (WT). *, P &lt; 0.05 compared with vector-transfected p66shc &#x2212;/&#x2212; cells (<italic>n</italic> = 5). (C) H<sub>2</sub>O<sub>2</sub> levels in media of p66shc &#x2212;/&#x2212; and +/+ MEF transfected with empty vector (control) or rac1N17. Values are normalized for expression of rac1N17 and presented as a percentage of control cells. *, P &lt; 0.05; #, P = NS, compared with vector-transfected cells (<italic>n</italic> = 5). (D) H<sub>2</sub>O<sub>2</sub> levels in media of p66shc &#x2212;/&#x2212; and MEF transfected with empty vectors, p66shc alone, or p66shc and rac1N17. Values are expressed as a percentage of empty vector&#x2013;transfected cells. Expression of ectopic proteins is shown at the bottom. *, P &lt; 0.05; #, P = NS, compared with cells transfected with empty vectors (<italic>n</italic> = 5). (E) H<sub>2</sub>O<sub>2</sub> levels in media of control and e3b1RNAi HeLa cell lines transfected with empty vector or the indicated p66shc construct. Values are expressed as a percentage of vector-transfected cells. Expression of ectopic p66shc constructs, and endogenous e3b1 is shown at bottom. *, P &lt; 0.05; #, P = NS, compared with vector-transfected cells (<italic>n</italic> = 5). Error bars depict mean &#xB1; SEM.</p>
+        </caption>
+        <graphic xlink:href="jcb1720817f03"/>
+      </fig>
+      <p>We also looked at the role of e3b1 in the increase in ROS levels induced by p66shc. P66shcWT overexpressed in a HeLa cell line with constitutive short hairpin RNA&#x2013;induced down-regulation of e3b1 led to no significant increase in H<sub>2</sub>O<sub>2</sub>, whereas in a control HeLa cell line, overexpression of p66shcWT increased H<sub>2</sub>O<sub>2</sub> levels (<xref rid="fig3" ref-type="fig">Fig. 3 E</xref>). Moreover, as observed in p66shc &#x2212;/&#x2212; MEF, expression of p66shcP47A/P50A or -CH2 in control HeLa cells did not significantly increase H<sub>2</sub>O<sub>2</sub> (<xref rid="fig3" ref-type="fig">Fig. 3 E</xref>). These findings suggest that the expression of e3b1 is critical for a p66shc-induced increase in H<sub>2</sub>O<sub>2</sub>.</p>
+      <p>Grb2 has two SH3 domains. Because the influence of p66shc on the binding partners of sos1 was dependent on putative SH3 binding proline residues in the CH2 domain, we investigated to determine whether grb2 binds to the CH2 domain via a proline&#x2013;SH3 interaction. Full-length grb2 associated with p66shcCH2 in vitro (<xref rid="fig4" ref-type="fig">Fig. 4 A</xref>). In comparison, the binding of p66shcCH2 with mutations at prolines 47 and 50 (p66shcCH2P47A/P50A) to grb2 was much weaker, confirming the importance of these proline residues to this association. Moreover, comparison of the NH<sub>2</sub>- and COOH-terminal SH3 (N- and C-SH3, respectively) domains of grb2 revealed that p66shcCH2 preferentially bound to the C-SH3 domain, suggesting sequence-specific requirements for the binding of p66shcCH2 to SH3 domains. In vitro binding assays using full-length grb2, C-sos1, and p66shcCH2 showed a reciprocal relationship between C-sos1 and p66shcCH2 with respect to binding to grb2 (<xref rid="fig4" ref-type="fig">Fig. 4, B and C</xref>). Semiquantitative analysis revealed that C-sos1 bound with much greater affinity to grb2 than did p66shcCH2 (compare <xref rid="fig4" ref-type="fig">Fig. 4, B and C</xref>). Moreover, when compared with p66shcCH2, p66shcCH2P47A/P50A was a much weaker competitor of C-sos1 (<xref rid="fig4" ref-type="fig">Fig. 4 C</xref>). These findings suggest that C-sos1 and p66shcCH2 compete for binding to grb2, with C-sos1 having a significantly higher in vitro binding affinity than p66shcCH2, and that integrity of prolines 47 and 50 within p66shcCH2 is necessary for it to effectively compete with sos1. In vivo, with overexpression of grb2 and p66shcCH2, there was a weak association between the two proteins (<xref rid="fig4" ref-type="fig">Fig. 4 D</xref>).</p>
+      <fig position="float" id="fig4">
+        <label>Figure 4.</label>
+        <caption>
+          <p><bold>P66shc and sos1 compete for binding to grb2.</bold> (A) Comparison of in vitro binding of the wild-type CH2 domain of p66shc (CH2[WT]) or the double proline mutant of the CH2 domain (CH2[P47A/P50A]) to GST-tagged full-length grb2 (FL) or the C- or N-SH3 domains of grb2. (B) In vitro dis-ruption of grb2&#x2013;sos1 binding by CH2(WT) but not by CH2(P47A/P50A). Increasing amounts (250, 500, and 1,000 ng) of CH2 constructs were added to a preformed complex of GST-tagged full-length grb2 (GST-grb2) and GST&#x2013;C-sos1. (C) In vitro binding assay showing displacement of CH2 from grb2 by C-sos1. Increasing amounts (50, 100, 200, and 400 ng) of GST&#x2013;C-sos1 were added to preformed complex of GST-tagged full-length grb2 (GST-grb2) and hexahistidine-tagged CH2 ([His]6-CH2). GST was used to equalize the protein amount. (D, top) Coimmunoprecipitation of the CH2 domain and grb2 in COS7 cells overexpressing p66shcCH2 and grb2. The lysate from grb2 and p66shcCH2 overexpressing cells was also immunoprecipitated with control IgG and immunoblotted with Xpress antibody (right lane). (bottom) Expression of grb2 and p66shcCH2 in whole cell lysates. Black lines indicate that intervening lanes have been spliced.</p>
+        </caption>
+        <graphic xlink:href="jcb1720817f04"/>
+      </fig>
+      <p>Differential binding affinities of the CH2 domain to the N- and C-SH3 domains of grb2 suggest that p66shc may promote but not be solely responsible for the dissociation of sos1 from grb2. Both the N- and C-SH3 domains of grb2 interact with sos1 (<xref ref-type="bibr" rid="bib15">Yang et al., 1995</xref>). Therefore, binding of the CH2 domain to the C-SH3 domain of grb2 would be expected to weaken but not entirely abrogate the sos1&#x2013;grb2 interaction. It is noteworthy that our analysis of the CH2&#x2013;grb2 interaction was conducted in recombinantly expressed proteins that are not posttranslationally modified. It is therefore reasonable to hypothesize that posttranslational modifications of the CH2 domain and/or grb2 may also play an important part in further modulating their interaction. Furthermore, the CH2 domain that was mutated at prolines 47 and 50 did retain some ability to bind to grb2 in vitro, suggesting that other residues may also be important for its interaction with grb2.</p>
+      <p>Although the disparity in active rac1 between the p66shc +/+ and &#x2212;/&#x2212; cells was evident under basal conditions, this difference was much more pronounced with the overexpression of sos1, eps8, and e3b1. This might reflect very low levels of endogenous expression of these proteins (particularly eps8 and e3b1) observed in these cell lines (unpublished data), consistent with a predicted mechanism for limiting the formation of the sos1&#x2013;e3b1&#x2013;eps8 complex, and regulation of rac1 activity (<xref ref-type="bibr" rid="bib5">Innocenti et al., 2002</xref>). Notably, although endogenous expression of e3b1 and eps8 was low in both cell lines, p66shc &#x2212;/&#x2212; cells had appreciably higher levels of both e3b1 and eps8 when compared with their p66shc +/+ counterparts (unpublished data). This inverse relationship between active rac1 and e3b1/eps8 hints at the possibility of a compensatory feedback mechanism between rac1 and the endogenous proteins that regulate its activity.</p>
+      <p>Overall, our results suggest that the NH<sub>2</sub>-terminal proline-rich CH2 domain of p66shc can bind to the C-SH3 domain of grb2 via a low-affinity proline&#x2013;SH3 interaction, which, by displacing sos1 from grb2, increases the rac1-specific GEF activity of sos1. These events increase intracellular rac1 activity and H<sub>2</sub>O<sub>2</sub> production. Importantly, this weak proline&#x2013;SH3 interaction is functionally relevant, only within the context of full-length p66shc. We propose a model in which p66shc binds to grb2 primarily via a well-characterized phosphotyrosine&#x2013;SH2 interaction. Once p66shc is bound to grb2, its CH2 domain, by virtue of molecular proximity and possibly changes in its conformation, can interact efficiently with the C-SH3 domain of grb2, displacing sos1 from grb2 (<xref rid="fig5" ref-type="fig">Fig. 5</xref>). This model predicts that in addition to determining the fraction of cellular sos1 bound to grb2, p66shc may also influence the binding of other proline-rich proteins to grb2 and thereby modulate a variety of cellular functions that are governed by such interactions.</p>
+      <fig position="float" id="fig5">
+        <label>Figure 5.</label>
+        <caption>
+          <p><bold>Proposed molecular mechanism by which p66shc switches sos1 from a ras- to a rac1-specific GEF.</bold> Novel interaction required for the regulation of rac1 activity by p66shc is shown by dashed line.</p>
+        </caption>
+        <graphic xlink:href="jcb1720817f05"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec>
+        <title>Cell lines, cDNA constructs, transfections, and Western blotting</title>
+        <p>COS7 cells were obtained from American Type Culture Collection and maintained in Dulbecco's modified Eagle's medium supplemented with 10% serum. Spontaneously immortalized p66shc +/+ and &#x2212;/&#x2212; MEF and the cDNA for p66shcWT (gifts from T. Finkel and S. Nemoto, National Heart, Lung, and Blood Institute, Bethesda, MD) have been previously described (<xref ref-type="bibr" rid="bib9">Nemoto and Finkel, 2002</xref>). Mammalian expression plasmids for grb2 and sos1 were provided by D. Bar-Sagi (State University of New York, Stony Brook, NY). A HeLa cell line expressing a short hairpin RNA sequence to e3b1 and the corresponding control HeLa cell line have been previously described (<xref ref-type="bibr" rid="bib6">Innocenti et al., 2004</xref>). Point and deletion mutations in p66shcWT were introduced using standard methods (QuickChange; Stratagene). All mutations were verified by sequencing. Cells were transfected with Lipofectamine 2000 (Invitrogen) according to the manufacturer's recommendations. SDS-PAGE and immunoblotting was performed by standard methods with the following antibodies: rac1 (Upstate Biotechnology), sos1 (Upstate Biotechnology), grb2 (Santa Cruz Biotechnology, Inc.), e3b1 (<xref ref-type="bibr" rid="bib6">Innocenti et al., 2004</xref>), eps8 (Santa Cruz Biotechnology, Inc.), shc (Santa Cruz Biotechnology, Inc.), GST (Santa Cruz Biotechnology, Inc.), Xpress (Invitrogen), and (His)<sub>6</sub> (QIAGEN).</p>
+      </sec>
+      <sec>
+        <title>Measurement of rac1 activity</title>
+        <p>The magnitude of GTP bound endogenous rac1 was determined with a commercial assay (Upstate Biotechnology) that affinity precipitates GTP-rac1 in cell lysates using the Sepharose-conjugated rac1 binding domain of p21-activated kinase 1. Precipitates were then immunoblotted with rac1 antibody.</p>
+      </sec>
+      <sec>
+        <title>Measurement of rac1-specific GEF activity of sos1</title>
+        <p>Rac1-specific GEF activity of sos1 was assessed as previously described (<xref ref-type="bibr" rid="bib10">Nimnual et al., 1998</xref>). In brief, cells were lysed in lysis buffer (20 mM Tris-HCl, 100 mM NaCl, 1 mM MgCl<sub>2</sub>, 200 mM sucrose, 0.1 mM EDTA, 0.1 mM DTT, 0.5 mM PMSF, 10 g/ml leupeptin, and 10 g/ml aprotinin). Homogenates were clarified by centrifugation at 100,000 <italic>g</italic> for 20 min at 4&#xB0;C, and sos1 was immunoprecipitated with an anti-sos1 antibody. GST-rac1 (50 pmol) was incubated with 100 pmol of [<sup>32</sup>P]GTP (8,000 Ci/mmol; PerkinElmer). Exchange reaction was performed by incubating immunoprecipitated sos1 complex with [<sup>32</sup>P]GTP-GST-rac1 in the presence of 10 mM MgCl<sub>2</sub> and 2 mM GTP&#x3B3;S. At required time points, a fixed volume of sample was removed and reaction was stopped using cold stop buffer (25 mM Tris-HCl, pH 7.6, 150 mM NaCl, and 25 mM MgCl<sub>2</sub>). Samples were then incubated with glutathione&#x2013;Sepharose beads for 30 min at RT, followed by washing the beads extensively with PBS (0.901 mM CaCl<sub>2</sub>, 0.493 mM MgCl<sub>2</sub>, 2.67 mM KCl, 1.47 mM KH<sub>2</sub>PO<sub>4</sub>, 137.93 mM NaCl, and 8.06 mM NaHPO<sub>4</sub>). Stop buffer was added, and samples were heated to 95&#xB0;C for 5 min. Samples were spun, and [<sup>32</sup>P]GTP in the supernatant was measured by scintillation counting.</p>
+      </sec>
+      <sec>
+        <title>In vivo coimmunoprecipitations</title>
+        <p>Coimmunoprecipitation was typically performed by incubating 3 &#x3BC;g of antibody and 50 &#x3BC;l of slurry of protein A&#x2013;Sepharose beads (GE Healthcare) at 4&#xB0;C overnight. Antibody&#x2013;Sepharose complex was washed three times with PBS and incubated with 1.5 mg of cell lysate in lysis buffer (25 mM Hepes, pH 7.5, 200 mM NaCl, 1% IgePal CA-630, 10% glycerol, 25 mM NaF, 10 mM MgCl<sub>2</sub>, 1 mM EDTA, 1 mM sodium orthovanadate, 10 &#x3BC;g/ml leupeptin, 10 &#x3BC;g/ml aprotinin, and 0.1% SDS) for 4 h at 4&#xB0;C. Immunocomplexes were washed extensively with lysis buffer, boiled for 5 min, and analyzed by SDS-PAGE followed by Western blotting. An equivalent amount of nonimmune IgG was used as a control for immunoprecipitations.</p>
+      </sec>
+      <sec>
+        <title>Recombinant proteins and in vitro binding assays</title>
+        <p>The CH2 domain was cloned into a (His)<sub>6</sub>-tag prokaryotic expression vector, and a (His)<sub>6</sub>-tagged protein was induced with 1 mM IPTG in DH5&#x3B1; bacteria (Stratagene) and purified using TALON affinity columns (BD Biosciences). Grb2 and the N- and C-SH3 domains of grb2 were purchased as GST fusion proteins (Santa Cruz Biotechnology, Inc.). For in vitro binding of CH2 to grb2, 1 &#x3BC;g of (His)<sub>6</sub>-CH2 was immobilized on 50 &#x3BC;l of Ni-NTA beads (QIAGEN) followed by incubation with 500 ng of GST-tagged full-length grb2, N-SH3, C-SH3, or GST for 4 h at 4&#xB0;C. (His)<sub>6</sub>-CH2 was eluted with 150 mM imidazole. GST-tagged grb2 inputs and eluted proteins were analyzed by Western blotting using HRP-conjugated anti-(His)<sub>6</sub> and anti-GST antibodies.</p>
+      </sec>
+      <sec>
+        <title>In vitro coimmunoprecipitations</title>
+        <p>For in vitro displacement of C-sos1 from grb2, grb2&#x2013;C-sos1 complexes were first established by incubating 500 ng of GST-tagged full-length grb2 and 250 ng of GST-tagged C-sos1 for 4 h at 4&#xB0;C. Increasing amounts (250, 500, and 1,000 ng) of (His)<sub>6</sub>-tagged wild-type CH2 or CH2(P47A/P50A) were then added to the grb2&#x2013;C-sos1 complex and incubated for another 2 h at 4&#xB0;C. Similarly, for displacement of CH2 from grb2, grb2&#x2013;CH2 complexes were first established by incubating 750 ng of (His)<sub>6</sub>-tagged CH2 with 500 ng of GST-tagged full-length grb2, followed by the addition of increasing amounts (50, 100, 200, and 400 ng) of GST&#x2013;C-sos1. GST was used to equalize the protein amount. Grb2 was then immunoprecipitated, and immune complexes and input proteins were probed with anti-GST and anti-(His)<sub>6</sub> antibodies.</p>
+      </sec>
+      <sec>
+        <title>Oxidant quantification</title>
+        <p>Two methods were used to quantify cellular oxidant (H<sub>2</sub>O<sub>2</sub>) levels. Intracellular H<sub>2</sub>O<sub>2</sub> was detected and quantified by dichlorofluorescein diacetate fluorescence (Invitrogen) as previously described (<xref ref-type="bibr" rid="bib2">Deshpande et al., 2000</xref>). In brief, cells were washed with Krebs-Ringer buffer and loaded with 5 &#x3BC;g/ml dichlorofluorescein diacetate at 37&#xB0;C in the dark for 5 min. After washing, cells were harvested, resuspended in Krebs-Ringer buffer, and analyzed by flow cytometry (BD Biosciences) using excitation and emission filters of 485 and 535 nm, respectively. H<sub>2</sub>O<sub>2</sub> was also quantified in cell media using the Amplex red assay (Invitrogen), as previously described (<xref ref-type="bibr" rid="bib11">Ozaki et al., 2000</xref>).</p>
+      </sec>
+      <sec>
+        <title>Statistics</title>
+        <p>Results were reproduced at least twice, and representative experiments are shown. Values are expressed as mean &#xB1; SEM, and analysis was done using a <italic>t</italic> test.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>Immortalized p66shc +/+ and &#x2212;/&#x2212; MEF and the cDNA for p66shcWT were generous gifts from T. Finkel and S. Nemoto. Expression vectors for sos1 and grb2 were kindly provided by D. Bar-Sagi.</p>
+      <p>This work was supported by grants from the National Institutes of Health (R01HL070929 and P01HL065608) to K. Irani and grants from the Associazione Italiana Ricerca sul Cancro (AIRC), AIRC regione Lombardia, Human Science Frontier Program (RGP0072/2003-C), and European Community (VI Framework) to G. Scita. K. Kasuno is supported by the Hillgrove Foundation, and T. Yamamori is a recipient of a scholarship for young scientists from the Japan Society for the Promotion of Science.</p>
+    </ack>
+    <ref-list>
+      <ref id="bib1">
+        <citation citation-type="journal">Chardin, P., J.H. Camonis, N.W. Gale, L. van Aelst, J. Schlessinger, M.H. Wigler, and D. Bar-Sagi. <year>1993</year>. Human Sos1: a guanine nucleotide exchange factor for Ras that binds to GRB2. <source>Science.</source> <volume>260</volume>:<fpage>1338</fpage>&#x2013;1343.<pub-id pub-id-type="pmid">8493579</pub-id></citation>
+      </ref>
+      <ref id="bib2">
+        <citation citation-type="journal">Deshpande, S.S., P. Angkeow, J. Huang, M. Ozaki, and K. Irani. <year>2000</year>. Rac1 inhibits TNF-alpha-induced endothelial cell apoptosis: dual regulation by reactive oxygen species. <source>FASEB J.</source> <volume>14</volume>:<fpage>1705</fpage>&#x2013;1714.<pub-id pub-id-type="pmid">10973919</pub-id></citation>
+      </ref>
+      <ref id="bib3">
+        <citation citation-type="journal">Egan, S.E., B.W. Giddings, M.W. Brooks, L. Buday, A.M. Sizeland, and R.A. Weinberg. <year>1993</year>. Association of Sos Ras exchange protein with Grb2 is implicated in tyrosine kinase signal transduction and transformation. <source>Nature.</source> <volume>363</volume>:<fpage>45</fpage>&#x2013;51.<pub-id pub-id-type="pmid">8479536</pub-id></citation>
+      </ref>
+      <ref id="bib4">
+        <citation citation-type="journal">Gotoh, N., A. Tojo, and M. Shibuya. <year>1996</year>. A novel pathway from phosphorylation of tyrosine residues 239/240 of Shc, contributing to suppress apoptosis by IL-3. <source>EMBO J.</source> <volume>15</volume>:<fpage>6197</fpage>&#x2013;6204.<pub-id pub-id-type="pmid">8947042</pub-id></citation>
+      </ref>
+      <ref id="bib5">
+        <citation citation-type="journal">Innocenti, M., P. Tenca, E. Frittoli, M. Faretta, A. Tocchetti, P.P. Di Fiore, and G. Scita. <year>2002</year>. Mechanisms through which Sos-1 coordinates the activation of Ras and Rac. <source>J. Cell Biol.</source> <volume>156</volume>:<fpage>125</fpage>&#x2013;136.<pub-id pub-id-type="pmid">11777939</pub-id></citation>
+      </ref>
+      <ref id="bib6">
+        <citation citation-type="journal">Innocenti, M., A. Zucconi, A. Disanza, E. Frittoli, L.B. Areces, A. Steffen, T.E. Stradal, P.P. Di Fiore, M.F. Carlier, and G. Scita. <year>2004</year>. Abi1 is essential for the formation and activation of a WAVE2 signalling complex. <source>Nat. Cell Biol.</source> <volume>6</volume>:<fpage>319</fpage>&#x2013;327.<pub-id pub-id-type="pmid">15048123</pub-id></citation>
+      </ref>
+      <ref id="bib7">
+        <citation citation-type="journal">Migliaccio, E., S. Mele, A.E. Salcini, G. Pelicci, K.M. Lai, G. Superti-Furga, T. Pawson, P.P. Di Fiore, L. Lanfrancone, and P.G. Pelicci. <year>1997</year>. Opposite effects of the p52shc/p46shc and p66shc splicing isoforms on the EGF receptor-MAP kinase-fos signalling pathway. <source>EMBO J.</source> <volume>16</volume>:<fpage>706</fpage>&#x2013;716.<pub-id pub-id-type="pmid">9049300</pub-id></citation>
+      </ref>
+      <ref id="bib8">
+        <citation citation-type="journal">Migliaccio, E., M. Giorgio, S. Mele, G. Pelicci, P. Reboldi, P.P. Pandolfi, L. Lanfrancone, and P.G. Pelicci. <year>1999</year>. The p66shc adaptor protein controls oxidative stress response and life span in mammals. <source>Nature.</source> <volume>402</volume>:<fpage>309</fpage>&#x2013;313.<pub-id pub-id-type="pmid">10580504</pub-id></citation>
+      </ref>
+      <ref id="bib9">
+        <citation citation-type="journal">Nemoto, S., and T. Finkel. <year>2002</year>. Redox regulation of forkhead proteins through a p66shc-dependent signaling pathway. <source>Science.</source> <volume>295</volume>:<fpage>2450</fpage>&#x2013;2452.<pub-id pub-id-type="pmid">11884717</pub-id></citation>
+      </ref>
+      <ref id="bib10">
+        <citation citation-type="journal">Nimnual, A.S., B.A. Yatsula, and D. Bar-Sagi. <year>1998</year>. Coupling of Ras and Rac guanosine triphosphatases through the Ras exchanger Sos. <source>Science.</source> <volume>279</volume>:<fpage>560</fpage>&#x2013;563.<pub-id pub-id-type="pmid">9438849</pub-id></citation>
+      </ref>
+      <ref id="bib11">
+        <citation citation-type="journal">Ozaki, M., S.S. Deshpande, P. Angkeow, S. Suzuki, and K. Irani. <year>2000</year>. Rac1 regulates stress-induced, redox-dependent heat shock factor activation. <source>J. Biol. Chem.</source> <volume>275</volume>:<fpage>35377</fpage>&#x2013;35383.<pub-id pub-id-type="pmid">10952983</pub-id></citation>
+      </ref>
+      <ref id="bib12">
+        <citation citation-type="journal">Pelicci, G., L. Lanfrancone, F. Grignani, J. McGlade, F. Cavallo, G. Forni, I. Nicoletti, F. Grignani, T. Pawson, and P.G. Pelicci. <year>1992</year>. A novel transforming protein (SHC) with an SH2 domain is implicated in mitogenic signal transduction. <source>Cell.</source> <volume>70</volume>:<fpage>93</fpage>&#x2013;104.<pub-id pub-id-type="pmid">1623525</pub-id></citation>
+      </ref>
+      <ref id="bib13">
+        <citation citation-type="journal">Rozakis-Adcock, M., R. Fernley, J. Wade, T. Pawson, and D. Bowtell. <year>1993</year>. The SH2 and SH3 domains of mammalian Grb2 couple the EGF receptor to the Ras activator mSos1. <source>Nature.</source> <volume>363</volume>:<fpage>83</fpage>&#x2013;85.<pub-id pub-id-type="pmid">8479540</pub-id></citation>
+      </ref>
+      <ref id="bib14">
+        <citation citation-type="journal">Sini, P., A. Cannas, A.J. Koleske, P.P. Di Fiore, and G. Scita. <year>2004</year>. Abl-dependent tyrosine phosphorylation of Sos-1 mediates growth-factor-induced Rac activation. <source>Nat. Cell Biol.</source> <volume>6</volume>:<fpage>268</fpage>&#x2013;274.<pub-id pub-id-type="pmid">15039778</pub-id></citation>
+      </ref>
+      <ref id="bib15">
+        <citation citation-type="journal">Yang, S.S., L. Van Aelst, and D. Bar-Sagi. <year>1995</year>. Differential interactions of human Sos1 and Sos2 with Grb2. <source>J. Biol. Chem.</source> <volume>270</volume>:<fpage>18212</fpage>&#x2013;18215.<pub-id pub-id-type="pmid">7629138</pub-id></citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

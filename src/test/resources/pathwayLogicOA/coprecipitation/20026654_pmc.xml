@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Cell Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J. Cell Biol</journal-id>
+      <journal-id journal-id-type="hwp">jcb</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of Cell Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9525</issn>
+      <issn pub-type="epub">1540-8140</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20026654</article-id>
+      <article-id pub-id-type="pmc">2806275</article-id>
+      <article-id pub-id-type="publisher-id">200906064</article-id>
+      <article-id pub-id-type="doi">10.1083/jcb.200906064</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Articles</subject>
+          <subj-group>
+            <subject>Article</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Autophosphorylation at serine 1981 stabilizes ATM at DNA damage sites</article-title>
+        <alt-title alt-title-type="short">Dynamics of ATM at DNA damage sites</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>So</surname>
+            <given-names>Sairei</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Davis</surname>
+            <given-names>Anthony J.</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Chen</surname>
+            <given-names>David J.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff>
+        <institution>Division of Molecular Radiation Biology, Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75390</institution>
+      </aff>
+      <author-notes>
+        <corresp>Correspondence to David J. Chen: <email>david.chen@utsouthwestern.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>28</day>
+        <month>12</month>
+        <year>2009</year>
+      </pub-date>
+      <volume>187</volume>
+      <issue>7</issue>
+      <fpage>977</fpage>
+      <lpage>990</lpage>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>6</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2009 So et al.</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license license-type="openaccess">
+          <license-p>This article is distributed under the terms of an Attribution&#x2013;Noncommercial&#x2013;Share Alike&#x2013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/misc/terms.shtml">http://www.jcb.org/misc/terms.shtml</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x2013;Noncommercial&#x2013;Share Alike 3.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:role="icon" xlink:type="simple" xlink:href="JCB_200906064_thumb.gif"/>
+      <abstract abstract-type="precis">
+        <p>Initial localization of ATM to double-strand breaks requires the MRE11&#x2013;RAD50&#x2013;NBS1 complex, but prolonged association requires ATM autophosphorylation.</p>
+      </abstract>
+      <abstract>
+        <p>Ataxia telangiectasia mutated (ATM) plays a critical role in the cellular response to DNA damage. In response to DNA double-strand breaks (DSBs), ATM is autophosphorylated at serine 1981. Although this autophosphorylation is widely considered a sign of ATM activation, it is still not clear if autophosphorylation is required for ATM functions including localization to DSBs and activation of ATM kinase activity. In this study, we show that localization of ATM to DSBs is differentially regulated with the initial localization requiring the MRE11&#x2013;RAD50&#x2013;NBS1 complex and sustained retention requiring autophosphorylation of ATM at serine 1981. Autophosphorylated ATM interacts with MDC1 and the latter is required for the prolonged association of ATM to DSBs. Ablation of ATM autophosphorylation or knock-down of MDC1 protein affects the ability of ATM to phosphorylate downstream substrates and confer radioresistance. Together, these data suggest that autophosphorylation at serine 1981 stabilizes ATM at the sites of DSBs, and this is required for a proper DNA damage response.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>The cellular response to DNA damage is a complex process that includes recognition of the DNA damage, activation of signaling pathways including cell cycle checkpoints, and repair of the damage. An important protein in the cellular response to DNA damage is the ataxia telangiectasia mutated (ATM) protein. Mutations in ATM can result in the genomic instability syndrome termed Ataxia-Telangiectasia (A-T), which is characterized by progressive cerebellar ataxia, immune deficiencies, radiation sensitivity, and an increased risk of cancer (<xref ref-type="bibr" rid="bib22">Lavin and Shiloh, 1997</xref>). ATM is a serine-threonine kinase which is both activated by and recruited to DNA double-strand breaks (DSBs). The MRE11&#x2013;RAD50&#x2013;NBS1 (MRN) complex is required for both processes as shown by attenuated activation and no recruitment of ATM to DSBs upon damage in MRE11- and NBS1-deficient cell lines (<xref ref-type="bibr" rid="bib41">Uziel et al., 2003</xref>; <xref ref-type="bibr" rid="bib7">Cerosaletti and Concannon, 2004</xref>). Upon activation, ATM phosphorylates a number of substrates including targets that initiate cell cycle arrest, DNA repair, and apoptosis (<xref ref-type="bibr" rid="bib34">Shiloh, 2006</xref>). ATM is also rapidly phosphorylated at multiple residues in response to ionizing radiation (IR) (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>; <xref ref-type="bibr" rid="bib30">Matsuoka et al., 2007</xref>). In human cells, serines 367, 1893, and 1981 have been shown to be autophosphorylated in response to IR (<xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>). The best characterized of these sites is serine 1981 (S1981). Autophosphorylation at this site leads to dissociation of ATM from a dimer into an active monomer (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>). After activation, the phosphorylated ATM monomers are recruited to DNA breaks where they phosphorylate various substrates (<xref ref-type="bibr" rid="bib27">Lukas et al., 2003</xref>). Although autophosphorylation at serine 1981 is considered a sign of ATM activation, there are contradictory data as to whether it is required for ATM functions, including localization to DSBs, activation of ATM kinase activity, and complementing aspects of the A-T cellular phenotype such as radiosensitivity. Mutation of this site to alanine (S1981A) and expression in A-T cells resulted in defects in phosphorylation of ATM-dependent substrates and increased radiosensitivity (<xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>). A recent study also confirmed that autophosphorylation at serine 1981 is required for monomerization and chromatin association of ATM (<xref ref-type="bibr" rid="bib4">Berkovich et al., 2007</xref>). In contrast, studies in ATM knock-out mice complemented with ATM-S1987A (mouse homologue of human serine 1981) demonstrated normal ATM-dependent phosphorylation of ATM substrates after DNA damage, intra-S and G2/M checkpoints, and localization of ATM to DSBs (<xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>). Also, in vitro studies using recombinant proteins demonstrated that mutant S1981A binds to DNA ends and has kinase activity (<xref ref-type="bibr" rid="bib24">Lee and Paull, 2005</xref>). Moreover, monomerization of ATM was observed in the absence of autophosphorylation in Mre11-depleted <italic>Xenopus</italic> egg extracts when high levels of linear DNA were used (<xref ref-type="bibr" rid="bib12">Dupr&#xE9; et al., 2006</xref>).</p>
+      <p>After DNA damage, a number of proteins localize to the DSB and DSB-flanking chromatin including ATM, MDC1, the MRN complex, 53BP1, and BRCA1 (<xref ref-type="bibr" rid="bib3">Bekker-Jensen et al., 2006</xref>). Phosphorylated H2AX (termed &#x3B3;H2AX) plays an important role in anchoring these proteins to the DSB and DSB-flanking chromatin (<xref ref-type="bibr" rid="bib37">Stucki and Jackson, 2006</xref>). ATM phosphorylates H2AX and MDC1 binds through its BRCT domain to the phosphorylated tail of &#x3B3;H2AX (<xref ref-type="bibr" rid="bib6">Burma et al., 2001</xref>; <xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>). It has been proposed that amplification of ATM signaling results from a cyclic process in which ATM phosphorylates H2AX and &#x3B3;H2AX subsequently recruits MDC1, which stabilizes ATM further at the DSB and DSB-flanking chromatin, resulting in expanded H2AX phosphorylation over mega bases of DNA flanking the DSB (<xref ref-type="bibr" rid="bib37">Stucki and Jackson, 2006</xref>).</p>
+      <p>In this study, we first focus on the spatio-temporal dynamics of ATM at DSBs. Initial localization of ATM to DSBs requires the MRN complex. Autophosphorylation of ATM at serine 1981 is dispensable for the ability of ATM to localize to DSBs, but is required for sustained retention of ATM at DSBs. Ablation of the autophosphorylation site affects the ability of ATM to phosphorylate its downstream targets after DNA damage and correct the radiosensitivity of an A-T cell line. Biochemical evidence shows that the autophosphorylation site is important for the interaction of ATM with MDC1. Knock-down of MDC1 protein recapitulates the effects of S1981A mutation on the retention of ATM at DSBs and phosphorylation of downstream substrates. Moreover, ablation of the ATM autophosphorylation site and MDC1 depletion did not show any additive effect on radiosensitivity. These data illustrate the importance of autophosphorylation at serine 1981 for the interaction of ATM with MDC1, which serves to stabilize ATM at DSBs and thereby promotes a full-scale response to DNA damage in human cells.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Recruitment of ATM to laser-induced DNA double-strand breaks is dependent on the MRN complex</title>
+        <p>Live cell imaging of fluorescent-tagged proteins has been widely used to study DNA damage responses in vivo and in real time (<xref ref-type="bibr" rid="bib28">Lukas et al., 2005</xref>; <xref ref-type="bibr" rid="bib40">Uematsu et al., 2007</xref>; <xref ref-type="bibr" rid="bib44">Yano et al., 2008</xref>). Coupling irradiation via a micro-laser with fluorescent microscopy allows for the continuous monitoring of the real-time recruitment of fluorescent-tagged proteins to DSBs in living cells. To verify the appropriateness of this approach, YFP-FLAG&#x2013;tagged wild-type ATM (YFP-ATM wt) was transiently expressed in several human cell lines, including the ATM-deficient cell line AT5BIVA. Similar to endogenous ATM and GFP-ATM, YFP-ATM wt predominantly localized to the nucleus (<xref ref-type="fig" rid="fig1">Fig. 1 A</xref>; <xref ref-type="bibr" rid="bib42">Watters et al., 1997</xref>; <xref ref-type="bibr" rid="bib46">Young et al., 2005</xref>). To determine if YFP-ATM wt localizes to sites of DNA damage, a small portion of the nucleus was micro-irradiated using a 365-nm laser to introduce DNA damage, and the localization of YFP-ATM wt was observed using fluorescence microscopy. Rapid localization of YFP-ATM wt to the micro-irradiated area was observed in AT5BIVA, HT1080, and U2OS cells (<xref ref-type="fig" rid="fig1">Fig. 1 A</xref> and Fig. S1 A). Time-lapse imaging showed that the initial recruitment of YFP-ATM wt to the laser-generated DNA damage was similar for all three cellular backgrounds (<ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">Fig. S1 C</ext-link>). YFP-ATM wt colocalized with the established DSB marker, &#x3B3;H2AX, along the track of the micro-irradiated area, illustrating that YFP-ATM wt localizes to laser-generated DSBs (<xref ref-type="fig" rid="fig1">Fig. 1 B</xref> and Fig. S1 B). Immunofluorescence assays using a phospho-specific antibody to the autophosphorylation site of ATM (serine 1981) showed that YFP-ATM wt is autophosphorylated at the laser-induced DSB in ATM-deficient cells (<xref ref-type="fig" rid="fig1">Fig. 1 B</xref>). These results indicate that the YFP or FLAG tag does not interfere with the ability of ATM to localize to DSBs or its kinase activity.</p>
+        <fig id="fig1" position="float">
+          <label>Figure 1.</label>
+          <caption>
+            <p><bold>The MRN complex is essential for ATM recruitment to laser-induced DNA double-strand breaks.</bold> (A) Accumulation of YFP-ATM wt at laser-induced DNA double-strand breaks. Time-lapse imaging of YFP-ATM wt expressing ATM-deficient AT5BIVA (AT5) and HT1080 cells before and after micro-irradiation. (B) Autophosphorylation of YFP-ATM wt at DSBs. YFP-ATM wt&#x2013;expressing AT5 and HT1080 cells were micro-irradiated, incubated for 10 min, fixed, and co-immunostained with phospho-specific antibodies to ATM (S1981) and &#x3B3;H2AX. (C) Kinetics of relative fluorescence of YFP-ATM wt at the DSBs after micro-irradiation in MRN knock-down cells. YFP-ATM wt&#x2013;expressing HT1080 cells were transfected with control, MRE11, NBS1, or RAD50 siRNA for 72 h and micro-irradiated. (D) Accumulation of YFP-ATM wt in NBS1-deficient NBS and the NBS1-complemented (NBS+NBS1-FL) cells. YFP-ATM wt&#x2013;expressing NBS and NBS+NBS1-FL cells were micro-irradiated, incubated for 10 min, fixed, and co-immunostained with phospho-specific antibodies to &#x3B3;H2AX (left). Kinetics of relative fluorescence of YFP-ATM wt at the DSBs after micro-irradiation in NBS and NBS-FL cells (right). Error bars represent the SD. Bars, 10 &#xB5;m.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_RGB_Fig1"/>
+        </fig>
+        <p>Previous studies have shown that the MRN complex is required for focus formation of endogenous ATM in response to radiation (<xref ref-type="bibr" rid="bib20">Kitagawa et al., 2004</xref>; <xref ref-type="bibr" rid="bib14">Falck et al., 2005</xref>) and the radiomimetic agent neocarzinostatin (<xref ref-type="bibr" rid="bib41">Uziel et al., 2003</xref>), and is also required for ATM association to DSBs generated by endonucleases (<xref ref-type="bibr" rid="bib4">Berkovich et al., 2007</xref>). It was determined whether the MRN complex is required for the localization of YFP-ATM wt to laser-induced DNA damage. Localization of YFP-ATM wt to laser-generated DSBs was examined in HT1080 cells after knock-down of MRE11, RAD50, or NBS1 protein levels using specific siRNAs. The efficiency of knock-down was assessed by Western blot analysis and similar to previous studies, knock-down of each component of the MRN complex resulted in reduced expression of other members of the complex (Fig. S1 D; <xref ref-type="bibr" rid="bib41">Uziel et al., 2003</xref>). In contrast to control cells, localization of YFP-ATM wt to DSBs was abrogated in the MRE11, RAD50, and NBS1 knock-down cells (<xref ref-type="fig" rid="fig1">Fig. 1 C</xref> and Fig. S1 E). To verify and expand upon these observations, localization of YFP-ATM wt to laser-generated DSBs was determined in an NBS-deficient cell line GM07166VA7. YFP-ATM wt failed to localize to laser-induced DSBs in the NBS1-deficient cell line (<xref ref-type="fig" rid="fig1">Fig. 1 D</xref>). Complementation of the NBS cell line with the wild-type NBS1 restored ATM localization to laser-induced DSBs (<xref ref-type="fig" rid="fig1">Fig. 1 D</xref>). These results clearly show that similar to endogenous ATM, the ability of YFP-ATM wt to localize to laser-generated DSBs depends on the presence of the MRN complex. The data presented here demonstrate that YFP-ATM is an appropriate tool for studying the spatio-temporal behavior of ATM in living cells.</p>
+      </sec>
+      <sec>
+        <title>Autophosphorylation of ATM at serine 1981 is required for stabilized retention to DSBs</title>
+        <p>ATM localizes to DSBs, but conflicting data has been reported on the importance of autophosphorylation at serine 1981 for this process. Recent data has shown that autophosphorylation of ATM is required for its ability to localize to endogenous breaks generated in human cells by the eukaryotic endonuclease I-PpoI (<xref ref-type="bibr" rid="bib4">Berkovich et al., 2007</xref>). In contrast, mutation of mouse ATM at serine 1987 (analogous to serine 1981 in humans) to alanine did not affect the localization to laser-induced DSBs when expressed in an ATM knock-out background (<xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>). Because these studies examined ATM localization at a very early (5 min after micro-irradiation) or late (24 h after induction of I-PpoI) time point, it is possible that the requirement for autophosphorylation of ATM for localization to DSBs may differ between the early and late time points. To clarify whether autophosphorylation of ATM is required for its recruitment to DSBs in living cells and to determine its real-time kinetics, AT5BIVA cells stably expressing YFP-ATM wt and YFP-ATM in which the autophosphorylation site at serine 1981 was mutated to alanine (S1981A) were generated. AT5BIVA cells expressing YFP-ATM wt or YFP-ATM S1981A were micro-irradiated and recruitment of each protein to laser-generated DSBs was monitored. Similar to the results published by <xref ref-type="bibr" rid="bib33">Pellegrini et al. (2006)</xref>, wild-type ATM and the S1981A protein localized to laser-induced DSBs (<xref ref-type="fig" rid="fig2">Fig. 2 A</xref>). Immunofluorescence assays showed that at the laser-induced DSBs YFP-ATM wt was autophosphorylated at serine 1981 and YFP-ATM S1981A was not (<xref ref-type="fig" rid="fig2">Fig. 2 A</xref>). Western blot analysis also confirmed that YFP-ATM S1981A mutant was not phosphorylated at serine 1981 after damage (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). Time-lapse imaging showed that YFP-ATM wt and YFP-ATM S1981A had similar accumulation kinetics to DSBs during the first 10 min after micro-irradiation (<xref ref-type="fig" rid="fig2">Fig. 2 B</xref>). Next, time-lapse imaging experiments were performed for a period of 2 h after micro-irradiation. Interestingly, after its initial localization (first 10 min), YFP-ATM S1981A started to dissociate from DSBs rapidly (<xref ref-type="fig" rid="fig2">Fig. 2 C</xref>). 2 h after irradiation, 65% of the YFP-ATM wt was still at DSBs, whereas the amount of YFP-ATM S1981A protein localized at the DSBs dropped to 20% of its maximum level (<xref ref-type="fig" rid="fig2">Fig. 2 C</xref>).</p>
+        <fig id="fig2" position="float">
+          <label>Figure 2.</label>
+          <caption>
+            <p><bold>Ablation of autophosphorylation at serine 1981 of ATM accelerates dissociation of ATM from DSBs.</bold> (A) Accumulation of autophosphorylation mutant ATM (S1981A) at DSBs. AT5 cells expressing YFP-ATM wt or YFP-ATM S1981A were micro-irradiated, incubated for 10 min, fixed, and immunostained with phospho-specific antibody to ATM (S1981). Initial accumulation kinetics (B) and 2-h time course (C) of YFP-ATM wt or YFP-ATM S1981A at laser-generated DSBs. Error bars represent the SD. (D) Biochemical retention assay in AT5 cells expressing YFP-ATM wt or YFP-ATM S1981A. Cells were irradiated with 10 Gy of &#x3B3;-ray. At 10 min or 1 h after irradiation, the cells were biochemically fractionated as described in the Materials and methods. Equal amounts of protein from soluble fraction (Fraction I) and chromatin enriched fraction (Fraction III) were separated by 6% SDS-PAGE and immunoblotted for ATM and SMC1. (E) Immunostaining of AT5 cells expressing YFP-ATM wt or YFP-ATM S1981A after 4 Gy of &#x3B3;-ray. Cells were preextracted and fixed at 10 min (left) or 2 h (right) after irradiation and immunostained with a phospho-specific antibody to &#x3B3;H2AX. Bars, 10 &#xB5;m.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064R_RGB_Fig2"/>
+        </fig>
+        <fig id="fig3" position="float">
+          <label>Figure 3.</label>
+          <caption>
+            <p><bold>Effect of autophosphorylation at serine 1981 on ATM kinase activity.</bold> AT5 cells stably expressing YFP-ATM wt or YFP-ATM S1981A were irradiated with 4 Gy of IR and incubated for 10 min or 1 h. Whole-cell extracts were prepared and analyzed by Western blotting for ATM and downstream substrates SMC1, pS966-SMC1, KAP1, pS824-KAP1, and pS15-p53.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_GS_Fig3"/>
+        </fig>
+        <p>The real-time localization of YFP-ATM wt and YFP-ATM S1981A to DSBs suggests that autophosphorylation is required for sustained association of ATM to the DNA damage site. To verify this result, we used a biochemical method to detect chromatin retention of ATM after damage and found enhanced retention of both wild-type and S1981A mutant ATM proteins at 10 min after irradiation of &#x3B3;-ray, but only wild-type protein showed enhanced retention at 1 h after irradiation (<xref ref-type="fig" rid="fig2">Fig. 2 D</xref>). In addition, focus formation of YFP-ATM wt and YFP-ATM S1981A was examined 10 min and 2 h after irradiation with 4 Gy of IR in AT5BIVA cells that were expressing YFP-ATM wt and YFP-ATM S1981A. 10 min after irradiation, YFP-ATM wt formed foci and colocalized with &#x3B3;H2AX (<xref ref-type="fig" rid="fig2">Fig. 2 E</xref>). In agreement with the micro-irradiation results, YFP-ATM S1981A formed foci 10 min after irradiation and the number of foci appear to be similar to the amount of YFP-ATM wt foci at this time point (<xref ref-type="fig" rid="fig2">Fig. 2 E</xref>). 2 h after irradiation, YFP-ATM wt foci were still present, but in contrast, YFP-ATM S1981A foci were mostly dispersed (<xref ref-type="fig" rid="fig2">Fig. 2 E</xref>). These data verify the micro-irradiation data and, collectively, our data illustrate that autophosphorylation of ATM at serine 1981 is not required for the initial accumulation to DSBs, but is required for sustained retention of the protein at DSBs.</p>
+      </sec>
+      <sec>
+        <title>Effects of S1981A mutation on ATM substrate phosphorylation</title>
+        <p>The data presented above show that autophosphorylation at serine 1981 is required for sustained retention of ATM to DSBs. We next wanted to determine if disrupting retention at DSBs by blocking autophosphorylation at serine 1981 affects ATM functions after DNA damage. First, it was determined if ablation of serine 1981 autophosphorylation affected ATM activation and signaling. The kinase activity of ATM is activated in response to DSBs, but previous studies have produced conflicting data on the requirement of ATM autophosphorylation for stimulation of its kinase activity (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib24">Lee and Paull, 2005</xref>; <xref ref-type="bibr" rid="bib12">Dupr&#xE9; et al., 2006</xref>; <xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>; <xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>). Using AT5BIVA cells complemented with YFP-ATM wt or YFP-ATM S1981A, we tested the effect of mutation of the autophosphorylation site on phosphorylation of ATM substrates. Western blot analysis showed that the two cell lines express comparable levels of ATM, but YFP-ATM S1981A was not phosphorylated in response to 4 Gy of IR, whereas YFP-ATM wt was (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). Gamma irradiation&#x2013;induced phosphorylation of the ATM substrate KAP1 was barely detectable in the ATM-deficient cell background at 10 min after 4 Gy irradiation (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). In contrast, in cells expressing YFP-ATM wt, KAP1 phosphorylation was detected at 10 min after irradiation and sustained phosphorylation, albeit at a slightly decreased level, was observed at 1 h after irradiation. Interestingly, YFP-ATM S1981A&#x2013;expressing cells showed a reduced induction of KAP1 phosphorylation compared with cells expressing YFP-ATM wt at 10 min after irradiation (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). Furthermore, a significant decrease in KAP1 phosphorylation was observed at 1 h after irradiation in cells expressing YFP-ATM S1981A. As SMC1 is also phosphorylated by ATM in response to radiation (<xref ref-type="bibr" rid="bib20">Kitagawa et al., 2004</xref>), we determined its response in AT5BIVA and its complimented lines. Phosphorylation of SMC1 was detected at 10 min and increased at 60 min after irradiation in the cells expressing YFP-ATM wt. In cells expressing YFP-ATM S1981A, phosphorylation of SMC1 was detected at 10 min after irradiation; however, the signal was not increased at 60 min. Lastly, p53 S15 phosphorylation was examined because p53 can be phosphorylated by ATM without sustained focal accumulation at DSB sites (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib3">Bekker-Jensen et al., 2006</xref>). Importantly, in contrast to KAP1 and SMC1 phosphorylation, p53 S15 phosphorylation was not affected by the S1981A mutation at 10 and 60 min after irradiation compared with wild-type, suggesting that YFP-ATM S1981A has comparable kinase activity (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). These results suggest that decreased phosphorylation of KAP1 and SMC1 in cells expressing YFP-ATM S1981A is due to the inability of YFP-ATM S1981A to stabilize at DSBs.</p>
+      </sec>
+      <sec>
+        <title>Ablation of ATM phosphorylation at serine 1981 results in reduced interaction with MDC1</title>
+        <p>Previous data have shown that ATM fails to form foci in MDC1 null and knock-down cells (<xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>); therefore, it seems possible that the reason YFP-ATM S1981A cannot stabilize at DSBs is because it cannot properly interact with MDC1. To determine if this was the case, we first examined whether the interaction between ATM and MDC1 is induced by DNA damage. AT5BIVA cells stably expressing YFP-ATM wt were irradiated with 10 Gy of &#x3B3;-ray and incubated for 1 h. The irradiated cells were then lysed and ATM was immunoprecipitated using a FLAG antibody. As shown in <xref ref-type="fig" rid="fig4">Fig. 4 A</xref>, increased coprecipitation of ATM and MDC1 was observed in irradiated cells compared with unirradiated cells. We then performed a coimmunoprecipitation assay using AT5BIVA cells stably expressing YFP-ATM S1981A to test the requirement of autophosphorylation at serine 1981 of ATM to interact with MDC1. Wild-type ATM and S1981A both interacted with RAD50, a component of the MRN complex, but ablation of the autophosphorylation site resulted in a marked reduction in the interaction between ATM and MDC1 (<xref ref-type="fig" rid="fig4">Fig. 4 B</xref>). The interaction between ATM and MDC1 has previously been shown to be direct, at least in vitro, and is mediated by the forkhead homology&#x2013;associated (FHA) domain of MDC1 (<xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>). Next, a protein&#x2013;protein interaction assay with immunoprecipitated endogenous ATM from HeLa cells and the FHA or BRCT domain of MDC1 was performed. In agreement with the previous report (<xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>), ATM specifically interacts with the FHA domain of MDC1 (<ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">Fig. S2 A</ext-link>). To examine the impact of S1981A mutation on this interaction, YFP-ATM wt and YFP-ATM S1981A were used in the same assay. Similar to endogenous ATM, YFP-ATM wt interacts with the FHA domain of MDC1 (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>). This interaction was lost when immunoprecipitated YFP-ATM wt was treated with &#x3BB;-phosphatase, which suggests that the FHA domain interacts with phosphorylated ATM (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>). In contrast, YFP-ATM S1981A showed very little interaction with the FHA domain of MDC1 compared with YFP-ATM wt and phosphatase treatment did not show an additional effect (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>). These results suggest that autophosphorylation of ATM at serine 1981 mediates MDC1 binding. In addition, to clarify whether the interaction between ATM and MDC1 is direct, an in vitro&#x2013;binding assay was performed using purified ATM and the FHA domain of MDC1. As shown in <xref ref-type="fig" rid="fig4">Fig. 4 D</xref>, purified ATM interacts directly with the FHA domain of MDC1. Furthermore, to verify that the interaction is mediated by ATM phosphorylation at S1981, we performed a peptide-binding assay using nonphosphorylated or phosphorylated serine 1981 peptides and purified FHA and BRCT domain of MDC1. Significantly, the FHA domain of MDC1 only interacts with the phosphorylated ATM peptide (Fig. S2 B). Collectively, these data show that the ATM&#x2013;MDC1 interaction is phospho-dependent and is likely mediated by the FHA domain interacting with phosphorylated ATM at serine 1981.</p>
+        <fig id="fig4" position="float">
+          <label>Figure 4.</label>
+          <caption>
+            <p><bold>Ablation of ATM phosphorylation at serine 1981 results in a reduced interaction with MDC1.</bold> (A) ATM interacts with MDC1 after DNA damage. Lysates were prepared from AT5 cells stably expressing YFP-ATM wt after mock or &#x3B3;-ray irradiation (10 Gy, 1 h) and immunoprecipitated using an anti-FLAG antibody. A nonimmune species-matched antibody was used as a control. Western blot analysis was then performed using antibodies against pS1981-ATM, ATM, MDC1, and RAD50. (B) Interaction between ATM and MDC1 is mediated by autophosphorylation at serine 1981 of ATM. Lysates were prepared from AT5 cells stably expressing YFP-ATM wt or YFP-ATM S1981A and immunoprecipitated as described in A. Expression levels of ATM, MDC1, and RAD50 in cell lysates (bottom) indicate an equal input in each lane. (C) Interaction between ATM and MDC1 is mediated by the FHA domain of MDC1. AT5 cells stably expressing YFP-ATM wt or YFP-ATM S1981A were irradiated with 10 Gy of &#x3B3;-ray and incubated for 1 h. Nuclear extracts were prepared from the cells and each protein was immunoprecipitated using an anti-FLAG antibody. Immunoprecipitates were untreated or treated with &#x3BB;-phosphatase and then incubated with either purified GST or the GST-FHA domain of MDC1. Western blot analysis was performed for ATM and GST. (D) Purified ATM was incubated with either purified GST or the GST-FHA domain of MDC1. Western blot analysis was performed for ATM and GST.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_GS_Fig4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>MDC1 is required for ATM retention at DSB sites</title>
+        <p>The above data imply that the interaction between ATM and MDC1 is required for the stabilization of ATM at DSBs. In addition, previous data have shown that ATM failed to form foci in MDC1 null and knock-down cells (<xref ref-type="bibr" rid="bib38">Stucki et al., 2005</xref>; <xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>). To test whether MDC1 is required for ATM stabilization at DSBs, localization of YFP-ATM wt to laser-generated DSBs was examined in ATV5B1VA cells after knock-down of MDC1 protein levels using specific siRNAs. The efficiency of knock-down was assessed by Western blot analysis and more than 90% of the overall MDC1 protein level was knocked-down compared with control siRNA-transfected cells (<ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">Fig. S3 A</ext-link>). YFP-ATM wt rapidly localized to DSBs in MDC1 knock-down cells, but after this initial accumulation it quickly dissociated from the DNA damage (<xref ref-type="fig" rid="fig5">Fig. 5 A</xref>). Thus, the depletion of MDC1 recapitulates the impact of ablation of ATM autophosphorylation at serine 1981 on the ability of ATM to be retained at DSBs. Furthermore, MDC1 knock-down did not show an additive effect in cells expressing YFP-ATM S1981A (<xref ref-type="fig" rid="fig5">Fig. 5 A</xref>), suggesting that the S1981A mutation of ATM has no further impact on retention of ATM in the absence of MDC1. These results suggest that stabilization of ATM at DSBs is largely mediated by an interaction between autophosphorylated ATM and MDC1.</p>
+        <fig id="fig5" position="float">
+          <label>Figure 5.</label>
+          <caption>
+            <p><bold>MDC1 is required for ATM retention at the damage sites.</bold> (A) Effect of MDC1 on behavior of ATM at DSBs. Kinetics of relative fluorescence of YFP-ATM at the DSBs after micro-irradiation. AT5 cells stably expressing YFP-ATM wt or YFP-ATM S1981A were transfected with control or MDC1 siRNA for 72 h and micro-irradiated. Error bars represent the SD. (B) MDC1 localization in AT5 cells expressing YFP-ATM wt or YFP-ATM S1981A. Cells were preextracted and fixed at 10 or 60 min after micro-irradiation and immunostained with antibodies against MDC1 and &#x3B3;H2AX. Bars, 10 &#xB5;m.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_RGB_Fig5"/>
+        </fig>
+        <p>It is possible that MDC1 itself is not recruited or retained at DSBs in cells expressing YFP-ATM S1981A. To test this possibility, MDC1 localization was examined in cells expressing YFP-ATM wt or YFP-ATM S1981A. At 10 min after micro-irradiation, MDC1 was recruited to DSBs and colocalized with &#x3B3;H2AX both in cells stably expressing YFP-ATM wt or YFP-ATM S1981A (<xref ref-type="fig" rid="fig5">Fig. 5 B</xref>). 1 h after micro-irradiation, when YFP-ATM S1981A showed reduced retention at DSBs compared with YFP-ATM wt, MDC1 remains at the DSBs in both cell lines (<xref ref-type="fig" rid="fig5">Fig. 5 B</xref>), demonstrating that the autophosphorylation status of ATM does not affect either initial recruitment or stabilization of MDC1 at DSB sites. These results are in agreement with a previous study, which showed that MDC1 focus formation in response to damage does not require ATM (<xref ref-type="bibr" rid="bib15">Goldberg et al., 2003</xref>). Several recent studies report a direct phosphorylation-mediated interaction between MDC1 and the FHA domain of NBS1, and this interaction serves as a mechanism to retain the MRN complex at sites of DSBs (<xref ref-type="bibr" rid="bib8">Chapman and Jackson, 2008</xref>; <xref ref-type="bibr" rid="bib31">Melander et al., 2008</xref>; <xref ref-type="bibr" rid="bib35">Spycher et al., 2008</xref>; <xref ref-type="bibr" rid="bib43">Wu et al., 2008</xref>). As ATM also directly binds to NBS1 (<xref ref-type="bibr" rid="bib23">Lee and Paull, 2004</xref>), it seems plausible that MRN mediates the MDC1&#x2013;ATM interaction and therefore ATM retention at DSBs. To test this possibility, we examined YFP-ATM wt retention in NBS cells complemented with an FHA deletion form of NBS1 (NBS1-&#x394;FHA; <xref ref-type="bibr" rid="bib39">Tauchi et al., 2001</xref>). Cells expressing NBS1-&#x394;FHA showed impaired retention of NBS1 at the DSBs compared with cells expressing full-length NBS1 (NBS1-FL; <xref ref-type="fig" rid="fig6">Fig. 6 A</xref>), which is in agreement with previous studies reporting that the FHA domain of NBS1 is required for NBS1 foci formation after damage (<xref ref-type="bibr" rid="bib39">Tauchi et al., 2001</xref>; <xref ref-type="bibr" rid="bib43">Wu et al., 2008</xref>). Pre-extraction revealed that a residual amount of NBS1-&#x394;FHA is retained at DSBs (<xref ref-type="fig" rid="fig6">Fig. 6 A</xref>), suggesting that the initial recognition of DSBs by NBS1 is not impaired by deletion of the FHA domain. Consistent with this, both cell lines showed initial accumulation of YFP-ATM wt, which is dependent on the MRN complex (<xref ref-type="fig" rid="fig6">Fig. 6 B</xref>). 1 h after micro-irradiation, when NBS1-&#x394;FHA showed attenuated retention at DSBs compared with NBS1-FL, YFP-ATM wt is retained at the DSBs in both cell lines, demonstrating that NBS1 is not required for ATM retention at DSBs. In addition, YFP-ATM S1981A showed reduced retention in both cell lines, supporting the idea that ATM retention occurs independently of NBS1. These data are supported by a previous report, which shows that MDC1 interacts with ATM independently of NBS1 in vivo (<xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>) and disruption of the MDC1&#x2013;NBS1 interaction does not affect the ability of ATM to phosphorylate substrates in response to IR (<xref ref-type="bibr" rid="bib35">Spycher et al., 2008</xref>). We next examined the possible involvement of chromatin ubiquitylation in MDC1-dependent ATM retention. It has recently been shown that MDC1 mediates chromatin ubiquitylation via the recruitment of the E3 ligase RNF8, which promotes local accumulation of DNA damage response proteins such as 53BP1 and BRCA1 to DSBs flanking chromatin (<xref ref-type="bibr" rid="bib16">Huen et al., 2007</xref>; <xref ref-type="bibr" rid="bib29">Mailand et al., 2007</xref>). To test this possibility, localization of YFP-ATM wt to laser-generated DSBs was examined in ATV5B1VA cells after knock-down of RNF8 protein levels using specific siRNAs (knock-down efficiency was &#x223C;90%; Fig. S3 B). YFP-ATM wt showed similar accumulation and retention patterns in control and RNF8 knock-down cells (<xref ref-type="fig" rid="fig6">Fig. 6, C and D</xref>), demonstrating that chromatin ubiquitylation by RNF8 is not required for MDC1-dependent ATM retention to DSBs. Collectively, these results support that MDC1 generally mediates ATM retention via a direct interaction in vivo.</p>
+        <fig id="fig6" position="float">
+          <label>Figure 6.</label>
+          <caption>
+            <p><bold>ATM retention at DSBs is independent of NBS1 or RNF8.</bold> (A) NBS cells complemented with NBS1 full length (NBS-FL) or FHA deletion form of NBS1 (NBS1-&#x394;FHA) were micro-irradiated. After 1 h incubation, cells were fixed with or without preextraction and immunostained with antibodies against NBS1 or &#x3B3;H2AX. (B) NBS cells complemented with NBS1-FL or NBS1-&#x394;FHA were transfected with YFP-ATM wt or YFP-ATM S1981A and micro-irradiated. Cells were fixed at the indicated time and immunostained with antibodies against MDC1 or &#x3B3;H2AX. (C) AT5 cells expressing YFP-ATM wt were transfected with control or RNF8 siRNA for 72 h and micro-irradiated. Cells were fixed at the indicated time and immunostained with antibodies against MDC1 or &#x3B3;H2AX. (D) 2-h time course of YFP-ATM wt at laser-generated DSBs in control or RNF8 siRNA-transfected cells. Error bars represent the SD. Bars, 10 &#xB5;m.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_RGB_Fig6"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Effect of MDC1 knockdown on radiation-induced ATM signaling and radiosensitivity</title>
+        <p>We next asked whether MDC1 depletion affects phosphorylation of ATM substrates in a similar manner to the S1981A mutation. MDC1 was knocked-down in AT5BIVA cells stably expressing YFP-ATM wt by siRNAs. Similar to cells expressing YFP-ATM S1981A, MDC1-depleted cells showed reduced phosphorylation of KAP1 and SMC1 compared with control siRNA-transfected cells (<xref ref-type="fig" rid="fig5">Fig. 5 C</xref>). Similar to YFP-ATM S1981A&#x2013;complemented cells, p53 phosphorylation was not affected by MDC1 depletion (<xref ref-type="fig" rid="fig5">Fig. 5 C</xref>). These results suggest that the interaction between ATM and MDC1 stabilizes ATM at sites of DSB, and this stabilization allows ATM to phosphorylate its substrates at sites of the damage or the damage-flanking chromatin.</p>
+        <p>To establish the functional significance of stabilization of ATM at DSBs, clonogenic survival assays were performed. The significance of autophosphorylation in the ability of ATM to correct the A-T cellular phenotype of radiosensitivity is controversial (<xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>; <xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>). Because S1981A mutation and MDC1 depletion had a similar effect on ATM retention at DSBs (<xref ref-type="fig" rid="fig5">Fig. 5 A</xref>), we also tested whether MDC1 depletion affects survival after IR. AT5BIVA cells complemented with YFP-ATM wt or YFP-ATM S1981A were transfected with MDC1 siRNA for 72 h and then were plated at a low density and irradiated. There was a marked radiosensitivity in the A-T&#x2013;deficient cell line compared with the same cell line that had been complemented with YFP-ATM wt (<xref ref-type="fig" rid="fig7">Fig. 7 B</xref>), which is a well-established characteristic of A-T cells (<xref ref-type="bibr" rid="bib22">Lavin and Shiloh, 1997</xref>). Complementation with YFP-ATM S1981A results in an intermediate sensitivity to IR, which is similar to observations by the Lavin group (<xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>). MDC1-depleted YFP-ATM wt cells exhibited an increased sensitivity to IR compared with control siRNA-transfected YFP-ATM wt cells (<xref ref-type="fig" rid="fig7">Fig. 7 B</xref>). The sensitivity of the MDC1-depleted cells is similar to the radiosensitivity of YFP-ATM S1981A cells, which suggests that MDC1 depletion recapitulates the radiosensitivity of the S1981A mutation. Moreover, YFP-ATM S1981A cells transfected with MDC1 or control siRNA showed similar sensitivities, suggesting that S1981A mutation of ATM has no further effect on the cellular response to DNA damage in the absence of MDC1.</p>
+        <fig id="fig7" position="float">
+          <label>Figure 7.</label>
+          <caption>
+            <p><bold>MDC1 depletion recapitulates the effects of S1981A mutation.</bold> (A) Effect of MDC1 on ATM kinase activity. AT5 cells stably expressing YFP-ATM wt were irradiated with 4 Gy of IR and incubated for 10 min or 1 h. Whole-cell extracts were prepared and analyzed by Western blotting for MDC1 and ATM downstream substrates SMC1, pS966-SMC1, KAP1, pS824-KAP1, and pS15-p53. (B) Inability of S1981A mutant ATM to correct radiosensitivity of ATM-deficient cells. Survival assay of AT5 and its derivatives stably expressing YFP-ATM wt and YFP-ATM S1981A. Cells were transfected with control or MDC1 siRNA for 72 h and then exposed to 1, 2, 3, or 5 Gy of &#x3B3;-ray. Colonies were counted after 14 d incubation. Error bars represent the SD. Each point represents an average of three independent experiments.</p>
+          </caption>
+          <graphic xlink:href="JCB_200906064_RGB_Fig7"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>To monitor the localization and dynamics of ATM at DSBs in living cells, we used the well-established tool of combining live cell imaging with a micro-laser system (<xref ref-type="bibr" rid="bib28">Lukas et al., 2005</xref>; <xref ref-type="bibr" rid="bib40">Uematsu et al., 2007</xref>; <xref ref-type="bibr" rid="bib44">Yano et al., 2008</xref>). The appropriateness of this system to study YFP-ATM wt localization to DSBs was validated by showing that, similar to endogenous ATM, the MRN complex is required for the localization of YFP-ATM wt to DSBs (<xref ref-type="fig" rid="fig1">Fig. 1, C and D</xref>). Two additional pieces of data also validate our system. First, complementation of ATM-deficient AT5BIVA cells with YFP-ATM wt restores the phosphorylation of downstream substrates including autophosphorylation at serine 1981 (<xref ref-type="fig" rid="fig3">Fig. 3</xref>). Second, YFP-ATM wt was able to correct the radiosensitivity of AT5BIVA cells (<xref ref-type="fig" rid="fig7">Fig. 7 B</xref>). Together, these results demonstrate that YFP-ATM wt is a functional and suitable tool to study ATM.</p>
+      <p>Real-time monitoring of YFP-ATM wt revealed a rapid accumulation of ATM at the DSBs. An increase of YFP-ATM wt fluorescence became discernible within 60 s (<xref ref-type="fig" rid="fig1">Fig. 1 A</xref>) and reached a steady-state equilibrium 10 min after micro-irradiation (<xref ref-type="fig" rid="fig2">Fig. 2 B</xref>). A large portion (65%) of YFP-ATM wt is still present at DSBs 2 h after irradiation, which is similar to results observed with MRE11 (<xref ref-type="bibr" rid="bib19">Kim et al., 2005</xref>). Next, we wanted to determine the importance of autophosphorylation at serine 1981 on the ability of ATM to localize and be retained at DSBs because previous studies have produced conflicting results. <xref ref-type="bibr" rid="bib4">Berkovich et al. (2007)</xref> have shown that autophosphorylation of ATM is required for its ability to localize to endogenous breaks 24 h after transfection of I-PpoI by ChIP assays. In contrast, mutation of mouse ATM at serine 1987 (analogous to serine 1981 in humans) to alanine did not affect the localization to laser-induced DSBs 5 min after damage (<xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>). These studies only examined ATM localization at a specific time point and did not study the dynamics of ATM at the DSB. Our data show that autophosphorylation is dispensable for recruitment of ATM to DSBs, but is required for the stabilization of the protein at sites of DSBs and may explain the discrepancies between the conflicting data that were taken at an early time point (5 min) and a later time point (24 h). In <italic>Xenopus</italic> egg extract, a high concentration of damaged DNA can promote ATM monomerization without concomitant autophosphorylation (<xref ref-type="bibr" rid="bib12">Dupr&#xE9; et al., 2006</xref>); therefore, it could be argued that excessive DNA damage at micro-irradiated sites may cause artificial accumulation of YFP-ATM S1981A. This seems unlikely because both biochemical fractionation and foci formation assays using 10 or 4 Gy of &#x3B3;-ray, respectively, showed similar results to laser micro-irradiation (<xref ref-type="fig" rid="fig2">Fig. 2, D and E</xref>). Moreover, the recruitment of ATM in our system fully depends on the presence of the MRN complex (<xref ref-type="fig" rid="fig1">Fig. 1, C and D</xref>), which rules out the possible artificial effects of laser micro-irradiation. As NBS1 and BRCA1 are reported to interact with both DSB-flanking chromatin and the ssDNA microcompartment by different mechanisms (<xref ref-type="bibr" rid="bib3">Bekker-Jensen et al., 2006</xref>), it is possible that the S1981A ATM mutant is retained differently at the site of the DSB and the break's flanking regions. In fact, YFP-ATM S1981A seems to be restricted to an area lying within the broader track of MDC1 and &#x3B3;H2AX (<xref ref-type="fig" rid="fig5">Fig. 5 B</xref>). Moreover, YFP-ATM S1981A showed tight colocalization with phosphorylated DNA-PKcs, which occurs at the sites of the DNA break (<ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">Fig. S4</ext-link>; <xref ref-type="bibr" rid="bib40">Uematsu et al., 2007</xref>; <xref ref-type="bibr" rid="bib1">Asaithamby et al., 2008</xref>). These observations suggest that the S1981A ATM mutant is retained at the site of the DNA break but not at the flanking regions.</p>
+      <p>ATM interacts with MDC1 and the interaction is increased after DNA damage (<xref ref-type="fig" rid="fig4">Fig. 4, A and B</xref>). The ATM&#x2013;MDC1 interaction is mediated by the FHA domain of MDC1, which is a phospho-binding motif (Fig. S3), and this interaction requires that ATM is phosphorylated as the interaction between wt ATM and the FHA domain is lost when ATM is dephosphorylated after treatment with &#x3BB;-phosphatase (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>). Autophosphorylation of ATM at serine 1981 is important for mediating this interaction, as ablation of the autophosphorylation site results in a marked reduction in the ATM&#x2013;MDC1 and ATM&#x2013;FHA domain interactions (<xref ref-type="fig" rid="fig4">Fig. 4, B and C</xref>). A peptide-binding assay showed weak but specific binding of the FHA domain of MDC1 with a phosphorylated S1981 peptide (Fig. S4). Collectively, these data suggest that the FHA domain of MDC1 directly interacts with autophosphorylated serine 1981 and stabilizes ATM at DSBs. However, a longer exposure of the blot shows very weak binding of the FHA domain to S1981A (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>), arguing against the direct interaction between the FHA domain of MDC1 and phosphorylated S1981. These contradicting data suggest that the stabilization of ATM at DNA damage sites by MDC1 could perhaps involve other mechanisms in addition to the direct interaction suggested by our experiments. Further studies to resolve the exact mechanism of the interaction between ATM and MDC1 are needed. It should be noted that FHA domains are known to preferentially bind to phospho-threonine residues over phospho-serine residues (<xref ref-type="bibr" rid="bib13">Durocher et al., 1999</xref>; <xref ref-type="bibr" rid="bib25">Liao et al., 1999</xref>). It is possible that the FHA domain of MDC1 binds to phospho-threonines on ATM. In fact, ATM has at least five other phosphorylation sites besides serine 1981, and two of them are threonines (<xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>; <xref ref-type="bibr" rid="bib30">Matsuoka et al., 2007</xref>). On the other hand, phosphatase treatment did not result in a reduction in the interaction between YFP-ATM S1981A and the FHA domain of MDC1 (<xref ref-type="fig" rid="fig4">Fig. 4 C</xref>), suggesting that autophosphorylation at serine 1981 is a required upstream event even if the FHA domain of MDC1 binds to a phospho-threonine on ATM. The importance of MDC1 stabilizing ATM at DSBs is corroborated by data that show, similar to S1981A, MDC1 is required for sustained retention of ATM to laser-generated DSBs (<xref ref-type="fig" rid="fig5">Fig. 5 A</xref>). Furthermore, deletion of MDC1 recapitulates all of the phenotypes observed with S1981A cells (defects in ATM substrate phosphorylation and radiosensitivity; <xref ref-type="fig" rid="fig7">Fig. 7</xref>). Lastly, it has been proposed that autophosphorylation at serine 1981 initiates ATM activation upon DNA damage by promoting monomerization and subsequent localization of ATM to the damage sites (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib4">Berkovich et al., 2007</xref>). Although it seems likely that autophosphorylation occurs as a consequence of ATM activation (<xref ref-type="bibr" rid="bib45">You et al., 2005</xref>), it is possible that autophosphorylation at serine 1981 promotes monomerization at DSBs and exposes binding sites in ATM to MDC1, thereby stabilizing ATM at DSBs.</p>
+      <p>MDC1 is known to interact with many DSB response proteins including ATM, and acts to tether these proteins to the sites of damage by its interaction with &#x3B3;H2AX (<xref ref-type="bibr" rid="bib15">Goldberg et al., 2003</xref>; <xref ref-type="bibr" rid="bib36">Stewart et al., 2003</xref>; <xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>). In the absence of MDC1, diffused active ATM and decreased phosphorylation of ATM substrates was observed after IR (<xref ref-type="bibr" rid="bib36">Stewart et al., 2003</xref>; <xref ref-type="bibr" rid="bib26">Lou et al., 2006</xref>). It is reasonable to hypothesize that the decreased phosphorylation of downstream ATM substrates, especially at 1 h after irradiation, is due to the inability of S1981A ATM to interact with MDC1 resulting in a failure to remain associated with DSBs, and not due to defective kinase activity of S1981A ATM. In agreement with this, S1981A ATM was reported to possess normal kinase activity in vitro (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib24">Lee and Paull, 2005</xref>; <xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>).</p>
+      <p>It is worth mentioning that phosphorylation of p53 was not affected by either S1981A mutation or MDC1 depletion. Unlike KAP1 and SMC1, p53 is not phosphorylated at the sites of the damage or the damage-flanking chromatin (<xref ref-type="bibr" rid="bib3">Bekker-Jensen et al., 2006</xref>). These results support the idea that the defective phosphorylation of SMC1 and KAP1 is due to the premature dissociation of ATM from DSBs when ATM autophosphorylation at serine 1981 is ablated.</p>
+      <p>In conclusion, this paper shows that localization of ATM to DSBs is biphasic with different requirements for the initial localization to DSBs (MRN complex) and sustained localization at the damage site (autophosphorylation at serine 1981 and MDC1). This study further underscores the importance of ATM autophosphorylation at serine 1981 for the functionality of the protein. The data presented can explain the discrepancy in the literature regarding the importance of autophosphorylation at serine 1981 for the ability of ATM to localize and remain at DSBs. Furthermore, our data show that ablation of the autophosphorylation site results in a weakened interaction with MDC1, a decrease in ATM kinase activity, and an inability to complement an ATM-deficient cell line in a radiosensitivity assay. The data presented also allow us to propose the following model for the function of ATM in the cellular response to DSBs. First, ATM kinase activity is at least partially activated in response to DNA damage, probably due to the change of chromatin structure by the breaks. This activation is not fully dependent on the ability of ATM to localize to DSBs, as ATM kinase activity was observed in MRN-deficient cells (unpublished data; <xref ref-type="bibr" rid="bib20">Kitagawa et al., 2004</xref>; <xref ref-type="bibr" rid="bib17">Jazayeri et al., 2006</xref>). The activation of ATM by chloroquine, histone deacetylase inhibitors, or hypotonic buffer also supports this notion (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib18">Kanu and Behrens, 2007</xref>). After activation, the dynamics of ATM at DSBs is biphasic. First, ATM is recruited to the sites of DBSs by the MRN complex, which is likely by the C-terminal region of NBS1 (<xref ref-type="bibr" rid="bib11">Difilippantonio et al., 2005</xref>; <xref ref-type="bibr" rid="bib14">Falck et al., 2005</xref>; <xref ref-type="bibr" rid="bib5">Buis et al., 2008</xref>). The initial recruitment of ATM to DSBs does not require autophosphorylation at serine 1981, and this is also supported by the fact that S1981A is able to interact with the MRN complex (<xref ref-type="fig" rid="fig4">Fig. 4 B</xref>). After activation and recruitment, stabilization of ATM at the DSB requires autophosphorylation of ATM. This autophosphorylation mediates the interaction between ATM and MDC1 and the interaction is mediated by the FHA domain of MDC1 interacting with the phosphorylated ATM. The functional consequence of stabilization of ATM at DSBs is that it is required for the ability of ATM to signal in response to and mediate the repair of DSBs. Our data demonstrating that autophosphorylation is important for ATM functions agree with the previous studies using human cells (<xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>; <xref ref-type="bibr" rid="bib21">Kozlov et al., 2006</xref>), but disagree with studies in knock-in mouse, which conclude that the autophosphorylation has no impact on ATM function in vivo (<xref ref-type="bibr" rid="bib33">Pellegrini et al., 2006</xref>; <xref ref-type="bibr" rid="bib9">Daniel et al., 2008</xref>). Considering the high conservation of ATM in eukaryotes, it is surprising that the effect of autophosphorylation at serine 1981 appears to differ so dramatically between humans and mice. It is possible that only humans have the cellular factor(s) that makes the autophosphorylation vital for ATM functions. This difference is an important area for further investigation.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec>
+        <title>Plasmids and siRNAs</title>
+        <p>The pcDNA3-based FLAG-tagged wild-type ATM expression plasmid was a gift from Dr. Michael B. Kastan (St. Jude Children's Research Hospital, Memphis, TN; <xref ref-type="bibr" rid="bib2">Bakkenist and Kastan, 2003</xref>). A point mutation resulting in a substitution of serine 1981 to alanine was generated by the QuikChange Site-Directed Mutagenesis kit (Stratagene). YFP-FLAG&#x2013;tagged ATM expression vectors (YFP-ATM) were generated by insertion of the YFP gene into the FLAG-tagged ATM expression vectors. To generate GST-FHA and GST-BRCT (MDC1) bacterial expression vectors, the MDC1 cDNA corresponding to MDC1 residues 1&#x2013;150 and 1890&#x2013;2089, respectively, were cloned into the pGEX-KG vector.</p>
+        <p>All siRNA oligonucleotides were purchased from Thermo Fisher Scientific. Sequence for siRNA oligonucleotides against MRE11, MDC1, and RNF8 were ACAGGAGAAGAGAUCAACUdTdT, UCCAGUGAAUCCUUGAGGUdTdT, and CAGAGAAGCUUACAGAUGUUUdTdT, respectively. The siRNA oligonucleotides against RAD50 and NBS1 were obtained from ON-TARGET plus smart pool service.</p>
+      </sec>
+      <sec>
+        <title>Antibodies</title>
+        <p>Polyclonal antibody against MDC1 was a gift from Drs. Priscilla Cooper and Jill Fuss (Lawrence Berkeley National Laboratory, Berkeley, CA). Polyclonal antibody against RNF8 was a gift from Drs. Junjie Chen, Michael S.Y. Huen, and Xiaochun Yu (The University of Texas MD Anderson Cancer Center, Houston, TX). Other antibodies used in this study include: rabbit polyclonal antibodies against phospho-ATM-Ser1981 (Rockland), KAP1, phospho-KAP1-Ser 824, SMC1, phospho-SMC1-Ser966 (Bethyl Laboratories, Inc.), and NBS1 (Novus Biologicals); and mouse monoclonal antibodies against phospho-H2AX-Ser139 (Millipore), ATM (GeneTex), RAD50 (EMD), GST (Santa Cruz Biotechnology, Inc.), and FLAG (Sigma-Aldrich).</p>
+      </sec>
+      <sec>
+        <title>Cell culture and transfection</title>
+        <p>Cell lines used in this study were cultured in &#x3B1;-minimum Eagle's medium supplemented with 10% fetal bovine serum. For transient expression, cells were transfected with expression plasmid by Nucleofector (Lonza) according to the manufacturer's procedures. For generation of stable cell lines, cells were transfected with the linearized expression plasmid using Fugene 6 reagent (Roche) according to the manufacturer's procedures. After selection with 0.5&#x2013;1.0 mg/ml of G418 for 14 d, resistant clones were tested for expression of the protein of interest. Transfection of siRNA oligonucleotides was performed using Lipofectamine RNAi MAX (Invitrogen) according to the manufacturer's procedures.</p>
+      </sec>
+      <sec>
+        <title>Fluorescent immunostaining</title>
+        <p>For immunostaining, cells were preextracted for 20 min on ice in extraction buffer (20 mM Hepes-HCl, pH 7.5, 20 mM NaCl, 5 mM MgCl<sub>2</sub>, and 0.5% Nonidet P-40), fixed in 4% formaldehyde for 15 min at room temperature, permeabilized in 0.5% Triton X-100 for 10 min, blocked with 5% BSA, and incubated with the primary antibodies indicated in the figure legends. Signals were visualized by use of secondary antibodies conjugated with Alexa 488, Alexa 350, or Texas red (Invitrogen).</p>
+      </sec>
+      <sec>
+        <title>Live cell imaging and laser micro-irradiation</title>
+        <p>Live cell imaging combined with laser micro-irradiation was described previously (<xref ref-type="bibr" rid="bib40">Uematsu et al., 2007</xref>; <xref ref-type="bibr" rid="bib44">Yano et al., 2008</xref>). In brief, fluorescence in a living cell was acquired with a microscope (Axiovert 200M; Carl Zeiss, Inc.) using a Plan-Apochromat 63X/NA 1.40 oil immersion objective (Carl Zeiss, Inc.). A 365-nm pulsed nitrogen laser (Spectra-Physics) was directly coupled to the epifluorescence path of the microscope. DSBs were introduced in a small area of the nucleus by micro-irradiation using a 365-nm laser as described previously (<xref ref-type="bibr" rid="bib40">Uematsu et al., 2007</xref>). It was previously calculated that this method induces 2,500&#x2013;3,700 localized DSBs. To ensure that our results were not artificial due to the high local density of DSBs, experiments were performed using a low laser output after presensitization with 10 &#xB5;M of BrdU. To clearly detect accumulation of YFP-ATM wt at micro-irradiated regions, the minimal laser output was 75% in mock-treated cells and 65% in presensitized cells (<ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">Fig. S5</ext-link>). Next, kinetics of YFP-ATM wt and YFP-ATM S1981A were determined with 65% laser output in presensitized cells (Fig. S5). YFP-ATM wt showed similar kinetics to laser-generated DSBs with high and low laser outputs (<xref ref-type="fig" rid="fig2">Fig. 2 C</xref> and Fig. S5). Moreover, YFP-ATM S1981A dissociates earlier than YFP-ATM wt from DSBs under both conditions (<xref ref-type="fig" rid="fig2">Fig. 2 C</xref> and Fig. S5). These data suggest that localization of YFP-ATM to laser-induced DSBs by our system is not artificial and that sensitization is not necessary to study the behavior of ATM with our laser system. Thus, cells were micro-irradiated without sensitization throughout this study. Time-lapse images were taken by an camera (AxioCam HRm; Carl Zeiss, Inc.) and fluorescence intensities of the micro-irradiated area were determined by Axiovision software, v4.5 (Carl Zeiss, Inc.). During micro-irradiation and time-lapse imaging, cells were maintained in CO<sub>2</sub>-independent medium (Invitrogen) at 37&#xB0;C. To compensate for nonspecific photobleaching, the background fluorescence was subtracted from the accumulation spot. Relative fluorescence intensity (RF) was calculated by the following formula: RF(t) = (I<sub>t</sub>&#x2212;I<sub>preIR</sub>)/(I<sub>max</sub>&#x2212;I<sub>preIR</sub>), where I<sub>preIR</sub> represents the fluorescence intensity of the micro-irradiated area before irradiation and I<sub>max</sub> represents the maximum fluorescence signal in the micro-irradiated area. Fold increase (FI) was calculated by the following formula: FI(t) = It/I<sub>preIR</sub>. Each data point is the average of 10 independent measurements.</p>
+      </sec>
+      <sec>
+        <title>Biochemical fractionation</title>
+        <p>The association of ATM with chromatin was determined by using a detergent extraction assay as described previously (<xref ref-type="bibr" rid="bib32">Mladenov et al., 2006</xref>). In brief, 10<sup>7</sup> cells were lysed in 1 ml of CSK buffer (10 mM Hepes, pH 7.5, 100 mM NaCl, 3 mM MgCl<sub>2</sub>, 1 mM EGTA, 300 mM sucrose, and 1% Triton X-100) for 10 min on ice. Cell lysates were centrifuged at 500 <italic>g</italic> for 5 min at 4&#xB0;C. This supernatant is Fraction I. The precipitate was washed with 200 &#xB5;l of Ca-lysis buffer (20 mM Tris-HCl, pH 8.8, 150 mM NaCl, 1 mM CaCl<sub>2</sub>, and 1% Triton-X100) (Fraction II) and then resuspended in 200 &#xB5;l of the same buffer. 20 U of Micrococcal nuclease (MNase) was added and incubated for 5 min at 37&#xB0;C. 2 &#xB5;l of 0.5 M EDTA (final 5 mM) was added to stop the reaction and the sample was centrifuged at 20,000 <italic>g</italic> for 5 min at 4&#xB0;C. This supernatant is Fraction III.</p>
+      </sec>
+      <sec>
+        <title>Immunoprecipitation and in vitro protein&#x2013;protein interactions</title>
+        <p>AT5BIVA cells stably expressing YFP-ATM wt or YFP-ATM S1981A were irradiated with 10 Gy of &#x3B3;-ray and incubated for an additional 60 min. The cells were lysed in IP buffer (10 mM Hepes-HCl, pH 7.5, 150 mM NaCl, 5 mM EDTA, 1% NP-40, and 10% glycerol) on ice for 30 min. Lysates was cleared by centrifugation at 20,000 <italic>g</italic> for 20 min and then incubated with anti-FLAG antibody (Sigma-Aldrich) and protein G&#x2013;Sepharose (Roche) for 16 h at 4&#xB0;C with mixing. After washing three times with IP buffer, bound proteins were solubilized in SDS-PAGE loading buffer and analyzed by Western blotting. For the in vitro protein&#x2013;protein interaction assays, YFP-ATM wt and YFP-ATM S1981A were immunoprecipitated from the nuclear extract of AT5BIVA cells that stably express each protein using anti-FLAG antibody and protein A&#x2013;Sepharose (Sigma-Aldrich). The nuclear extract was incubated with the antibody and resin for 2 h at 4&#xB0;C with mixing. The protein A beads were washed three times with IP wash buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 10% glycerol, 1 mM EDTA, 1% NP-40, and protease inhibitor cocktail) and untreated or treated with 1,200 U of &#x3BB;-phosphatase (New England Biolabs, Inc.) for 30 min at 30&#xB0;C and then incubated with either 5 &#xB5;g of purified GST or GST-FHA domain of MDC1 in IP wash buffer supplemented with 10 &#xB5;g BSA. The reaction was incubated at ambient temperatures for 2 h with mixing. After washing three times with IP wash buffer, bound proteins were solubilized in SDS-PAGE loading buffer and analyzed by Western blotting. For in vitro binding of purified ATM with GST-FHA, 5 &#xB5;g of purified GST or GST-FHA domain of MDC1 were bound to glutathione-agarose beads and incubated with 100 ng of purified ATM in IP wash buffer supplemented with 10 &#xB5;g BSA.</p>
+      </sec>
+      <sec>
+        <title>Expression and purification of GST and GST-FHA domain of MDC1</title>
+        <p>GST-FHA (1&#x2013;150) and GST-BRCT (1890&#x2013;2089) domain of MDC1 were expressed in bacteria and prepared as described previously (<xref ref-type="bibr" rid="bib10">Davis et al., 2008</xref>). The GST fusion proteins were eluted by using 10 mM fresh reduced glutathione in 50 mM Tris-HCl, pH 8.0. The eluted protein was dialyzed against Buffer C (20 mM Hepes-HCl, pH 7.6, 100 mM KCl, 1 mM DTT, 1 mM EDTA, and 20% glycerol) and stored at &#x2212;80&#xB0;C until use.</p>
+      </sec>
+      <sec>
+        <title>Peptide-binding assay</title>
+        <p>For peptide-binding assays, the biotinylated synthetic peptides Btn-SGSG-SLETVSTQELYSIO-COOH, Btn-SGSG-SLETV[pS]TQELYSIO-COOH (Anaspec), Btn-KKATQASQEY-COOH, and Btn-KKATQA[pS]QEY-COOH (Genemed Synthesis, Inc.) were used. 1 &#xB5;g of biotinylated peptide was incubated with 1 &#xB5;g of GST fusion proteins and 15 &#xB5;l of streptavidin beads in 200 &#xB5;l of binding buffer (50 mM Tris-HCl, pH 7.4, 150 mM NaCl, 0.05% NP-40, 1 mM DTT, 2 mM &#x3B2;-glycerol phosphate, and 1 mM PMSF) plus 0.25% BSA for 60 min at room temperature. The samples were washed four times with 400 &#xB5;l of binding buffer and bound proteins were solubilized in SDS-PAGE loading buffer and analyzed by Western blotting.</p>
+      </sec>
+      <sec>
+        <title>Online supplemental material</title>
+        <p>Fig. S1 shows the localization of ATM to laser-induced DNA double-strand breaks. Fig. S2 shows in vitro&#x2013;binding assays with the FHA and BRCT domain of MDC1 with endogenous ATM and nonphosphorylated and phosphorylated serine 1981 peptides. Fig. S3 shows the knock-down efficiency of MDC1 and RNF8 using specific siRNA. Fig. S4 shows colocalization of YFP-ATM and phosphorylated DNA-PKcs. Fig. S5 shows local accumulation of ATM in cells exposed to low doses of laser irradiation. Online supplemental material is available at <ext-link ext-link-type="uri" xlink:href="http://www.jcb.org/cgi/content/full/jcb.200906064/DC1">http://www.jcb.org/cgi/content/full/jcb.200906064/DC1</ext-link>.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>The authors are grateful to the following: K.Morotomi-Yano and S.Wang for technical assistance; M. Kastan for the ATM expression constructs; K. Komatsu and J. Kobayashi for the NBS cell lines; P.Cooper and J. Fuss for the MDC1 antibody; Drs. Junjie Chen, Michael S.Y. Huen, and Xiaochun Yu for the RNF8 antibody; Drs. T.T. Paull and J.H. Lee for purified ATM; and A. Aroumougame, S. Burma, L. Baugh, E. Weterings, and B. Chen for critically reviewing the paper.</p>
+      <p>The research was supported by National Institutes of Health grants (CA050519, CA134991, and CA92584) and by NASA grant NNA05CM04G.</p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p>
+          <def-list>
+            <title>Abbreviations used in this paper:</title>
+            <def-item>
+              <term>ATM</term>
+              <def>
+                <p>ataxia telangiectasia mutated</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>DSB</term>
+              <def>
+                <p>double-strand break</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>FHA</term>
+              <def>
+                <p>forkhead homology&#x2013;associated</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>IR</term>
+              <def>
+                <p>ionizing radiation</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>MRN</term>
+              <def>
+                <p>MRE11&#x2013;RAD50&#x2013;NBS1</p>
+              </def>
+            </def-item>
+            <def-item>
+              <term>wt</term>
+              <def>
+                <p>wild type</p>
+              </def>
+            </def-item>
+          </def-list>
+        </p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="bib1">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Asaithamby</surname><given-names>A.</given-names></name><name><surname>Uematsu</surname><given-names>N.</given-names></name><name><surname>Chatterjee</surname><given-names>A.</given-names></name><name><surname>Story</surname><given-names>M.D.</given-names></name><name><surname>Burma</surname><given-names>S.</given-names></name><name><surname>Chen</surname><given-names>D.J.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Repair of HZE-particle-induced DNA double-strand breaks in normal human fibroblasts</article-title>. <source>Radiat. Res.</source>
+<volume>169</volume>:<fpage>437</fpage>&#x2013;<lpage>446</lpage>
+<pub-id pub-id-type="doi">10.1667/RR1165.1</pub-id><pub-id pub-id-type="pmid">18363429</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib2">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bakkenist</surname><given-names>C.J.</given-names></name><name><surname>Kastan</surname><given-names>M.B.</given-names></name></person-group>
+<year>2003</year>
+<article-title>DNA damage activates ATM through intermolecular autophosphorylation and dimer dissociation</article-title>. <source>Nature.</source>
+<volume>421</volume>:<fpage>499</fpage>&#x2013;<lpage>506</lpage>
+<pub-id pub-id-type="doi">10.1038/nature01368</pub-id><pub-id pub-id-type="pmid">12556884</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib3">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bekker-Jensen</surname><given-names>S.</given-names></name><name><surname>Lukas</surname><given-names>C.</given-names></name><name><surname>Kitagawa</surname><given-names>R.</given-names></name><name><surname>Melander</surname><given-names>F.</given-names></name><name><surname>Kastan</surname><given-names>M.B.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name></person-group>
+<year>2006</year>
+<article-title>Spatial organization of the mammalian genome surveillance machinery in response to DNA strand breaks</article-title>. <source>J. Cell Biol.</source>
+<volume>173</volume>:<fpage>195</fpage>&#x2013;<lpage>206</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200510130</pub-id><pub-id pub-id-type="pmid">16618811</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib4">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Berkovich</surname><given-names>E.</given-names></name><name><surname>Monnat</surname><given-names>R.J.</given-names><suffix>Jr.</suffix></name><name><surname>Kastan</surname><given-names>M.B.</given-names></name></person-group>
+<year>2007</year>
+<article-title>Roles of ATM and NBS1 in chromatin structure modulation and DNA double-strand break repair</article-title>. <source>Nat. Cell Biol.</source>
+<volume>9</volume>:<fpage>683</fpage>&#x2013;<lpage>690</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb1599</pub-id><pub-id pub-id-type="pmid">17486112</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib5">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buis</surname><given-names>J.</given-names></name><name><surname>Wu</surname><given-names>Y.</given-names></name><name><surname>Deng</surname><given-names>Y.</given-names></name><name><surname>Leddon</surname><given-names>J.</given-names></name><name><surname>Westfield</surname><given-names>G.</given-names></name><name><surname>Eckersdorff</surname><given-names>M.</given-names></name><name><surname>Sekiguchi</surname><given-names>J.M.</given-names></name><name><surname>Chang</surname><given-names>S.</given-names></name><name><surname>Ferguson</surname><given-names>D.O.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Mre11 nuclease activity has essential roles in DNA repair and genomic stability distinct from ATM activation</article-title>. <source>Cell.</source>
+<volume>135</volume>:<fpage>85</fpage>&#x2013;<lpage>96</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2008.08.015</pub-id><pub-id pub-id-type="pmid">18854157</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib6">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Burma</surname><given-names>S.</given-names></name><name><surname>Chen</surname><given-names>B.P.</given-names></name><name><surname>Murphy</surname><given-names>M.</given-names></name><name><surname>Kurimasa</surname><given-names>A.</given-names></name><name><surname>Chen</surname><given-names>D.J.</given-names></name></person-group>
+<year>2001</year>
+<article-title>ATM phosphorylates histone H2AX in response to DNA double-strand breaks</article-title>. <source>J. Biol. Chem.</source>
+<volume>276</volume>:<fpage>42462</fpage>&#x2013;<lpage>42467</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.C100466200</pub-id><pub-id pub-id-type="pmid">11571274</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib7">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cerosaletti</surname><given-names>K.</given-names></name><name><surname>Concannon</surname><given-names>P.</given-names></name></person-group>
+<year>2004</year>
+<article-title>Independent roles for nibrin and Mre11-Rad50 in the activation and function of Atm</article-title>. <source>J. Biol. Chem.</source>
+<volume>279</volume>:<fpage>38813</fpage>&#x2013;<lpage>38819</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M404294200</pub-id><pub-id pub-id-type="pmid">15234984</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib8">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chapman</surname><given-names>J.R.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Phospho-dependent interactions between NBS1 and MDC1 mediate chromatin retention of the MRN complex at sites of DNA damage</article-title>. <source>EMBO Rep.</source>
+<volume>9</volume>:<fpage>795</fpage>&#x2013;<lpage>801</lpage>
+<pub-id pub-id-type="doi">10.1038/embor.2008.103</pub-id><pub-id pub-id-type="pmid">18583988</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib9">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Daniel</surname><given-names>J.A.</given-names></name><name><surname>Pellegrini</surname><given-names>M.</given-names></name><name><surname>Lee</surname><given-names>J.H.</given-names></name><name><surname>Paull</surname><given-names>T.T.</given-names></name><name><surname>Feigenbaum</surname><given-names>L.</given-names></name><name><surname>Nussenzweig</surname><given-names>A.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Multiple autophosphorylation sites are dispensable for murine ATM activation in vivo</article-title>. <source>J. Cell Biol.</source>
+<volume>183</volume>:<fpage>777</fpage>&#x2013;<lpage>783</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200805154</pub-id><pub-id pub-id-type="pmid">19047460</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib10">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Davis</surname><given-names>A.J.</given-names></name><name><surname>Yan</surname><given-names>Z.</given-names></name><name><surname>Martinez</surname><given-names>B.</given-names></name><name><surname>Mumby</surname><given-names>M.C.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Protein phosphatase 2A is targeted to cell division control protein 6 by a calcium-binding regulatory subunit</article-title>. <source>J. Biol. Chem.</source>
+<volume>283</volume>:<fpage>16104</fpage>&#x2013;<lpage>16114</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M710313200</pub-id><pub-id pub-id-type="pmid">18397887</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib11">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Difilippantonio</surname><given-names>S.</given-names></name><name><surname>Celeste</surname><given-names>A.</given-names></name><name><surname>Fernandez-Capetillo</surname><given-names>O.</given-names></name><name><surname>Chen</surname><given-names>H.T.</given-names></name><name><surname>Reina San Martin</surname><given-names>B.</given-names></name><name><surname>Van Laethem</surname><given-names>F.</given-names></name><name><surname>Yang</surname><given-names>Y.P.</given-names></name><name><surname>Petukhova</surname><given-names>G.V.</given-names></name><name><surname>Eckhaus</surname><given-names>M.</given-names></name><name><surname>Feigenbaum</surname><given-names>L.</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Role of Nbs1 in the activation of the Atm kinase revealed in humanized mouse models</article-title>. <source>Nat. Cell Biol.</source>
+<volume>7</volume>:<fpage>675</fpage>&#x2013;<lpage>685</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb1270</pub-id><pub-id pub-id-type="pmid">15965469</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib12">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dupr&#xE9;</surname><given-names>A.</given-names></name><name><surname>Boyer-Chatenet</surname><given-names>L.</given-names></name><name><surname>Gautier</surname><given-names>J.</given-names></name></person-group>
+<year>2006</year>
+<article-title>Two-step activation of ATM by DNA and the Mre11-Rad50-Nbs1 complex</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>13</volume>:<fpage>451</fpage>&#x2013;<lpage>457</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb1090</pub-id><pub-id pub-id-type="pmid">16622404</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib13">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Durocher</surname><given-names>D.</given-names></name><name><surname>Henckel</surname><given-names>J.</given-names></name><name><surname>Fersht</surname><given-names>A.R.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>1999</year>
+<article-title>The FHA domain is a modular phosphopeptide recognition motif</article-title>. <source>Mol. Cell.</source>
+<volume>4</volume>:<fpage>387</fpage>&#x2013;<lpage>394</lpage>
+<pub-id pub-id-type="doi">10.1016/S1097-2765(00)80340-8</pub-id><pub-id pub-id-type="pmid">10518219</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib14">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Falck</surname><given-names>J.</given-names></name><name><surname>Coates</surname><given-names>J.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2005</year>
+<article-title>Conserved modes of recruitment of ATM, ATR and DNA-PKcs to sites of DNA damage</article-title>. <source>Nature.</source>
+<volume>434</volume>:<fpage>605</fpage>&#x2013;<lpage>611</lpage>
+<pub-id pub-id-type="doi">10.1038/nature03442</pub-id><pub-id pub-id-type="pmid">15758953</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib15">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goldberg</surname><given-names>M.</given-names></name><name><surname>Stucki</surname><given-names>M.</given-names></name><name><surname>Falck</surname><given-names>J.</given-names></name><name><surname>D'Amours</surname><given-names>D.</given-names></name><name><surname>Rahman</surname><given-names>D.</given-names></name><name><surname>Pappin</surname><given-names>D.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2003</year>
+<article-title>MDC1 is required for the intra-S-phase DNA damage checkpoint</article-title>. <source>Nature.</source>
+<volume>421</volume>:<fpage>952</fpage>&#x2013;<lpage>956</lpage>
+<pub-id pub-id-type="doi">10.1038/nature01445</pub-id><pub-id pub-id-type="pmid">12607003</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib16">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huen</surname><given-names>M.S.</given-names></name><name><surname>Grant</surname><given-names>R.</given-names></name><name><surname>Manke</surname><given-names>I.</given-names></name><name><surname>Minn</surname><given-names>K.</given-names></name><name><surname>Yu</surname><given-names>X.</given-names></name><name><surname>Yaffe</surname><given-names>M.B.</given-names></name><name><surname>Chen</surname><given-names>J.</given-names></name></person-group>
+<year>2007</year>
+<article-title>RNF8 transduces the DNA-damage signal via histone ubiquitylation and checkpoint protein assembly</article-title>. <source>Cell.</source>
+<volume>131</volume>:<fpage>901</fpage>&#x2013;<lpage>914</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2007.09.041</pub-id><pub-id pub-id-type="pmid">18001825</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib17">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jazayeri</surname><given-names>A.</given-names></name><name><surname>Falck</surname><given-names>J.</given-names></name><name><surname>Lukas</surname><given-names>C.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Smith</surname><given-names>G.C.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2006</year>
+<article-title>ATM- and cell cycle-dependent regulation of ATR in response to DNA double-strand breaks</article-title>. <source>Nat. Cell Biol.</source>
+<volume>8</volume>:<fpage>37</fpage>&#x2013;<lpage>45</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb1337</pub-id><pub-id pub-id-type="pmid">16327781</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib18">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kanu</surname><given-names>N.</given-names></name><name><surname>Behrens</surname><given-names>A.</given-names></name></person-group>
+<year>2007</year>
+<article-title>ATMIN defines an NBS1-independent pathway of ATM signalling</article-title>. <source>EMBO J.</source>
+<volume>26</volume>:<fpage>2933</fpage>&#x2013;<lpage>2941</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.emboj.7601733</pub-id><pub-id pub-id-type="pmid">17525732</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib19">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kim</surname><given-names>J.S.</given-names></name><name><surname>Krasieva</surname><given-names>T.B.</given-names></name><name><surname>Kurumizaka</surname><given-names>H.</given-names></name><name><surname>Chen</surname><given-names>D.J.</given-names></name><name><surname>Taylor</surname><given-names>A.M.</given-names></name><name><surname>Yokomori</surname><given-names>K.</given-names></name></person-group>
+<year>2005</year>
+<article-title>Independent and sequential recruitment of NHEJ and HR factors to DNA damage sites in mammalian cells</article-title>. <source>J. Cell Biol.</source>
+<volume>170</volume>:<fpage>341</fpage>&#x2013;<lpage>347</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200411083</pub-id><pub-id pub-id-type="pmid">16061690</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib20">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kitagawa</surname><given-names>R.</given-names></name><name><surname>Bakkenist</surname><given-names>C.J.</given-names></name><name><surname>McKinnon</surname><given-names>P.J.</given-names></name><name><surname>Kastan</surname><given-names>M.B.</given-names></name></person-group>
+<year>2004</year>
+<article-title>Phosphorylation of SMC1 is a critical downstream event in the ATM-NBS1-BRCA1 pathway</article-title>. <source>Genes Dev.</source>
+<volume>18</volume>:<fpage>1423</fpage>&#x2013;<lpage>1438</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1200304</pub-id><pub-id pub-id-type="pmid">15175241</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib21">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kozlov</surname><given-names>S.V.</given-names></name><name><surname>Graham</surname><given-names>M.E.</given-names></name><name><surname>Peng</surname><given-names>C.</given-names></name><name><surname>Chen</surname><given-names>P.</given-names></name><name><surname>Robinson</surname><given-names>P.J.</given-names></name><name><surname>Lavin</surname><given-names>M.F.</given-names></name></person-group>
+<year>2006</year>
+<article-title>Involvement of novel autophosphorylation sites in ATM activation</article-title>. <source>EMBO J.</source>
+<volume>25</volume>:<fpage>3504</fpage>&#x2013;<lpage>3514</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.emboj.7601231</pub-id><pub-id pub-id-type="pmid">16858402</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib22">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lavin</surname><given-names>M.F.</given-names></name><name><surname>Shiloh</surname><given-names>Y.</given-names></name></person-group>
+<year>1997</year>
+<article-title>The genetic defect in ataxia-telangiectasia</article-title>. <source>Annu. Rev. Immunol.</source>
+<volume>15</volume>:<fpage>177</fpage>&#x2013;<lpage>202</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.immunol.15.1.177</pub-id><pub-id pub-id-type="pmid">9143686</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib23">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>J.H.</given-names></name><name><surname>Paull</surname><given-names>T.T.</given-names></name></person-group>
+<year>2004</year>
+<article-title>Direct activation of the ATM protein kinase by the Mre11/Rad50/Nbs1 complex</article-title>. <source>Science.</source>
+<volume>304</volume>:<fpage>93</fpage>&#x2013;<lpage>96</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1091496</pub-id><pub-id pub-id-type="pmid">15064416</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib24">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>J.H.</given-names></name><name><surname>Paull</surname><given-names>T.T.</given-names></name></person-group>
+<year>2005</year>
+<article-title>ATM activation by DNA double-strand breaks through the Mre11-Rad50-Nbs1 complex</article-title>. <source>Science.</source>
+<volume>308</volume>:<fpage>551</fpage>&#x2013;<lpage>554</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1108297</pub-id><pub-id pub-id-type="pmid">15790808</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib25">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liao</surname><given-names>H.</given-names></name><name><surname>Byeon</surname><given-names>I.J.</given-names></name><name><surname>Tsai</surname><given-names>M.D.</given-names></name></person-group>
+<year>1999</year>
+<article-title>Structure and function of a new phosphopeptide-binding domain containing the FHA2 of Rad53</article-title>. <source>J. Mol. Biol.</source>
+<volume>294</volume>:<fpage>1041</fpage>&#x2013;<lpage>1049</lpage>
+<pub-id pub-id-type="doi">10.1006/jmbi.1999.3313</pub-id><pub-id pub-id-type="pmid">10588905</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib26">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lou</surname><given-names>Z.</given-names></name><name><surname>Minter-Dykhouse</surname><given-names>K.</given-names></name><name><surname>Franco</surname><given-names>S.</given-names></name><name><surname>Gostissa</surname><given-names>M.</given-names></name><name><surname>Rivera</surname><given-names>M.A.</given-names></name><name><surname>Celeste</surname><given-names>A.</given-names></name><name><surname>Manis</surname><given-names>J.P.</given-names></name><name><surname>van Deursen</surname><given-names>J.</given-names></name><name><surname>Nussenzweig</surname><given-names>A.</given-names></name><name><surname>Paull</surname><given-names>T.T.</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>MDC1 maintains genomic stability by participating in the amplification of ATM-dependent DNA damage signals</article-title>. <source>Mol. Cell.</source>
+<volume>21</volume>:<fpage>187</fpage>&#x2013;<lpage>200</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2005.11.025</pub-id><pub-id pub-id-type="pmid">16427009</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib27">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lukas</surname><given-names>C.</given-names></name><name><surname>Falck</surname><given-names>J.</given-names></name><name><surname>Bartkova</surname><given-names>J.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name></person-group>
+<year>2003</year>
+<article-title>Distinct spatiotemporal dynamics of mammalian checkpoint regulators induced by DNA damage</article-title>. <source>Nat. Cell Biol.</source>
+<volume>5</volume>:<fpage>255</fpage>&#x2013;<lpage>260</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb945</pub-id><pub-id pub-id-type="pmid">12598907</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib28">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lukas</surname><given-names>C.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name></person-group>
+<year>2005</year>
+<article-title>Imaging of protein movement induced by chromosomal breakage: tiny &#x2018;local&#x2019; lesions pose great &#x2018;global&#x2019; challenges</article-title>. <source>Chromosoma.</source>
+<volume>114</volume>:<fpage>146</fpage>&#x2013;<lpage>154</lpage>
+<pub-id pub-id-type="doi">10.1007/s00412-005-0011-y</pub-id><pub-id pub-id-type="pmid">15988581</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib29">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mailand</surname><given-names>N.</given-names></name><name><surname>Bekker-Jensen</surname><given-names>S.</given-names></name><name><surname>Faustrup</surname><given-names>H.</given-names></name><name><surname>Melander</surname><given-names>F.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Lukas</surname><given-names>C.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name></person-group>
+<year>2007</year>
+<article-title>RNF8 ubiquitylates histones at DNA double-strand breaks and promotes assembly of repair proteins</article-title>. <source>Cell.</source>
+<volume>131</volume>:<fpage>887</fpage>&#x2013;<lpage>900</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2007.09.040</pub-id><pub-id pub-id-type="pmid">18001824</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib30">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Matsuoka</surname><given-names>S.</given-names></name><name><surname>Ballif</surname><given-names>B.A.</given-names></name><name><surname>Smogorzewska</surname><given-names>A.</given-names></name><name><surname>McDonald</surname><given-names>E.R.</given-names><suffix>III</suffix></name><name><surname>Hurov</surname><given-names>K.E.</given-names></name><name><surname>Luo</surname><given-names>J.</given-names></name><name><surname>Bakalarski</surname><given-names>C.E.</given-names></name><name><surname>Zhao</surname><given-names>Z.</given-names></name><name><surname>Solimini</surname><given-names>N.</given-names></name><name><surname>Lerenthal</surname><given-names>Y.</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>ATM and ATR substrate analysis reveals extensive protein networks responsive to DNA damage</article-title>. <source>Science.</source>
+<volume>316</volume>:<fpage>1160</fpage>&#x2013;<lpage>1166</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1140321</pub-id><pub-id pub-id-type="pmid">17525332</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib31">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Melander</surname><given-names>F.</given-names></name><name><surname>Bekker-Jensen</surname><given-names>S.</given-names></name><name><surname>Falck</surname><given-names>J.</given-names></name><name><surname>Bartek</surname><given-names>J.</given-names></name><name><surname>Mailand</surname><given-names>N.</given-names></name><name><surname>Lukas</surname><given-names>J.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Phosphorylation of SDT repeats in the MDC1 N terminus triggers retention of NBS1 at the DNA damage-modified chromatin</article-title>. <source>J. Cell Biol.</source>
+<volume>181</volume>:<fpage>213</fpage>&#x2013;<lpage>226</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200708210</pub-id><pub-id pub-id-type="pmid">18411307</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib32">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mladenov</surname><given-names>E.</given-names></name><name><surname>Anachkova</surname><given-names>B.</given-names></name><name><surname>Tsaneva</surname><given-names>I.</given-names></name></person-group>
+<year>2006</year>
+<article-title>Sub-nuclear localization of Rad51 in response to DNA damage</article-title>. <source>Genes Cells.</source>
+<volume>11</volume>:<fpage>513</fpage>&#x2013;<lpage>524</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2443.2006.00958.x</pub-id><pub-id pub-id-type="pmid">16629903</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib33">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pellegrini</surname><given-names>M.</given-names></name><name><surname>Celeste</surname><given-names>A.</given-names></name><name><surname>Difilippantonio</surname><given-names>S.</given-names></name><name><surname>Guo</surname><given-names>R.</given-names></name><name><surname>Wang</surname><given-names>W.</given-names></name><name><surname>Feigenbaum</surname><given-names>L.</given-names></name><name><surname>Nussenzweig</surname><given-names>A.</given-names></name></person-group>
+<year>2006</year>
+<article-title>Autophosphorylation at serine 1987 is dispensable for murine Atm activation in vivo</article-title>. <source>Nature.</source>
+<volume>443</volume>:<fpage>222</fpage>&#x2013;<lpage>225</lpage>
+<pub-id pub-id-type="doi">10.1038/nature05112</pub-id><pub-id pub-id-type="pmid">16906133</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib34">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shiloh</surname><given-names>Y.</given-names></name></person-group>
+<year>2006</year>
+<article-title>The ATM-mediated DNA-damage response: taking shape</article-title>. <source>Trends Biochem. Sci.</source>
+<volume>31</volume>:<fpage>402</fpage>&#x2013;<lpage>410</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tibs.2006.05.004</pub-id><pub-id pub-id-type="pmid">16774833</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib35">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Spycher</surname><given-names>C.</given-names></name><name><surname>Miller</surname><given-names>E.S.</given-names></name><name><surname>Townsend</surname><given-names>K.</given-names></name><name><surname>Pavic</surname><given-names>L.</given-names></name><name><surname>Morrice</surname><given-names>N.A.</given-names></name><name><surname>Janscak</surname><given-names>P.</given-names></name><name><surname>Stewart</surname><given-names>G.S.</given-names></name><name><surname>Stucki</surname><given-names>M.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Constitutive phosphorylation of MDC1 physically links the MRE11-RAD50-NBS1 complex to damaged chromatin</article-title>. <source>J. Cell Biol.</source>
+<volume>181</volume>:<fpage>227</fpage>&#x2013;<lpage>240</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200709008</pub-id><pub-id pub-id-type="pmid">18411308</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib36">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stewart</surname><given-names>G.S.</given-names></name><name><surname>Wang</surname><given-names>B.</given-names></name><name><surname>Bignell</surname><given-names>C.R.</given-names></name><name><surname>Taylor</surname><given-names>A.M.</given-names></name><name><surname>Elledge</surname><given-names>S.J.</given-names></name></person-group>
+<year>2003</year>
+<article-title>MDC1 is a mediator of the mammalian DNA damage checkpoint</article-title>. <source>Nature.</source>
+<volume>421</volume>:<fpage>961</fpage>&#x2013;<lpage>966</lpage>
+<pub-id pub-id-type="doi">10.1038/nature01446</pub-id><pub-id pub-id-type="pmid">12607005</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib37">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stucki</surname><given-names>M.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2006</year>
+<article-title>gammaH2AX and MDC1: anchoring the DNA-damage-response machinery to broken chromosomes</article-title>. <source>DNA Repair (Amst.).</source>
+<volume>5</volume>:<fpage>534</fpage>&#x2013;<lpage>543</lpage>
+<pub-id pub-id-type="doi">10.1016/j.dnarep.2006.01.012</pub-id><pub-id pub-id-type="pmid">16531125</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib38">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stucki</surname><given-names>M.</given-names></name><name><surname>Clapperton</surname><given-names>J.A.</given-names></name><name><surname>Mohammad</surname><given-names>D.</given-names></name><name><surname>Yaffe</surname><given-names>M.B.</given-names></name><name><surname>Smerdon</surname><given-names>S.J.</given-names></name><name><surname>Jackson</surname><given-names>S.P.</given-names></name></person-group>
+<year>2005</year>
+<article-title>MDC1 directly binds phosphorylated histone H2AX to regulate cellular responses to DNA double-strand breaks</article-title>. <source>Cell.</source>
+<volume>123</volume>:<fpage>1213</fpage>&#x2013;<lpage>1226</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2005.09.038</pub-id><pub-id pub-id-type="pmid">16377563</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib39">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tauchi</surname><given-names>H.</given-names></name><name><surname>Kobayashi</surname><given-names>J.</given-names></name><name><surname>Morishima</surname><given-names>K.</given-names></name><name><surname>Matsuura</surname><given-names>S.</given-names></name><name><surname>Nakamura</surname><given-names>A.</given-names></name><name><surname>Shiraishi</surname><given-names>T.</given-names></name><name><surname>Ito</surname><given-names>E.</given-names></name><name><surname>Masnada</surname><given-names>D.</given-names></name><name><surname>Delia</surname><given-names>D.</given-names></name><name><surname>Komatsu</surname><given-names>K.</given-names></name></person-group>
+<year>2001</year>
+<article-title>The forkhead-associated domain of NBS1 is essential for nuclear foci formation after irradiation but not essential for hRAD50[middle dot]hMRE11[middle dot]NBS1 complex DNA repair activity</article-title>. <source>J. Biol. Chem.</source>
+<volume>276</volume>:<fpage>12</fpage>&#x2013;<lpage>15</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.C000578200</pub-id><pub-id pub-id-type="pmid">11062235</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib40">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Uematsu</surname><given-names>N.</given-names></name><name><surname>Weterings</surname><given-names>E.</given-names></name><name><surname>Yano</surname><given-names>K.</given-names></name><name><surname>Morotomi-Yano</surname><given-names>K.</given-names></name><name><surname>Jakob</surname><given-names>B.</given-names></name><name><surname>Taucher-Scholz</surname><given-names>G.</given-names></name><name><surname>Mari</surname><given-names>P.O.</given-names></name><name><surname>van Gent</surname><given-names>D.C.</given-names></name><name><surname>Chen</surname><given-names>B.P.</given-names></name><name><surname>Chen</surname><given-names>D.J.</given-names></name></person-group>
+<year>2007</year>
+<article-title>Autophosphorylation of DNA-PKCS regulates its dynamics at DNA double-strand breaks</article-title>. <source>J. Cell Biol.</source>
+<volume>177</volume>:<fpage>219</fpage>&#x2013;<lpage>229</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200608077</pub-id><pub-id pub-id-type="pmid">17438073</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib41">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Uziel</surname><given-names>T.</given-names></name><name><surname>Lerenthal</surname><given-names>Y.</given-names></name><name><surname>Moyal</surname><given-names>L.</given-names></name><name><surname>Andegeko</surname><given-names>Y.</given-names></name><name><surname>Mittelman</surname><given-names>L.</given-names></name><name><surname>Shiloh</surname><given-names>Y.</given-names></name></person-group>
+<year>2003</year>
+<article-title>Requirement of the MRN complex for ATM activation by DNA damage</article-title>. <source>EMBO J.</source>
+<volume>22</volume>:<fpage>5612</fpage>&#x2013;<lpage>5621</lpage>
+<pub-id pub-id-type="doi">10.1093/emboj/cdg541</pub-id><pub-id pub-id-type="pmid">14532133</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib42">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Watters</surname><given-names>D.</given-names></name><name><surname>Khanna</surname><given-names>K.K.</given-names></name><name><surname>Beamish</surname><given-names>H.</given-names></name><name><surname>Birrell</surname><given-names>G.</given-names></name><name><surname>Spring</surname><given-names>K.</given-names></name><name><surname>Kedar</surname><given-names>P.</given-names></name><name><surname>Gatei</surname><given-names>M.</given-names></name><name><surname>Stenzel</surname><given-names>D.</given-names></name><name><surname>Hobson</surname><given-names>K.</given-names></name><name><surname>Kozlov</surname><given-names>S.</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Cellular localisation of the ataxia-telangiectasia (ATM) gene product and discrimination between mutated and normal forms</article-title>. <source>Oncogene.</source>
+<volume>14</volume>:<fpage>1911</fpage>&#x2013;<lpage>1921</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.onc.1201037</pub-id><pub-id pub-id-type="pmid">9150358</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib43">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wu</surname><given-names>L.</given-names></name><name><surname>Luo</surname><given-names>K.</given-names></name><name><surname>Lou</surname><given-names>Z.</given-names></name><name><surname>Chen</surname><given-names>J.</given-names></name></person-group>
+<year>2008</year>
+<article-title>MDC1 regulates intra-S-phase checkpoint by targeting NBS1 to DNA double-strand breaks</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source>
+<volume>105</volume>:<fpage>11200</fpage>&#x2013;<lpage>11205</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0802885105</pub-id><pub-id pub-id-type="pmid">18678890</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib44">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yano</surname><given-names>K.</given-names></name><name><surname>Morotomi-Yano</surname><given-names>K.</given-names></name><name><surname>Wang</surname><given-names>S.Y.</given-names></name><name><surname>Uematsu</surname><given-names>N.</given-names></name><name><surname>Lee</surname><given-names>K.J.</given-names></name><name><surname>Asaithamby</surname><given-names>A.</given-names></name><name><surname>Weterings</surname><given-names>E.</given-names></name><name><surname>Chen</surname><given-names>D.J.</given-names></name></person-group>
+<year>2008</year>
+<article-title>Ku recruits XLF to DNA double-strand breaks</article-title>. <source>EMBO Rep.</source>
+<volume>9</volume>:<fpage>91</fpage>&#x2013;<lpage>96</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.embor.7401137</pub-id><pub-id pub-id-type="pmid">18064046</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib45">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>You</surname><given-names>Z.</given-names></name><name><surname>Chahwan</surname><given-names>C.</given-names></name><name><surname>Bailis</surname><given-names>J.</given-names></name><name><surname>Hunter</surname><given-names>T.</given-names></name><name><surname>Russell</surname><given-names>P.</given-names></name></person-group>
+<year>2005</year>
+<article-title>ATM activation and its recruitment to damaged DNA require binding to the C terminus of Nbs1</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>25</volume>:<fpage>5363</fpage>&#x2013;<lpage>5379</lpage>
+<pub-id pub-id-type="doi">10.1128/MCB.25.13.5363-5379.2005</pub-id><pub-id pub-id-type="pmid">15964794</pub-id></mixed-citation>
+      </ref>
+      <ref id="bib46">
+        <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Young</surname><given-names>D.B.</given-names></name><name><surname>Jonnalagadda</surname><given-names>J.</given-names></name><name><surname>Gatei</surname><given-names>M.</given-names></name><name><surname>Jans</surname><given-names>D.A.</given-names></name><name><surname>Meyn</surname><given-names>S.</given-names></name><name><surname>Khanna</surname><given-names>K.K.</given-names></name></person-group>
+<year>2005</year>
+<article-title>Identification of domains of ataxia-telangiectasia mutated required for nuclear localization and chromatin association</article-title>. <source>J. Biol. Chem.</source>
+<volume>280</volume>:<fpage>27587</fpage>&#x2013;<lpage>27594</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M411689200</pub-id><pub-id pub-id-type="pmid">15929992</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,3477 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Cell Biol</journal-id>
+      <journal-title>The Journal of Cell Biology</journal-title>
+      <issn pub-type="ppub">0021-9525</issn>
+      <issn pub-type="epub">1540-8140</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">10871282</article-id>
+      <article-id pub-id-type="pmc">2175135</article-id>
+      <article-id pub-id-type="publisher-id">9912088</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Coupling of Gab1 to C-Met, Grb2, and Shp2 Mediates Biological Responses</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schaeper</surname>
+            <given-names>Ute</given-names>
+          </name>
+          <address>
+            <addr-line>Max Delbr&#xFC;ck Center for Molecular Medicine Berlin-Buch, Robert R&#xF6;ssle Str. 10, 13092 Berlin, Germany.</addr-line>
+            <fax>49 30 9406 2656</fax>
+            <phone>49 30 9406 3810</phone>
+          </address>
+          <email>uschaep@mdc-berlin.de</email>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gehring</surname>
+            <given-names>Niels H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fuchs</surname>
+            <given-names>Klaus P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sachs</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kempkes</surname>
+            <given-names>Bettina</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Birchmeier</surname>
+            <given-names>Walter</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <aff id="a"><label>a</label>Max Delbr&#xFC;ck Center for Molecular Medicine, 13092 Berlin, Germany</aff>
+        <aff id="b"><label>b</label>Institute for Clinical Molecular Biology and Tumor Genetics, GSF Research Center for Environment and Health, 81377 Munich, Germany</aff>
+      </contrib-group>
+      <pub-date pub-type="ppub">
+        <day>26</day>
+        <month>6</month>
+        <year>2000</year>
+      </pub-date>
+      <volume>149</volume>
+      <issue>7</issue>
+      <fpage>1419</fpage>
+      <lpage>1432</lpage>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>12</month>
+          <year>1999</year>
+        </date>
+        <date date-type="rev-request">
+          <day>26</day>
+          <month>4</month>
+          <year>2000</year>
+        </date>
+        <date date-type="accepted">
+          <day>8</day>
+          <month>5</month>
+          <year>2000</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2000 The Rockefeller University Press</copyright-statement>
+        <copyright-year>2000</copyright-year>
+        <copyright-holder>The Rockefeller University Press</copyright-holder>
+      </permissions>
+      <abstract>
+        <p>Gab1 is a substrate of the receptor tyrosine kinase c-Met and involved in c-Met&#x2013;specific branching morphogenesis. It associates directly with c-Met via the c-Met&#x2013;binding domain, which is not related to known phosphotyrosine-binding domains. In addition, Gab1 is engaged in a constitutive complex with the adaptor protein Grb2. We have now mapped the c-Met and Grb2 interaction sites using reverse yeast two-hybrid technology. The c-Met&#x2013;binding site is localized to a 13&#x2013;amino acid region unique to Gab1. Insertion of this site into the Gab1-related protein p97/Gab2 was sufficient to confer c-Met&#x2013;binding activity. Association with Grb2 was mapped to two sites: a classical SH3-binding site (PXXP) and a novel Grb2 SH3 consensus-binding motif (PX(V/I)(D/N)RXXKP). To detect phosphorylation-dependent interactions of Gab1 with downstream substrates, we developed a modified yeast two-hybrid assay and identified PI(3)K, Shc, Shp2, and CRKL as interaction partners of Gab1. In a trk-met-Gab1&#x2013;specific branching morphogenesis assay, association of Gab1 with Shp2, but not PI(3)K, CRKL, or Shc was essential to induce a biological response in MDCK cells. Overexpression of a Gab1 mutant deficient in Shp2 interaction could also block HGF/SF-induced activation of the MAPK pathway, suggesting that Shp2 is critical for c-Met/Gab1-specific signaling.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Gab1</kwd>
+        <kwd>c-Met&#x2013;binding site</kwd>
+        <kwd>morphogenesis</kwd>
+        <kwd>Shp2</kwd>
+        <kwd>reverse yeast two-hybrid analysis</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Gab1, like the insulin receptor substrates (IRS), the FGF receptor substrate FRS-2/SNT1, and p62dok (downstream of kinases) family members, belongs to a newly identified group of docking proteins that function as specific substrates of tyrosine kinases (<xref ref-type="bib" rid="Sunetal1991">Sun et al. 1991</xref>, <xref ref-type="bib" rid="Sunetal1995">Sun et al. 1995</xref>; <xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Kouharaetal1997">Kouhara et al. 1997</xref>; <xref ref-type="bib" rid="Carpinoetal1997">Carpino et al. 1997</xref>; <xref ref-type="bib" rid="YamanashiandBaltimore1997">Yamanashi and Baltimore 1997</xref>; <xref ref-type="bib" rid="DiCristofanoetal1998">Di Cristofano et al. 1998</xref>; reviewed by <xref ref-type="bib" rid="PawsonandScott1997">Pawson and Scott 1997</xref>). These proteins are characterized by a NH<sub>2</sub>-terminal lipid-binding domain, like PH domain or NH<sub>2</sub>-terminal myristylation sequence, which mediate membrane targeting, and a central PTB-like domain that directs association with specific tyrosine kinases (<xref ref-type="bib" rid="Ecketal1996">Eck et al. 1996</xref>; <xref ref-type="bib" rid="JonesandDumont1998">Jones and Dumont 1998</xref>, <xref ref-type="bib" rid="JonesandDumont1999">Jones and Dumont 1999</xref>; <xref ref-type="bib" rid="Nelmsetal1998">Nelms et al. 1998</xref>; <xref ref-type="bib" rid="Meakinetal1999">Meakin et al. 1999</xref>; <xref ref-type="bib" rid="Xuetal1999">Xu et al. 1999</xref>). In addition, they contain multiple tyrosine residues that upon phosphorylation function as docking sites for SH2 domain containing signaling molecules.</p>
+      <p>Gab1 is a substrate of the receptor tyrosine kinase c-Met and involved in c-Met&#x2013;specific cell dissociation and branching morphogenesis (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>). It contains a NH<sub>2</sub>-terminal PH domain, but lacks a classical PTB domain (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>). Instead, it contains a novel phosphotyrosine recognition domain, initially called c-Met&#x2013;binding domain, MBD, which mediates direct association with the c-Met receptor (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). Gab1 binds to two sites of the cytoplasmic tail of c-Met, Y14 (Y1349) and to a lesser extent, Y15 (Y1356) (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>; <xref ref-type="bib" rid="Bardellietal1997">Bardelli et al. 1997</xref>). Y14 and Y15 constitute the so-called bivalent docking site of c-Met and associate with many signaling molecules besides Gab1, like PI(3)K, PLC-&#x3B3;, pp60 c-Src and Shc (<xref ref-type="bib" rid="Ponzettoetal1994">Ponzetto et al. 1994</xref>; <xref ref-type="bib" rid="Peliccietal1995">Pelicci et al. 1995</xref>; <xref ref-type="bib" rid="Fixmanetal1995">Fixman et al. 1995</xref>). In addition, Y15 can associate with Grb2 (<xref ref-type="bib" rid="Ponzettoetal1994">Ponzetto et al. 1994</xref>). Mutation of the Grb2 consensus binding site in c-Met impairs association with Grb2 and also with Gab1 (<xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>; <xref ref-type="bib" rid="Bardellietal1997">Bardelli et al. 1997</xref>). Gab1 forms a constitutive complex with Grb2. This interaction is mediated primarily via the COOH-terminal SH3 domain of Grb2 (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>; <xref ref-type="bib" rid="Fixmanetal1997">Fixman et al. 1997</xref>), leaving the SH2 domain free to bind activated c-Met. Thus, coupling by Grb2 may provide an alternative mechanism for recruitment of Gab1.</p>
+      <p>Genetic experiments in mice have shown that the multiple docking site is essential for c-Met function: mice expressing c-Met mutants in which both tyrosines of the multiple docking site are mutated to phenylalanine have a phenotype comparable to c-Met<sup>&#x2212;/&#x2212;</sup> mice (<xref ref-type="bib" rid="Bladtetal1995">Bladt et al. 1995</xref>; <xref ref-type="bib" rid="Mainaetal1996">Maina et al. 1996</xref>). These mice die around embryonic day 14 and are characterized by placenta and liver defects and retardation of muscle precursor cell migration to the limbs. Mice that carry mutations in the Grb2-binding site (Y1356VNV to 1356VHV) of c-Met develop to term but also show muscle defects. Similarly, it was shown by in vitro experiments that Y14 and Y15 of c-Met are required for c-Met&#x2013;specific branching morphogenesis of MDCK cells (<xref ref-type="bib" rid="Zhuetal1994">Zhu et al. 1994</xref>; <xref ref-type="bib" rid="Weidneretal1995">Weidner et al. 1995</xref>; <xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>).</p>
+      <p>In addition, Gab1 is involved in other signaling pathways. Gab1 overexpression enhances the transforming and growth promoting activities of activated EGF and insulin receptors and promotes NGF-stimulated survival of neuronal cells (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>, <xref ref-type="bib" rid="Holgado-Madrugaetal1997">Holgado-Madruga et al. 1997</xref>). Many extracellular stimuli like EGF, insulin, IL3, IL6, erythropoietin (Epo), as well as B cell receptor activation induce Gab1 phosphorylation and association with Shc, PI(3)K, PLC-&#x3B3;, Ship, and Shp2 (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>; <xref ref-type="bib" rid="Lecoq-Lafonetal1999">Lecoq-Lafon et al. 1999</xref>; <xref ref-type="bib" rid="Inghametal1998">Ingham et al. 1998</xref>; <xref ref-type="bib" rid="Rodriguesetal2000">Rodrigues et al. 2000</xref>). Association of Gab1 with PI(3)K has been shown to be important for prevention of apoptosis in response to NGF stimulation (<xref ref-type="bib" rid="Holgado-Madrugaetal1997">Holgado-Madruga et al. 1997</xref>). A Gab1 homologue, DOS (daughter of sevenless), has been identified in <italic>Drosophila</italic> (<xref ref-type="bib" rid="Herbstetal1996">Herbst et al. 1996</xref>; <xref ref-type="bib" rid="Raabeetal1996">Raabe et al. 1996</xref>). DOS interacts with the Shp2 homologue Corkscrew (CSW) and together with CSW is involved in signaling by the receptor tyrosine kinases Sevenless, Torso, and the <italic>Drosophila</italic> EGF receptor (DER). Genetically, DOS has been mapped downstream of Sevenless and upstream of Ras (<xref ref-type="bib" rid="Herbstetal1996">Herbst et al. 1996</xref>; <xref ref-type="bib" rid="Raabeetal1996">Raabe et al. 1996</xref>).</p>
+      <p>Here we have analyzed the interactions of Gab1 with c-Met, Grb2, and downstream signaling components. We show that a 13&#x2013;amino acid c-Met&#x2013;binding site, now called MBS, mediates direct association of Gab1 with c-Met. Tyrosine phosphorylation induces interaction of Gab1 with PI(3)K, Shc, Shp2 and CRKL. The Shp2-binding site is essential for c-Met&#x2013;induced branching morphogenesis activity and for activation of the MAPK pathway, implicating Shp2 as an important effector for c-Met/Gab1 signaling.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec>
+        <title>Plasmid Construction</title>
+        <p>Gab1 cDNAs encoding residues 416&#x2013;570 of Gab1 were generated by PCR and inserted into the prey vectors VP16 (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>) and pPC86-Cyh (<xref ref-type="bib" rid="Vidaletal1996b">Vidal et al. 1996b</xref>). Similarly, full-size cDNA of Grb2 was subcloned into the bait vectors pCF87-Cyh2 and BTM116 (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>) using Sal1 and Sma1 or EcoR1 and Sal1 sites, respectively. The cytoplasmic domain of c-Met was subcloned into the bait vector pCF87-Cyh2 by a similar strategy (<xref ref-type="bib" rid="ChevrayandNathans1992">Chevray and Nathans 1992</xref>). The bait vectors BTM-c-Met and BTM-c-MetK- have been described (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). Gab1 mutations identified in the two-hybrid screens were inserted into full-size Gab1 cDNAs (pBat-FlagGab1 or VP16-Gab1, <xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>) taking advantage of internal Bgl2 sites of Gab1 cDNA. Additional point mutations or small deletions (&#x394;341-348) were introduced into the Gab1 cDNA by site-directed mutagenesis using a commercial kit (CLONTECH Laboratories, Inc.) or by PCR using oligonucleotide primers containing respective base substitutions. The Gab1 mutant &#x394;CBR was constructed in two steps: A DNA fragment (Not1-Sal1) encoding residues 411&#x2013;695 of Gab1 was inserted into the pBatFlag and VP16 vector. NH<sub>2</sub>-terminal coding sequences, residues 1&#x2013;241 or 116&#x2013;241 (&#x394;PH) were subsequently inserted into the Not1 sites of these constructs. BTM-tpr-met-control (lacking the multiple docking site of Met) was constructed by inserting a PCR fragment encoding residues 1&#x2013;479 of tpr-met plus a nested Not1 site into the EcoR1 site of BTM116 (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). Wild-type and mutant Gab1 cDNA fragments were inserted into the Not1 and Sal1 sites of BTM-tpr-met-control, generating various BTM-tpr-met-Gab1 bait vectors. pcDNA-trk-met-Gab1 expression vectors were constructed similarly: trk-met cDNA (<xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>) encoding the extracellular domain of trk and only the kinase domain of c-Met plus an internal Not1 site was inserted into Xho1 and EcoR1 sites of pcDNA3.1mycB vector (Invitrogen). Gab1 cDNA fragments were then subcloned into Not1 and Kpn1 sites of pcDNAtrk-met-control in frame with the myc epitope-tag at its 3&#x2032; end. P97/Gab2 cDNA was obtained from H. Gu and B.G. Neel (Harvard Medical School, Boston, MA) and inserted into the pBatFlag expression vector. P97+MBS was generated by overlapping PCR (<xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>) using a combination of internal primers encoding the MBS of Gab1 (see <xref ref-type="fig" rid="F2">Fig. 2</xref> A) and external primers specific for p97/Gab2.</p>
+      </sec>
+      <sec>
+        <title>Random Mutagenesis and Reverse Two-Hybrid Screens</title>
+        <p>Random mutagenesis of Gab1 cDNAs was carried out by PCR using Taq polymererase in the presence of 50, 100, or 200 &#x3BC;M Mn<sup>2+</sup>, 50 &#x3BC;M dNTP, and pPC-Gab416-570 or VP16-Gab416-570 as template. PCR products were incorporated into appropriate prey vectors by gap repair in yeast (<xref ref-type="bib" rid="Mulhardetal1992">Mulhard et al. 1992</xref>). Mutations that dissociate interactions with c-Met were identified by reverse two-hybrid analysis (<xref ref-type="bib" rid="Vidaletal1996a">Vidal et al. 1996a</xref>). In brief, the yeast strain MaV103a was cotransformed with pCF87-c-Met, the PCR products and linearized pPC86 plasmid vector for recombination. Transformants were selected against c-Met binding by replica plating on selective plates containing 0.2% (wt/vol) fluoroorotic acid (FOA). Yeast clones expressing noninteracting cDNA clones were isolated and mated with MAV103&#x3B1; strain transformed with pCF87-Grb2. Cell clones were selected for positive interaction with Grb2 by growth on minimal plates lacking histidine in the presence of 50 mM 3-amino-1, 2, 4, triazole (3-AT). cDNAs were recovered (<xref ref-type="bib" rid="Lingetal1995">Ling et al. 1995</xref>) and the phenotype confirmed by retransformation of yeast with c-Met and Grb2 baits. Gab1 mutants defective for Grb2 interaction were identified by blue-white color screening (<xref ref-type="bib" rid="LiandFields1993">Li and Fields 1993</xref>) using the yeast strain L40 (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>) transformed with BTM-Grb2. After cotransformation of the Gab1 mutant cDNA plus linearized VP16 prey vector (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>), yeast colonies were replica-plated onto selective plates containing 80 &#x3BC;g/ml 5-bromo-4-chloro-3-indolyl-&#x3B2;-<sc>d</sc>-galactopyranoside (X-gal). Gab1 cDNAs were recovered from white yeast colonies and subsequently tested for yeast two-hybrid interaction with BTM-c-Met. Interactions were quantified by &#x3B2;-galactosidase liquid assay using <italic>O</italic>-nitrophenyl &#x3B2;-<sc>d</sc>-galactopyranoside (ONPG) as a substrate (<xref ref-type="bib" rid="Chienetal1991">Chien et al. 1991</xref>).</p>
+      </sec>
+      <sec>
+        <title>Antibodies, Immunoprecipitation, Western Blotting</title>
+        <p>Anti-Gab1 serum was raised against residues 391&#x2013;532 of Gab1 and affinity purified. Antibodies against c-Met and CRKL were purchased from Santa Cruz Biotechnology Inc., anti-p85 PI(3)K, anti-Crk, anti-Shp2, and anti-phosphotyrosine antibodies were obtained from Transduction Laboratories, and anti-HA antibodies were purchased from Boehringer. Anti-active MAPK serum (pErk) was obtained from Promega. 293 cells were seeded at 1 &#xD7; 10<sup>6</sup> cells per 10-cm dish and transfected the following day by standard Ca/PO4 precipitation method (<xref ref-type="bib" rid="Ausubeletal1992">Ausubel et al. 1992</xref>). 2 d posttransfection, cells were starved in serum-free medium for 1 h and with 50 U recombinant HGF/SF (<xref ref-type="bib" rid="Weidneretal1993">Weidner et al. 1993</xref>) in the presence of 10 mM phenyl-arsenine-oxide. After washing with PBS, proteins were solubilized in lysis buffer (150 mM NaCl, 1 mM EDTA, 50 mM Hepes, pH 7.5, 1% Triton X-100, 10% glycerol) supplemented with 100 mM NaF, 1 mM sodium orthovanadate, sodium pyrophosphate, and 1 mM PMSF. Proteins were precipitated with anti-Flag affinitiy agarose gel (Sigma-Aldrich), resolved by SDS-PAGE, and transferred to nitrocellulose membranes. Membranes were blocked for 1 h with 5% dry milk in PBS containing 0.1% Tween 20 (PBST) or 10% FCS in PBST (for anti-phosphotyrosine detection) followed by incubation with primary antibody diluted in blocking buffer. After washing in PBST, blots were incubated with horseradish peroxidase conjugated anti-mouse secondary antibody (Jackson ImmunoResearch Laboratories) or anti-rabbit secondary antibody (Calbiochem-Novabiochem) and developed with a chemiluminescent detection system (Amersham Pharmacia Biotech).</p>
+      </sec>
+      <sec>
+        <title>Branching Morphogenesis Assay</title>
+        <p>MDCK cells were transfected with trk-met-Gab1 expression plasmids and selected for neomycin resistance in the presence of 800 &#x3BC;g/ml G418. Individual cell clones were expanded and seeded in collagen matrix containing DME and 10% FCS, as previously described (<xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>). Branching morphogenesis was induced by addition of NGF (100 ng/ml) or HGF/SF (50 U/ml) every 2 d. After 5&#x2013;7 d of culture, cells were fixed with 0.1% glutaraldehyde in PBS and photographed using a light microscope with interference optic.</p>
+      </sec>
+      <sec>
+        <title>Elk1 Transactivation Reporter Assay</title>
+        <p>293 cells seeded in 6-well dishes were transfected with pBat-Flag-Gab1 expression plasmids, pFA2-Elk1, pFR-Luc (Stratagene) and pSV40 LacZ expression vector. 2 d after transfection, cells were stimulated with HGF/SF (50 U/ml) for 5 h. Cells were resuspended in PBS and lysed by three freeze and thaw cycles. The extract was analyzed for &#x3B2;-galactosidase and luciferase activity using ONPG and luciferin as suggested by the manufacturer of the kit (Stratagene).</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Gab1 Contains Separate Binding Sites for c-Met and Grb2</title>
+        <p>We and others have previously shown that Gab1 can associate directly with the c-Met receptor tyrosine kinase (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Bardellietal1997">Bardelli et al. 1997</xref>; <xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>). By deletion analysis, we had located the MBD of Gab1 to an 83&#x2013;amino acid region in the central region of Gab1, residues 450&#x2013;532. This interaction is dependent on c-Met phosphorylation. However, significant sequence homology of the MBD to other known phosphotyrosine-binding modules was not detected. In addition to c-Met association, we found that the MBD of Gab1 is also sufficient to interact with Grb2 (see also <xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>).</p>
+        <p>To define the c-Met&#x2013;binding site of Gab1 and to separate the c-Met from Grb2&#x2013;binding function, we carried out a Gab1 mutant screen by reverse yeast two-hybrid analysis (<xref ref-type="bib" rid="Vidaletal1996a">Vidal et al. 1996a</xref>). Gab1 cDNA encoding the initially defined c-Met&#x2013;binding domain plus adjacent amino acids, position 416&#x2013;570, was mutated randomly via PCR and tested for two-hybrid interactions with c-Met and Grb2. cDNA clones that displayed reduced interaction with c-Met but not Grb2, and vice versa, were selected and analyzed for mutations in the Gab1 coding region. 17 single point mutants with reduced binding properties to c-Met and 4 point mutations with reduced Grb2 association were identified by this method (<xref ref-type="fig" rid="F1">Fig. 1</xref> A). Additional mutations in this region were generated by site-directed mutagenesis and also included in the analyses (depicted in italics in <xref ref-type="fig" rid="F1">Fig. 1</xref>). Altogether we identified 18 point mutations that interfered with c-Met binding. All of these were localized in a 13&#x2013;amino acid region, amino acids 487&#x2013;499, marked black in <xref ref-type="fig" rid="F1">Fig. 1</xref> A. In contrast, all of the 7 point mutations that interfered with Grb2 association mapped to a different region, amino acids 518&#x2013;526, marked in gray. All mutants represented in <xref ref-type="fig" rid="F1">Fig. 1</xref> displayed reduced interaction, &lt;10%, with one binding partner, while association with the other binding partner was little affected, with at least 80% interaction remaining. Therefore, we presume that these mutations do not or only locally disturb the structural integrity of Gab1. Rather the different locations of these mutations reveal direct contact sites for protein&#x2013;protein interactions, the c-Met&#x2013;binding site, now called the MBS, at residues 487&#x2013;499, and the Grb2-binding site, GBS1, at residues 518&#x2013;526.</p>
+        <p>The c-Met&#x2013;binding site of Gab1 appears to be unique, since we did not detect homologous sequences in the gene bank data base using Blast analysis programs (<xref ref-type="bib" rid="Altschuletal1990">Altschul et al. 1990</xref>). The GBS1 constitutes a novel Grb2 interaction motif, since it lacks the PXXP sequence which is found in most known Grb2 SH3 and other SH3 domain&#x2013;binding sites (<xref ref-type="bib" rid="Fengetal1994">Feng et al. 1994</xref>). A Blast search of the GBS1 peptide identified homologous sequences in the Gab1-related proteins p97/Gab2, <italic>Drosophila</italic> DOS and <italic>C</italic>. <italic>elegans</italic> F41F3.2 as well as in the T and B cell linker proteins SLP-76 and BLNK (<xref ref-type="fig" rid="F1">Fig. 1</xref> B). The latter two are known to interact with Grb2 (<xref ref-type="bib" rid="Jackmanetal1995">Jackman et al. 1995</xref>; <xref ref-type="bib" rid="Fuetal1998">Fu et al. 1998</xref>). The Grb2-binding site of SLP-76 has been mapped to a 20&#x2013;amino acid region, amino acids 224&#x2013;244 (<xref ref-type="bib" rid="Mottoetal1996">Motto et al. 1996</xref>), which encompasses a peptide sequence homologous to the GBS1 of Gab1 (<xref ref-type="fig" rid="F1">Fig. 1</xref> B). When we exchanged the GBS1 of Gab1, PPVDRNLKP, with the corresponding sequence of SLP-76, PSIDRSTKP, we found that this hybrid construct bound Grb2 with similar strength compared with native Gab1 fragment (data not shown), suggesting that the SLP-76 derived peptide can also function as Grb2-binding site. From the alignment of GBS1 homologous sequences and the results of the Gab1 mutant analyses (<xref ref-type="fig" rid="F1">Fig. 1a</xref> and <xref ref-type="fig" rid="F1">Fig. b</xref>), the following novel Grb2 consensus-binding sequence can be deduced, PX(V/I)(D/N)RXXKP.</p>
+        <p>Previous mutant analyses were carried out with Gab1 cDNA encoding residues 416&#x2013;570 of Gab1. To assess, if Gab1 contains additional binding sites for c-Met or Grb2 outside this region, we introduced the mutations of the MBS (V490A) or GBS1(L524P) into the full-size cDNA of Gab1 (<xref ref-type="fig" rid="F1">Fig. 1</xref> C). Similar to the shorter Gab1 fragment used in the screen, c-Met binding of the full-size Gab1 mutant V490A (&#x394;c-Met) was reduced to &lt;5% compared with wild-type Gab1 (<xref ref-type="fig" rid="F1">Fig. 1</xref> C). This association requires c-Met phosphorylation, since no significant association with kinase-inactive c-Met mutant was detected (c-MetK-, <xref ref-type="fig" rid="F1">Fig. 1</xref> C; <xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). However, the GBS1 mutation L524P had only a moderate effect on the interaction of full-size Gab1 with Grb2, &#x223C;50% reduction. A proline-rich sequence PPPRPPKP, residues 341&#x2013;348, is located NH<sub>2</sub>-terminally and resembles the Grb2-binding sites of Sos (GBS2 in <xref ref-type="fig" rid="F1">Fig. 1</xref> B; <xref ref-type="bib" rid="Fengetal1994">Feng et al. 1994</xref>). Deletion of this sequence in addition to the L524P mutation (&#x394;Grb2) abrogates association with Grb2, while interaction with c-Met is little affected (<xref ref-type="fig" rid="F1">Fig. 1</xref> C). These results demonstrate that Gab1 contains two Grb2-binding sites: a novel binding site, the GBS1, and a classical SH3-binding site, the GBS2. Both sites do not overlap with the c-Met&#x2013;binding site, MBS.</p>
+      </sec>
+      <sec>
+        <title>In Vivo Interaction of Gab1 with c-Met and Grb2</title>
+        <p>Direct interaction of Gab1 with c-Met requires Y14 (Y1349) of c-Met (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). Y15 (Y1356) has also been shown to be important for association of c-Met with Gab1 (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Bardellietal1997">Bardelli et al. 1997</xref>; <xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>). Since Grb2 can bind to Y15 of c-Met via its SH2 domain and to Gab1 via its SH3 domains (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Fixmanetal1997">Fixman et al. 1997</xref>), Grb2 could stabilize the Gab1-c-Met interaction in vivo by forming a triple complex with c-Met and Gab1. To assess the contribution of Grb2 for Gab1-c-Met association in cells, we carried out immunoprecipitation analyses using the newly identified mutants: 293 human kidney epithelial cells were transfected with plasmid vectors expressing Flag epitope-tagged Gab1 proteins and HA epitope-tagged Grb2. After stimulation of endogenous c-Met with HGF/SF, Gab1 and its mutant proteins were precipitated with anti-Flag antibodies and immune complexes analyzed by Western blotting (<xref ref-type="fig" rid="F1">Fig. 1</xref> D). Interaction of Gab1 with c-Met is abrogated by the MBS mutation (&#x394;c-Met), while the Gab1 mutant which lacks both Grb2 association sites (&#x394;Grb2) can still bind c-Met, even though at a reduced strength compared with wild-type Gab1. Grb2 association with Gab1 was not affected by the V490A mutation in the MBS (&#x394;c-Met), but impaired by mutation of the two Grb2-binding sites (&#x394;Grb2). These results demonstrate that in cells association of Gab1 with c-Met depends on direct interaction via its MBS, while Grb2 binding may add to the strength of the interaction.</p>
+      </sec>
+      <sec>
+        <title>The c-Met&#x2013;binding Site of Gab1 Confers c-Met Association to p97/Gab2</title>
+        <p>Recently, p97/Gab2 was identified as a docking protein that is most closely related to Gab1 (<xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>; <xref ref-type="bib" rid="Nishidaetal1999">Nishida et al. 1999</xref>; <xref ref-type="bib" rid="Zhaoetal1999">Zhao et al. 1999</xref>). The amino acid sequence displays 73% identity in the PH domain and 37% overall similarity with Gab1. The Grb2-binding sites (<xref ref-type="fig" rid="F1">Fig. 1</xref> B) as well as consensus binding sites for PI(3)K, Shp2, and Crk are conserved, but sequences homologous to the MBS of Gab1 are not present in p97/Gab2 (<xref ref-type="fig" rid="F2">Fig. 2</xref> A). Yeast two-hybrid analyses confirmed that p97/Gab2 binds Grb2, even though somewhat weaker than Gab1, but it does not directly associate with c-Met (data not shown). To test, if the MBS of Gab1 was responsible for mediating c-Met binding, we inserted the MBS of Gab1 plus flanking sequences, residues 484&#x2013;499, into the corresponding region of p97/Gab2 cDNA (<xref ref-type="fig" rid="F2">Fig. 2</xref> A) and expressed this hybrid protein in 293 cells. Wild-type p97/Gab2 prepared from HGF/SF activated cell extract did not associate with c-Met, but the p97 hybrid containing the MBS of Gab1 did (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). This shows that the MBS of Gab1 is necessary and that it mediates the interaction with c-Met. Grb2 could also be detected in p97/Gab2 precipitatations, but the interaction with p97/Gab2 is weaker than with Gab1 or the p97/Gab1 hybrid.</p>
+      </sec>
+      <sec>
+        <title>Interaction of Gab1 with Downstream Signaling Molecules</title>
+        <p>Gab1 has the structure of a docking protein and contains 21 tyrosine residues that upon phosphorylation could function as docking sites for signaling molecules (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). Stimulation with growth factors like HGF/SF, EGF, insulin, or interleukins IL3, IL6, and Epo induces tyrosine phosphorylation of Gab1 and association with PI(3)K, PLC-&#x3B3;, Shc and Shp2 (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>; <xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>; <xref ref-type="bib" rid="Lecoq-Lafonetal1999">Lecoq-Lafon et al. 1999</xref>).</p>
+        <p>To map the interaction sites of known Gab1-binding partners and to identify potential new interaction partners of Gab1, we developed a modified yeast two-hybrid assay that detects phosphorylation-dependent interactions of kinase substrates (<xref ref-type="fig" rid="F3">Fig. 3</xref> A). Tpr-met is an oncogenic derivative of c-Met and encodes the kinase domain of c-Met in frame with a leucin-zipper dimerization domain derived from a different gene locus (<xref ref-type="bib" rid="Parketal1986">Park et al. 1986</xref>). Because of its acquired dimerization domain, tpr-met is constitutively active in mammalian cells as well as in yeast (<xref ref-type="bib" rid="RodriguesandPark1993">Rodrigues and Park 1993</xref>, and data not shown). While substrates are usually recruited through binding to the multiple docking site of c-Met, we found that Gab1 fused COOH-terminally to the kinase domain of tpr-met, which lacks the multiple docking site, is also efficiently phosphorylated (data not shown). Thus, a bait vector expressing LexA DNA binding and dimerization domain in frame with a tpr-met-Gab1 cDNA interacts with SH2 domains of PI(3)K, PLC-&#x3B3;, and Shc (<xref ref-type="fig" rid="F3">Fig. 3</xref> A). These interactions were specific for Gab1, since the kinase domain of tpr-met lacking the multiple docking site is largely insufficient to mediate the interactions. The tpr-met-Gab1 fusion protein was then used as a bait for extensive yeast two-hybrid screening of a mouse E10 expression library (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). By this method, we isolated several cDNA clones encoding the COOH-terminal SH2 domain of p85&#x3B1; or p85&#x3B2; PI(3)K and, as newly identified partners, cDNA clones encoding SH2 domains of the adaptor proteins Crk and CRKL (<xref ref-type="fig" rid="F3">Fig. 3</xref> A, and data not shown). Previously identified Gab1-binding proteins, PI(3)K, PLC-&#x3B3;, Shp2, and Shc, associate also directly with c-Met (<xref ref-type="bib" rid="Ponzettoetal1994">Ponzetto et al. 1994</xref>; <xref ref-type="bib" rid="Peliccietal1995">Pelicci et al. 1995</xref>; <xref ref-type="bib" rid="Fixmanetal1996">Fixman et al. 1996</xref>). CRKL does not bind c-Met directly, but can be recruited specifically by Gab1 (<xref ref-type="fig" rid="F3">Fig. 3</xref> A).</p>
+      </sec>
+      <sec>
+        <title>Interactions of Gab1 with Substrates Are Phosphorylation Dependent</title>
+        <p>To confirm that the interactions of Gab1 with the substrates, including CRKL, were dependent on Gab1 phosphorylation, we examined these interactions in mammalian cells after HGF/SF stimulation. Flag epitope-tagged Gab1 was precipitated from transiently transfected 293 cells and detected by Western blotting using an anti-phosphotyrosine monoclonal antibody (<xref ref-type="fig" rid="F3">Fig. 3</xref> B). In the absence of HGF/SF, a basal level of Gab1 phosphorylation was detected, but the level increased to a maximum of about fourfold after 5&#x2013;10 min of HGF/SF stimulation. Concomitant with the increase in Gab1 phosphorylation, binding of CRKL, Shp2, and the p85 subunit of PI(3)K was enhanced, suggesting that these interactions are phosphorylation dependent. Even though Crk and CRKL were both found in the screen, only CRKL immunoprecipitated efficiently with Gab1. Therefore, it appears that from the Crk family of proteins, CRKL is the major association partner of Gab1.</p>
+      </sec>
+      <sec>
+        <title>Binding Sites of Gab1 to Various Interaction Partners</title>
+        <p>The binding sites of Gab1 interacting molecules were mapped by yeast two-hybrid as well as biochemical analyses, using a combination of deletion and point mutants. In the yeast two-hybrid assay, deletion of the PH domain (&#x394;PH) slightly enhanced the binding activity of Gab1 with several partners. Therefore, we introduced subsequent mutations into the &#x394;PH background (<xref ref-type="fig" rid="F4">Fig. 4</xref> A). Six consensus binding sites for Crk/CRKL (YXXP) are clustered between residues 242&#x2013;410, the CRKL-binding region (CBR) of Gab1 (<xref ref-type="bib" rid="Songyangetal1993">Songyang et al. 1993</xref>; <xref ref-type="bib" rid="Sakkabetal2000">Sakkab et al. 2000</xref>). Binding of CRKL was not significantly reduced by mutations of individual tyrosine residues of the CBR (data not shown), but deletion of the NH<sub>2</sub> terminus of Gab1, residues 1&#x2013;449 (Gab1Cter) or just the CBR, amino acids 242&#x2013;410 (&#x394;CBR), diminished interaction with CRKL, suggesting that all CRKL-binding sites are located in the CBR. The Shc interaction site was also localized to the NH<sub>2</sub>-terminal part of Gab1, but it maps outside the CRKL-binding region, since Shc could still bind to the Gab1 mutant &#x394;CBR which lacks this region. Shp2 interacts with the consensus binding site at Y628 in the COOH-terminal part of Gab1, since mutation of Y628 to phenylalanine (&#x394;Shp2) blocks association with Shp2 (<xref ref-type="fig" rid="F4">Fig. 4</xref> A; <xref ref-type="bib" rid="Rocchietal1998">Rocchi et al. 1998</xref>). The interaction of Shp2 with the Gab1Cter construct was about fivefold stronger than with Gab1&#x394;PH. In yeast, tyrosine phosphorylation of tpr-met-Gab1Cter is much stronger than of the longer baits, tpr-met-Gab1 or tpr-met-Gab1 &#x394;PH (data not shown). Therefore, it is likely, that the enhanced Shp2 association by Gab1Cter bait is due to more efficient phosphorylation of the Shp2-binding site of this construct. Similarly, p85 PI(3)K interacts stronger with Gab1Cter than with the longer Gab1&#x394;PH construct. Gab1 contains three consensus binding sites for PI(3)K: at Y448, Y473 and Y590 (<xref ref-type="bib" rid="Holgado-Madrugaetal1997">Holgado-Madruga et al. 1997</xref>). Mutation of all three tyrosines to phenylalanine in Gab1 &#x394;PH (&#x394;PI(3)K) reduces yeast two-hybrid interaction by only &#x223C;50%. Thus additional binding sites for PI(3)K must exist. Mutation of the PI(3)K consensus binding sites in Gab1Cter reduced the interaction to &#x223C;25% compared with Gab1Cter (<xref ref-type="fig" rid="F4">Fig. 4</xref> A). Similar results were obtained when interactions were analyzed in mammalian expression systems: Gab1 mutant proteins were transiently expressed in 293 cells and precipitated after stimulation with HGF/SF. Western blots were probed sequentially with antibodies against CRKL, p85, Shp2, and Gab1 (<xref ref-type="fig" rid="F4">Fig. 4</xref> B). The PH domain of Gab1 has been shown to be able to bind phospholipids and is important for membrane targeting (<xref ref-type="bib" rid="Isakoffetal1998">Isakoff et al. 1998</xref>; <xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>). However, deletion of the PH domain (&#x394;PH) did not reduce the HGF/SF-induced association with Shp2, CRKL, or PI(3)K (<xref ref-type="fig" rid="F4">Fig. 4</xref> B). CRKL binding was abrogated in the Gab1 mutants expressing only the COOH terminus of Gab1 (Gab1Cter) and strongly reduced in the mutant lacking the CRKL-binding region (&#x394;CBR), while Shp2 can also associate with the COOH terminus of Gab1, but requires Y628 which is mutated in Gab1&#x394;Shp2. As we had observed by yeast two-hybrid analysis, the Gab1 mutant &#x394;PI(3)K which carries mutations in all three PI(3)K consensus binding sites, can still associate with the p85 subunit of PI(3)K, even though less strongly than wild-type Gab1 (<xref ref-type="fig" rid="F4">Fig. 4</xref> B). PI(3)K associates also efficiently with Gab1Cter lacking amino acids 1&#x2013;449, but this interaction is strongly reduced by mutation of the remaining PI(3)K consensus binding sites, Y473 and Y590 (Cter&#x394;PI(3)K) (<xref ref-type="fig" rid="F4">Fig. 4</xref> B).</p>
+      </sec>
+      <sec>
+        <title>Gab1 Can Substitute for the Multiple Substrate Binding Domain of c-Met and Induce Branching Morphogenesis of MDCK Cells</title>
+        <p>c-Met associates with many signaling molecules including Gab1 via the multiple docking site (Y14/Y15) at its COOH terminus. This multiple docking site is essential for c-Met function in vitro and in vivo (<xref ref-type="bib" rid="Ponzettoetal1994">Ponzetto et al. 1994</xref>, <xref ref-type="bib" rid="Ponzettoetal1996">Ponzetto et al. 1996</xref>; <xref ref-type="bib" rid="Fixmanetal1995">Fixman et al. 1995</xref>, <xref ref-type="bib" rid="Fixmanetal1996">Fixman et al. 1996</xref>; <xref ref-type="bib" rid="Weidneretal1995">Weidner et al. 1995</xref>; <xref ref-type="bib" rid="Mainaetal1996">Maina et al. 1996</xref>). Using chimeric receptors expressing the extracellular domain of Trk and the intracellular domain of c-Met or Trk plus the multiple docking site of c-Met, we had determined that these docking sites are essential to elicit a branching morphogenesis program in MDCK cells (<xref ref-type="bib" rid="Weidneretal1995">Weidner et al. 1995</xref>; <xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>). To test if Gab1 is sufficient to mediate c-Met&#x2013;specific signals, we substituted the cytoplasmic tail of the trk-met construct with Gab1 sequences. When stimulated with NGF, the trk-met-Gab1 hybrid receptor, but not trk-met lacking the cytoplasmic tail, associates with CRKL, Shp2 and PI(3)K (<xref ref-type="fig" rid="F5">Fig. 5</xref> A). Trk-met-Gab1Cter expressing trk-met plus only the COOH-terminal coding sequences of Gab1, residues 450&#x2013;695, does not bind CRKL, but can still associate with Shp2 and PI(3)K. The associations of Shp2 and PI(3)K depend on Y628 or Y473 and Y590 which are mutated in trk-met-Cter&#x394;Shp2 and trk-met-Cter&#x394;PI(3)K, respectively (<xref ref-type="fig" rid="F5">Fig. 5</xref> A). This suggests that Gab1 expressed in this hybrid form is efficiently phosphorylated and associates with signaling molecules similar to Gab1 proteins stimulated by activated c-Met.</p>
+        <p>To test for branching morphogenesis activity, we transfected trk-met-Gab expression vectors into MDCK cells. Stable cell clones expressing trk-met-Gab1 encoding just the COOH terminus of Gab1 (trk-met-Gab1Cter) form branching tubules in collagen matrix when stimulated with NGF (<xref ref-type="fig" rid="F5">Fig. 5</xref> B). A trk-met construct lacking the c-Met docking site sequences (trk-met-control) did not induce branching tubuli. This suggests, that the COOH-terminal region of Gab1, residues 450&#x2013;695, can complement for the function of the multiple docking site of c-Met. The COOH terminus of Gab1 associates with PI(3)K and Shp2. To determine if these interactions are essential for branching morphogenesis, we tested trk-met-Gab1Cter constructs in which PI(3)K-binding sites (&#x394;PI(3)K) or Shp2-binding sites (&#x394;Shp2) were mutated to phenylalanine. Trk-met-Cter&#x394;PI(3)K was still capable of inducing branching morphogenesis of MDCK cells, while mutation of the Shp2-binding site abolished this activity (<xref ref-type="fig" rid="F5">Fig. 5</xref> B). This suggests that Shp2, but not PI(3)K-binding sites are essential for branching morphogenesis activity.</p>
+        <p>It has been shown previously that PI(3)K as well as MAPK pathways are required for branching morphogenesis activity (<xref ref-type="bib" rid="Khwajaetal1998">Khwaja et al. 1998</xref>): for instance, the PI(3)K inhibitor LY294002 or the MEK kinase inhibitor PD98059 each blocked tubules formation of MDCK cells induced by HGF/SF. Even though overexpression of constitutively active p110 subunit of PI(3)K was sufficient to induce branching tubules of MDCK cells, this activity was blocked by MEK kinase inhibitors, suggesting that MAPK is activated and also critical for this process.</p>
+        <p>Shp2 has been linked to activation of MAPK pathway by several growth factors, like insulin, FGF, EGF, and IL3 and also activation of the Elk1 transcription factor, a substrate of MAPK and SAPK (<xref ref-type="bib" rid="MilarskiandSaltiel1994">Milarski and Saltiel 1994</xref>; <xref ref-type="bib" rid="Noguchietal1994">Noguchi et al. 1994</xref>; <xref ref-type="bib" rid="Tangetal1995">Tang et al. 1995</xref>; <xref ref-type="bib" rid="Bennettetal1996">Bennett et al. 1996</xref>; <xref ref-type="bib" rid="Saxtonetal1997">Saxton et al. 1997</xref>; <xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>; <xref ref-type="bib" rid="Hadarietal1998">Hadari et al. 1998</xref>). To test if Gab1-Shp2 association was involved in HGF/SF-stimulated Elk1 transactivation, we carried out transient reporter assays: 293 cells were cotransfected with expression plasmids for Gal4-Elk1 fusion protein and luciferase reporter under control of a Gal4 promoter element (<xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>). Stimulation of the cells with HGF/SF results in Elk1 phosphorylation and about 10-fold activation of Gal4-Elk driven reporter gene (<xref ref-type="fig" rid="F6">Fig. 6</xref> A). Coexpression of the Gab1 mutant &#x394;Shp2 (Y628F), which lacks the Shp2-binding site, strongly reduced HGF/SF-dependent transactivation of Elk1. Expression of Gab1 proteins was evaluated by Western blotting of the cell lysates (<xref ref-type="fig" rid="F6">Fig. 6</xref> A). Wild-type Gab1 or Gab1 mutant &#x394;PI(3)K were expressed at levels comparable to Gab&#x394;Shp2, but did not have a significant effect on basal or HGF/SF-stimulated Elk1 transactivation. Overexpression of catalytically inactive Shp2 mutants Shp2&#x394;P or Shp2CS attenuated Elk1-dependent reporter gene activity (<xref ref-type="fig" rid="F6">Fig. 6</xref> B). We also monitored the activation status of the MAPK Erk2 in response to HGF/SF by Western blotting using antibodies that recognize specifically the phorphorylated form of Erk2 (<xref ref-type="fig" rid="F6">Fig. 6</xref> C). Phosphorylation of Erk2 was strongest after 10 min of HGF/SF stimulation and reduced by overexpression of the Gab1 mutant &#x394;Shp2. It is assumed that the transfected Gab1 mutant proteins compete with endogenous Gab1 as well as other c-Met substrates for binding to the multiple docking site of activated c-Met receptor. Without the Shp2-binding site, Gab1 is unable to transmit the c-Met&#x2013;induced MAPK phosphorylation and Elk1 activation, implicating Shp2 in the transduction of Gab1-dependent signals.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Gab1 is a specific intracellular substrate of the receptor tyrosine kinase c-Met and involved in c-Met&#x2013;specific signaling pathways induced by HGF/SF. In this work, we analyzed the interaction of Gab1 with the c-Met receptor and examined its association with downstream targets induced by Gab1 phosphorylation. Interaction with c-Met is mediated via a unique phosphotyrosyl interaction site, the 13&#x2013;amino acid c-Met&#x2013;binding site MBS. Upon stimulation with HGF/SF, Gab1 is phosphorylated by c-Met and associates with the signaling molecules PI(3)K, Shp2, PLC-&#x3B3;, Shc (H&#x3BF;lgado-Madruga et al., 1996; <xref ref-type="bib" rid="Inghametal1998">Ingham et al. 1998</xref>; <xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>; <xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>), and the newly identified interaction partner, CRKL. By using a trk-met-Gab1 hybrid, we found that association of Gab1 with Shp2, but not PI(3)K or CRKL is essential for c-Met-Gab1&#x2013;induced branching morphogenesis activity. This is direct evidence that Gab1 is sufficient to mediate c-Met specific signals in cultured cells. A fundamental role of Gab1 for c-Met&#x2013;specific signaling is supported by recent gene ablation experiments in the mouse: Gab1<sup>&#x2212;/&#x2212;</sup> embryos display reduced liver size, placental defects and are characterized by strongly reduced and delayed migration of myogenic precursor cells into the limbs (Sachs, M., H. Brohmann, D. Zechner, T. M&#xFC;ller, J. H&#xFC;lsken, U. Schaeper, C. Birchmeier, and W. Birchmeier, manuscript submitted for publication), a phenotype reminiscent of HGF/SF<sup>&#x2212;/&#x2212;</sup>and c-Met<sup>&#x2212;/&#x2212;</sup> mutant embryos (<xref ref-type="bib" rid="Bladtetal1995">Bladt et al. 1995</xref>).</p>
+      <p>The c-Met&#x2013;binding site of Gab1 was identified genetically by reverse yeast two-hybrid technology (<xref ref-type="bib" rid="Vidaletal1996a">Vidal et al. 1996a</xref>): by using a double selection protocol to screen Gab1 mutants against c-Met association, but for Grb2 binding, we enriched for mutations that interfered with c-Met association, but not with other protein functions. The positions of single point mutations that reduce c-Met association define the MBS, residues 487&#x2013;499 of Gab1. Most likely, the MBS is the site of direct contact with c-Met, since insertion of the MBS confers c-Met&#x2013;binding activity to p97/Gab2. Additional residues within the MBD or the homologous region of p97/Gab2 are also required to form a functional c-Met&#x2013;binding site, since the minimal domain sufficient for c-Met interaction is larger, 450&#x2013;532 of Gab1, and peptides corresponding to MBS sequence did not block c-Met association (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>, and data not shown).</p>
+      <p>By a similar screening protocol, we were able to locate a Grb2-binding site in the Gab1 sequence PPVDRNLKP, residue 518&#x2013;526, which does not conform to the common proline-rich consensus binding motif for SH3 domains, PXXP (<xref ref-type="bib" rid="Fengetal1994">Feng et al. 1994</xref>). It is also distinct from the recently discovered SH3-binding motif, PXXDY, found in Eps8 interacting peptides (<xref ref-type="bib" rid="Mongiovietal1999">Mongiovi et al. 1999</xref>). Similar sequences are present in the Grb2-binding docking proteins p97/Gab2, SLP-76, and BLNK and in <italic>Drosophila</italic> DOS (<xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>; <xref ref-type="bib" rid="Jackmanetal1995">Jackman et al. 1995</xref>; <xref ref-type="bib" rid="Mottoetal1996">Motto et al. 1996</xref>; <xref ref-type="bib" rid="Fuetal1998">Fu et al. 1998</xref>; <xref ref-type="bib" rid="Raabeetal1996">Raabe et al. 1996</xref>), but until now, they have not been recognized as putative Grb2 consensus binding sites.</p>
+      <p>While the MBS of Gab1 mediates the direct contact with c-Met, Grb2 has also been implicated in mediating indirectly the association of Gab1 with c-Met. Mutation of the Grb2 consensus binding site of c-Met, Y1356VNV to Y1356VHV, reduced interaction with Gab1 in cells (<xref ref-type="bib" rid="Bardellietal1997">Bardelli et al. 1997</xref>; <xref ref-type="bib" rid="Nguyenetal1997">Nguyen et al. 1997</xref>). But since this mutation is in the multiple docking site of c-Met, it was not clear if interactions with other as yet unidentified adaptor proteins or the direct interaction with Gab1 itself were disturbed. We could now address this question by expressing Gab1 mutants deficient for direct association with c-Met or Grb2. We showed that Gab1 mutants deficient in Grb2 binding associate with c-Met, even though with reduced strength compared with wild-type Gab1. This demonstrates that in cells, association with c-Met is direct and requires the MBS. This is consistent with our finding that p97/Gab2, which binds Grb2 but not c-Met, associates with c-Met when the c-Met&#x2013;binding site of Gab1 is inserted. Gab1 was originally cloned as a Grb2 interacting protein and interacts strongly with Grb2 (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>, and this paper). We identified two Grb2-binding sites present in the Gab1 sequence. The first site is located at residues 341&#x2013;348 and conforms to the classical proline-rich consensus binding motif PXXP for SH3 domains (<xref ref-type="bib" rid="Fengetal1994">Feng et al. 1994</xref>). The second binding site is located in close proximity to the MBS and constitutes a novel Grb2-binding motif PX(V/I)(D/N)RXXKP. Both sites can mediate Grb2 association and are conserved in the Gab1-related protein p97/Gab2. Since Gab1 binds the SH3 domains of Grb2, the SH2 domain of Grb2 can contribute to the cellular association of Gab1 with c-Met (<xref ref-type="fig" rid="F7">Fig. 7</xref>), but could also couple Gab1 to other signaling pathways. For instance, Gab1 is also a substrate of the EGF receptor, the insulin receptor, and the NGF receptor trk (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>, <xref ref-type="bib" rid="Holgado-Madrugaetal1997">Holgado-Madruga et al. 1997</xref>). The EGF receptor binds Grb2 directly, and its Grb2-binding sites are also required for recruitment of Gab1 (<xref ref-type="bib" rid="Okutanietal1994">Okutani et al. 1994</xref>; <xref ref-type="bib" rid="Rodriguesetal2000">Rodrigues et al. 2000</xref>); thus, the EGF receptor may recruit Gab1 via Grb2-Gab1 complexes. Trk and insulin receptors could couple to Gab1 by association with the Shc adaptor, which upon phosphorylation binds Grb2 complexes (<xref ref-type="bib" rid="Skolniketal1993">Skolnik et al. 1993</xref>; <xref ref-type="bib" rid="Dikicetal1995">Dikic et al. 1995</xref>). Similarly, Gab1 is phosphorylated in response to cytokines and involved in activation of the MAPK pathway (<xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>). This activation requires the Shp2-binding site of the cytokine receptor gp130 and correlates with association of Gab1 with Shp2 and PI(3)K. While Gab1 does not interact directly with gp130 (<xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>), it could be recruited indirectly via association with Grb2 and phosphorylated Shp2.</p>
+      <p>To characterize the interaction of Gab1 with downstream substrates, we have modified the classical yeast two-hybrid assay (<xref ref-type="bib" rid="Chienetal1991">Chien et al. 1991</xref>). Fusion of Gab1 with the constitutively active kinase, tpr-met oncogene, induces tyrosine phosphorylation and interaction with signaling molecules like PI(3)K, PLC-&#x3B3;, and Shp2. The advantage of this system over the tribrid approach (<xref ref-type="bib" rid="LicitraandLiu1996">Licitra and Liu 1996</xref>; <xref ref-type="bib" rid="Rocchietal1998">Rocchi et al. 1998</xref>) is that it can be easily adapted to the two-hybrid system available and does not require a third genetic marker for expression of tpr-met kinase. In addition, we observed that the kinase tpr-met is less toxic in yeast when expressed as a bait with the LexA DNA-binding domain than in its cytoplasmic form. By yeast two-hybrid screening, we identified CRKL as a new interaction partner for Gab1. CRKL is a Crk-related adaptor protein that consists of one SH2 and two SH3 domains (<xref ref-type="bib" rid="tenHoeveetal1993">ten Hoeve et al. 1993</xref>). The interaction of CRKL with Gab1 is mediated via its SH2 domain, and the CRKL-binding site of Gab1 maps to amino acids 242&#x2013;410. Interestingly, this region contains a cluster of 6 Crk/CRKL consensus binding sites (YXXP; <xref ref-type="bib" rid="Songyangetal1993">Songyang et al. 1993</xref>). Multiple Crk/CRKL-binding sites are also clustered in the substrate binding regions of the Crk/CRKL interacting docking protein p130Cas and the Cas-like docking proteins CasL/HEF1 and Efs/Sinthe (<xref ref-type="bib" rid="Sakaietal1994">Sakai et al. 1994</xref>; <xref ref-type="bib" rid="Ishinoetal1995">Ishino et al. 1995</xref>; <xref ref-type="bib" rid="Astieretal1997">Astier et al. 1997</xref>), suggesting a common theme in which multiple CRKL complexes could be recruited simultaneously. Via its SH3 domains, CRKL can associate with multiple effector proteins, like C3G (a GDP GTP exchange factor for Rap1), the tyrosine kinase c-Abl, HPK (human progenitor kinase), and p85 PI(3)K subunit (reviewed by <xref ref-type="bib" rid="Felleretal1998">Feller et al. 1998</xref>). Crk and CRKL have been implicated in the activation of JNK and Rap1 kinase pathways (<xref ref-type="bib" rid="Gotohetal1995">Gotoh et al. 1995</xref>; <xref ref-type="bib" rid="TanakaandHanafusa1998">Tanaka and Hanafusa 1998</xref>). Recently, it was shown that HGF/SF stimulates Rap1 activation that is dependent on C3G and Gab1-CRKL association (<xref ref-type="bib" rid="Sakkabetal2000">Sakkab et al. 2000</xref>). Since c-Met does not bind CRKL directly, recruitment of CRKL-C3G complexes by Gab1 is the likely mechanism that leads to Rap1 activation. The interaction of CRKL with p85 PI(3)K could explain the significant association of p85 with Gab1 mutants where all three PI(3)K consensus binding sites are mutated. Future experiments will determine which CRKL-dependent pathways are important for Gab1 function in cells.</p>
+      <p>The activity of Gab1 mutants was examined in c-Met&#x2013;dependent branching morphogenesis assays. Trk-met hybrid receptors have been useful for the analysis of mutant receptor function, since they can be activated in the absence of endogenous wild-type receptor stimulation (<xref ref-type="bib" rid="Weidneretal1993">Weidner et al. 1993</xref>; <xref ref-type="bib" rid="Sachsetal1996">Sachs et al. 1996</xref>). We carried this analysis further and tested the activity of the kinase substrate Gab1 by fusing it to the COOH terminus of trk-met. This hybrid receptor approach allowed us to control the activity of exogenous Gab1 by stimulation with NGF, this is in contrast to the overexpression of Gab1, which may result in constitutive activation (<xref ref-type="bib" rid="Weidneretal1996">Weidner et al. 1996</xref>). A trk-met-Gab1 hybrid receptor expressing just the COOH terminus of Gab1, residues 450&#x2013;695, was sufficient to induce branching morphogenesis activity in response to NGF activation. Importantly, we found that association of Gab1 with Shp2 is essential for Gab1-induced branching morphogenesis, since a mutation in the Shp2-binding site abrogated this activity (<xref ref-type="fig" rid="F5">Fig. 5</xref> B). Shp2 has previously been shown to be involved in many morphological processes: for instance FGF- or activin-dependent mesoderm induction, cell spreading, and migration (<xref ref-type="bib" rid="Tangetal1995">Tang et al. 1995</xref>; <xref ref-type="bib" rid="Yuetal1998">Yu et al. 1998</xref>; <xref ref-type="bib" rid="SaxtonandPawson1999">Saxton and Pawson 1999</xref>). As a consequence, Shp2<sup>&#x2212;/&#x2212;</sup> mice display severe defects in mesodermal patterning and gastrulation (<xref ref-type="bib" rid="Saxtonetal1997">Saxton et al. 1997</xref>). Genetic evidence has linked Corkscrew, the <italic>Drosophila</italic> homologue of SHP2, to DOS, a Gab1-like docking protein, and to activation of the MAPK pathway (<xref ref-type="bib" rid="Herbstetal1996">Herbst et al. 1996</xref>; <xref ref-type="bib" rid="Raabeetal1996">Raabe et al. 1996</xref>). We could show that association of Gab1 with Shp2 is also required for HGF/SF-dependent Erk2 phosphorylation and Elk1 activation, a substrate of MAPKs. The mechanism by which Shp2 transduces c-Met/Gab1&#x2013;specific signals is not known. Shp2 is a tyrosine phosphatase, and via its catalytic activity could modulate the activity of other enzymes regulating the MAPK cascade. Its phosphatase activity has been shown to be essential for mesoderm induction and for activation of the MAPK pathway by a number of growth factors, like EGF, FGF and IL3 (<xref ref-type="bib" rid="Bennettetal1996">Bennett et al. 1996</xref>; <xref ref-type="bib" rid="OReillyandNeel1998">O'Reilly and Neel 1998</xref>; <xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>). In addition, Shp2 could function as an adaptor: upon phosphorylation it can bind the SH2 domain of Grb2 and by targeting Grb2/Sos complexes to the membrane, could directly activate the Ras pathway (<xref ref-type="bib" rid="Lietal1994">Li et al. 1994</xref>; <xref ref-type="bib" rid="Bennettetal1994">Bennett et al. 1994</xref>). We observed that catalytic inactive Shp2 mutants block HGF/SF-dependent Elk activation, suggesting that the phosphatase activity of Shp2 is critical for Gab1/Shp2 signaling. A 90-kD protein that can serve as a substrate of Shp2 has recently been identified in a complex with Gab1 and thus could play a role in this pathway (<xref ref-type="bib" rid="Shietal2000">Shi et al. 2000</xref>).</p>
+      <p>Surprisingly, direct association with PI(3)K does not appear not to be essential for branching morphogenesis activity induced by the trk-met-Gab1 hybrid, even though it was shown by the use of chemical inhibitors LY294002 and PD98059 that PI(3)K as well as MAPK activity are required for this process (<xref ref-type="bib" rid="Khwajaetal1998">Khwaja et al. 1998</xref>). This could be due to high basal PI(3)K activity observed in unstimulated MDCK cells (<xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>) or residual PI(3)K activation by the Gab1&#x394;PI(3)K mutant. It was also shown that overexpression of Gab1 mutants lacking PI(3)K-binding sites could partially rescue branching morphogenesis defects of c-Met receptor mutants with reduced affinity for Gab1 (<xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>), indicating that further activation of PI(3)K by Gab1 is not required for branching morphogenesis. Using the same assay, it was shown that the PH domain of Gab1 is required for branching morphogenesis and membrane targeting (<xref ref-type="bib" rid="Marounetal1999">Maroun et al. 1999</xref>). However, the PH domain is not essential for branching morphogenesis activity induced by the trk-Met-Gab1 fusion protein, suggesting that its primary function is to target Gab1 to the cell membrane, an activity redundant for the transmembrane fusion protein trk-met-Gab1.</p>
+      <p>A growing number of docking proteins has been identified that is involved in the activation of specific signaling pathways of tyrosine kinases. They differ by their ability to couple to respective tyrosine kinase receptors, by expression pattern, but also by association with different sets of effector molecules. For instance, IRS-1 interacts with PI(3)K, Grb2, Shc, Shp2, Csr, Nck, and Fyn (reviewed by <xref ref-type="bib" rid="Ogawaetal1998">Ogawa et al. 1998</xref>). Studies using biochemical inhibitors for PI(3)K activity have shown that the PI(3)K pathway plays a fundamental role for metabolic changes induced by insulin. The PI(3)K pathway is also critical for insulin receptor/insulin-like growth factor receptor signaling in <italic>Drosophila</italic> and <italic>C</italic>. <italic>elegans</italic>, since many genes that affect the pathways encode proteins that are involved in the PI(3)K cascade, like p110 PI(3)K itself, p110 substrates Akt1, Akt2 and Daf-16, a potential substrate of Akt kinase pathways and PTEN (<xref ref-type="bib" rid="Morrisetal1996">Morris et al. 1996</xref>; <xref ref-type="bib" rid="Kimuraetal1997">Kimura et al. 1997</xref>; <xref ref-type="bib" rid="OggandRuvkun1998">Ogg and Ruvkun 1998</xref>; <xref ref-type="bib" rid="ParadisandRuvkun1998">Paradis and Ruvkun 1998</xref>; <xref ref-type="bib" rid="Staveleyetal1998">Staveley et al. 1998</xref>). In contrast, p62dok family members have been shown to associate with p120RasGAP, Nck and Crk family members (<xref ref-type="bib" rid="Carpinoetal1997">Carpino et al. 1997</xref>; <xref ref-type="bib" rid="YamanashiandBaltimore1997">Yamanashi and Baltimore 1997</xref>; <xref ref-type="bib" rid="Bhatetal1998">Bhat et al. 1998</xref>; <xref ref-type="bib" rid="DiCristofanoetal1998">Di Cristofano et al. 1998</xref>; <xref ref-type="bib" rid="JonesandDumont1998">Jones and Dumont 1998</xref>; <xref ref-type="bib" rid="Nelmsetal1998">Nelms et al. 1998</xref>). A p62dok mutant impaired for binding to Nck and p120RasGAP is unable to promote insulin-stimulated cell migration, implicating Nck and/or p120RasGAP as important effectors for p62dok signaling (<xref ref-type="bib" rid="Noguchietal1999">Noguchi et al. 1999</xref>).</p>
+      <p>The Gab1 family proteins Gab1 and p97/Gab2 associate with PI(3)K, PLC-&#x3B3;, Shc, and Shp2 (<xref ref-type="bib" rid="Holgado-Madrugaetal1996">Holgado-Madruga et al. 1996</xref>; <xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>; <xref ref-type="bib" rid="Takahashi-Tezukaetal1998">Takahashi-Tezuka et al. 1998</xref>; <xref ref-type="bib" rid="Lecoq-Lafonetal1999">Lecoq-Lafon et al. 1999</xref>; <xref ref-type="bib" rid="Nishidaetal1999">Nishida et al. 1999</xref>). In addition, we could demonstrate association of Gab1 with CRKL. The binding sites for PI(3)K, Shp2, and CRKL, as well as SH3-binding sites for Grb2 are conserved in p97/Gab2 and <italic>Drosophila</italic> DOS, suggesting that Gab1 family members function by activating a similar set of signal transducers. Shp2 has been linked to DOS as a modulator in Sevenless receptor signaling, and p97/Gab2 requires association with Shp2 for gene regulation (<xref ref-type="bib" rid="Herbstetal1996">Herbst et al. 1996</xref>; <xref ref-type="bib" rid="Raabeetal1996">Raabe et al. 1996</xref>; <xref ref-type="bib" rid="Guetal1998">Gu et al. 1998</xref>). In this paper, we could show that Shp2 is an important effector for Gab1 signaling, suggesting that Shp2 is critical for the function of Gab1 family members.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Stephan Feller (W&#xFC;rzburg) for sharing unpublished results and for helpful discussions. We also thank Renate Franke for excellent technical assistance and Silvana Di Cesare for pioneering in the construction of yeast two-hybrid vectors that utilize the kinase domain of Met for the phosphorylation of heterologous baits.</p>
+      <p>This work was supported by a grant from the Deutsche Forschungsgemeinschaft (DFG).</p>
+    </ack>
+    <ref-list>
+      <ref id="Altschuletal1990">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Altschul</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Gish</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Myers</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Lipman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Basic local alignment search tool</article-title>
+          <source>J. Mol. Biol.</source>
+          <volume>215</volume>
+          <year>1990</year>
+          <fpage>403</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="pmid">2231712</pub-id>
+        </citation>
+      </ref>
+      <ref id="Astieretal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Astier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Manie</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Law</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Canty</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Haghayghi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Druker</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Salgia</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Golemis</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Freedman</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of the Cas-like molecule HEF1 with CrkL following integrin and antigen receptor signaling in human B-cellspotential relevance to neoplastic lymphohematopoietic cells</article-title>
+          <source>Leuk. Lymphoma.</source>
+          <volume>28</volume>
+          <year>1997</year>
+          <fpage>65</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">9498705</pub-id>
+        </citation>
+      </ref>
+      <ref id="Ausubeletal1992">
+        <citation citation-type="other">Ausubel, F.M., R. Brent, R. Kingston, D. Moore, J. Seidmann, J. Smith, and K. Struhls. 1992. <italic>Curr. Prot. Mol. Biol.</italic></citation>
+      </ref>
+      <ref id="Bardellietal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Longati</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gramaglia</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Stella</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Comoglio</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gab1 coupling to the HGF/Met receptor multifunctional docking site requires binding of Grb2 and correlates with the transforming potential</article-title>
+          <source>Oncogene</source>
+          <volume>15</volume>
+          <year>1997</year>
+          <fpage>3103</fpage>
+          <lpage>3111</lpage>
+          <pub-id pub-id-type="pmid">9444958</pub-id>
+        </citation>
+      </ref>
+      <ref id="Bennettetal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennett</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Sugimoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein-tyrosine-phosphatase SHPTP2 couples platelet-derived growth factor receptor beta to Ras</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>91</volume>
+          <year>1994</year>
+          <fpage>7335</fpage>
+          <lpage>7339</lpage>
+          <pub-id pub-id-type="pmid">8041791</pub-id>
+        </citation>
+      </ref>
+      <ref id="Bennettetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennett</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hausdorff</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>O'Reilly</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple requirements for SHPTP2 in epidermal growth factor-mediated cell cycle progression</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>16</volume>
+          <year>1996</year>
+          <fpage>1189</fpage>
+          <lpage>1202</lpage>
+          <pub-id pub-id-type="pmid">8622663</pub-id>
+        </citation>
+      </ref>
+      <ref id="Bhatetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhat</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Oda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Corbin</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Druker</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interactions of p62(dok) with p210(bcr-abl) and Bcr-Abl-associated proteins</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>32360</fpage>
+          <lpage>32368</lpage>
+          <pub-id pub-id-type="pmid">9822717</pub-id>
+        </citation>
+      </ref>
+      <ref id="Bladtetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bladt</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Riethmacher</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Isenmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Aguzzi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Essential role for the c-met receptor in the migration of myogenic precursor cells into the limb bud</article-title>
+          <source>Nature.</source>
+          <volume>376</volume>
+          <year>1995</year>
+          <fpage>768</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="pmid">7651534</pub-id>
+        </citation>
+      </ref>
+      <ref id="Carpinoetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carpino</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wisniewski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Strife</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marshak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Stillman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Clarkson</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>p62(dok)a constitutively tyrosine-phosphorylated, GAP-associated protein in chronic myelogenous leukemia progenitor cells</article-title>
+          <source>Cell.</source>
+          <volume>88</volume>
+          <year>1997</year>
+          <fpage>197</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="pmid">9008160</pub-id>
+        </citation>
+      </ref>
+      <ref id="ChevrayandNathans1992">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chevray</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Nathans</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein interaction cloning in yeastidentification of mammalian proteins that react with the leucine zipper of Jun</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>89</volume>
+          <year>1992</year>
+          <fpage>5789</fpage>
+          <lpage>5793</lpage>
+          <pub-id pub-id-type="pmid">1631061</pub-id>
+        </citation>
+      </ref>
+      <ref id="Chienetal1991">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chien</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Bartel</surname>
+              <given-names>P.L.</given-names>
+            </name>
+            <name>
+              <surname>Sternglanz</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fields</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The two-hybrid systema method to identify and clone genes for proteins that interact with a protein of interest</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>88</volume>
+          <year>1991</year>
+          <fpage>9578</fpage>
+          <lpage>9582</lpage>
+          <pub-id pub-id-type="pmid">1946372</pub-id>
+        </citation>
+      </ref>
+      <ref id="DiCristofanoetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Di Cristofano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carpino</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Dunant</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Friedland</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Strife</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wisniewski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Clarkson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Pandolfi</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Resh</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning and characterization of p56dok-2 defines a new family of RasGAP-binding proteins</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>4827</fpage>
+          <lpage>4830</lpage>
+          <pub-id pub-id-type="pmid">9478921</pub-id>
+        </citation>
+      </ref>
+      <ref id="Dikicetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Batzer</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Blaikie</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Obermeier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ullrich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Margolis</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shc binding to nerve growth factor receptor is mediated by the phosphotyrosine interaction domain</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>270</volume>
+          <year>1995</year>
+          <fpage>15125</fpage>
+          <lpage>15129</lpage>
+          <pub-id pub-id-type="pmid">7541035</pub-id>
+        </citation>
+      </ref>
+      <ref id="Ecketal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eck</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Dhe</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Trub</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nolte</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Shoelson</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the IRS-1 PTB domain bound to the juxtamembrane region of the insulin receptor</article-title>
+          <source>Cell.</source>
+          <volume>85</volume>
+          <year>1996</year>
+          <fpage>695</fpage>
+          <lpage>705</lpage>
+          <pub-id pub-id-type="pmid">8646778</pub-id>
+        </citation>
+      </ref>
+      <ref id="Felleretal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feller</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Posern</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Voss</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kardinal</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sakkab</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Knudsen</surname>
+              <given-names>B.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physiological signals and oncogenesis mediated through Crk family adapter proteins</article-title>
+          <source>J. Cell Physiol.</source>
+          <volume>177</volume>
+          <year>1998</year>
+          <fpage>535</fpage>
+          <lpage>552</lpage>
+          <pub-id pub-id-type="pmid">10092207</pub-id>
+        </citation>
+      </ref>
+      <ref id="Fengetal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Schreiber</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two binding orientations for peptides to the Src SH3 domaindevelopment of a general model for SH3-ligand interactions</article-title>
+          <source>Science.</source>
+          <volume>266</volume>
+          <year>1994</year>
+          <fpage>1241</fpage>
+          <lpage>1247</lpage>
+          <pub-id pub-id-type="pmid">7526465</pub-id>
+        </citation>
+      </ref>
+      <ref id="Fixmanetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fixman</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Naujokas</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Rodrigues</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Moran</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient cell transformation by the Tpr-Met oncoprotein is dependent upon tyrosine 489 in the carboxy-terminus</article-title>
+          <source>Oncogene.</source>
+          <volume>10</volume>
+          <year>1995</year>
+          <fpage>237</fpage>
+          <lpage>249</lpage>
+          <pub-id pub-id-type="pmid">7838524</pub-id>
+        </citation>
+      </ref>
+      <ref id="Fixmanetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fixman</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Fournier</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Kamikura</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Naujokas</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathways downstream of Shc and Grb2 are required for cell transformation by the tpr-Met oncoprotein</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>271</volume>
+          <year>1996</year>
+          <fpage>13116</fpage>
+          <lpage>13122</lpage>
+          <pub-id pub-id-type="pmid">8662733</pub-id>
+        </citation>
+      </ref>
+      <ref id="Fixmanetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fixman</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Holgado</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kamikura</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Fournier</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient cellular transformation by the Met oncoprotein requires a functional Grb2 binding site and correlates with phosphorylation of the Grb2-associated proteins, Cbl and Gab1</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>20167</fpage>
+          <lpage>20172</lpage>
+          <pub-id pub-id-type="pmid">9242692</pub-id>
+        </citation>
+      </ref>
+      <ref id="Fuetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Turck</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Kurosaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>BLNKa central linker protein in B cell activation</article-title>
+          <source>Immunity.</source>
+          <volume>9</volume>
+          <year>1998</year>
+          <fpage>93</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="pmid">9697839</pub-id>
+        </citation>
+      </ref>
+      <ref id="Gotohetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gotoh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hattori</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kitayama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Takai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kaibuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Matsui</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hatase</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kurata</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Matsuda</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of Rap1 as a target for the Crk SH3 domain-binding guanine nucleotide-releasing factor C3G</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>15</volume>
+          <year>1995</year>
+          <fpage>6746</fpage>
+          <lpage>6753</lpage>
+          <pub-id pub-id-type="pmid">8524240</pub-id>
+        </citation>
+      </ref>
+      <ref id="Guetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Pratt</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Burakoff</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning of p97/Gab2, the major SHP2-binding protein in hematopoietic cells, reveals a novel pathway for cytokine-induced gene activation</article-title>
+          <source>Mol. Cell.</source>
+          <volume>2</volume>
+          <year>1998</year>
+          <fpage>729</fpage>
+          <lpage>740</lpage>
+          <pub-id pub-id-type="pmid">9885561</pub-id>
+        </citation>
+      </ref>
+      <ref id="Hadarietal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hadari</surname>
+              <given-names>Y.R.</given-names>
+            </name>
+            <name>
+              <surname>Kouhara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lax</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Binding of Shp2 tyrosine phosphatase to FRS2 is essential for fibroblast growth factor-induced PC12 cell differentiation</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>3966</fpage>
+          <lpage>3973</lpage>
+          <pub-id pub-id-type="pmid">9632781</pub-id>
+        </citation>
+      </ref>
+      <ref id="Herbstetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herbst</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Carroll</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Allard</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Schilling</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Raabe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Daughter of sevenless is a substrate of the phosphotyrosine phosphatase Corkscrew and functions during sevenless signaling</article-title>
+          <source>Cell.</source>
+          <volume>85</volume>
+          <year>1996</year>
+          <fpage>899</fpage>
+          <lpage>909</lpage>
+          <pub-id pub-id-type="pmid">8681384</pub-id>
+        </citation>
+      </ref>
+      <ref id="Holgado-Madrugaetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holgado-Madruga</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Moscatello</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Emlet</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Dieterich</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Grb2-associated binder-1 mediates phosphatidylinositol 3-kinase activation and the promotion of cell survival by nerve growth factor</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>94</volume>
+          <year>1997</year>
+          <fpage>12419</fpage>
+          <lpage>12424</lpage>
+          <pub-id pub-id-type="pmid">9356464</pub-id>
+        </citation>
+      </ref>
+      <ref id="Holgado-Madrugaetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holgado-Madruga</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Emlet</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Moscatello</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Godwin</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Grb2-associated docking protein in EGF- and insulin-receptor signalling</article-title>
+          <source>Nature.</source>
+          <volume>379</volume>
+          <year>1996</year>
+          <fpage>560</fpage>
+          <lpage>564</lpage>
+          <pub-id pub-id-type="pmid">8596638</pub-id>
+        </citation>
+      </ref>
+      <ref id="Inghametal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ingham</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Holgado</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Siu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Gold</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Gab1 protein is a docking site for multiple proteins involved in signaling by the B cell antigen receptor</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>30630</fpage>
+          <lpage>30637</lpage>
+          <pub-id pub-id-type="pmid">9804835</pub-id>
+        </citation>
+      </ref>
+      <ref id="Isakoffetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isakoff</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Cardozo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Andreev</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Abagyan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lemmon</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Aronheim</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Skolnik</surname>
+              <given-names>E.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and analysis of PH domain-containing targets of phosphatidylinositol 3-kinase using a novel in vivo assay in yeast</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>17</volume>
+          <year>1998</year>
+          <fpage>5374</fpage>
+          <lpage>5387</lpage>
+        </citation>
+      </ref>
+      <ref id="Ishinoetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishino</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ohba</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning of a cDNA encoding a phosphoprotein, Efs, which contains a Src homology 3 domain and associates with Fyn</article-title>
+          <source>Oncogene.</source>
+          <volume>11</volume>
+          <year>1995</year>
+          <fpage>2331</fpage>
+          <lpage>2338</lpage>
+          <pub-id pub-id-type="pmid">8570184</pub-id>
+        </citation>
+      </ref>
+      <ref id="Jackmanetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jackman</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Motto</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Tanemoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Turck</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Peltz</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Koretzky</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Findell</surname>
+              <given-names>P.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning of SLP-76, a 76-kDa tyrosine phosphoprotein associated with Grb2 in T cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>270</volume>
+          <year>1995</year>
+          <fpage>7029</fpage>
+          <lpage>7032</lpage>
+          <pub-id pub-id-type="pmid">7706237</pub-id>
+        </citation>
+      </ref>
+      <ref id="JonesandDumont1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Dumont</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Tek/Tie2 receptor signals through a novel Dok-related docking protein, Dok-R</article-title>
+          <source>Oncogene.</source>
+          <volume>17</volume>
+          <year>1998</year>
+          <fpage>1097</fpage>
+          <lpage>1108</lpage>
+          <pub-id pub-id-type="pmid">9764820</pub-id>
+        </citation>
+      </ref>
+      <ref id="JonesandDumont1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Dumont</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recruitment of Dok-R to the EGF receptor through its PTB domain is required for attenuation of Erk MAP kinase activation</article-title>
+          <source>Curr. Biol.</source>
+          <volume>9</volume>
+          <year>1999</year>
+          <fpage>1057</fpage>
+          <lpage>1060</lpage>
+          <pub-id pub-id-type="pmid">10508618</pub-id>
+        </citation>
+      </ref>
+      <ref id="Khwajaetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khwaja</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Marte</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Downward</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphoinositide 3-kinase induces scattering and tubulogenesis in epithelial cells through a novel pathway</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>18793</fpage>
+          <lpage>18801</lpage>
+          <pub-id pub-id-type="pmid">9668053</pub-id>
+        </citation>
+      </ref>
+      <ref id="Kimuraetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kimura</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Tissenbaum</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ruvkun</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>daf-2, an insulin receptor-like gene that regulates longevity and diapause in <italic>Caenorhabditis elegans</italic></article-title>
+          <source>Science.</source>
+          <volume>277</volume>
+          <year>1997</year>
+          <fpage>942</fpage>
+          <lpage>946</lpage>
+          <pub-id pub-id-type="pmid">9252323</pub-id>
+        </citation>
+      </ref>
+      <ref id="Kouharaetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kouhara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hadari</surname>
+              <given-names>Y.R.</given-names>
+            </name>
+            <name>
+              <surname>Spivak</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Schilling</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bar</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Lax</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A lipid-anchored Grb2-binding protein that links FGF-receptor activation to the Ras/MAPK signaling pathway</article-title>
+          <source>Cell.</source>
+          <volume>89</volume>
+          <year>1997</year>
+          <fpage>693</fpage>
+          <lpage>702</lpage>
+          <pub-id pub-id-type="pmid">9182757</pub-id>
+        </citation>
+      </ref>
+      <ref id="Lecoq-Lafonetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lecoq-Lafon</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Verdier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fichelson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chretien</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gisselbrecht</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lacombe</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mayeux</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Erythropoietin induces the tyrosine phosphorylation of GAB1 and its association with SHC, SHP2, SHIP, and phosphatidylinositol 3-kinase</article-title>
+          <source>Blood.</source>
+          <volume>93</volume>
+          <year>1999</year>
+          <fpage>2578</fpage>
+          <lpage>2585</lpage>
+          <pub-id pub-id-type="pmid">10194437</pub-id>
+        </citation>
+      </ref>
+      <ref id="LiandFields1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fields</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of mutations in p53 that affect its binding to SV40 large T antigen by using the yeast two-hybrid system</article-title>
+          <source>FASEB J.</source>
+          <volume>7</volume>
+          <year>1993</year>
+          <fpage>957</fpage>
+          <lpage>963</lpage>
+          <pub-id pub-id-type="pmid">8344494</pub-id>
+        </citation>
+      </ref>
+      <ref id="Lietal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kashishian</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Batzer</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new function for a phosphotyrosine phosphataselinking GRB2-Sos to a receptor tyrosine kinase</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>14</volume>
+          <year>1994</year>
+          <fpage>509</fpage>
+          <lpage>517</lpage>
+          <pub-id pub-id-type="pmid">8264620</pub-id>
+        </citation>
+      </ref>
+      <ref id="LicitraandLiu1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Licitra</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>A three-hybrid system for detecting small ligand-protein receptor interactions</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>93</volume>
+          <year>1996</year>
+          <fpage>12817</fpage>
+          <lpage>12821</lpage>
+          <pub-id pub-id-type="pmid">8917502</pub-id>
+        </citation>
+      </ref>
+      <ref id="Lingetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ling</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Merante</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rapid and reliable DNA preparation method for screening a large number of yeast clones by polymerase chain reaction</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>23</volume>
+          <year>1995</year>
+          <fpage>4924</fpage>
+          <lpage>4925</lpage>
+          <pub-id pub-id-type="pmid">8532539</pub-id>
+        </citation>
+      </ref>
+      <ref id="Mainaetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maina</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Casagranda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Audero</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Simeone</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Comoglio</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ponzetto</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Uncoupling of Grb2 from the Met receptor in vivo reveals complex roles in muscle development</article-title>
+          <source>Cell.</source>
+          <volume>87</volume>
+          <year>1996</year>
+          <fpage>531</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="pmid">8898205</pub-id>
+        </citation>
+      </ref>
+      <ref id="Marounetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maroun</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Holgado</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Royal</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Naujokas</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Fournier</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Gab1 PH domain is required for localization of Gab1 at sites of cell-cell contact and epithelial morphogenesis downstream from the met receptor tyrosine kinase</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>19</volume>
+          <year>1999</year>
+          <fpage>1784</fpage>
+          <lpage>1799</lpage>
+          <pub-id pub-id-type="pmid">10022866</pub-id>
+        </citation>
+      </ref>
+      <ref id="Meakinetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meakin</surname>
+              <given-names>S.O.</given-names>
+            </name>
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Gryz</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Kubu</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Verdi</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The signaling adapter FRS-2 competes with Shc for binding to the nerve growth factor receptor TrkA. A model for discriminating proliferation and differentiation</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>274</volume>
+          <year>1999</year>
+          <fpage>9861</fpage>
+          <lpage>9870</lpage>
+          <pub-id pub-id-type="pmid">10092678</pub-id>
+        </citation>
+      </ref>
+      <ref id="MilarskiandSaltiel1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milarski</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Saltiel</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of catalytically inactive Syp phosphatase in 3T3 cells blocks stimulation of mitogen-activated protein kinase by insulin</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>269</volume>
+          <year>1994</year>
+          <fpage>21239</fpage>
+          <lpage>21243</lpage>
+          <pub-id pub-id-type="pmid">8063746</pub-id>
+        </citation>
+      </ref>
+      <ref id="Mongiovietal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mongiovi</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Romano</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Panni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mendoza</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.T.</given-names>
+            </name>
+            <name>
+              <surname>Musacchio</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cesareni</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Di Fiore</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel peptide-SH3 interaction</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>18</volume>
+          <year>1999</year>
+          <fpage>5300</fpage>
+          <lpage>5309</lpage>
+        </citation>
+      </ref>
+      <ref id="Morrisetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morris</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Tissenbaum</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Ruvkun</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A phosphatidylinositol-3-OH kinase family member regulating longevity and diapause in <italic>Caenorhabditis elegans</italic></article-title>
+          <source>Nature.</source>
+          <volume>382</volume>
+          <year>1996</year>
+          <fpage>536</fpage>
+          <lpage>539</lpage>
+          <pub-id pub-id-type="pmid">8700226</pub-id>
+        </citation>
+      </ref>
+      <ref id="Mottoetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motto</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hendricks-Taylor</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Koretzky</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Implication of the GRB2-associated phosphoprotein SLP-76 in T cell receptor-mediated interleukin 2 production</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>183</volume>
+          <year>1996</year>
+          <fpage>1937</fpage>
+          <lpage>1943</lpage>
+          <pub-id pub-id-type="pmid">8666952</pub-id>
+        </citation>
+      </ref>
+      <ref id="Mulhardetal1992">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mulhard</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hunter</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Parker</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rapid method for localized mutagenesis of yeast genes</article-title>
+          <source>Yeast.</source>
+          <volume>8</volume>
+          <year>1992</year>
+          <fpage>79</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="pmid">1561838</pub-id>
+        </citation>
+      </ref>
+      <ref id="Nelmsetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelms</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Snow</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>W.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>FRIP, a hematopoietic cell-specific rasGAP-interacting protein phosphorylated in response to cytokine stimulation</article-title>
+          <source>Immunity.</source>
+          <volume>9</volume>
+          <year>1998</year>
+          <fpage>13</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="pmid">9697832</pub-id>
+        </citation>
+      </ref>
+      <ref id="Nguyenetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Holgado</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Maroun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fixman</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Kamikura</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Fournier</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Charest</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tremblay</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of the multisubstrate docking protein Gab1 with the hepatocyte growth factor receptor requires a functional Grb2 binding site involving tyrosine 1356</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>20811</fpage>
+          <lpage>20819</lpage>
+          <pub-id pub-id-type="pmid">9252406</pub-id>
+        </citation>
+      </ref>
+      <ref id="Nishidaetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Toh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fukada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohtani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shirogane</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Atsumi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Ishihara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hibi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gab-family adapter proteins act downstream of cytokine and growth factor receptors and T- and B-cell antigen receptors</article-title>
+          <source>Blood.</source>
+          <volume>93</volume>
+          <year>1999</year>
+          <fpage>1809</fpage>
+          <lpage>1816</lpage>
+          <pub-id pub-id-type="pmid">10068651</pub-id>
+        </citation>
+      </ref>
+      <ref id="Noguchietal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Matozaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Inagaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tsuda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fukunaga</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shii</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamanashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kasuga</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tyrosine phosphorylation of p62(Dok) induced by cell adhesion and insulinpossible role in cell migration</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>18</volume>
+          <year>1999</year>
+          <fpage>1748</fpage>
+          <lpage>1760</lpage>
+        </citation>
+      </ref>
+      <ref id="Noguchietal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Matozaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Horita</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fujioka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kasuga</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of SH-PTP2, a protein-tyrosine phosphatase with Src homology 2 domains, in insulin-stimulated Ras activation</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>14</volume>
+          <year>1994</year>
+          <fpage>6674</fpage>
+          <lpage>6682</lpage>
+          <pub-id pub-id-type="pmid">7935386</pub-id>
+        </citation>
+      </ref>
+      <ref id="Ogawaetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Matozaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kasuga</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of binding proteins to IRS-1 in insulin signalling</article-title>
+          <source>Mol. Cell Biochem.</source>
+          <volume>182</volume>
+          <year>1998</year>
+          <fpage>13</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">9609110</pub-id>
+        </citation>
+      </ref>
+      <ref id="OggandRuvkun1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ogg</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ruvkun</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>C. elegans</italic> PTEN homolog, DAF-18, acts in the insulin receptor-like metabolic signaling pathway</article-title>
+          <source>Mol. Cell.</source>
+          <volume>2</volume>
+          <year>1998</year>
+          <fpage>887</fpage>
+          <lpage>893</lpage>
+          <pub-id pub-id-type="pmid">9885576</pub-id>
+        </citation>
+      </ref>
+      <ref id="Okutanietal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okutani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Okabayashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kido</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sugimoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakaguchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Matuoka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takenawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kasuga</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Grb2/Ash binds directly to tyrosines 1068 and 1086 and indirectly to tyrosine 1148 of activated human epidermal growth factor receptors in intact cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>269</volume>
+          <year>1994</year>
+          <fpage>31310</fpage>
+          <lpage>31314</lpage>
+          <pub-id pub-id-type="pmid">7527043</pub-id>
+        </citation>
+      </ref>
+      <ref id="OReillyandNeel1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O'Reilly</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural determinants of SHP-2 function and specificity in <italic>Xenopus</italic> mesoderm induction</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>161</fpage>
+          <lpage>177</lpage>
+          <pub-id pub-id-type="pmid">9418864</pub-id>
+        </citation>
+      </ref>
+      <ref id="ParadisandRuvkun1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paradis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ruvkun</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Caenorhabditis elegans</italic> Akt/PKB transduces insulin receptor-like signals from AGE-1 PI3 kinase to the DAF-16 transcription factor</article-title>
+          <source>Genes Dev.</source>
+          <volume>12</volume>
+          <year>1998</year>
+          <fpage>2488</fpage>
+          <lpage>2498</lpage>
+          <pub-id pub-id-type="pmid">9716402</pub-id>
+        </citation>
+      </ref>
+      <ref id="Parketal1986">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dean</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>O'Brien</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Blair</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Vande-Woude</surname>
+              <given-names>G.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of met oncogene activation</article-title>
+          <source>Cell.</source>
+          <volume>45</volume>
+          <year>1986</year>
+          <fpage>895</fpage>
+          <lpage>904</lpage>
+          <pub-id pub-id-type="pmid">2423252</pub-id>
+        </citation>
+      </ref>
+      <ref id="PawsonandScott1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pawson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signaling through scaffold, anchoring, and adaptor proteins</article-title>
+          <source>Science.</source>
+          <volume>278</volume>
+          <year>1997</year>
+          <fpage>2075</fpage>
+          <lpage>2080</lpage>
+          <pub-id pub-id-type="pmid">9405336</pub-id>
+        </citation>
+      </ref>
+      <ref id="Peliccietal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pelicci</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Salcini</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Lanfrancone</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Panayotou</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Waterfield</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Ponzetto</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Pelicci</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Comoglio</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The motogenic and mitogenic responses to HGF are amplified by the Shc adaptor protein</article-title>
+          <source>Oncogene.</source>
+          <volume>10</volume>
+          <year>1995</year>
+          <fpage>1631</fpage>
+          <lpage>1638</lpage>
+          <pub-id pub-id-type="pmid">7731718</pub-id>
+        </citation>
+      </ref>
+      <ref id="Ponzettoetal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ponzetto</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Maina</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Dalla</surname>
+              <given-names>Z.P.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Graziani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Panayotou</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Comoglio</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multifunctional docking site mediates signaling and transformation by the hepatocyte growth factor/scatter factor receptor family</article-title>
+          <source>Cell.</source>
+          <volume>77</volume>
+          <year>1994</year>
+          <fpage>261</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="pmid">7513258</pub-id>
+        </citation>
+      </ref>
+      <ref id="Ponzettoetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ponzetto</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Audero</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Maina</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bardelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Basile</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Narsimhan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Comoglio</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific uncoupling of GRB2 from the Met receptor. Differential effects on transformation and motility</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>271</volume>
+          <year>1996</year>
+          <fpage>14119</fpage>
+          <lpage>14123</lpage>
+          <pub-id pub-id-type="pmid">8662889</pub-id>
+        </citation>
+      </ref>
+      <ref id="Raabeetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raabe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Riesgo</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Bausenwein</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Deak</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Maroy</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hafen</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>DOS, a novel pleckstrin homology domain-containing protein required for signal transduction between sevenless and Ras1 in <italic>Drosophila</italic></article-title>
+          <source>Cell.</source>
+          <volume>85</volume>
+          <year>1996</year>
+          <fpage>911</fpage>
+          <lpage>920</lpage>
+          <pub-id pub-id-type="pmid">8681385</pub-id>
+        </citation>
+      </ref>
+      <ref id="Rocchietal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rocchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tartare</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Murdaca</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Holgado</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Van Obberghen</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of Gab1 (Grb2-associated binder-1) interaction with insulin receptor-signaling molecules</article-title>
+          <source>Mol. Endocrinol.</source>
+          <volume>12</volume>
+          <year>1998</year>
+          <fpage>914</fpage>
+          <lpage>923</lpage>
+          <pub-id pub-id-type="pmid">9658397</pub-id>
+        </citation>
+      </ref>
+      <ref id="RodriguesandPark1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodrigues</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dimerization mediated through a leucine zipper activates the oncogenic potential of the met receptor tyrosine kinase</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>13</volume>
+          <year>1993</year>
+          <fpage>6711</fpage>
+          <lpage>6722</lpage>
+          <pub-id pub-id-type="pmid">8413267</pub-id>
+        </citation>
+      </ref>
+      <ref id="Rodriguesetal2000">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodrigues</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Falasca</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.T.</given-names>
+            </name>
+            <name>
+              <surname>Ong</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel positive feedback loop mediated by the docking protein Gab1 and phosphatidylinositol 3-kinase in epidermal growth factor receptor signaling</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>20</volume>
+          <year>2000</year>
+          <fpage>1448</fpage>
+          <lpage>1459</lpage>
+          <pub-id pub-id-type="pmid">10648629</pub-id>
+        </citation>
+      </ref>
+      <ref id="Sachsetal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sachs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Weidner</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Brinkmann</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Walther</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Obermeier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ullrich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Motogenic and morphogenic activity of epithelial receptor tyrosine kinases</article-title>
+          <source>J. Cell Biol.</source>
+          <volume>133</volume>
+          <year>1996</year>
+          <fpage>1095</fpage>
+          <lpage>1107</lpage>
+          <pub-id pub-id-type="pmid">8655582</pub-id>
+        </citation>
+      </ref>
+      <ref id="Sakaietal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Iwamatsu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yazaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hirai</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel signaling molecule, p130, forms stable complexes in vivo with v-Crk and v-Src in a tyrosine phosphorylation-dependent manner</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>13</volume>
+          <year>1994</year>
+          <fpage>3748</fpage>
+          <lpage>3756</lpage>
+        </citation>
+      </ref>
+      <ref id="Sakkabetal2000">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakkab</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lewitzky</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Posern</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schaeper</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Sachs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signaling of hepatocyte growth factor/scatter factor (HGF) to the small GTPase Rap1 via the large docking protein Gab1 and the adaptor protein Gab1</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>275</volume>
+          <year>2000</year>
+          <fpage>10772</fpage>
+          <lpage>10778</lpage>
+          <pub-id pub-id-type="pmid">10753869</pub-id>
+        </citation>
+      </ref>
+      <ref id="SaxtonandPawson1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saxton</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Pawson</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphogenetic movements at gastrulation require the SH2 tyrosine phosphatase Shp2</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>96</volume>
+          <year>1999</year>
+          <fpage>3790</fpage>
+          <lpage>3795</lpage>
+          <pub-id pub-id-type="pmid">10097116</pub-id>
+        </citation>
+      </ref>
+      <ref id="Saxtonetal1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saxton</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Henkemeyer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gasca</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rossi</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Shalaby</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Pawson</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Abnormal mesoderm patterning in mouse embryos mutant for the SH2 tyrosine phosphatase Shp-2</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>16</volume>
+          <year>1997</year>
+          <fpage>2352</fpage>
+          <lpage>2364</lpage>
+        </citation>
+      </ref>
+      <ref id="Shietal2000">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>Z.Q.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>G.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular mechanism for the Shp-2 tyrosine phosphatase function in promoting growth factor stimulation of Erk activity</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>20</volume>
+          <year>2000</year>
+          <fpage>1526</fpage>
+          <lpage>1536</lpage>
+          <pub-id pub-id-type="pmid">10669730</pub-id>
+        </citation>
+      </ref>
+      <ref id="Skolniketal1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skolnik</surname>
+              <given-names>E.Y.</given-names>
+            </name>
+            <name>
+              <surname>Batzer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Lowenstein</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Mohammadi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Margolis</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schlessinger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The function of GRB2 in linking the insulin receptor to Ras signaling pathways</article-title>
+          <source>Science.</source>
+          <volume>260</volume>
+          <year>1993</year>
+          <fpage>1953</fpage>
+          <lpage>1955</lpage>
+          <pub-id pub-id-type="pmid">8316835</pub-id>
+        </citation>
+      </ref>
+      <ref id="Songyangetal1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Songyang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Shoelson</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Chaudhuri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gish</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pawson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Haser</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ratnofsky</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lechleider</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>SH2 domains recognize specific phosphopeptide sequences</article-title>
+          <source>Cell.</source>
+          <volume>72</volume>
+          <year>1993</year>
+          <fpage>767</fpage>
+          <lpage>778</lpage>
+          <pub-id pub-id-type="pmid">7680959</pub-id>
+        </citation>
+      </ref>
+      <ref id="Staveleyetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Staveley</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Ruel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stambolic</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Mastronardi</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Heitzler</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Woodgett</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Manoukian</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic analysis of protein kinase B (AKT) in <italic>Drosophila</italic></article-title>
+          <source>Curr. Biol.</source>
+          <volume>8</volume>
+          <year>1998</year>
+          <fpage>599</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="pmid">9601646</pub-id>
+        </citation>
+      </ref>
+      <ref id="Sunetal1991">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Rothenberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kahn</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Backer</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Wilden</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Cahill</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the insulin receptor substrate IRS-1 defines a unique signal transduction protein</article-title>
+          <source>Nature.</source>
+          <volume>352</volume>
+          <year>1991</year>
+          <fpage>73</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">1648180</pub-id>
+        </citation>
+      </ref>
+      <ref id="Sunetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yenush</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Myers</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Glasheen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Pierce</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of IRS-2 in insulin and cytokine signalling</article-title>
+          <source>Nature.</source>
+          <volume>377</volume>
+          <year>1995</year>
+          <fpage>173</fpage>
+          <lpage>177</lpage>
+          <pub-id pub-id-type="pmid">7675087</pub-id>
+        </citation>
+      </ref>
+      <ref id="Takahashi-Tezukaetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takahashi-Tezuka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fukada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohtani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamanaka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nishida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakajima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hibi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gab1 acts as an adapter molecule linking the cytokine receptor gp130 to ERK mitogen-activated protein kinase</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>4109</fpage>
+          <lpage>4117</lpage>
+          <pub-id pub-id-type="pmid">9632795</pub-id>
+        </citation>
+      </ref>
+      <ref id="TanakaandHanafusa1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hanafusa</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Guanine-nucleotide exchange protein C3G activates JNK1 by a ras-independent mechanism. JNK1 activation inhibited by kinase negative forms of MLK3 and DLK mixed lineage kinases</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>1281</fpage>
+          <lpage>1284</lpage>
+          <pub-id pub-id-type="pmid">9430657</pub-id>
+        </citation>
+      </ref>
+      <ref id="Tangetal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>O'Reilly</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Sokol</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The SH2-containing protein-tyrosine phosphatase SH-PTP2 is required upstream of MAP kinase for early <italic>Xenopus</italic> development</article-title>
+          <source>Cell.</source>
+          <volume>80</volume>
+          <year>1995</year>
+          <fpage>473</fpage>
+          <lpage>483</lpage>
+          <pub-id pub-id-type="pmid">7859288</pub-id>
+        </citation>
+      </ref>
+      <ref id="tenHoeveetal1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>ten Hoeve</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Heisterkamp</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Groffen</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation and chromosomal localization of CRKL, a human crk-like gene</article-title>
+          <source>Oncogene.</source>
+          <volume>8</volume>
+          <year>1993</year>
+          <fpage>2469</fpage>
+          <lpage>2474</lpage>
+          <pub-id pub-id-type="pmid">8361759</pub-id>
+        </citation>
+      </ref>
+      <ref id="Vidaletal1996a">
+        <citation citation-type="journal"><person-group person-group-type="author"><name><surname>Vidal</surname><given-names>M.</given-names></name><name><surname>Braun</surname><given-names>P.</given-names></name><name><surname>Chen</surname><given-names>E.</given-names></name><name><surname>Boeke</surname><given-names>J.D.</given-names></name><name><surname>Harlow</surname><given-names>E.</given-names></name></person-group><article-title>Genetic characterization of a mammalian protein-protein interaction domain by using a yeast reverse two-hybrid system</article-title><source>Proc. Natl. Acad. Sci. USA.</source><volume>93</volume><year>1996</year><fpage>10321</fpage><lpage>10326</lpage>a<pub-id pub-id-type="pmid">8816798</pub-id></citation>
+      </ref>
+      <ref id="Vidaletal1996b">
+        <citation citation-type="journal"><person-group person-group-type="author"><name><surname>Vidal</surname><given-names>M.</given-names></name><name><surname>Brachmann</surname><given-names>R.K.</given-names></name><name><surname>Fattaey</surname><given-names>A.</given-names></name><name><surname>Harlow</surname><given-names>E.</given-names></name><name><surname>Boeke</surname><given-names>J.D.</given-names></name></person-group><article-title>Reverse two-hybrid and one-hybrid systems to detect dissociation of protein-protein and DNA-protein interactions</article-title><source>Proc. Natl. Acad. Sci. USA.</source><volume>93</volume><year>1996</year><fpage>10315</fpage><lpage>10320</lpage>b<pub-id pub-id-type="pmid">8816797</pub-id></citation>
+      </ref>
+      <ref id="Weidneretal1993">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weidner</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Sachs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Met receptor tyrosine kinase transduces motility, proliferation, and morphogenic signals of scatter factor/hepatocyte growth factor in epithelial cells</article-title>
+          <source>J. Cell Biol.</source>
+          <volume>121</volume>
+          <year>1993</year>
+          <fpage>145</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="pmid">8384622</pub-id>
+        </citation>
+      </ref>
+      <ref id="Weidneretal1995">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weidner</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Sachs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Riethmacher</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutation of juxtamembrane tyrosine residue 1001 suppresses loss-of-function mutations of the met receptor in epithelial cells</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>92</volume>
+          <year>1995</year>
+          <fpage>2597</fpage>
+          <lpage>2601</lpage>
+          <pub-id pub-id-type="pmid">7708691</pub-id>
+        </citation>
+      </ref>
+      <ref id="Weidneretal1996">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weidner</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Di Cesare</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sachs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brinkmann</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Behrens</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction between Gab1 and the c-Met receptor tyrosine kinase is responsible for epithelial morphogenesis</article-title>
+          <source>Nature.</source>
+          <volume>384</volume>
+          <year>1996</year>
+          <fpage>173</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="pmid">8906793</pub-id>
+        </citation>
+      </ref>
+      <ref id="Wilsonetal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ainscough</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Baynes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Berks</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bonfield</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Burton</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Connell</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Copsey</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>2.2 Mb of contiguous nucleotide sequence from chromosome III of <italic>C. elegans</italic></article-title>
+          <source>Nature.</source>
+          <volume>368</volume>
+          <year>1994</year>
+          <fpage>32</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="pmid">7906398</pub-id>
+        </citation>
+      </ref>
+      <ref id="Xuetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of insulin receptor substrate 3 with insulin receptor, insulin receptor-related receptor, insulin-like growth factor-1 receptor, and downstream signaling proteins</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>274</volume>
+          <year>1999</year>
+          <fpage>15262</fpage>
+          <lpage>15270</lpage>
+          <pub-id pub-id-type="pmid">10329736</pub-id>
+        </citation>
+      </ref>
+      <ref id="YamanashiandBaltimore1997">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamanashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Baltimore</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the Abl- and rasGAP-associated 62 kDa protein as a docking protein, Dok</article-title>
+          <source>Cell.</source>
+          <volume>88</volume>
+          <year>1997</year>
+          <fpage>205</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="pmid">9008161</pub-id>
+        </citation>
+      </ref>
+      <ref id="Yuetal1998">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Henegariu</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>G.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein-tyrosine phosphatase Shp-2 regulates cell spreading, migration, and focal adhesion</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>21125</fpage>
+          <lpage>21131</lpage>
+          <pub-id pub-id-type="pmid">9694867</pub-id>
+        </citation>
+      </ref>
+      <ref id="Zhaoetal1999">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>G.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gab2, a new pleckstrin homology domain-containing adapter protein, acts to uncouple signaling from ERK kinase to Elk-1</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>274</volume>
+          <year>1999</year>
+          <fpage>19649</fpage>
+          <lpage>19654</lpage>
+          <pub-id pub-id-type="pmid">10391903</pub-id>
+        </citation>
+      </ref>
+      <ref id="Zhuetal1994">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Naujokas</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Fixman</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Torossian</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tyrosine 1356 in the carboxyl-terminal tail of the HGF/SF receptor is essential for the transduction of signals for cell motility and morphogenesis</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>269</volume>
+          <year>1994</year>
+          <fpage>29943</fpage>
+          <lpage>29948</lpage>
+          <pub-id pub-id-type="pmid">7961992</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><italic>Abbreviations used in this paper:</italic> CSW, Corkscrew; DOS, daughter of Sevenless; Gab1, Grb2-associated binder 1; HA, hemagglutinin; IRS, insulin receptor substrates; MBS, c-Met&#x2013;binding site; PI(3)K, phosphatidylinositol 3-kinase; PLC-&#x3B3;, phospholipase C-&#x3B3;; SH, Src homology.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-wrap>
+    <fig id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <p>Identification of c-Met and Grb2-binding sites of Gab1 by yeast two-hybrid analysis. (A) Reverse two-hybrid screens with Gab1 fragments encoding residues 416&#x2013;570 of Gab1 (see bar). Gab1 cDNA was mutated by PCR and selected against interactions with c-Met or Grb2. Displayed are single point mutations, that interfered with the association of one binding partner (&lt;10% interaction), but not the other (at least 80% interaction remaining). The mutations displayed in italics were generated by site-directed mutagenesis. Mutations interfering with c-Met association are localized in the MBS, residues 487&#x2013;499, marked in black, mutations interfering with Grb2 association are localized in the GBS1, residues 518&#x2013;526, marked in grey. (B) The GBS1 of Gab1 constitutes a novel Grb2-binding site. Similar sequences are found in the Grb2-binding adaptor proteins p97/Gab2, SLP-76 and BLNK. <italic>Drosophila</italic> DOS contains two of these putative Grb2-binding sites. F41F3.2 encodes a hypothetical protein from <italic>C</italic>. <italic>elegans</italic> (<xref ref-type="bib" rid="Wilsonetal1994">Wilson et al. 1994</xref>). In the alignment, ! can be V or I, and # can be D or N. A second Grb2-binding site (GBS2) is present in Gab1 and p97/Gab2 sequence. Shown below is an alignment of the GBS2 with Grb2-binding peptides derived from Sos. The PXXPXR consensus binding site is found in various SH3 domain binding peptides (<xref ref-type="bib" rid="Fengetal1994">Feng et al. 1994</xref>). (C) Yeast two-hybrid interactions of full-size Gab1 prey vectors with c-Met, the kinase-inactive c-Met mutant, c-MetK-, or Grb2 as bait. Interactions of mutant Gab1 proteins are displayed as a percentage of wild-type Gab1-c-Met or Gab1-Grb2 association. *Associations with c-MetK- are displayed as percentage of Gab1-c-Met interaction. The proline-rich sequence PPPRPPKP (GBS2) is deleted by the &#x394;341-348 mutation. (D) Association of Gab1 mutants with c-Met and Grb2 in tissue culture. 293 cells were transfected with HA-tagged Grb2 expression vector plus pBat-Flag (Control) or expression vectors encoding Flag-tagged Gab1 proteins as indicated. After stimulation with HGF/SF, proteins were precipitated with anti-Flag agarose. Proteins were separated by SDS-PAGE and probed with antibodies as indicated.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f1a"/>
+      <graphic xlink:href="JCB9912088.f1b"/>
+      <graphic xlink:href="JCB9912088.f1c"/>
+      <graphic xlink:href="JCB9912088.f1d"/>
+    </fig>
+    <fig id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <p>Insertion of the c-Met&#x2013;binding site confers c-Met association to p97/Gab2. (A) Alignment of the central regions of Gab1 and p97/Gab2. Underlined are the sequences that define the c-Met&#x2013;binding site (MBS) or the Grb2-binding site (GBS1) of Gab1. Shown below is the insertion of MBS coding sequences into p97/Gab2 cDNA. Gab1-derived sequences of the p97+MBS hybrid are displayed in bold. (B) p97/Gab2+MBS associates with c-Met in cultured cells. 293 cells were transfected with HA-Grb2 and Flag-tagged Gab1 expression vectors and were stimulated with HGF/SF. After immunoprecipitation with anti-Flag agarose, proteins were detected by Western blotting with anti&#x2013;c-Met, anti-HA and anti-Flag antibodies as indicated.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f2a"/>
+      <graphic xlink:href="JCB9912088.f2b"/>
+    </fig>
+    <fig id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <p>Phosphorylation-dependent interaction of Gab1 with substrates. (A) Modified yeast two-hybrid assay. Interaction of Gab1 with substrates is induced by fusion with LexA-tpr-met kinase. Tpr-met bait vectors lack the multiple docking site of Met, and efficient interaction with substrates is dependent on Gab1 cDNA. Prey vectors encode the SH2 domain of p85&#x3B1; PI(3)K (SH2-2), CRKL, PLC-&#x3B3;, or full-size cDNAs of Shc and Shp2. The CRKL cDNA clone was identified in a screen for Gab1 interacting cDNAs. It does not associate with c-Met. +++ &gt; 100 , ++ &gt; 50, + &gt; 25 &#x3B2;-galactosidase units. (B) HGF/SF enhances Gab1 phosphorylation and association with signaling molecules. 293 cells were transfected with expression vectors encoding Flag-tagged Gab1 and p85&#x3B1; PI(3)K. After serum starvation for 1 h, cells were stimulated with 50 U/ml HGF/SF for the time period indicated. Proteins were precipitated with anti-Flag beads and detected by Western blotting.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f3a"/>
+      <graphic xlink:href="JCB9912088.f3b"/>
+    </fig>
+    <fig id="F4">
+      <label>Figure 4</label>
+      <caption>
+        <p>Mapping the substrate-binding sites of Gab1. (A) Gab1 mutants were expressed as LexA-tpr-met fusion proteins and tested for yeast two-hybrid interactions with substrates as in <xref ref-type="fig" rid="F3">Fig. 3</xref> A. CBR represents the CRKL-binding region of Gab1. Point mutations were introduced into Gab1&#x394;PH or Gab1Cter sequence as indicated. Interactions were quantified by &#x3B2;-galactosidase liquid assays and compared with the interaction of Gab1&#x394;PH (set as 100). (B) Gab1 proteins and p85 PI(3)K were expressed in 293 cells and following stimulation with HGF/SF, examined for interactions with downstream interaction partners. The Gab1 mutants are the same as in <xref ref-type="fig" rid="F4">Fig. 4</xref> A, except that the &#x394;CBR, &#x394;PI(3)K, and &#x394;Shp2 mutations were introduced into full-size Gab1 cDNA. Gab1 proteins were precipitated with anti-Flag beads and immune complexes detected by Western blotting.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f4a"/>
+      <graphic xlink:href="JCB9912088.f4b"/>
+    </fig>
+    <fig id="F5">
+      <label>Figure 5</label>
+      <caption>
+        <p>Trk-met-Gab1 hybrids interact with downstream substrates and induce branching morphogenesis of MDCK cells. (A) Association of trk-met-Gab1 fusion proteins with signaling proteins in 293 cells. After stimulation with NGF, trk-met-Gab1 proteins were precipitated using myc epitope-tag. Coprecipitating proteins were detected by immuno-blotting. Trk-met-control encodes trk-met lacking the multiple docking site of Met. Gab1 proteins were fused COOH-terminally of trk-met. Gab1Cter encodes residues 450&#x2013;695 of wild-type Gab1, and Cter&#x394;PI(3)K and Cter&#x394;Shp2 express the COOH-terminal coding sequences of the Gab1 mutants &#x394;PI(3)K and &#x394;Shp2 (as in <xref ref-type="fig" rid="F4">Fig. 4</xref> A). (B) Association of Gab1 with Shp2 is essential for c-Met&#x2013;dependent branching morphogenesis activity. MDCK cells were stably transfected with the trk-met-control and trk-met-Gab1Cter constructs as in A. Cell clones were seeded in collagen gel matrix and maintained in 10% FCS (a, d, g, and j) or stimulated with NGF (b, e, h, and k) or HGF/SF (c, f, i, and l) for up to 7 d to induce tubulogenesis. Trk-met-GabCter, and trk-met-Cter&#x394;PI3K respond to NGF treatment (e and h), but not trk-met-Cter&#x394;Shp2 (k) in which the Shp2-binding site of Gab1 is mutated.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f5a"/>
+      <graphic xlink:href="JCB9912088.f5b"/>
+    </fig>
+    <fig id="F6">
+      <label>Figure 6</label>
+      <caption>
+        <p>Association of Gab1 with Shp2 is required for activation of the MAPK pathway. (A) Elk1-dependent reporter gene expression is blocked by Gab1&#x394;Shp2 mutant. 293 cells were transiently transfected with 0.05 &#x3BC;g Gal4-Elk, 0.5 &#x3BC;g Gal4-luciferase and 0.5 &#x3BC;g SV40 LacZ reporter plasmids plus 1 &#x3BC;g pBat-Flag (Control) or Gab1 expression vectors. Gab1 mutants are the same as in <xref ref-type="fig" rid="F4">Fig. 4</xref> B. Cells were treated with HGF/SF for 5 h and luciferase activity assessed from normalized cell extract. Aliquots of the cell lysates were examined for Gab1 protein expression by Western blotting using Gab1 anti-serum (shown below). (B) Catalytic inactive Shp2 mutants block HGF/SF-induced Elk1 activation. Luciferase reporter assays were carried out as in A. Cells were cotransfected with empty vector (Control) or Shp2 expression vectors as indicated. Shp2&#x394;P carries a 31&#x2013;amino acid internal deletion, and Shp2CS a cysteine to serine point mutation at amino acid 453 in the phosphatase domain. In Shp2YF, tyrosine 542 and 580 are mutated to phenylalanine (<xref ref-type="bib" rid="Bennettetal1996">Bennett et al. 1996</xref>). Shown below, Shp2 protein expression of cell lysates. (C) Gab1&#x394;Shp2 attenuates HGF/SF-stimulated phosphorylation of Erk2. 293 cells transfected with HA-tagged Erk2 and either pBat-Flag (Control) or Gab1 expression vectors. After serum starvation, cells were stimulated with HGF/SF as indicated. HA-Erk2 was precipitated and phosphorylation detected by immunoblotting with anti-active MAPK antiserum (pErk). Below: Gab1 protein expression was examined from the total cell lysates (lane C represents control lysate from unstimulated cells).</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f6a"/>
+      <graphic xlink:href="JCB9912088.f6b"/>
+      <graphic xlink:href="JCB9912088.f6c"/>
+    </fig>
+    <fig position="float" id="F7">
+      <label>Figure 7</label>
+      <caption>
+        <p>Scheme of Gab1 associations. Gab1 binds to the bipartide docking site (Y14, Y1349 and Y15, Y1356) of activated c-Met receptor. Direct association of Gab1 to c-Met requires the c-Met&#x2013;binding site (MBS) of Gab1, while the interaction with Grb2 is constitutive and mediated via the Grb2-binding sites (GBS). The MBS is essential for the cellular association of Gab1 with c-Met, but the Grb2-binding sites also contribute to the strength of the interaction. Grb2 binds Y15 of c-Met via SH2 domain and Gab1 via SH3 domains, thereby stabilizing Gab1-c-Met associations in vivo. Upon phosphorylation, Gab1 associates with PI(3)K, CRKL and Shp2. Recruitment of Shp2 is essential for MAPK activation and c-Met/Gab1&#x2013;dependent morphogenesis. (PP) indicates poly proline SH3 interaction site.</p>
+      </caption>
+      <graphic xlink:href="JCB9912088.f7"/>
+    </fig>
+  </floats-wrap>
+</article>
+</pmc-articleset>

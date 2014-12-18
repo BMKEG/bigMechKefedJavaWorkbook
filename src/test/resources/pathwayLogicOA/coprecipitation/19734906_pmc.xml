@@ -1,0 +1,1341 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100941354</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21750</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Immunol</journal-id>
+      <journal-title>Nature immunology</journal-title>
+      <issn pub-type="ppub">1529-2908</issn>
+      <issn pub-type="epub">1529-2916</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19734906</article-id>
+      <article-id pub-id-type="pmc">2748822</article-id>
+      <article-id pub-id-type="doi">10.1038/ni.1777</article-id>
+      <article-id pub-id-type="manuscript">NIHMS137914</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Peli1 facilitates TRIF-dependent Toll-like receptor signaling and proinflammatory cytokine production</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Mikyoung</given-names>
+          </name>
+          <xref rid="FN1" ref-type="author-notes">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jin</surname>
+            <given-names>Wei</given-names>
+          </name>
+          <xref rid="FN1" ref-type="author-notes">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sun</surname>
+            <given-names>Shao-Cong</given-names>
+          </name>
+          <xref rid="FN2" ref-type="author-notes">2</xref>
+        </contrib>
+        <aff id="A1">Department of Immunology, The University of Texas MD Anderson Cancer Center, 7455 Fannin Street, Box 902, Houston TX 77030</aff>
+      </contrib-group>
+      <author-notes>
+        <fn id="FN1" fn-type="equal">
+          <label>1</label>
+          <p>these authors contributed equally to this work</p>
+        </fn>
+        <corresp id="FN2">Correspondence should be addressed to S.-C.S. (<email>ssun@mdanderson.org</email>)</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>21</day>
+        <month>8</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>9</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>10</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>4</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>10</issue>
+      <fpage>1089</fpage>
+      <lpage>1095</lpage>
+      <permissions>
+        <license>
+          <p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</ext-link></p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Toll-like receptors (TLRs) play a pivotal role in innate immunity and inflammation. Here we showed that genetic deficiency of Peli1, an E3 ubiquitin ligase, attenuates induction of proinflammatory cytokines by ligands of TLR3 and TLR4 and renders mice resistant to septic shock. Peli1 was required for TLR3-induced activation of I&#x3BA;B kinase (IKK) and its downstream target transcription factor NF-&#x3BA;B, but was dispensable for IKK&#x2013;NF-&#x3BA;B activation induced by several other TLRs and the interleukin-1 receptor. Notably, Peli1 bound to and ubiquitinated RIP1, a signaling molecule that mediates IKK activation induced by the TLR3 and TLR4 adaptor TRIF. These findings suggest that Peli1 is a ubiquitin ligase needed for transmission of TRIF-dependent TLR signals.</p>
+      </abstract>
+      <contract-num rid="GM1">R01 GM084459-08
+||GM</contract-num>
+      <contract-num rid="AI1">R01 AI064639-04
+||AI</contract-num>
+      <contract-num rid="AI1">R01 AI057555-06
+||AI</contract-num>
+      <contract-sponsor id="GM1">National Institute of General Medical Sciences : NIGMS</contract-sponsor>
+      <contract-sponsor id="AI1">National Institute of Allergy and Infectious Diseases Extramural Activities : NIAID</contract-sponsor>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P2">Innate immunity serves as the first line of host defense against infections. Host cells are equipped with pattern-recognition receptors (PRRs) that recognize diverse pathogen-associated molecular patterns (PAMPs), such as lipopolysaccharide (LPS), peptidoglycan (PGN), single- and double-stranded RNA, and DNA <xref ref-type="bibr" rid="R1">1</xref>. A major family of PRRs is the Toll-like receptor (TLR) family. To date, 10 human and 12 mouse TLRs, each of which recognize distinct PAMPs, have been cloned <xref ref-type="bibr" rid="R2">2</xref>. For example, TLR4 recognizes LPS derived from the outer membrane of gram-negative bacteria, TLR3 recognizes viral double-stranded RNA as well as the synthetic nucleic acid poly(I:C), whereas TLR9 recognizes unmethylated CpG motifs present in bacterial and viral DNAs <xref ref-type="bibr" rid="R2">2</xref>. Recognition of PAMPs by TLRs triggers signaling pathways that lead to the production of proinflammatory cytokines, chemokines, and type I interferons (IFNs). These proteins combat invading pathogens and recruit additional immune cells to the site of infection. TLRs also facilitate induction of costimulatory molecules (e.g. CD80 and CD86) and MHC class II on dendritic cells and B cells, and stimulate B cell proliferation <xref ref-type="bibr" rid="R3">3</xref>, <xref ref-type="bibr" rid="R4">4</xref>.</p>
+    <p id="P3">A key TLR signaling event is activation of the NF-&#x3BA;B family of transcription factors, which mediate induction of various proinflammatory cytokines and many other immune genes <xref ref-type="bibr" rid="R2">2</xref>, <xref ref-type="bibr" rid="R5">5</xref>. In unstimulated cells, NF-&#x3BA;B proteins are sequestered in the cytoplasm by inhibitory proteins, I&#x3BA;Bs <xref ref-type="bibr" rid="R5">5</xref>. In response to TLR stimuli, I&#x3BA;B kinases (IKKs) phosphorylate I&#x3BA;Bs, causing their degradation and NF-&#x3BA;B nuclear translocation <xref ref-type="bibr" rid="R5">5</xref>. Another TLR signaling pathway, which is stimulated by TLR3 and TLR4, involves activation of the IKK-related kinases, IKK&#x3B5; (also called IKKi) and TBK1 <xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>, which are responsible for activation of IFN-responsive factor 3 (IRF3), a transcription factor that mediates induction of genes encoding type I IFNs and IFN-responsive factors <xref ref-type="bibr" rid="R2">2</xref>.</p>
+    <p id="P4">The signaling function of TLRs depends on intracellular adaptors <xref ref-type="bibr" rid="R2">2</xref>. MyD88 transmits signals emanating from all TLRs, except TLR3, and from the interleukin-1 receptor (IL-1R). Another signaling adaptor, TRIF (also called TICAM1) (<ext-link ext-link-type="uri" xlink:href="http://www.signaling-gateway.org/molecule/query?afcsid=A004068">http://www.signaling-gateway.org/molecule/query?afcsid=A004068</ext-link>), specifically mediates TLR3 and TLR4 signaling <xref ref-type="bibr" rid="R8">8</xref>-<xref ref-type="bibr" rid="R10">10</xref>. TLR4 is unique in that it induces both MyD88- and TRIF-dependent signaling pathways. MyD88-mediated signaling involves recruitment and activation of IL-1R-associated kinases (IRAKs) <xref ref-type="bibr" rid="R11">11</xref>. Upon activation, IRAKs interact with and activate TRAF6, an E3 ubiquitin ligase that specifically catalyzes lysine 63 (K63)-linked ubiquitin chains <xref ref-type="bibr" rid="R12">12</xref>. TRAF6-mediated K63 ubiquitination plays a critical role in transducing TLR-proximal signals to downstream events, particularly the activation of IKK and NF-&#x3BA;B <xref ref-type="bibr" rid="R13">13</xref>.</p>
+    <p id="P5">Recent studies suggest that the function of IRAKs may also involve interaction with the Peli (also called Pellino, hereafter named Peli) family of proteins <xref ref-type="bibr" rid="R12">12</xref>. Peli proteins are mammalian homologues of Drosophila Peli, a molecule that interacts with the Drosophila IRAK-like molecule Pelle <xref ref-type="bibr" rid="R14">14</xref>. Mammalian cells have three Peli members, which share strong sequence homology and contain a RING-like domain <xref ref-type="bibr" rid="R12">12</xref>. <italic>In vitro</italic> studies suggest that Peli proteins function as E3 ubiquitin ligases that catalyze K63-linked ubiquitin chains <xref ref-type="bibr" rid="R15">15</xref>-<xref ref-type="bibr" rid="R17">17</xref>. Like TRAF6, Peli proteins physically interact with IRAKs (IRAK1 and IRAK4) and induce ubiquitination of IRAK1 <xref ref-type="bibr" rid="R15">15</xref>-<xref ref-type="bibr" rid="R17">17</xref>. Based on cell line transfection studies, Peli proteins have been implicated in the regulation of IL-1R and MyD88-dependent TLR signaling <xref ref-type="bibr" rid="R12">12</xref>. However, to date, the physiological functions of Peli proteins have not been resolved.</p>
+    <p id="P6">Compared to the MyD88-dependent signaling pathway, much less is known regarding how TRIF transduces TLR-proximal signals. Nevertheless, recent studies establish RIP1 (receptor-interacting protein 1) as an essential adaptor mediating IKK activation downstream of TRIF-dependent TLR3 signals <xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R19">19</xref>. RIP1 was originally identified as an adaptor kinase that transduces tumor necrosis factor receptor (TNFR) signals. In the TNFR pathway, the ubiquitin ligase TRAF2 interacts with and ubiquitinates RIP1, which in turn recruits IKK and its upstream kinase, Tak1; these kinases are then activated <xref ref-type="bibr" rid="R13">13</xref>. RIP1 ubiquitination is also induced by the TLR3 ligand, poly(I:C), and is required for poly(I:C)-stimulated IKK activation <xref ref-type="bibr" rid="R18">18</xref>. RIP1 interacts with TRIF via a RIP homotypic interaction motif (RHIM) <xref ref-type="bibr" rid="R19">19</xref>, and the TRIF-RIP1 signaling complex also contains the adaptor molecule TRADD <xref ref-type="bibr" rid="R20">20</xref>-<xref ref-type="bibr" rid="R22">22</xref>. Despite these important findings, the ubiquitin ligase responsible for ubiquitinating RIP1 in the TRIF-dependent TLR pathway remains elusive. Although TRAF6 was proposed to ubiquitinate RIP1, TRAF6 knockout studies revealed a dispensable role for this E3 in TRIF-dependent IKK activation <xref ref-type="bibr" rid="R23">23</xref>.</p>
+    <p id="P7">In the present study, we provide genetic evidence that Peli1 has a non-redundant role in regulating RIP1 ubiquitination and IKK activation in the TRIF-dependent TLR pathway. Peli1 deficiency caused a specific defect in pro-inflammatory gene induction by ligands of TLR3 and TLR4 and rendered mice resistant to LPS- and poly(I:C)-induced lethality. Peli1 physically interacted with RIP1 and induced RIP1 ubiquitination. Loss of Peli1 attenuated TLR3-stimulated RIP1 ubiquitination and IKK activation but had no effect on the activation of IKK-related kinases. These findings suggest that Peli1 is an E3 ubiquitin ligase that mediates IKK&#x2013;NF-&#x3BA;B activation in the TRIF-dependent TLR signaling pathway.</p>
+    <sec sec-type="results" id="S1">
+      <title>Results</title>
+      <sec id="S2">
+        <title>Normal lymphocyte development in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice</title>
+        <p id="P8">To understand the physiological function of Peli1 in immune regulation, we performed studies using <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice. These mutant mice were generated using conventional targeting strategy, in which coding exons 1 and 2 were replaced with a lacZ/neomycin cassette (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). The <italic>Peli1</italic> homozygous knockout (<italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup>) mice were viable and did not display overt abnormalities in growth and survival. The development of thymocytes appeared to be normal, as <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> and <italic>Peli1</italic><sup>+/+</sup> mice produced comparable frequencies of CD4<sup>+</sup> and CD8<sup>+</sup> single-positive cells and CD4<sup>+</sup>CD8<sup>+</sup> double-positive cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). The number of T cells was also normal in the spleen of <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice (data not shown). Similarly, the Peli1 deficiency did not cause obvious defect in the generation of B cells. Follicular and marginal zone B cells were present in comparable percentages in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> and <italic>Peli1</italic><sup>+/+</sup> mice (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2</xref>). Thus, Peli1 appears to be dispensable for the development of immune cells.</p>
+      </sec>
+      <sec id="S3">
+        <title>Septic shock resistance of <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice</title>
+        <p id="P9">To investigate the <italic>in vivo</italic> function of Peli1 in regulating TLR signaling, we employed a septic shock model involving intra-peritoneal (i.p.) injection of the TLR4 ligand LPS plus a liver-specific transcription inhibitor, D-galactosamine, which enhances the toxicity of LPS <xref ref-type="bibr" rid="R24">24</xref>. In this acute inflammation model, lethality occurs within hours and is largely dependent on the production of the proinflammatory cytokine TNF <xref ref-type="bibr" rid="R25">25</xref>, <xref ref-type="bibr" rid="R26">26</xref>. As expected, injection of LPS and D-galacosamine caused lethality in the majority of <italic>Peli1</italic><sup>+/+</sup> mice within 9 hours and killed all of them within 18 hours (<xref rid="F1" ref-type="fig">Fig. 1a</xref>). In sharp contrast, none of the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice succumbed to the septic shock induction during the entire 24 hour time period (<xref rid="F1" ref-type="fig">Fig. 1a</xref>). We also employed a septic shock model involving injection of high-doses of LPS in the absence of D-galactosamine. As expected, a much higher dose of LPS (45 mg/kg body weight) and a considerably longer time (24 hours) were required to induce a moderate frequency (2 out of 6) of lethality in wild-type mice (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3</xref>). At this time, none of the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice succumbed. After longer times, 1 of the 6 <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice died, compared to 50% of the <italic>Peli1</italic><sup>+/+</sup> mice (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3</xref>). Thus, although less striking than the acute lethality model, the Peli1 deficiency also caused reduced the lethality induced in the high-dose LPS model.</p>
+        <p id="P10">Like LPS, the TLR3 ligand poly(I:C) also induces lethality in mice through a TNF-dependent mechanism<xref ref-type="bibr" rid="R27">27</xref>. We thus examined the effect of Peli1 deficiency on the lethality induced by poly(I:C). Compared to LPS, poly(I:C) was relatively inefficient in inducing lethality. Nevertheless, at a high dose (0.5 &#x3BC;g/g body weight), poly(I:C) induced death of most of the <italic>Peli1</italic><sup>+/+</sup> mice within 8 hours but none of the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice at this early time point (<xref rid="F1" ref-type="fig">Fig. 1b</xref>). Even at late times, only 1 out of 6 <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice died.</p>
+        <p id="P11">To understand the molecular mechanism mediating the resistance of <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice to septic shock induction, we bled the LPS- and poly(I:C)-challenged mice during early time periods (1-4 hours) after LPS and poly(I:C) injection and measured the serum concentrations of pro-inflammatory cytokines as well as the anti-viral cytokine interferon (IFN)-&#x3B2;. Injection of <italic>Peli1</italic><sup>+/+</sup> mice led to the production of high concentrations of TNF, IL-6, IL-12P40, and IFN-&#x3B2; (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). Consistent with the lethality result, the induction of pro-inflammatory cytokines was severely attenuated in the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). Loss of Peli1 also partially inhibited the proinflammatory cytokine induction by poly(I:C) (<xref rid="F1" ref-type="fig">Fig. 1d</xref>). On the other hand, Peli1 deficiency only slightly reduced the production of IFN-&#x3B2; (<xref rid="F1" ref-type="fig">Fig. 1c,d</xref>). These results suggest a critical role for Peli1 in regulating TLR3 and TLR4-mediated proinflammatory cytokine induction and lethality.</p>
+        <p id="P12">Next we analyzed the effect of Peli1 deficiency on TLR-mediated gene induction <italic>in vitro</italic>. For these studies, we prepared primary murine embryonic fibroblasts (MEFs) from <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> littermate embryos (dissected from the same pregnant females). Stimulation of <italic>Peli1</italic><sup>+/+</sup> MEFs by LPS and poly(I:C) led to the induction of <italic>Tnf</italic> gene expression (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). Consistent with the <italic>in vivo</italic> studies, induction of <italic>Tnf</italic> by both LPS and poly(I:C) was severely inhibited in the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs. Peli1 was also essential for LPS- and poly(I:C)-stimulated expression of another proinflammatory gene, <italic>IL-12p40</italic> (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). On the other hand, Peli1 is not a universal signaling component of the TLR pathway, as it was not required for LPS- and poly(I:C)-stimulated expression of <italic>IFN-&#x3B2;</italic> and an IFN-responsive gene, <italic>Cxcl10</italic>, which encodes the interferon-inducible protein-10 (IP-10) <xref ref-type="bibr" rid="R28">28</xref> (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). Real-time PCR and ELISA studies using bone marrow derived macrophages revealed that Peli1 was critical for <italic>IL-12p40</italic> induction by LPS and poly(I:C) and was partially required for <italic>IL-12p40</italic> induction by CpG (<xref rid="F2" ref-type="fig">Fig. 2b,c</xref>). In addition, in bone marrow-derived dendritic cells and B cells, poly(I:C)-stimulated proinflammatory gene expression was severely attenuated in the absence of Peli (<xref rid="F2" ref-type="fig">Fig. 2d,e</xref>). However, Peli1 deficiency did not appreciably affect gene induction by several other TLR ligands, including Pam<sub>3</sub>CSK<sub>4</sub> (TLR1-TLR2), R837 (TLR7, TLR8), and MALP2 (TLR2-TLR6) (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). Thus, Peli1 is required for pro-inflammatory cytokine gene induction predominantly by LPS and poly(I:C).</p>
+      </sec>
+      <sec id="S4">
+        <title>Peli1 in TLR-mediated B cell activation-survival</title>
+        <p id="P13">TLRs play an important role in B cell activation <xref ref-type="bibr" rid="R29">29</xref>-<xref ref-type="bibr" rid="R31">31</xref>. In response to TLR signals, B cells express costimulatory molecules and increase the expression of MHCII molecules, thus enhancing their ability to activate helper T cells. To examine whether Peli1 is involved in TLR-mediated B cell activation, we analyzed the effect of Peli1 deficiency on the activation of B cells derived from <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice. As expected, stimulation of <italic>Peli1</italic><sup>+/+</sup> B cells with several TLR ligands (LPS, poly(I:C), PGN, CpG) led to potent induction of the costimulatory molecule CD86 (<xref rid="F3" ref-type="fig">Fig. 3a</xref>, left panels, black line) as well as enhanced expression of MHCII (<xref rid="F3" ref-type="fig">Fig. 3a</xref>, right panels, black line). Induction of these genes was also detected in cells stimulated with antibodies that crosslink IgM and CD40 (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). Induction of both CD86 and MHCII by LPS was attenuated in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). The inhibitory effect of Peli1 deficiency on CD86 and MHCII induction was even more profoundly seen in B cells stimulated with the TLR3 ligand, poly(I:C) (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). On the other hand, loss of Peli1 had no effect on the induction of CD86 and MHCII by several other TLR ligands, including PGN and CpG (<xref rid="F3" ref-type="fig">Fig. 3a</xref>) as well as Pam<sub>3</sub>CSK<sub>4</sub>, MALP2, and R837 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref> and data not shown). Furthermore, Peli1 was dispensable for the induction of CD86 and MHCII by anti-IgM and anti-CD40. Thus, Peli1 is required for CD86 and MHCII induction specifically by TLR3 and TLR4 signals.</p>
+        <p id="P14">TLR signals also induce the proliferation of B cells <xref ref-type="bibr" rid="R31">31</xref>. Consistently, the proliferation of <italic>Peli1</italic><sup>+/+</sup> B cells was stimulated by a panel of TLR ligands as well as by IgM and CD40 crosslinking (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). As seen with the induction of CD86 and MHCII expression, the induction of proliferation by LPS and poly(I:C) was severely inhibited in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells. This effect was again more profound for poly(I:C). We detected a partial inhibition of CpG- and Pam<sub>3</sub>CSK<sub>4</sub>-induced proliferation in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). This effect was, however, not generic for all MyD88-binding TLRs, since loss of Peli1 did not inhibit the induction of B cell proliferation by R837, MALP2, or PGN (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). Peli1 deficiency did not affect proliferation induced by IgM or CD40 crosslinking. In fact, we repeatedly detected enhanced proliferation of PGN- and anti-CD40-stimulated <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells, although it is currently unclear how Peli1 negatively regulates the signaling of these pathways.</p>
+        <p id="P15">TLR ligands, particularly LPS and CpG <xref ref-type="bibr" rid="R32">32</xref>, <xref ref-type="bibr" rid="R33">33</xref>, also stimulate the survival of B cells. To examine the role of Peli1 in TLR-driven survival, we incubated <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells <italic>in vitro</italic> in the presence of different TLR ligands. In the absence of TLR ligands, <italic>Peli1</italic><sup>+/+</sup> B cells underwent massive apoptosis, as determined by staining with annexin-V and PI. After culture for 24 hours, less than 20% of the cells were negative for both PI and annexin-V (<xref rid="F3" ref-type="fig">Fig. 3c</xref>, live cells), but the spontaneous death of <italic>Peli1</italic><sup>+/+</sup> B cells was greatly inhibited by LPS and CpG and moderately inhibited by several other TLR ligands (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). However, loss of Peli1 severely attenuated the pro-survival effects of LPS, poly(I:C), and CpG (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). Thus, Peli1 mediates TLR3 and TLR4-driven induction of costimulatory gene expression, proliferation and survival in B cells.</p>
+      </sec>
+      <sec id="S5">
+        <title>Peli1 in IKK-NF-&#x3BA;B activation</title>
+        <p id="P16">A central signaling event involved in TLR-mediated gene induction is activation of IKK and its downstream transcription factor NF-&#x3BA;B <xref ref-type="bibr" rid="R2">2</xref>. To investigate the function of Peli1 in this process, we examined the effect of Peli1 deficiency on TLR-stimulated activation of IKK and NF-&#x3BA;B using different cell types. Consistent with the gene induction studies (<xref rid="F2" ref-type="fig">Fig. 2</xref>,<xref rid="F3" ref-type="fig">3</xref>), poly(I:C)-stimulated NF-&#x3BA;B activation was severely attenuated in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). The Peli1 deficient MEFs also showed a partial inhibition of NF-&#x3BA;B activation by LPS (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). Parallel kinase assays revealed that Peli1 deficiency largely impaired poly(I:C)-stimulated activation of IKK and also partially inhibited the LPS-stimulated activation of IKK (<xref rid="F4" ref-type="fig">Fig. 4b</xref>). Since TLR4 activates IKK through both MyD88- and TRIF-dependent pathways, whereas TLR3 activates IKK exclusively through TRIF <xref ref-type="bibr" rid="R2">2</xref>, these results suggest that Peli1 plays a non-redundant role in promoting IKK activation in the TRIF-dependent TLR pathway.</p>
+        <p id="P17">We next examined the role of Peli1 in the activation of NF-&#x3BA;B in B cells. As seen in MEFs, the Peli1 deficiency markedly inhibited poly(I:C)-stimulated activation of NF-&#x3BA;B (<xref rid="F4" ref-type="fig">Fig. 4c</xref>) and IKK (<xref rid="F4" ref-type="fig">Fig. 4d</xref>). The loss of Peli1 also partially inhibited LPS-stimulated NF-&#x3BA;B activation. However, Peli1 was largely dispensable for NF-&#x3BA;B activation by CpG and anti-IgM (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). A similar result was obtained in splenocytes, in which Peli1 was required for IKK activation by poly(I:C) but not by other TLR ligands (<xref rid="F4" ref-type="fig">Fig. 4e</xref>). Notably, the effect of Peli1 deficiency on LPS-stimulated IKK activation was not appreciable in splenocytes. These results further suggest a role for Peli1 in mediating IKK&#x2013;NF-&#x3BA;B activation by the TRIF-dependent TLRs, particularly TLR3.</p>
+        <p id="P18">In addition to activation of IKK, the TRIF-dependent TLR pathway stimulates the activity of IKK-related kinases, IKK&#x3B5; and TBK1. To further investigate the signaling mechanism of Peli1, we examined its role in the activation of IKK&#x3B5; induced by poly(I:C) and LPS. In contrast to the activation of IKK, the activation of IKK&#x3B5; downstream of both poly(I:C) and LPS was similar in <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> and <italic>Peli1</italic><sup>+/+</sup> MEFs (<xref rid="F4" ref-type="fig">Fig. 4f</xref>). Thus, Peli1 plays a selective role in regulating IKK&#x2013;NF-&#x3BA;B activation by TLR3.</p>
+      </sec>
+      <sec id="S6">
+        <title>Peli1 is dispensable for IL-1R signaling</title>
+        <p id="P19">Prior transfection studies performed using a cell line model suggest that Peli1 facilitates IL-1R signaling <xref ref-type="bibr" rid="R34">34</xref>. However, it is unknown whether Peli1 is required for IL-1R signaling under physiological conditions. To address this question, we examined the effect of Peli1 deficiency on IL-1R-mediated pro-inflammatory gene induction in primary MEFs, a cell type that efficiently responds to IL-1&#x3B2; stimulation. In <italic>Peli1</italic><sup>+/+</sup> MEFs, IL-1&#x3B2; stimulated the expression of <italic>Tnf</italic> and <italic>Il6</italic>, although it did not induce appreciable expression of <italic>IL-12p40</italic> (<xref rid="F5" ref-type="fig">Fig. 5a</xref> and data not shown). IL-1&#x3B2; also induced expression of <italic>Cxcl10</italic>, the gene encoding IP-10, in <italic>Peli1</italic><sup>+/+</sup> MEFs. However, loss of Peli1 did not affect IL-1&#x3B2;-stimulated expression of <italic>Tnf</italic>, <italic>Il6</italic> or <italic>Cxcl10</italic> (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). To further examine the role of Peli1 in IL-1R signaling, we employed an <italic>in vivo</italic> gene induction model. When injected into <italic>Peli1</italic><sup>+/+</sup> mice, IL-1&#x3B2; stimulated production of high concentrations of IL-6 (<xref rid="F5" ref-type="fig">Fig. 5b</xref>), although it did not induce detectable quantities of TNF (data not shown). Consistent with the <italic>in vitro</italic> results, Peli1 was completely dispensable for IL-1&#x3B2;-induced IL-6 production <italic>in vivo</italic> (<xref rid="F5" ref-type="fig">Fig. 5b</xref>).</p>
+        <p id="P20">To directly examine the role of Peli1 in IL-1R signaling, we analyzed the effect of Peli1 deficiency on IL-1&#x3B2;-stimuated activation of NF-&#x3BA;B and IKK. IL-1&#x3B2; stimulated comparable NF-&#x3BA;B DNA-binding activity in <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs (<xref rid="F5" ref-type="fig">Fig. 5c</xref>). Consistently, the loss of Peli1 did not affect IL-1&#x3B2;-stimulated activation of IKK (<xref rid="F5" ref-type="fig">Fig. 5d</xref>). Together, these results suggest that Peli1 is either functionally redundant with other Peli proteins or not critical in the IL-1R signaling pathway. As IL-1R transduces signals through MyD88 <xref ref-type="bibr" rid="R35">35</xref>, these results are consistent with the dispensable role of Peli1 in IKK&#x2013;NF-&#x3BA;B activation by the MyD88-dependent TLR2 and TLR9 (<xref rid="F4" ref-type="fig">Fig. 4c,e</xref>).</p>
+      </sec>
+      <sec id="S7">
+        <title>Peli1 induces RIP1 ubiquitination</title>
+        <p id="P21">The signaling studies presented above suggest a role for Peli1 in regulating IKK activation in the TRIF-dependent TLR pathway. A hallmark of this pathway of IKK activation is the ubiquitination of a TRIF-interacting adaptor kinase, RIP1 <xref ref-type="bibr" rid="R18">18</xref>. In response to poly(I:C) stimulation, RIP1 undergoes K63 ubiquitination, which is critical for recruitment and activation of IKK. To date, the ubiquitin ligase of RIP1 in the TRIF-dependent TLR pathway remains unidentified. Since Peli1 is an E3 ubiquitin ligase <xref ref-type="bibr" rid="R15">15</xref>-<xref ref-type="bibr" rid="R17">17</xref> that is critical for IKK activation by TLR3, we examined the potential role of Peli1 in ubiquitinating RIP1. We first analyzed whether Peli1 is essential for poly(I:C)-stimulated ubiquitination of RIP1. Consistent with previous studies <xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R21">21</xref>, stimulation of <italic>Peli1</italic><sup>+/+</sup> MEFs with poly(I:C) led to accumulation of ubiquitinated RIP1 (<xref rid="F6" ref-type="fig">Fig. 6a</xref>). In contrast, the poly(I:C)-stimulated RIP1 ubiquitination was largely blocked in the <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> cells (<xref rid="F6" ref-type="fig">Fig. 6a</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6</xref>).</p>
+        <p id="P22">We next examined whether Peli1 physically associates with RIP1. When coexpressed in 293 cells, Peli1 and RIP1 indeed formed a stable complex that was readily detected by coimmunoprecipitation assays (<xref rid="F6" ref-type="fig">Fig. 6b</xref>). Peli1 also interacted with endogenous RIP1 (<xref rid="F6" ref-type="fig">Fig. 6c</xref>). Peli1-RIP1 binding seemed to be further enhanced by expression of TRIF, and Peli1 seemed to enhance the association between TRIF and endogenous RIP1 (<xref rid="F6" ref-type="fig">Fig. 6c</xref>). These enhanced physical interaction activities were not due to increases in the expression of RIP1, TRIF, or Peli1 (<xref rid="F6" ref-type="fig">Fig. 6c</xref>). As Peli1 was essential for poly(I:C)-stimulated RIP1 ubiquitination, we examined whether Peli1 was able to induce RIP1 ubiquitination. Indeed, when coexpressed with Peli1, RIP1 became potently ubiquitinated (<xref rid="F6" ref-type="fig">Fig. 6d,e</xref>). Moreover, the Peli1-mediated RIP1 ubiquitination was further enhanced by TRIF (<xref rid="F6" ref-type="fig">Fig. 6d</xref>). Peli1-mediated RIP1 ubiquitination required the RING domain of Peli1, since the ubiquitination of RIP1 was not induced by Peli1 mutants harboring RING deletion (&#x394;R) or point mutations (PM) (<xref rid="F6" ref-type="fig">Fig. 6f</xref>). Peli1-mediated RIP1 ubiquitination appeared to be direct, as Peli1 also induced RIP1 ubiquitination in a cell-free system (<xref rid="F6" ref-type="fig">Fig. 6h</xref>). These results suggest that Peli1 is an E3 ubiquitin ligase that mediates RIP1 ubiquitination in the TRIF-dependent TLR pathway.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="S8">
+      <title>Discussion</title>
+      <p id="P23">Peli proteins possess K63 ubiquitin ligase function <xref ref-type="bibr" rid="R15">15</xref>-<xref ref-type="bibr" rid="R17">17</xref>, although their physiological role has remained unknown. The results presented in this paper demonstrate a critical role for Peli1 in facilitating TLR3-stimulated activation of IKK and its downstream transcription factor NF-&#x3BA;B. Peli1 interacted with the TRIF-signaling adaptor kinase RIP1, and mediated RIP1 ubiquitination, a key step in the TRIF-dependent IKK-signaling pathway. Consequently, Peli1 was required for TLR3-stimulated expression of pro-inflammatory cytokines and B cell activation. Peli1 was also important for TLR4-mediated gene induction, although it was only partially required for LPS-stimulated activation of IKK and NF-&#x3BA;B. This result is reminiscent of the phenotype of TRIF- and RIP1-deficient cells, and can be attributed to the involvement of both TRIF- and MyD88-dependent pathways in TLR4-mediated IKK&#x2013;NF-&#x3BA;B activation <xref ref-type="bibr" rid="R10">10</xref>, <xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R33">33</xref>. Our study further revealed that, like RIP1, Peli1 was dispensable for IKK&#x2013;NF-&#x3BA;B activation induced by IL-1R and the MyD88-dependent TLR2 and TLR9.</p>
+      <p id="P24">Peli1 joins TRAF6 as the second E3 ubiquitin ligase known to mediate IKK&#x2013;NF-&#x3BA;B activation in the TLR-signaling pathways. However, these two E3 molecules appear to have distinct roles. Extensive studies have established TRAF6 as an essential E3 in the MyD88-dependent TLR and IL-1R signaling pathways <xref ref-type="bibr" rid="R2">2</xref>. On the other hand, TRAF6 appears to be less important for TRIF-dependent TLR signaling. Although TRAF6 binds to TRIF and modulates TRIF-specific signaling function under transfection conditions <xref ref-type="bibr" rid="R36">36</xref>, TRAF6 deficiency does not impair poly(I:C)-stimulated NF-&#x3BA;B activation <xref ref-type="bibr" rid="R23">23</xref>. In contrast to TRAF6, Peli1 is critical for the TRIF-dependent TLR signaling but is dispensable for the signaling function of MyD88-dependent TLRs and IL-1R. The finding that Peli1 is not required for IL-1R signaling was unexpected, as a previous transfection study suggests a role for Peli1 in regulating IL-1R signaling in 293 cells <xref ref-type="bibr" rid="R34">34</xref>. It is currently unclear whether Peli1 is functionally redundant with TRAF6 or other Peli members in mediating the signaling of IL-1R and MyD88-dependent TLRs. As the different Peli family members share strong sequence homology <xref ref-type="bibr" rid="R12">12</xref>, it is possible that they possess functional redundancy in certain signaling pathways and cell types. Nevertheless, our findings suggest a crucial function of Peli1 in the TRIF-dependent NF-&#x3BA;B signaling pathway. It is important to note, however, that the defect of <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice and cells in cytokine induction is less severe than that of the <italic>TRIF</italic><sup>&#x2013;/&#x2013;</sup> mice and cells. This finding implies that Peli1 homologues or additional E3 proteins may also participate in TRIF signaling. An alternative explanation is that the ubiquitination of RIP1 is important, but not absolutely essential, for mediating TRIF-dependent NF-&#x3BA;B activation. The signaling function of Peli1 appears to be cell type-specific, with the most obvious phenotype observed in B cells and MEFs. Future studies will examine whether the cell type-specific function of Peli1 is due to its expression amount or redundancy with other Peli members.</p>
+      <p id="P25">The TRIF-dependent TLR3 signaling pathway activates IKK&#x3B5; and TBK1, which mediate activation of IRF3 and IFN-responsive genes. Like the activation of IKK, the activation of IKK&#x3B5; and TBK1also involves K63 ubiquitination. We showed that Peli1 deficiency only had moderate effects on LPS- and poly(I:C)-induced expression of type I IFNs both <italic>in vivo</italic> and <italic>in vitro</italic>. Furthermore, Peli1 was not required for TLR3-mediated activation of IKK&#x3B5;. Consistent with our finding, TRAF3 has been implicated as the E3 ubiquitin ligase that mediates IKK&#x3B5; and TBK1 activation <xref ref-type="bibr" rid="R37">37</xref>. Our finding that Peli1 regulates RIP1 further suggests a specific function of Peli1 in the IKK&#x2013;NF-&#x3BA;B signaling axis, as RIP1 mediates activation of NF-&#x3BA;B but not that of IRF3 <xref ref-type="bibr" rid="R18">18</xref>. When injected <italic>in vivo</italic>, poly(I:C) also induces a cytoplasmic PRR signaling pathway involving the adaptors MDA5 and IPS-1 (also known as MAVS and Cardif) <xref ref-type="bibr" rid="R38">38</xref>, <xref ref-type="bibr" rid="R39">39</xref>. Future studies will examine whether Peli1 has a role in regulating the MDA5-IPS-1 signaling pathway.</p>
+      <p id="P26">Our data suggest that in addition to its role in regulating the signaling function of TRIF-dependent TLRs (TLR3 and TLR4), Peli1 is partially required for CpG (TLR9)- and Pam<sub>3</sub>CSK<sub>4</sub> (TLR1-TLR2)-stimulated B cell proliferation and survival. However, this function is not generic for all MyD88-dependent TLRs, because Peli1 is not required for B cell activation induced by the ligands of TLR2 (PGN), TLR2-TLR6 (MALP2), or TLR7-TLR8 (R837). It is currently unclear how Peli1 regulates the function of specific MyD88-dependent TLRs, but circumstantial evidence suggests the involvement of RIP1 in some MyD88-dependent TLRs, particularly TLR9. Like <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells, RIP1-deficient B cells are partially defective in CpG-induced B cell proliferation <xref ref-type="bibr" rid="R33">33</xref>. As Peli1 is not required for CpG-stimulated NF-&#x3BA;B activation, we propose that Peli1 might regulate CpG-mediated activation of other signaling factors or specific members of NF-&#x3BA;B.</p>
+      <p id="P27">Additional signaling functions of Peli1 are also implicated by the interaction of Peli proteins with IRAK family members, particularly IRAK1 and IRAK4 <xref ref-type="bibr" rid="R12">12</xref>. Whether IRAKs are involved in the signaling function of Peli1 in the TLR3 signaling pathway remains to be investigated. However, this possibility is low, as IRAKs do not seem to have a critical role in TRIF-dependent TLR signaling, despite their critical participation in the MyD88-dependent TLR and IL-1R signaling pathways <xref ref-type="bibr" rid="R40">40</xref>-<xref ref-type="bibr" rid="R42">42</xref>. It is more likely that IRAKs modulate the function of Peli1 in MyD88-dependent TLR and IL-1R pathways. As discussed above, this function of Peli1 might be masked by its functional redundancy with other Peli members or TRAF6. Generation of mouse models deficient in different Peli proteins is important for addressing this question. Notwithstanding, our current work establishes Peli1 is an E3 ubiquitin ligase that is specifically required for TRIF-induced RIP1 ubiquitination and IKK activation.</p>
+    </sec>
+    <sec sec-type="methods" id="S9">
+      <title>Methods</title>
+      <p id="P28">The Methods and their associated references appear only online.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S10">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS137914-supplement-1.pdf" xlink:type="simple" id="N0x5ef3f00N0x6fbc880" position="anchor" mimetype="application" mime-subtype="pdf"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <media xlink:href="NIHMS137914-supplement-supplement_1.pdf" xlink:type="simple" id="N0x5ef3f00N0x6fbc940" position="anchor" mimetype="application" mime-subtype="pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec id="S11" sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="F1" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title><italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice are resistant to LPS- and poly(I:C)-induced lethality</title>
+          <p>(<bold>a,b</bold>) Age- and sex-matched <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice (8 week old; 5 <italic>Peli1</italic><sup>+/+</sup> and 5 <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> for <bold>a</bold>; 6 <italic>Peli1</italic><sup>+/+</sup> and 5 <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> for <bold>b</bold>) were injected (i.p.) with LPS plus D-galactosamine (<bold>a</bold>) or poly(I:C) plus D-galactosamine (<bold>b</bold>). Lethality was monitored every hour for 24 hours. (<bold>c</bold>) Mice shown in <bold>a</bold> were bled at the indicated times after injection, and the serum concentration of the indicated cytokines was determined by ELISA and presented as mean &#xB1; s.d. (<bold>d</bold>) Mice shown in <bold>b</bold> were bled at the indicated times after injection, and the serum concentration of the indicated cytokines was determined by ELISA and presented as mean &#xB1; sd. * <italic>P</italic> &lt; 0.05 and ** <italic>P</italic> &lt; 0.01. Data are representative of 3 independent experiments with similar results.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f1"/>
+      </fig>
+      <fig id="F2" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>Peli1 is required for TLR3- and TLR4-mediated induction of pro-inflammatory genes</title>
+          <p>(<bold>a</bold>) <italic>Peli1</italic><sup>+/+</sup> (+/+) and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> (&#x2212;/&#x2212;) primary MEFs were stimulated with LPS or poly(I:C) and subjected to real-time PCR to detect the relative expression of mRNA transcripts encoding the indicated genes. The data are presented as mean &#xB1; s.d. fold induction compared to untreated (0 h) <italic>Peli1</italic><sup>+/+</sup> samples. (<bold>b,c</bold>) <italic>Peli</italic><sup>+/+</sup> (+/+) and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> (&#x2212;/&#x2212;) bone marrow derived macrophages were stimulated as indicated and subjected to real-time PCR as described in <bold>a</bold> (<bold>b</bold>) or ELISA (<bold>c</bold>). (<bold>d,e</bold>) Bone marrow derived dendritic cells (<bold>d</bold>) and splenic B cells (<bold>e</bold>) were stimulated as indicated and subjected to real-time PCR as described in <bold>a</bold>. Data are representative of 2 independent experiments.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f2"/>
+      </fig>
+      <fig id="F3" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>Peli1 regulates B cell activation and survival</title>
+          <p>(<bold>a</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> splenic B cells were incubated <italic>in vitro</italic> for 24 h in the presence of LPS (1 &#x3BC;g/ml), poly(I:C) (50 &#x3BC;g/ml), PGN (2.5 &#x3BC;g/ml), CpG (1 &#x3BC;M), anti-IgM (2.5 &#x3BC;g/ml) or anti-CD40 (1 &#x3BC;g/ml). Untreated <italic>Peli1</italic><sup>+/+</sup> cells (shaded area) were included as controls. Surface expression of CD86 and MHCII was detected by flow cytometry. (<bold>b</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> splenic B cells were incubated <italic>in vitro</italic> in the absence (NT) or presence of the indicated stimuli. After 48 h, cell proliferation was measured by [<sup>3</sup>H]thymidine-incorporation and presented as mean &#xB1; s.d. (<bold>c</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> splenic B cells were incubated for 24 h in the absence (NT) or presence of the indicated TLR ligands. Apoptosis was analyzed by annexinV-FITC and PI staining to quantify the annexinV<sup>&#x2013;</sup>PI<sup>&#x2013;</sup> live cells. Data are representative of 3 independent experiments.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f3"/>
+      </fig>
+      <fig id="F4" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>Peli1 is essential for IKK-NF-&#x3BA;B activation by TLR3</title>
+          <p>(<bold>a</bold>) Primary <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs were unstimulated (NT) or stimulated with poly(I:C) (50 &#x3BC;g/ml) or LPS (1 &#x3BC;g/ml). Nuclear extracts were subjected to EMSA for detection of NF-&#x3BA;B and NF-Y. (<bold>b</bold>) MEFs were treated as indicated and subjected to kinase assay (KA) by isolating IKK holoenzyme by IP using anti-IKK&#x3B3; and using GST-I&#x3BA;B&#x3B1;(1-54) as substrate (upper). Kinase assay membrane was subjected to IB using anti-IKK&#x3B1; (lower). (<bold>c,d</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> B cells were stimulated as indicated and subjected to EMSA (<bold>c</bold>) and kinase assays (<bold>d</bold>). (<bold>e</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> splenocytes were stimulated as indicated and subjected to kinase assays as described in <bold>b</bold>. (<bold>f</bold>) Primary <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs were stimulated as in A. IKK&#x3B5; was isolated by IP and subjected to kinase assays using GST-IRF3 as substrate. Data are representative of 3 or more independent experiments.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f4"/>
+      </fig>
+      <fig id="F5" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>Dispensable role of Peli1 in IL-1R signaling</title>
+          <p>(<bold>a</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs were stimulated with IL-1&#x3B2; (10 ng/ml) and subjected to real-time RT-PCR. Data are presented as fold induction (mean &#xB1; sd) over the non-stimulated (0 h) <italic>Peli1</italic><sup>+/+</sup> samples. (<bold>b</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> mice were injected (i.p.) with IL-1&#x3B2; (20 &#x3BC;g/kg body weight) and bled at 2 h after the injection. The concentration of IL-6 and TNF was determined by ELISA and presented as mean &#xB1; sd (<italic>n</italic> = 5 mice of each genotype). TNF was undetectable at 30 min and 2 h (data not shown). (<bold>c,d</bold>) MEFs were not treated (NT) or stimulated with IL-1&#x3B2; Nuclear extracts were subjected to EMSA using NF-&#x3BA;B or NF-Y probes (<bold>c</bold>), and total cell lysates were subjected to <italic>in vitro</italic> kinase assays using GST-I&#x3BA;B&#x3B1;(1-54) as substrate (<bold>d</bold>). Data are representative of 2 (<bold>a,b</bold>) and 3 (<bold>c,d</bold>) independent experiments.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f5"/>
+      </fig>
+      <fig id="F6" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <title>Peli1 interacts with and ubiquitinates RIP1</title>
+          <p>(<bold>a</bold>) <italic>Peli1</italic><sup>+/+</sup> and <italic>Peli1</italic><sup>&#x2212;/&#x2212;</sup> MEFs were stimulated with poly(I:C) (100 &#x3BC;g/ml) and subjected to RIP1 ubiquitination (top) and RIP1 IB (bottom) assays. (<bold>b,c</bold>) 293 cells were transfected with the indicated expression vectors. Flag-RIP1 (<bold>b</bold>) or endogenous RIP1 (<bold>c</bold>) was isolated by IP followed by IB to detect the indicated proteins. Cell lysates were also subjected to IBs. (<bold>d-f</bold>) 293 cells were transfected with (+) or without (&#x2013;) the indicated expression vectors. RIP1 was isolated by IP, and the ubiquitinated RIP1 was detected using anti-HA (<bold>d,f</bold>) or anti-RIP1 (<bold>e</bold>). (<bold>g,f</bold>) Myc-RIP1, HA-Peli1, or vector control were translated <italic>in vitro</italic> as <sup>35</sup>S-labeled (Myc-RIP1) or cold (HA-Peli1) proteins and detected by IB (<bold>g</bold>). The indicated translation products were incubated in the absence (no ub reaction) or presence (ub reaction) of ubiquitination components. Ubiquitinated RIP1 and unmodified RIP1 were separated by SDS-PAGE and visualized by autoradiography.</p>
+        </caption>
+        <graphic xlink:href="nihms137914f6"/>
+      </fig>
+    </sec>
+    <ack id="S12">
+      <p>We thank Texas Institute for Genomic Medicine for providing the <italic>Peli1</italic> knockout mice. We also thank R Beyaert (Ghent University), J Hiscott (McGill University), V Chau (Pennsylvania State University College of Medicine), MK Offermann (Emory University), and WJ. Kaiser (Emory University) for reagents. This study was supported by grants from National Institutes of Health (AI057555, AI064639, GM84459).</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Uematsu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Takeuchi</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathogen recognition and innate immunity</article-title>
+          <source>Cell</source>
+          <volume>124</volume>
+          <fpage>783</fpage>
+          <lpage>801</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16497588</pub-id>
+        </citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawai</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>TLR signaling</article-title>
+          <source>Semin Immunol</source>
+          <volume>19</volume>
+          <fpage>24</fpage>
+          <lpage>32</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17275323</pub-id>
+        </citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hemmi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>TLR signalling and the function of dendritic cells</article-title>
+          <source>Chem Immunol Allergy</source>
+          <volume>86</volume>
+          <fpage>120</fpage>
+          <lpage>135</lpage>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">15976491</pub-id>
+        </citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pasare</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Medzhitov</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Toll-like receptors: linking innate and adaptive immunity</article-title>
+          <source>Adv Exp Med Biol</source>
+          <volume>560</volume>
+          <fpage>11</fpage>
+          <lpage>18</lpage>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">15932016</pub-id>
+        </citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayden</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Shared principles in NF-kappaB signaling</article-title>
+          <source>Cell</source>
+          <volume>132</volume>
+          <fpage>344</fpage>
+          <lpage>362</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18267068</pub-id>
+        </citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fitzgerald</surname>
+              <given-names>KA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IKKepsilon and TBK1 are essential components of the IRF3 signaling pathway</article-title>
+          <source>Nat Immunol</source>
+          <volume>4</volume>
+          <fpage>491</fpage>
+          <lpage>496</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12692549</pub-id>
+        </citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Triggering the interferon antiviral response through an IKK-related pathway</article-title>
+          <source>Science</source>
+          <volume>300</volume>
+          <fpage>1148</fpage>
+          <lpage>1151</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12702806</pub-id>
+        </citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cutting edge: a novel Toll/IL-1 receptor domain-containing adapter that preferentially activates the IFN-beta promoter in the Toll-like receptor signaling</article-title>
+          <source>J Immunol</source>
+          <volume>169</volume>
+          <fpage>6668</fpage>
+          <lpage>6672</lpage>
+          <year>2002</year>
+          <pub-id pub-id-type="pmid">12471095</pub-id>
+        </citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oshiumi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Funami</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Akazawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Seya</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>TICAM-1, an adaptor molecule that participates in Toll-like receptor 3-mediated interferon-beta induction</article-title>
+          <source>Nat Immunol</source>
+          <volume>4</volume>
+          <fpage>161</fpage>
+          <lpage>167</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12539043</pub-id>
+        </citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Role of adaptor TRIF in the MyD88-independent toll-like receptor signaling pathway</article-title>
+          <source>Science</source>
+          <volume>301</volume>
+          <fpage>640</fpage>
+          <lpage>643</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12855817</pub-id>
+        </citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janssens</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Beyaert</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional diversity and regulation of different interleukin-1 receptor-associated kinase (IRAK) family members</article-title>
+          <source>Mol Cell</source>
+          <volume>11</volume>
+          <fpage>293</fpage>
+          <lpage>302</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12620219</pub-id>
+        </citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schauvliege</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Janssens</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Beyaert</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Pellino proteins: novel players in TLR and IL-1R signalling</article-title>
+          <source>J Cell Mol Med</source>
+          <volume>11</volume>
+          <fpage>453</fpage>
+          <lpage>461</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17635639</pub-id>
+        </citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adhikari</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitin-mediated activation of TAK1 and IKK</article-title>
+          <source>Oncogene</source>
+          <volume>26</volume>
+          <fpage>3214</fpage>
+          <lpage>3226</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17496917</pub-id>
+        </citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grosshans</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Schnorrer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>N&#xFC;sslein-Volhard</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Oligomerisation of Tube and Pelle leads to nuclear localisation of dorsal</article-title>
+          <source>Mech Dev</source>
+          <volume>81</volume>
+          <fpage>127</fpage>
+          <lpage>138</lpage>
+          <year>1999</year>
+          <pub-id pub-id-type="pmid">10330490</pub-id>
+        </citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schauvliege</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Janssens</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Beyaert</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Pellino proteins are more than scaffold proteins in TLR/IL-1R signalling: a role as novel RING E3-ubiquitin-ligases</article-title>
+          <source>FEBS Lett</source>
+          <volume>580</volume>
+          <fpage>4697</fpage>
+          <lpage>4702</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16884718</pub-id>
+        </citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Butler</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Hanly</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Moynagh</surname>
+              <given-names>PN</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinase-active interleukin-1 receptor-associated kinases promote polyubiquitination and degradation of the Pellino family: direct evidence for PELLINO proteins being ubiquitin-protein isopeptide ligases</article-title>
+          <source>J Biol Chem</source>
+          <volume>282</volume>
+          <fpage>29729</fpage>
+          <lpage>29737</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17675297</pub-id>
+        </citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ordureau</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The IRAK-catalysed activation of the E3 ligase function of Pellino isoforms induces the Lys63-linked polyubiquitination of IRAK1</article-title>
+          <source>Biochem J</source>
+          <volume>409</volume>
+          <fpage>43</fpage>
+          <lpage>52</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">17997719</pub-id>
+        </citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cusson-Hermance</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Khurana</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Fitzgerald</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Kelliher</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Rip1 mediates the Trif-dependent toll-like receptor 3- and 4-induced NF-{kappa}B activation but does not contribute to interferon regulatory factor 3 activation</article-title>
+          <source>J Biol Chem</source>
+          <volume>280</volume>
+          <fpage>36560</fpage>
+          <lpage>36566</lpage>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">16115877</pub-id>
+        </citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meylan</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RIP1 is an essential mediator of Toll-like receptor 3-induced NF-kappa B activation</article-title>
+          <source>Nat Immunol</source>
+          <volume>5</volume>
+          <fpage>503</fpage>
+          <lpage>507</lpage>
+          <year>2004</year>
+          <pub-id pub-id-type="pmid">15064760</pub-id>
+        </citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Beyond tumor necrosis factor receptor: TRADD signaling in toll-like receptors</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <volume>105</volume>
+          <fpage>12429</fpage>
+          <lpage>12434</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18719121</pub-id>
+        </citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ermolaeva</surname>
+              <given-names>MA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Function of TRADD in tumor necrosis factor receptor 1 signaling and in TRIF-dependent inflammatory responses</article-title>
+          <source>Nat Immunol</source>
+          <volume>9</volume>
+          <fpage>1037</fpage>
+          <lpage>1046</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18641654</pub-id>
+        </citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pobezinskaya</surname>
+              <given-names>YL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The function of TRADD in signaling through tumor necrosis factor receptor 1 and TRIF-dependent Toll-like receptors</article-title>
+          <source>Nat Immunol</source>
+          <volume>9</volume>
+          <fpage>1047</fpage>
+          <lpage>1054</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18641653</pub-id>
+        </citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gohda</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Matsumura</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Cutting edge: TNFR-associated factor (TRAF) 6 is essential for MyD88-dependent pathway but not toll/IL-1 receptor domain-containing adaptor-inducing IFN-beta (TRIF)-dependent pathway in TLR signaling</article-title>
+          <source>J Immunol</source>
+          <volume>173</volume>
+          <fpage>2913</fpage>
+          <lpage>2917</lpage>
+          <year>2004</year>
+          <pub-id pub-id-type="pmid">15322147</pub-id>
+        </citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galanos</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>F</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Reutter</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Galactosamine-induced sensitization to the lethal effects of endotoxin</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <volume>76</volume>
+          <fpage>5939</fpage>
+          <lpage>5943</lpage>
+          <year>1979</year>
+          <pub-id pub-id-type="pmid">293694</pub-id>
+        </citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfeffer</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mice deficient for the 55 kd tumor necrosis factor receptor are resistant to endotoxic shock, yet succumb to L. monocytogenes infection</article-title>
+          <source>Cell</source>
+          <volume>73</volume>
+          <fpage>457</fpage>
+          <lpage>467</lpage>
+          <year>1993</year>
+          <pub-id pub-id-type="pmid">8387893</pub-id>
+        </citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pasparakis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Alexopoulou</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Episkopou</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Kollias</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Immune and inflammatory responses in TNF alpha-deficient mice: a critical requirement for TNF alpha in the formation of primary B cell follicles, follicular dendritic cell networks and germinal centers, and in the maturation of the humoral immune response</article-title>
+          <source>J Exp Med</source>
+          <volume>184</volume>
+          <fpage>1397</fpage>
+          <lpage>1411</lpage>
+          <year>1996</year>
+          <pub-id pub-id-type="pmid">8879212</pub-id>
+        </citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dejager</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Libert</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumor necrosis factor alpha mediates the lethal hepatotoxic effects of poly(I:C) in D-galactosamine-sensitized mice</article-title>
+          <source>Cytokine</source>
+          <volume>42</volume>
+          <fpage>55</fpage>
+          <lpage>61</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18331798</pub-id>
+        </citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vanguri</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Farber</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of CRG-2. An interferon-inducible mRNA predicted to encode a murine monokine</article-title>
+          <source>J Biol Chem</source>
+          <volume>265</volume>
+          <fpage>15049</fpage>
+          <lpage>15057</lpage>
+          <year>1990</year>
+          <pub-id pub-id-type="pmid">2118520</pub-id>
+        </citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pasare</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Medzhitov</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of B cell responses by Toll-like receptors</article-title>
+          <source>Nature</source>
+          <volume>438</volume>
+          <fpage>364</fpage>
+          <lpage>368</lpage>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">16292312</pub-id>
+        </citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruprecht</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Lanzavecchia</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>TLR stimulation as a third signal required for activation of human naive B cells</article-title>
+          <source>Eur J Immunol</source>
+          <volume>36</volume>
+          <fpage>810</fpage>
+          <lpage>816</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16541472</pub-id>
+        </citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerondakis</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Grumont</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulating B cell activation and survival in response to TLR signals</article-title>
+          <source>Immunol Cell Biol</source>
+          <volume>85</volume>
+          <fpage>471</fpage>
+          <lpage>475</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17637697</pub-id>
+        </citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Peckham</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Krieg</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Ashman</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <article-title>CpG oligodeoxyribonucleotides rescue mature spleen B cells from spontaneous apoptosis and promote cell cycle entry</article-title>
+          <source>J Immunol</source>
+          <volume>160</volume>
+          <fpage>5898</fpage>
+          <lpage>5906</lpage>
+          <year>1998</year>
+          <pub-id pub-id-type="pmid">9637502</pub-id>
+        </citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vivarelli</surname>
+              <given-names>MS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RIP links TLR4 to Akt and is essential for cell survival in response to LPS stimulation</article-title>
+          <source>J Exp Med</source>
+          <volume>200</volume>
+          <fpage>399</fpage>
+          <lpage>404</lpage>
+          <year>2004</year>
+          <pub-id pub-id-type="pmid">15280422</pub-id>
+        </citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pellino 1 is required for interleukin-1 (IL-1)-mediated signaling through its interaction with the IL-1 receptor-associated kinase 4 (IRAK4)-IRAK-tumor necrosis factor receptor-associated factor 6 (TRAF6) complex</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>10952</fpage>
+          <lpage>10956</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12496252</pub-id>
+        </citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O'Neill</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Bowie</surname>
+              <given-names>AG</given-names>
+            </name>
+          </person-group>
+          <article-title>The family of five: TIR-domain-containing adaptors in Toll-like receptor signalling</article-title>
+          <source>Nat Rev Immunol</source>
+          <volume>7</volume>
+          <fpage>353</fpage>
+          <lpage>364</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17457343</pub-id>
+        </citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Toll/IL-1 receptor domain-containing adaptor inducing IFN-beta (TRIF) associates with TNF receptor-associated factor 6 and TANK-binding kinase 1, and activates two distinct transcription factors, NF-kappa B and IFN-regulatory factor-3, in the Toll-like receptor signaling</article-title>
+          <source>J Immunol</source>
+          <volume>171</volume>
+          <fpage>4304</fpage>
+          <lpage>4310</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">14530355</pub-id>
+        </citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kayagaki</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>DUBA: a deubiquitinase that regulates type I interferon production</article-title>
+          <source>Science</source>
+          <volume>318</volume>
+          <fpage>1628</fpage>
+          <lpage>1632</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17991829</pub-id>
+        </citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kato</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Differential roles of MDA5 and RIG-I helicases in the recognition of RNA viruses</article-title>
+          <source>Nature</source>
+          <volume>441</volume>
+          <fpage>101</fpage>
+          <lpage>105</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16625202</pub-id>
+        </citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The specific and essential role of MAVS in antiviral innate immune responses</article-title>
+          <source>Immunity</source>
+          <volume>24</volume>
+          <fpage>633</fpage>
+          <lpage>642</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16713980</pub-id>
+        </citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Poly(I-C)-induced Toll-like receptor 3 (TLR3)-mediated activation of NFkappa B and MAP kinase is through an interleukin-1 receptor-associated kinase (IRAK)-independent pathway employing the signaling components TLR3-TRAF6-TAK1-TAB2-PKR</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>16713</fpage>
+          <lpage>16719</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12609980</pub-id>
+        </citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawagoe</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Essential role of IRAK-4 protein and its kinase activity in Toll-like receptor-mediated immune responses but not in TCR signaling</article-title>
+          <source>J Exp Med</source>
+          <volume>204</volume>
+          <fpage>1013</fpage>
+          <lpage>1024</lpage>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17485511</pub-id>
+        </citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawagoe</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sequential control of Toll-like receptor-dependent responses by IRAK1 and IRAK2</article-title>
+          <source>Nat Immunol</source>
+          <volume>9</volume>
+          <fpage>684</fpage>
+          <lpage>691</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18438411</pub-id>
+        </citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Offermann</surname>
+              <given-names>MK</given-names>
+            </name>
+          </person-group>
+          <article-title>Apoptosis induced by the toll-like receptor adaptor TRIF is dependent on its receptor interacting protein homotypic interaction motif</article-title>
+          <source>J Immunol</source>
+          <volume>174</volume>
+          <fpage>4942</fpage>
+          <lpage>4952</lpage>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">15814722</pub-id>
+        </citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Harhaj</surname>
+              <given-names>EW</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <article-title>NF-kappaB-inducing kinase regulates the processing of NF-kappaB2 p100</article-title>
+          <source>Mol Cell</source>
+          <volume>7</volume>
+          <fpage>401</fpage>
+          <lpage>409</lpage>
+          <year>2001</year>
+          <pub-id pub-id-type="pmid">11239468</pub-id>
+        </citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reiley</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumor suppressor negatively regulates JNK signaling pathway downstream of TNFR members</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>55161</fpage>
+          <lpage>55167</lpage>
+          <year>2004</year>
+          <pub-id pub-id-type="pmid">15496400</pub-id>
+        </citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Racoosin</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Swanson</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Macrophage colony-stimulating factor (rM-CSF) stimulates pinocytosis in bone marrow-derived macrophages</article-title>
+          <source>J Exp Med</source>
+          <volume>170</volume>
+          <fpage>1635</fpage>
+          <lpage>1648</lpage>
+          <year>1989</year>
+          <pub-id pub-id-type="pmid">2681516</pub-id>
+        </citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of IkappaB kinase-related kinases and antiviral responses by tumor suppressor CYLD</article-title>
+          <source>J Biol Chem</source>
+          <volume>283</volume>
+          <fpage>18621</fpage>
+          <lpage>18626</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18467330</pub-id>
+        </citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reiley</surname>
+              <given-names>WW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of T cell development by the deubiquitinating enzyme CYLD</article-title>
+          <source>Nat Immunol</source>
+          <volume>7</volume>
+          <fpage>411</fpage>
+          <lpage>417</lpage>
+          <year>2006</year>
+          <pub-id pub-id-type="pmid">16501569</pub-id>
+        </citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rivera-Walsh</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Cvijic</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <article-title>The NF-kappa B signaling pathway is not required for Fas ligand gene induction but mediates protection from activation-induced cell death</article-title>
+          <source>J Biol Chem</source>
+          <volume>275</volume>
+          <fpage>25222</fpage>
+          <lpage>25230</lpage>
+          <year>2000</year>
+          <pub-id pub-id-type="pmid">10837465</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN3" fn-type="con">
+        <p>Author Contributions: M.C. and W.J. designed and performed the research and prepared the figures. S.C.S. designed the research and wrote the manuscript.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>

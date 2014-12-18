@@ -1,0 +1,1331 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title>PLoS ONE</journal-title>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19050761</article-id>
+      <article-id pub-id-type="pmc">2585478</article-id>
+      <article-id pub-id-type="publisher-id">08-PONE-RA-04773R2</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0003848</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Molecular Biology</subject>
+          <subject>Biochemistry/Biomacromolecule-Ligand Interactions</subject>
+          <subject>Biochemistry/Cell Signaling and Trafficking Structures</subject>
+          <subject>Biochemistry/Chemical Biology of the Cell</subject>
+          <subject>Cell Biology/Cell Signaling</subject>
+          <subject>Cell Biology/Morphogenesis and Cell Biology</subject>
+          <subject>Chemical Biology/Chemical Biology of the Cell</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>IQGAP1-Dependent Signaling Pathway Regulates Endothelial Cell Proliferation and Angiogenesis</article-title>
+        <alt-title alt-title-type="running-head">Role of IQGAP1 in Angiogenesis</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meyer</surname>
+            <given-names>Rosana D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sacks</surname>
+            <given-names>David B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rahimi</surname>
+            <given-names>Nader</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Departments of Pathology and Ophthalmology, School of Medicine, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Gay</surname>
+            <given-names>Nick</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">University of Cambridge, United Kingdom</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>nrahimi@bu.edu</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: RDM NR. Performed the experiments: RDM NR. Analyzed the data: RDM NR. Contributed reagents/materials/analysis tools: DBS. Wrote the paper: NR.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2008</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>3</day>
+        <month>12</month>
+        <year>2008</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>12</issue>
+      <elocation-id>e3848</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>5</month>
+          <year>2008</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>11</month>
+          <year>2008</year>
+        </date>
+      </history>
+      <copyright-statement>Meyer et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+      <copyright-year>2008</copyright-year>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Vascular endothelial growth factor receptor-2 (VEGFR-2) signaling is an obligate requirement for normal development and pathological angiogenesis such as cancer and age-related macular degeneration. Although autophosphorylation of tyrosine 1173 (Y1173) of VEGFR-2 is considered a focal point for its angiogenic signal relay, however, the mechanism of phosphorylation of Y1173, signaling proteins that are recruited to this residue and their role in angiogenesis is not fully understood.</p>
+        </sec>
+        <sec>
+          <title>Methodology/Principal Findings</title>
+          <p>In this study we demonstrate that c-Src kinase directly through its Src homology 2 (SH2) domain and indirectly via c-Cbl binds to phospho-Y1057 of VEGFR-2. Activation of c-Src kinase by a positive feedback mechanism phosphorylates VEGFR-2 at multi-docking site, Y1173. c-Src also catalyzes tyrosine phosphorylation of IQGAP1 and acts as an adaptor to bridge IQGAP1 to VEGFR-2. In turn, IQGAP1 activates b-Raf and mediates proliferation of endothelial cells. Silencing expression of IQGAP1 and b-Raf revealed that their activity is essential for VEGF to stimulate angiogenesis in an <italic>in vivo</italic> angiogenesis model of chicken chorioallantoic membrane (CAM).</p>
+        </sec>
+        <sec>
+          <title>Conclusions/Significance</title>
+          <p>Angiogenesis contributes to the pathology of numerous human diseases ranging from cancer to age-related macular degeneration. Determining molecular mechanism of tyrosine phosphorylation of VEGFR-2 and identification of molecules that are relaying its angiogenic signaling may identify novel targets for therapeutic intervention against angiogenesis-associated diseases. Our study shows that recruitment and activation of c-Src by VEGFR-2 plays a pivotal role in relaying angiogenic signaling of VEGFR-2; it phosphorylates VEGFR-2 at Y1173, facilitates association and activation of IQGAP1 and other signaling proteins to VEGFR-2. IQGAP1-dependent signaling, in part, is critically required for endothelial cell proliferation, a key step in angiogenesis. Thus, Y1057 of VEGFR-2 serves to regulate VEGFR-2 function in a combinatorial manner by supporting both diversity of recruitment of angiogenic signaling proteins to VEGFR-2, and its ability to promote angiogenesis.</p>
+        </sec>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Activation of vascular endothelial growth factor receptor-2 (VEGFR-2 also called FLK-1/KDR) plays a pivotal role in mediating growth of blood vessels, angiogenesis <xref ref-type="bibr" rid="pone.0003848-Carmeliet1">[1]</xref>. VEGF stimulation of VEGFR-2 provokes pleiotropic responses in endothelial cells including endothelial cell growth, survival, differentiation, migration, and tube formation <xref ref-type="bibr" rid="pone.0003848-Olsson1">[2]</xref>. Autophosphorylation of tyrosine 1173 (Y1173) of VEGFR-2 is a focal point for activation of angiogenic signal relay of VEGFR-2, as it has emerged as a multi-functional docking site involved in the recruitment of multiple signaling proteins including the p85 regulatory subunit of phosphatidylinositol 3-kinase (p85/PI3-K) <xref ref-type="bibr" rid="pone.0003848-Dayanir1">[3]</xref>, <xref ref-type="bibr" rid="pone.0003848-Tzima1">[4]</xref>, phospholipase C&#x3B3;1 (PLC&#x3B3;1) <xref ref-type="bibr" rid="pone.0003848-Takahashi1">[5]</xref>, <xref ref-type="bibr" rid="pone.0003848-Meyer1">[6]</xref>, Shb <xref ref-type="bibr" rid="pone.0003848-Holmqvist1">[7]</xref>, and the Shc-related adaptor protein, Sck <xref ref-type="bibr" rid="pone.0003848-Igarashi1">[8]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0003848-Ratcliffe1">[10]</xref> and the transmission of a range of biological signals to coordinate endothelial cell function and angiogenesis. The critical and direct role of Y1173 in enabling VEGFR-2 to promote angiogenesis was recently revealed by a gene targeting study where mice homozygous for the mutant <italic>VEGFR-2</italic><sup>Y1173F</sup> knock-in allele died between E8.5 and E9.5 without any organized blood vessels <xref ref-type="bibr" rid="pone.0003848-Sakurai1">[11]</xref> similar to the VEGFR-2 null mice <xref ref-type="bibr" rid="pone.0003848-Shalaby1">[12]</xref>. More recent studies indicate that in addition to Y1173, the kinase domain tyrosine, Y1057 also takes part in VEGFR-2 function and is involved in VEGFR-2-mediated cell proliferation <xref ref-type="bibr" rid="pone.0003848-Zeng1">[13]</xref>. Y1057 along with Y1173 also is engaged in the recruitment and activation of the ubiquitin E3 ligase, c-Cbl. Phospho-Y1057 contributes to the recruitment of c-Cbl to VEGFR-2 by directly associating with c-Cbl, while phospho-Y1173 indirectly via PLC&#x3B3;1 participates in its recruitment to VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, resulting in the ubiquitination of PLC&#x3B3;1 and inhibition of angiogenesis <italic>in vitro</italic> <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>.</p>
+      <p>The recent study indicates that IQGAP1 associates with VEGFR-2 and its activity is required for proliferation of endothelial cells <italic>in vitro</italic> <xref ref-type="bibr" rid="pone.0003848-YamaokaTojo1">[26]</xref>. It remains, however, unclear how IQGAP1 interacts with VEGFR-2 since it lacks phospho-tyrosine binding domains such as SH2 and PTB and how its activity is regulated by VEGFR-2. IQGAP1 contains multiple protein-interaction domains including calponin homology domain (CHD), poly-proline-binding domain (WW), calmodulin-binding domain (IQ) and rasGTPase-activating protein (GAP)-related domain (GRD) and tyrosine and serine/threonine phosphorylation sites <xref ref-type="bibr" rid="pone.0003848-Briggs1">[33]</xref> and is involved in multiple cellular functions including calcium/calmodulin signaling, MAPK signaling and regulation of cytoskeletal structure, cell adhesion and cell motility <xref ref-type="bibr" rid="pone.0003848-Ren1">[27]</xref>, <xref ref-type="bibr" rid="pone.0003848-Roy1">[31]</xref>, <xref ref-type="bibr" rid="pone.0003848-Briggs1">[33]</xref>.</p>
+      <p>In this study, we uncovered a surprising correlation between phosphorylation of Y1057 and Y1173 and that phosphorylation of Y1057 plays a multitasking role in mediating VEGFR-2-directed angiogenic signaling events in endothelial cells. Phospho-Y1057 recruits c-Src kinase to VEGFR-2, and in part catalyzes phosphorylation of Y1173 via Src kinases. c-Src also bridges IQGAP1 to VEGFR-2 and directly phosphorylates IQGAP1 and promotes endothelial cell proliferation, a key step in angiogenesis.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Identification of tyrosine 1057 of VEGFR-2 as a binding site for Src kinases</title>
+        <p>Although stimulation of VEGFR-2 in endothelial cells is known to promote activation of Src kinases <xref ref-type="bibr" rid="pone.0003848-Meyer2">[15]</xref> and Src activation is linked to endothelial cell permeability, survival and angiogenesis <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>, <xref ref-type="bibr" rid="pone.0003848-Alavi1">[17]</xref>, the nature of its association with VEGFR-2, in particular, the putative phospho-tyrosine residue on VEGFR-2 involved in its recruitment is not. Our survey of several primary endothelial cells including, HUVEC, HMVE and BAEC cells showed that c-Src is ubiquitously tyrosine phosphorylated in response to VEGF stimulation (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1A</xref>) and associates with VEGFR-2 in a ligand-dependent manner in these primary endothelial cells (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1C</xref>). Cell lysates obtained from HEK-293 (human embryonic kidney-293) cells which do not express VEGFR-2 was negative for VEGFR-2 and was used as a negative control (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1C</xref>). The cytoplasmic region of VEGFR-2 contains multiple tyrosine phosphorylation sites <xref ref-type="bibr" rid="pone.0003848-Rahimi1">[18]</xref>, albeit none of these tyrosine autophosphorylation sites shows obvious sequence similarities to the preferred Src SH2 recognition motif, pYEEI <xref ref-type="bibr" rid="pone.0003848-Marengere1">[19]</xref>. To analyze association of c-Src with VEGFR-2 we utilized the previously characterized VEGFR-2 chimera <xref ref-type="bibr" rid="pone.0003848-Rahimi2">[20]</xref> herein called CKR which is created by replacing the extracellular domain of VEGFR-2 with that of human Colony stimulating factor-1 receptor (CSF1R) and expressed in PAE (porcine aortic endothelial) cells as an experimental system. In our previous studies we have extensively characterized CKR with VEGFR-2 in a comparative manner. CKR in term of its ability undergo down-regulation, activation, recruitment of signaling proteins and to stimulate cellular responses is identical to VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-Dayanir1">[3]</xref>, <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, <xref ref-type="bibr" rid="pone.0003848-Rahimi2">[20]</xref>, <xref ref-type="bibr" rid="pone.0003848-Singh2">[21]</xref> and data presented in this manuscript. We used this strategy to avoid cross-talk between VEGFR-2 and other VEGF receptors, in particular, VEGFR-1. Our initial observation demonstrated that mutation of tyrosines 799, 820, 925 to phenylalanine (F) and deletion of C-terminus of VEGFR-2 coupled with mutation of tyrosines 1173 and 1212 has no effect on the ability of VEGFR-2 to associate with the SH2 domain of c-Src (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1E</xref>). In contrast, mutation of Y1052 to glutamic acid (E) and particularly Y1057, located in the kinase domain, severely reduced the binding of VEGFR-2 with SH2 domain of c-Src (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1G</xref>). GST alone does not associate with CKR (<xref ref-type="supplementary-material" rid="pone.0003848.s004">Figure S3</xref>). Consistent with its reduced binding capability to E1052, the result showed that E1052 only partially reduces the ability of VEGFR-2 to phosphorylate c-Src (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1I</xref>). In contrast, the potential of mutant Y1057 (E1057/CKR) to stimulate Src tyrosine phosphorylation was severely compromised and was near to undetectable (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1I</xref>). Since both Y1052 and Y1057 are located in the kinase domain we replaced these residues to glutamic acid (E) rather than phenylalanine (F). This type of mutations has been suggested to be useful for characterization of sensitive tyrosine sites on the RTKs (receptor tyrosine kinases) when their mutation to phenylalanine interferes with receptor activation <xref ref-type="bibr" rid="pone.0003848-Meyer2">[15]</xref>. However, unlike these RTKs, single mutation of Y1052 and Y1057 either to E or F did not interfere with activation of VEGFR-2 in the context of CKR (<xref ref-type="supplementary-material" rid="pone.0003848.s002">Figures S1</xref> and <xref ref-type="supplementary-material" rid="pone.0003848.s003">S2</xref>). Furthermore, to make sure that our observation in CKR also is true in the context of non-chimeric VEGFR-2, we mutated Y1057 to F in the full length VEGFR-2, expressed in PAE cells and similarly analyzed for its ability to bind SH2 domain of c-Src. The result showed that VEGFR-2 associates with SH2-Src in VEGF-dependent manner and mutation of Y1057 inhibited association of VEGFR-2 with c-Src (<xref ref-type="fig" rid="pone-0003848-g001">Figure 1K</xref>). Altogether, the data show that Y1057 of VEGFR-2 is a major c-Src binding site on VEGFR-2 and its presence is critically required for VEGFR-2 to activate c-Src.</p>
+        <fig id="pone-0003848-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Tyrosine 1057 mediates recruitment of c-Src to and its activation by VEGFR-2.</title>
+            <p>HUVEC, HMVE and BAE cells were stimulated with VEGF-A (100 &#x3B7;g/ml) for indicated times. Whole cell lysates (WCL) were immunoblotted with an anti-phospho-Src (pY416) antibody (A) or an anti-Src antibody (B). HUVEC, HMVE and HEK-293 cells were either unstimulated (&#x2212;) or stimulated with VEGF (+) for 10 minutes, lysed, immunoprecipitated with c-Src antibody and immunoblotted with an anti-VEGFR-2 antibody (C). Whole cell lysates (WCL) from the same group was immunoblotted with an anti-VEGFR-2 as a control (D). PAE cells expressing wild type chimeric VEGFR-2 (CKR) and tyrosine mutant CKRs, F799/CKR, F820/CKR, F925/CKR and carboxyl terminus deleted CKR coupled with mutation of Y1173 and Y1212 denoted as &#x394;CKR/F1173/F1212 was stimulated with CSF-1 for 10 minutes. Cells were lysed, and whole cell lysates were incubated with purified GST-SH2-Src protein. The GST-SH2-Src bound proteins were subjected to Western blot analysis using an anti-VEGFR-2 antibody (E). Whole cell lysates from the same groups was blotted with an anti-VEGFR-2 antibody (F). PAE cells expressing CKR, E1052/CKR, and E1057/CKR were either unstimulated or stimulated with CSF-1 for 10 minutes and cells were lysed and cell lysates was subjected to GST-SH2-Src pull-down assay (G). An immunoblot of whole cell lysates also were probed with an anti-VEGFR-2 antibody (F,H), an anti-phospho-Src (pY416) antibody (I) or an anti-Src antibody (J). PAE cells expressing VEGFR-2 or F1057/VEGFR-2 were prepared and subjected to pull-down analysis as panel E (K) or whole cell lysates was blotted with an anti-VEGFR-2 antibody (L). The results shown in A&#x2013;L are representative of three separate experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>c-Cbl associates with c-Src and participates in the interaction of c-Src with VEGFR-2</title>
+        <p>A recent study indicates that tyrosine 1057 of VEGFR-2 also serves as a binding site for c-Cbl by directly interacting with its tyrosine kinase binding (TKB) domain <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, raising an interesting possibility as to whether c-Cbl and c-Src competitively bind to Y1057 or c-Cbl acts to bridge c-Src to VEGFR-2 since c-Cbl is known to interact with c-Src via its SH3 domain <xref ref-type="bibr" rid="pone.0003848-Sanjay1">[22]</xref>. To test these two distinct possibilities, we used PAE cells co-expressing CKR either with wild type c-Cbl or Cbl-N, where the TKB domain is deleted <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref> and analyzed the ability of GST-SH2 domain of c-Src to interact with VEGFR-2. Over-expression of wild type c-Cbl enhanced association of SH2 domain of c-Src with VEGFR-2, where disabling the binding of c-Cbl with VEGFR-2 had no effect on the binding of SH2-Src to VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2A</xref>). Quantification of the blots (three independent experiments) showed that indeed interaction of VEGFR-2 with GST-SH2-Src is more than doubled when c-Cbl is over-expressed, where as the deletion of TKB domain almost entirely is inhibited this effect of c-Cbl (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2B</xref>). Over-expression of either c-Cbl or c-Cbl-N had no effect on the protein levels of CKR or on its tyrosine phosphorylation (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2C, 2D</xref>). Expression of c-Cbl and c-Cbl-N also is shown (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2E</xref>). Since up-regulation of c-Cbl by over-expression enhanced association of c-Src with VEGFR-2, we further tested whether silencing expression of c-Cbl by siRNA would reduce interaction of SH2-Src with VEGFR-2. As shown, silencing the expression of c-Cbl in PAE cells reduced the binding of GST-SH2 Src with VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2F</xref>). Quantification of the blots (three independent experiments) is also shown which further support the hypothesis that endogenous c-Cbl plays a role in bridging c-Src to VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2G</xref>). The silencing effect of c-Cbl-siRNA on the c-Cbl protein level also is shown (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2H</xref>). It showed be noted that c-Cbl is highly expressed in these cells and siRNA only partially reduced its expression (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2H</xref>). Altogether, the data show that c-Cbl, in part, facilitates association of Src with VEGFR-2. To firmly establish a direct binding of SH2 domain of c-Src with phospho-Y1057 of VEGFR-2 we synthesized a phosphorylated peptide corresponding to Y1057 and tested its binding ability to GST-SH2 domain of c-Src in an <italic>in vitro</italic> dot blot assay. The result shows that SH2 domain of Src also directly interacts with phosphorylated Y1057 in a c-Cbl independent manner (<xref ref-type="fig" rid="pone-0003848-g002">Figure 2J</xref>), suggesting that the interaction of c-Src with Y1057 of VEGFR-2 is established by a direct binding involving its SH2 domain and an indirect interaction involving c-Cbl. <xref ref-type="fig" rid="pone-0003848-g002">Figure 2K</xref> summarizes our observation regarding interaction of c-Src with VEGFR-2 and role of c-Cbl in this process.</p>
+        <fig id="pone-0003848-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>c-Cbl-dependent and independent association of c-Src with VEGFR-2.</title>
+            <p>Serum-starved PAE cells expressing chimeric VEGFR-2 (CKR) or co-expressing CKR with c-Cbl and CKR with Cbl-N were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes. Cells were lysed and subjected to an in vitro pull-down assay using purified GST-SH2-Src protein (A). Quantification of blots of SH2-Src binding to VEGFR-2 of three separate experiments is shown. Each bar represents the mean &#xB1;SD of triplicate experiments. *P&lt;0.01 (B). A parallel immunoblot of whole cell lysates (WCL) was probed with an anti-VEGFR-2 antibody (C), with an anti-phosphotyrosine antibody (D) and with an anti-c-Cbl antibody (E). PAE cells co-expressing chimeric VEGFR-2 (CKR) with a control siRNA or Cbl-siRNA were stimulated with CSF-1 for 10 minutes and cells were lysed and prepared for in vitro pull-down assay as panel A (F). A parallel immunoblot of whole cell lysates were probed with an anti-c-Cbl antibody for confirmation of c-Cbl knockdown (H) and anti-Hsp70 antibody as a control for protein loading (I). To detect a direct interaction between the SH2 domain of c-Src and Y1057 of VEGFR-2, the indicated quantities of purified recombinant GST-SH2-Src (top) and GST control (bottom row) were dot blotted as described in the <xref ref-type="sec" rid="s4">Materials and Methods</xref> and detected by an anti-pY1057 VEGFR-2 antibody (J). The graph represents the average binding of SH2-Src to VEGFR-2 in the absence or presence of c-Cbl-siRNA (&#xB1;SD) of three separate experiments. Quantification of blots of SH2-Src binding to VEGFR-2 of three separate experiments is shown. *P&lt;0.01 (G). All the experiments repeated at least three times. A summary of the proposed interaction of c-Src with VEGFR-2 is shown (K).</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Tyrosine 1173 of VEGFR-2 is phosphorylated by Src kinases</title>
+        <p>Tyrosine 1173 functions as a multitasking residue on VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-Dayanir1">[3]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0003848-Holmqvist1">[7]</xref>, <xref ref-type="bibr" rid="pone.0003848-Ratcliffe1">[10]</xref> and is a bona fide mediator of angiogenic signaling of VEGFR-2 <italic>in vivo</italic> <xref ref-type="bibr" rid="pone.0003848-Sakurai1">[11]</xref>. Hence we investigated a possible crosstalk between the kinase domain tyrosines (i.e., Y1052 and Y1057) and Y1173 and the potential role of Src kinases in this crosstalk. For this aim, we tested phosphorylation of Y1173 in the background of E1052/CKR and E1057/CKR expressed in PAE cells. The result showed that mutation of 1057 markedly reduced ligand-dependent phosphorylation of Y1173 as detected by an anti-phospho-Y1173 specific antibody (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3A</xref>). Mutation of Y1052 only slightly reduced phosphorylation of Y1173, suggesting that Y1057 but not Y1052, is specifically involved in modulation of phosphorylation of Y1173 (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3A</xref>). However, mutation of either Y1052 or Y1057 had no major effect on the phosphorylation Y1212 (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3B</xref>). Quantification of phosphorylation of Y1173 and Y1212 obtained from three separate independent experiments also is shown (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3D</xref>). Since Src kinase binds to Y1057 of VEGFR-2, we tested potential role of Src in the phosphorylation of Y1173. Our analysis showed that co-expression of v-Src with non-chimeric wild-type VEGFR-2 in a transient transfection of HEK-293 cells also increases phosphorylation of Y1173 (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3D</xref>), where phosphorylation of Y1052, Y1057 and Y1212 were not effected (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3F&#x2013;H</xref>). The quantification of phosphorylation of Y1173, Y1052, Y1057 and Y1212 also is shown (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3K</xref>). Of note, co-expression of v-Src with E1057 mutant VEGFR-2 also rescued the reduced phosphorylation of Y1173 further suggesting that c-Src is involved in catalyzing phosphorylation of Y1173 of VEGFR-2 (data not shown).</p>
+        <fig id="pone-0003848-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>c-Src kinase activity is required for maximal phosphorylation of Y1173 of VEGFR-2.</title>
+            <p>Serum-starved PAE cells expressing wild type CKR, E1052/CKR and E1057/CKR were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes. Whole cell lysates (WCL) were subjected to Western blot analysis using an anti-phosphoY1173 specific-VEGFR-2 antibody (A), an anti-phosphoY1212 specific-VEGFR-2 antibody (B) or an anti-VEGFR-2 antibody (C). The graph represents the mean phosphorylation of Y1173 and Y1212 of VEGFR-2 (&#xB1;SD) of three separate experiments. *P&lt;0.01 (D). HEK-293 cells transiently expressing VEGFR-2 alone or co-expressing v-Src were stimulated with VEGF and immunoblotted with anti-pY1173 (E), anti-pY1052 (F), anti-pY1057 (G), anti-pY1212 (H), anti-c-Src (I) and anti-VEGFR-2 (J) antibodies. The blots were also quantified using Image J program (developed by NIH) and represents average tyrosine phosphorylation sites on VEGFR-2 of three separate experiments (&#xB1;SD) from three separate experiments (K). SYF cells and SYF cells expressing chimeric VEGFR-2 (CKR) were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes and cells lysates were prepared and immunoblotted with anti-pY1173 (L), anti-pY1052 (M) and anti-VEGFR-2 (N) antibodies. PAE cells expressing CKR were treated with different concentration of SU6656 for 30 minutes and stimulated with CSF-1 for 10 minutes and cell lysates were prepared as panel A and immunoblotted with anti-pY1173 (O), anti-pY1052 (P) and anti-VEGFR-2 (Q) antibodies. Phosphorylation of Y1173 and Y1052 in response to SU6656 treatment was quantified as panel D and is presented as the mean (&#xB1;SD) of three separate independent experiments (R). A summary of the proposed model of phosphorylation Y1173 of VEGFR-2 by c-Src and VEGFR-2 itself is shown (S).</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g003"/>
+        </fig>
+        <p>To further link Src kinase activity to phosphorylation of Y1173 of VEGFR-2, we tested the phosphorylation of Y1173 of VEGFR-2 in the triple knockout SYF (c-Src, c-Yes and c-Fyn) cells <xref ref-type="bibr" rid="pone.0003848-Klinghoffer1">[24]</xref>. The data showed that stimulation of SYF cells ectopically expressing chimeric VEGFR-2 (CKR) with ligand increases phosphorylation of Y1052. In contrast, phosphorylation of VEGFR-2 at Y1173 was almost undetectable (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3L and 3M</xref>). Only a long exposure of the film detected a weak phosphorylation of Y1173 (data not shown), suggesting that in addition to Src kinases, VEGFR-2 itself also catalyzes phosphorylation of Y1173 of VEGFR-2. Since in the recent years various Src inhibitors were used for therapeutic purposes in cancer and anti-angiogenesis treatments <xref ref-type="bibr" rid="pone.0003848-Summy1">[25]</xref>, we tested the effect of Src-specific inhibitor, SU6656 to inhibit phosphorylation of VEGFR-2 at Y1173. The result showed that SU6656 selectively inhibits phosphorylation of VEGFR-2 at Y1173 in a dose-dependent manner but had no effect on the phosphorylation of Y1052 (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3O, 3P</xref>). The quantification of inhibition of phosphorylation of Y1173 of VEGFR-2 by SU6656 also is shown (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3R</xref>). Taken together, the data demonstrate that Src kinases upon activation by VEGFR-2 phosphorylate Y1173 of VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g003">Figure 3S</xref>).</p>
+      </sec>
+      <sec id="s2d">
+        <title>Role of c-Src in VEGFR-2 mediated endothelial cell tube formation and proliferation</title>
+        <p>Since activation of Src family kinases is linked to angiogenesis <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>, <xref ref-type="bibr" rid="pone.0003848-Alavi1">[17]</xref> we initially analyzed the ability E1052/CKR and E1057/CKR to stimulate endothelial tubulogenesis <italic>in vitro</italic>. Our analysis showed that mutation of Y1052 had no apparent effect on the ability of CKR to promote tube formation of PAE cells. However, mutation of Y1057 significantly reduced the ability of CKR to stimulate tube formation of PAE cells (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4A</xref>). Quantification of tube formation of PAE cells in response to CKR, E1052/CKR and E1057/CKR activation is shown (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4B</xref>). To test whether c-Src activation is required for tube formation of PAE cells, we used previously established PAE cells co-expressing CKR with either wild type c-Src or dominantly negative acting kinase inactive Src <xref ref-type="bibr" rid="pone.0003848-Meyer2">[15]</xref>. The result showed that over-expression of c-Src or dominant negative c-Src in PAE cells do not alter the ability of VEGFR-2 to stimulate tube formation (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4C, 4D</xref>), indicating that perhaps c-Src activity is not required for VEGFR-2 to stimulate tube formation of endothelial cells. In contrast, our analysis showed that over-expression of c-Src significantly enhances the ability of VEGFR-2 to stimulate proliferation of PAE cells and over-expression of dominant negative Src (Src kinase-dead) inhibits the VEGFR-2 driven proliferation of PAE cells (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4E</xref>). To test the role of c-Src in endothelial cell proliferation further we knocked down c-Src expression in HUVE and HMVE cells by siRNA strategy and tested their VEGF-dependent proliferation. The result showed that silencing the expression of c-Src in endothelial cells significantly inhibits the ability of VEGFR-2 to stimulate proliferation of these primary endothelial cells (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4F, 4G</xref>). Interestingly, HMVE cells were more sensitive to silencing of c-Src than HUVE cells since silencing of Src expression almost totally inhibited VEGF-stimulated proliferation (<xref ref-type="fig" rid="pone-0003848-g004">Figure 4G</xref>). Taken together, our results identify c-Src as a key component of mitogenic signaling of VEGFR-2 in endothelial cells.</p>
+        <fig id="pone-0003848-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Role of c-Src in VEGFR-2-dependent endothelial cell tubulogenesis and proliferation.</title>
+            <p>PAE cells expressing CKR, E1052/CKR, and E1057/CKR alone or with c-Src and dominant negative c-Src (DN-Src) were prepared as spheroids and subjected to an <italic>in vitro</italic> angiogenesis/tubulogenesis assay as described in the <xref ref-type="sec" rid="s4">Materials and Methods</xref>. The pictures shown are representative spheroids from three independent experiments (A, C). Tubulogenesis was also quantified as the mean of &#xB1; SD of four sprouting colonies. *P&lt;0.05 (B, D). Equal number of PAE expressing CKR alone or co-expressing CKR with c-Src, and CKR with DN-Src were subjected to proliferation assay as described in the <xref ref-type="sec" rid="s4">Materials and Methods</xref> and expressed as the mean &#xB1; SD of triplicate. *P&lt;0.05 (E). HUVE and HMVE cells treated with either a control siRNA or c-Src-siRNA, after 48 hours cells were stimulated with different concentrations of VEGF and subjected to proliferation as Panel C. *P&lt;0.05 (F, G). The Western blots of cells treated with either control siRNA or c-Src-siRNA also are shown (F, G).</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g004"/>
+        </fig>
+      </sec>
+      <sec id="s2e">
+        <title>Identification of IQGAP1 as a novel Src kinase substrate</title>
+        <p>IQGAP1 is a scaffold protein and participates in signaling cascades mediated by a diverse group of cell surface receptors <xref ref-type="bibr" rid="pone.0003848-Briggs1">[33]</xref>, including VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-YamaokaTojo1">[26]</xref>. In addition, we recently have identified IQGAP1 as a binding partner of VEGFR-2 by a proteomic approach (our unpublished data), raising the likelihood for the involvement of Y1057 in the recruitment and tyrosine phosphorylation of IQGAP1 by VEGFR-2. Our initial observation showed that IQGAP1 is tyrosine phosphorylated in PAE cells by VEGFR-2 and mutation of Y1057 reduces the ability of VEGFR-2 to stimulate its tyrosine phosphorylation (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5A</xref>). IQGAP1 also is tyrosine phosphorylated by other RTKs including, ErbB1/EGFR-1 and PDGFR&#x3B2; ectopically expressed in PAE cells (our unpublished data), suggesting that IQGAP1 serves as a common substrate for RTKs. In addition, our data show that over-expression of c-Src in PAE cells highly enhanced tyrosine phosphorylation of IQGAP1. In a sharp contrast, over-expression of a dominant negatively acting c-Src inhibited tyrosine phosphorylation of IQGAP1 (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5C</xref>).</p>
+        <fig id="pone-0003848-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Role of IQGAP1 in VEGFR-2 signaling and endothelial cell Proliferation.</title>
+            <p>Serum-starved PAE cells expressing CKR (chimeric VEGFR-2) and E1057/CKR were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes. Whole cell lysates were subjected to immunoprecipitation with IQGAP1 and Western blot analysis using an anti-phosphotyrosine antibody (A) or anti-IQGAP1 antibody (B). PAE cells co-expressing either wild type c-Src or a dominant negative form of c-Src (KD-Src) were stimulated and subjected to Western blot analysis as panel A using an anti-phosphotyrosine antibody (C). The same membrane striped off the antibody and re-blotted with an anti-IQGAP1 antibody for protein levels (D). SYF cells co-expressing CKR with c-Src or expressing CKR alone were prepared as above and blotted with anti-phosphotyrosine (E), anti-IQGAP1 (F), and anti-VEGFR-2 (G). Cell lysates derived from PAE cells expressing CKR were either precipitated with GST, GST-SH2-Src, (H) or GST-SH3-Src (I) and blotted for IQGAP1 using an anti-IQGAP1 antibody. Human primary dermal vascular endothelial (HMVE) cells were stimulated with VEGF for 10 minutes, cells were lysed and immunoprecipitated with either control antibody (Ctrl.IgG) or c-Src antibody and blotted with anti-IQGAP1 (J). Whole cell lysates was blotted with anti-Src antibody (K). HMVE cells expressing either control siRNA (Ctrl.siRNA) or IQGAP1 siRNA were lysed and blotted for IQGAP1 using an anti-IQGAP1 antibody (L). HMVE cells expressing either control siRNA or IQGAP1 siRNA were subjected to proliferation assay as described in <xref ref-type="sec" rid="s4">Method</xref> section. Error bars represent mean &#xB1; SD of triplicate samples. *p&lt;0.001 as compared to proliferation of HMVE cells in response to 100 &#x3B7;g VEGF-A (M). HMVE cells expressing either control siRNA or IQGAP1-siRNA were unstimulated (&#x2212;) or stimulated (+) with VEGF for 10 minutes and cells were lysed and immunoprecipitated with an anti-b-Raf antibody and blotted with an anti-phospho-Ser445 antibody (N) or with anti- b-Raf antibody (O). Whole cell lysates was blotted for IQGAP1 (P). Also shown is the graph of the mean phosphorylation of b-Raf where the expression of IQGAP1 is silenced by siRNA. It represents (&#xB1;SD) of three separate experiments. *P&lt;0.01 (Q). Summary of the proposed VEGFR-2-dependent signal relay in endothelial cell proliferation also is shown (R).</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g005"/>
+        </fig>
+        <p>To further establish role of c-Src in phosphorylation of IQGAP1 we show that in SYF knockout cells where Src family kinases (Yes, Fyn and Src) are absent, IQGAP1 is not tyrosine phosphorylated in response to activation of VEGFR-2, where re-introduction of c-Src rescued phosphorylation of IQGAP1 by VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5E</xref>). Our further studies showed that in an <italic>in vitro</italic> kinase assay recombinant c-Src protein phosphorylates GST-fusion IQGAP1 (data not shown). Taken together, the data support the hypothesis that IQGAP1 directly associates with c-Src and undergoes c-Src-dependent tyrosine phosphorylation. Hence to further establish as to whether c-Src interacts with IQGAP1 we tested the ability of SH2 and SH3 domains of c-Src to associate with IQGAP1 in an <italic>in vitro</italic> pull-down assay. The result showed that SH2 domain of c-Src interacts with IQGAP1 independent of its tyrosine phosphorylation since SH2 domain of c-Src forms a complex with IQGAP1 prior to stimulation of cells with ligand (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5H</xref>). Additional analysis using PAE cells null for chimeric VEGFR-2 revealed that indeed association of SH2 domain of Src with IQGAP1 is independent of VEGFR-2 (data not shown). In contrast to the SH2 domain, the SH3 domain of c-Src failed to interact with IQGAP1 with or without stimulation of VEGFR-2 (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5I</xref>). The data suggest that SH2 domain mediates the interaction of c-Src with IQGAP1 by a novel mechanism that is independent of tyrosine phosphorylation of IQGAP1.</p>
+      </sec>
+      <sec id="s2f">
+        <title>IQGAP1 signaling pathway is required for VEGF-induced angiogenesis</title>
+        <p>To establish the biological importance of IQGAP1 in VEGFR-2 signaling, we initially examined its role in proliferation of endothelial cells. To this end, we employed siRNA-mediated knockdown strategy and analyzed proliferation of endothelial cells in response to VEGF stimulation. IQGAP1 siRNA significantly reduced expression of IQGAP1 in HMVE cells (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5L</xref>). We further analyzed these cells for their ability to undergo proliferation in response to VEGF. Silencing the expression of IQGAP1 in primary endothelial cells, but not control siRNA, significantly inhibited VEGF-dependent cell proliferation (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5M</xref>), suggesting that VEGFR-2/c-Src orchestrated tyrosine phosphorylation of IQGAP1 serves an important role in endothelial cell proliferation. Our recent study indicates that IQGAP1 is capable of modulating activity of b-Raf <xref ref-type="bibr" rid="pone.0003848-Ren1">[27]</xref>, to test whether IQGAP1 activity is also required for b-Raf phosphorylation in endothelial cells in response to VEGFR-2 activation we tested phosphorylation of b-Raf where expression of IQGAP1 is knocked down by siRNA. The data show that stimulation of endothelial cells with VEGF promotes phosphorylation of b-Raf at Ser 455 and silencing expression of IQGAP1 notably reduced its phosphorylation (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5N</xref>). Quantification of phosphorylation of Ser 455 of b-Raf based on the three independent experiments also is shown (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5Q</xref>). The reduced phosphorylation of b-Raf in IQGAP1 siRNA treated cells was not due to the differential amount of protein since relatively equal amount of b-Raf protein is present in each group (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5O</xref>). The expression of IQGAP1 in cells treated with control siRNA or IQGAP1 siRNA also is shown (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5P</xref>). In short, the data indicate that VEGFR-2-dependent endothelial cell proliferation, in part, is established by Src, IQGAP1and b-Raf axis (<xref ref-type="fig" rid="pone-0003848-g005">Figure 5R</xref>).</p>
+        <p>To further address the physiological importance of c-Src, IQGAP1and b-Raf in angiogenesis in an <italic>in vivo</italic> setting, we used chicken chorioallantoic membrane (CAM) angiogenesis assay where their expression were knocked down by siRNA strategy. The result showed that targeting IQGAP1, c-Src and b-Raf individually by siRNA suppresses the ability of VEGF to stimulate angiogenesis (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6A</xref>), where control siRNA had no negative effect on angiogenesis (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6A</xref>). Furthermore, quantification of CAM assay showed that VEGF treatment of CAM induced robust angiogenic response where IQGAP1-siRNA, c-Src-siRNA and b-Raf-siRNA each decreased VEGF-induced angiogenesis (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6B</xref>). As noted the siRNA-mediated inhibition of VEGF-induced angiogenesis was near to baseline angiogenesis (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6B</xref>) underscoring the importance of this pathway for VEGF-induced angiogenesis. The ability of these specific siRNAs to knockdown expression of c-Src, IQGAP1 and b-Raf also are analyzed (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6C, 6E, 6G</xref>). The same membranes were re-probed for PLC&#x3B3;1 as a loading control (<xref ref-type="fig" rid="pone-0003848-g006">Figure 6D, 6F, 6H</xref>). In sum, our data demonstrate that IQGAP1, c-Src and b-Raf pathway plays a critical role both <italic>in vitro</italic> and <italic>in vivo</italic> in VEGF-mediated angiogenesis.</p>
+        <fig id="pone-0003848-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003848.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>IQGAP1, Src and b-Raf activity is required for angiogenesis in vivo:</title>
+            <p>9-day old chicken chorioallantoic membrane (CAM) (n&#x200A;=&#x200A; 10 CAM for each experimental group) were prepared as described in <xref ref-type="sec" rid="s4">Materials and Method</xref> section and exposed to filter paper disks saturated with siRNAs of either IQGAP1, Src, b-Raf or scrambled control siRNA for 24 hours and then incubated in the presence or in absence VEGF for an additional 72 hours. Pictures were taken by Leica Camera under microscope and a representative pictures from each group are shown (A). Blood vessels were quantified by Leica imaging software system. Each bar represents the mean &#xB1;SD of 10 CAM (n&#x200A;=&#x200A;10). *P&lt;0.05 versus control siRNA plus VEGF (B). CAM tissue was prepared and subjected to Western blot analysis using an anti-IQGAP1 antibody (C), anti-c-Src antibody (E), and anti-b-Raf antibody (G). The same membranes were re-blotted with an anti-PLC&#x3B3;1 antibody as a control for protein loading (D, F, H).</p>
+          </caption>
+          <graphic xlink:href="pone.0003848.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>In this report, we have identified a novel angiogenic pathway emanating from phospho-Y1057 of VEGFR-2. Phosphorylation of Y1057 plays a combinatorial role in VEGFR-2 signaling; it recruits c-Src kinase to VEGFR-2, regulates phosphorylation of multi-docking Y1173 site, mediates VEGFR-2-dependent proliferation of endothelial cells and angiogenesis through IQGAP1 and b-Raf. One of the most interesting aspects of this study is the discovery of an unexpected role of Src family kinases in the phosphorylation of Y1173 of VEGFR-2. Y1173 of VEGFR-2 is considered to be a <italic>bona fide</italic> mediator of angiogenic signaling of VEGFR-2 <italic>in vivo</italic> since its mutation abrogates its ability to stimulate angiogenesis during mouse embryonic development <xref ref-type="bibr" rid="pone.0003848-Meyer1">[6]</xref>, <xref ref-type="bibr" rid="pone.0003848-Sakurai1">[11]</xref> and Y1173 functions as a multi-docking residue on VEGFR-2 that recruits p85/PI3kinase, PLC&#x3B3;1, Shb, and Sck <xref ref-type="bibr" rid="pone.0003848-Dayanir1">[3]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0003848-Holmqvist1">[7]</xref>, <xref ref-type="bibr" rid="pone.0003848-Ratcliffe1">[10]</xref>. Thus, phosphorylation of Y1173 by Src kinases represents one pathway by which the intensity and extent of Y1173-dependent signaling of VEGFR-2 is controlled. Conversely, inhibition of Src kinases could skew the binding of these signaling proteins to VEGFR-2 and their subsequent activation by VEGFR-2.</p>
+      <p>A recent study indicates that c-Cbl directly interacts with Y1057 of VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>. Interestingly, not only does c-Src bind directly to Y1057, but c-Cbl provides an additional mechanism for c-Src to interact with VEGFR-2 by serving as an &#x201C;adaptor&#x201D; which in turn may modulate its activation by VEGFR-2. Activation of c-Src is linked to vascular permeability <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>, endothelial cell survival and angiogenesis <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>, <xref ref-type="bibr" rid="pone.0003848-Alavi1">[17]</xref>. Our findings show that although c-Src activity is dispensable for VEGFR-2-dependent tube formation of endothelial cells, its activity is highly critical for VEGF-stimulated endothelial cell proliferation and angiogenesis in CAM model of angiogenesis. The mechanism by which c-Src contributes to VEGFR-2-dependent cell proliferation is linked, in part to its ability to phosphorylate Y1173, which is known to regulate VEGFR-2-mediated endothelial cell proliferation <xref ref-type="bibr" rid="pone.0003848-Takahashi1">[5]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0003848-Holmqvist1">[7]</xref>. c-Src also associates with IQGAP1 in endothelial cells and catalyzes tyrosine phosphorylation of IQGAP1 which acts as a downstream target of VEGFR-2 and c-Src to stimulate endothelial cell proliferation. A recent work has demonstrated that c-Src regulates activation of Raf-1 (also known as c-Raf) in endothelial cells <xref ref-type="bibr" rid="pone.0003848-Alavi1">[17]</xref>. c-Src also associates directly with another Raf family protein, b-Raf, leading to activation of MAPK pathway in a Ras-independent manner <xref ref-type="bibr" rid="pone.0003848-Ren1">[27]</xref>, <xref ref-type="bibr" rid="pone.0003848-Briggs1">[33]</xref>. Our demonstration that IQGAP1 is activated by VEGFR-2 further supports earlier studies that shows VEGFR-2 activates MAPK pathway in Ras-independent manner <xref ref-type="bibr" rid="pone.0003848-Roy1">[31]</xref>.</p>
+      <p>In conclusion, in this study we have identified and defined a molecular switch by which VEGFR-2 regulates endothelial cell proliferation and stimulates angiogenesis by identifying Y1057 of VEGFR-2 that undergoes phosphorylation and orchestrates recruitment and activation of c-Src and modulates endothelial cell proliferation via IQGAP1-dependent signaling pathway.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Reagents, antibodies, siRNAs and vectors</title>
+        <p>Recombinant human VEGF-A and colony stimulating factor-1 (CSF-1) were purchased from R&amp;D Systems (Minneapolis, MN). Mouse monoclonal anti-phosphotyrosine antibody 4G10 and anti-IQGAP1 antibody were purchased from Upstate Biotechnology (Lake Placid, NY). Rabbit anti-phospho-VEGFR-2 (pY1052) and rabbit polyclonal anti-phospho-VEGFR-2 (pY1057) were made in collaboration with Upstate Biotechnology (Lake Placid, NY). Rabbit polyclonal anti-VEGFR-2 sera were raised against either a glutathione S-transferase-VEGFR-2 kinase insert domain fusion protein (1410) or a GST-VEGFR-2 carboxyl-terminus fusion protein (1412) <xref ref-type="bibr" rid="pone.0003848-Rahimi1">[18]</xref>, <xref ref-type="bibr" rid="pone.0003848-Singh2">[21]</xref>. Rabbit monoclonal anti-phospho-VEGFR-2 (pY1173) was purchased from Cell Signaling Technology (Beverly, MA). Rabbit polyclonal anti-PLC&#x3B3;1 was purchased from Santa Cruz Biotechnology (Santa Cruz, CA). The oligonucleotide inserted into pSUPER.retro.puro vector used to produce c-Cbl siRNA was described elsewhere <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, and other oligonucleotide siRNA used in this study are described in supplementary <xref ref-type="supplementary-material" rid="pone.0003848.s001">Data S1</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Cell culture, cell lines and retroviral infection</title>
+        <p>Porcine aortic endothelial (PAE) cells were grown in 10% FBS cells and lack endogenous expression of VEGFR-2 <xref ref-type="bibr" rid="pone.0003848-Rahimi2">[20]</xref>. Primary human dermal microvascular endothelial cells (HMVE cells) were purchased from (Cell Applications, Inc. San Diego) and human umbilical vein endothelial (HUVE) cells, bovine vascular endothelial cells (BAE) cells and human embryonic kidney cells (HEK-293) cells were purchased from ATCC and were grown in 10% FBS plus growth factor supplements and penicillin/ streptomycin. SYF cells are triple knockout (Src, Yes and Fyn) fibroblast cells and they were used as described <xref ref-type="bibr" rid="pone.0003848-Meyer2">[15]</xref>. Creation of the VEGFR-2 chimera (CKR), in which the extracellular domain of VEGFR-2 is replaced with that of the human CSF-1R, has been previously described <xref ref-type="bibr" rid="pone.0003848-Rahimi1">[18]</xref>. The oligonucleotide siRNA for c-Src was <named-content content-type="gene">5&#x2032;-AAACTCCCCTTG-CTCATGTAC-3&#x2032;</named-content>. The oligonucleotide siRNA used for IQGAP1was cloned into pSUPER.retro.puro vector as previously described <xref ref-type="bibr" rid="pone.0003848-Ren1">[27]</xref>. Avian siRNAs generated for c-Src, IQGAP1 and b-Raf are the following; siRNAs of avian c-Src were; <named-content content-type="gene">CAUUGCCAAGGUCAGCGAU UU</named-content> and <named-content content-type="gene">AUGACGCCAC AGCGCAGGC UU</named-content>, siRNA for avian b-raf were; <named-content content-type="gene">UUGGCUGGGACACUGACAU UU</named-content> and <named-content content-type="gene">AGGAUAGGAUCUGGAUCAU UU</named-content>; siRNA for avian IQGAP1 was; <named-content content-type="gene">ACUCUGCAAGCCUUACA GAUU</named-content>. Creation of mutant VEGFR-2s and other related methods are described in supplementary <xref ref-type="supplementary-material" rid="pone.0003848.s001">Data S1</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title><italic>In vitro</italic> angiogenesis/tubulogenesis assay</title>
+        <p>Angiogenesis assay was performed essentially as described <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, <xref ref-type="bibr" rid="pone.0003848-Tanaka1">[28]</xref>. Briefly, PAE cells were suspended in DMEM containing 1% fetal bovine serum and 0.24% (w/v) carboxymethylcellulose (4000 centipoise) in non-adherent round-bottom 96-well plates. After 24 h, all cells formed one single spheroid per well. Spheroids were cultured for additional 48 h before using them in the in vitro angiogenesis assay in the manner previously described <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>, <xref ref-type="bibr" rid="pone.0003848-Tanaka1">[28]</xref>. Sprouting and tubulogenesis was observed under an inverted phase-contrast microscope and pictures were taken using a Leica digitial camera system. For statistical analysis purposes four sprouting colonies were used for each experimental condition and their sprouting was quantified using image J program (NIH).</p>
+      </sec>
+      <sec id="s4d">
+        <title>Immunoprecipitation, immunoblotting and <italic>in vitro</italic> pull-down assay</title>
+        <p>Cells were prepared for immunoprecipitation as described <xref ref-type="bibr" rid="pone.0003848-Singh1">[14]</xref>. Briefly, cells were grown in 10-cm culture dishes until 80&#x2013;90% confluent and after serum starvation, cells were left either resting or stimulated with appropriate ligands as indicated in figure legends. Cells were lysed and normalized whole cell lysates were subject to immunoprecipitation by incubating with appropriate antibodies. Immunocomplexes were captured by incubating with either Protein-A Sepharose or Protein-G-Agarose beads and immunoprecipitated protein were subjected to immunoblotting analysis. Additional experimental details are provided in Supplementary <xref ref-type="supplementary-material" rid="pone.0003848.s001">Data S1</xref>. In some occasions the blots were scanned and they were subsequently quantified using <italic>Image J</italic> program (NIH).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Statistical Analysis</title>
+        <p>For statistical purposes the blots of three independent experiments were scanned and blots were quantified using NIH Image J program. Comparison of the different parameters for the blots was determined by repeated measures analysis of variance (ANOVA). Significant differences were assigned using Kruskal-Wallis post hoc test. The criterion for significance for all tests was set at p &lt; 0.05. Specific software was used to assist in the data analysis (GraphPadPrism v4.0b, GraphPad Software, San Diego, USA).</p>
+      </sec>
+      <sec id="s4f">
+        <title>GST-Pull down assay</title>
+        <p><italic>In vitro</italic> GST fusion protein binding experiments were performed as described <xref ref-type="bibr" rid="pone.0003848-Meyer3">[30]</xref>. To this end, equal numbers of endothelial cells were grown to 90% confluency prior to serum starvation for overnight. Unstimulated or ligand-stimulated cells were lysed in ice-cold lysis buffer supplemented with 2 mM Na<sub>3</sub>VO<sub>4</sub> and a protease inhibitor cocktail. Equal amounts of the appropriate immobilized GST fusion proteins were incubated with normalized whole cell lysates by rocking for 3 h at 4&#xB0;C. The beads were washed four times in the presence of protease inhibitors and Na<sub>3</sub>VO4, and proteins were eluted and analyzed in Western blot analysis using appropriate antibody.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Dot blot assay</title>
+        <p>Purified recombinant GST, GST-SH2-c-Src and GST-SH3-c-Src were eluted from glutathione-Sepharose beads and subjected to dot blot. Further information regarding this assay is provided in Supplementary <xref ref-type="supplementary-material" rid="pone.0003848.s001">Data S1</xref>.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Cell proliferation assay</title>
+        <p>Cell proliferation was evaluated by direct cell counting. Endothelial cells were seeded at a density of 2&#xD7;10<sup>4</sup> cells/well in 24-well plates and cultured overnight; the cells were then incubated in serum-free medium for 12 hours. Cells were stimulated with recombinant human CSF-1 or VEGF-A at different concentrations as indicated in figure legends, and after 48 hours they were washed with PBS, harvested by mild trypsinization, and counted with a hematocytometer. Experiments were performed in triplicate and 3 separate experiments were performed and where appropriate, values were presented as means of &#xB1; SD.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Chicken chorioallantoic membrane (CAM) angiogenesis assay</title>
+        <p>Pathogen free grade fertilized chick embryos (purchased from SPAFAS, Preston, CT) were incubated for 10 days (37&#xB0;C with 70% humidity). A hole was made with a drill over the air sac at the end of the egg as described <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>. A small window was cut in the egg shell over the dropped CAM, in order to place growth factor and siRNA on the CAM <xref ref-type="bibr" rid="pone.0003848-Eliceiri1">[16]</xref>, <xref ref-type="bibr" rid="pone.0003848-Alavi1">[17]</xref>. Filter disks were soaked in cortisone acetate, VEGF (200 &#x3B7;g), siRNA and plus transfection agent and the disk filters were applied to the CAM of 9 day chick embryos and incubated at 37&#xB0;C for 72 hours. 10 CAM were used per each group. Pictures were taken by Leica Camera under microscope from three different area randomly and these areas were further used to quantify blood vessels using Leica imaging software system. <underline>Statistical Analysis</underline>: Data represent mean &#xB1;SD of 10 CAM which includes three different fields from each CAM was used unless otherwise stated. Statistical significance was calculated by ANOVA soft ware program (prism v4.0b), considering p&lt;0.05 as statistically significant. <underline>Tissue preparation for Western blotting</underline>: CAM tissue was also harvested for Western blotting. For this purpose CAM tissue was snap frozen in liquid nitrogen and samples were homogenized in a modified RIPA buffer. Five CAMs from each experimental group were homogenized in 1 ml of the RIPA buffer. Equal amounts of protein were subjected to Western blot analysis using desired antibody as described in the figure legends.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0003848.s001">
+        <label>Data S1</label>
+        <caption>
+          <p>(0.03 MB DOC)</p>
+        </caption>
+        <media xlink:href="pone.0003848.s001.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003848.s002">
+        <label>Figure S1</label>
+        <caption>
+          <p>Effect of mutation of tyrosines 1052 and 1057 to phenylalanine: Equal number of serum-starved PAE cells expressing wild type CKR, F1052/CKR, F1057/CKR and F1052/F1057/CKR were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes. Total cell lysates were subjected to Western blot analysis using an anti-phosphoY1052 specific-VEGFR-2 antibody (A), an anti-phosphoY1057 specific anti-VEGFR-2 antibody (B), an anti-phosphotyrosine antibody (C), and an anti-VEGFR-2 antibody (D). Equal number of serum-starved PAE cells expressing wild type CKR, F1052/CKR, F1057/CKR and F1052/F1057/CKR without stimulation were lysed and immunoprecipitated with an anti-VEGFR-2 antibody. The immunoprecipitated proteins were subjected to an in vitro kinase assay with increasing concentrations of ATP as indicated and described in <xref ref-type="sec" rid="s4">Materials and Methods</xref> and immunoblotted with an anti-phosphotyrosine antibody (E). The same membranes were re-blotted with an anti-VEGFR-2 antibody for proteins levels (F).</p>
+          <p>(0.22 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0003848.s002.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003848.s003">
+        <label>Figure S2</label>
+        <caption>
+          <p>Effect of mutation of Tyrosines 1052 and 1057 to glutamic acid. Partial amino acid sequence of mouse VEGFR-2 containing Y1052 and Y1057 and the schematic presentation of VEGFR-2 are shown (A). Equal number of serum-starved PAE cells expressing wild type CKR, E1052/CKR, E1057/CKR and E1052/E1057/CKR were either unstimulated (&#x2212;) or stimulated with CSF-1 (+) for 10 minutes. Total cell lysates were subjected to Western blot analysis using an anti-phosphoY1052 specific-VEGFR-2 antibody (B), an anti-phosphoY1057 specific anti-VEGFR-2 antibody (C), an anti-phosphotyrosine antibody (D), and an anti-VEGFR-2 antibody (E). Equal number of serum-starved PAE cells expressing wild type CKR, E1052/CKR, E1057/CKR and E1052/E1057/CKR without stimulation were lysed and immunoprecipitated with an anti-VEGFR-2 antibody. The immunoprecipitated proteins were subjected to an in vitro kinase assay with increasing concentrations of ATP as indicated and described in <xref ref-type="sec" rid="s4">Materials and Methods</xref> and immunoblotted with an anti-phosphotyrosine antibody (F). The same membranes were re-blotted with an anti-VEGFR-2 antibody for proteins levels (G). The image analysis program was used to quantify the data. The tyrosine phosphorylation values were normalized over total protein (H). Arbitrary unit (AU).</p>
+          <p>(0.24 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0003848.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003848.s004">
+        <label>Figure S3</label>
+        <caption>
+          <p>GST-Src but not GST binds to VEGFR-2: Serum-starved PAE cells expressing CKR were either unstimulated (&#x2212;) or stimulated (+) with CSF-1 for 10 minutes, lysed, and whole cell lysates were incubated with purified GST alone or GST-SH2-Src protein. The GST-SH2-Src bound proteins were subjected to Western blot analysis using an anti-VEGFR-2 antibody (A). Whole cell lysates were blotted with anti-VEGFR-2 antibody as a control (B).</p>
+          <p>(0.09 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0003848.s004.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0003848-Carmeliet1">
+        <label>1</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carmeliet</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Angiogenesis in life, disease and medicine.</article-title>
+          <source>Nature</source>
+          <volume>438</volume>
+          <fpage>932</fpage>
+          <lpage>936</lpage>
+          <pub-id pub-id-type="pmid">16355210</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Olsson1">
+        <label>2</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olsson</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Dimberg</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kreuger</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Claesson-Welsh</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>VEGF receptor signalling-in control of vascular function.</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <volume>7</volume>
+          <fpage>359</fpage>
+          <lpage>371</lpage>
+          <pub-id pub-id-type="pmid">16633338</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Dayanir1">
+        <label>3</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dayanir</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Lashkari</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Identification of tyrosine residues in vascular endothelial growth factor receptor-2/FLK-1 involved in activation of phosphatidylinositol 3-kinase and cell proliferation.</article-title>
+          <source>J Biol Chem</source>
+          <volume>276</volume>
+          <fpage>17686</fpage>
+          <lpage>17692</lpage>
+          <pub-id pub-id-type="pmid">11278468</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Tzima1">
+        <label>4</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tzima</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Irani-Tehrani</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kiosses</surname>
+              <given-names>WB</given-names>
+            </name>
+            <name>
+              <surname>Dejana</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Schultz</surname>
+              <given-names>DA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2005</year>
+          <article-title>A mechanosensory complex that mediates the endothelial cell response to fluid shear stress.</article-title>
+          <source>Nature</source>
+          <volume>437</volume>
+          <fpage>426</fpage>
+          <lpage>431</lpage>
+          <pub-id pub-id-type="pmid">16163360</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Takahashi1">
+        <label>5</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Chida</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Shibuya</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>A single autophosphorylation site on KDR/Flk-1 is essential for VEGF-A-dependent activation of PLC-gamma and DNA synthesis in vascular endothelial cells.</article-title>
+          <source>EMBO J</source>
+          <volume>20</volume>
+          <fpage>2768</fpage>
+          <lpage>2778</lpage>
+          <pub-id pub-id-type="pmid">11387210</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Meyer1">
+        <label>6</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Latz</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Recruitment and activation of phospholipase Cgamma1 by vascular endothelial growth factor receptor-2 are required for tubulogenesis and differentiation of endothelial cells.</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>16347</fpage>
+          <lpage>16355</lpage>
+          <pub-id pub-id-type="pmid">12598525</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Holmqvist1">
+        <label>7</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmqvist</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Cross</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Rolny</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hagerkvist</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>The adaptor protein shb binds to tyrosine 1175 in vascular endothelial growth factor (VEGF) receptor-2 and regulates VEGF-dependent cellular migration.</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>22267</fpage>
+          <lpage>22275</lpage>
+          <pub-id pub-id-type="pmid">15026417</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Igarashi1">
+        <label>8</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igarashi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Shigeta</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Isohara</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Yamano</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Uno</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Sck interacts with KDR and Flt-1 via its SH2 domain.</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <volume>251</volume>
+          <fpage>77</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="pmid">9790910</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Warner1">
+        <label>9</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warner</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Dee</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Knight</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Feramisco</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Prigent</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The Shc-related adaptor protein, Sck, forms a complex with the vascular-endothelial-growth-factor receptor KDR in transfected cells.</article-title>
+          <source>Biochem J</source>
+          <volume>347</volume>
+          <fpage>501</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="pmid">10749680</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Ratcliffe1">
+        <label>10</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ratcliffe</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Yavuz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Stoletov</surname>
+              <given-names>KV</given-names>
+            </name>
+            <name>
+              <surname>Spring</surname>
+              <given-names>SC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Sck is expressed in endothelial cells and participates in vascular endothelial growth factor-induced signaling.</article-title>
+          <source>Oncogene</source>
+          <volume>21</volume>
+          <fpage>6307</fpage>
+          <lpage>6316</lpage>
+          <pub-id pub-id-type="pmid">12214271</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Sakurai1">
+        <label>11</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ohgimoto</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kataoka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Shibuya</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Essential role of Flk-1 (VEGF receptor 2) tyrosine residue 1173 in vasculogenesis in mice.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>102</volume>
+          <fpage>1076</fpage>
+          <lpage>1081</lpage>
+          <pub-id pub-id-type="pmid">15644447</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Shalaby1">
+        <label>12</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shalaby</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Rossant</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Gertsenstein</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>XF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1995</year>
+          <article-title>Failure of blood-island formation and vasculogenesis in Flk-1-deficient mice.</article-title>
+          <source>Nature</source>
+          <volume>376</volume>
+          <fpage>62</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="pmid">7596435</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Zeng1">
+        <label>13</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sanyal</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mukhopadhyay</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Tyrosine residues 951 and 1059 of vascular endothelial growth factor receptor-2 (KDR) are essential for vascular permeability factor/vascular endothelial growth factor-induced endothelium migration and proliferation, respectively.</article-title>
+          <source>J Biol Chem</source>
+          <volume>276</volume>
+          <fpage>32714</fpage>
+          <lpage>32719</lpage>
+          <pub-id pub-id-type="pmid">11435426</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Singh1">
+        <label>14</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Navruzbekov</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Shelke</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2007</year>
+          <article-title>A critical role for the E3-ligase activity of c-Cbl in VEGFR-2-mediated PLCgamma1 activation and angiogenesis.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>104</volume>
+          <fpage>5413</fpage>
+          <lpage>5418</lpage>
+          <pub-id pub-id-type="pmid">17372230</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Meyer2">
+        <label>15</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Dayanir</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Majnoun</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>The presence of a single tyrosine residue at the carboxyl domain of vascular endothelial growth factor receptor-2/FLK-1 regulates its autophosphorylation and activation of signaling molecules.</article-title>
+          <source>J Biol Chem</source>
+          <volume>277</volume>
+          <fpage>27081</fpage>
+          <lpage>27087</lpage>
+          <pub-id pub-id-type="pmid">12023952</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Eliceiri1">
+        <label>16</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eliceiri</surname>
+              <given-names>BP</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schwartzberg</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Hood</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Leng</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1999</year>
+          <article-title>Selective requirement for Src kinases during VEGF-induced angiogenesis and vascular permeability.</article-title>
+          <source>Mol Cell</source>
+          <volume>4</volume>
+          <fpage>915</fpage>
+          <lpage>924</lpage>
+          <pub-id pub-id-type="pmid">10635317</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Alavi1">
+        <label>17</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alavi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hood</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Frausto</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Stupack</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Cheresh</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Role of Raf in vascular protection from distinct apoptotic stimuli.</article-title>
+          <source>Science</source>
+          <volume>301</volume>
+          <fpage>94</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="pmid">12843393</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Rahimi1">
+        <label>18</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>VEGFR-1 and VEGFR-2: two non-identical twins with a unique physiognomy.</article-title>
+          <source>Front Biosci</source>
+          <volume>11</volume>
+          <fpage>818</fpage>
+          <lpage>829</lpage>
+          <pub-id pub-id-type="pmid">16146773</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Marengere1">
+        <label>19</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marengere</surname>
+              <given-names>LE</given-names>
+            </name>
+            <name>
+              <surname>Songyang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Gish</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Schaller</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Parsons</surname>
+              <given-names>JT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1994</year>
+          <article-title>SH2 domain specificity and activity modified by a single residue.</article-title>
+          <source>Nature</source>
+          <volume>369</volume>
+          <fpage>502</fpage>
+          <lpage>505</lpage>
+          <pub-id pub-id-type="pmid">7515480</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Rahimi2">
+        <label>20</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Dayanir</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Lashkari</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Receptor chimeras indicate that the vascular endothelial growth factor receptor-1 (VEGFR-1) modulates mitogenic activity of VEGFR-2 in endothelial cells.</article-title>
+          <source>J Biol Chem</source>
+          <volume>275</volume>
+          <fpage>16986</fpage>
+          <lpage>16992</lpage>
+          <pub-id pub-id-type="pmid">10747927</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Singh2">
+        <label>21</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Band</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Rahimi</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>The carboxyl terminus of VEGFR-2 is required for PKC-mediated down-regulation.</article-title>
+          <source>Mol Biol Cell</source>
+          <volume>16</volume>
+          <fpage>2106</fpage>
+          <lpage>2118</lpage>
+          <pub-id pub-id-type="pmid">15673613</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Sanjay1">
+        <label>22</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanjay</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Miyazaki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Itzstein</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Purev</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Horne</surname>
+              <given-names>WC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2006</year>
+          <article-title>Identification and functional characterization of an Src homology domain 3 domain-binding site on Cbl.</article-title>
+          <source>FEBS J</source>
+          <volume>273</volume>
+          <fpage>5442</fpage>
+          <lpage>5456</lpage>
+          <pub-id pub-id-type="pmid">17094785</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Nolen1">
+        <label>23</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nolen</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Regulation of protein kinases; controlling activity through activation segment conformation.</article-title>
+          <source>Mol Cell</source>
+          <volume>15</volume>
+          <fpage>661</fpage>
+          <lpage>675</lpage>
+          <pub-id pub-id-type="pmid">15350212</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Klinghoffer1">
+        <label>24</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klinghoffer</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Sachsenmaier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Soriano</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Src family kinases are required for integrin but not PDGFR signal transduction.</article-title>
+          <source>EMBO J</source>
+          <volume>18</volume>
+          <fpage>2459</fpage>
+          <lpage>2471</lpage>
+          <pub-id pub-id-type="pmid">10228160</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Summy1">
+        <label>25</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Summy</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Gallick</surname>
+              <given-names>GE</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Src family kinases in tumor progression and metastasis.</article-title>
+          <source>Cancer Metastasis Rev</source>
+          <volume>22</volume>
+          <fpage>337</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="pmid">12884910</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-YamaokaTojo1">
+        <label>26</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamaoka-Tojo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ushio-Fukai</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hilenski</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Dikalov</surname>
+              <given-names>SI</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>YE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>IQGAP1, a novel vascular endothelial growth factor receptor binding protein, is involved in reactive oxygen species-dependent endothelial migration and proliferation.</article-title>
+          <source>Circ Res</source>
+          <volume>95</volume>
+          <fpage>276</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="pmid">15217908</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Ren1">
+        <label>27</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ren</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Sacks</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>IQGAP1 modulates activation of B-Raf.</article-title>
+          <source>Proc Natl Acad Sci U S A.</source>
+          <volume>104</volume>
+          <fpage>10465</fpage>
+          <lpage>10469</lpage>
+          <pub-id pub-id-type="pmid">17563371</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Tanaka1">
+        <label>28</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Amling</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Neff</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Peyman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Uhlmann</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1996</year>
+          <article-title>c-Cbl is downstream of c-Src in a signalling pathway necessary for bone resorption.</article-title>
+          <source>Nature</source>
+          <volume>383</volume>
+          <fpage>528</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="pmid">8849724</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Bao1">
+        <label>29</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bao</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gur</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Yarden</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Src promotes destruction of c-Cbl: implications for oncogenic synergy between Src and growth factor receptors.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>100</volume>
+          <fpage>2438</fpage>
+          <lpage>2443</lpage>
+          <pub-id pub-id-type="pmid">12604776</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Meyer3">
+        <label>30</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Majnoun</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Latz</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lashkari</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Substitution of C-terminus of VEGFR-2 with VEGFR-1 promotes VEGFR-1 activation and endothelial cell proliferation.</article-title>
+          <source>Oncogene</source>
+          <volume>23</volume>
+          <fpage>5523</fpage>
+          <lpage>5531</lpage>
+          <pub-id pub-id-type="pmid">15107818</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Roy1">
+        <label>31</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Sacks</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>IQGAP1 binds ERK2 and modulates its activity.</article-title>
+          <source>J Biol Chem</source>
+          <volume>279</volume>
+          <fpage>17329</fpage>
+          <lpage>17337</lpage>
+          <pub-id pub-id-type="pmid">14970219</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Takahashi2">
+        <label>32</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Shibuya</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>VEGF activates protein kinase C-dependent, but Ras-independent Raf-MEK-MAP kinase pathway for DNA synthesis in primary endothelial cells.</article-title>
+          <source>Oncogene</source>
+          <volume>18</volume>
+          <fpage>2221</fpage>
+          <lpage>2230</lpage>
+          <pub-id pub-id-type="pmid">10327068</pub-id>
+        </citation>
+      </ref>
+      <ref id="pone.0003848-Briggs1">
+        <label>33</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Briggs</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Sacks</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>IQGAP proteins are integral components of cytoskeletal regulation.</article-title>
+          <source>EMBO Rep</source>
+          <volume>4</volume>
+          <fpage>571</fpage>
+          <lpage>574</lpage>
+          <pub-id pub-id-type="pmid">12776176</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This study was supported in part by grants from the National Institutes of Health (NR and DBS) and Massachusetts Lions Foundation grant to the Department of Ophthalmology.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>

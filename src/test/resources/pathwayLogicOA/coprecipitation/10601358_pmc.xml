@@ -1,0 +1,3066 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Exp Med</journal-id>
+      <journal-title>The Journal of Experimental Medicine</journal-title>
+      <issn pub-type="ppub">0022-1007</issn>
+      <issn pub-type="epub">1540-9538</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">10601358</article-id>
+      <article-id pub-id-type="pmc">2195723</article-id>
+      <article-id pub-id-type="publisher-id">99-1212</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Lineage-Specific Modulation of Interleukin 4 Signaling by Interferon Regulatory Factor 4</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gupta</surname>
+            <given-names>Sanjay</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Man</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Anthony</surname>
+            <given-names>Alissa</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pernis</surname>
+            <given-names>Alessandra B.</given-names>
+          </name>
+          <address>
+            <addr-line>Department of Medicine, Columbia University, 630 West 168th St., New York, NY 10032.</addr-line>
+            <fax>212-305-4478</fax>
+            <phone>212-305-3763</phone>
+          </address>
+          <email>abp1@columbia.edu</email>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <aff id="a"><label>a</label>Department of Medicine, Columbia University, New York, New York 10032</aff>
+      </contrib-group>
+      <pub-date pub-type="ppub">
+        <day>20</day>
+        <month>12</month>
+        <year>1999</year>
+      </pub-date>
+      <volume>190</volume>
+      <issue>12</issue>
+      <fpage>1837</fpage>
+      <lpage>1848</lpage>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>7</month>
+          <year>1999</year>
+        </date>
+        <date date-type="rev-request">
+          <day>28</day>
+          <month>9</month>
+          <year>1999</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>10</month>
+          <year>1999</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 1999 The Rockefeller University Press</copyright-statement>
+        <copyright-year>1999</copyright-year>
+        <copyright-holder>The Rockefeller University Press</copyright-holder>
+      </permissions>
+      <abstract>
+        <p>Interleukin (IL)-4 is an immunoregulatory cytokine that exerts distinct biological activities on different cell types. Our studies indicate that interferon regulatory factor (IRF)-4 is both a target and a modulator of the IL-4 signaling cascade. IRF-4 expression is strongly upregulated upon costimulation of B cells with CD40 and IL-4. Furthermore, we find that IRF-4 can interact with signal transducer and activator of transcription (Stat)6 and drive the expression of IL-4&#x2013;inducible genes. The transactivating ability of IRF-4 is blocked by the repressor factor BCL-6. Since expression of IRF-4 is mostly confined to lymphoid cells, these data provide a potential mechanism by which IL-4&#x2013;inducible genes can be regulated in a lineage-specific manner.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>CD40</kwd>
+        <kwd>interleukin 4</kwd>
+        <kwd>signal transducer and activator of transcription 6</kwd>
+        <kwd>BCL-6</kwd>
+        <kwd>interferon regulatory factor 4</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Interleukin (IL)-4 is an immunoregulatory cytokine that exerts a wide variety of effects on many different cell types <xref ref-type="bib" rid="R1">1</xref><xref ref-type="bib" rid="R2">2</xref><xref ref-type="bib" rid="R3">3</xref>. IL-4 plays a central role in the regulation of immune responses by promoting the differentiation of T helper cells toward the Th2 subset. Furthermore, IL-4 synergizes with stimuli provided by CD40 to drive B cell activation, proliferation, and differentiation, thus strongly enhancing humoral immunity <xref ref-type="bib" rid="R4">4</xref>.</p>
+    <p>IL-4 mediates its biological actions by activating a signaling cascade, which follows the paradigm originally described for the IFN signaling pathway <xref ref-type="bib" rid="R5">5</xref><xref ref-type="bib" rid="R6">6</xref><xref ref-type="bib" rid="R7">7</xref>. Binding of IL-4 to its receptor leads to the activation, via Janus kinases (JAKs), of a latent cytoplasmic protein, signal transducer and activator of transcription (STAT) 6 (Stat6) <xref ref-type="bib" rid="R8">8</xref>. Tyrosine phosphorylation of Stat6 allows it to homodimerize and rapidly translocate into the nucleus where it modulates gene transcription by binding to distinct cis-elements termed gamma-activated sites (GAS). Although studies in Stat6-deficient mice have demonstrated that Stat6 plays a key role in IL-4 signaling <xref ref-type="bib" rid="R9">9</xref><xref ref-type="bib" rid="R10">10</xref><xref ref-type="bib" rid="R11">11</xref>, additional factors are likely to participate in this cascade. Indeed, the rapidity of Stat6 activation in response to IL-4 cannot solely explain the inducibility of IL-4 target genes like CD23, whose activation displays a delayed kinetics <xref ref-type="bib" rid="R12">12</xref>. Moreover, tyrosine phosphorylation of Stat6 in response to IL-4 has been detected in a wide variety of cells <xref ref-type="bib" rid="R13">13</xref><xref ref-type="bib" rid="R14">14</xref><xref ref-type="bib" rid="R15">15</xref><xref ref-type="bib" rid="R16">16</xref><xref ref-type="bib" rid="R17">17</xref>. Thus, the differential gene expression triggered by IL-4 in diverse cell types must involve the presence and/or recruitment of additional, possibly cell type&#x2013;specific, cofactors.</p>
+    <p>Consistent with the requirements for additional protein&#x2013;protein interactions in the regulation of IL-4&#x2013;responsive genes, the activity of Stat6 can be downregulated by B cell lymphomas 6 (BCL-6). BCL-6 is a Kr&#xFC;ppel zinc finger transcriptional repressor that is highly expressed in germinal center B cells and is frequently altered in non-Hodgkin lymphoma <xref ref-type="bib" rid="R18">18</xref><xref ref-type="bib" rid="R19">19</xref><xref ref-type="bib" rid="R20">20</xref><xref ref-type="bib" rid="R21">21</xref>. BCL-6 has been shown to bind to the GAS element in the CD23b promoter and repress Stat6-mediated promoter function <xref ref-type="bib" rid="R22">22</xref>. Mice deficient in BCL-6 display lack of germinal centers as well as an inflammatory disease characterized by exaggerated Th2 responses including elevated levels of serum IgG1 and IgE, supporting a role for BCL-6 as a repressor of the IL-4 signaling pathway in vivo <xref ref-type="bib" rid="R22">22</xref><xref ref-type="bib" rid="R23">23</xref>. However, generation of mice deficient in both BCL-6 and Stat6 failed to abrogate the Th2 inflammatory disease, suggesting that not all of the defects present in the BCL-6&#x2013;deficient mice can be simply ascribed to its repression of Stat6 function <xref ref-type="bib" rid="R24">24</xref>.</p>
+    <p>Studies of the IFN signaling pathway have demonstrated that another family of transcription factors, the IFN regulatory factor (IRF) family, is both a target and a modulator of this cytokine signaling cascade <xref ref-type="bib" rid="R25">25</xref><xref ref-type="bib" rid="R26">26</xref>. Genetic studies have demonstrated a role for IRF proteins in the proliferation, differentiation, and apoptosis of a variety of immune effector cells, suggesting the involvement of IRFs in pathways in addition to those triggered by the IFNs <xref ref-type="bib" rid="R27">27</xref><xref ref-type="bib" rid="R28">28</xref>. In particular, lack of one of these newly cloned IRF proteins, IRF-4 (also termed Pip, LSIRF, ICSAT, or MUM1 [29&#x2013;32]), results in striking defects in the function of mature B and T cells <xref ref-type="bib" rid="R33">33</xref>. Consistent with these results, expression of both murine and human IRF-4 is mostly confined to the lymphoid compartment and is induced in response to mitogenic stimuli <xref ref-type="bib" rid="R31">31</xref><xref ref-type="bib" rid="R32">32</xref><xref ref-type="bib" rid="R34">34</xref>. Functional studies have shown that IRF-4 is involved in the transactivation of both the &#x3BA; and &#x3BB; Ig light chain enhancers as well as the CD20 promoter <xref ref-type="bib" rid="R29">29</xref><xref ref-type="bib" rid="R35">35</xref><xref ref-type="bib" rid="R36">36</xref><xref ref-type="bib" rid="R37">37</xref>. However, the effect of IRF-4 on these enhancers is unlikely to explain the profound immunological impairments demonstrated by the gene targeting studies. Additional IRF-4 targets and the physiological stimuli that activate IRF-4 are unknown.</p>
+    <p>We are interested in understanding the downstream effectors of the IL-4 signaling pathways in B cells as well as the mechanisms underlying the cross-talk between the CD40 and IL-4 signaling pathways. We focused our attention on the regulation of the CD23 gene <xref ref-type="bib" rid="R38">38</xref><xref ref-type="bib" rid="R39">39</xref><xref ref-type="bib" rid="R40">40</xref><xref ref-type="bib" rid="R41">41</xref>. CD23 induction in response to IL-4 and CD40 occurs with delayed kinetics, and displays a synergistic response when the two stimuli are combined <xref ref-type="bib" rid="R12">12</xref><xref ref-type="bib" rid="R42">42</xref><xref ref-type="bib" rid="R43">43</xref>. In humans, CD23 exists as two alternatively spliced isoforms, termed CD23a and CD23b, which differ only in the intracytoplasmic domain. Expression of CD23a and CD23b is controlled by two separate promoters <xref ref-type="bib" rid="R44">44</xref>. IL-4 inducibility of the CD23b isoform has been functionally mapped to a Stat6 binding element within the CD23b promoter termed the CD23b GAS <xref ref-type="bib" rid="R13">13</xref><xref ref-type="bib" rid="R45">45</xref>. We have found that the recently cloned IRF-4 can physically interact with Stat6 and act as a transactivator of the CD23b GAS. Presence of BCL-6 blocks the transactivating potential of IRF-4. While BCL-6 is known to be downregulated by CD40 <xref ref-type="bib" rid="R46">46</xref>, IRF-4 expression is markedly induced in response to IL-4 and CD40. Since IRF-4 expression is largely restricted to lymphoid cells, these data provide a potential mechanism by which expression of IL-4&#x2013;inducible genes can be modulated in a cell type&#x2013;specific manner. Furthermore, the ability of CD40 and IL-4 to target the expression of multiple components of this nucleoprotein complex may underlie the synergistic interaction between these two pathways.</p>
+    <sec sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec>
+        <title>Cell Lines and Cultures.</title>
+        <p>The human B cell lines Ramos (obtained from Dr. Seth Lederman, Columbia University) and BL-41 (obtained from Dr. Riccardo Dalla-Favera, Columbia University) are EBV-negative Burkitt's lymphomas. JY (obtained from Dr. Riccardo Dalla-Favera) is an EBV-transformed lymphoblastoid B cell line. U937 (obtained from Dr. Kathryne Calame, Columbia University) is a monocytic cell line. All cells were grown in IMDM supplemented with 10% fetal calf serum (Atlanta Biologicals, Inc.).</p>
+        <p>Ramos B cells (10&#x2013;20 &#xD7; 10<sup>6</sup>) were stimulated with 0.1 &#x3BC;g/ml of either anti-CD40 or an isotype-matched control Ab in a final volume of 10 ml at 37&#xB0;C for 24 h. IL-4 treatment (100 U/ml; PeproTech) was carried out simultaneously in separate plates in a final volume of 10 ml. Tonsillar mononuclear cells were obtained from surgical specimens after routine tonsillectomies and were isolated as described previously <xref ref-type="bib" rid="R47">47</xref>.</p>
+      </sec>
+      <sec>
+        <title>Abs.</title>
+        <p>The rabbit polyclonal antiserum against IRF-4 used in electrophoretic mobility shift assay (EMSA) experiments was a gift of Dr. Hirai, Tokoyo Universty, Tokyo, Japan <xref ref-type="bib" rid="R32">32</xref>. We subsequently generated our own rabbit polyclonal anti&#x2013;IRF-4 antiserum using a similar glutathione <italic>S</italic>-transferase (GST)&#x2013;IRF-4 (nucleotides 441&#x2013;924) fusion protein as the immunogen (Babco). As previously indicated, this GST fusion protein contains a portion of the IRF-4 protein that is specific to IRF-4 and thus avoids cross-reactivity with other IRFs <xref ref-type="bib" rid="R32">32</xref>. This antiserum was used for immunoprecipitations and immunoblot analyses. Blots were also reprobed with a commercially available anti&#x2013;IRF-4 antiserum (Santa Cruz Biotechnology), which gave identical results. Rabbit polyclonal antisera against human Stat6, Stat3, p65, IRF-2, IFN consensus sequence binding protein (ICSBP), or BCL-6, were purchased from Santa Cruz Biotechnology, Inc. The hybridomas secreting the anti-CD40 mAb G28-5 (IgG1) or an isotype-matched control mAb were obtained from American Type Culture Collection.</p>
+      </sec>
+      <sec>
+        <title>DNA Constructs.</title>
+        <p>Full-length human IRF-4 cDNA cloned into pBluescript vector (pBSKS-myc-IRF-4) was a gift of Dr. Riccardo Dalla-Favera <xref ref-type="bib" rid="R30">30</xref>. The IRF-4 expression plasmid (pCEP4-IRF-4) was constructed by cloning the entire coding region of the IRF-4 cDNA into the NotI and XhoI sites of the mammalian expression vector pCEP4 (Invitrogen). For construction of the GST&#x2013;IRF-4 expression plasmid, the entire coding region of the IRF-4 cDNA was cloned, in frame, into the filled EcoRI site of pGEX-3X vector (Amersham Pharmacia Biotech). The in frame junctions in the GST&#x2013;IRF-4 fusion construct were confirmed by DNA sequencing in an automated cycle sequencer (Perkin Elmer). The full-length human BCL-6 cDNA cloned into pMT2T mammalian expression vector was a gift of Dr. Riccardo Dalla-Favera <xref ref-type="bib" rid="R19">19</xref>.</p>
+        <p>The CD23a cDNA was a gift of Dr. Kikutani, Osaka University, Osaka, Japan <xref ref-type="bib" rid="R44">44</xref> and Dr. Wang, Harvard University, Boston, MA <xref ref-type="bib" rid="R48">48</xref>. To generate an antisense riboprobe of CD23a/b, a 600-bp 5&#x2032;-EcoRI-HindIII-3&#x2032; fragment from the 5&#x2032; end of CD23a cDNA was cloned in opposite orientation, into the HindIII and EcoRI sites of pGEM1 in vitro transcription vector (Promega). Transcription of the antisense RNA was driven by SP6 RNA polymerase promoter.</p>
+        <p>To prepare the CD23b GAS firefly luciferase reporter construct, a trimer of the CD23b GAS element was synthesized with flanking BamHI sites (GIBCO BRL) and then cloned into the BamHI site (immediately upstream of minimal TK promoter) of the TK200 luciferase reporter vector (a gift of Dr. Kathryne Calame). The CD23b promoter firefly luciferase reporter construct in the pGL3-enhancer vector (Promega) was a gift of Dr. Seth Lederman. The pRL-TK reporter plasmid encoding renilla luciferase to determine the transfection efficiency was purchased from Promega.</p>
+      </sec>
+      <sec>
+        <title>DNA Binding Assays and Cell Extracts.</title>
+        <p>The preparation and employment of DNA oligonucleotide probes for EMSAs have been described previously <xref ref-type="bib" rid="R49">49</xref> with the following modifications: 2% glycerol was added to the polyacrylamide gel, and a reduced poly(dI-dC) concentration (1 &#x3BC;g/reaction) was used in the binding buffer. The CD23b GAS oligonucleotides used in these studies were as follows: CD23b GAS wild-type (wt), 5&#x2032;-gatcGGGTGAATTTCTAAGAAAGGGAC-3&#x2032;; CD23b GAS M1, 5&#x2032;-gatcGGGTGAATTTCTAAG<bold>GTC</bold>GGGAC-3&#x2032;; CD23b GAS M2, 5&#x2032;-gatcGGGTG<bold>GTC</bold>TTCTAAGAAAGGGAC-3&#x2032;; and CD23b GAS M3, 5&#x2032;-gatcGGGTGAAT<bold>GCTG</bold>AAGAAAGGGAC-3&#x2032;. Oligonucleotide competition and Ab interference assays were performed as described previously <xref ref-type="bib" rid="R49">49</xref>. Nuclear and whole cell extracts (WCEs) were prepared as described previously <xref ref-type="bib" rid="R49">49</xref><xref ref-type="bib" rid="R50">50</xref>.</p>
+      </sec>
+      <sec>
+        <title>Immunoprecipitations, Western Blot Analysis, and UV Cross-linking Assays.</title>
+        <p>Cell extracts were immunoprecipitated with an anti&#x2013;IRF-4, anti&#x2013;BCL-6, or anti-Stat6 antiserum as described previously <xref ref-type="bib" rid="R49">49</xref>. The immunoprecipitates were resolved by 7% SDS-PAGE. The gel was transferred to a nitrocellulose membrane, and then immunoblotted with a Stat6, BCL-6, or IRF-4 Ab. The bands were visualized by ECL (Amersham Pharmacia Biotech). UV cross-linking was performed as described previously <xref ref-type="bib" rid="R49">49</xref>.</p>
+      </sec>
+      <sec>
+        <title>GST Pull-down Assays.</title>
+        <p>GST fusion proteins were expressed in <italic>Escherichia coli</italic> DH5&#x3B1; and affinity-purified on glutathione (GSH)-agarose beads (Sigma Chemical Co.), as described previously <xref ref-type="bib" rid="R51">51</xref>. The concentration of each fusion protein was determined by SDS-PAGE/Coomassie staining. For pull-down assays, lysates (&#x223C;2 mg of total cell proteins) from control or stimulated Ramos or JY cells were incubated with &#x223C;100 &#x3BC;g of GST alone or GST&#x2013;IRF-4 fusion protein immobilized onto GSH-agarose beads in 400 &#x3BC;l of 1&#xD7; lysis buffer (50 mM Tris-HCl, pH 8.0, 150 mM NaCl, 0.1 mM EDTA, 0.05% NP-40, 10% glycerol, 1 mM dithiothreitol, 1 mM Na<sub>3</sub>VO<sub>4</sub>, 1 mM PMSF, 1 &#x3BC;g/ml leupeptin, 3 &#x3BC;g/ml aprotinin) for 4 h at 4&#xB0;C with constant agitation. The complexes were extensively washed with 1&#xD7; lysis buffer (containing 0.5% NP-40). The bound proteins were eluted from the beads by boiling them in SDS-PAGE sample buffer, fractionated on a 7% SDS-polyacrylamide gel, and then blotted onto a nitrocellulose membrane. The blot was probed with either a Stat6, Stat3, or BCL-6 Ab.</p>
+      </sec>
+      <sec>
+        <title>Northern Analysis and RNase Protection Assays.</title>
+        <p>Total RNA was extracted by using the RNA-STAT60 kit (TelTest, Inc.). Northern blot analysis was performed with 10 &#x3BC;g of total RNA according to standard protocols. The blot was probed with either a human IRF-4 cDNA, a BCL-6 cDNA, or a glyceraldehyde-3-phosphate dehydrogenase (GAPDH) cDNA radiolabeled by the DNA Labeling beads (&#x2212;dCTP) kit (Amersham Pharmacia Biotech). RNase protection analysis was performed as described previously <xref ref-type="bib" rid="R52">52</xref>. 10 &#x3BC;g of total RNA was hybridized simultaneously to an antisense riboprobe of CD23a/b as well as of &#x3B2;-actin (Ambion) transcribed by SP6 RNA Polymerase in vitro Transcription System (Promega) using [&#x3B1;-<sup>32</sup>P]UTP. The annealed products were digested with ribonuclease T2 (GIBCO BRL), and then analyzed on a 6% polyacrylamide-urea denaturing gel.</p>
+      </sec>
+      <sec>
+        <title>Transient Transfections.</title>
+        <p>For the transient transfection assays, 6 &#xD7; 10<sup>6</sup> U937 cells were cotransfected with 25 &#x3BC;g of a CD23b GAS wt or a CD23b GAS M2 firefly luciferase reporter plasmid and 25 &#x3BC;g of various expression plasmids (as indicated in the figure legend) by electroporation at 300 V and 960 &#x3BC;F with a BTX electroporator as described previously <xref ref-type="bib" rid="R53">53</xref>. 5 &#x3BC;g of the pRL-TK reporter plasmid expressing renilla luciferase under the control of the thymidine kinase promoter was added to each transfection as a transfection efficiency control. JY cells (10 &#xD7; 10<sup>6</sup>) were cotransfected by the DEAE-dextran method <xref ref-type="bib" rid="R54">54</xref> with 10 &#x3BC;g of the CD23b promoter firefly luciferase reporter vector and 5 &#x3BC;g of pRL-TK plasmid in the presence of 15 &#x3BC;g of a BCL-6 expression plasmid (pMT2T-BCL6) or the equivalent amount of empty pMT2T vector. After transfection, the cells were equally split into two 2-ml cultures and then incubated for 16&#x2013;24 h in the presence or absence of IL-4 (10 ng/ml). The transfected cells were then harvested, lysed, and assayed for luciferase activities with the Dual Luciferase Assay System (Promega) according to the manufacturer's instructions. The firefly luciferase activity was normalized on the basis of renilla luciferase activity.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>CD40 and IL-4 Synergistically Upregulate both CD23a and CD23b.</title>
+        <p>To identify and characterize the downstream effectors of the IL-4 signaling cascade, we focused our attention on CD23, a B cell activation molecule whose regulation displays lineage- and stage-specific features <xref ref-type="bib" rid="R41">41</xref><xref ref-type="bib" rid="R55">55</xref>. Although IL-4 and CD40 can individually induce modest levels of CD23, costimulation of human tonsillar B cells or purified centroblasts with both CD40 and IL-4 leads to a synergistic induction of surface CD23 expression <xref ref-type="bib" rid="R42">42</xref><xref ref-type="bib" rid="R43">43</xref>. We found that Ramos, an EBV-negative Burkitt's lymphoma cell line extensively used to study the CD40 and/or IL-4 signaling pathways <xref ref-type="bib" rid="R56">56</xref><xref ref-type="bib" rid="R57">57</xref><xref ref-type="bib" rid="R58">58</xref><xref ref-type="bib" rid="R59">59</xref>, mimics the physiological regulation of CD23 in normal B cells (data not shown). Since no study had previously explored the CD23 isoform(s) induced in response to CD40 or the CD40 and IL-4 combination, we performed RNase protection assays. As shown in <xref ref-type="fig" rid="F1">Fig. 1</xref>, exposure of Ramos cells to either anti-CD40 Ab or IL-4 alone preferentially upregulated the CD23a isoform. A slight effect of IL-4 on the expression of CD23b could also be detected. Coculturing Ramos cells with both stimuli led to a strong induction of both CD23a and CD23b transcripts. Consistent with previous reports, constitutively high levels of both CD23a and CD23b were detected in an EBV-transformed B cell line (JY), whereas IL-4 stimulation of a monocytic cell line, U937, only upregulated the CD23b isoform <xref ref-type="bib" rid="R44">44</xref><xref ref-type="bib" rid="R48">48</xref>. &#x3B2;-actin levels were equivalent in all lanes (data not shown). Thus, costimulation with CD40 and IL-4 leads to a synergistic induction of both CD23 isoforms.</p>
+      </sec>
+      <sec>
+        <title>IRF-4 Binds to the CD23b GAS.</title>
+        <p>IL-4 stimulation has been shown to lead to the rapid binding of Stat6 to a functional element within the CD23b promoter termed the CD23b GAS <xref ref-type="bib" rid="R13">13</xref><xref ref-type="bib" rid="R45">45</xref>. However, our RNase protection assay studies had revealed only a minimal induction of CD23b in response to IL-4 alone. To determine whether additional factors could target the CD23b GAS and modulate Stat6 activity, we first performed EMSA experiments on Ramos cells stimulated with either IL-4, anti-CD40, or a control Ab. As shown in <xref ref-type="fig" rid="F2">Fig. 2</xref> A, Ramos cells contain multiple CD23b GAS binding complexes, most noticeably a broad constitutive (C1) and a slower mobility constitutive complex (C2). CD40 stimulation of Ramos cells led to a decrease in the intensity of the C1 complex (<xref ref-type="fig" rid="F2">Fig. 2</xref> A). Stimulation of Ramos cells with IL-4 activates an additional superimposed complex that contains Stat6 (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). In contrast to Ramos cells, the appearance of the CD23b GAS binding complexes in JY, an EBV-transformed B cell line expressing constitutively high levels of CD23b, was strikingly different. The C1 complex was absent, while the C2 complex became clearly visible (<xref ref-type="fig" rid="F2">Fig. 2</xref> A).</p>
+        <p>To dissect the CD23b GAS binding complexes, we then carried out EMSA experiments using a panel of mutated CD23b GAS elements as cold competitors of the radiolabeled CD23b GAS wt probe. Interestingly, a survey of the CD23b GAS had revealed that it contains two potential core sequences for IRF binding (GAAT and GAAA; <xref ref-type="table" rid="T1">Table </xref>) <xref ref-type="bib" rid="R60">60</xref>. We thus mutated each of these two sites (M2 and M1, respectively) as well as a region between them (M3). These oligonucleotide competition experiments revealed that the C1 and C2 complexes displayed a differential pattern of competition (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). In particular, the CD23b GAS M2 mutant failed to compete the C2 complex, suggesting that this complex targets the potential 5&#x2032; IRF recognition sequence.</p>
+        <p>Previous studies have shown that purified BCL-6 can bind the CD23b GAS <xref ref-type="bib" rid="R22">22</xref>. Furthermore, expression of BCL-6 is downregulated by CD40 stimulation of B cells, and undetectable in EBV-transformed B cell lines <xref ref-type="bib" rid="R46">46</xref><xref ref-type="bib" rid="R61">61</xref>. These observations suggested that the C1 complex, which we had detected in Ramos but not in JY cells, might contain BCL-6. Indeed, incubation of nuclear extracts from Ramos cells with a BCL-6 antiserum, but not with a control antiserum, led to the disappearance of the C1 complex (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). These experiments also clearly revealed the presence of the C2 complex in both untreated and IL-4&#x2013;treated cells. In IL-4&#x2013;stimulated cells, an additional Stat6 complex could also be observed.</p>
+        <p>Our cold competition experiments suggested that binding of the C2 complex to the CD23b GAS requires the presence of a potential IRF binding site. To directly assess whether the lymphoid-specific IRF-4 participated in the CD23b GAS binding complexes, we then performed Ab interference EMSA assays with an anti&#x2013;IRF-4 antiserum <xref ref-type="bib" rid="R32">32</xref>. Incubation of extracts from untreated Ramos cells with anti&#x2013;IRF-4 antiserum, but not with a control antiserum, supershifted the C2 complex (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). Addition of the IRF-4 antiserum completely blocked the appearance of the C2 complex in JY extracts. Since detection of the C2 complex in Ramos cells is hindered by the presence of the BCL-6 complex, we also performed Ab interference assays using as a probe the CD23b GAS M1 mutant, which has lost the ability to bind BCL-6. As shown in <xref ref-type="fig" rid="F2">Fig. 2</xref> C, this probe clearly detected the C2 complex in Ramos cells, and addition of the anti&#x2013;IRF-4, but not a control, antiserum led to its disappearance. Additional Ab interference assays demonstrated that antisera against another IRF family member, IRF-2 or ICSBP, failed to affect the appearance of the CD23b GAS binding complexes in either JY or Ramos despite appropriately supershifting complexes binding to the guanylate binding protein (GBP)&#x2013;IFN-stimulated regulatory element (ISRE) (<xref ref-type="fig" rid="F2">Fig. 2</xref> D, and data not shown). Furthermore, no effect of the anti&#x2013;IRF-4 antiserum on the IL-4&#x2013;inducible Stat6 complex or on the IFN-&#x3B3;&#x2013;inducible Stat1 complex binding to the IRF-1 GAS was noted, indicating that this effect was specific for the complex binding to the CD23b GAS (data not shown). We have also detected IRF-4 binding to a cis-element adjacent to the Stat6 binding site in the CD23a promoter (data not shown).</p>
+        <p>Thus, these data indicate that IRF-4, BCL-6, and Stat6 can all target the CD23b GAS element. Interestingly, these experiments also suggest that binding of IRF-4 and Stat6 to the CD23b GAS is not cooperative and can occur independently of each other.</p>
+      </sec>
+      <sec>
+        <title>IRF-4 Physically Interacts with Stat6.</title>
+        <p>Interactions between an IRF and STATs are critical for the formation of the IFN-&#x3B1;&#x2013;inducible complex, IFN-stimulated gene factor 3 (ISGF3), which contains Stat1 and Stat2 as well as p48, a member of the IRF family <xref ref-type="bib" rid="R62">62</xref>. Since Stat6 and IRF-4 can bind to adjacent DNA elements, we then proceeded to test whether IRF-4 can physically interact with Stat6 by performing GST fusion protein binding assays (<xref ref-type="fig" rid="F3">Fig. 3</xref> A, top). An association of Stat6 with IRF-4 could indeed be detected by incubating a GST&#x2013;IRF-4 fusion protein with extracts from Ramos cells stimulated with anti-CD40, a control Ab, or human IL-4. No interaction of Stat6 with the GST moiety alone was observed. Furthermore, reprobing with anti-Stat3, anti-Stat1, anti-Stat2, and anti-Stat5 antisera revealed that none of these STATs were able to complex with IRF-4 (<xref ref-type="fig" rid="F3">Fig. 3</xref> A, bottom, and data not shown). To confirm that the IRF-4&#x2013;Stat6 interaction could occur in vivo, we used an anti&#x2013;IRF-4 antiserum to immunoprecipitate extracts from Ramos cells stimulated with either anti-CD40 Ab, a control Ab, or IL-4. Consistent with our previous observations, presence of the Stat6 protein could be detected in the IRF-4 immunoprecipitates from both stimulated and unstimulated Ramos lysates (<xref ref-type="fig" rid="F3">Fig. 3</xref> B, top). Similar results were also observed in JY cells. Stripping and reprobing of the filter with an anti&#x2013;IRF-4 Ab ensured for equal loading of the immunoprecipitates (<xref ref-type="fig" rid="F3">Fig. 3</xref> B, bottom). Consistent with recent studies, which have detected IRF-4 in both the nuclear and cytoplasmic compartments (Riccardo Dalla-Favera, personal communication), the IRF-4&#x2013;Stat6 association can occur in the absence of IL-4 stimulation. Interestingly, in both GST and coimmunoprecipitation experiments the IRF-4&#x2013;Stat6 interaction appears to decrease upon stimulation of Ramos cells with the CD40 Ab.</p>
+        <p>Thus, our data indicate that IRF-4 is capable of specifically interacting with Stat6 both in vitro and in vivo.</p>
+      </sec>
+      <sec>
+        <title>Expression of IRF-4 Is Stimulated by CD40 and IL-4.</title>
+        <p>The preceding experiments suggested that IRF-4 could bind a functional element of the CD23b promoter. Since CD40 and IL-4 synergistically induce CD23b, we proceeded to determine whether CD23b upregulation by these stimuli was accompanied by changes in IRF-4 expression. Therefore, we cultured Ramos cells with an anti-CD40 Ab, IL-4, or a combination of anti-CD40 Ab and IL-4. Simultaneous cultures with a control Ab were also included. Northern analysis of total RNA derived from this experiment revealed that IRF-4 expression was upregulated in response to either CD40 or IL-4 stimulation (<xref ref-type="fig" rid="F4">Fig. 4</xref> A, top). A much stronger induction was noted when the anti-CD40 Ab was used in conjunction with IL-4. Consistent with previous reports <xref ref-type="bib" rid="R46">46</xref><xref ref-type="bib" rid="R61">61</xref>, CD40 stimulation of Ramos cells also led to the downregulation of BCL-6 (<xref ref-type="fig" rid="F4">Fig. 4</xref> A, middle). The same pattern of IRF-4 upregulation in response to CD40 and/or IL-4 was also detected in another EBV-negative Burkitt's lymphoma cell line, BL-41 (data not shown), and by Western analysis, in human tonsillar cells (<xref ref-type="fig" rid="F4">Fig. 4</xref> B). Strong induction of IRF-4 was also observed in response to transfectants expressing CD40 ligand (CD40L) but not to control transfectants, indicating that IRF-4 expression is a physiological target of the CD40&#x2013;CD40L interaction (<xref ref-type="bib" rid="R59">59</xref>; data not shown). Kinetic studies showed that induction of IRF-4 is first noted at 2 h and can still be detected at 24 h (data not shown). No effect on IRF-4 expression was noted by culturing Ramos cells with either IFN-&#x3B3; or IFN-&#x3B1; (data not shown). Reprobing of this Northern blot with a probe for ICSBP, an IRF family member closely related to IRF-4 <xref ref-type="bib" rid="R63">63</xref>, revealed that the CD40 and IL-4 signaling cascades do not upregulate ICSBP expression (data not shown). Consistent with previous reports <xref ref-type="bib" rid="R34">34</xref>, we also found that IRF-4 levels are highly increased in EBV-transformed B cell lines (data not shown). Thus, expression of IRF-4 in B cells is specifically targeted by the CD40 and IL-4 signaling cascades as well as by EBV transformation.</p>
+      </sec>
+      <sec>
+        <title>IRF-4 Interacts with the Kr&#xFC;ppel Zinc Finger Transcriptional Repressor, BCL-6.</title>
+        <p>The induction of IRF-4 expression by CD40 and IL-4 as well as by EBV suggested that IRF-4 might function as a transactivator of CD23 gene expression. However, we had detected constitutive binding of IRF-4 to the CD23b GAS in unstimulated Ramos cells, which only express low levels of CD23b. We then reasoned that, in this setting, IRF-4 function might be modulated by interaction with a repressor. Consistent with this hypothesis, our EMSA experiments had revealed binding of BCL-6 to the CD23b GAS in Ramos, but not in JY cells, which express high constitutive levels of CD23b. To assess whether IRF-4 could interact with BCL-6, we then performed UV cross-linking experiments with a bromodeoxyuridine-substituted CD23b GAS probe. This was followed by immunoprecipitations with an IRF-4 antiserum, a BCL-6 antiserum, or a Stat6 antiserum as control (<xref ref-type="fig" rid="F5">Fig. 5</xref> A). The immunoprecipitates were then resolved by SDS-PAGE and Western blotted. Consistent with our EMSA results (<xref ref-type="fig" rid="F2">Fig. 2</xref>), an &#x223C;62-kD protein was recognized by the IRF-4 antiserum. This corresponds to the molecular mass of IRF-4 plus the DNA probe. An additional cross-linked protein was also immunoprecipitated by the IRF-4 antiserum in Ramos, but not in JY cells. The size of this additional protein, after correction for the probe contribution, was &#x223C;90 kD, and was identical to that of the BCL-6 protein cross-linked to the CD23b GAS as determined by simultaneous immunoprecipitation with an anti&#x2013;BCL-6 antiserum. Indeed, reprobing of the Western blot with an anti&#x2013;BCL-6 antiserum confirmed that the p90 protein could be recognized by this antiserum (data not shown). Thus, the anti&#x2013;IRF-4 antiserum can coprecipitate IRF-4 and BCL-6 bound to the CD23b GAS.</p>
+        <p>To determine whether interaction of IRF-4 and BCL-6 could occur independently of the presence of the CD23b GAS, we performed pull-down assays with a GST&#x2013;IRF-4 fusion protein. As shown in <xref ref-type="fig" rid="F5">Fig. 5</xref> B, incubation of a GST&#x2013;IRF-4 fusion protein with extracts from Ramos cells revealed a very strong association of IRF-4 with BCL-6. No interaction was observed with the GST moiety alone or upon incubation of the GST&#x2013;IRF-4 with JY extracts, consistent with the lack of BCL-6 expression in EBV-transformed B cells. We also subjected extracts from Ramos cells cultured with or without IL-4 to immunoprecipitation assays with either an anti&#x2013;IRF-4 or anti&#x2013;BCL-6 antiserum (<xref ref-type="fig" rid="F5">Fig. 5</xref> C). This experiment demonstrated that IRF-4 and BCL-6 coimmunoprecipitated. Association of BCL-6 and IRF-4 was not affected by IL-4 treatment. Surprisingly, we did not detect increased levels of IRF-4 in our immunoprecipitations of IL-4&#x2013; or CD40-treated extracts (<xref ref-type="fig" rid="F3">Fig. 3</xref> B and <xref ref-type="fig" rid="F5">Fig. 5</xref> C), despite an induction of IRF-4 levels by these stimulations (<xref ref-type="fig" rid="F4">Fig. 4</xref>). We suspect that this may be due either to a limited ability of this antiserum to immunoprecipitate increasing amounts of IRF-4 or to the ability of IRF-4 upon IL-4&#x2013;CD40 treatment to form alternative complexes that cannot be recognized by this antiserum.</p>
+        <p>To further corroborate the specificity of the association of IRF-4 with BCL-6 and Stat6, we also performed coimmunoprecipitation experiments with either an anti&#x2013;IRF-4 or an antiserum against a nuclear factor &#x3BA;B (NF-&#x3BA;B) family member, p65. These assays were conducted on extracts from JY cells, which constitutively express p65 in the nucleus (<xref ref-type="bib" rid="R49">49</xref>; <xref ref-type="fig" rid="F5">Fig. 5</xref> D). These experiments failed to detect an association of IRF-4 with p65.</p>
+        <p>These studies thus indicate that IRF-4 can interact with the Kr&#xFC;ppel zinc finger transcriptional repressor, BCL-6, both in vitro and in vivo. Furthermore, no such interaction is detected in cells (JY) that express high levels of CD23b, suggesting that the presence of BCL-6 affects the functional ability of IRF-4 to modulate CD23b transcription.</p>
+      </sec>
+      <sec>
+        <title>The Ability of IRF-4 to Transactivate CD23b Can Be Blocked by BCL-6.</title>
+        <p>To directly assess whether IRF-4, in the absence of BCL-6, could function as a transactivator of CD23b, we performed transient transfection assays in U937 cells, a monocytic cell line that is capable of activating Stat6 in response to IL-4, but lacks both IRF-4 and BCL-6. Cotransfection of an IRF-4 expression vector with a luciferase reporter construct driven by an oligomerized CD23b GAS wt element resulted in a threefold induction in the luciferase activity, suggesting that IRF-4 can act as a transactivator of CD23b in the absence of Stat6 activation (<xref ref-type="fig" rid="F6">Fig. 6</xref> A). This level of induction was similar to that observed upon stimulation of U937 with IL-4. Interestingly, cotransfection of IRF-4 augmented, albeit not in a synergistic manner, the induction of the CD23b GAS wt reporter construct in response to IL-4. Consistent with the results of our EMSA experiments, a reporter construct driven by a mutant CD23b GAS element, which binds Stat6 but not IRF-4 (CD23b GAS M2, <xref ref-type="fig" rid="F2">Fig. 2</xref> B), displayed a normal IL-4 inducibility but could not be activated by IRF-4 cotransfection (<xref ref-type="fig" rid="F6">Fig. 6</xref> A). Furthermore, overexpression of IRF-4 was unable to enhance the IL-4&#x2013;mediated activation of this CD23b GAS M2 reporter construct. Thus, these data suggest that optimal transactivation of CD23b requires the presence of both Stat6 and IRF-4.</p>
+        <p>Since BCL-6 is known to repress Stat6 function, we then proceeded to determine whether BCL-6 could block IRF-4 function. Indeed, cotransfection of BCL-6, but not of an empty vector, with IRF-4 was able to repress the ability of IRF-4 to induce the activity of the CD23b GAS reporter construct (<xref ref-type="fig" rid="F6">Fig. 6</xref> B). A similar inhibitory effect was also detected when BCL-6 was cotransfected with a reporter construct driven by the CD23b promoter in JY, an EBV-transformed B cell line, which constitutively expresses high levels of IRF-4 but no activated Stat6 (<xref ref-type="fig" rid="F6">Fig. 6</xref> C). These studies thus indicate that IRF-4 can transactivate the CD23b GAS and that BCL-6 can block IRF-4 function independently of its inhibitory effects on Stat6.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <sec>
+        <title>IRF-4, a Lineage-specific Effector of the IL-4 and CD40 Signaling Pathways.</title>
+        <p>Biochemical and genetic studies have demonstrated that Stat6 plays a key role in IL-4 signaling <xref ref-type="bib" rid="R10">10</xref>. However, the rapid activation of Stat6 cannot solely account for the complex biological activities of IL-4 <xref ref-type="bib" rid="R1">1</xref><xref ref-type="bib" rid="R3">3</xref>. The IL-4 signaling pathway must thus use additional effector molecules. Our studies demonstrate that IRF-4 is both a target and a modulator of the IL-4 signaling pathway. This dual role of IRF-4 is thus reminiscent of that of IRF-1 in the IFN signaling cascade <xref ref-type="bib" rid="R26">26</xref>. In contrast to the IL-4 induction of Stat6, which has been detected in a wide variety of cells <xref ref-type="bib" rid="R13">13</xref><xref ref-type="bib" rid="R14">14</xref><xref ref-type="bib" rid="R15">15</xref><xref ref-type="bib" rid="R16">16</xref><xref ref-type="bib" rid="R17">17</xref>, IRF-4 expression is largely restricted to the lymphoid compartment <xref ref-type="bib" rid="R31">31</xref><xref ref-type="bib" rid="R32">32</xref><xref ref-type="bib" rid="R34">34</xref>. Thus, the recruitment of IRF-4 by the IL-4 signaling pathway provides a potential mechanism by which this cytokine can regulate the expression of target genes in a lineage-specific manner.</p>
+        <p>Similarly to IRF-1, whose induction is not restricted to the IFN pathway <xref ref-type="bib" rid="R64">64</xref><xref ref-type="bib" rid="R65">65</xref>, we found that the expression of IRF-4 in B cells can be independently upregulated by stimulation via the CD40 receptor. CD40 engagement is also known to lead to the rapid activation of the NF-&#x3BA;B/rel family of transcription factors <xref ref-type="bib" rid="R4">4</xref>. Although other IRFs have been shown to interact with NF-&#x3BA;B/rel proteins <xref ref-type="bib" rid="R66">66</xref><xref ref-type="bib" rid="R67">67</xref><xref ref-type="bib" rid="R68">68</xref>, we did not detect a physical interaction of IRF-4 with p65 (<xref ref-type="fig" rid="F5">Fig. 5</xref> D). However, this finding does not exclude that IRF-4 may be able to associate with other NF-&#x3BA;B family members and/or functionally modulate the activity of CD40-inducible NF-&#x3BA;B complexes. Such an interaction may allow IRF-4 to participate in the regulation of genes that are activated in response to CD40 alone.</p>
+        <p>Our studies indicate that costimulation of B cells with CD40 and IL-4 leads to maximal IRF-4 induction. This is accompanied by the simultaneous CD40-mediated downregulation of BCL-6 (<xref ref-type="fig" rid="F4">Fig. 4</xref> A), consistent with previous reports <xref ref-type="bib" rid="R46">46</xref><xref ref-type="bib" rid="R61">61</xref>. Since germinal center T cells have been shown to express CD40L as well as IL-4 <xref ref-type="bib" rid="R69">69</xref>, the transcriptional events triggered by activation of B cells with both stimuli are physiologically relevant. Thus, one may predict that B cells that have been successfully selected in the germinal center and have received appropriate T cell help should express high levels of IRF-4 in addition to low or absent BCL-6. In support of this notion, a small subpopulation of centrocytes with such a phenotype has been identified in close apposition to follicular dendritic cells. These cells have been postulated to represent &#x201C;surviving centrocytes&#x201D; (Riccardo Dalla-Favera, personal communication). The coordinated induction of IRF-4 and downregulation of BCL-6 may thus be an important step in the progression of B cells toward the terminal stages of differentiation.</p>
+      </sec>
+      <sec>
+        <title>Interplay between IRF-4, Stat6, and BCL-6.</title>
+        <p>Our studies demonstrate that Stat6 and IRF-4 can physically interact. Preliminary experiments suggest that association of IRF-4 with Stat6 involves the COOH-terminal region of IRF-4. This portion of IRF-4 contains a putative &#x3B1;-helical region, which displays strong homology to the STAT-interacting domain of p48, the IRF component of the ISGF3 complex <xref ref-type="bib" rid="R63">63</xref><xref ref-type="bib" rid="R70">70</xref>. As in the case of the p48&#x2013;Stat2 complex <xref ref-type="bib" rid="R71">71</xref>, tyrosine phosphorylation of Stat6 does not appear to be needed for its association with IRF-4. However, unlike the ISGF3 complex <xref ref-type="bib" rid="R70">70</xref><xref ref-type="bib" rid="R72">72</xref>, IRF-4 does not appear to be involved in recruiting Stat6 to the CD23b GAS. Our inability to detect a cooperative complex containing both IRF-4 and Stat6 also contrasts with the strong phosphorylation-dependent cooperative interaction between IRF-4 and the Ets protein, PU.1 <xref ref-type="bib" rid="R29">29</xref><xref ref-type="bib" rid="R35">35</xref><xref ref-type="bib" rid="R36">36</xref>.</p>
+        <p>Our transient transfection experiments indicate that IRF-4 can act as a transactivator and augment the Stat6 inducibility of CD23b. Our studies have revealed an additive rather than a synergistic interaction between IRF-4 and Stat6, suggesting that recapitulation of the synergistic induction of CD23b in vitro may require regions flanking the CD23b GAS and/or additional components. For example, studies of the IFN-&#x3B2; enhanceosome, a model system for transcriptional synergism, have demonstrated that this regulatory region (&#x2212;110 to &#x2212;53) contains multiple IRF-1 binding sites <xref ref-type="bib" rid="R73">73</xref>. Consistent with this notion, our survey of the CD23b promoter has revealed that the regions flanking the CD23b GAS may contain additional IRF-4 binding sites. Our inability to detect enhanced IRF-4 DNA binding in EMSAs upon IL-4 treatment (<xref ref-type="fig" rid="F2">Fig. 2</xref> A) may thus be due to the lack of these additional sites in the probes used. Although, in the CD23 system, IRF-4 acts as a positive regulator, IRF-4 contains multiple regions with transactivation and/or repressing potential <xref ref-type="bib" rid="R74">74</xref><xref ref-type="bib" rid="R75">75</xref><xref ref-type="bib" rid="R76">76</xref><xref ref-type="bib" rid="R77">77</xref>. Therefore, the precise outcome of the Stat6&#x2013;IRF-4 interaction is likely to be dictated by the specific arrangement of their DNA binding sites as well as by the presence of additional cofactors.</p>
+        <p>Indeed, our studies suggest that the function of IRF-4 can be profoundly affected by the presence of the Kr&#xFC;ppel zinc finger transcriptional repressor, BCL-6 <xref ref-type="bib" rid="R19">19</xref><xref ref-type="bib" rid="R20">20</xref><xref ref-type="bib" rid="R21">21</xref><xref ref-type="bib" rid="R78">78</xref><xref ref-type="bib" rid="R79">79</xref>. BCL-6 is able to repress IRF-4 function in the absence of Stat6. This may allow BCL-6 to modulate the expression of Stat6-independent target genes. Indeed, we have found that BCL-6 binds to the IRF-4 binding site present in the Ig&#x3BA; 3&#x2032; enhancer (<xref ref-type="bib" rid="R35">35</xref><xref ref-type="bib" rid="R36">36</xref>; data not shown). In contrast to the CD23b GAS, this DNA element does not bind Stat6. Thus, the BCL-6&#x2013;IRF-4 interaction may underlie some of the defects exhibited by the BCL-6&#x2013;deficient mice that are not corrected by the lack of Stat6 <xref ref-type="bib" rid="R24">24</xref>.</p>
+        <p>Various mechanisms may account for the repressive effects of BCL-6 on IRF-4 function. In addition to the known ability of BCL-6 to recruit the corepressor machinery <xref ref-type="bib" rid="R80">80</xref><xref ref-type="bib" rid="R81">81</xref><xref ref-type="bib" rid="R82">82</xref><xref ref-type="bib" rid="R83">83</xref>, BCL-6 may prevent high-affinity DNA binding by IRF-4 as suggested by our UV cross-linking experiments, which detected stronger CD23b GAS&#x2013;IRF-4 complexes in the absence of BCL-6. Furthermore, previous studies have indicated that IRF-4 contains an inhibitory region (amino acids 207&#x2013;300) that can mask its own transactivation domain <xref ref-type="bib" rid="R84">84</xref>. Thus, BCL-6 may maintain IRF-4 in an autoinhibitory state. IRFs have previously been shown to be critical components of the virally induced IFN-&#x3B2; enhanceosome <xref ref-type="bib" rid="R73">73</xref>. Interestingly, another member of the Kr&#xFC;ppel zinc finger family of transcription factors, PRDI-BF/Blimp1 <xref ref-type="bib" rid="R85">85</xref><xref ref-type="bib" rid="R86">86</xref><xref ref-type="bib" rid="R87">87</xref>, can bind to one of the IRF binding sites within the IFN-&#x3B2; enhanceosome and act as a repressor of IFN-&#x3B2; gene expression <xref ref-type="bib" rid="R85">85</xref>. Thus, interaction between IRFs and Kr&#xFC;ppel proteins may be a conserved feature of the transcriptional regulation of a variety of genes.</p>
+        <p>The ability of the CD23b GAS to bind an IRF family member as well as its organizational features are indeed reminiscent of regulatory DNA elements targeted by enhanceosomes <xref ref-type="bib" rid="R88">88</xref>. This suggests that the CD23b GAS and its flanking regions may function in the assembly of higher-order transcriptional complexes. The synergistic induction of CD23b by the CD40 and IL-4 signaling pathways may thus result from their ability to simultaneously target the expression/function of Stat6, IRF-4, and BCL-6, leading to a profound remodeling of the architecture of this nucleoprotein complex. Although we have been unable to clearly demonstrate formation of a trimolecular complex consisting of Stat6, BCL-6, and IRF-4, prolonged exposures of our UV cross-linking experiments (<xref ref-type="fig" rid="F5">Fig. 5</xref> A) have revealed that the IRF-4 antiserum can immunoprecipitate, in addition to IRF-4 and BCL-6, a faint band of mobility identical to that of Stat6. Assembly of this complex may thus require specific three-dimensional contacts, which we are unable to fully reproduce with the techniques available to us. Alternatively, some of the interactions between Stat6, IRF-4, and BCL-6 could be mediated by additional cofactors. These findings thus lend support to the notion that assembly of these enhanceosome-like complexes may represent ideal targets for the final integration of signaling pathways <xref ref-type="bib" rid="R73">73</xref>. Furthermore, presence of lineage-specific components like IRF-4 and stage-specific repressors like BCL-6 within these complexes would endow cells with the ability to regulate gene expression in response to signals such as CD40 and IL-4 in a context-appropriate manner.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. Hirai for the anti&#x2013;IRF-4 antiserum and Drs. Wang and Kikutani for the CD23 cDNA. We are very thankful to Dr. Dalla-Favera and members of his laboratory for providing us with cell lines and the IRF-4 and BCL-6 constructs. We are grateful to Yang Xu for her technical assistance. We also thank Drs. J. Siu and C. Schindler for reading this manuscript as well as for their constant support. We thank Drs. Dalla-Favera and Thanos for their critical reading of this manuscript.</p>
+      <p>This work was supported by the New York City Council Speaker's Fund for Biomedical Research: Toward the Science of Patient Care, and a Grant-in-Aid from the American Heart Association.</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hurai</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functions of IL-4 and control of its expression</article-title>
+          <source>Crit. Rev. Immunol.</source>
+          <volume>17</volume>
+          <year>1997</year>
+          <fpage>1</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="pmid">9034722</pub-id>
+        </citation>
+      </ref>
+      <ref id="R2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chomarat</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Banchereau</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>An update on interleukin-4 and its receptor</article-title>
+          <source>Eur. Cytokine Netw.</source>
+          <volume>8</volume>
+          <year>1997</year>
+          <fpage>333</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="pmid">9459612</pub-id>
+        </citation>
+      </ref>
+      <ref id="R3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paul</surname>
+              <given-names>W.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-4a prototypic immunoregulatory lymphokine</article-title>
+          <source>Blood.</source>
+          <volume>77</volume>
+          <year>1991</year>
+          <fpage>1859</fpage>
+          <lpage>1870</lpage>
+          <pub-id pub-id-type="pmid">2018830</pub-id>
+        </citation>
+      </ref>
+      <ref id="R4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Claassen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Noelle</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functions of CD40 and its ligand, gp39 (CD40L)</article-title>
+          <source>Crit. Rev. Immunol.</source>
+          <volume>16</volume>
+          <year>1996</year>
+          <fpage>59</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="pmid">8809473</pub-id>
+        </citation>
+      </ref>
+      <ref id="R5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darnell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Jak-STAT pathways and transcriptional activation in response to IFNs and other extracellular signaling proteins</article-title>
+          <source>Science.</source>
+          <volume>264</volume>
+          <year>1994</year>
+          <fpage>1415</fpage>
+          <lpage>1420</lpage>
+          <pub-id pub-id-type="pmid">8197455</pub-id>
+        </citation>
+      </ref>
+      <ref id="R6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ihle</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Jaks and Stats in signaling by the cytokine receptor superfamily</article-title>
+          <source>Trends Genet.</source>
+          <volume>11</volume>
+          <year>1995</year>
+          <fpage>69</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="pmid">7716810</pub-id>
+        </citation>
+      </ref>
+      <ref id="R7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leonard</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>O'Shea</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>JAKS and STATSbiological implications</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <volume>16</volume>
+          <year>1998</year>
+          <fpage>293</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="pmid">9597132</pub-id>
+        </citation>
+      </ref>
+      <ref id="R8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelms</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Keegan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>W.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-4 receptor signalling mechanisms and their biological significance</article-title>
+          <source>Adv. Exp. Med. Biol.</source>
+          <volume>452</volume>
+          <year>1998</year>
+          <fpage>37</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="pmid">9889957</pub-id>
+        </citation>
+      </ref>
+      <ref id="R9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schindler</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Smiley</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Grusby</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stat6 is required for mediating responses to IL-4 and for development of Th2 cells</article-title>
+          <source>Immunity.</source>
+          <volume>4</volume>
+          <year>1996</year>
+          <fpage>313</fpage>
+          <lpage>319</lpage>
+          <pub-id pub-id-type="pmid">8624821</pub-id>
+        </citation>
+      </ref>
+      <ref id="R10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takeda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Minami</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kashiwamura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nakanishi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kishimoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Essential role of Stat6 in IL-4 signalling</article-title>
+          <source>Nature.</source>
+          <volume>380</volume>
+          <year>1996</year>
+          <fpage>627</fpage>
+          <lpage>630</lpage>
+          <pub-id pub-id-type="pmid">8602263</pub-id>
+        </citation>
+      </ref>
+      <ref id="R11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimoda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>van Deursen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sangster</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Sarawar</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Carson</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Tripp</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Quelle</surname>
+              <given-names>F.W.</given-names>
+            </name>
+            <name>
+              <surname>Nosaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Vignali</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lack of IL-4-induced Th2 response and IgE class switching in mice with disrupted Stat6 gene</article-title>
+          <source>Nature.</source>
+          <volume>380</volume>
+          <year>1996</year>
+          <fpage>630</fpage>
+          <lpage>633</lpage>
+          <pub-id pub-id-type="pmid">8602264</pub-id>
+        </citation>
+      </ref>
+      <ref id="R12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rousset</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>de Malefijt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Slierendregt</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Aubry</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+            <name>
+              <surname>Bonnefoy</surname>
+              <given-names>J.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Defrance</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Banchereau</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>de Vries</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of Fc receptor for IgE (CD23) and class II MHC antigen expression on Burkitt's lymphoma cell lines by human IL-4 and IFN-&#x3B3;</article-title>
+          <source>J. Immunol.</source>
+          <volume>140</volume>
+          <year>1988</year>
+          <fpage>2625</fpage>
+          <lpage>2632</lpage>
+          <pub-id pub-id-type="pmid">2965726</pub-id>
+        </citation>
+      </ref>
+      <ref id="R13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kohler</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Rieber</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Allergy-associated I&#x2208; and Fc&#x2208; receptor II (CD23b) genes activated via binding of an interleukin-4-induced transcription factor to a novel responsive element</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>23</volume>
+          <year>1993</year>
+          <fpage>3066</fpage>
+          <lpage>3071</lpage>
+          <pub-id pub-id-type="pmid">8258319</pub-id>
+        </citation>
+      </ref>
+      <ref id="R14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kashleva</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Pernis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pine</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rothman</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>STF-IL4a novel IL-4 induced signal transducing factor</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>13</volume>
+          <year>1994</year>
+          <fpage>1350</fpage>
+          <lpage>1356</lpage>
+        </citation>
+      </ref>
+      <ref id="R15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moriggl</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Berchtold</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Standke</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Kammer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Heim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wissler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Stocklin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gouilleux</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Groner</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the transactivation domains of Stat5 and Stat6 in lymphoid cells and mammary epithelial cells</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>17</volume>
+          <year>1997</year>
+          <fpage>3663</fpage>
+          <lpage>3678</lpage>
+          <pub-id pub-id-type="pmid">9199300</pub-id>
+        </citation>
+      </ref>
+      <ref id="R16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>F.H.</given-names>
+            </name>
+            <name>
+              <surname>Uetani</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Haque</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Dweik</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Thunnissen</surname>
+              <given-names>F.B.</given-names>
+            </name>
+            <name>
+              <surname>Calhoun</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Erzurum</surname>
+              <given-names>S.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferon-&#x3B3; and interleukin-4 stimulate prolonged expression of inducible nitric oxide synthase in human airway epithelium through synthesis of soluble mediators</article-title>
+          <source>J. Clin. Invest.</source>
+          <volume>100</volume>
+          <year>1997</year>
+          <fpage>829</fpage>
+          <lpage>838</lpage>
+          <pub-id pub-id-type="pmid">9259582</pub-id>
+        </citation>
+      </ref>
+      <ref id="R17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gabay</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Porter</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Guenette</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Billir</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Arend</surname>
+              <given-names>W.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin-4 (IL-4) and IL-13 enhance the effect of IL-1&#x3B2; on production of IL-1 receptor antagonist by human primary hepatocytes and hepatoma HepG2 cellsdifferential effect on C-reactive protein production</article-title>
+          <source>Blood.</source>
+          <volume>93</volume>
+          <year>1999</year>
+          <fpage>1299</fpage>
+          <lpage>1307</lpage>
+          <pub-id pub-id-type="pmid">9949173</pub-id>
+        </citation>
+      </ref>
+      <ref id="R18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cattoretti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.-C.</given-names>
+            </name>
+            <name>
+              <surname>Cechova</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Falini</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Louie</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Offit</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chaganti</surname>
+              <given-names>R.S.K.</given-names>
+            </name>
+            <name>
+              <surname>Dalla-Favera</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>BCL-6 protein is expressed in germinal center B cells</article-title>
+          <source>Blood.</source>
+          <volume>1</volume>
+          <year>1995</year>
+          <fpage>45</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="pmid">7795255</pub-id>
+        </citation>
+      </ref>
+      <ref id="R19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chaganti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dalla-Favera</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>BCL-6, a POZ/zinc-finger protein, is a sequence-specific transcriptional repressor</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>93</volume>
+          <year>1996</year>
+          <fpage>6947</fpage>
+          <lpage>6952</lpage>
+          <pub-id pub-id-type="pmid">8692924</pub-id>
+        </citation>
+      </ref>
+      <ref id="R20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seyfert</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Allman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Staudt</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional repression by the proto-oncogene BCL-6</article-title>
+          <source>Oncogene.</source>
+          <volume>12</volume>
+          <year>1996</year>
+          <fpage>2331</fpage>
+          <lpage>2342</lpage>
+          <pub-id pub-id-type="pmid">8649773</pub-id>
+        </citation>
+      </ref>
+      <ref id="R21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lista</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Coco</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Knowles</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Offit</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chaganti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dalla-Favera</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alterations of a zinc finger-encoding gene, BCL-6, in diffuse large-cell lymphoma</article-title>
+          <source>Science.</source>
+          <volume>262</volume>
+          <year>1993</year>
+          <fpage>747</fpage>
+          <lpage>750</lpage>
+          <pub-id pub-id-type="pmid">8235596</pub-id>
+        </citation>
+      </ref>
+      <ref id="R22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dent</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Shaffer</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Allman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Staudt</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of inflammation, cytokine expression, and germinal center formation by BCL-6</article-title>
+          <source>Science.</source>
+          <volume>276</volume>
+          <year>1997</year>
+          <fpage>589</fpage>
+          <lpage>592</lpage>
+          <pub-id pub-id-type="pmid">9110977</pub-id>
+        </citation>
+      </ref>
+      <ref id="R23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cattoretti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hawe</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>de Waard</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nouri-Shirazi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Orazi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chaganti</surname>
+              <given-names>R.S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The BCL-6 proto-oncogene controls germinal-centre formation and Th2-type inflammation</article-title>
+          <source>Nat. Genet.</source>
+          <volume>16</volume>
+          <year>1997</year>
+          <fpage>161</fpage>
+          <lpage>169</lpage>
+          <pub-id pub-id-type="pmid">9171827</pub-id>
+        </citation>
+      </ref>
+      <ref id="R24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dent</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hu-Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Staudt</surname>
+              <given-names>L.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>T helper type 2 inflammatory disease in the absence of interleukin 4 and transcription factor STAT6</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>95</volume>
+          <year>1998</year>
+          <fpage>13823</fpage>
+          <lpage>13828</lpage>
+          <pub-id pub-id-type="pmid">9811885</pub-id>
+        </citation>
+      </ref>
+      <ref id="R25">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Darnell</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional responses to polypeptide ligandsthe JAK-STAT pathway</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <volume>64</volume>
+          <year>1995</year>
+          <fpage>621</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="pmid">7574495</pub-id>
+        </citation>
+      </ref>
+      <ref id="R26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harada</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of interferon regulatory factors in the interferon system and cell growth control</article-title>
+          <source>Biochimie.</source>
+          <volume>80</volume>
+          <year>1998</year>
+          <fpage>641</fpage>
+          <lpage>650</lpage>
+          <pub-id pub-id-type="pmid">9865486</pub-id>
+        </citation>
+      </ref>
+      <ref id="R27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>van Wijnen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stein</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stein</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferon regulatory factorsgrowth control and histone gene regulation&#x2014;it's not just interferon anymore</article-title>
+          <source>J. Mol. Med.</source>
+          <volume>75</volume>
+          <year>1997</year>
+          <fpage>348</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="pmid">9181476</pub-id>
+        </citation>
+      </ref>
+      <ref id="R28">
+        <citation citation-type="journal"><person-group person-group-type="author"><name><surname>Taniguchi</surname><given-names>T.</given-names></name><name><surname>Tanaka</surname><given-names>N.</given-names></name><name><surname>Taki</surname><given-names>S.</given-names></name></person-group><article-title>Regulation of the interferon system, immune response and oncogenesis by the transcription factor interferon regulatory factor-1</article-title><source>Eur. Cytokine Netw.</source><volume>9</volume>Suppl. 3<year>1998</year><fpage>43</fpage><lpage>48</lpage><pub-id pub-id-type="pmid">9831185</pub-id></citation>
+      </ref>
+      <ref id="R29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenbeis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Storb</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pip, a novel IRF family member, is a lymphoid-specific, PU.1-dependent transcriptional activator</article-title>
+          <source>Genes Dev.</source>
+          <volume>9</volume>
+          <year>1995</year>
+          <fpage>1377</fpage>
+          <lpage>1387</lpage>
+          <pub-id pub-id-type="pmid">7797077</pub-id>
+        </citation>
+      </ref>
+      <ref id="R30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iida</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Corradini</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Boccadoro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chaganti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dalla-Favera</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deregulation of MUM1/IRF4 by chromosomal translocation in multiple myeloma</article-title>
+          <source>Nat. Genet.</source>
+          <volume>17</volume>
+          <year>1997</year>
+          <fpage>226</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="pmid">9326949</pub-id>
+        </citation>
+      </ref>
+      <ref id="R31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsuyama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Grossman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mittrucker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Siderovski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kiefer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kawakami</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yoshinaga</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning of LSIRF, a lymphoid-specific member of the interferon regulatory factor family that binds the interferon-stimulated response element (ISRE)</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>23</volume>
+          <year>1995</year>
+          <fpage>2127</fpage>
+          <lpage>2136</lpage>
+          <pub-id pub-id-type="pmid">7541907</pub-id>
+        </citation>
+      </ref>
+      <ref id="R32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamagata</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nishida</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sakai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mitani</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yazaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hirai</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel interferon regulatory factor family transcription factor, ICSAT/Pip/LSIRF, that negatively regulates the activity of interferon-regulated genes</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>16</volume>
+          <year>1996</year>
+          <fpage>1283</fpage>
+          <lpage>1294</lpage>
+          <pub-id pub-id-type="pmid">8657101</pub-id>
+        </citation>
+      </ref>
+      <ref id="R33">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mittrucker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsuyama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Grossman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kundig</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Potter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shahinian</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wakeham</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Patterson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirement for the transcription factor LSIRF/IRF4 for mature B and T lymphocyte function</article-title>
+          <source>Science.</source>
+          <volume>275</volume>
+          <year>1997</year>
+          <fpage>540</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="pmid">8999800</pub-id>
+        </citation>
+      </ref>
+      <ref id="R34">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grossman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mittrucker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nicholl</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Antonio</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Suggs</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sutherland</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Siderovski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning of human lymphocyte-specific interferon regulatory factor (hLSIRF/hIRF4) and mapping of the gene to 6p23-25</article-title>
+          <source>Genomics.</source>
+          <volume>37</volume>
+          <year>1996</year>
+          <fpage>229</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="pmid">8921401</pub-id>
+        </citation>
+      </ref>
+      <ref id="R35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pongubala</surname>
+              <given-names>J.M.R.</given-names>
+            </name>
+            <name>
+              <surname>Nagulapalli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Klemsz</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>McKercher</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Maki</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Atchinson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>PU.1 recruits a second nuclear factor to a site important for immunoglobulin &#x3BA; 3&#x2032; enhancer activity</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>12</volume>
+          <year>1992</year>
+          <fpage>368</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="pmid">1729611</pub-id>
+        </citation>
+      </ref>
+      <ref id="R36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pongubala</surname>
+              <given-names>J.M.R.</given-names>
+            </name>
+            <name>
+              <surname>Beveren</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Nagulapalli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Klemsz</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>McKercher</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Maki</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Atchinson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of PU.1 phosphorylation on interaction with NF-EM5 and transcriptional activation</article-title>
+          <source>Science.</source>
+          <volume>259</volume>
+          <year>1993</year>
+          <fpage>1622</fpage>
+          <lpage>1625</lpage>
+          <pub-id pub-id-type="pmid">8456286</pub-id>
+        </citation>
+      </ref>
+      <ref id="R37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Himmelmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Riva</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Thevenin</surname>
+              <given-names>B.P.L.C.</given-names>
+            </name>
+            <name>
+              <surname>Kehrl</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>PU.1/Pip and basic helix loop helix zipper transcription factors interact with binding sites in the CD20 promoter to help confer lineage- and stage-specific expression of CD20 in B lymphocytes</article-title>
+          <source>Blood</source>
+          <volume>90</volume>
+          <year>1997</year>
+          <fpage>3984</fpage>
+          <lpage>3995</lpage>
+          <pub-id pub-id-type="pmid">9354667</pub-id>
+        </citation>
+      </ref>
+      <ref id="R38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kikutani</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kishimoto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular genetics and biology of two different species of Fc&#x2208;RII</article-title>
+          <source>Res. Immunol.</source>
+          <volume>141</volume>
+          <year>1990</year>
+          <fpage>249</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="pmid">2145619</pub-id>
+        </citation>
+      </ref>
+      <ref id="R39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conrad</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>FceRII/CD23the low affinity receptor for IgE</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <volume>8</volume>
+          <year>1990</year>
+          <fpage>623</fpage>
+          <lpage>645</lpage>
+          <pub-id pub-id-type="pmid">2140512</pub-id>
+        </citation>
+      </ref>
+      <ref id="R40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richards</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Katz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biology and chemistry of the low affinity IgE receptor (Fc&#x2208;RII/CD23)</article-title>
+          <source>Crit. Rev. Immunol.</source>
+          <volume>11</volume>
+          <year>1991</year>
+          <fpage>65</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">1834078</pub-id>
+        </citation>
+      </ref>
+      <ref id="R41">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bonnefoy</surname>
+              <given-names>J.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Lecoanet-Henchoz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Aubry</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+            <name>
+              <surname>Gauchat</surname>
+              <given-names>J.-F.</given-names>
+            </name>
+            <name>
+              <surname>Graber</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD23 and B-cell activation</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <volume>7</volume>
+          <year>1995</year>
+          <fpage>355</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="pmid">7546400</pub-id>
+        </citation>
+      </ref>
+      <ref id="R42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paterson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lack</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Domenico</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Delespesse</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Finkel</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Gelfand</surname>
+              <given-names>E.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Triggering through CD40 promotes interleukin-4-induced CD23 production and enhanced soluble CD23 release in atopic disease</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>26</volume>
+          <year>1996</year>
+          <fpage>1979</fpage>
+          <lpage>1984</lpage>
+          <pub-id pub-id-type="pmid">8814234</pub-id>
+        </citation>
+      </ref>
+      <ref id="R43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choe</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.-S.</given-names>
+            </name>
+            <name>
+              <surname>Armitage</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The functional role of B cell antigen receptor stimulation and IL-4 in the generation of human memory B cells from germinal center B cells</article-title>
+          <source>J. Immunol.</source>
+          <volume>159</volume>
+          <year>1997</year>
+          <fpage>3757</fpage>
+          <lpage>3766</lpage>
+          <pub-id pub-id-type="pmid">9378962</pub-id>
+        </citation>
+      </ref>
+      <ref id="R44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yokota</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kikutani</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Barsumian</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Suemura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kishimoto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two species of human Fc&#x2208; receptor II (Fc&#x2208;RII/CD23)tissue-specific and IL-4-specific regulation of gene expression</article-title>
+          <source>Cell</source>
+          <volume>55</volume>
+          <year>1988</year>
+          <fpage>611</fpage>
+          <lpage>618</lpage>
+          <pub-id pub-id-type="pmid">2972386</pub-id>
+        </citation>
+      </ref>
+      <ref id="R45">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kotanides</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Reich</surname>
+              <given-names>N.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirement of tyrosine phosphorylation for rapid activation of a DNA binding factor by IL-4</article-title>
+          <source>Science.</source>
+          <volume>262</volume>
+          <year>1993</year>
+          <fpage>1265</fpage>
+          <lpage>1267</lpage>
+          <pub-id pub-id-type="pmid">7694370</pub-id>
+        </citation>
+      </ref>
+      <ref id="R46">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jain</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dent</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Maile</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Selvaggi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kehry</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Staudt</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>BCL-6 expression during B-cell activation</article-title>
+          <source>Blood.</source>
+          <volume>87</volume>
+          <year>1996</year>
+          <fpage>5257</fpage>
+          <lpage>5268</lpage>
+          <pub-id pub-id-type="pmid">8652841</pub-id>
+        </citation>
+      </ref>
+      <ref id="R47">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cleary</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Fortune</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yellin</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Chess</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lederman</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Opposing roles of CD95 (Fas/APO-1) and CD40 in the death and rescue of human low density tonsillar B cells</article-title>
+          <source>J. Immunol.</source>
+          <volume>155</volume>
+          <year>1995</year>
+          <fpage>3329</fpage>
+          <lpage>3337</lpage>
+          <pub-id pub-id-type="pmid">7561026</pub-id>
+        </citation>
+      </ref>
+      <ref id="R48">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sample</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rowe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liebowitz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rickinson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kieff</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Epstein-Barr virus latent membrane protein (LMP1) and nuclear proteins 2 and 3C are effectors of phenotypic changes in B lymphocytesEBNA-2 and LMP1 cooperatively induce CD23</article-title>
+          <source>J. Virol.</source>
+          <volume>64</volume>
+          <year>1990</year>
+          <fpage>2309</fpage>
+          <lpage>2318</lpage>
+          <pub-id pub-id-type="pmid">2157887</pub-id>
+        </citation>
+      </ref>
+      <ref id="R49">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gupta</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pernis</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signaling pathways mediated by the TNF- and cytokine-receptor families target a common cis-element of the IRF-1 promoter</article-title>
+          <source>J. Immunol.</source>
+          <volume>161</volume>
+          <year>1998</year>
+          <fpage>5997</fpage>
+          <lpage>6004</lpage>
+          <pub-id pub-id-type="pmid">9834081</pub-id>
+        </citation>
+      </ref>
+      <ref id="R50">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grumont</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gerondakis</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The subunit composition of NF-&#x3BA;B complexes changes during B-cell development</article-title>
+          <source>Cell Growth Differ.</source>
+          <volume>5</volume>
+          <year>1994</year>
+          <fpage>1321</fpage>
+          <lpage>1331</lpage>
+          <pub-id pub-id-type="pmid">7696180</pub-id>
+        </citation>
+      </ref>
+      <ref id="R51">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frangioni</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Solubilization and purification of enzymatically active glutathione <italic>S</italic>-transferase (pGEX) fusion proteins</article-title>
+          <source>Anal. Biochem.</source>
+          <volume>210</volume>
+          <year>1993</year>
+          <fpage>179</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="pmid">8489015</pub-id>
+        </citation>
+      </ref>
+      <ref id="R52">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Strehlow</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Schindler</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functionally distinct isoforms of STAT5 are generated by protein processing</article-title>
+          <source>Immunity.</source>
+          <volume>6</volume>
+          <year>1997</year>
+          <fpage>691</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="pmid">9208842</pub-id>
+        </citation>
+      </ref>
+      <ref id="R53">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berrier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Siu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Calame</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcription of a minimal promoter from the NF-IL6 gene is regulated by CREB/ATF and SP1 proteins in U937 promonocytic cells</article-title>
+          <source>J. Immunol.</source>
+          <volume>161</volume>
+          <year>1998</year>
+          <fpage>2267</fpage>
+          <lpage>2275</lpage>
+          <pub-id pub-id-type="pmid">9725220</pub-id>
+        </citation>
+      </ref>
+      <ref id="R54">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thienes</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Monte</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Monticelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Busslinger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gould</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Vercelli</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The transcription factor B cell-specific activator protein (BSAP) enhances both IL-4- and CD40-mediated activation of the human &#x2208; germline promoter</article-title>
+          <source>J. Immunol.</source>
+          <volume>158</volume>
+          <year>1997</year>
+          <fpage>5874</fpage>
+          <lpage>5882</lpage>
+          <pub-id pub-id-type="pmid">9190940</pub-id>
+        </citation>
+      </ref>
+      <ref id="R55">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordon</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>CD23a novel multifunctional regulator of the immune system that binds IgE</article-title>
+          <source>Monogr. Allergy.</source>
+          <volume>29</volume>
+          <year>1991</year>
+          <fpage>1</fpage>
+          <lpage>49</lpage>
+        </citation>
+      </ref>
+      <ref id="R56">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lederman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yellin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cleary</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pernis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Inghirami</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cohn</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Covey</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rothman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chess</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>T-BAM/CD40-L on helper T lymphocytes augments lymphokine-induced B cell Ig isotype switch recombination and rescues B cells from programmed cell death</article-title>
+          <source>J. Immunol.</source>
+          <volume>152</volume>
+          <year>1994</year>
+          <fpage>2163</fpage>
+          <lpage>2171</lpage>
+          <pub-id pub-id-type="pmid">7907632</pub-id>
+        </citation>
+      </ref>
+      <ref id="R57">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ning</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Norton</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct mechanisms for rescue from apoptosis in Ramos human B cells by signaling through CD40 and interleukin-4 receptorrole for inhibition of an early response gene, Berg36</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>26</volume>
+          <year>1996</year>
+          <fpage>2356</fpage>
+          <lpage>2363</lpage>
+          <pub-id pub-id-type="pmid">8898945</pub-id>
+        </citation>
+      </ref>
+      <ref id="R58">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lens</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tesselaar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>de Drijver</surname>
+              <given-names>B.F.</given-names>
+            </name>
+            <name>
+              <surname>van Oers</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Lier</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A dual role for both CD40-ligand and TNF-&#x3B1; in controlling human B cell death</article-title>
+          <source>J. Immunol.</source>
+          <volume>156</volume>
+          <year>1996</year>
+          <fpage>507</fpage>
+          <lpage>514</lpage>
+          <pub-id pub-id-type="pmid">8543800</pub-id>
+        </citation>
+      </ref>
+      <ref id="R59">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cleary</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lederman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Baltimore</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of CRAF1, a relative of TRAF, in CD40 signaling</article-title>
+          <source>Science.</source>
+          <volume>267</volume>
+          <year>1995</year>
+          <fpage>1494</fpage>
+          <lpage>1498</lpage>
+          <pub-id pub-id-type="pmid">7533327</pub-id>
+        </citation>
+      </ref>
+      <ref id="R60">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Escalante</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yie</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thanos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Aggarwal</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of IRF-1 with bound DNA reveals determinants of interferon regulation</article-title>
+          <source>Nature.</source>
+          <volume>391</volume>
+          <year>1998</year>
+          <fpage>103</fpage>
+          <lpage>106</lpage>
+          <pub-id pub-id-type="pmid">9422515</pub-id>
+        </citation>
+      </ref>
+      <ref id="R61">
+        <citation citation-type="other">Cattoretti, G., C. Chang, K. Cechova, J. Zhang, B. Ye, B. Falini, D. Louie, K. Offit, R. Chaganti, and R. Dalla-Favera. 1997. Downregulation of BCL-6 gene expression by CD40 and EBV latent membrane protein-1 (LMP1) and its block in lymphoma carrying BCL-6 rearrangements. <italic>Blood.</italic> 90(Suppl. 1):175<italic>a</italic>. (Abstr.)</citation>
+      </ref>
+      <ref id="R62">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darnell</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>STATs and gene regulation</article-title>
+          <source>Science.</source>
+          <volume>277</volume>
+          <year>1997</year>
+          <fpage>1630</fpage>
+          <lpage>1635</lpage>
+          <pub-id pub-id-type="pmid">9287210</pub-id>
+        </citation>
+      </ref>
+      <ref id="R63">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brass</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kehrli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Eisenbeis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Storb</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pip, a lymphoid-restricted IRF, contains a regulatory domain that is important for autoinhibition and ternary complex formation with the Ets factor PU.1</article-title>
+          <source>Genes Dev.</source>
+          <volume>10</volume>
+          <year>1996</year>
+          <fpage>2335</fpage>
+          <lpage>2347</lpage>
+          <pub-id pub-id-type="pmid">8824592</pub-id>
+        </citation>
+      </ref>
+      <ref id="R64">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Vilcek</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of the transcription factor IRF-1 and interferon-&#x3B2; mRNAs by cytokines and activators of second-messenger pathways</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>86</volume>
+          <year>1989</year>
+          <fpage>9936</fpage>
+          <lpage>9940</lpage>
+          <pub-id pub-id-type="pmid">2557635</pub-id>
+        </citation>
+      </ref>
+      <ref id="R65">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harroch</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Revel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chebath</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction by interleukin-6 of interferon regulatory factor-1 (IRF-1) gene expression through the palindromic interferon response element pIRE and cell type-dependent control of IRF-1 binding to DNA</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>13</volume>
+          <year>1994</year>
+          <fpage>1942</fpage>
+          <lpage>1949</lpage>
+        </citation>
+      </ref>
+      <ref id="R66">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drew</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Franzoso</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bours</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Siebenlist</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ozato</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>NF&#x3BA;B and interferon regulatory factor 1 physically interact and synergistically induce major histocompatibility class I gene expression</article-title>
+          <source>J. Interferon Cytokine Res.</source>
+          <volume>15</volume>
+          <year>1995</year>
+          <fpage>1037</fpage>
+          <lpage>1045</lpage>
+          <pub-id pub-id-type="pmid">8746784</pub-id>
+        </citation>
+      </ref>
+      <ref id="R67">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drew</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Franzoso</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Biddison</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Siebenlist</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Ozato</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferon regulatory factor-2 physically interacts with NF-&#x3BA;B in vitro and inhibits NF-&#x3BA;B induction of major histocompatibility class I and &#x3B2;2-microglobulin gene expression in transfected human neuroblastoma cells</article-title>
+          <source>J. Neuroimmunol.</source>
+          <volume>63</volume>
+          <year>1995</year>
+          <fpage>157</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="pmid">8550813</pub-id>
+        </citation>
+      </ref>
+      <ref id="R68">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neish</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Thanos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Pine</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endothelial interferon regulatory factor 1 cooperates with NF-kappa B as a transcriptional activator of vascular cell adhesion molecule 1</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>15</volume>
+          <year>1995</year>
+          <fpage>2558</fpage>
+          <lpage>2569</lpage>
+          <pub-id pub-id-type="pmid">7537851</pub-id>
+        </citation>
+      </ref>
+      <ref id="R69">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsiagbe</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Inghirami</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Thorbecke</surname>
+              <given-names>G.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The physiology of germinal centers</article-title>
+          <source>Crit. Rev. Immunol.</source>
+          <volume>16</volume>
+          <year>1996</year>
+          <fpage>381</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="pmid">8954256</pub-id>
+        </citation>
+      </ref>
+      <ref id="R70">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horvath</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Darnell</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interactions between STAT and non-STAT proteins in the interferon-stimulated gene factor 3 transcription complex</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>16</volume>
+          <year>1996</year>
+          <fpage>6957</fpage>
+          <lpage>6964</lpage>
+          <pub-id pub-id-type="pmid">8943351</pub-id>
+        </citation>
+      </ref>
+      <ref id="R71">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martinez-Moczygemba</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gutch</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Reich</surname>
+              <given-names>N.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct STAT structure promotes interaction of STAT2 with the p48 subunit of the interferon-&#x3B1;-stimulated transcription factor ISGF3</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>20070</fpage>
+          <lpage>20076</lpage>
+          <pub-id pub-id-type="pmid">9242679</pub-id>
+        </citation>
+      </ref>
+      <ref id="R72">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qureshi</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Salditt-Georgieff</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Darnell</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tyrosine-phosphorylated Stat1 and Stat2 plus a 48-kDa protein all contact DNA in forming interferon-stimulated-gene factor 3</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>92</volume>
+          <year>1995</year>
+          <fpage>3829</fpage>
+          <lpage>3833</lpage>
+          <pub-id pub-id-type="pmid">7537377</pub-id>
+        </citation>
+      </ref>
+      <ref id="R73">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thanos</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of transcriptional synergism of eukaryotic genes. The interferon-beta paradigm</article-title>
+          <source>Hypertension.</source>
+          <volume>27</volume>
+          <year>1996</year>
+          <fpage>1025</fpage>
+          <lpage>1029</lpage>
+          <pub-id pub-id-type="pmid">8613258</pub-id>
+        </citation>
+      </ref>
+      <ref id="R74">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Renkawitz</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional repression in eukaryotes</article-title>
+          <source>Trends Genet.</source>
+          <volume>6</volume>
+          <year>1990</year>
+          <fpage>192</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="pmid">2196723</pub-id>
+        </citation>
+      </ref>
+      <ref id="R75">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cowell</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Repression versus activation in the control of gene transcription</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <volume>19</volume>
+          <year>1994</year>
+          <fpage>38</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">8140620</pub-id>
+        </citation>
+      </ref>
+      <ref id="R76">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The price of repression</article-title>
+          <source>Cell.</source>
+          <volume>81</volume>
+          <year>1995</year>
+          <fpage>655</fpage>
+          <lpage>658</lpage>
+          <pub-id pub-id-type="pmid">7774005</pub-id>
+        </citation>
+      </ref>
+      <ref id="R77">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herschbach</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional repression in eukaryotes</article-title>
+          <source>Annu. Rev. Cell Biol.</source>
+          <volume>9</volume>
+          <year>1993</year>
+          <fpage>479</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="pmid">8280469</pub-id>
+        </citation>
+      </ref>
+      <ref id="R78">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawamata</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Miki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fukuda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hirosawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recognition DNA sequence of a novel putative transcription factor, BCL6</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <volume>204</volume>
+          <year>1994</year>
+          <fpage>366</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">7945383</pub-id>
+        </citation>
+      </ref>
+      <ref id="R79">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baron</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Stanger</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Hume</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sadhu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kerckaert</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+            <name>
+              <surname>Deweindt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bastard</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nucifora</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zeleznick-Le</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>McKeithan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>BCL6 encodes a sequence-specific DNA-binding protein</article-title>
+          <source>Genes Chromosomes Cancer.</source>
+          <volume>13</volume>
+          <year>1995</year>
+          <fpage>221</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="pmid">7669744</pub-id>
+        </citation>
+      </ref>
+      <ref id="R80">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>David</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Alland</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>DePinho</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Dejean</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Histone deacetylase associated with mSin3A mediates repression by the acute promyelocytic leukemia-associated PLZF protein</article-title>
+          <source>Oncogene.</source>
+          <volume>16</volume>
+          <year>1998</year>
+          <fpage>2549</fpage>
+          <lpage>2556</lpage>
+          <pub-id pub-id-type="pmid">9627120</pub-id>
+        </citation>
+      </ref>
+      <ref id="R81">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Privalsky</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Components of the SMRT corepressor complex exhibit distinctive interactions with the POZ domain oncoproteins PLZF, PLZF-RAR&#x3B1; and BCL-6</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>27695</fpage>
+          <lpage>27702</lpage>
+          <pub-id pub-id-type="pmid">9765306</pub-id>
+        </citation>
+      </ref>
+      <ref id="R82">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dhordain</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Albagli</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Ansieu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Quief</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Leutz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kerckaert</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Leprince</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Corepressor SMRT binds the BTB/POZ repressing domain of the LAZ3/BCL6 oncoprotein</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>94</volume>
+          <year>1997</year>
+          <fpage>10762</fpage>
+          <lpage>10767</lpage>
+          <pub-id pub-id-type="pmid">9380707</pub-id>
+        </citation>
+      </ref>
+      <ref id="R83">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huynh</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Bardwell</surname>
+              <given-names>V.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The BCL-6 POZ domain and other POZ domains interact with the co-repressors N-CoR and SMRT</article-title>
+          <source>Oncogene.</source>
+          <volume>17</volume>
+          <year>1998</year>
+          <fpage>2473</fpage>
+          <lpage>2484</lpage>
+          <pub-id pub-id-type="pmid">9824158</pub-id>
+        </citation>
+      </ref>
+      <ref id="R84">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagulapalli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Atchinson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcription factor Pip enhance DNA binding by E47, leading to transcriptional synergy involving multiple protein domains</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>4639</fpage>
+          <lpage>4650</lpage>
+          <pub-id pub-id-type="pmid">9671474</pub-id>
+        </citation>
+      </ref>
+      <ref id="R85">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keller</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and characterization of a novel repressor of &#x3B2;-interferon gene expression</article-title>
+          <source>Genes Dev.</source>
+          <volume>5</volume>
+          <year>1991</year>
+          <fpage>868</fpage>
+          <lpage>879</lpage>
+          <pub-id pub-id-type="pmid">1851123</pub-id>
+        </citation>
+      </ref>
+      <ref id="R86">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turner</surname>
+              <given-names>C.A.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Mack</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Blimp-1, a novel zinc finger-containing protein that can drive the maturation of B lymphocytes into immunoglobulin-secreting cells</article-title>
+          <source>Cell.</source>
+          <volume>77</volume>
+          <year>1994</year>
+          <fpage>297</fpage>
+          <lpage>306</lpage>
+          <pub-id pub-id-type="pmid">8168136</pub-id>
+        </citation>
+      </ref>
+      <ref id="R87">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Blimp-1 is the murine homolog of the human transcriptional repressor PRDI-BF</article-title>
+          <source>Cell.</source>
+          <volume>78</volume>
+          <year>1994</year>
+          <fpage>9</fpage>
+          <pub-id pub-id-type="pmid">8033216</pub-id>
+        </citation>
+      </ref>
+      <ref id="R88">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collins</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Neish</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Whitley</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Thanos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of endothelial cell adhesion moleculesNF-&#x3BA;B and cytokine-inducible enhancers</article-title>
+          <source>FASEB J.</source>
+          <volume>9</volume>
+          <year>1995</year>
+          <fpage>899</fpage>
+          <lpage>909</lpage>
+          <pub-id pub-id-type="pmid">7542214</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><italic>Abbreviations used in this paper:</italic> BCL-6, B cell lymphomas 6; EMSA, electrophoretic mobility shift assay; GAPDH, glyceraldehyde 3-phosphate dehydrogenase; GAS, IFN-&#x3B3;&#x2013;activated site(s); GBP, guanylate binding protein; GSH, glutathione; GST, GSH <italic>S</italic>-transferase; ICSBP, IFN consensus sequence binding protein; IRF, IFN regulatory factor; ISGF, IFN-stimulated gene factor; ISRE, IFN-stimulated regulatory element; NF-&#x3BA;B, nuclear factor &#x3BA;B; STAT, signal transducer and activator of transcription; WCE, whole cell extract; wt, wild-type.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-wrap>
+    <table-wrap position="float" id="T1">
+      <label>Table 1</label>
+      <caption>
+        <p>Sequence Comparison between the Wt and Mutant CD23b GAS Oligonucleotides</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr valign="bottom" align="left">
+            <th>CD23b GAS wt</th>
+            <th>5&#x2032;-GGGTGAATTTCTAAGAAAGGGAC-3&#x2032;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr valign="bottom" align="left">
+            <td>CD23b GAS M1</td>
+            <td>5&#x2032;-GGGTGAATTTCTAAG<underline>GTC</underline>GGGAC-3&#x2032;</td>
+          </tr>
+          <tr valign="bottom" align="left">
+            <td>CD23b GAS M2</td>
+            <td>5&#x2032;-GGGTG<underline>GTC</underline>TTCTAAGAAAGGGAC-3&#x2032;</td>
+          </tr>
+          <tr valign="bottom" align="left">
+            <td>CD23b GAS M3</td>
+            <td>5&#x2032;-GGGTGAAT<underline>GCTG</underline>AAGAAAGGGAC-3&#x2032;</td>
+          </tr>
+          <tr valign="bottom" align="left">
+            <td>Stat6 consensus</td>
+            <td>TTNNNNNNAA</td>
+          </tr>
+          <tr valign="bottom" align="left">
+            <td>IRF response element core sequence</td>
+            <td>GAAA</td>
+          </tr>
+          <tr valign="bottom" align="left">
+            <td>BCL-6 binding site</td>
+            <td>GAAAATTCCTAGAAAGCATA</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <fig position="float" id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <p>The synergistic upregulation of CD23 in response to CD40 and IL-4 reflects an induction of both CD23a and CD23b isoforms. Ramos cells were cultured for 24 h either in the absence of any stimulus or in the presence of an anti-CD40 Ab (0.1 &#x3BC;g/ml), an isotype-matched control Ab (0.1 &#x3BC;g/ml), human IL-4 (100 U/ml), a combination of anti-CD40 Ab plus IL-4, or a control Ab plus IL-4. U937 cells were either unstimulated or stimulated with IL-4. JY cells were left unstimulated. After harvesting the cells, total RNA was extracted and subjected to RNase protection analysis. The antisense riboprobe corresponds to a 600-bp 5&#x2032; EcoRI-HindIII fragment of the CD23a cDNA. The protected fragments of 588 and 488 nucleotides correspond to two isoforms of CD23a transcript which differ by one base change at position 96 in the 5&#x2032; untranslated region, while the 381-nucleotide protected fragment corresponds to the CD23b transcript (reference 44).</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f1"/>
+    </fig>
+    <fig id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <p>The CD23b GAS is targeted by Stat6, BCL-6, and IRF-4. (A) Ramos cells were either unstimulated or stimulated with anti-CD40 Ab (0.1 &#x3BC;g/ml), an isotype-matched control Ab (0.1 &#x3BC;g/ml), or human IL-4 (100 U/ml) for 24 h. JY cells were left unstimulated. Nuclear extracts were then prepared and analyzed by EMSA using a <sup>32</sup>P-labeled CD23b GAS wt probe. (B) Ramos cells were cultured and assayed as described in A. Oligonucleotide competition assays were performed either in the absence or presence of a 100-fold molar excess of cold GAS oligonucleotides (see <xref ref-type="table" rid="T1">Table </xref>) added to the shift reaction as indicated. (C) Ramos and JY cells were cultured as described in A. Nuclear extracts were then prepared and analyzed by EMSA using either a <sup>32</sup>P-labeled CD23b GAS wt probe or a <sup>32</sup>P-labeled CD23b GAS M1 probe (<xref ref-type="table" rid="T1">Table </xref>) as indicated. Ab interference mobility shift assays were carried out by addition of antisera against Stat6, BCL-6, IRF-4, or control. All antisera were added at a final dilution of 1:20 for 30 min at 4&#xB0;C before incubation with the probe for 20 min at 25&#xB0;C. (D) JY cells were unstimulated. Nuclear extracts were then prepared and analyzed by EMSA using a <sup>32</sup>P-labeled CD23b GAS wt probe (left). Ab interference mobility shift assays were carried out by addition of antisera against IRF-2, IRF-4, ICSBP, or control as indicated. All antisera were added as outlined above. As a control for the IRF-2 and ICSBP antisera, Ab interference analysis using a <sup>32</sup>P-labeled GBP-ISRE probe (reference 32) was simultaneously performed on Ramos extracts (right).</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f2ab"/>
+      <graphic xlink:href="JEM991212.f2c"/>
+      <graphic xlink:href="JEM991212.f2d"/>
+    </fig>
+    <fig id="F5">
+      <label>Figure 5</label>
+      <caption>
+        <p>IRF-4 interacts with BCL-6. (A) Ramos cells were either unstimulated or stimulated with IL-4 (100 U/ml). JY cells were unstimulated. Nuclear extracts were then prepared as described in the legend to <xref ref-type="fig" rid="F2">Fig. 2</xref>, and incubated with a radiolabeled 5-bromodeoxyuridine&#x2013;substituted CD23b GAS wt probe (BUdR-CD23b GAS wt) in a standard shift reaction. DNA&#x2013;protein complexes were irradiated twice with 1,000 mJ of UV, and then immunoprecipitated (IP) with either an IRF-4, a BCL-6, or a Stat6 antiserum. The immunoprecipitates were resolved by 7% SDS-PAGE, transferred to a nitrocellulose membrane, and then exposed to an x-ray film. No cross-linking was detected in the absence of UV irradiation. (B) Ramos and JY cells were cultured as described in A. Nuclear extracts were then prepared and incubated with immobilized GST&#x2013;IRF-4 fusion protein. Bound proteins were eluted, fractionated by 7% SDS-PAGE, transferred to a nitrocellulose membrane, and then probed with a BCL-6 antiserum. Binding to immobilized GST alone is shown as a control. (C) Ramos cells were either unstimulated or stimulated with IL-4 (100 U/ml). Nuclear extracts were prepared and immunoprecipitated with either an anti&#x2013;IRF-4 or an anti&#x2013;BCL-6 antiserum. The immune complexes were resolved by 7% SDS-PAGE, and then analyzed by Western blotting using an anti&#x2013;BCL-6 antiserum (top). The blot was later stripped and reprobed with an anti&#x2013;IRF-4 antiserum (bottom), as described in the legend to <xref ref-type="fig" rid="F3">Fig. 3</xref>. (D) JY cells were unstimulated. Nuclear extracts were prepared and immunoprecipitated with either an anti&#x2013;IRF-4 or an anti-p65 antiserum. The immune complexes were resolved by 7% SDS-PAGE, and then analyzed by Western blotting using an anti-p65 antiserum (top). The blot was later stripped and reprobed with an anti&#x2013;IRF-4 antiserum (bottom), as described above.</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f5a"/>
+      <graphic xlink:href="JEM991212.f5bc"/>
+      <graphic xlink:href="JEM991212.f5d"/>
+    </fig>
+    <fig position="float" id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <p>IRF-4 interacts with Stat6. (A) Ramos cells were stimulated as described in the legend to <xref ref-type="fig" rid="F2">Fig. 2</xref>. WCEs were then prepared and incubated with immobilized GST&#x2013;IRF-4 fusion protein. Bound proteins were eluted, resolved by 7% SDS-PAGE, blotted onto a nitrocellulose membrane, and then probed with a Stat6 (top) or Stat3 Ab (bottom). Binding to immobilized GST alone is shown as a control. (B) Ramos cells were stimulated as described in the legend to <xref ref-type="fig" rid="F2">Fig. 2</xref>. JY cells were either unstimulated or stimulated with IL-4 (100 U/ml). WCEs were then prepared and immunoprecipitated with an IRF-4 antiserum. The immunoprecipitated proteins were resolved by 7% SDS-PAGE and then analyzed by Western blotting using a Stat6 Ab (top). The blot was later stripped and reprobed with an anti&#x2013;IRF-4 antiserum (bottom) using protein A&#x2013;horseradish peroxidase conjugate as a secondary detection reagent to probe the primary Ab binding.</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f3"/>
+    </fig>
+    <fig position="float" id="F4">
+      <label>Figure 4</label>
+      <caption>
+        <p>IRF-4 expression is upregulated in response to CD40 and/or IL-4. (A) Ramos cells were stimulated as described in the legend to <xref ref-type="fig" rid="F1">Fig. 1</xref>. Total RNA was then extracted, and 10 &#x3BC;g of the RNA was assayed by Northern blotting as per standard protocols. The blot was then probed with either an IRF-4 cDNA (top), a BCL-6 cDNA (middle), or a GAPDH cDNA (bottom) radiolabeled by random hexamer priming. (B) Tonsillar mononuclear cells were stimulated as described in the legend to <xref ref-type="fig" rid="F1">Fig. 1</xref>. WCEs were prepared, electrophoresed on a 7% SDS-polyacrylamide gel, and then analyzed by Western blotting using an anti&#x2013;IRF-4 Ab (top). The blot was later stripped and reprobed with a &#x3B2;-actin Ab to ensure for equal loading.</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f4"/>
+    </fig>
+    <fig id="F6">
+      <label>Figure 6</label>
+      <caption>
+        <p>Effects of IRF-4 on the transactivation of CD23b. (A) U937 cells were cotransfected with a luciferase reporter construct driven by either an oligomerized CD23b GAS wt or an oligomerized CD23b GAS M2 element, and either an IRF-4 expression plasmid (pCEP4-IRF4) or equivalent amounts of empty vector. The transfected cells were equally split into two 2-ml aliquots and then incubated for 24 h in the presence or absence of IL-4 (10 ng/ml). The data are presented relative to the activity of the reporter construct in control U937 cells, which was set to 1.0, as indicated, in each experiment. Results show the mean &#xB1; SE of four independent experiments. (B) U937 cells were cotransfected with a luciferase reporter construct driven by an oligomerized CD23b GAS wt element, and an IRF-4 expression plasmid (pCEP4-IRF4) in the presence of either an BCL-6 expression vector (pMT2T-BCL6) or equivalent amounts of empty pMT2T vector, as indicated. The transfected cells were left unstimulated for 16 h. The data are presented relative to the activity of the reporter construct in control U937 cells, which was set to 1.0, as indicated, in each experiment. Results show the mean &#xB1; SE of three independent experiments. (C) JY cells were cotransfected with a CD23b promoter luciferase reporter construct in the presence of an expression plasmid for BCL-6 (pMT2T-BCL6) or of equivalent amounts of empty pMT2T vector. The transfected cells were left unstimulated for 16 h. The data are presented relative to the activity of the reporter construct in control JY cells, which was set to 1.0, as indicated, in each experiment. Results show the mean &#xB1; SE of three independent experiments.</p>
+      </caption>
+      <graphic xlink:href="JEM991212.f6a"/>
+      <graphic xlink:href="JEM991212.f6b"/>
+      <graphic xlink:href="JEM991212.f6c"/>
+    </fig>
+  </floats-wrap>
+</article>
+</pmc-articleset>

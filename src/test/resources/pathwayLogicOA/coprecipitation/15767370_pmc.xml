@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Exp Med</journal-id>
+      <journal-title>The Journal of Experimental Medicine</journal-title>
+      <issn pub-type="ppub">0022-1007</issn>
+      <issn pub-type="epub">1540-9538</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">15767370</article-id>
+      <article-id pub-id-type="pmc">2213113</article-id>
+      <article-id pub-id-type="publisher-id">20042372</article-id>
+      <article-id pub-id-type="doi">10.1084/jem.20042372</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Interleukin-1 receptor-associated kinase-1 plays an essential role for Toll-like receptor (TLR)7- and TLR9-mediated interferon-? induction</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Uematsu</surname>
+            <given-names>Satoshi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sato</surname>
+            <given-names>Shintaro</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>Masahiro</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hirotani</surname>
+            <given-names>Tomonori</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kato</surname>
+            <given-names>Hiroki</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Takeshita</surname>
+            <given-names>Fumihiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matsuda</surname>
+            <given-names>Michiyuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coban</surname>
+            <given-names>Cevayir</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ishii</surname>
+            <given-names>Ken J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kawai</surname>
+            <given-names>Taro</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Takeuchi</surname>
+            <given-names>Osamu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akira</surname>
+            <given-names>Shizuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Department of Host Defense, Research Institute for Microbial Diseases, Osaka University, Suita Osaka 565-0871, Japan</aff>
+      <aff id="aff2"><label>2</label>Department of Tumor Biology, Research Institute for Microbial Diseases, Osaka University, Suita Osaka 565-0871, Japan</aff>
+      <aff id="aff3"><label>3</label>ERATO, Japan Science and Technology Agency, Suita Osaka 565-0871, Japan</aff>
+      <aff id="aff4"><label>4</label>Department of Molecular Biodefense Research, Yokohama City University School of Medicine, Kanazawaku, Yokohama 236-0004, Japan</aff>
+      <aff id="aff5"><label>5</label>21st Century COE, Combined Program on Microbiology and Immunology, Osaka University, Suita Osaka 565-0871, Japan</aff>
+      <author-notes>
+        <fn>
+          <p>CORRESPONDENCE Shizuo Akira: <email>sakira@biken.osaka-u.ac.jp</email></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>21</day>
+        <month>3</month>
+        <year>2005</year>
+      </pub-date>
+      <volume>201</volume>
+      <issue>6</issue>
+      <fpage>915</fpage>
+      <lpage>923</lpage>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>11</month>
+          <year>2004</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>1</month>
+          <year>2005</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2005, The Rockefeller University Press</copyright-statement>
+      </permissions>
+      <abstract>
+        <p>Toll-like receptors (TLRs) recognize microbial pathogens and trigger innate immune responses. Among TLR family members, TLR7, TLR8, and TLR9 induce interferon (IFN)-&#x3B1; in plasmacytoid dendritic cells (pDCs). This induction requires the formation of a complex consisting of the adaptor MyD88, tumor necrosis factor (TNF) receptor-associated factor 6 (TRAF6) and IFN regulatory factor (IRF) 7. Here we show an essential role of IL-1 receptor-associated kinase (IRAK)-1 in TLR7- and TLR9-mediated IRF7 signaling pathway. IRAK-1 directly bound and phosphorylated IRF7 in vitro. The kinase activity of IRAK-1 was necessary for transcriptional activation of IRF7. TLR7- and TLR9-mediated IFN-&#x3B1; production was abolished in <italic>Irak</italic>-<italic>1</italic>&#x2013;deficient mice, whereas inflammatory cytokine production was not impaired. Despite normal activation of NF-&#x3BA;B and mitogen-activated protein kinases, IRF7 was not activated by a TLR9 ligand in <italic>Irak-1</italic>&#x2013;deficient pDCs. These results indicated that IRAK-1 is a specific regulator for TLR7- and TLR9-mediated IFN-&#x3B1; induction in pDCs.</p>
+      </abstract>
+    </article-meta>
+    <notes>
+      <fn-group>
+        <fn>
+          <p>Abbreviations used: CFP, cyan fluorescent protein; CpG ODN, CpG oligodeoxynucleotides; ds, double stranded; EF, embryonic fibroblast; ELAM, endothelial leukocyte adhesion molecule; Flt3L, Flt3 ligand; FRET, fluorescence resonance energy transfer; HEK, human embryonic kidney; IKK<italic>i</italic>, inducible IKK; IRAK, IL-1 receptor-associated kinase; JNK, c-Jun NH<sub>2</sub>-terminal kinase; KN, kinase negative; MAPK, mitogen-activated protein kinases; MKK4, MAPK kinase 4; ss, single stranded; TBK1, TANK-binding kinase 1; TIR, Toll&#x2013;IL-1 receptor; TLR, Toll-like receptor; TRAF, TNF receptor-associated factor; YFP, yellow fluorescent protein.</p>
+        </fn>
+      </fn-group>
+    </notes>
+  </front>
+  <body>
+    <p>Toll-like receptors (TLRs) play a critical role in innate immune responses in mammals (<xref ref-type="bibr" rid="bib1">1</xref>, <xref ref-type="bibr" rid="bib2">2</xref>). So far, 11 members of the TLR family (TLR1&#x2013;11) have been identified (<xref ref-type="bibr" rid="bib3">3</xref>). Among these members, TLR7, TLR8, and TLR9 have closely related molecular structures and exert similar immune responses by recognizing nucleic acid ligands (<xref ref-type="bibr" rid="bib4">4</xref>). TLR7 and TLR8 recognize single-stranded (ss) RNA and imidazoquinolines, and TLR9 recognizes CpG oligodeoxynucleotides (CpG ODN) as well as certain microbial DNA (<xref ref-type="bibr" rid="bib5">5</xref>&#x2013;<xref ref-type="bibr" rid="bib10">10</xref>). Upon binding of their ligands, TLR7 and TLR9 recruit a Toll&#x2013;IL-1 receptor (TIR) domain-containing adaptor MyD88. Then, MyD88 associates with IL-1 receptor-associated kinase (IRAK) family members through the homophilic interaction between their death domains. TNF receptor-associated factor 6 (TRAF6) is also recruited and NF-&#x3BA;B and mitogen-activated protein kinases (MAPKs) are finally activated. These events result in induction of inflammatory cytokines such as TNF-&#x3B1;, IL-6, IL-1&#x3B2;, and IL-12 (<xref ref-type="bibr" rid="bib3">3</xref>). This is a common pathway for TLR signaling, which is called the MyD88-dependent pathway (<xref ref-type="bibr" rid="bib2">2</xref>).</p>
+    <p>There are four IRAK family members including IRAK-1, IRAK-2, IRAK-M, and IRAK-4 (<xref ref-type="bibr" rid="bib11">11</xref>&#x2013;<xref ref-type="bibr" rid="bib14">14</xref>). Among them, only IRAK-1 and IRAK-4 possess intrinsic serine/threonine kinase activity (<xref ref-type="bibr" rid="bib15">15</xref>). IRAK-1 was reported as a kinase critically involved in IL-1R signaling in vitro (<xref ref-type="bibr" rid="bib16">16</xref>, <xref ref-type="bibr" rid="bib17">17</xref>). IL-1&#x2013;mediated IL-6 production as well as activation of MAPKs and NF-&#x3BA;B were reduced in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> embryonic fibroblasts (EFs; 14, 18). However, macrophages from <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> mice showed only partial impairment of cytokine production as well as NF-&#x3BA;B activation in response to TLR ligand (<xref ref-type="bibr" rid="bib19">19</xref>). In contrast, <italic>Irak-4</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> mice exhibited severe impairment in response to IL-1, IL-18, or ligands of various TLRs (<xref ref-type="bibr" rid="bib20">20</xref>). This phenotype is quite similar to that of <italic>Myd88</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> mice. Thus, IRAK-4 is thought to be essential for the MyD88-dependent pathway. In vitro experiments showed that IRAK-1 is phosphorylated and activated by IRAK-4 (<xref ref-type="bibr" rid="bib12">12</xref>, <xref ref-type="bibr" rid="bib20">20</xref>). However, the relationship between IRAK-1 and IRAK-4 and the requirement of the kinase activity of IRAKs in various signaling events are still unclear (<xref ref-type="bibr" rid="bib21">21</xref>, <xref ref-type="bibr" rid="bib22">22</xref>).</p>
+    <p>In addition to production of inflammatory cytokines, ligand stimulation of TLR7, TLR8, and TLR9 can induce IFN-&#x3B1; in a special subset of DCs, pDCs (<xref ref-type="bibr" rid="bib8">8</xref>, <xref ref-type="bibr" rid="bib9">9</xref>, <xref ref-type="bibr" rid="bib23">23</xref>, <xref ref-type="bibr" rid="bib24">24</xref>). This unique subset of DCs is known for their ability to produce a large amount of type I IFNs upon viral infection (<xref ref-type="bibr" rid="bib25">25</xref>&#x2013;<xref ref-type="bibr" rid="bib27">27</xref>). IFN-&#x3B1; induction in response to these TLR ligands is abolished in <italic>MyD88</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> pDCs (<xref ref-type="bibr" rid="bib24">24</xref>), suggesting that TLR7, TLR8, and TLR9 have a unique mechanism that activates the genes encoding IFN-&#x3B1; in a MyD88-dependent manner in pDCs. Our recent study showed that TLR7- and TLR9-mediated IFN-&#x3B1; induction requires the formation of a complex consisting of MyD88, TRAF6, and IRF7 (<xref ref-type="bibr" rid="bib28">28</xref>). Activated IRF7 in the complex translocates into the nucleus, and induce transcription of type I IFN genes. More recently, Honda et al. reported that IFN-&#x3B1; production by TLR7 and TLR9 ligands was abolished in splenic pDCs derived from <italic>Irak-4</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> mice (<xref ref-type="bibr" rid="bib29">29</xref>). Although IRAK-1 has been considered to work downstream of MyD88, the role of IRAK-1 in the TLR7- and TLR9-mediated IFN-&#x3B1; production remains to be seen.</p>
+    <p>Here we examined a role of IRAK-1 in TLR7- and TLR9-mediated signaling pathways. IRAK-1 associated with and phosphorylated IRF7 in vitro, indicating that IRAK-1 was also involved in the complex composed of MyD88 and TRAF6. Severely impaired production of IFN-&#x3B1; in response to TLR7 and TLR9 ligands was observed in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice. On the other hand, production of inflammatory cytokines by TLR7 and TLR9 ligands was not impaired. IRF7 failed to translocate to the nucleus in response to TLR9 ligand in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> pDCs, indicating that IRAK-1 is prerequisite for the activation of IRF7. Taken together, IRAK-1 is a molecule specifically involved in the induction of IFN-&#x3B1; by TLR7 and TLR9 ligands.</p>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>IRAK-1 associates with IRF7</title>
+        <p>In a previous study, we showed that IRF7 forms a complex with MyD88 and TRAF6 to induce IFN-&#x3B1; (<xref ref-type="bibr" rid="bib28">28</xref>). Because IRAK-1 and IRAK-4 were shown to associate with MyD88, we investigated whether IRAK-1 and IRAK-4 were involved in IRF7 complex. We first analyzed the interaction of IRF7 with IRAK-1 or IRAK-4 by coimmunoprecipitation experiments. When human embryonic kidney (HEK) 293 cells were transiently transfected with a plasmid encoding FLAG-tagged IRF7 along with Myc-tagged IRAK-1 or IRAK-4, FLAG&#x2013;IRF7 was coprecipitated with anti-Myc in cells expressing Myc&#x2013;IRAK-1 but not Myc&#x2013;IRAK-4 (<xref rid="fig1" ref-type="fig">Fig. 1</xref> A). This indicates that IRAK-1 but not IRAK-4 interacts with IRF7. We further analyzed the physical interaction of IRAKs and IRF7 in live cells. We transfected HEK293 cells with yellow fluorescent protein (YFP)-labeled IRF7 and cyan fluorescent protein (CFP)&#x2013;labeled IRAK-1 or CFP-labeled IRAK-4, and then visualized these by inverted fluorescence microscopy. IRF7&#x2013;YFP was diffusely expressed in the cytoplasm when coexpressed with IRAK-4&#x2013;CFP. On the contrary, when coexpressed with IRAK-1&#x2013;CFP, IRF7&#x2013;YFP was expressed as a condensed form with IRAK-1&#x2013;YFP in the cytoplasm (<xref rid="fig1" ref-type="fig">Fig. 1</xref> B). When we analyzed these cells for physical interaction between IRF7-YFP and IRAK-1&#x2013;CFP or IRAK-4&#x2013;CFP, we detected a strong fluorescence resonance energy transfer (FRET) signal from IRF7 in the area merged with IRAK-1 but not IRAK-4 (<xref rid="fig1" ref-type="fig">Fig. 1</xref> B). We also found identical colocalization and physical interaction when we transfected cells with IRF7-CFP and IRAK-1&#x2013;YFP (unpublished data). We further confirmed this observation by measuring FRET by using flow cytometry (<xref ref-type="bibr" rid="bib28">28</xref>). When HEK293 cells were transfected with IRF7&#x2013;YFP and IRAK-1&#x2013;CFP or IRAK-4&#x2013;CFP, only cells that expressing IRF7 with IRAK-1 but not IRAK-4 showed a strong FRET signal, suggesting that IRF7 interacts directly with IRAK-1 but not IRAK-4 in the cytoplasm in live cells (<xref rid="fig1" ref-type="fig">Fig. 1</xref> B). Reciprocally, a similar result was obtained when cells were introduced with IRF7&#x2013;CFP and IRAK-1&#x2013;YFP (unpublished data).</p>
+        <fig position="float" id="fig1">
+          <label>Figure 1.</label>
+          <caption>
+            <p>IRAK-1 but not IRAK-4 associates with IRF7. (A) HEK293 cells were transiently transfected with FLAG&#x2013;IRF7 together with Myc&#x2013;IRAK&#x2013;1 or Myc-IRAK-4. Cell lysates were immunoprecipitated (IP) with an anti-Myc or anti-FLAG, followed by immunoblot (IB) analysis using anti-FLAG or anti-Myc, as indicated. Slowly migrated forms of FLAG&#x2013;IRF7 were shown by an asterisk. (B, top) HEK293 cells were transfected with IRF7-YFP (yellow) and IRAK-1&#x2013;CFP or IRAK-4&#x2013;CFP (blue) and physical interaction of these two molecules determined by FRET (pseudocolor) was visualized. (B, bottom) HEK293 cells were transfected with IRF7-YFP, IRAK-1-CFP, or IRAK-4-CFP. (Left) Fluorescence intensity of CFP emission by CFP excitation of single cells (horizontal axis) and YFP emission by CFP excitation of single cells (vertical axis). Cells that are positive for both YFP and CFP by CFP excitation are shown in gated area as FRET. (Right) Calculated FRET of IRAK-1&#x2013;CFP or IRAK-4&#x2013;CFP and IRF7&#x2013;YFP. (C) Cell lysates prepared from HEK293 cells transiently transfected with a combination of FLAG&#x2013;IRF7 deletion mutants and Myc&#x2013;IRAK-1 were immunoprecipitated with an anti-Myc or anti-FLAG, followed by immunoblot analysis using anti-FLAG or anti-Myc, as indicated.</p>
+          </caption>
+          <graphic xlink:href="20042372f1"/>
+        </fig>
+        <p>We next examined which portion of IRF7 is responsible for interaction with IRAK-1. HEK293 cells were transiently transfected with Myc&#x2013;IRAK-1 together with FLAG&#x2013;IRF7 or deletion mutants of FLAG&#x2013;IRF7 encoding amino acids 1&#x2013;285 or 1&#x2013;237. FLAG&#x2013;IRF7 and FLAG&#x2013;IRF7 1&#x2013;285 expressed in HEK293 cells were coprecipitated with anti-Myc, showing that the region between amino acids 238 and 285 of IRF7 is required for interaction with IRAK-1 (<xref rid="fig1" ref-type="fig">Fig. 1</xref> C). This portion of IRF7 was shown previously to be required for the interaction with both MyD88 and TRAF6, suggesting that IRAK-1 is involved in the complex through the interaction with this portion (<xref ref-type="bibr" rid="bib28">28</xref>).</p>
+      </sec>
+      <sec>
+        <title>Kinase activity of IRAK-1</title>
+        <p>IRF7 has been shown to be activated during viral infection by phosphorylation of the COOH-terminal serine residues and translocates into nucleus where it regulates the expression of target genes including IFN-&#x3B1; (<xref ref-type="bibr" rid="bib30">30</xref>). Therefore, we examined whether the kinase activity of IRAK-1 is necessary for IRF7 activation. HEK293 cells were transfected with FlAG&#x2013;IRF7 along with Myc&#x2013;IRAK-1 or Myc&#x2013;kinase negative (KN) mutant of IRAK-1 (Myc&#x2013;IRAK-1 KN). FLAG&#x2013;IRF7 was then coprecipitated with anti-Myc in cells expressing both IRAK-1 and IRAK-1 KN (<xref rid="fig2" ref-type="fig">Fig. 2</xref> A). We detected slowly migrating forms of FLAG&#x2013;IRF7 in cells expressing Myc&#x2013;IRAK-1 but not in cells coexpressing IRAK-1 KN, suggesting that IRAK-1 induces IRF7 phosphorylation through its kinase activity (<xref rid="fig2" ref-type="fig">Fig. 2</xref> A). To determine whether IRAK-1 could phosphorylate the COOH terminus of IRF7, we performed in vitro kinase assay using bacterially expressed GST&#x2013;IRF7 as a substrate. IRAK-1, IRAK-1 KN, IRAK-4, and IRAK-4 KN were expressed in HEK293 cells and cell lysates were immunoprecipitated with anti-FlAG. Phosphorylation of GST&#x2013;IRF7 was found in immunoprecipitates of IRAK-1 but not IRAK-4 (<xref rid="fig2" ref-type="fig">Fig. 2</xref> B). These data indicate that IRAK-1, but not IRAK-4, phosphorylates IRF7 in vitro. We next tested whether the kinase activity of IRAK-1 is necessary for the transcriptional activity of IRF7. In previous work, we showed synergistic activation of IFN-&#x3B1; promoters by coexpression of IRF7 and MyD88 (<xref ref-type="bibr" rid="bib28">28</xref>). However, overexpression of neither IRAK-1 nor IRAK-4 in combination with IRF7 resulted in any synergistic activation of IFN-&#x3B1; promoter in HEK293 cells (unpublished data). Therefore, we transiently transfected HEK293 cells with a combination of IRF7, MyD88 and various amounts of IRAK-1 KN along with a reporter plasmid carrying the IFN-&#x3B1;4 promoter. IRAK-1 KN inhibited the activation of the IFN-&#x3B1;4 promoter induced by coexpression of MyD88 and IRF7 in a dose dependent manner, whereas IRAK-1 KN did not inhibit the NF-&#x3BA;B activation by MyD88. Such effects of IRAK-1 KN was in sharp contrast to a truncated mutant of TRAF6 containing only the COOH-terminal TRAF domain (TRAF6C), which acts as dominant negative mutant and interfered the activation of both IFN-&#x3B1;4 and NF-&#x3BA;B promoters (<xref rid="fig2" ref-type="fig">Fig. 2</xref> C). These data suggest that IRAK-1 can phosphorylate IRF-7 in vitro and the kinase activity of IRAK-1 is necessary for the transcriptional activity of IRF7 but not of NF-&#x3BA;B.</p>
+        <fig position="float" id="fig2">
+          <label>Figure 2.</label>
+          <caption>
+            <p>IRF7 activation by IRAK-1. (A) Cell lysates prepared from HEK293 cells transiently transfected with FLAG&#x2013;IRF7 together with Myc&#x2013;IRAK1 or Myc&#x2013;IRAK1 KN were immunoprecipitated with anti-Myc or anti-FLAG, followed by immunoblot analysis using anti-FLAG or anti-Myc, as indicated. (B) HEK293 cells were transiently transfected with FLAG&#x2013;IRAK-1, FLAG&#x2013;IRAK-1 KN, FLAG&#x2013;IRAK-4, or FLAG&#x2013;IRAK-4 KN. Cell lysates were immunoprecipitated with anti-FLAG and subjected to in vitro kinase reaction in the presence of GST&#x2013;IRF7. Proteins were separated on SDS-PAGE, followed by visualized by autoradiography. (C) HEK293 cells were transiently transfected with a combination of IRF7, MyD88, and 1, 10, or 50 ng of a KN mutant of IRAK-1 (IRAK-1 KN) along with a reporter plasmid carrying an IFN-&#x3B1;4 promoter (left). HEK293 cells were also transfected with a combination MyD88 and 1, 10, or 50 ng of IRAK-1 KN along with a reporter plasmid carrying an ELAM promoter (right). 36 h after transfection, cells were analyzed for IFN-&#x3B1;4&#x2013; or ELAM-dependent promoter activities by a reporter gene assay.</p>
+          </caption>
+          <graphic xlink:href="20042372f2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Response to A/D-type CpG ODN in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> pDCs</title>
+        <p>To elucidate the in vivo role of IRAK-1 in TLR-mediated IFN-&#x3B1; production, we examined CpG ODN-induced IFN-&#x3B1; production by using Flt3 ligand (Flt3L)&#x2013;BM DCs derived from <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice. A large amount of IFN-&#x3B1; production from <italic>Irak-1</italic><sup>+/Y</sup> Flt3L&#x2013;BMDCs was observed in response to A/D type CpG ODN, D35 (<xref ref-type="bibr" rid="bib31">31</xref>). However, the production of IFN-&#x3B1; was severely impaired in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> Flt3L&#x2013;BMDCs. In contrast, <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> Flt3L&#x2013;BMDCs produced similar levels of TNF-&#x3B1;, IL-6, and IL-12p40 in response to D35 (<xref rid="fig3" ref-type="fig">Fig. 3</xref> A). Furthermore, Northern blot analysis revealed that although induction of IL-6 mRNA was comparable in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> Flt3L&#x2013;BMDCs, IFN-&#x3B1;4 mRNA induction by D35 was also abolished in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> Flt3L&#x2013;BMDCs (<xref rid="fig3" ref-type="fig">Fig. 3</xref> B).</p>
+        <fig position="float" id="fig3">
+          <label>Figure 3.</label>
+          <caption>
+            <p>Impaired IFN-&#x3B1; induction by D35 in <italic>Irak-1</italic><sup>-/Y</sup> mice. (A) Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice were stimulated with the indicated concentration of D35 for 24 h. Concentration of IFN-&#x3B1;, TNF-&#x3B1;, IL-6, and IL-12p40 in the culture supernatants were measured by ELISA. Data are shown as the mean &#xB1; SD. (B) Flt3L&#x2013;BMDCs from Irak-1<sup>+/Y</sup> and Irak-1<italic><sup>&#x2212;</sup></italic><sup>/Y</sup> mice were stimulated with 1 &#x3BC;M D35 for the indicated periods. Total RNA was extracted and subjected to Northern blot analysis. (C) Intracellular IFN-&#x3B1; and IL-12 staining of Flt3L&#x2013;BMDCs derived from Irak-1<sup>+/Y</sup> and Irak-1<italic><sup>&#x2212;</sup></italic><sup>/Y</sup> mice stimulated with 3 &#x3BC;M CpG DNA (D35). CD11c<sup>+</sup>B220<sup>+</sup> population of Flt3L&#x2013;BMDCs was analyzed as pDC, respectively.</p>
+          </caption>
+          <graphic xlink:href="20042372f3"/>
+        </fig>
+        <p>Culture of BM cells with Flt3L results in the induction of both pDCs (B220<sup>+</sup>) and conventional (B220<sup>&#x2212;</sup>) DCs (<xref ref-type="bibr" rid="bib32">32</xref>). Although pDCs are the major source of IFN-&#x3B1; production, proinflammatory cytokines such as IL-12 are produced by both subsets of DCs (<xref ref-type="bibr" rid="bib4">4</xref>). Because it is difficult to distinguish whether induction of proinflammatory cytokines was impaired in pDCs, we further analyzed the production of IFN-&#x3B1; and IL-12 from B220<sup>+</sup> pDCs by flow cytometry. Flt3L&#x2013;BM&#x2013;DCs from <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice were stimulated with D35 and stained with antibodies against IFN-&#x3B1; or IL-12, costained with CD11c and B220. The analysis with flow cytometry revealed that D35-induced production of IFN-&#x3B1; from <italic>Irak-1</italic><sup>&#x2212;/Y</sup> B220<sup>+</sup> pDCs was severely impaired, compared with that from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> B220<sup>+</sup> pDCs. On the other hand, IL-12 production was not impaired in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> B220<sup>+</sup> pDCs (<xref rid="fig3" ref-type="fig">Fig. 3</xref> C). These results indicate that TLR9 ligand&#x2013;induced IFN-&#x3B1; production was specifically impaired in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> pDCs.</p>
+      </sec>
+      <sec>
+        <title>Response of <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells to other TLR ligands</title>
+        <p>ODN1668, K-type, or conventional CpG ODN can stimulate wild-type Flt3L&#x2013;BMDCs to produce IFN-&#x3B1; at low concentrations between 0.01 and 0.1 &#x3BC;M (<xref ref-type="bibr" rid="bib24">24</xref>), although the maximal induction is less than that of D35-stimulated DCs. Similar to the results obtained by A/D type CpG ODN, the production of IFN-&#x3B1; in response to ODN1668 were severely impaired in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> Flt3L&#x2013;BMDCs. However, the productions of other cytokines, such as TNF-&#x3B1;, IL-6, and IL-12 p40 were comparable between <italic>Irak-1</italic><sup>+/Y</sup>and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells (<xref rid="fig4" ref-type="fig">Fig. 4</xref> A).</p>
+        <fig position="float" id="fig4">
+          <label>Figure 4.</label>
+          <caption>
+            <p>IFN-&#x3B1; induction by other TLR ligands in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice. (A) Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice were stimulated with the indicated concentration of ODN1668 for 24 h. Concentration of IFN-&#x3B1;, TNF-&#x3B1;, IL-6, and IL-12p40 in the culture supernatants was measured by ELISA. Data are shown as the mean &#xB1; SD. (B) <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice (<italic>n</italic> = 3) were intravenously injected with 50 nmol of R-848. Samples of sera were taken and the concentrations of IFN-&#x3B1; and IL-12p40 were determined by ELISA. (C) Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice were transfected with 10 &#x3BC;g/ml poly(I/C) for 24 h. Concentration of IFN-&#x3B1; in the culture supernatants was measured by ELISA. Data are shown as the mean &#xB1; SD. N.D., not detected.</p>
+          </caption>
+          <graphic xlink:href="20042372f4"/>
+        </fig>
+        <p>As TLR9 ligand&#x2013;induced IFN-&#x3B1; production was abolished in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice, we also examined TLR7-mediated IFN-&#x3B1; induction in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice. We intravenously injected <italic>Irak-1</italic><sup>+/Y</sup>and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice with TLR7 ligand R-848 and examined serum concentration of IFN-&#x3B1;. Within an hour after R-848 injection, <italic>Irak-1</italic><sup>+/Y</sup> mice showed increased serum concentrations of IFN-&#x3B1;, whereas serum levels of IFN-&#x3B1; did not increase in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice. In contrast, there was no difference in serum concentrations of IL-12p40 between <italic>Irak-1</italic><sup>+/Y</sup>and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice (<xref rid="fig4" ref-type="fig">Fig. 4</xref> B). These results suggested that IRAK-1 is involved in TLR7-mediated IFN-&#x3B1; production as well.</p>
+        <p>To rule out the possibility of intrinsic defect in IFN-&#x3B1; production in <italic>Irak-1</italic><sup>&#x2212;/&#x2212;</sup> mice, we transfected double stranded (ds) RNA, poly(I/C) into Flt3-BMDCs derived from <italic>Irak-1</italic><sup>+/Y</sup> mice and measured IFN-&#x3B1; production. <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> Flt3L&#x2013;BMDCs produced similar levels of IFN-&#x3B1; in response to poly(I/C) (<xref rid="fig4" ref-type="fig">Fig. 4</xref> C), showing that <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice has ability to produce IFN-&#x3B1;. Thus, IRAK-1 is specifically involved in TLR7- and TLR9-mediated IFN-&#x3B1; production.</p>
+      </sec>
+      <sec>
+        <title>Defective activation of IRF7 in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> cells</title>
+        <p>We next investigated whether IRF7 is activated by TLR9 ligand in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice. We stimulated Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> mice with D35 and analyzed nuclear proteins by immunoblot analysis with anti-IRF7 or anti&#x2013;NF-&#x3BA;B, RelA. IRF7 translocated into the nucleus 1 h after D35 stimulation and diminished at 6 h in <italic>Irak-1</italic><sup>+/Y</sup> cells. In contrast, IRF7 failed to move into the nucleus in response to D35 in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells (<xref rid="fig5" ref-type="fig">Fig. 5</xref> A). RelA translocated into the nucleus in response to D35 both in <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> cells although less amount of RelA stayed in nucleus at later time point in <italic>Irak-1</italic><sup>&#x2212;/Y</sup>(<xref rid="fig5" ref-type="fig">Fig. 5</xref> A). We also analyzed the activation of a MAP kinase family member, ERK1 in response to D35 by immunoblot analysis. Tyrosine phosphorylation of ERK1 was induced in both <italic>Irak-1</italic><sup>+/Y</sup> and <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells, although the phosphorylation in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells was slightly more transient than that in <italic>Irak-1</italic><sup>+/Y</sup> cells (<xref rid="fig5" ref-type="fig">Fig. 5</xref> B). These results indicate that IRAK-1 critically regulates the activation of IRF7 and is involved in the production of IFN-&#x3B1; in response to CpG ODN.</p>
+        <fig position="float" id="fig5">
+          <label>Figure 5.</label>
+          <caption>
+            <p>Impaired nuclear translocation of IRF7 in response to D35 in <italic>Irak-1</italic><sup>&#x2212;/Y</sup> cells. (A) Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice were stimulated with D35 for 1, 2, or 6 h. Nuclear proteins were prepared and subject to immunoblot analysis using anti-IRF7 and anti-RelA. An asterisk shows IRF7 protein. (B) Flt3L&#x2013;BMDCs from <italic>Irak-1</italic><sup>+</sup><italic><sup>/Y</sup></italic> and <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> mice were stimulated with D35 for 10, 30, or 60 min. Whole cell lysates were subject to immunoblot analysis using antiphospho-specific ERK1 and anti-ERK1. (C) Schematic illustration of TLR7- and TLR9-mediated signaling pathway. IRF7 interacts with MyD88 to form a complex, which provides the foundation for the induction of the IFN-&#x3B1;. IRAK-1 binds to IRF7 directly and is included in this complex. IRAK-1 is dispensable for the NF-&#x3BA;B activation but specifically regulates the IFN-&#x3B1; induction through the activation of IRF7. IRAK-4 may locate upstream of IRAK-1 and be involved in the activation of IRAK-1.</p>
+          </caption>
+          <graphic xlink:href="20042372f5"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>IRAK-1 was originally identified as a kinase recruited to the IL-1R complex after IL-1 treatment (<xref ref-type="bibr" rid="bib16">16</xref>, <xref ref-type="bibr" rid="bib17">17</xref>). In vitro studies demonstrated that IRAK-1 participates in NF-&#x3BA;B activation of IL-1R&#x2013;TLR signals (<xref ref-type="bibr" rid="bib15">15</xref>). In vivo studies using <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> EFs confirmed that IRAK-1 is essential for IL-1&#x2013;mediated IL-6 production as well as activation of MAPKs and NF-&#x3BA;B (<xref ref-type="bibr" rid="bib14">14</xref>, <xref ref-type="bibr" rid="bib18">18</xref>). However, cytokine production as well as NF-&#x3BA;B activation in response to TLR4 ligand, LPS was only partially impaired in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> macrophages (<xref ref-type="bibr" rid="bib19">19</xref>), suggesting that IRAK-1 is redundant in the response of certain cell types to TLR ligands. In this report, we found a novel function of IRAK-1 in pDCs. IRAK-1 is a regulator essential for IRF7 activation in TLR7 and TLR9 signaling pathways. IRAK-1 was dispensable for TLR9-mediated NF-&#x3BA;B and MAP kinase activation as well as proinflammatory cytokine production in pDCs. IRAK-1 acts as a gateway for the activation of IRF7 pathway to induce IFN-&#x3B1; production (<xref rid="fig5" ref-type="fig">Fig. 5</xref> C).</p>
+      <p>Based on studies in IL-1R signaling pathways, an elaborate model explaining the mechanism of IRAK-1 activation has been established (<xref ref-type="bibr" rid="bib15">15</xref>). Upon ligand stimulation, IRAK-1 is recruited to IL-1R and forms a complex with MyD88, IRAK-4 and TRAF6. It is suggested that IRAK-4 locates upstream of IRAK-1 and phosphorylates IRAK-1 in the IL-1R complex. The phosphorylation triggers the induction of kinase activity of IRAK-1 itself, which results in multiple phosphorylation events and increasing its affinity for TRAF6 (<xref ref-type="bibr" rid="bib33">33</xref>, <xref ref-type="bibr" rid="bib34">34</xref>). Because the kinase activity of IRAK-1 is reported to be dispensable for downstream NF-&#x3BA;B activation (<xref ref-type="bibr" rid="bib35">35</xref>), the precise role of the kinase activity was still unclear. In TLR7 and TLR9 signaling pathways in pDCs, it is assumed that a similar receptor complex is formed upon ligand stimulation. Genetic studies showed that MyD88 and IRAK-4 are essential for both IFN-&#x3B1; and inflammatory cytokine induction (<xref ref-type="bibr" rid="bib29">29</xref>), indicating that these molecules do not determine the specificity of the signaling. Furthermore, IRAK-4 does not bind IRF7 directly, suggesting that IRAK-4 acts upstream of IRAK-1 in the signaling. Taken together, IRAK-4 may participate in the IRF7 pathway through the phosphorylation of IRAK-1.</p>
+      <p>It is believed that activation of IRF7 is also regulated by its phosphorylation (<xref ref-type="bibr" rid="bib36">36</xref>, <xref ref-type="bibr" rid="bib37">37</xref>). A previous study demonstrates that two IKK-related kinases, TANK-binding kinase 1 (TBK1) and inducible IKK (IKK<italic>i</italic>) are involved in phosphorylation of IRF7 as well as IRF3 (<xref ref-type="bibr" rid="bib38">38</xref>, <xref ref-type="bibr" rid="bib39">39</xref>). <italic>TBK1</italic><sup>&#x2212;</sup><italic><sup>/</sup></italic><sup>&#x2212;</sup> cells failed to produce type I IFNs in response to TLR3 and TLR4 stimuli (<xref ref-type="bibr" rid="bib40">40</xref>&#x2013;<xref ref-type="bibr" rid="bib43">43</xref>). Nevertheless, we found that IFN-&#x3B1; production in response to CpG ODN in pDCs derived from mice deficient in TBK1 or IKK<italic>i</italic> was not impaired compared with that of wild-type cells (<xref ref-type="bibr" rid="bib28">28</xref>). Although further studies using mice lacking both TBK1 and IKK<italic>i</italic> will be required to exclude the possibility of redundancy (<xref ref-type="bibr" rid="bib44">44</xref>), it is more plausible to believe that other kinases are involved in TLR7 and TLR9 signaling. On the other hand, it is reported that IRF7 is activated by the MAPK kinase 4 (MKK4)&#x2013;c-Jun NH<sub>2</sub>-terminal kinase (JNK) pathway in response to UV and chemotherapeutic agents, which induce DNA damage (<xref ref-type="bibr" rid="bib45">45</xref>). These observations imply that activation of IRF7 can occur downstream of MAPK cascades in response to some stimuli. However, the MAPK activation in response to TLR9 ligands was not impaired in <italic>Irak-1</italic><sup>&#x2212;</sup><italic><sup>/Y</sup></italic> pDC, suggesting that another pathways are responsible for the activation of IRF7.</p>
+      <p>In the present study, we showed that IRAK-1 phosphorylated IRF7 in vitro and the expression of IRAK-1 KN suppressed the activation of the IFN-&#x3B1;4 promoter induced by coexpression of MyD88 and IRF7. These data suggest that IRAK-1 might serve as a kinase for IRF7. However, we could not show endogenous phosphorylation of IRF7 by IRAK-1 because these experiments were technically difficult for small amounts of IRF7 expression and stimulus-dependent degradation of IRAK-1. Moreover, previous studies have suggested that introduction of IRAK-1 KN into IRAK-1&#x2013;deficient 293 cells can reconstitute responsibilities to IL-1 (<xref ref-type="bibr" rid="bib35">35</xref>). Therefore, the possibility that the kinase activity of IRAK-1 is dispensable for IRF7 activation cannot be ruled out. Further studies will be required to clarify whether the kinase activity of IRAK-1 is necessary and sufficient for its function using IRAK-1 KN&#x2013;expressing pDCs.</p>
+      <p>In conclusion, our present study showed that IRAK-1 is a key regulator for TLR7- and TLR9-mediated IFN-&#x3B1; production in pDCs. These results provide possibilities that IRAK-1 would be an interesting therapeutic target for specific regulation of IFN-&#x3B1; production, which leads to the treatment of viral infection and autoimmune diseases.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>MaterialS and Methods</title>
+      <sec>
+        <title>Plasmids</title>
+        <p>The IFN-&#x3B1;4 promoter construct and endothelial leukocyte adhesion molecule (ELAM) promoter construct have been described previously (<xref ref-type="bibr" rid="bib28">28</xref>). FLAG&#x2013;IRF7, the series of deletion mutant of IRF7 and TRAF6c were described previously (<xref ref-type="bibr" rid="bib28">28</xref>). Plasmids encoding fusion proteins IRF7&#x2013;CFP, IRAK-1&#x2013;CFP, IRAK-4&#x2013;CFP, IRF7&#x2013;YFP, IRAK-1&#x2013;YFP, and IRAK-4&#x2013;YFP were constructed essentially as described previously (<xref ref-type="bibr" rid="bib28">28</xref>). The COOH-terminal portion of IRF7 was obtained by PCR and was ligated into the EcoRI and SalI sites of pGEX-5X1 vector (Amersham Biosciences). The cDNA fragments encoding IRAK-1 and IRAK-4 were amplified by PCR from a human spleen cDNA library (CLONTECH Laboratories, Inc.), digested with appropriate restriction enzymes, and inserted into pFLAG&#x2013;CMV2 (Sigma-Aldrich) or pCMV-Myc (CLONTECH Laboratories, Inc.). To generate a kinase-negative mutant of human IRAK-1 (K239A) and IRAK-4 (K213/214A), site-directed mutagenesis using QuickChange XL-site directed mutagenesis kit was performed as specified by the manufacturer (Stratagene). The sequences of DNA fragments obtained by PCR were confirmed by DNA sequencing.</p>
+      </sec>
+      <sec>
+        <title>Mice</title>
+        <p><italic>Irak-1<sup>&#x2212;/Y</sup></italic> mice were provided by Dr. J.A. Thomas (University of Texas Southwestern Medical Center, Dallas, TX; 18).</p>
+      </sec>
+      <sec>
+        <title>Cells and reagents</title>
+        <p>Flt3L&#x2013;BMDCs were prepared as described previously (<xref ref-type="bibr" rid="bib24">24</xref>). CpG oligodeoxynucleotides (D35 and ODN1668) were prepared as described previously(<xref ref-type="bibr" rid="bib24">24</xref>). R-848 was provided by the Pharmaceuticals and Biotechnology Laboratory, Japan Energy Corporation (<xref ref-type="bibr" rid="bib9">9</xref>). Poly(I/C) was purchased from Amersham Biosciences, Inc. Anti-IRF7, anti-ERK, and anti-phosphorylated-ERK were obtained from Zymed Laboratories and New England Biolabs, Inc., respectively.</p>
+      </sec>
+      <sec>
+        <title>Transfection, immunoprecipitation, and immunoblot analysis</title>
+        <p>HEK293 cells (10<sup>6</sup>) were seeded on a 100-mm dish. Cells were transiently transfected 12 h later with a total of 6.0 &#x3BC;g of various plasmids with Lipofectamine 2000 (Invitrogen). Immunoprecipitation and immunoblot analysis were done as described previously (<xref ref-type="bibr" rid="bib28">28</xref>).</p>
+      </sec>
+      <sec>
+        <title>FRET</title>
+        <p>HEK293 cells plated on a collagen-coated glass dish were imaged as described previously (<xref ref-type="bibr" rid="bib28">28</xref>). In brief, cells were imaged on an inverted microscope equipped with a cooled CCD camera, and controlled by MetaMorph software (Universal Imaging Corp.). A pair of proteins fused to YFP or CFP was expressed in HEK293 cells. Cells were imaged by the use of the following filter sets: an MX0420 excitation filter and a BP470-490 emission filter (Olympus) for the CFP images, an MX0420 excitation filter and a 535DF35 emission filter (Omega Optical, Inc.) for the FRET images, and a 510DF23 excitation filter (Omega Optical, Inc.) and a 560DF15 emission filter (Omega Optical, Inc.) for the YFP images. An XF2052 dichroic mirror (Omega Optical, Inc.) was used throughout the experiments. Exposure times were 200 msec for CFP and FRET images, and 100 msec for YFP images. After the data acquisition, the average intensities of CFP, FRET, and YFP were measured and calculated the fluorescence through the FRET filter set consisted of a FRET component (&#x201C;corrected&#x201D; FRET, FRET<sup>C</sup>). The non-FRET components were subtracted as described previously (<xref ref-type="bibr" rid="bib28">28</xref>). For our experimental conditions, we used the following equation: FRET<sup>C</sup> = FRET &#x2212; (0.34 &#xD7; CFP) &#x2212; (0.02 &#xD7; YFP).</p>
+        <p>For flow cytometric analysis of FRET, HEK293 cells transfected with CFP and/or YFP fusion proteins as described above were resuspended in 293 expression media (Invitrogen) and measured YFP (excitation: 488 nm; emission: 530 nm), CFP (excitation: 407 nm; emission: 510 nm), FRET (excitation: 407 nm; emission: 535 nm) by using FAC aria (Becton Dickinson) and BD FACSDiVa software. FRET is shown as YFP emission obtained by CFP excitation divided by CFP emission by CFP excitation.</p>
+      </sec>
+      <sec>
+        <title>Luciferase reporter assay</title>
+        <p>HEK293 cells seeded on 24-well plates (10<sup>5</sup> cells/well) were transiently transfected with 100 ng of the luciferase reporter plasmid together with a total of 900 ng of various expression vectors. Then, 36 h later, the luciferase activity in the total cell lysates was measured with Dual-luciferase reporter assay system (Promega). Renilla luciferase reporter gene (50 ng) was simultaneously transfected as an internal control.</p>
+      </sec>
+      <sec>
+        <title>ELISA</title>
+        <p>Flt3-BMDCs (10<sup>6</sup> cells/well) were stimulated for 24 h with various concentration of CpG oligonucleotide D35 and ODN1668. Concentrations of TNF-&#x3B1;, IL-6, IL-12 p40, and IFN-&#x3B1; in the culture supernatant were measured by ELISA according to manufacturer's instructions (Genzyme for TNF-&#x3B1; and IL-12 p40, R&amp;D for IL-6 and PBL Bio Lab for IFN-&#x3B1;). Serum cytokine concentrations of IFN-&#x3B1; and IL-12 p40 were also determined by ELISA.</p>
+      </sec>
+      <sec>
+        <title>In vitro kinase assay</title>
+        <p>Two million HEK-293 cells were seeded on a 60-mm-diam dish. 24 h later, cells were transiently transfected with a total of 5.0 &#x3BC;g of empty or the indicated plasmids (2.0 &#x3BC;g of pFLAG-CMV2 IRAK-1 or IRAK-1, 4.0 &#x3BC;g of pFLAG-CMV2 IRAK-4 or IRAK-4 KN), using Lipofectamine 2000 as specified by the manufacturer (Invitrogen). Cells were harvested 36 h after transfection, lysed, and then immunoprecipitated with protein G&#x2013;Sepharose together with 1.0 &#x3BC;g of anti-FLAG M2 mAb (Sigma-Aldrich) for 12 h by rotation. The beads were washed four times with lysis buffer, and another three times with kinase assay buffer (20 mM Hepes, pH 7.5, 20 mM MgCl<sub>2</sub>, 3 mM MnCl<sub>2</sub>, and 10 mM &#x3B2;-glycerophosphate). The immunoprecipitants were incubated with 2.0 &#x3BC;g GST-IRF7 and 10 mCi [&#x3B3;-<sup>32</sup>P] ATP (Amersham Biosciences) at 30&#xB0;C for 30 min. Kinase reactions were stopped by addition of Laemmli sample buffer, and were separated on a 4 to 20% poly acrylamide gradient gel. Gel was detained, dried, and exposed to X-ray film.</p>
+      </sec>
+      <sec>
+        <title>Flow cytometry</title>
+        <p>For intracellular IFN-&#x3B1; and IL-12p40 staining, Flt3L-DCs were treated with 3 &#x3BC;M D35 and cultured for 5 h. Golgi stop (BD Biosciences) was added for an additional 3 h and cells were collected and fixed in paraformaldehyde. Staining for IFN-&#x3B1; was performed in saponin-containing buffer using a mixture of rat anti&#x2013;mouse IFN-&#x3B1; (clone F18, Hycult Biotechnology b.v., and clone RMMA-1; PBL Biomedical Laboratories), followed by biotinylated mouse anti&#x2013;rat IgG (Jackson ImmunoResearch Laboratories), and Streptavidin-APC (BD Biosciences; <xref ref-type="bibr" rid="bib46">46</xref>). Staining for IL-12 was performed in saponin-containing buffer using anti&#x2013;IL-12&#x2013;PE (BD Biosciences). Cells were subsequently stained with anti-CD11c-FITC (clone HL3) and anti-B220&#x2013;cychrome (clone RA3-6B2), and analyzed on a FACSCalibur (BD Biosciences).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to Dr. James A. Thomas for <italic>Irak-1</italic><sup>-/Y</sup> mice. We thank H. Tomizawa for providing R-848 and K. Terai and S. Tanaka (BD Biosciences) for FRET analysis. We also thank N. Kitagaki for technical assistance and M. Hashimoto for secretarial assistance.</p>
+      <p>This work was supported by grants from Special Coordination Funds, the Ministry of Education, Culture, Sports, Science and Technology, and Research Fellowships of the Japan Society for the Promotion of Science for Young Scientists.</p>
+      <p>The authors have no conflicting financial interests.</p>
+    </ack>
+    <ref-list>
+      <ref id="bib1">
+        <label>1</label>
+        <citation citation-type="journal">Medzhitov, R., and C.J. Janeway. <year>1997</year>. Innate immunity: the virtues of a nonclonal system of recognition. <source>Cell.</source> <volume>91</volume>:<fpage>295</fpage>&#x2013;298.<pub-id pub-id-type="pmid">9363937</pub-id></citation>
+      </ref>
+      <ref id="bib2">
+        <label>2</label>
+        <citation citation-type="journal">Takeda, K., T. Kaisho, and S. Akira. <year>2003</year>. Toll-like receptors. <source>Annu. Rev. Immunol.</source> <volume>21</volume>:<fpage>335</fpage>&#x2013;376.<pub-id pub-id-type="pmid">12524386</pub-id></citation>
+      </ref>
+      <ref id="bib3">
+        <label>3</label>
+        <citation citation-type="journal">Akira, S., and K. Takeda. <year>2004</year>. Toll-like receptor signalling. <source>Nat. Rev. Immunol.</source> <volume>4</volume>:<fpage>499</fpage>&#x2013;511.<pub-id pub-id-type="pmid">15229469</pub-id></citation>
+      </ref>
+      <ref id="bib4">
+        <label>4</label>
+        <citation citation-type="journal">Kaisho, T., and S. Akira. <year>2003</year>. Regulation of dendritic cell function through Toll-like receptors. <source>Curr. Mol. Med.</source> <volume>3</volume>:<fpage>373</fpage>&#x2013;385.<pub-id pub-id-type="pmid">12776992</pub-id></citation>
+      </ref>
+      <ref id="bib5">
+        <label>5</label>
+        <citation citation-type="journal">Hochrein, H., B. Schlatter, M. O'Keeffe, C. Wagner, F. Schmitz, M. Schiemann, S. Bauer, M. Suter, and H. Wagner. <year>2004</year>. Herpes simplex virus type-1 induces IFN-alpha production via Toll-like receptor 9-dependent and -independent pathways. <source>Proc. Natl. Acad. Sci. USA.</source> <volume>101</volume>:<fpage>11416</fpage>&#x2013;11421.<pub-id pub-id-type="pmid">15272082</pub-id></citation>
+      </ref>
+      <ref id="bib6">
+        <label>6</label>
+        <citation citation-type="journal">Krug, A., G.D. Luker, W. Barchet, D.A. Leib, S. Akira, and M. Colonna. <year>2004</year>. Herpes simplex virus type 1 activates murine natural interferon-producing cells through toll-like receptor 9. <source>Blood.</source> <volume>103</volume>:<fpage>1433</fpage>&#x2013;1437.<pub-id pub-id-type="pmid">14563635</pub-id></citation>
+      </ref>
+      <ref id="bib7">
+        <label>7</label>
+        <citation citation-type="journal">Lund, J., A. Sato, S. Akira, R. Medzhitov, and A. Iwasaki. <year>2003</year>. Toll-like receptor 9-mediated recognition of Herpes simplex virus-2 by plasmacytoid dendritic cells. <source>J. Exp. Med.</source> <volume>198</volume>:<fpage>513</fpage>&#x2013;520.<pub-id pub-id-type="pmid">12900525</pub-id></citation>
+      </ref>
+      <ref id="bib8">
+        <label>8</label>
+        <citation citation-type="journal">Hemmi, H., O. Takeuchi, T. Kawai, T. Kaisho, S. Sato, H. Sanjo, M. Matsumoto, K. Hoshino, H. Wagner, K. Takeda, and S. Akira. <year>2000</year>. A Toll-like receptor recognizes bacterial DNA. <source>Nature.</source> <volume>408</volume>:<fpage>740</fpage>&#x2013;745.<pub-id pub-id-type="pmid">11130078</pub-id></citation>
+      </ref>
+      <ref id="bib9">
+        <label>9</label>
+        <citation citation-type="journal">Hemmi, H., T. Kaisho, O. Takeuchi, S. Sato, H. Sanjo, K. Hoshino, T. Horiuchi, H. Tomizawa, K. Takeda, and S. Akira. <year>2002</year>. Small anti-viral compounds activate immune cells via the TLR7 MyD88-dependent signaling pathway. <source>Nat. Immunol.</source> <volume>3</volume>:<fpage>196</fpage>&#x2013;200.<pub-id pub-id-type="pmid">11812998</pub-id></citation>
+      </ref>
+      <ref id="bib10">
+        <label>10</label>
+        <citation citation-type="journal">Heil, F., H. Hemmi, H. Hochrein, F. Ampenberger, C. Kirschning, S. Akira, G. Lipford, H. Wagner, and S. Bauer. <year>2004</year>. Species-specific recognition of single-stranded RNA via toll-like receptor 7 and 8. <source>Science.</source> <volume>303</volume>:<fpage>1526</fpage>&#x2013;1529.<pub-id pub-id-type="pmid">14976262</pub-id></citation>
+      </ref>
+      <ref id="bib11">
+        <label>11</label>
+        <citation citation-type="journal">Muzio, M., J. Ni, P. Feng, and V.M. Dixit. <year>1997</year>. IRAK (Pelle) family member IRAK-2 and MyD88 as proximal mediators of IL-1 signaling. <source>Science.</source> <volume>278</volume>:<fpage>1612</fpage>&#x2013;1615.<pub-id pub-id-type="pmid">9374458</pub-id></citation>
+      </ref>
+      <ref id="bib12">
+        <label>12</label>
+        <citation citation-type="journal">Li, S., A. Strelow, E.J. Fontana, and H. Wesche. <year>2002</year>. IRAK-4: a novel member of the IRAK family with the properties of an IRAK-kinase. <source>Proc. Natl. Acad. Sci. USA.</source> <volume>99</volume>:<fpage>5567</fpage>&#x2013;5572.<pub-id pub-id-type="pmid">11960013</pub-id></citation>
+      </ref>
+      <ref id="bib13">
+        <label>13</label>
+        <citation citation-type="journal">Kobayashi, K., L.D. Hernandez, J.E. Galan, C.A.J. Janeway, R. Medzhitov, and R. Flavell. <year>2002</year>. IRAK-M is a negative regulator of Toll-like receptor signaling. <source>Cell.</source> <volume>110</volume>:<fpage>191</fpage>&#x2013;202.<pub-id pub-id-type="pmid">12150927</pub-id></citation>
+      </ref>
+      <ref id="bib14">
+        <label>14</label>
+        <citation citation-type="journal">Kanakaraj, P., P.H. Schafer, D.E. Cavender, Y. Wu, K. Ngo, P.F. Grealish, S.A. Wadsworth, P.A. Peterson, J.J. Siekierka, C.A. Harris, and W.P. Fung-Leung. <year>1998</year>. Interleukin (IL)-1 receptor-associated kinase (IRAK) requirement for optimal induction of multiple IL-1 signaling pathways and IL-6 production. <source>J. Exp. Med.</source> <volume>187</volume>:<fpage>2073</fpage>&#x2013;2079.<pub-id pub-id-type="pmid">9625767</pub-id></citation>
+      </ref>
+      <ref id="bib15">
+        <label>15</label>
+        <citation citation-type="journal">Janssens, S., and R. Beyaert. <year>2003</year>. Functional diversity and regulation of different interleukin-1 receptor-associated kinase (IRAK) family members. <source>Mol. Cell.</source> <volume>11</volume>:<fpage>293</fpage>&#x2013;302.<pub-id pub-id-type="pmid">12620219</pub-id></citation>
+      </ref>
+      <ref id="bib16">
+        <label>16</label>
+        <citation citation-type="journal">Wesche, H., W.J. Henzel, W. Shillinglaw, S. Li, and Z. Cao. <year>1997</year>. MyD88: an adapter that recruits IRAK to the IL-1 receptor complex. <source>Immunity.</source> <volume>7</volume>:<fpage>837</fpage>&#x2013;847.<pub-id pub-id-type="pmid">9430229</pub-id></citation>
+      </ref>
+      <ref id="bib17">
+        <label>17</label>
+        <citation citation-type="journal">Knop, J., H. Wesche, D. Lang, and M.U. Martin. <year>1998</year>. Effects of overexpression of IL-1 receptor-associated kinase on NFkappaB activation, IL-2 production and stress-activated protein kinases in the murine T cell line EL4. <source>Eur. J. Immunol.</source> <volume>28</volume>:<fpage>3100</fpage>&#x2013;3109.<pub-id pub-id-type="pmid">9808178</pub-id></citation>
+      </ref>
+      <ref id="bib18">
+        <label>18</label>
+        <citation citation-type="journal">Thomas, J.A., J.L. Allen, M. Tsen, T. Dubnicoff, J. Danao, X.C. Liao, Z. Cao, and S.A. Wasserman. <year>1999</year>. Impaired cytokine signaling in mice lacking the IL-1 receptor-associated kinase. <source>J. Immunol.</source> <volume>163</volume>:<fpage>978</fpage>&#x2013;984.<pub-id pub-id-type="pmid">10395695</pub-id></citation>
+      </ref>
+      <ref id="bib19">
+        <label>19</label>
+        <citation citation-type="journal">Swantek, J.L., M.F. Tsen, M.H. Cobb, and J.A. Thomas. <year>2000</year>. IL-1 receptor-associated kinase modulates host responsiveness to endotoxin. <source>J. Immunol.</source> <volume>164</volume>:<fpage>4301</fpage>&#x2013;4306.<pub-id pub-id-type="pmid">10754329</pub-id></citation>
+      </ref>
+      <ref id="bib20">
+        <label>20</label>
+        <citation citation-type="journal">Suzuki, N., S. Suzuki, G.S. Duncan, D.G. Millar, T. Wada, C. Mirtsos, H. Takada, A. Wakeham, A. Itie, S. Li, et al. <year>2002</year>. Severe impairment of interleukin-1 and Toll-like receptor signalling in mice lacking IRAK-4. <source>Nature.</source> <volume>416</volume>:<fpage>750</fpage>&#x2013;756.<pub-id pub-id-type="pmid">11923871</pub-id></citation>
+      </ref>
+      <ref id="bib21">
+        <label>21</label>
+        <citation citation-type="journal">Lye, E., C. Mirtsos, N. Suzuki, S. Suzuki, and W.C. Yeh. <year>2004</year>. The role of interleukin 1 receptor-associated kinase-4 (IRAK-4) kinase activity in IRAK-4-mediated signaling. <source>J. Biol. Chem.</source> <volume>279</volume>:<fpage>40653</fpage>&#x2013;40658.<pub-id pub-id-type="pmid">15292196</pub-id></citation>
+      </ref>
+      <ref id="bib22">
+        <label>22</label>
+        <citation citation-type="journal">Qin, J., Z. Jiang, Y. Qian, J.L. Casanova, and X. Li. <year>2004</year>. IRAK4 kinase activity is redundant for interleukin-1 (IL-1) receptor-associated kinase phosphorylation and IL-1 responsiveness. <source>J. Biol. Chem.</source> <volume>279</volume>:<fpage>26748</fpage>&#x2013;26753.<pub-id pub-id-type="pmid">15084582</pub-id></citation>
+      </ref>
+      <ref id="bib23">
+        <label>23</label>
+        <citation citation-type="journal">Ito, T., R. Amakawa, T. Kaisho, H. Hemmi, K. Tajima, K. Uehira, Y. Ozaki, H. Tomizawa, S. Akira, and S. Fukuhara. <year>2002</year>. Interferon-alpha and interleukin-12 are induced differentially by Toll-like receptor 7 ligands in human blood dendritic cell subsets. <source>J. Exp. Med.</source> <volume>195</volume>:<fpage>1507</fpage>&#x2013;1512.<pub-id pub-id-type="pmid">12045249</pub-id></citation>
+      </ref>
+      <ref id="bib24">
+        <label>24</label>
+        <citation citation-type="journal">Hemmi, H., T. Kaisho, K. Takeda, and S. Akira. <year>2003</year>. The roles of Toll-like receptor 9, MyD88, and DNA-dependent protein kinase catalytic subunit in the effects of two distinct CpG DNAs on dendritic cell subsets. <source>J. Immunol.</source> <volume>170</volume>:<fpage>3059</fpage>&#x2013;3064.<pub-id pub-id-type="pmid">12626561</pub-id></citation>
+      </ref>
+      <ref id="bib25">
+        <label>25</label>
+        <citation citation-type="journal">Asselin-Paturel, C., A. Boonstra, M. Dalod, I. Durand, N. Yessaad, C. Dezutter-Dambuyant, A. Vicari, A. O'Garra, C. Biron, F. Briere, and G. Trinchieri. <year>2001</year>. Mouse type I IFN-producing cells are immature APCs with plasmacytoid morphology. <source>Nat. Immunol.</source> <volume>2</volume>:<fpage>1144</fpage>&#x2013;1150.<pub-id pub-id-type="pmid">11713464</pub-id></citation>
+      </ref>
+      <ref id="bib26">
+        <label>26</label>
+        <citation citation-type="journal">Nakano, H., M. Yanagita, and M.D. Gunn. <year>2001</year>. CD11c<sup>+</sup>B220<sup>+</sup>Gr-1<sup>+</sup> cells in mouse lymph nodes and spleen display characteristics of plasmacytoid dendritic cells. <source>J. Exp. Med.</source> <volume>194</volume>:<fpage>1171</fpage>&#x2013;1178.<pub-id pub-id-type="pmid">11602645</pub-id></citation>
+      </ref>
+      <ref id="bib27">
+        <label>27</label>
+        <citation citation-type="journal">Martin, P., G.M. Del Hoyo, F. Anjuere, C.F. Arias, H.H. Vargas, L.A. Fernandez, V. Parrillas, and C. Ardavin. <year>2002</year>. Characterization of a new subpopulation of mouse CD8alpha+ B220+ dendritic cells endowed with type 1 interferon production capacity and tolerogenic potential. <source>Blood.</source> <volume>100</volume>:<fpage>383</fpage>&#x2013;390.<pub-id pub-id-type="pmid">12091326</pub-id></citation>
+      </ref>
+      <ref id="bib28">
+        <label>28</label>
+        <citation citation-type="journal">Kawai, T., S. Sato, K.J. Ishii, C. Coban, H. Hemmi, M. Yamamoto, K. Terai, M. Matsuda, J. Inoue, S. Uematsu, et al. <year>2004</year>. Interferon-alpha induction through Toll-like receptors involves a direct interaction of IRF7 with MyD88 and TRAF6. <source>Nat. Immunol.</source> <volume>5</volume>:<fpage>1061</fpage>&#x2013;1068.<pub-id pub-id-type="pmid">15361868</pub-id></citation>
+      </ref>
+      <ref id="bib29">
+        <label>29</label>
+        <citation citation-type="journal">Honda, K., H. Yanai, T. Mizutani, H. Negishi, N. Shimada, N. Suzuki, Y. Ohba, A. Takaoka, W.C. Yeh, and T. Taniguchi. <year>2004</year>. Role of a transductional-transcriptional processor complex involving MyD88 and IRF-7 in Toll-like receptor signaling. <source>Proc. Natl. Acad. Sci. USA.</source> <volume>101</volume>:<fpage>15416</fpage>&#x2013;15421.<pub-id pub-id-type="pmid">15492225</pub-id></citation>
+      </ref>
+      <ref id="bib30">
+        <label>30</label>
+        <citation citation-type="journal">Sato, M., H. Suemori, N. Hata, M. Asagiri, K. Ogasawara, K. Nakao, T. Nakaya, M. Katsuki, S. Noguchi, N. Tanaka, and T. Taniguchi. <year>2000</year>. Distinct and essential roles of transcription factors IRF-3 and IRF-7 in response to viruses for IFN-alpha/beta gene induction. <source>Immunity.</source> <volume>13</volume>:<fpage>539</fpage>&#x2013;548.<pub-id pub-id-type="pmid">11070172</pub-id></citation>
+      </ref>
+      <ref id="bib31">
+        <label>31</label>
+        <citation citation-type="journal">Gursel, M., D. Verthelyi, I. Gursel, K.J. Ishii, and D.M. Klinman. <year>2002</year>. Differential and competitive activation of human immune cells by distinct classes of CpG oligodeoxynucleotide. <source>J. Leukoc. Biol.</source> <volume>71</volume>:<fpage>813</fpage>&#x2013;820.<pub-id pub-id-type="pmid">11994506</pub-id></citation>
+      </ref>
+      <ref id="bib32">
+        <label>32</label>
+        <citation citation-type="journal">Gilliet, M., A. Boonstra, C. Paturel, S. Antonenko, X.L. Xu, G. Trinchieri, A. O'Garra, and Y.J. Liu. <year>2002</year>. The development of murine plasmacytoid dendritic cell precursors is differentially regulated by FLT3-ligand and granulocyte/macrophage colony-stimulating factor. <source>J. Exp. Med.</source> <volume>195</volume>:<fpage>953</fpage>&#x2013;958.<pub-id pub-id-type="pmid">11927638</pub-id></citation>
+      </ref>
+      <ref id="bib33">
+        <label>33</label>
+        <citation citation-type="journal">Burns, K., J. Clatworthy, L. Martin, F. Martinon, C. Plumpton, B. Maschera, A. Lewis, K. Ray, J. Tschopp, and F. Volpe. <year>2000</year>. Tollip, a new component of the IL-1RI pathway, links IRAK to the IL-1 receptor. <source>Nat. Cell Biol.</source> <volume>2</volume>:<fpage>346</fpage>&#x2013;351.<pub-id pub-id-type="pmid">10854325</pub-id></citation>
+      </ref>
+      <ref id="bib34">
+        <label>34</label>
+        <citation citation-type="journal">Burns, K., S. Janssens, B. Brissoni, N. Olivos, R. Beyaert, and J. Tschopp. <year>2003</year>. Inhibition of interleukin 1 receptor/Toll-like receptor signaling through the alternatively spliced, short form of MyD88 is due to its failure to recruit IRAK-4. <source>J. Exp. Med.</source> <volume>197</volume>:<fpage>263</fpage>&#x2013;268.<pub-id pub-id-type="pmid">12538665</pub-id></citation>
+      </ref>
+      <ref id="bib35">
+        <label>35</label>
+        <citation citation-type="journal">Li, X., M. Commane, C. Burns, K. Vithalani, Z. Cao, and G.R. Stark. <year>1999</year>. Mutant cells that do not respond to interleukin-1 (IL-1) reveal a novel role for IL-1 receptor-associated kinase. <source>Mol. Cell. Biol.</source> <volume>19</volume>:<fpage>4643</fpage>&#x2013;4652.<pub-id pub-id-type="pmid">10373513</pub-id></citation>
+      </ref>
+      <ref id="bib36">
+        <label>36</label>
+        <citation citation-type="journal">Marie, I., E. Smith, A. Prakash, and D.E. Levy. <year>2000</year>. Phosphorylation-induced dimerization of interferon regulatory factor 7 unmasks DNA binding and a bipartite transactivation domain. <source>Mol. Cell. Biol.</source> <volume>20</volume>:<fpage>8803</fpage>&#x2013;8814.<pub-id pub-id-type="pmid">11073981</pub-id></citation>
+      </ref>
+      <ref id="bib37">
+        <label>37</label>
+        <citation citation-type="journal">Yoneyama, M., W. Suhara, Y. Fukuhara, M. Fukuda, E. Nishida, and T. Fujita. <year>1998</year>. Direct triggering of the type I interferon system by virus infection: activation of a transcription factor complex containing IRF-3 and CBP/p300. <source>EMBO J.</source> <volume>17</volume>:<fpage>1087</fpage>&#x2013;1095.<pub-id pub-id-type="pmid">9463386</pub-id></citation>
+      </ref>
+      <ref id="bib38">
+        <label>38</label>
+        <citation citation-type="journal">Sharma, S., B.R. tenOever, N. Grandvaux, G.P. Zhou, R. Lin, and J. Hiscott. <year>2003</year>. Triggering the interferon antiviral response through an IKK-related pathway. <source>Science.</source> <volume>300</volume>:<fpage>1148</fpage>&#x2013;1151.<pub-id pub-id-type="pmid">12702806</pub-id></citation>
+      </ref>
+      <ref id="bib39">
+        <label>39</label>
+        <citation citation-type="journal">Fitzgerald, K.A., S.M. McWhirter, K.L. Faia, D.C. Rowe, E. Latz, D.T. Golenbock, A.J. Coyle, S.M. Liao, and T. Maniatis. <year>2003</year>. IKKepsilon and TBK1 are essential components of the IRF3 signaling pathway. <source>Nat. Immunol.</source> <volume>4</volume>:<fpage>491</fpage>&#x2013;496.<pub-id pub-id-type="pmid">12692549</pub-id></citation>
+      </ref>
+      <ref id="bib40">
+        <label>40</label>
+        <citation citation-type="journal">Yamamoto, M., S. Sato, H. Hemmi, S. Uematsu, K. Hoshino, T. Kaisho, O. Takeuchi, K. Takeda, and S. Akira. <year>2003</year>. TRAM is specifically involved in the Toll-like receptor 4-mediated MyD88-independent signaling pathway. <source>Nat. Immunol.</source> <volume>4</volume>:<fpage>1144</fpage>&#x2013;1150.<pub-id pub-id-type="pmid">14556004</pub-id></citation>
+      </ref>
+      <ref id="bib41">
+        <label>41</label>
+        <citation citation-type="journal">Yamamoto, M., S. Sato, K. Mori, K. Hoshino, O. Takeuchi, K. Takeda, and S. Akira. <year>2002</year>. Cutting edge: a novel Toll/IL-1 receptor domain-containing adapter that preferentially activates the IFN-beta promoter in the Toll-like receptor signaling. <source>J. Immunol.</source> <volume>169</volume>:<fpage>6668</fpage>&#x2013;6672.<pub-id pub-id-type="pmid">12471095</pub-id></citation>
+      </ref>
+      <ref id="bib42">
+        <label>42</label>
+        <citation citation-type="journal">Yamamoto, M., S. Sato, H. Hemmi, K. Hoshino, T. Kaisho, H. Sanjo, O. Takeuchi, M. Sugiyama, M. Okabe, K. Takeda, and S. Akira. <year>2003</year>. Role of adaptor TRIF in the MyD88-independent toll-like receptor signaling pathway. <source>Science.</source> <volume>301</volume>:<fpage>640</fpage>&#x2013;643.<pub-id pub-id-type="pmid">12855817</pub-id></citation>
+      </ref>
+      <ref id="bib43">
+        <label>43</label>
+        <citation citation-type="journal">Hemmi, H., O. Takeuchi, S. Sato, M. Yamamoto, T. Kaisho, H. Sanjo, T. Kawai, K. Hoshino, K. Takeda, and S. Akira. <year>2004</year>. The roles of two I&#x3BA;B kinase-related kinases in lipopolysaccharide and double stranded RNA signaling and viral infection. <source>J. Exp. Med.</source> <volume>199</volume>:<fpage>1641</fpage>&#x2013;1650.<pub-id pub-id-type="pmid">15210742</pub-id></citation>
+      </ref>
+      <ref id="bib44">
+        <label>44</label>
+        <citation citation-type="journal">Perry, A.K., E.K. Chow, J.B. Goodnough, W.C. Yeh, and G. Cheng. <year>2004</year>. Differential requirement for TANK-binding kinase-1 in type I interferon responses to toll-like receptor activation and viral infection. <source>J. Exp. Med.</source> <volume>199</volume>:<fpage>1651</fpage>&#x2013;1658.<pub-id pub-id-type="pmid">15210743</pub-id></citation>
+      </ref>
+      <ref id="bib45">
+        <label>45</label>
+        <citation citation-type="journal">Kim, T.K., T. Kim, T.Y. Kim, W.G. Lee, and J. Yim. <year>2000</year>. Chemotherapeutic DNA-damaging drugs activate interferon regulatory factor-7 by the mitogen-activated protein kinase kinase-4-cJun NH2-terminal kinase pathway. <source>Cancer Res.</source> <volume>60</volume>:<fpage>1153</fpage>&#x2013;1156.<pub-id pub-id-type="pmid">10728664</pub-id></citation>
+      </ref>
+      <ref id="bib46">
+        <label>46</label>
+        <citation citation-type="journal">Diebold, S.S., T. Kaisho, H. Hemmi, S. Akira, E. Reis, and C. Sousa. <year>2004</year>. Innate antiviral responses by means of TLR7-mediated recognition of single-stranded RNA. <source>Science.</source> <volume>303</volume>:<fpage>1529</fpage>&#x2013;1531.<pub-id pub-id-type="pmid">14976261</pub-id></citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

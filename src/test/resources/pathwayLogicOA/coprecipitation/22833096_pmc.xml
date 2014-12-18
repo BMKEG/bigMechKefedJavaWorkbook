@@ -1,0 +1,1691 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cell Death Dis</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cell Death Dis</journal-id>
+      <journal-title-group>
+        <journal-title>Cell Death &amp; Disease</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-4889</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22833096</article-id>
+      <article-id pub-id-type="pmc">3406594</article-id>
+      <article-id pub-id-type="pii">cddis201295</article-id>
+      <article-id pub-id-type="doi">10.1038/cddis.2012.95</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>AMP-activated protein kinase-<italic>&#x3B1;</italic>1 as an activating kinase of TGF-<italic>&#x3B2;</italic>-activated kinase 1 has a key role in inflammatory signals</article-title>
+        <alt-title alt-title-type="running">AMPK-<italic>&#x3B1;</italic>1 as an activating kinase of TAK1</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kim</surname>
+            <given-names>S Y</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jeong</surname>
+            <given-names>S</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jung</surname>
+            <given-names>E</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Baik</surname>
+            <given-names>K-H</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>M H</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kim</surname>
+            <given-names>S A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shim</surname>
+            <given-names>J-H</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chun</surname>
+            <given-names>E</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="corresp" rid="caf1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>K-Y</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="corresp" rid="caf2">*</xref>
+        </contrib>
+        <aff id="aff1"><label>1</label><institution>Department of Molecular Cell Biology and Samsung Biomedical Research Institute, Sungkyunkwan University School of Medicine</institution>, Suwon, <country>Republic of Korea</country></aff>
+        <aff id="aff2"><label>2</label><institution>Department of Immunology and Infectious Diseases, Harvard School of Public Health, and Department of Medicine, Harvard Medical School</institution>, Boston, MA, <country>USA</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="caf1"><label>*</label><institution>Department of Immunology and Infectious Diseases, Harvard School of Public Health, and Department of Medicine, Harvard Medical School</institution>, 665 Huntington Avenue, Building 1, Room 904, Boston, MA 02115, <country>USA</country>. Tel: 617 432 3250; Fax: 617 432 3259; E-mail: <email>echun@hsph.harvard.edu</email></corresp>
+        <corresp id="caf2"><label>*</label><institution>Department of Molecular Cell Biology and Samsung Biomedical Research Institute, Sungkyunkwan University School of Medicine</institution>, 300 Chenocheon-dong, Jangan-gu, Suwon, Gyeonggi-do 440-746, <country>Republic of Korea</country>. Tel: +82 31 299 6225; Fax: +82 31 299 6229; E-mail: <email>thylee@skku.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>07</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>07</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>7</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>7</issue>
+      <fpage>e357</fpage>
+      <lpage/>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>04</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>12</day>
+          <month>06</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>06</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2012 Macmillan Publishers Limited</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Macmillan Publishers Limited</copyright-holder>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under the Creative Commons Attribution-NonCommercial-No Derivative Works 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Although previous studies have proposed plausible mechanisms of the activation of transforming growth factor-<italic>&#x3B2;</italic>-activated kinase 1 (TAK1) in inflammatory signals, including Toll-like receptors (TLRs), its activating kinase still remains to be unclear. In the present study, we have provided evidences that AMP-activated protein kinase (AMPK)-<italic>&#x3B1;</italic>1 has a pivotal role for activating TAK1, and thereby regulate NF-&#x3BA;B-dependent gene expressions in inflammatory signaling mediated by TLR4 and TNF-<italic>&#x3B1;</italic> stimulation. AMPK-<italic>&#x3B1;</italic>1 specifically interacts with TAK1 and reciprocally regulates their kinase activities. Upon the stimulation of lipopolysaccharide, AMPK-<italic>&#x3B1;</italic>1-knockdown (AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>) or TAK1-knockdown human monocytic THP-1 cells exhibit a dramatic reduction in the TAK1 or AMPK-<italic>&#x3B1;</italic>1 kinase activity, respectively, and subsequent suppressions of its downstream signaling cascades, which further leads to inhibitions of NF-&#x3BA;B and thereby productions of proinflammatory cytokines, such as TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and IL-6. Importantly, the microarray analysis of AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells revealed a dramatic reduction in the NF-&#x3BA;B-dependent genes induced by TLR4 and TNF-<italic>&#x3B1;</italic> stimulation, and the observation was in significant correlation with the results of quantitative real-time PCR. Moreover, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells are highly sensitive to the TNF-<italic>&#x3B1;</italic>-induced apoptosis, which is accompanied with dramatic reductions in the NF-&#x3BA;B-dependent and anti-apoptotic genes. As a result, our data demonstrate that AMPK-<italic>&#x3B1;</italic>1 as an activating kinase of TAK1 has a key role in mediating inflammatory signals triggered by TLR4 and TNF-<italic>&#x3B1;</italic>.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>AMP-activated protein kinase-<italic>&#x3B1;</italic>1</kwd>
+        <kwd>TGF-<italic>&#x3B2;</italic>-activated kinase 1</kwd>
+        <kwd>NF-&#x3BA;B</kwd>
+        <kwd>Toll-like receptor 4</kwd>
+        <kwd>TNF-<italic>&#x3B1;</italic>-induced apoptosis</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Transforming growth factor-<italic>&#x3B2;</italic> (TGF-<italic>&#x3B2;</italic>)-activated kinase 1 (TAK1) is a member of the mitogen-activated protein kinase kinase kinase family and a serine/threonine protein kinase.<sup><xref ref-type="bibr" rid="bib1">1</xref>, <xref ref-type="bibr" rid="bib2">2</xref>, <xref ref-type="bibr" rid="bib3">3</xref>, <xref ref-type="bibr" rid="bib4">4</xref></sup> TAK1 functions as an upstream signaling molecule of NF-&#x3BA;B and MAPKs in proinflammatory signals transduced by TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and Toll-like receptor (TLR) ligands.<sup><xref ref-type="bibr" rid="bib5">5</xref>, <xref ref-type="bibr" rid="bib6">6</xref></sup> Binding of lipopolysaccharide (LPS) to TLR4 causes recruitment of MyD88, IRAK, and TRAF6 to the receptor.<sup><xref ref-type="bibr" rid="bib7">7</xref>, <xref ref-type="bibr" rid="bib8">8</xref></sup> The TRAF6 catalyzes synthesis of K63-linked polyubiquitin chains that serve as a scaffold to recruit the TAK1 and I&#x3BA;B kinase (IKK) complexes. Recruitment of the kinase complexes facilitates autophosphorylation of TAK1 and subsequent phosphorylation of IKK<italic>&#x3B2;</italic> by TAK1, leading to I&#x3BA;B degradation and subsequent activation of NF-&#x3BA;B.<sup><xref ref-type="bibr" rid="bib5">5</xref>, <xref ref-type="bibr" rid="bib6">6</xref></sup> Despite of the plausible mechanisms by which TAK1 is activated,<sup><xref ref-type="bibr" rid="bib6">6</xref></sup> the existence of a specific upstream kinase of TAK1 in the signaling cascades is still ambiguous.</p>
+    <p>The AMP-activated protein kinase (AMPK) is a serine/threonine protein kinase that has emerged as a master sensor of cellular energy balance in mammalian cells.<sup><xref ref-type="bibr" rid="bib9">9</xref>, <xref ref-type="bibr" rid="bib10">10</xref></sup> The AMPK protein exists as a heterotrimer composed of a 63-kDa catalytic (<italic>&#x3B1;</italic>) subunit and two non-catalytic regulatory subunits, <italic>&#x3B2;</italic> (30&#x2009;kDa) and <italic>&#x3B3;</italic> (38&#x2013;63&#x2009;kDa). There are several isoforms for each of the three AMPK subunits, including <italic>&#x3B1;</italic>1, <italic>&#x3B1;</italic>2, <italic>&#x3B2;</italic>1, <italic>&#x3B2;</italic>2, <italic>&#x3B3;</italic>1, <italic>&#x3B3;</italic>2, and <italic>&#x3B3;</italic>3.<sup><xref ref-type="bibr" rid="bib11">11</xref>, <xref ref-type="bibr" rid="bib12">12</xref></sup> The two AMPK<italic>&#x3B1;</italic> variants, <italic>&#x3B1;</italic>1 and <italic>&#x3B1;</italic>2, have been shown to have a differential localization pattern in mammalian cells, with the AMPK-<italic>&#x3B1;</italic>1 subunit being localized in the cytoplasm, whereas the AMPK-<italic>&#x3B1;</italic>2 subunit localized in the nucleus.<sup><xref ref-type="bibr" rid="bib13">13</xref>, <xref ref-type="bibr" rid="bib14">14</xref></sup> In terms of cell type specificity, most of the cells express both AMPK-<italic>&#x3B1;</italic>1 and AMPK-<italic>&#x3B1;</italic>2 isoforms, whereas lymphcytes only express the AMPK-<italic>&#x3B1;</italic>1 isoform.<sup><xref ref-type="bibr" rid="bib15">15</xref>, <xref ref-type="bibr" rid="bib16">16</xref></sup> A previous report has addressed the relationship between T-cell receptor-mediated signaling and AMPK-<italic>&#x3B1;</italic>1 through Ca<sup>2+</sup>-calmodulin-dependent protein kinase (CaMKK)-dependent pathway, implying that AMPK-<italic>&#x3B1;</italic>1 may have specific roles in immune cells.<sup><xref ref-type="bibr" rid="bib15">15</xref></sup></p>
+    <p>Here, we demonstrate that AMPK-<italic>&#x3B1;</italic>1 has a pivotal role in inducing proinflammatory signals, such as TLR4 and TNF-<italic>&#x3B1;</italic>, through the activation of TAK1. The knockdown of AMPK-<italic>&#x3B1;</italic>1 results in the marked reduction of TAK1 activity, and thereby suppressions of downstream signaling cascades and the expression of NF-&#x3BA;B-dependent genes in response to LPS stimulation, indicating an AMPK-<italic>&#x3B1;</italic>1-TAK1-NF-&#x3BA;B axis in TLR4-mediated signaling. Moreover, AMPK-<italic>&#x3B1;</italic>1-knockdown cells are highly sensitive to TNF-<italic>&#x3B1;</italic>-induced apoptosis, supporting the functional role of AMPK-<italic>&#x3B1;</italic>1 associated with expressions of anti-apoptotic genes regulated by the TAK1-induced NF-&#x3BA;B activity. Thus, our results suggest that AMPK-<italic>&#x3B1;</italic>1 may be one of the upstream kinases capable of inducing the activation of TAK1 in proinflammatory signals.</p>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Inhibition of AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1 activity attenuates TLR4-mediated signaling pathway</title>
+        <p>Previous reports have demonstrated the functional relationship between AMPK and TAK1;<sup><xref ref-type="bibr" rid="bib17">17</xref>, <xref ref-type="bibr" rid="bib18">18</xref>, <xref ref-type="bibr" rid="bib19">19</xref>, <xref ref-type="bibr" rid="bib20">20</xref></sup> however, the functional role of AMPK-<italic>&#x3B1;</italic>1 has not yet been elucidated in innate signal. Therefore, we have explored this issue in human monocytic THP-1 cells with a TLR4 agonist, LPS. To know whether LPS stimulation induces the activation of AMPK-<italic>&#x3B1;</italic>1, because it has been known that AMPK-<italic>&#x3B1;</italic>1, but not AMPK-<italic>&#x3B1;</italic>2, is solely expressed in human monocytic cells,<sup><xref ref-type="bibr" rid="bib16">16</xref></sup> THP-1 cells were treated with LPS for different time intervals and then the activation of AMPK-<italic>&#x3B1;</italic>1 was evaluated with anti-pho-AMPK antibody. The phosphorylation of AMPK-<italic>&#x3B1;</italic>1 was gradually increased by LPS treatment in a time-dependent manner (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 1</xref>). To further examine whether AMPK-<italic>&#x3B1;</italic>1 is either a positive or negative regulator in the TLR4-mediated signaling pathway, leading to activate NF-&#x3BA;B and activator protein 1 (AP-1), THP-1 cells were stimulated with LPS in the presence or absence of different concentrations of compound C, which is a pharmacological inhibitor of AMPK.<sup><xref ref-type="bibr" rid="bib21">21</xref></sup> Both NF-&#x3BA;B and AP-1 reporter activities induced by LPS were significantly reduced in compound C-treated THP-1 in a dose-dependent manner (<xref ref-type="fig" rid="fig1">Figure 1a</xref>, NF-&#x3BA;B; <xref ref-type="fig" rid="fig1">Figure 1b</xref>, AP-1). Furthermore, the inhibition of AMPK-<italic>&#x3B1;</italic>1 activity resulted in a dramatic reduction in the levels of proinflammatory cytokines, such as TNF-<italic>&#x3B1;</italic>, IL-6, and IL-1<italic>&#x3B2;</italic>, induced by LPS (<xref ref-type="fig" rid="fig1">Figure 1c</xref>, IL-6; <xref ref-type="fig" rid="fig1">Figure 1d</xref>, TNF-<italic>&#x3B1;</italic>; <xref ref-type="fig" rid="fig1">Figure 1e</xref>, IL-1<italic>&#x3B2;</italic>). We next attempted to verify the specific function of AMPK-<italic>&#x3B1;</italic>1 in terms of its kinase activity. For this, we constructed dominant negative (DN), AMPK-<italic>&#x3B1;</italic>1 (D159A), and constitutive active (CA), AMPK-<italic>&#x3B1;</italic>1 (T174D), forms of AMPK-<italic>&#x3B1;</italic>1, and examined their functional roles (<xref ref-type="fig" rid="fig1">Figure 1f</xref>). Overexpression of wild-type (wt) AMPK-<italic>&#x3B1;</italic>1 slightly enhanced the activities of both, NF-&#x3BA;B and AP-1, in the presence or absence of LPS stimulations (<xref ref-type="fig" rid="fig1">Figures 1g and h</xref>, closed bar), whereas AMPK-<italic>&#x3B1;</italic>1 (D159A) DN significantly suppressed these activities (<xref ref-type="fig" rid="fig1">Figures 1g and h</xref>, chute-block bar). In contrast, AMPK-<italic>&#x3B1;</italic>1 (T174D) CA induced increase in the activities of NF-&#x3BA;B and AP-1 (<xref ref-type="fig" rid="fig1">Figures 1g and h</xref>, hatched bar). Consistent with the above-mentioned findings, similar results in the production of inflammatory cytokines were observed (<xref ref-type="fig" rid="fig1">Figure 1i</xref>, TNF-<italic>&#x3B1;</italic>; <xref ref-type="fig" rid="fig1">Figure 1j</xref>, IL-6; <xref ref-type="fig" rid="fig1">Figure 1k</xref>, IL-1<italic>&#x3B2;</italic>). These results suggest that AMPK-<italic>&#x3B1;</italic>1 may be positively involved in TLR4-mediated signaling pathway.</p>
+      </sec>
+      <sec>
+        <title>The autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 interacts with N-terminus of TAK1, and that reciprocally regulate their activations</title>
+        <p>We next explored the molecular mechanism by which AMPK-<italic>&#x3B1;</italic>1 is involved in TLR4-mediated signaling. Previous reports have shown that TAK1 is involved in the activation of AMPK.<sup><xref ref-type="bibr" rid="bib17">17</xref>, <xref ref-type="bibr" rid="bib18">18</xref>, <xref ref-type="bibr" rid="bib19">19</xref>, <xref ref-type="bibr" rid="bib20">20</xref></sup> We raised a possibility of the functional regulation between TAK1 and AMPK-<italic>&#x3B1;</italic>1 serine/threonine protein kinase. We first tested the molecular interaction between AMPK-<italic>&#x3B1;</italic>1 and TAK1. The overexpressed TAK1 was significantly co-immunoprecipitated with overexpressed AMPK-<italic>&#x3B1;</italic>1, and the interaction was enhanced by LPS stimulation (<xref ref-type="fig" rid="fig2">Figure 2a</xref>, lane 4 <italic>versus</italic> lane 5). To identify the interaction domain in each other, TAK1 or AMPK-<italic>&#x3B1;</italic>1 truncated mutants were constructed (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 2</xref>), and then immunoprecipitation assay was performed. Overexpressed AMPK-<italic>&#x3B1;</italic>1 was specifically co-immunoprecipitated with all the truncated TAK1 construct, indicating that AMPK-<italic>&#x3B1;</italic>1 interacts with TAK1 through the N-terminus of TAK1 (<xref ref-type="fig" rid="fig2">Figure 2b</xref>). In addition, TAK1 specifically interacted with the autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1, AMPK-<italic>&#x3B1;</italic>1 (312&#x2013;392) (<xref ref-type="fig" rid="fig2">Figure 2c</xref>). To verify the <italic>in vitro</italic> interaction, we further performed endogenous immunoprecipication assay. Consistent with <italic>in vitro</italic> interaction, endogenous TAK1 was specifically coprecipitated with endogenous AMPK-<italic>&#x3B1;</italic>1, and the interaction was significantly enhanced in response to LPS stimulation (<xref ref-type="fig" rid="fig2">Figure 2d</xref>, lane 1 <italic>versus</italic> lane 2). These results suggest that the autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 interacts with the N-terminus of TAK1 (<xref ref-type="fig" rid="fig2">Figure 2e</xref>). We next explored whether AMPK-<italic>&#x3B1;</italic>1 is directly able to activate TAK1 in response to LPS stimulation. To find an answer for our query, we generated knockdown THP-1 cells against AMPK-<italic>&#x3B1;</italic>1 and TAK1 protein by using siRNA-contained lentiviruses (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 3</xref> and <xref ref-type="fig" rid="fig2">Figure 2f</xref>). Interestingly, phosphorylations of Thr172/174 and Ser 485 of APK-<italic>&#x3B1;</italic>1 were markedly reduced and the phosphorylation of TAK1 was dramatically reduced in AMPK-<italic>&#x3B1;</italic>1-knockdown (AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>) THP-1 cells treated with LPS as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig2">Figure 2f</xref>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>). Interestingly, TAK1-knockdown (TAK1<sup>KD</sup>) cells exhibited marked reduction in phosphorylation of Thr172/174 and Ser 485 of AMPK-<italic>&#x3B1;</italic>1 in response to LPS stimulation (<xref ref-type="fig" rid="fig2">Figure 2f</xref>, TAK1<sup>KD</sup>). It was partly consistent with the previous report that TAK1 is involved in the activation of AMPK-<italic>&#x3B1;</italic>1.<sup><xref ref-type="bibr" rid="bib17">17</xref></sup> Consistent with the result, the kinase activity of TAK1 or AMPK-<italic>&#x3B1;</italic>1 induced by LPS stimulation was also significantly reduced in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> or TAK1<sup>KD</sup> THP-1 cells, respectively, as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig2">Figure 2g</xref>, TAK1; <xref ref-type="fig" rid="fig2">Figure 2h</xref>, AMPK-<italic>&#x3B1;</italic>1). These results strongly demonstrate that the autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 interacts with N-terminus of TAK1, which further reciprocally regulates their kinase activities (<xref ref-type="fig" rid="fig2">Figure 2e</xref>).</p>
+      </sec>
+      <sec>
+        <title>AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1-knockdown THP-1 cells exhibit the impairments of TLR4-mediated signaling pathway</title>
+        <p>To understand the functional role played by AMPK-<italic>&#x3B1;</italic>1 in TLR4-mediated signaling pathway, biochemical studies were performed in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells. Basal activities of NF-&#x3BA;B and AP-1 were significantly decreased in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells, as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig3">Figures 3a and b</xref>, closed bars). Their activity were markedly increased in LPS-treated wt THP-1 cells (<xref ref-type="fig" rid="fig3">Figures 3a and b</xref>, doted bars), moreover, significantly enhanced in wt-AMPK-<italic>&#x3B1;</italic>1-expressed wt THP-1 stimulated with LPS, as compared with that of unstimulated wt THP-1 cells (<xref ref-type="fig" rid="fig3">Figures 3a and b</xref>, chute-block bar). To gain further direct evidence on whether AMPK-<italic>&#x3B1;</italic>1 is involved in the TLR4-mediated signal, we performed the rescue experiment in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells. The wt AMPK-<italic>&#x3B1;</italic>1 vector was transfected in the AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells. The AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells transfected with AMPK-<italic>&#x3B1;</italic>1 vector were treated with or without LPS. Interestingly, the activities of NF-&#x3BA;B and AP-1 were markedly recovered, as compared with that of mock transfectant AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with LPS (<xref ref-type="fig" rid="fig3">Figures 3a and b</xref> in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>, dotted bar <italic>versus</italic> chute-block bar). Given these results, we further assessed DNA-binding activities of NF-&#x3BA;B, p65 and p50, and AP-1, c-fos and c-jun. Consistently, overexpressions of AMPK-<italic>&#x3B1;</italic>1 in wt THP-1 markedly enhanced DNA-binding activities of p65, p50, c-fos, and c-jun (<xref ref-type="fig" rid="fig3">Figure 3c</xref>, p65; <xref ref-type="fig" rid="fig3">Figure 3d</xref>, p50; <xref ref-type="fig" rid="fig3">Figure 3e</xref>, c-fos; <xref ref-type="fig" rid="fig3">Figure 3f</xref>, c-jun). Furthermore, these DNA-binding activities were significantly increased in AMPK-<italic>&#x3B1;</italic>1-transfected AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells (<xref ref-type="fig" rid="fig3">Figure 3c</xref>, p65; <xref ref-type="fig" rid="fig3">Figure 3d</xref>, p50; <xref ref-type="fig" rid="fig3">Figure 3e</xref>, c-fos; <xref ref-type="fig" rid="fig3">Figure 3f</xref>, c-jun), indicating a positive role of AMPK-<italic>&#x3B1;</italic>1 in TLR4-mediated signaling. Based on the functional role of AMPK-<italic>&#x3B1;</italic>1 in TLR4-mediated activations of NF-&#x3BA;B and AP-1, we next assessed regulations of signaling molecules, which appear in the TLR4-mediated signaling cascades. For this, wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without LPS for different times. As expected, the phosphorylation of TAK1 was markedly attenuated in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells, as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig3">Figure 3g</xref>, pho-TAK1). Interestingly, phosphorylations of other downstream signaling molecules, such as p-38, JNK, and AKT, were also significantly decreased in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells (<xref ref-type="fig" rid="fig3">Figure 3g</xref>). These results were partly consistent with previous reports that AMPK has an important role in promoting activations of p38 MAPK, JNK, and AKT.<sup><xref ref-type="bibr" rid="bib22">22</xref>, <xref ref-type="bibr" rid="bib23">23</xref>, <xref ref-type="bibr" rid="bib24">24</xref></sup> Moreover, we found that a marked reduction of proinflammatory cytokines, such as TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and IL-6, induced by LPS stimulation could be detected in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells, as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig3">Figure 3h</xref>). These results provide evidence on the positive role of AMPK-<italic>&#x3B1;</italic>1 in TLR4-mediated signaling pathway through the activation of TAK1.</p>
+      </sec>
+      <sec>
+        <title>AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1-knockdown THP-1 cells exhibit the impairments of expression of NF-&#x3BA;B-dependent genes induced by TLR4</title>
+        <p>To validate the axis of AMPK-<italic>&#x3B1;</italic>1-TAK1-NF-&#x3BA;B in TLR4-mediated signaling pathway in a detailed manner, we performed gene expression analysis. According to stimulation of LPS, marked changes in gene expression profiles could be detected (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 4</xref>). To assess the NF-&#x3BA;B-dependent gene expressions by LPS stimulation, 94 genes containing specific &#x3BA;B-binding DNA sequences were further sorted out. Expression levels of 94 genes were significantly altered in either wt or AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells by treatment with or without LPS (<xref ref-type="fig" rid="fig4">Figure 4a</xref>). According to the relative up and down expressions in each combination, 36 genes were selected, and were subdivided into two groups: group 1, highly regulated genes such as IL-1<italic>&#x3B2;</italic>, IL-8, CD44, TNF-<italic>&#x3B1;</italic>, and CCL-5; and group 2, moderately regulated genes such as NF-KB1, NF-KB1A, NF-KB1E, RELB, IER3, REL, and BCL3 (<xref ref-type="fig" rid="fig4">Figure 4b</xref>, <xref ref-type="supplementary-material" rid="sup1">Supplementary Table 1a</xref>, and <xref ref-type="supplementary-material" rid="sup1">Supplementary Table 1b</xref>). To verify their expression, we performed quantitative real-time PCR (qRT-PCR) analysis with specific primers targeted to each gene. Both group 1 and group 2 genes were greatly upregulated in LPS-treated wt THP-1 cells, as compared with that of without stimulation, whereas minute changes could be detected in LPS-treated AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells, as compared with that of without stimulation (<xref ref-type="fig" rid="fig4">Figure 4c</xref>, group 1 gene; <xref ref-type="fig" rid="fig4">Figure 4d</xref>, group 2 gene). These results strongly support that AMPK-<italic>&#x3B1;</italic>1 is positively involved in the TLR4-mediated signaling pathway through the activation of TAK1, and thereby regulates TLR4-mediated NF-&#x3BA;B-dependent gene expression.</p>
+      </sec>
+      <sec>
+        <title>AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1 is functionally involved in TNF-<italic>&#x3B1;</italic>-induced apoptosis through the regulation of NF-&#x3BA;B-dependent genes</title>
+        <p>Previous studies have shown that TAK1 has a protective role against TNF-<italic>&#x3B1;</italic>-induced apoptosis through the activation of NF-&#x3BA;B.<sup><xref ref-type="bibr" rid="bib3">3</xref>, <xref ref-type="bibr" rid="bib4">4</xref></sup> In addition, a recent report has shown that AMPK confers protection against TNF-<italic>&#x3B1;</italic>-induced cardiac cell death.<sup><xref ref-type="bibr" rid="bib25">25</xref></sup> Based on these previous reports and our above results, we assumed that, if AMPK-<italic>&#x3B1;</italic>1 has a key role in the activation of TAK1, and thereby regulates the expression of NF-&#x3BA;B-dependent genes, the defectiveness of AMPK-<italic>&#x3B1;</italic>1 might be critically affected on TNF-<italic>&#x3B1;</italic>-induced apoptosis. As expected, apoptotic cell death induced by TNF-<italic>&#x3B1;</italic> was markedly increased in TAK1<sup>&#x2212;/&#x2212;</sup>MEF cells (<xref ref-type="fig" rid="fig5">Figures 5a and b</xref>, 9&#xB1;2% in mock without TNF-<italic>&#x3B1; versus</italic> 23&#xB1;4% in mock with TNF-<italic>&#x3B1;</italic>), whereas the apoptosis was significantly decreased in TAK1-overexpressed TAK1<sup>&#x2212;/&#x2212;</sup>MEF cells than in the case of mock transfectants (<xref ref-type="fig" rid="fig5">Figure 5b</xref>, 23&#xB1;4% in mock with TNF-<italic>&#x3B1; versus</italic> 10&#xB1;3% in TAK1 with TNF-<italic>&#x3B1;</italic>). Interestingly, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were highly sensitive to TNF-<italic>&#x3B1;</italic>-induced apoptosis in a time-dependent manner as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig5">Figure 5c</xref>, wt THP-1; <xref ref-type="fig" rid="fig5">Figure 5d</xref>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>). To verify the results, we performed caspase activity and DNA laddering assay in the same condition. Consistently, the activities of caspase 3, caspase 9, and caspase 8 were markedly higher in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells than that in wt THP-1 cells activities (<xref ref-type="fig" rid="fig5">Figure 5e</xref>, caspase 3; <xref ref-type="fig" rid="fig5">Figure 5f</xref>, caspase 9; <xref ref-type="fig" rid="fig5">Figure 5g</xref>, caspase 8). Moreover, similar results could be seen in DNA laddering assay (<xref ref-type="fig" rid="fig5">Figure 5h</xref>). These results suggest that AMPK-<italic>&#x3B1;</italic>1 is functionally involved in TNF-<italic>&#x3B1;</italic>-induced apoptosis through the regulation of TAK1 activity.</p>
+        <p>TNF-<italic>&#x3B1;</italic> signaling is transduced through its receptors to simultaneously elicit two opposing effects: the induction of apoptosis and the transcription of anti-apoptotic genes.<sup><xref ref-type="bibr" rid="bib26">26</xref>, <xref ref-type="bibr" rid="bib27">27</xref></sup> We therefore examined whether the effects of AMPK-<italic>&#x3B1;</italic>1 on TNF-<italic>&#x3B1;</italic>-induced apoptosis are linked to the expression of NF-&#x3BA;B-dependent genes and pro-apoptotic or anti-apoptotic genes; we performed gene expression analysis of wt and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells with or without TNF-<italic>&#x3B1;</italic> stimulation, respectively. According to stimulation of TNF-<italic>&#x3B1;</italic>, marked changes in gene expression profiles could be detected (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 5</xref>). When we compared gene-expression profiles related to NF-&#x3BA;B-dependent genes, marked changes could also be observed (<xref ref-type="fig" rid="fig6">Figure 6a</xref>, <xref ref-type="supplementary-material" rid="sup1">Supplementary Table 2a</xref> and <xref ref-type="supplementary-material" rid="sup1">Supplementary Table 2b</xref>). qRT-PCR analysis demonstrated that five different genes such as IL-1<italic>&#x3B2;</italic>, IL-8, TNF-<italic>&#x3B1;</italic>, CCL5, and CD44 were greatly upregulated in TNF-<italic>&#x3B1;</italic>-treated wt THP-1 cells as compared with that of without stimulation, whereas minute changes could be detected in TNF-<italic>&#x3B1;</italic>-treated AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells, as compared with that of without stimulation (<xref ref-type="fig" rid="fig6">Figure 6b</xref>). Similar results could also be detected in qRT-PCR analysis of NF-KB1A, NF-KB1A, NF-B1E, REL, BCL3, and IER3 (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure 6</xref>), indicating that AMPK-<italic>&#x3B1;</italic>1 is functionally related to the expression of NF-&#x3BA;B-dependent genes in response to TNF-<italic>&#x3B1;</italic> stimulation.</p>
+      </sec>
+      <sec>
+        <title>Suppression of AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1 is associated with the expression of pro- or anti-apoptotic genes in response to TNF-<italic>&#x3B1;</italic> stimulation</title>
+        <p>We further assessed whether the sensitivity on TNF-<italic>&#x3B1;</italic>-induced apoptosis in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells is associated with the gene expression profiles related to apoptosis. According to stimulation of TNF-<italic>&#x3B1;</italic>, marked changes in both pro-apoptotic and anti-apoptotic gene expression profiles could be detected (<xref ref-type="fig" rid="fig7">Figure 7a</xref>, <xref ref-type="supplementary-material" rid="sup1">Supplementary Tables 3a, 3b and 4a, 4b</xref>). To verify these gene expression profiles, we selected four different pro-apoptotic genes, such as <italic>PTEN</italic>, <italic>LTA</italic>, <italic>MAGED1</italic>, and <italic>TNFRFS21</italic>, and four different anti-apoptotic genes, such as <italic>SGK1</italic>, <italic>PI3KCB</italic>, <italic>BCL2L2</italic>, and <italic>BCL2</italic>, and performed qRT-PCR analysis. The pro-apoptotic genes were markedly increased in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells non-treated with TNF-<italic>&#x3B1;</italic>, as compared with that of wt THP-1 cells (<xref ref-type="fig" rid="fig7">Figure 7b</xref>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>
+<italic>versus</italic> wt THP-1 in the group without stimulation of TNF-<italic>&#x3B1;</italic>). According to stimulation of TNF-<italic>&#x3B1;</italic>, moreover, two of them, PTEN and LTA, were significantly enhanced in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells (<xref ref-type="fig" rid="fig7">Figure 7b</xref>, upper panels). The obtained result was critically consistent with previous reports, which state that PTEN expression augments TNF-<italic>&#x3B1;</italic>-induced apoptosis through the inhibition of NF-&#x3BA;B transcriptional activity.<sup><xref ref-type="bibr" rid="bib28">28</xref>, <xref ref-type="bibr" rid="bib29">29</xref></sup> In contrast, the anti-apoptotic genes, such as <italic>SGK1</italic>, <italic>PI3KCB</italic>, and <italic>BCL2L2</italic>, were significantly enhanced by the stimulation of TNF-<italic>&#x3B1;</italic> in wt THP-1 cells, whereas no significant changes could be detected in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells (<xref ref-type="fig" rid="fig7">Figure 7c</xref>). Overall, these results strongly provide evidence that the TNF-<italic>&#x3B1;</italic>-induced apoptosis in AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> cells is associated with expressions of pro- or anti-apoptotic genes related to NF-&#x3BA;B transcriptional activity.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Our experiments demonstrate that AMPK-<italic>&#x3B1;</italic>1 critically regulates TLR4-mediated signaling pathway through the activation of TAK1. We found that autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 interacts with the N-terminus of TAK1. The masking of autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 seems to be critically associated with the activation of AMPK-<italic>&#x3B1;</italic>1 by TAK1,<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> which led us to speculate that AMPK-<italic>&#x3B1;</italic>1 might regulate the activity of TAK1 through the intermolecular interaction. In terms of the activity of AMPK-<italic>&#x3B1;</italic>1, the inhibition of AMPK-<italic>&#x3B1;</italic>1 activity with a pharmacological compound, compound C, revealed a dramatic reduction in NF-&#x3BA;B and AP-1 activities, and production of proinflammatory cytokines, such as TNF-<italic>&#x3B1;</italic>, IL-6, and IL-1<italic>&#x3B2;</italic>, in response to LPS stimulation. Moreover, we found that a constitutive active form of AMPK-<italic>&#x3B1;</italic>1 significantly augmented these activities induced by LPS treatment, but not in a DN form as AMPK-<italic>&#x3B1;</italic>1. These results suggest that AMPK-<italic>&#x3B1;</italic>1 is functionally involved in TLR4-mediated signaling through the molecular interaction with TAK1.</p>
+      <p>The TAK1 was originally identified as a TGF-<italic>&#x3B2;</italic>-activated kinase.<sup><xref ref-type="bibr" rid="bib1">1</xref>, <xref ref-type="bibr" rid="bib2">2</xref>, <xref ref-type="bibr" rid="bib3">3</xref></sup> The TAK1 is involved in distinct cellular signals such as Wnt, bone morphogenetic protein, activin, and TGF-<italic>&#x3B2;</italic>-signaling pathways.<sup><xref ref-type="bibr" rid="bib3">3</xref>, <xref ref-type="bibr" rid="bib31">31</xref>, <xref ref-type="bibr" rid="bib32">32</xref></sup> In addition, TAK1 has a major role in both innate and adaptive immunity pathways.<sup><xref ref-type="bibr" rid="bib5">5</xref>, <xref ref-type="bibr" rid="bib6">6</xref>, <xref ref-type="bibr" rid="bib7">7</xref>, <xref ref-type="bibr" rid="bib8">8</xref></sup> We found that, in AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells, TAK1 phosphorylation was markedly reduced in response to LPS stimulation when compared with that of wt THP-1 cells. In agreement with previous reports,<sup><xref ref-type="bibr" rid="bib22">22</xref>, <xref ref-type="bibr" rid="bib23">23</xref>, <xref ref-type="bibr" rid="bib24">24</xref></sup> phosphorylations of JNK, p38, and AKT were impaired in LPS-treated AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells, indicating that AMPK has an important role in promoting p38, JNK, AKT activations. Furthermore, DNA-binding activities of p65, p50, c-Fos, and c-Jun were markedly reduced in AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells. In AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells, dramatic reductions in TNF-<italic>&#x3B1;</italic>, IL-6, and IL-1<italic>&#x3B2;</italic> could be detected in response to LPS stimulation. Moreover, microarray and qRT-PCR analysis targeted to NF-&#x3BA;B-dependent genes critically revealed marked reductions of the expression of these genes in AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells after LPS treatment. These results strongly support the hypothesis that AMPK-<italic>&#x3B1;</italic>1 is critically required for TLR4-mediated signaling, thus leading to activation of NF-&#x3BA;B and AP-1, and thereby regulating expressions of NF-&#x3BA;B-dependent genes.</p>
+      <p>To verify the functional role of AMPK-<italic>&#x3B1;</italic>1 capable of regulating TAK1 activity, we confirmed the effects in another system, TFN-<italic>&#x3B1;</italic>-induced apoptosis. Previous studies have shown that TAK1 has a protective role against TNF-<italic>&#x3B1;</italic>-induced apoptosis through the activation of NF-&#x3BA;B.<sup><xref ref-type="bibr" rid="bib3">3</xref>, <xref ref-type="bibr" rid="bib4">4</xref></sup> Interestingly, AMPK-<italic>&#x3B1;</italic>1-knockdown cells were highly sensitive to TNF-<italic>&#x3B1;</italic>-induced apoptosis along with a marked reduction in the levels of NF-&#x3BA;B-dependent genes as compared with those of wt THP-1 cells. When we analyzed the expression of anti-apoptotic genes and pro-apoptotic genes in AMPK-<italic>&#x3B1;</italic>1-knockdown or wt THP-1 cells after TNF-<italic>&#x3B1;</italic> treatment, furthermore, marked inductions of pro-apoptotic genes could be detected, whereas significant reductions in anti-apoptotic genes could be detected in AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells. These results were similar to that of TNF-<italic>&#x3B1;</italic>-induced apoptosis in TAK1<sup>&#x2212;/&#x2212;</sup>MEF cells. Therefore, the obtained results support a pivotal role of AMPK-<italic>&#x3B1;</italic>1 as an upstream kinase of TAK1, which eventually lead to express NF-&#x3BA;B-dependent genes related in the protection to TNF-<italic>&#x3B1;</italic>-induced apoptosis.</p>
+      <p>Although it is not completely understood as how TAK1 activity is biochemically regulated, its activation seems to require TAK1-binding proteins such as TAB1, TAB2, and TAB3. In addition, a plausible model about how to activate TAK1 in innate signaling has been proposed in a recent report.<sup><xref ref-type="bibr" rid="bib6">6</xref></sup> Binding of IL-1<italic>&#x3B2;</italic> to IL-1R or LPS to TLR4 causes recruitment of adopter proteins such as MyD88, IRAK, and TRAF6 to the receptor. The TRAF6 in turn catalyzes synthesis of K63-linked polyubiquitin chains. The polyubiquitin chains acts as a scaffold motif to recruit the TAK1 and IKK complexes through binding to the regulatory subunits TAB2 and NEMO, respectively. Recruitment of the kinase complexes facilitates autophosphorylation of TAK1 and subsequent phosphorylation of IKK<italic>&#x3B2;</italic> by TAK1, thus leading to I&#x3BA;B degradation and subsequent activation of NF-&#x3BA;B. Our data propose a potential possibility that TAK1 activity in both TLR4- and TNF-<italic>&#x3B1;</italic>-mediated signaling pathway may be regulated by AMPK-<italic>&#x3B1;</italic>1 as an upstream kinase of TAK1. Taken together, our data are summarized in <xref ref-type="fig" rid="fig8">Figure 8</xref>. Binding of LPS derived from bacterial components to TLR4 initiates intracellular-signaling cascades, initially leading to the recruitment of adaptor molecules such as MyD88, IRAKs, and Mal proteins. Two critical events for the activation of TAK1 may occur in the middle of signaling cascades. Upon the TLR4 stimulation, the activation of AMPK-<italic>&#x3B1;</italic>1 is simultaneously induced by LKB1 and Ca<sup>2+</sup>-calmodulin-dependent protein kinase, and then activated AMPK-<italic>&#x3B1;</italic>1 can induce activation of JNK/p38MAPK pathway, thereby inducing activations of AP-1 components such as c-Jun and c-fos. Simultaneously, activated AMPK-<italic>&#x3B1;</italic>1 specifically interacts with TAK1 through the molecular interaction between N-terminus of TAK1 and autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1, and subsequently induces the phosphorylation of TAK1 for the activation. In turn, the activated TAK1 subsequently induces the phosphorylation of IKK<italic>&#x3B2;</italic>, leading to I&#x3BA;B degradation and activation of NF-&#x3BA;B. Nevertheless, the existence of other upstream kinases capable of inducing TAK1 activation and the reciprocal regulation between TAK1 and AMPK-<italic>&#x3B1;</italic>1 is not completely ruled out. Therefore, future studies elucidating the specific molecular mechanism may contribute towards more detailed understanding on the functional roles played by TAK1 as a key element kinase in different innate signaling pathways.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec>
+        <title>Cells and antibodies</title>
+        <p>The HEK 293 cells (human kidney embryonic cells) were purchased from American Type Culture Collection (ATCC, Manassas, VA, USA) and maintained in DMEM medium (Invitrogen Corporation, Carlsbad, CA, USA) containing 10% FBS, 2&#x2009;mM &#x2112;-glutamine, 100 unit/ml of penicillin, 100&#x2009;<italic>&#x3BC;</italic>g/ml streptomycin, and 5 &#xD7; 10<sup>&#x2212;5</sup> M <italic>&#x3B2;</italic>-mercaptoethanol. The THP-1 cells (human monocytic cells) were purchased from ATCC and maintained in RPMI medium (Invitrogen Corporation) containing 10% FBS, 2&#x2009;mM &#x2112;-glutamine, 100 unit/ml of penicillin, 100&#x2009;<italic>&#x3BC;</italic>g/ml streptomycin, and 5 &#xD7; 10<sup>&#x2212;5</sup> M <italic>&#x3B2;</italic>-mercaptoethanol. TAK1<sup>&#x2212;/&#x2212;</sup>MEF cells were cultured in DMEM medium (Invitrogen Corporation) containing 5% FBS, 2&#x2009;mM &#x2112;-glutamine, 100 unit/ml of penicillin, and 100&#x2009;<italic>&#x3BC;</italic>g/ml streptomycin and 5 &#xD7; 10<sup>&#x2212;5</sup> M <italic>&#x3B2;</italic>-mercaptoethanol.<sup><xref ref-type="bibr" rid="bib3">3</xref></sup> Antibodies used were anti-pho-AMPK-<italic>&#x3B1;</italic>1 (Ser485), anti-pho-AMPK-<italic>&#x3B1;</italic>1 (Thr172/Thr174), anti-pho-TAK1, anti-TAK1, anti-I&#x3BA;B<italic>&#x3B1;</italic>, anti-pho-p38, anti-p38, anti-pho-JNK, anti-JNK, anti-pho-AKT, anti-AKT, anti-Myc, anti-Flag, anti-GAPDH (Cell Signaling, Beverly, MA, USA), and anti-AMPK-<italic>&#x3B1;</italic>1 antibodies (Abcam, Cambridge, MA, USA).</p>
+      </sec>
+      <sec>
+        <title>Generation of AMPK-<italic>
+<bold>&#x3B1;</bold>
+</italic>1-knockdown or TAK1-knockdown THP-1 cells</title>
+        <p>Lentiviral particles containing shRNA-targeted human AMPK-<italic>&#x3B1;</italic>1 (sc-29673-V) or human TAK1 (sc-36606-V) were purchased from Santa Cruz Biotechnology Inc. (Santa Cruz, CA, USA) 2 &#xD7; 10<sup>&#x2212;7</sup> cells were cultured in a 24-well plate and infected with each rentiviral particle according to the manufacturer's protocol. Cells were cultured in puromycin (4&#x2009;<italic>&#x3BC;</italic>g/ml)-containing medium for 2 weeks to select stable clones.</p>
+      </sec>
+      <sec>
+        <title>Luciferase reporter assay</title>
+        <p>The THP-1 cells (2 &#xD7; 10<sup>&#x2212;5</sup>) grown on 12-well plates were transiently transfected using Neon transfection system (Invitrogen, Carlsbad, CA, USA), according to the respective manufacturer's instructions, with either NF-&#x3BA;B-dependent reporter construct pBIIx-luc or AP-1-dependent reporter construct AP-1-luc with Renilla luciferase vector (Promega Corporation, Madison, WI, USA).<sup><xref ref-type="bibr" rid="bib33">33</xref></sup> Total DNA concentration in each experiment was maintained by adding the appropriate empty vector to the DNA mixture. Typically 24&#x2009;h after transfection, cells were lyzed and luciferase activity was measured using the dual luciferase assay kit (Promega).</p>
+      </sec>
+      <sec>
+        <title>Measurement of cytokines</title>
+        <p>Wt THP-1 cells were transiently transfected using Neon transfection system, according to the respective manufacturer's instructions, with mock, WT hAMPK-<italic>&#x3B1;</italic>l, hAMPK-<italic>&#x3B1;</italic>1 (D159A), and hAMPK-<italic>&#x3B1;</italic>1 (T174D) vectors. Cells were stimulated with or without LPS (10&#x2009;ng/ml) for 9&#x2009;h, and subsequently supernatants were harvested. Levels of TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and IL-6 were measured in the supernatants, according to the manufacturer's protocol (R&amp;D Systems, Minneapolis, MN, USA). Wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were stimulated with or without LPS (10&#x2009;ng/ml) for 9&#x2009;h, and then supernatants were harvested. Levels of TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and IL-6 were measured in the supernatants, according to the manufacturer's protocol (R&amp;D Systems).</p>
+      </sec>
+      <sec>
+        <title>p65/p50 (NF-&#x3BA;B) and c-Fos/c-Jun (AP-1) DNA-binding assay by enzyme-linked immunosorbent assay</title>
+        <p>Nuclear proteins from transfectants treated with or without LPS were prepared with CelLyticTM NuCLEARTM Extraction kit in accordance with the manufacturer's protocol (Sigma-Aldrich, St. Louis, MO, USA). Activities of transcription factors, p65, p50, c-Jun, and c-Fos, were determined with TransAM NF-&#x3BA;B or AP-1 transcription factor assay kit according to the manufacturer's instructions (Active Motif North America, Carlsbad, CA, USA).<sup><xref ref-type="bibr" rid="bib4">4</xref>, <xref ref-type="bibr" rid="bib34">34</xref></sup> Briefly, a specific double-stranded DNA sequence containing the NF-&#x3BA;B or AP-1 response element was immobilized on a 96-well plate, and the binding of the activated p65 or p50 to the NF-&#x3BA;B response element and c-fos or c-Jun to the AP-1 response element was achieved by incubating nuclear extracts in the presence of binding buffer. The interaction between the protein&#x2013;DNA complexes was detected by the addition of specific antibodies against p65, p50, c-fos, or pho-c-Jun. Addition of a secondary antibody conjugated to horseradish peroxidase provided a sensitive colorimetric readout at 450&#x2009;nm.</p>
+      </sec>
+      <sec>
+        <title>Plasmids and mutagenesis</title>
+        <p>The pcDNA3-Flag-hAMPK-<italic>&#x3B1;</italic>1 wt was kindly provided by Dr. SJUm.<sup><xref ref-type="bibr" rid="bib35">35</xref></sup> The pcDNA3-Myc-hTAK1 wt was generated by PCR, using HeLa cDNA library as a template, and inserted into pcDNA3. Myc-TAK1 mutants, Myc-TAK1 1&#x2013;500, Myc-TAK1 1&#x2013;400, Myc-TAK1 1&#x2013;300, Myc-TAK1 1&#x2013;200, and Myc-TAK1 1&#x2013;100, were generated by PCR, using Myc-TAK1 wt as a template, and inserted into pcDNA3. The Flag-AMPK-<italic>&#x3B1;</italic>1 mutants, Flag-AMPK-<italic>&#x3B1;</italic>1 (1&#x2013;312) and Flag-AMPK-<italic>&#x3B1;</italic>1 (1&#x2013;392), were generated by PCR, using Flag-AMPK-<italic>&#x3B1;</italic>1 wt as a template, and inserted into pcDNA3. Flag-AMPK-<italic>&#x3B1;</italic>1 mutants, Flag-AMPK-<italic>&#x3B1;</italic>1 (D159A) and Flag-AMPK-<italic>&#x3B1;</italic>1 (T174D) were generated using the MORPH plasmid DNA mutagenesis kit supplied by 5&#x2032;&#x2192;3&#x2032; Inc. (Boulder, CO, USA).<sup><xref ref-type="bibr" rid="bib36">36</xref>, <xref ref-type="bibr" rid="bib37">37</xref></sup></p>
+      </sec>
+      <sec>
+        <title>Immunoprecipitation and western blot analysis</title>
+        <p>Transfected HEK 293 cells with appropriate expression vectors were lysed in a lysis buffer containing 150&#x2009;mM NaCl, 20&#x2009;mM Tris-HCl, pH 7.5, 10&#x2009;mM EDTA, 1% Triton X-100, 1% deoxycholate, 1.5% aprotinin, and 1&#x2009;mM phenylmethylsulfonyl fluoride. Cellular debris was removed by centrifugation. Co-immunoprecipitation procedures were followed as previously described.<sup><xref ref-type="bibr" rid="bib4">4</xref>, <xref ref-type="bibr" rid="bib36">36</xref></sup> For immunoprecipitation and western blotting, we used anti-Myc and anti-Flag antibodies (Sigma-Aldrich). The proteins were detected by the enhanced chemiluminescence system (Amersham Pharmacia Biotech, Amersham, UK). For endogenous immunoprecipitation, THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for 45&#x2009;min. Cells were extracted and immunoprecipitated with anti-TAK1 antibody. The interaction was detected by western blotting with anti-AMPK-<italic>&#x3B1;</italic>1 antibody. The same lysates were verified with anti-TAK1 antibody.</p>
+      </sec>
+      <sec>
+        <title><italic>In vitro</italic> kinase assay for TAK1 and AMPK-<italic>&#x3B1;</italic>1</title>
+        <p>Wt THP-1, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>, and TAK1<sup>KD</sup> THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for different times. The kinase assay for TAK1 and AMPK-<italic>&#x3B1;</italic>1 was performed by c-TAK1 Kinase Assay kit (U-TRF#17, PerkinElmer, Branchburg, NJ, USA) and AMPK-<italic>&#x3B1;</italic>1 Kinase assay kit (U-TRF#12, PerkinElmer) in accordance with the manufacturer's protocol.</p>
+      </sec>
+      <sec>
+        <title>Measurement of caspase-3, caspase-8, and caspase-9 activities</title>
+        <p>Wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were cultured in RPMI medium containing 2% FBS. Cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for different times, harvested, and washed twice with PBS. Caspase-3, caspase-8, and caspase-9 activities were measured using the CaspACE kit (Promega) according to the manufacture's instructions.<sup><xref ref-type="bibr" rid="bib33">33</xref></sup></p>
+      </sec>
+      <sec>
+        <title>DNA fragmentation analysis</title>
+        <p>Cells were homogenized in 1&#x2009;ml of lysis buffer (20&#x2009;mM Tris-HCl, pH 8.0, 5&#x2009;mM EDTA, 0.5% SDS, 0.5&#x2009;mg/ml proteinase K) and incubated for 15&#x2009;h at 42&#x2009;&#xB0;C under constant agitation. Proteins were then precipitated with 6&#x2009;M NaCl and centrifuged at 2500 &#xD7; <italic>g</italic> at 4&#x2009;&#xB0;C for 15&#x2009;min. Supernatants containing genomic DNA were then treated with RNase A at 37&#x2009;&#xB0;C for 30&#x2009;min. The genomic DNA was precipitated for 3&#x2009;h at &#x2212;70&#x2009;&#xB0;C with 2.5 volumes of 100% ethanol and 0.2 volumes of 3&#x2009;M sodium acetate. Samples were then centrifuged at 20&#x2009;800 &#xD7; <italic>g</italic> at 4&#x2009;&#xB0;C for 30&#x2009;min. The resulting pellets were washed with 70% ethanol and resuspended in 40&#x2009;<italic>&#x3BC;</italic>l of nuclease-free water. Genomic DNA extracts (10&#x2013;20&#x2009;<italic>&#x3BC;</italic>l) were run on 1.8% agarose gels and visualized under UV illumination.</p>
+      </sec>
+      <sec>
+        <title>Cell cycle and apoptosis analysis</title>
+        <p>Wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were cultured in RPMI medium containing 2% FBS. Cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for different times, harvested, and washed twice with PBS. The cells were stained with FITC Annexin V Apoptosis Detection Kit (BD Biosciences, San Jose, CA, USA) or BD Cycletest Plus-DNA Reagent kit (BD Biosciences) in accordance with the manufacturer's protocol. Samples were analyzed with FACSCalibur system and then apoptotic cell death was determined with CellQuest software (Becton Dickinson, San Jose, CA, USA) or Modfit LT 3.0 software (Becton Dickinson).</p>
+      </sec>
+      <sec>
+        <title>Microarray analysis</title>
+        <p>Total RNA was extracted using Trizol (Invitrogen Life Technologies, Carlsbad, CA, USA) and purified using RNeasy columns (Qiagen, Valencia, CA, USA) according to the manufacturers' protocol. After processing with DNase digestion, and clean-up procedures, RNA samples were quantified, aliquoted, and stored at &#x2212;80&#x2009;&#xB0;C until use. For quality control, RNA purity and integrity were evaluated by denaturing gel electrophoresis, OD 260/280 ratio, and analyzed on Agilent 2100 Bioanalyzer (Agilent Technologies, Palo Alto, CA, USA). Total RNA was amplified and purified using the Ambion Illumina RNA amplification kit (Ambion, Austin, TX, USA) to yield biotinylated cRNA according to the manufacturer's instructions. Briefly, 550&#x2009;ng of total RNA was reverse-transcribed to cDNA using a T7 oligo(dT) primer. Second-strand cDNA was synthesized, <italic>in vitro</italic> transcribed, and labeled with biotin-NTP. After purification, the cRNA was quantified using the ND-1000 Spectrophotometer (NanoDrop, Wilmington, NC, USA). Typically, 750&#x2009;ng of labeled cRNA samples were hybridized to each humanHT-12 expression v.4 bead array for 16&#x2013;18&#x2009;h at 58&#x2009;&#xB0;C, according to the manufacturer's instructions (Illumina Inc., San Diego, CA, USA). Detection of array signal was carried out using Amersham fluorolink streptavidin-Cy3 (GE Healthcare Bio-Sciences, Little Chalfont, UK) following the bead array manual. Arrays were scanned with an Illumina bead array Reader confocal scanner according to the manufacturer's instructions. For raw data preparation and statistical analysis, the quality of hybridization and overall chip performance were monitored by visual inspection of both internal quality control checks and the raw scanned data. Raw data were extracted using the software provided by the manufacturer (Illumina GenomeStudio v2009.2 (Gene Expression Module v1.5.4)). Array data were filtered by detection of <italic>P</italic>-value &lt;0.05 (similar to signal to noise) in at least 50% samples (we applied a filtering criterion for data analysis; higher signal value was required to obtain a detection <italic>P</italic>-value &lt;0.05). Selected gene signal value was transformed by logarithm and normalized by quantile method. The comparative analysis between test sample and control sample was carried out using fold change. Hierarchical cluster analysis was performed using complete linkage and Euclidean distance as a measure of similarity. GO-ontology analysis for significant probe list was performed using PANTHER (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.pantherdb.org/panther/ontologies.jsp">http://www.pantherdb.org/panther/ontologies.jsp</ext-link>), using text files containing Gene ID list and accession number of illumina probe ID. Gene Set Enrichment Analysis was performed to check whether the <italic>a priori</italic> defined set of genes shows a differential pattern in both the biological process and the molecular function states. One-tail Fisher Exact was adopted to measure the gene enrichment in annotation terms. All the data analysis and visualization of differentially expressed genes was conducted using R 2.4.1(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org">www.r-project.org</ext-link>).</p>
+      </sec>
+      <sec>
+        <title>Gene expression analysis by qPCR</title>
+        <p>Isolation of total RNA, and cDNA synthesis, were performed following the protocols provided along with the kit (Qiagen). For qPCR analysis, qPCR primers were purchased from Qiagen: IL-8 (PDH 00568A), TNF (PDH 00341E), CD44 (PDH 00114A), CCL5 (PDH 00703A), NF-KB1 (PDH 00204E), NF-KB1A (PDH 00170E), NF-KB1E (PDH 01810E), RELB (PDH 00287A), IER3 (PDH 10008E), REL (PDH 00101B), BCL3 (PDH 02009C), IL-1B (PDH 00171B), PTEN (PDH 00327E), LTA (PDH 00337E), MAGED1 (PDH 01965A), TNFRFS21 (PDH 00262A), SGK1 (PDH 00387E), PI3KCB (PDH 00789A), BCL2L2 (PDH 00081E), and BCL2 (PDH 00079B). The qRT-PCR analysis was performed using Roter-GeneQ (Qiagen) according to the manufacturers' protocol.</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>Data were presented as mean values&#xB1;S.D. as indicated and analyzed using Student's two-tailed <italic>t</italic>-test. A <italic>P</italic>-value &lt;0.05 was considered to be statistically significant.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by a grant from the Korea Healthcare Technology R&amp;D Project, Ministry of Health and Welfare, Republic of Korea (A111636). We would like to thank the Hyewa Forum members, namely, Dr. Doo Hyun Chung, Dr. Jun Chang, Dr. You-Me Kim, Dr. Eun Sook Hwang, Dr. Eui-Cheol Shin, Dr. Seung-Hyo Lee, Dr. Heung kyu Lee, and Dr. Sang-Jun Ha for their helpful discussions.</p>
+    </ack>
+    <glossary>
+      <def-list>
+        <def-item>
+          <term>TAK1</term>
+          <def>
+            <p>transforming growth factor-<italic>&#x3B2;</italic> (TGF-<italic>&#x3B2;</italic>)-activated kinase 1</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>TLR</term>
+          <def>
+            <p>Toll-like receptor</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>IKK</term>
+          <def>
+            <p>I&#x3BA;B kinase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>AMPK</term>
+          <def>
+            <p>AMP-activated protein kinase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>LPS</term>
+          <def>
+            <p>lipopolysaccharide</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>AP-1</term>
+          <def>
+            <p>activator protein 1</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <fn-group>
+      <fn>
+        <p><xref ref-type="supplementary-material" rid="sup1">Supplementary Information</xref> accompanies the paper on Cell Death and Disease website (http://www.nature.com/cddis)</p>
+      </fn>
+      <fn>
+        <p>Edited by T Brunner</p>
+      </fn>
+    </fn-group>
+    <notes>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <ref id="bib1">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Shirakabe</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Shibuya</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Irie</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Oishi</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of a member of the MAPKKK family as a potential mediator of TGF-<italic>&#x3B2;</italic> signal transduction</article-title>
+          <source>Science</source>
+          <year>1995</year>
+          <volume>270</volume>
+          <fpage>2008</fpage>
+          <lpage>2011</lpage>
+          <pub-id pub-id-type="pmid">8533096</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib2">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Akkaraju</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>TAK1 is ubiquitin-dependent kinase of MKK and IKK</article-title>
+          <source>Nature</source>
+          <year>2001</year>
+          <volume>412</volume>
+          <fpage>346</fpage>
+          <lpage>351</lpage>
+          <pub-id pub-id-type="pmid">11460167</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib3">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shim</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Paschal</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Hayden</surname>
+              <given-names>MS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TAK1 but not TAB1 or TAB2, plays an essential role in multiple signaling pathways <italic>in vivo</italic></article-title>
+          <source>Genes Dev</source>
+          <year>2005</year>
+          <volume>19</volume>
+          <fpage>2668</fpage>
+          <lpage>2681</lpage>
+          <pub-id pub-id-type="pmid">16260493</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib4">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Shim</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Chun</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>KY</given-names>
+            </name>
+          </person-group>
+          <article-title>Reciprocal Inhibition between the transforming growth factor-<italic>&#x3B2;</italic>-activated kinase 1 (TAK1) and apoptosis signal-regulating kinase 1 (ASK1) mitogen-activated protein kinase kinase kinases and its suppression by TAK1-binding protein 2 (TAB2), an adapter protein for TAK1</article-title>
+          <source>J Biol Chem</source>
+          <year>2012</year>
+          <volume>287</volume>
+          <fpage>3381</fpage>
+          <lpage>3391</lpage>
+          <pub-id pub-id-type="pmid">22167179</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib5">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skaug</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of ubiquitin in NF-kappaB regulatory pathways</article-title>
+          <source>Annu Rev Biochem</source>
+          <year>2009</year>
+          <volume>78</volume>
+          <fpage>769</fpage>
+          <lpage>796</lpage>
+          <pub-id pub-id-type="pmid">19489733</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib6">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Expanding role of ubiquitination in NF-&#x3BA;B signaling</article-title>
+          <source>Cell Res</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>6</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="pmid">21135871</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib7">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayden</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Signaling to NF-kappaB</article-title>
+          <source>Genes Dev</source>
+          <year>2004</year>
+          <volume>18</volume>
+          <fpage>2195</fpage>
+          <lpage>2224</lpage>
+          <pub-id pub-id-type="pmid">15371334</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib8">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>West</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Koblansky</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Recognition and signaling by toll-like receptors</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>409</fpage>
+          <lpage>437</lpage>
+          <pub-id pub-id-type="pmid">16822173</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib9">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Viollet</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Horman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Leclerc</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lantier</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Foretz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Billaud</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>AMPK inhibition in health and disease</article-title>
+          <source>Crit Rev Biochem Mol Biol</source>
+          <year>2010</year>
+          <volume>45</volume>
+          <fpage>276</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="pmid">20522000</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib10">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carling</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>FV</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Gamblin</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <article-title>AMP-activated protein kinase: nature's energy sensor</article-title>
+          <source>Nat Chem Biol</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <fpage>512</fpage>
+          <lpage>518</lpage>
+          <pub-id pub-id-type="pmid">21769098</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib11">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corton</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Gillespie</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Hardie</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the AMP-activated protein kinase in the cellular stress response</article-title>
+          <source>Curr Biol</source>
+          <year>1994</year>
+          <volume>4</volume>
+          <fpage>315</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="pmid">7922340</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib12">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hardie</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Carling</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>The AMP-activated protein kinase--fuel gauge of the mammalian cell</article-title>
+          <source>Eur J Biochem</source>
+          <year>1997</year>
+          <volume>246</volume>
+          <fpage>259</fpage>
+          <lpage>273</lpage>
+          <pub-id pub-id-type="pmid">9208914</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib13">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Witczak</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Sharoff</surname>
+              <given-names>CG</given-names>
+            </name>
+            <name>
+              <surname>Goodyear</surname>
+              <given-names>LJ</given-names>
+            </name>
+          </person-group>
+          <article-title>AMP-activated protein kinase in skeletal muscle: from structure and localization to its role as a master regulator of cellular metabolism</article-title>
+          <source>Cell Mol Life Sci</source>
+          <year>2008</year>
+          <volume>65</volume>
+          <fpage>3737</fpage>
+          <lpage>3755</lpage>
+          <pub-id pub-id-type="pmid">18810325</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib14">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salt</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Celler</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Hawley</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Prescott</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Woods</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Carling</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>AMP-activated protein kinase: greater AMP dependence, and preferential nuclear localization, of complexes containing the alpha2 isoform</article-title>
+          <source>Biochem J</source>
+          <year>1998</year>
+          <volume>334</volume>
+          <supplement>(Part 1</supplement>
+          <fpage>177</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="pmid">9693118</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib15">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tam&#xE1;s</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Hawley</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Clarke</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Mustard</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hardie</surname>
+              <given-names>DG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of the energy sensor AMP-activated protein kinase by antigen receptor and Ca2+ in T lymphocytes</article-title>
+          <source>J Exp Med</source>
+          <year>2006</year>
+          <volume>203</volume>
+          <fpage>1665</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="pmid">16818670</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib16">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sag</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Carling</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Stout</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Suttles</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Adenosine 5'-monophosphate-activated protein kinase promotes macrophage polarization to an anti-inflammatory functional phenotype</article-title>
+          <source>J Immunol</source>
+          <year>2008</year>
+          <volume>181</volume>
+          <fpage>8633</fpage>
+          <lpage>8641</lpage>
+          <pub-id pub-id-type="pmid">19050283</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib17">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Momcilovic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian TAK1 activates Snf1 protein kinase in yeast and phosphorylates AMP-activated protein kinase <italic>in vitro</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>25336</fpage>
+          <lpage>25343</lpage>
+          <pub-id pub-id-type="pmid">16835226</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib18">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Dyck</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Morishima</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A pivotal role for endogenous TGF-beta-activated kinase-1 in the LKB1/AMP-activated protein kinase energy-sensor pathway</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2006</year>
+          <volume>103</volume>
+          <fpage>17378</fpage>
+          <lpage>17383</lpage>
+          <pub-id pub-id-type="pmid">17085580</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib19">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herrero-Mart&#xED;n</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>H&#xF8;yer-Hansen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Garc&#xED;a</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Fumarola</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Farkas</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>L&#xF3;pez-Rivas</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TAK1 activates AMPK-dependent cytoprotective autophagy in TRAIL-treated epithelial cells</article-title>
+          <source>EMBO J</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>677</fpage>
+          <lpage>685</lpage>
+          <pub-id pub-id-type="pmid">19197243</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib20">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scholz</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sidler</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Thali</surname>
+              <given-names>RF</given-names>
+            </name>
+            <name>
+              <surname>Winssinger</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Cheung</surname>
+              <given-names>PC</given-names>
+            </name>
+            <name>
+              <surname>Neumann</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Autoactivation of transforming growth factor beta-activated kinase 1 is a sequential bimolecular process</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>25753</fpage>
+          <lpage>25766</lpage>
+          <pub-id pub-id-type="pmid">20538596</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib21">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vucicevic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Misirkic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Janjetovic</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Vilimanovich</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Sudar</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Isenovic</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Compound C induces protective autophagy in cancer cells through AMPK inhibition-independent blockade of Akt/mTOR pathway</article-title>
+          <source>Autophagy</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <fpage>40</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">20980833</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib22">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Ninomiya-Tsuji</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>LH</given-names>
+            </name>
+          </person-group>
+          <article-title>AMP-activated protein kinase activates p38 mitogen-activated protein kinase by increasing recruitment of p38 MAPK to TAB1 in the ischemic heart</article-title>
+          <source>Circ Res</source>
+          <year>2005</year>
+          <volume>97</volume>
+          <fpage>872</fpage>
+          <lpage>879</lpage>
+          <pub-id pub-id-type="pmid">16179588</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib23">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kefas</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Heimberg</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hue</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Pipeleers</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>AMP-activated protein kinase can induce apoptosis of insulin-producing MIN6 cells through stimulation of c-Jun-N-terminal kinase</article-title>
+          <source>J Mol Endocrinol</source>
+          <year>2003</year>
+          <volume>30</volume>
+          <fpage>151</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="pmid">12683939</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib24">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leclerc</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Leclerc</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Barredo</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>AMPK-induced activation of Akt by AICAR is mediated by IGF-1R dependent and independent mechanisms in acute lymphoblastic leukemia</article-title>
+          <source>J Mol Signal</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <fpage>15</fpage>
+          <pub-id pub-id-type="pmid">20863384</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib25">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kewalramani</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Puthanveetil</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Deppe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Abrahani</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>AMP-activated protein kinase confers protection against TNF-{alpha}-induced cardiac cell death</article-title>
+          <source>Cardiovasc Res</source>
+          <year>2009</year>
+          <volume>84</volume>
+          <fpage>42</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="pmid">19477967</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib26">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Goeddel</surname>
+              <given-names>DV</given-names>
+            </name>
+          </person-group>
+          <article-title>The TNF receptor 1-associated protein TRADD signals cell death and NF-kappa B activation</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>81</volume>
+          <fpage>495</fpage>
+          <lpage>504</lpage>
+          <pub-id pub-id-type="pmid">7758105</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib27">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Shu</surname>
+              <given-names>HB</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Goeddel</surname>
+              <given-names>DV</given-names>
+            </name>
+          </person-group>
+          <article-title>TRADD-TRAF2 and TRADD-FADD interactions define two distinct TNF receptor 1 signal transduction pathways</article-title>
+          <source>Cell</source>
+          <year>1996</year>
+          <volume>84</volume>
+          <fpage>299</fpage>
+          <lpage>308</lpage>
+          <pub-id pub-id-type="pmid">8565075</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib28">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vasudevan</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Gurumurthy</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Rangnekar</surname>
+              <given-names>VM</given-names>
+            </name>
+          </person-group>
+          <article-title>Suppression of PTEN expression by NF-kappa B prevents apoptosis</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>1007</fpage>
+          <lpage>1021</lpage>
+          <pub-id pub-id-type="pmid">14729949</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib29">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koul</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Takada</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Aggarwal</surname>
+              <given-names>BB</given-names>
+            </name>
+            <name>
+              <surname>Yung</surname>
+              <given-names>WK</given-names>
+            </name>
+          </person-group>
+          <article-title>PTEN enhances TNF-induced apoptosis through modulation of nuclear factor-kappaB signaling pathway in human glioma cells</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2006</year>
+          <volume>350</volume>
+          <fpage>463</fpage>
+          <lpage>471</lpage>
+          <pub-id pub-id-type="pmid">17011514</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib30">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Littler</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wybenga-Groot</surname>
+              <given-names>LE</given-names>
+            </name>
+            <name>
+              <surname>Finerty</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A conserved mechanism of autoinhibition for the AMPK kinase domain: ATP-binding site and catalytic loop refolding as a means of regulation</article-title>
+          <source>Acta Crystallogr Sect F Struct Biol Cryst Commun</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <supplement>(Pt 2</supplement>
+          <fpage>143</fpage>
+          <lpage>151</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="bib31">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TAB2 scaffolds TAK1 and NLK in repressing canonical Wnt signaling</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>13397</fpage>
+          <lpage>13404</lpage>
+          <pub-id pub-id-type="pmid">20194509</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib32">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winkel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Stricker</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tylzanowski</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Seiffart</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Mundlos</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Wnt-ligand-dependent interaction of TAK1 (TGF-beta-activated kinase-1) with the receptor tyrosine kinase Ror2 modulates canonical Wnt-signalling</article-title>
+          <source>Cell Signal</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>2134</fpage>
+          <lpage>2144</lpage>
+          <pub-id pub-id-type="pmid">18762249</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib33">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Chun</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>KY</given-names>
+            </name>
+          </person-group>
+          <article-title>Phospholipase A(2) of peroxiredoxin 6 has a critical role in tumor necrosis factor-induced apoptosis</article-title>
+          <source>Cell Death Differ</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <fpage>1573</fpage>
+          <lpage>1583</lpage>
+          <pub-id pub-id-type="pmid">21415860</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib34">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fraser</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Arora</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bohlson</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Lozano</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tenner</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation of inhibitory NFkappaB complexes and phosphorylated cAMP response element-binding protein correlates with the anti-inflammatory activity of complement protein C1q in human monocytes</article-title>
+          <source>J Biol Chem</source>
+          <year>2007</year>
+          <volume>282</volume>
+          <fpage>7360</fpage>
+          <lpage>7367</lpage>
+          <pub-id pub-id-type="pmid">17209050</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib35">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>YG</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Sin</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Um</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinase activity-independent suppression of p73 alpha by AMP-activated kinase alpha (AMPKalpha)</article-title>
+          <source>Oncogene</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>1040</fpage>
+          <lpage>10452</lpage>
+          <pub-id pub-id-type="pmid">19079340</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib36">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>KY</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel function of peroxiredoxin 1 (Prx-1) in apoptosis signal-regulating kinase 1 (ASK1)-mediated signaling pathway</article-title>
+          <source>FEBS Lett</source>
+          <year>2008</year>
+          <volume>582</volume>
+          <fpage>1913</fpage>
+          <lpage>1918</lpage>
+          <pub-id pub-id-type="pmid">18501712</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="bib37">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Jo</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Cha</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Shim</surname>
+              <given-names>JH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>H<sub>2</sub>O<sub>2</sub>-dependent hyperoxidation of peroxiredoxin 6 (Prdx6) plays a role in cellular toxicity via up-regulation of iPLA2 activity</article-title>
+          <source>J Biol Chem</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>33563</fpage>
+          <lpage>33568</lpage>
+          <pub-id pub-id-type="pmid">18826942</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material" id="sup1">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="xob1">
+        <label>Supplementary Information</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="pdf" xlink:href="cddis201295x1.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob2">
+        <label>Supplementary Figure 1</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x2.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob3">
+        <label>Supplementary Figure 2</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x3.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob4">
+        <label>Supplementary Figure 3</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x4.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob5">
+        <label>Supplementary Figure 4</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x5.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob6">
+        <label>Supplementary Figure 5</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x6.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob7">
+        <label>Supplementary Figure 6</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x7.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob8">
+        <label>Supplementary Table 1a</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x8.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob9">
+        <label>Supplementary Table 1b</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="cddis201295x9.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob10">
+        <label>Supplementary Table 2a</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x10.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob11">
+        <label>Supplementary Table 2a-1</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x11.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob12">
+        <label>Supplementary Table 2b</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="cddis201295x12.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob13">
+        <label>Supplementary Table 3a</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x13.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob14">
+        <label>Supplementary Table 3b</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="cddis201295x14.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob15">
+        <label>Supplementary Table 4a</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="image" mime-subtype="tiff" xlink:href="cddis201295x15.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="xob16">
+        <label>Supplementary Table 4b</label>
+        <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="cddis201295x16.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>Figure 1</label>
+      <caption>
+        <p>Inhibition of AMPK-<italic>&#x3B1;</italic>1 activity attenuates TLR4-signaling pathway. (<bold>a</bold> and <bold>b)</bold> The THP-1 cells were transfected with either pBIIx-Luc (<bold>a</bold>) or AP-1-luc (<bold>b</bold>) together with Renilla luciferase vector. At 24&#x2009;h after transfection, cells were treated with or without LPS (10&#x2009;ng/ml) for 6&#x2009;h in the presence or absence of different concentrations of compound C as indicated, and then analyzed for luciferase activity. Results are expressed as the fold induction in luciferase activity relative to that of untreated cells. Error bars indicate &#xB1;S.D. of triplicate samples. (<bold>c&#x2013;e</bold>) The THP-1 cells were treated with or without LPS (10&#x2009;ng/ml) for 9&#x2009;h in the presence or absence of different concentrations of compound C as indicated, and then analyzed for productions of IL-6 (<bold>c</bold>), TNF-<italic>&#x3B1;</italic> (<bold>d</bold>), and IL-1<italic>&#x3B2;</italic> (<bold>e</bold>) in supernatants using ELISA method. Error bars indicate &#xB1;S.D. of triplicate samples. (<bold>f</bold>) The AMPK-<italic>&#x3B1;</italic>1 (D159A) and AMPK-<italic>&#x3B1;</italic>1 (T174D) mutants were generated by site-directed mutagenesis as described in Materials and Methods. (<bold>g</bold> and <bold>h</bold>) The THP-1 cells were transfected with mock, wt (wt) hAMPK-<italic>&#x3B1;</italic>1, DN hAMPK-<italic>&#x3B1;</italic>1 D159A, or constitutive active (CA) hAMPK-<italic>&#x3B1;</italic>1 T174D vector. At 24&#x2009;h after transfection, cells were transfected with either pBIIx-Luc (<bold>g</bold>) or AP-1-luc (<bold>h</bold>) together with Renilla luciferase vector. After 24&#x2009;h, cells were treated with or without LPS (10&#x2009;ng/ml), and then analyzed for luciferase activity. Results are expressed as the fold induction in luciferase activity relative to that of untreated cells. Error bars indicate &#xB1;S.D. of triplicate samples. (<bold>i&#x2013;k</bold>) The THP-1 cells were transfected with mock, wt hAMPK-<italic>&#x3B1;</italic>1, DN hAMPK-<italic>&#x3B1;</italic>1 D159A, or CA hAMPK-<italic>&#x3B1;</italic>1 T174D vector. At 24&#x2009;h after transfection, cells were treated with or without LPS (10&#x2009;ng/ml) for 9&#x2009;h, and then analyzed for productions of TNF-<italic>&#x3B1;</italic> (<bold>i</bold>), IL-6 (<bold>j</bold>), and IL-1<italic>&#x3B2;</italic> (<bold>k</bold>) in supernatants using ELISA method. Error bars indicate &#xB1;S.D. of triplicate samples. *<italic>P</italic>&lt;0.05, **<italic>P</italic>&lt;0.01, NS, not significant</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f1"/>
+    </fig>
+    <fig id="fig2">
+      <label>Figure 2</label>
+      <caption>
+        <p>Molecular interaction between AMPK-<italic>&#x3B1;</italic>1 and TAK1. (<bold>a</bold>) The HEK293 cells were transfected with Myc-TAK1, Flag-AMPK-<italic>&#x3B1;</italic>1, or Myc-TAK1 and Flag-AMPK-<italic>&#x3B1;</italic>1 vector. At 36&#x2009;h after transfection, cells were treated with or without LPS (100&#x2009;ng/ml) for 45&#x2009;min. The cells were extracted and immunoprecipitated with anti-Myc antibody. The interaction was detected by western blotting with anti-Flag antibody. The presence of Myc-TAK1 and Flag-AMPK-<italic>&#x3B1;</italic>1 in the pre-IP lysates was verified by western blot analysis. (<bold>b</bold>) The HEK293 cells were transfected with Flag-AMPK-<italic>&#x3B1;</italic>1 and wt Myc-TAK1, Flag-AMPK-<italic>&#x3B1;</italic>1 and Myc-TAK1 (1&#x2013;500), Flag-AMPK-<italic>&#x3B1;</italic>1 and Myc-TAK1 (1&#x2013;400), Flag-AMPK-<italic>&#x3B1;</italic>1 and Myc-TAK1 (1&#x2013;300), Flag-AMPK-<italic>&#x3B1;</italic>1 and Myc-TAK1 (1&#x2013;200), or Flag-AMPK-<italic>&#x3B1;</italic>1 and Myc-TAK1 (1&#x2013;100) vectors. At 36&#x2009;h after transfection, transfected cells were extracted and immunoprecipitated with anti-Flag antibody. The interaction was detected by western blotting with anti-Myc antibody. The presence of Myc-TAK1 mutants and Flag-AMPK-<italic>&#x3B1;</italic>1 in the pre-IP lysates was verified by western blot analysis. (<bold>c</bold>) The HEK293 cells were transfected with Myc-TAK1 and wt Flag-AMPK-<italic>&#x3B1;</italic>1, Myc-TAK1 and Flag-AMPK-<italic>&#x3B1;</italic>1 (1&#x2013;312), or Myc-TAK1 and Flag-AMPK-<italic>&#x3B1;</italic>1 (1&#x2013;392). At 36&#x2009;h after transfection, transfected cells were extracted and immunoprecipitated with anti-Myc antibody. The interaction was detected by western blotting with anti-Flag antibody. The presence of Flag-AMPK-<italic>&#x3B1;</italic>1 mutants and Myc-TAK1 in the pre-IP lysates was verified by western blot analysis. (<bold>d</bold>) The THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for 45&#x2009;min. Cells were extracted and immunoprecipitated with anti-TAK1 antibody. The interaction was detected by western blotting with anti-AMPK-<italic>&#x3B1;</italic>1 antibody. The presence of TAK1 in the pre-IP lysates was verified by western blot analysis. (<bold>e</bold>) A model of molecular interaction between AMPK-<italic>&#x3B1;</italic>1 and TAK1. Above results suggest the molecular interaction between the autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1 and the N-terminus of TAK1. (<bold>f</bold>) WT THP-1, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>, and TAK-1<sup>KD</sup> THP-1 cells were treated with or without LPS (10&#x2009;ng/ml) for different times as indicated. Cell lysates were subjected to western blot analysis using the indicated antibodies. (<bold>g</bold> and <bold>h</bold>) WT THP-1, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>, and TAK-1<sup>KD</sup> THP-1 cells were treated with or without LPS (10&#x2009;ng/ml) for different times as indicated. <italic>In vitro</italic> kinase assay for TAK1 (<bold>g</bold>) and AMPK-<italic>&#x3B1;</italic>1 (<bold>h</bold>) was performed as described in Materials and Methods. Error bars indicate &#xB1;S.D. of triplicate samples. *<italic>P</italic>&lt;0.05, **<italic>P</italic>&lt;0.01</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f2"/>
+    </fig>
+    <fig id="fig3">
+      <label>Figure 3</label>
+      <caption>
+        <p>AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells exhibit impairments of TLR4-mediated signal, leading to activation of NF-&#x3BA;B and AP-1. (<bold>a</bold> and <bold>b</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were transfected with or without hAMPK-<italic>&#x3B1;</italic>1 vector. Twenty-four hours after transfection, cells were transfected with either pBIIx-Luc (<bold>a</bold>) or AP-1-luc (<bold>b</bold>) together with Renilla luciferase vector. After 24&#x2009;h, cells were treated with or without LPS (10&#x2009;ng/ml) for 6&#x2009;h, and then analyzed for luciferase activity. Results are expressed as the fold induction in luciferase activity relative to that of untreated cells. Error bars indicate &#xB1;S.D. of triplicate samples. (<bold>c&#x2013;f</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were transfected with or without hAMPK-<italic>&#x3B1;</italic>1 vector. Twenty-four hours after transfection, cells were treated with or without LPS (10&#x2009;ng/ml) for 1&#x2009;h, and then analyzed for DNA-binding activities for NF-KB, p65 (<bold>c</bold>) and p50 (<bold>d</bold>), and AP-1, c-Fos (<bold>e</bold>) and c-Jun (<bold>f</bold>), components as described in Materials and Methods. Results are expressed as the fold increase relative to that of wt THP-1 transfected with mock. Error bars indicate &#xB1;S.D. of triplicate samples. (<bold>g</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1-knockdown (AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>) THP-1 cells were treated with or without LPS (10&#x2009;ng/ml) for different times as indicated. The lysates were examined by western blotting with anti-pho-TAK1, anti-TAK1, anti-I&#x3BA;B<italic>&#x3B1;</italic>, anti-pho-p38, anti-p38, anti-pho-JNK, anti-JNK, anti-pho-AKT, and anti-AKT antibodies. Immunoblotting with anti-GAPDH antibody was performed to generate a control for gel loading. (<bold>h</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1-knockdown (AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup>) THP-1 cells were treated with or without LPS (10&#x2009;ng/ml) for 9&#x2009;h, and then analyzed for productions of TNF-<italic>&#x3B1;</italic>, and IL-1<italic>&#x3B2;</italic>, and IL-6 in supernatants using ELISA method. Error bars indicate &#xB1;S.D. of triplicate samples. *<italic>P</italic>&lt;0.05, **<italic>P</italic>&lt;0.01, ***<italic>P</italic>&lt;0.001</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f3"/>
+    </fig>
+    <fig id="fig4">
+      <label>Figure 4</label>
+      <caption>
+        <p>AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells exhibit a marked reduction in NF-&#x3BA;B-dependent genes in response to LPS stimulation. (<bold>A</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for 3&#x2009;h. Total RNAs were isolated from each sample and microarray analysis was performed as described in Materials and Methods. The 96 NF-&#x3BA;B-dependent upregulated and downregulated genes were sorted and represented: <bold>a</bold>, wt THP-1 cells treated with LPS <italic>versus</italic> wt THP-1 cells; <bold>b</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with LPS <italic>versus</italic> AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells; <bold>c</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells <italic>versus</italic> wt THP-1 cells; and <bold>d</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with LPS <italic>versus</italic> wt THP-1 cells treated with LPS. (<bold>B</bold>) Among 96 NF-&#x3BA;B-dependent genes, 36 genes were further selected and their expression patterns were represented. *, moderately regulated genes; **, highly regulated genes. (<bold>C</bold>) The WT THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for 3&#x2009;h. Total RNAs were isolated from each sample and quantitative RT-PCR analysis was performed with specific primers targeted to IL-8, TNF, IL-1<italic>&#x3B2;</italic>, CD44, and CCL5 genes. Error bars represent mean&#xB1;S.D. of triplicate samples. (<bold>D</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without LPS (100&#x2009;ng/ml) for 3&#x2009;h. Total RNAs were isolated from each sample and quantitative RT-PCR analysis was performed with specific primers targeted to <italic>NF-KB1</italic>, <italic>NF-KB1A</italic>, <italic>NF-KB1E</italic>, <italic>RELB</italic>, <italic>IER3</italic>, <italic>REL</italic>, and <italic>BCL3</italic> genes. Error bars represent mean&#xB1;S.D. of triplicate samples</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f4"/>
+    </fig>
+    <fig id="fig5">
+      <label>Figure 5</label>
+      <caption>
+        <p>AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells are highly sensitive to TNF-<italic>&#x3B1;</italic>-induced apoptosis. (<bold>a</bold> and <bold>b</bold>) TAK1<sup>&#x2212;/&#x2212;</sup> MEF cells were transfected with mock or Myc-TAK1 vector. At 24&#x2009;h after trasnfection, cells were treated without (<bold>a</bold>) or with (<bold>b</bold>) TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 24&#x2009;h, and then stained with BD Cycletest Plus-DNA reagent in accordance with the manufacturer's protocol. The stained cells were analyzed with FACSCalibur system and apoptotic cell death was determined with Modfit LT 3.0 software. Error bars represent mean&#xB1;S.D. of three independent experiments. (<bold>c</bold> and <bold>d</bold>) The wt THP-1 (<bold>c</bold>) and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells (<bold>d</bold>) were cultured with culture medium containing 2% FBS for 24&#x2009;h, and then treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for different times, as indicated. Cells were harvested and stained with FITC Annexin V Apoptosis Detection Kit (BD Biosciences) in accordance with the manufacturer's protocol. Samples were analyzed with FACSCalibur system and apoptotic cells were determined with CellQuest software. Error bars represent mean&#xB1;S.D. of three independent experiments. (<bold>e&#x2013;g</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were cultured with culture medium containing 2% FBS for 24&#x2009;h, and then treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for different times, as indicated. Caspase-3 (<bold>e</bold>), caspase-8 (<bold>f</bold>), and caspase-9 (<bold>g</bold>) activities were measured using the CaspACE kit according to the manufacture's instructions. Error bars represent mean&#xB1;S.D. of three independent experiments. *<italic>P</italic>&lt;0.01. (<bold>h</bold>) The genomic DNA extracts were prepared as described in Materials and Methods, run on 1.8% agarose gels, and visualized under UV illumination</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f5"/>
+    </fig>
+    <fig id="fig6">
+      <label>Figure 6</label>
+      <caption>
+        <p>AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells exhibit a marked reduction in NF-&#x3BA;B-dependent genes in response to TNF-<italic>&#x3B1;</italic> stimulation. (<bold>A</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 12&#x2009;h. Total RNAs were isolated from each sample and microarray analysis was performed as described in Materials and Methods. The 96 NF-&#x3BA;B-dependent upregulated and downregulated genes were sorted and represented: <bold>a</bold>, wt THP-1 cells treated with TNF-<italic>&#x3B1; versus</italic> wt THP-1 cells; <bold>b</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with TNF-<italic>&#x3B1; versus</italic> AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells; <bold>c</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells <italic>versus</italic> wt THP-1 cells; and <bold>d</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with TNF-<italic>&#x3B1; versus</italic> wt THP-1 cells treated with TNF-<italic>&#x3B1;</italic>. (<bold>B</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 12&#x2009;h. Total RNAs were isolated from each sample and quantitative RT-PCR analysis was performed with specific primers targeted to IL-8, TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, CD44, and CCL5 genes. Error bars represent mean&#xB1;S.D. of triplicate samples</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f6"/>
+    </fig>
+    <fig id="fig7">
+      <label>Figure 7</label>
+      <caption>
+        <p>TNF-<italic>&#x3B1;</italic>-induced apoptosis in AMPK-<italic>&#x3B1;</italic>1-knockdown THP-1 cells is associated with the expression of pro- or anti-apoptotic genes. (<bold>A</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 12&#x2009;h. Total RNAs were isolated from each sample and microarray analysis was performed as described in Materials and Methods. The pattern of pro-apoptotic and anti-apoptotic gene expression was represented; <bold>a</bold>, wt THP-1 treated with TNF-<italic>&#x3B1; versus</italic> wt THP-1; <bold>b</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with TNF-<italic>&#x3B1; versus</italic> AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells; <bold>c</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells <italic>versus</italic> wt THP-1; and <bold>d</bold>, AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells treated with TNF-<italic>&#x3B1; versus</italic> wt THP-1 cells. (<bold>B</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 12&#x2009;h. Total RNAs were isolated from each sample and quantitative RT-PCR analysis was performed with specific primers targeted to pro-apoptotic genes such as <italic>PTEN</italic>, <italic>LTA</italic>, <italic>MAGED1</italic>, and <italic>TNFRFS21</italic> genes. Error bars represent mean&#xB1;S.D. of triplicate samples. (<bold>C</bold>) The wt THP-1 and AMPK-<italic>&#x3B1;</italic>1<sup>KD</sup> THP-1 cells were treated with or without TNF-<italic>&#x3B1;</italic> (100&#x2009;ng/ml) for 12&#x2009;h. Total RNAs were isolated from each sample and quantitative RT-PCR analysis was performed with specific primers targeted to anti-apoptotic genes such as <italic>SGK1</italic>, <italic>PI3KCB</italic>, <italic>BCL2L2</italic>, and <italic>BCL2</italic> genes. Error bars represent mean&#xB1;S.D. of triplicate samples</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f7"/>
+    </fig>
+    <fig id="fig8">
+      <label>Figure 8</label>
+      <caption>
+        <p>Schematic model showing role of AMPK-<italic>&#x3B1;</italic>1 as an upstream kinase of TAK1 in TLR4-mediated signaling pathway. Binding of LPS derived from bacterial components to TLR4 initiates intracellular signaling cascades, initially leading to the recruitment of adapter molecules such as MyD88, IRAKs, and Mal proteins. Two critical events for the activation of TAK1 may occur in the middle of signaling cascades. Upon TLR4 stimulation, the activation of AMPK-<italic>&#x3B1;</italic>1 is simultaneously induced by LKB1 and Ca<sup>2+</sup>-calmodulin-dependent protein kinase, and then activated AMPK-<italic>&#x3B1;</italic>1 can induce activation of JNK/p38MAPK pathway, thereby inducing activations of AP-1 components such as c-Jun and c-fos. Simultaneously, activated AMPK-<italic>&#x3B1;</italic>1 specifically interacts with TAK1 through the molecular interaction between N-terminus of TAK1 and autoinhibitory domain of AMPK-<italic>&#x3B1;</italic>1, and then AMPK-<italic>&#x3B1;</italic>1 and TAK1 reciprocally induces phosphorylations of TAK1 for the activation. In turn, the activated TAK1 subsequently induces the phosphorylation of IKK<italic>&#x3B2;</italic>, leading to I&#x3BA;B degradation and activation of NF-&#x3BA;B. Subsequently, proinflammatory cytokine genes such as TNF-<italic>&#x3B1;</italic>, IL-1<italic>&#x3B2;</italic>, and IL-6 are expressed</p>
+      </caption>
+      <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddis201295f8"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

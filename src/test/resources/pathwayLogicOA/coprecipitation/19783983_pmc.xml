@@ -1,0 +1,1130 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100890575</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21417</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Cell Biol</journal-id>
+      <journal-title>Nature cell biology</journal-title>
+      <issn pub-type="ppub">1465-7392</issn>
+      <issn pub-type="epub">1476-4679</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19783983</article-id>
+      <article-id pub-id-type="pmc">2783526</article-id>
+      <article-id pub-id-type="doi">10.1038/ncb1982</article-id>
+      <article-id pub-id-type="manuscript">NIHMS133745</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Histone H3 methylation links DNA damage detection to activation of the Tip60 tumor suppressor</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sun</surname>
+            <given-names>Yingli</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Xiaofeng</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Ye</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ayrapetov</surname>
+            <given-names>Marina K.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moreau</surname>
+            <given-names>Lisa A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Whetstine</surname>
+            <given-names>Johnathan R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Price</surname>
+            <given-names>Brendan D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="corresp" rid="CR1">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Division of Genomic Stability and DNA Repair, Department of Radiation Oncology, Dana-Farber Cancer Institute, Harvard Medical School, 44 Binney St, Boston, Massachusetts 02115
+</aff>
+      <aff id="A2"><label>2</label>Massachusetts General Hospital Cancer Center, Harvard Medical School, Building 149, 13th Street, Room 7-213 Charlestown, Massachusetts 02129, USA
+</aff>
+      <author-notes>
+        <corresp id="CR1">
+<label>3</label>Correspondence should be addressed to BDP: <email>brendan_price@dfci.harvard.edu</email> 617-632-4946
+</corresp>
+        <fn id="FN1">
+          <p id="P1"><bold>Author contributions.</bold> BDP conceived the research, wrote the paper and carried out data analysis. YS carried out the majority of the experiments, participated in data analysis, planned experiments and contributed to writing the paper. XJ carried out some of the experiments and contributed to data analysis. YX carried out some of the experiments and contributed to protocol development. MA participated in the Rad50 experiments. L.M. carried out cytogenetic studies and participated in data analysis. JW contributed key materials and participated in data analysis. All authors discussed the results and commented on the manuscript.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>24</day>
+        <month>7</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>9</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>11</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>1</day>
+        <month>5</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>11</volume>
+      <issue>11</issue>
+      <fpage>1376</fpage>
+      <lpage>1382</lpage>
+      <permissions>
+        <license>
+          <p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></p>
+        </license>
+      </permissions>
+      <contract-num rid="CA1">R01 CA093602-06A2
+||CA</contract-num>
+      <contract-num rid="CA1">R01 CA064585-14
+||CA</contract-num>
+      <contract-sponsor id="CA1">National Cancer Institute : NCI</contract-sponsor>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="S1">
+      <title>Introductory paragraph</title>
+      <p id="P2">DNA-double strand break (DSB) repair involves complex interactions between chromatin and repair proteins, including the Tip60 tumor suppressor<xref ref-type="bibr" rid="R1">1</xref>. Tip60 is an acetyltransferase which acetylates both histones<xref ref-type="bibr" rid="R2">2</xref>-<xref ref-type="bibr" rid="R5">5</xref> and the ATM kinase<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>. Inactivation of Tip60 leads to defective DNA repair<xref ref-type="bibr" rid="R2">2</xref>-<xref ref-type="bibr" rid="R4">4</xref> and increased cancer risk<xref ref-type="bibr" rid="R8">8</xref>-<xref ref-type="bibr" rid="R11">11</xref>. However, how DNA damage activates Tip60&#x2019;s acetyltransferase activity is not known. Here, we show that direct interaction between Tip60&#x2019;s chromodomain and histone H3 trimethylated on lysine 9 (H3K9me3) at DSBs activates Tip60&#x2019;s acetyltransferase activity. Depletion of intracellular H3K9me3 blocks activation of Tip60&#x2019;s acetyltransferase activity, resulting in defective ATM activation and widespread defects in DSB repair. In addition, the ability of Tip60 to access H3K9me3 is dependent on the DNA damage induced displacement of HP1&#x3B2; from H3K9me3. Finally, we demonstrate that the mre11-rad50-nbs1 complex targets Tip60 to H3K9me3, and is required to activate Tip60&#x2019;s acetyltransferase activity. These results reveal a new function for H3K9me3 in co-ordinating activation of Tip60-dependent DNA repair pathways, and imply that aberrant patterns of histone methylation may contribute to cancer by altering the efficiency of DSB repair.</p>
+      <p id="P3">The Tip60 acetyltransferase is a tumor suppressor gene whose expression is altered in both breast and prostate tumors<xref ref-type="bibr" rid="R8">8</xref>-<xref ref-type="bibr" rid="R11">11</xref>. Tip60 acetylates key proteins involved in the DNA damage response<xref ref-type="bibr" rid="R2">2</xref>-<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref> and plays a critical role in the detection and repair DNA double strand breaks (DSBs)<xref ref-type="bibr" rid="R2">2</xref>-<xref ref-type="bibr" rid="R5">5</xref>, <xref ref-type="bibr" rid="R7">7</xref>. Currently, the mechanism by which Tip60&#x2019;s acetyltransferase activity is increased by DNA damage is not known. Here, we examined if interaction between Tip60&#x2019;s chromodomain<xref ref-type="bibr" rid="R13">13</xref> and histones adjacent to DSBs regulate Tip60 acetyltransferase activity. Chromodomains are specialized binding modules containing conserved hydrophobic amino-acids which interact with methyl groups on methylated lysine residues<xref ref-type="bibr" rid="R13">13</xref>-<xref ref-type="bibr" rid="R15">15</xref>. For example, the chromodomain of HP1&#x3B1; interacts with histone H3 trimethylated on lysine 9 (H3K9me3)<xref ref-type="bibr" rid="R14">14</xref>,<xref ref-type="bibr" rid="R15">15</xref>. Sequence alignment of the chromodomains of Tip60 and HP1&#x3B1; demonstrates that Tip60 contains the conserved aromatic amino-acids required for HP1&#x3B1; binding to H3K9me3 (<xref ref-type="supplementary-material" rid="SD4">figure S1a</xref>), implying that Tip60&#x2019;s chromodomain functions as a methyl-lysine binding domain. To examine this possibility, point mutations were introduced into Tip60&#x2019;s chromodomain, and the ability of the DNA-damaging agent bleomycin to activate Tip60&#x2019;s acetyltransferase activity examined. The acetyltransferase activity of immunopurified Tip60 was quantitated by measuring the ability of Tip60 to acetylate a peptide derived from histone H4 (<xref ref-type="supplementary-material" rid="SD4">figure S1b</xref>), one of Tip60&#x2019;s <italic>in vivo</italic> substrates<xref ref-type="bibr" rid="R2">2</xref>. DNA damage increases the acetyltransferase activity of both endogenous and transfected Tip60 (<xref ref-type="supplementary-material" rid="SD4">figure S1c and S1d</xref>)<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>, but does not alter the overall level of Tip60 protein (<xref ref-type="supplementary-material" rid="SD5">figure S2b</xref>)<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>. The Tip60 proteins with mutations in the chromodomain were stably expressed in HeLaS3 cells (<xref ref-type="supplementary-material" rid="SD5">figure S2a</xref>), and their intrinsic acetyltransferase activity measured. Mutation of phenylalanine-43 (Tip60<sup>F43A</sup>) or tyrosine-47 (Tip60<sup>Y47A</sup>) in Tip60&#x2019;s chromodomain abolished activation of Tip60&#x2019;s acetyltransferase activity, whereas mutations in tryptophan-26 (Tip60<sup>W26A</sup>) or phenylalanine-50 (Tip60<sup>F50A</sup>) had little or no impact (<xref ref-type="fig" rid="F1">figure 1a</xref>). Activation of Tip60 by DSBs leads to the Tip60-dependent acetylation and activation of the ATM kinase<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>. Mutations in the chromodomain which abolished activation of Tip60&#x2019;s acetyltransferase activity (Tip60<sup>F43A</sup> and Tip60<sup>Y47A</sup>) also blocked the Tip60-dependent acetylation and autophosphorylation of the ATM protein (<xref ref-type="fig" rid="F1">figure 1b</xref>). A more detailed analysis of cells expressing the Tip60<sup>Y47A</sup> mutant (referred to as Tip60<sup>CD</sup>) revealed a profound defect in both ATM activation and ATM-dependent phosphorylation of chk2 (<xref ref-type="supplementary-material" rid="SD5">figure S2b</xref>), indicating that Tip60&#x2019;s chromodomain is essential for activation of the ATM signaling pathway.</p>
+      <p id="P4">Chromodomains function as methyl-lysine binding proteins<xref ref-type="bibr" rid="R13">13</xref>-<xref ref-type="bibr" rid="R15">15</xref>, implying that Tip60&#x2019;s chromodomain may be essential to recruit and retain Tip60 at DSB. However, the Tip60<sup>CD</sup> mutant was efficiently recruited to sites of DNA damage (<xref ref-type="fig" rid="F1">figure 1c</xref>), indicating that the chromodomain is not required to target Tip60 to DSBs. This implies that an alternative mechanism must exist to recruit Tip60 to sites of DNA damage. Previously, we demonstrated that Tip60 and ATM exist as a unique complex in cells <xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref>, and that, in the absence of ATM, Tip60 recruitment to DSBs is severely compromised <xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref>. In addition to Tip60, the efficient recruitment of ATM to DSBs and activation of ATM&#x2019;s kinase requires the mre11-rad50-nbs1 (MRN) complex <xref ref-type="bibr" rid="R16">16</xref>-<xref ref-type="bibr" rid="R18">18</xref>. This suggests that Tip60 is recruited to MRN at DSBs as part of an ATM-Tip60 complex. To test this possibility, we first demonstrated that the interaction between ATM and Tip60 was not altered by mutations of Tip60&#x2019;s chromodomain (<xref ref-type="supplementary-material" rid="SD5">figure S2a</xref>). Next, we examined the role of the MRN complex in Tip60 activation using cells in which the rad50 component of MRN was reduced by shRNA<xref ref-type="bibr" rid="R19">19</xref> (<xref ref-type="fig" rid="F2">figure 2b</xref>). Cells in which rad50 was depleted failed to recruit Tip60 to DSBs within 15 minutes of exposure to ionizing radiation (<xref ref-type="fig" rid="F1">figure 1d and 1e</xref>), although there was a slow accumulation of Tip60 at DSBs at later times. Formation of &#x3B3;H2AX foci was unaffected by either rad50 depletion or mutational inactivation of Tip60&#x2019;s chromodomain (<xref ref-type="supplementary-material" rid="SD6">figure S3a</xref>). However, activation of Tip60&#x2019;s acetyltransferase activity (<xref ref-type="fig" rid="F2">figure 2a</xref>) and the Tip60-dependent acetylation and activation of the ATM kinase (<xref ref-type="fig" rid="F2">figure 2b</xref>) were reduced in cells lacking functional MRN complex. This is consistent with previous reports indicating that cells with compromised MRN function exhibit reduced or attenuated activation of the ATM kinase in response to DSBs <xref ref-type="bibr" rid="R16">16</xref>-<xref ref-type="bibr" rid="R18">18</xref>. These results demonstrate that both Tip60 and the MRN complex make critical contributions to the activation of ATM at endogenous DSBs. Cells in which the chromodomain of Tip60 is mutated should therefore exhibit a defective DNA damage response. Consistent with this, cells expressing the Tip60<sup>CD</sup> mutant exhibited increased sensitivity to ionizing radiation (<xref ref-type="fig" rid="F2">figure 2c</xref>), and contained significantly higher levels of chromosome aberrations after exposure to ionizing radiation (figure <xref ref-type="fig" rid="F2">2d</xref> and <xref ref-type="supplementary-material" rid="SD6">S3b</xref>). These results indicate a model in which the previously characterized ATM-Tip60 complex <xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref> is recruited to the MRN complex as an inactive ATM-Tip60 complex. Activation of Tip60&#x2019;s acetyltransferase (through a mechanism involving the chromodomain) then leads to acetylation of ATM and activation of ATM&#x2019;s kinase.</p>
+      <p id="P5">Next, we determined how Tip60&#x2019;s chromodomain contributes to the regulation of Tip60&#x2019;s acetyltransferase activity. Histone H3 is methylated <italic>in vivo</italic> on lysines 4, 9, 27, 36 and 79, making H3 a potential binding partner for Tip60&#x2019;s chromodomain <xref ref-type="bibr" rid="R20">20</xref>, <xref ref-type="bibr" rid="R21">21</xref>. Calf thymus H3 (which is post-translationally modified) and recombinant H3 which was methylated <italic>in vitro</italic> activated the acetyltransferase activity of Tip60 (<xref ref-type="supplementary-material" rid="SD7">figure S4a and S4b</xref>), but not the Tip60<sup>CD</sup> mutant (<xref ref-type="supplementary-material" rid="SD7">figure S4c</xref>). This implies that methylated histone H3 activates Tip60&#x2019;s acetyltransferase activity through interaction with Tip60&#x2019;s chromodomain. To identify the methylation sites on H3, peptides corresponding to the major histone H3 methylation sites (<xref ref-type="supplementary-material" rid="SD1">supplementary table 1</xref>) were examined for their ability to stimulate Tip60&#x2019;s acetyltransferase activity <italic>in vitro</italic>. H3 peptides di- or tri-methylated at lysines 4, 27 and 79 did not stimulate Tip60&#x2019;s acetyltransferase activity (<xref ref-type="fig" rid="F3">figure 3a</xref>), whereas H3K9me3 and H3K36me3 peptides activated Tip60&#x2019;s acetyltransferase activity. H3K9me2 had a small stimulatory effect on Tip60 acetyltransferase activity. Tip60 showed a concentration dependent increase in acetyltransferase activity when incubated with increasing concentrations of H3K9me3 peptide, but not with H3K4me3 (<xref ref-type="supplementary-material" rid="SD8">figure S5a</xref>). Importantly, peptides containing either H3K9me3 or H3K36me3 did not significantly activate the acetyltransferase activity of the Tip60<sup>CD</sup> chromodomain mutant (<xref ref-type="fig" rid="F3">figure 3b</xref>), implying specific interaction between Tip60&#x2019;s chromodomain and H3K9me3 or H3K36me3. To further examine these interactions, nuclear extracts containing Tip60 were incubated with methylated H3 peptides immobilized on affinity resin. Tip60 was specifically bound to H3K9me3 (figure <xref ref-type="fig" rid="F3">3c</xref> and <xref ref-type="supplementary-material" rid="SD8">S5b</xref>), whereas the Tip60<sup>CD</sup> mutant failed to bind to H3K9me3 (figure <xref ref-type="fig" rid="F3">3d</xref> and <xref ref-type="supplementary-material" rid="SD8">S5c</xref>). However, no significant binding of Tip60 to H3K36me3 was seen under standard binding conditions (<xref ref-type="fig" rid="F3">figure 3b</xref>), although weak binding of H3K36me3 to Tip60 was detected under low stringency binding conditions (<xref ref-type="supplementary-material" rid="SD8">figure S5d</xref>). This implies that the interaction between Tip60 and H3K36me3 is significantly weaker than the interaction with H3K9me3, implying that H3K9me3 is the primary binding site for Tip60&#x2019;s chromodomain. To further confirm this conclusion, the interaction between purified <italic>in vitro</italic> translated (IVT) Tip60 protein and H3K9me3 was examined. IVT Tip60, but not IVT Tip60<sup>CD</sup>, bound specifically to H3K9me3, but not H3K4me3, H3K27me3 (<xref ref-type="fig" rid="F3">figure 3e</xref>) or to H3K36me3 (<xref ref-type="supplementary-material" rid="SD8">figure S5e</xref>). Further, Tip60 was the only detectable polypeptide associated with the H3K9me3 affinity column, indicating that Tip60&#x2019;s chromodomain interacts directly with H3K9me3 (<xref ref-type="supplementary-material" rid="SD9">figure S6a and S6b</xref>). When IVT Tip60 was prebound to immobilized H3K9me3 affinity columns, Tip60 was specifically eluted by H3K9me3 peptide, but not by either H3K4me3 or H3K27me3 (<xref ref-type="fig" rid="F3">figure 3f</xref>). Finally, the acetyltransferase activity of purified IVT Tip60 (but not IVT Tip60<sup>CD</sup>) was specifically activated by the H3K9me3 peptide (<xref ref-type="supplementary-material" rid="SD9">figure S6c</xref>). <xref ref-type="fig" rid="F3">Figure 3</xref> therefore demonstrates that direct interaction between H3K9me3 and Tip60&#x2019;s chromodomain specifically activates Tip60&#x2019;s acetyltransferase activity, implying that the chromodomain of Tip60 functions as an allosteric regulator of Tip60&#x2019;s acetyltransferase activity.</p>
+      <p id="P6">Next, we determined if the levels of H3K9me3 were important for Tip60 function <italic>in vivo</italic>. MEFS derived from mice in which the 2 main H3K9 methyltransferases, Suv39h1 and Suv39h2, are deleted were examined <xref ref-type="bibr" rid="R22">22</xref>. Suv39h1/2<sup>&#x2212;/&#x2212;</sup> mice have reduced levels of H3K9me3 (<xref ref-type="fig" rid="F4">figure 4b</xref>) and display increased genomic instability <xref ref-type="bibr" rid="R22">22</xref>. Activation of Tip60&#x2019;s acetyltransferase activity (<xref ref-type="fig" rid="F4">figure 4a</xref>), and the Tip60-dependent activation of ATM (<xref ref-type="fig" rid="F4">figure 4b</xref>) was significantly impaired in Suv39h1/2<sup>&#x2212;/&#x2212;</sup> MEFs immediately following exposure to ionizing radiation. However, weak ATM activation was detected at later time points (<xref ref-type="supplementary-material" rid="SD10">figure S7</xref>) in Suv39h1/2<sup>&#x2212;/&#x2212;</sup> MEFs. Reduced methylation of H3K9me3 therefore correlates with defective activation of Tip60 and ATM in Suv39h1/2<sup>&#x2212;/&#x2212;</sup> MEFs. To further manipulate H3K9 methylation <italic>in vivo</italic>, histone demethylases which specifically demethylate H3K9me3 (Jmjd2D/KDM4D; <xref ref-type="bibr" rid="R23">23</xref>) or both H3K9me3 and H3K36me3 (Jmjd2A/KDM4A; <xref ref-type="bibr" rid="R23">23</xref>, <xref ref-type="bibr" rid="R24">24</xref>) were expressed in cells in order to reduce the levels of H3K9me3. Demethylation of H3K27me3 (Jmjd3/KDM6B; <xref ref-type="bibr" rid="R25">25</xref>) was used as a control. The histone demethylases were efficiently expressed in cells (<xref ref-type="supplementary-material" rid="SD11">figure S8a</xref>), and specifically demethylated H3K9me3 and H3K27me3 (<xref ref-type="supplementary-material" rid="SD11">figure S8b and S8c</xref>). Demethylation of H3K9, H3K27 or H3K36 did not affect the formation of &#x3B3;H2AX foci, or the recruitment of the MRN complex to sites of DNA damage (<xref ref-type="fig" rid="F4">figure 4c</xref>). Demethylation of histones does not, therefore, impose structural or other changes in the chromatin which inhibit DNA damage signaling events. In addition, Tip60 was recruited to DSBs in cells in which H3K9me3 levels were reduced (<xref ref-type="fig" rid="F4">figure 4c</xref>), providing further evidence that interactions between methylated histones and Tip60&#x2019;s chromodomain are not required to recruit Tip60 to DSBs. Demethylation of either H3K9me3 (by Jmjd2D/KDM4D) or both H3K9me3 and H3K36me3 (by Jmjd2A/KDM4A) inhibited the activation of Tip60&#x2019;s acetyltransferase activity by bleomycin (<xref ref-type="fig" rid="F4">figure 4d</xref>). Demethylation of H3K27me3 (by Jmjd3/KDM6B) had no effect. Demethylation of H3K9me3 (by either Jmjd2D/KDM4D or Jmjd2A/KDM4A) also blocked the Tip60-dependent activation of the ATM DNA damage response pathway, blocking ATM autophosphorylation, and preventing the subsequent phosphorylation of p53 and chk2 by ATM (<xref ref-type="fig" rid="F4">figure 4e</xref>). However, phosphorylation of H2AX, which can be mediated by DNA-PKcs in the absence of ATM <xref ref-type="bibr" rid="R26">26</xref>, was unaffected by demethylation of histone H3. <xref ref-type="fig" rid="F4">Figure 4</xref> therefore demonstrates that activation of Tip60&#x2019;s acetyltransferase activity by DNA damage is inhibited when the levels of H3K9me3 in the cell are reduced. This is consistent with the <italic>in vitro</italic> binding data in <xref ref-type="fig" rid="F3">figure 3</xref>, and indicates that interaction between Tip60&#x2019;s chromodomain and H3K9me3 at DSBs mediates activation of Tip60&#x2019;s acetyltransferase activity.</p>
+      <p id="P7">To confirm that Tip60&#x2019;s chromodomain and H3K9me3 interact <italic>in vivo</italic>, Tip60 immunoprecipitates were examined for the presence of H3. <xref ref-type="fig" rid="F5">Figure 5a</xref> demonstrates that bleomycin induced a DNA-damage dependent interaction between Tip60 and histone H3 (<xref ref-type="fig" rid="F5">figure 5a</xref>) and that this co-precipitating histone H3 was trimethylated on lysine 9. This interaction between Tip60 and H3 was significantly reduced in cells expressing the Tip60 chromodomain mutant (<xref ref-type="fig" rid="F5">figure 5a</xref>). When H3K9me3 methylation was reduced by expression of the histone demethylases Jmjd2D/KDM4D or Jmjd2A/KDM4A, the DNA damage dependent interaction between Tip60&#x2019;s chromodomain and histone H3 was significantly reduced (<xref ref-type="fig" rid="F5">figure 5b</xref>). Further, isolation of intact Tip60-H3K9me3 complexes could be achieved without disrupting the chromatin (<xref ref-type="supplementary-material" rid="SD11">figure S8e</xref>), suggesting that the Tip60-H3 complexes are either mobile within the nucleoplasm, or are only weakly associated with the chromatin after DNA damage. The results are consistent with a model in which the recruitment of Tip60 to DSBs leads to direct interaction between Tip60&#x2019;s chromodomain and H3K9me3, increasing Tip60&#x2019;s acetyltransferase activity. Cells lacking H3K9me3 should therefore be sensitive to agents which generate DSBs. Indeed, demethylation of H3K9 (by Jmjd2D/KDM4D) but not H3K27 (by Jmjd3/KDM6B) sensitizes cells to ionizing radiation (<xref ref-type="fig" rid="F5">figure 5c</xref>). H3K9me3 is therefore essential for activation of Tip60&#x2019;s acetyltransferase activity and for cells to survive ionizing radiation exposure.</p>
+      <p id="P8">Interaction between Tip60 and H3K9me3 may occur either through DNA damage induced H3K9 methylation at DSBs, or through utilization of pre-existing H3K9 methylation sites by Tip60 at DSBs. The overall levels of H3K9me3, H3K27me3 and H3K36me3 are unaltered following DNA damage (<xref ref-type="supplementary-material" rid="SD11">figure S8d</xref>), indicating that interactions with pre-existing H3 methylation sites are involved. The majority of the cellular H3K9me3 is bound by the HP1 family of proteins <xref ref-type="bibr" rid="R14">14</xref>, <xref ref-type="bibr" rid="R15">15</xref>, potentially making it unavailable for interaction with Tip60. However, following DNA damage, the chromodomain of HP1&#x3B2; is phosphorylated by casein kinase 2, and this phosphorylation leads to release of HP1&#x3B2; from H3K9me3 <xref ref-type="bibr" rid="R27">27</xref>. This DNA damage induced release of HP1&#x3B2; from the chromatin may generate domains of H3K9me3 which can interact with Tip60&#x2019;s chromodomain. Therefore, we examined if release of HP1&#x3B2; from the chromatin was required for activation of Tip60&#x2019;s acetyltransferase activity. Chromatin fractionation studies confirmed that HP1&#x3B2; is located on the chromatin prior to DNA damage (<xref ref-type="fig" rid="F5">figure 5d</xref>), and that a significant fraction of this HP1&#x3B2; is released to the nucleoplasm following exposure to bleomycin. Prior treatment of cells with 4,5,6,7-tetrabromobenzotriazole (TBB), a highly specific inhibitor of casein kinase 2 <xref ref-type="bibr" rid="R28">28</xref>, blocked release of HP1&#x3B2; from the chromatin (<xref ref-type="fig" rid="F5">figure 5d</xref>), as previously shown <xref ref-type="bibr" rid="R27">27</xref>. Inhibition of casein kinase II with TBB also blocked activation of Tip60&#x2019;s acetyltransferase by bleomycin and prevented the ATM-dependent phosphorylation of chk2 (<xref ref-type="fig" rid="F5">figure 5e</xref>). To determine if this effect was specific for HP1&#x3B2;, HP1&#x3B2; levels were depleted with siRNA, generating domains of H3K9me3 devoid of HP1&#x3B2; In the absence of HP1&#x3B2; the ability of TBB to block activation of Tip60&#x2019;s acetyltransferase activity and prevent phosphorylation of chk2 was lost (<xref ref-type="fig" rid="F5">figure 5e</xref>).</p>
+      <p id="P9">These results indicate that access of Tip60&#x2019;s chromodomain to H3K9me3 is controlled through 2 key steps (<xref ref-type="fig" rid="F5">figure 5f</xref>). First, the DNA-damage dependent ejection of HP1&#x3B2; from the chromatin is required to produce domains of H3K9me3 adjacent to the DSB. Second, association of the MRN complex with DSBs is required to efficiently recruit the inactive ATM-Tip60 complex to the DNA damage site. The localization of the ATM-Tip60 complex to the DSB facilitates productive interactions between Tip60&#x2019;s chromodomain and adjacent chromatin domains containing H3K9me3. This interaction increases Tip60&#x2019;s acetyltransferase activity, leading to the acetylation and activation of the ATM kinase, as well as the potential for Tip60 to directly acetylate other histones on the chromatin. The binding of H3K9me3 to Tip60&#x2019;s chromodomain therefore functions as an allosteric regulator of Tip60&#x2019;s catalytic activity, rather than as a binding module for recruiting Tip60 to DSB. In addition to Tip60, interactions between the MRN complex and ATM may also provide critical inputs for generating and maintaining ATM in its active form <xref ref-type="bibr" rid="R18">18</xref>. These results therefore provide a mechanistic framework which links together previous observations on the relative contributions of the MRN complex <xref ref-type="bibr" rid="R17">17</xref>, ATM autophosphorylation <xref ref-type="bibr" rid="R29">29</xref> and Tip60-dependent acetylation of ATM <xref ref-type="bibr" rid="R7">7</xref> to the activation of the ATM kinase. Further, H3K9me3 is predominantly located in the compacted, heterochromatic regions of the chromatin<xref ref-type="bibr" rid="R30">30</xref>, <xref ref-type="bibr" rid="R31">31</xref>, where it is associated with HP1. This suggests that Tip60 may be preferentially activated by DSBs generated within heterochromatin, which would be consistent with reports that the repair of DSBs in heterochromatin involves ATM <xref ref-type="bibr" rid="R32">32</xref>. However, because H3K9me3 can be found in non-heterochromatin regions <xref ref-type="bibr" rid="R33">33</xref>, Tip60 function is unlikely to be entirely restricted to heterochromatic regions during DNA damage responses. These results also have important consequences for human disease. Histone methylation patterns differ between cell lineages and are frequently altered in human tumors<xref ref-type="bibr" rid="R20">20</xref>, <xref ref-type="bibr" rid="R34">34</xref>. These altered histone methylation signatures may play a key role in the etiology of cancer by regulating the efficiency and extent of DNA repair at specific sites in the chromatin. The tumor suppressor functions of Tip60 are therefore intimately linked to the levels of H3K9me3, and to the methyltransferases and demethylases which regulate this histone modification.</p>
+    </sec>
+    <sec sec-type="methods" id="S2">
+      <title>Methods section</title>
+      <sec id="S3">
+        <title>Cells</title>
+        <p id="P10">HeLaS3, 293T, HCT116 cells and Mouse Embryonic Fibroblasts were cultured as previously described<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R22">22</xref>. Cells were irradiated using a Cs<sup>137</sup> irradiator and clonogenic cell survival monitored as in <xref ref-type="bibr" rid="R7">7</xref>. For cell survival assays, averages were calculated from at least 3 independent plates, and expressed plus or minus the standard deviation (SD).</p>
+      </sec>
+      <sec id="S4">
+        <title>Immunoprecipitation and western blot analysis</title>
+        <p id="P11">Cell lysis buffers, immunoprecipitation and western blot analysis are as described by us <xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref>. Cells (1&#xD7;10<sup>7</sup>) were lyzed in ATM lysis buffer (20mM Hepes pH7.4; 150mM NaCl; 0.2% Tween 20; 1.5mM MgCl<sub>2</sub>; 1mM EGTA; 2mM DTT; 50mM NaF; 500&#x3BC;M NaVO<sub>4</sub>; 1mM PMSF; 1&#x3BC;g/ml aprotinin; 1&#x3BC;g/ml leupeptin) and cleared by centrifugation. Antibodies to ATM (PC116; EMD biosciences, CA) or Tip60 (HA or Tip60; Abcam, MA and Upstate Biotechnology, NY) were used for immunoprecipitation, and immune complexes collected on protein-A agarose beads. Immunoprecipitates were washed 3 times in ATM lysis buffer, and once each in High Salt Buffer (100mM Tris, pH7.4; 600mM NaCl; 1mM DTT; 1mM PMSF), and base buffer (10mM Hepes, pH7.4; 10mM MgCl<sub>2</sub>; 50mM NaCl; 1mM DTT; 1mM PMSF). For co-precipitation of Tip60 and histone H3, cells were lyzed in ATM lysis buffer supplemented with benzonase (Novagen, CA) to digest DNA, and then centrifuged (35Kg for 20min) to remove chromatin fragments and cell debris. Immunoprecipitation was carried out as described above. For histone extraction, cells were harvested, washed in phosphate buffered saline (PBS), resuspended in Buffer C (20mM Hepes pH7.9; 0.1% Triton X-100; 1.5mM MgCl<sub>2</sub>; 1mM PMSF; 1mM DTT) and incubated for 10 minutes. Lysates were centrifuged (1500g for 10 minutes), washed once in buffer C and the resulting pellet resuspended in buffer D (10mM Hepes pH7.9; 10mM KCl; 1.5mM MgCl2; 1mM DTT; 1mM PMSF) to a final volume of 600&#x3BC;l. Sulfuric acid (2.0N) was then added to a final concentration of 0.4N. Samples were incubated on ice for 30 minutes, and cleared by centrifugation (15Kg for 15 minutes). 1/5 volume of ice cold TCA (100%) was added to the supernatant and then incubated for 30 minutes on ice. Precipitates were collected by centrifugation (15kg for 15 minutes), and washed with ice-cold 0.1% HCl/ acetone followed by ice-cold acetone alone. Pellets were air dried and resuspended in 10mM Hepes pH 7.9. Antibodies used were: ATM 2C1 (Genetex, TX); phospho-Ser 1981 ATM (Rockland Biochemicals, PA); anti-acetyl-lysine, Tip60, H2AX, H3K9me3 (Upstate Biotechnology, NY); Tip60 (N17; Santa Cruz, CA); Flag M-2 (Sigma, MO); p53, phospho-Ser 15 p53, ATM antibody PC116 (EMD Biosciences, CA); &#x3B2;-actin, Chk2, phospho-Thr 68 chk2, &#x3B3;H2AX (Cell Signaling, MA); Nbs1 (Novus biologicals, CO); Histone H3, HA, H3K27me3, H3K36me3, CBX1 (HP1&#x3B2;) (Abcam, MA); Rad50 (Genetex, TX).</p>
+      </sec>
+      <sec id="S5">
+        <title>Transfection protocols</title>
+        <p id="P12">Mutagenesis was carried out using the QuikChange&#xAE; II XL Site-Directed Mutagenesis Kits (Stratagene, CA). For stable cell lines, HeLaS3 cells were transfected with vector or Tip60 expression vectors using FUGENE-6, and clonal cell lines established by selection in neomycin (400&#x3BC;g/ml). For transient expression of histone demethylases in 293T cells, FUGENE-6 and plasmid DNA were mixed at a 3:1 ratio, and added directly to tissue culture media. Exactly 30hr post-transfection, cells were immediately used for experimental protocols. For siRNA experiments, cells were transfected using Lipofectamine 2000 (Invitrogen, CA). Control and HP1&#x3B2; (CBX1) specific siRNA were purchased from Dharmacon, IL (catalog numbers D-001810-10 and L-009716-00 respectively).</p>
+      </sec>
+      <sec id="S6">
+        <title>HAT assays</title>
+        <p id="P13">For HAT assays, Tip60 immunoprecipitates (prepared as described above) were washed twice in HAT assay buffer (50mM Tris pH 8.0; 10% Glycerol; 0.1mM EDTA; 1mM DTT), and incubated in HAT assay buffer (60&#x3BC;l) supplemented with acetyl-CoA (100&#x3BC;M), and biotinylated Histone H4 peptide (0.5&#x3BC;g) for 30min at 30&#xB0;C. An aliquot of the reaction was immobilized onto 96-well streptavidin plates, and acetylation of the H4 peptide detected using a HAT ELISA according to the manufacturer&#x2019;s instructions (Upstate Biotechnology, NY). HAT activity is expressed as the change in absorbance relative to the reference wavelength (450nm-540nm). Validation of the acetyltransferase assay, and details of procedures, are described in the supplementary figures and in<xref ref-type="bibr" rid="R6">6</xref>, <xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R12">12</xref>. For <italic>in vitro</italic> reactions to determine the ability of methylated histone H3 peptides to activate Tip60, Tip60 immunoprecipitates were incubated with peptide (500ng) or H3 (500ng) for 15 minutes, followed by 3 washes in HAT assay buffer to remove unbound peptide. HAT activity was measured as described above. Methylation of recombinant histone H3 was carried out as follows<xref ref-type="bibr" rid="R35">35</xref>: recombinant H3 (10&#x3BC;g) was incubated with freshly prepared NaBH<sub>4</sub> (40 mg/ml) and formalin (5&#x3BC;l) on ice and aliquots removed every 10 minutes for western blot analysis using a pan methyl-lysine antibody. Histone H3 peptide sequences are listed in <xref ref-type="supplementary-material" rid="SD1">supplementary table 1</xref>. <italic>Statistical analysis of the HAT assay</italic>: For each data point, 3 independent immunopurification reactions were carried out, followed by assay of the HAT activity associated with each immunopurification. The resulting triplicate data points were averaged, and expressed plus or minus the standard deviation (SD). Individual experiments were repeated at least twice.</p>
+      </sec>
+      <sec id="S7">
+        <title>Peptide binding studies</title>
+        <p id="P14">Biotinylated peptides (5&#x3BC;g; <xref ref-type="supplementary-material" rid="SD1">supplementary table 1</xref>) were prebound to sepharose-avidin beads for 3 hr at 4&#xB0;C, and washed extensively in binding buffer (20mM Hepes, pH7.5; 150mM NaCl; 2.5% glycerol; 0.05% Tween 20; 2mM DTT; 0.1&#x3BC;g/ml aprotinin; 0.1&#x3BC;g/ml leupeptin; 1mM PMSF). Nuclear extracts <xref ref-type="bibr" rid="R36">36</xref> were prepared from cells expressing either vector, HA-Tip60 or HA-Tip60<sup>CD</sup>. Extracts were precleared with sepharose-avidin beads, and incubated with peptide bound to sepharose-avidin beads for 2hr in binding buffer. Beads were washed with wash buffer (20mM Hepes pH7.9; 300mM KCl; 0.2% Tween 20; 1.5mM MgCl<sub>2</sub>; 2mM DTT; 50mM NaF; 500&#x3BC;M Na<sub>3</sub>VO<sub>4</sub>; 0.1&#x3BC;g/ml aprotinin; 0.1&#x3BC;g/ml leupeptin; 1mM PMSF), followed by base buffer (4mM Hepes pH7.9; 10mM NaCl; 1mM PMSF; 2mM DTT). Bound proteins were eluted from the resin with SDS sample buffer and analyzed by SDS PAGE.</p>
+      </sec>
+      <sec id="S8">
+        <title>In vitro translation</title>
+        <p id="P15">Tip60 or Tip60<sup>CD</sup> were <italic>in vitro</italic> translated using the TNT<sup>&#xAE;</sup> T7 Coupled Reticulocyte Lysate System (Promega, WI) in a final volume of 500&#x3BC;l. For binding of <italic>in vitro</italic> translated Tip60 to H3K9me3, biotinylated peptides were prebound to sepharose-avidin beads as described in the previous section. <italic>In vitro</italic> translate (100&#x3BC;l) was diluted in binding buffer (20mM Hepes pH7.9; 150mM NaCl; 0.05% Tween 20; 2.5% Glycerol; 1.5mM MgCl<sub>2</sub>; 2mM DTT; 0.1&#x3BC;g/ml aprotinin; 0.1&#x3BC;g/ml leupeptin; 1mM PMSF) to a final volume of 500&#x3BC;l. <italic>In vitro</italic> translates were incubated with sepharose-avidin columns (4hr at 4&#xB0;C), washed 5 times in binding buffer, once in base buffer (10mM Hepes, pH7.4; 10mM MgCl<sub>2</sub>; 50mM NaCl; 1mM DTT; 1mM PMSF) and proteins eluted in SDS-PAGE sample buffer.</p>
+        <sec id="S9">
+          <title>Chromatin fractionation experiments</title>
+          <p id="P16">Chromatin fractionation was carried out as described in <xref ref-type="bibr" rid="R37">37</xref>. 1&#xD7;10<sup>8</sup> 293T cells were resuspended in 200&#x3BC;l buffer A (10mM Hepes, pH7.9; 10mM KCl; 1.5mM MgCl<sub>2</sub>; 0.34M sucrose; 10% glycerol; 1mM DTT; 0.1&#x3BC;g/ml aprotinin; 0.1&#x3BC;g/ml leupeptin; 1mM PMSF). Triton X-100 was added to a final concentration of 0.05% followed by incubation on ice for 5 minutes. Nuclei were collected by centrifugation (15Kg for 5 minutes). The supernatant was cleared by centrifugation (20Kg for 20min) and designated S1. Nuclei were washed in buffer A, then lyzed in buffer B (3mM EDTA; 0.2mM EGTA; 1mM DTT) for 10 minutes on ice. The insoluble chromatin fraction was collected by centrifugation (2Kg for 4 mins). The supernatant was cleared by centrifugation (20Kg for 20min) and designated S2. Finally, the chromatin fraction was washed in buffer B, treated with benzonase (5&#x3BC;l at 1:10 dilution; Novagen, CA) to digest DNA, and the chromatin associated proteins solubilized in SDS-sample buffer.</p>
+        </sec>
+        <sec id="S10">
+          <title>Chromosome aberrations</title>
+          <p id="P17">HeLaS3 cells were irradiated (2Gy) and allowed to recover for 14hr. Colcemid was added, and the metaphase spreads prepared as described in <xref ref-type="bibr" rid="R38">38</xref>. All spreads were counted blind.</p>
+        </sec>
+        <sec id="S11">
+          <title>Immunofluorescence</title>
+          <p id="P18">Cells (cultured on cover slides) were fixed in phosphate buffered saline (PBS) containing paraformaldehyde (2%), blocked with serum (2%) and permeabilized in Bovine Serum Albumen (0.2%) containing saponin (0.2%) for 10min. Cells were incubated with primary antibody for 1h, washed, followed by secondary antibody for 1h. Slides were mounted with Fluoromount-G (Southern Biotech, AL) and visualized with a Nikon Eclipse TE 2000 microscope.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS133745-supplement-1.doc" xlink:type="simple" id="N0xfc131f0N0x10a4ce30" position="anchor" mimetype="application" mime-subtype="msword"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD10">
+        <label>8</label>
+        <media xlink:href="NIHMS133745-supplement-8.tif" xlink:type="simple" id="N0xfc131f0N0x10a4cef0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD11">
+        <label>9</label>
+        <media xlink:href="NIHMS133745-supplement-9.tif" xlink:type="simple" id="N0xfc131f0N0x10a4cfb0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>10</label>
+        <media xlink:href="NIHMS133745-supplement-10.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d070" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>11</label>
+        <media xlink:href="NIHMS133745-supplement-11.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d130" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>2</label>
+        <media xlink:href="NIHMS133745-supplement-2.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d1f0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>3</label>
+        <media xlink:href="NIHMS133745-supplement-3.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d2b0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>4</label>
+        <media xlink:href="NIHMS133745-supplement-4.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d370" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD7">
+        <label>5</label>
+        <media xlink:href="NIHMS133745-supplement-5.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d430" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD8">
+        <label>6</label>
+        <media xlink:href="NIHMS133745-supplement-6.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d4f0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD9">
+        <label>7</label>
+        <media xlink:href="NIHMS133745-supplement-7.tif" xlink:type="simple" id="N0xfc131f0N0x10a4d5b0" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S12">
+      <title>Acknowledgements</title>
+      <p>We thank T. Jenuwein for providing Suv39h1/2 cells, D. Ferguson for providing rad50 deficient HCT116 cells, and H. Chan, J. Cote, D. Chowdhury and A. D&#x2019;Andrea for critical discussions and reading of the manuscript. This work was supported by grants from the NCI (CA64585 and CA93602) and the DOD Breast Cancer Program to BDP, and by NCI training grants to YS and MKA (T32 CA09078). YX is supported by a U19 Center grant from NIAID (U19AI067751).</p>
+    </ack>
+    <fn-group>
+      <fn id="FN2">
+        <p id="P19"><bold>Author information:</bold> The authors declare that they have no competing financial interests.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="R1">
+        <label>1</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Squatrito</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gorrini</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Amati</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Tip60 in DNA damage response and growth control: many tricks in one HAT</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2006</year>
+        </citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bird</surname>
+              <given-names>AW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Acetylation of histone H4 by Esa1 is required for DNA double-strand break repair</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>419</volume>
+          <fpage>411</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="pmid">12353039</pub-id>
+        </citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Downs</surname>
+              <given-names>JA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Binding of Chromatin-Modifying Activities to Phosphorylated Histone H2A at DNA Damage Sites</article-title>
+          <source>Mol Cell</source>
+          <year>2004</year>
+          <volume>16</volume>
+          <fpage>979</fpage>
+          <lpage>90</lpage>
+          <pub-id pub-id-type="pmid">15610740</pub-id>
+        </citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murr</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Histone acetylation by Trrap-Tip60 modulates loading of repair proteins and repair of DNA double-strand breaks</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>91</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">16341205</pub-id>
+        </citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kusch</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Acetylation by Tip60 Is Required for Selective Histone Variant Exchange at DNA Lesions</article-title>
+          <source>Science</source>
+          <year>2004</year>
+        </citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>BD</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA damage-induced acetylation of lysine 3016 of ATM activates ATM kinase activity</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <fpage>8502</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">17923702</pub-id>
+        </citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>BD</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for the Tip60 histone acetyltransferase in the acetylation and activation of ATM</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>13182</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">16141325</pub-id>
+        </citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gorrini</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tip60 is a haplo-insufficient tumour suppressor required for an oncogene-induced DNA damage response</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>448</volume>
+          <fpage>1063</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">17728759</pub-id>
+        </citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>ME</surname>
+              <given-names>LL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>New p53 related genes in human tumors: significant downregulation in colon and lung carcinomas</article-title>
+          <source>Oncol Rep</source>
+          <year>2006</year>
+          <volume>16</volume>
+          <fpage>603</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">16865262</pub-id>
+        </citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>JH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transcriptional regulation of a metastasis suppressor gene by Tip60 and beta-catenin complexes</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>434</volume>
+          <fpage>921</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">15829968</pub-id>
+        </citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halkidou</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expression of Tip60, an androgen receptor coactivator, and its role in prostate cancer development</article-title>
+          <source>Oncogene</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>2466</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">12717424</pub-id>
+        </citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Price</surname>
+              <given-names>BD</given-names>
+            </name>
+          </person-group>
+          <article-title>The FATC domains of PIKK proteins are functionally equivalent and participate in the Tip60-dependent activation of DNA-PKcs and ATM</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>15741</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">16603769</pub-id>
+        </citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taverna</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ruthenburg</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Allis</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>How chromatin-binding modules interpret histone modifications: lessons from professional pocket pickers</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <fpage>1025</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="pmid">17984965</pub-id>
+        </citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Khorasanizadeh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of HP1 chromodomain bound to a lysine 9-methylated histone H3 tail</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>295</volume>
+          <fpage>2080</fpage>
+          <lpage>3</lpage>
+          <pub-id pub-id-type="pmid">11859155</pub-id>
+        </citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>PR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of the HP1 chromodomain bound to histone H3 methylated at lysine 9</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>416</volume>
+          <fpage>103</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">11882902</pub-id>
+        </citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uziel</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Requirement of the MRN complex for ATM activation by DNA damage</article-title>
+          <source>Embo J</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>5612</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="pmid">14532133</pub-id>
+        </citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Paull</surname>
+              <given-names>TT</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation and regulation of ATM kinase activity in response to DNA double-strand breaks</article-title>
+          <source>Oncogene</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <fpage>7741</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">18066086</pub-id>
+        </citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Paull</surname>
+              <given-names>TT</given-names>
+            </name>
+          </person-group>
+          <article-title>ATM activation by DNA double-strand breaks through the Mre11-Rad50-Nbs1 complex</article-title>
+          <source>Science</source>
+          <year>2005</year>
+          <volume>308</volume>
+          <fpage>551</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">15790808</pub-id>
+        </citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bryson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Eckersdorff</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>DO</given-names>
+            </name>
+          </person-group>
+          <article-title>Rad50 depletion impacts upon ATR-dependent DNA damage responses</article-title>
+          <source>Hum Mol Genet</source>
+          <year>2005</year>
+          <volume>14</volume>
+          <fpage>2685</fpage>
+          <lpage>93</lpage>
+          <pub-id pub-id-type="pmid">16087684</pub-id>
+        </citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bernstein</surname>
+              <given-names>BE</given-names>
+            </name>
+            <name>
+              <surname>Meissner</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lander</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>The mammalian epigenome</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>128</volume>
+          <fpage>669</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="pmid">17320505</pub-id>
+        </citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kouzarides</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Chromatin modifications and their function</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>128</volume>
+          <fpage>693</fpage>
+          <lpage>705</lpage>
+          <pub-id pub-id-type="pmid">17320507</pub-id>
+        </citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peters</surname>
+              <given-names>AH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of the Suv39h histone methyltransferases impairs mammalian heterochromatin and genome stability</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>107</volume>
+          <fpage>323</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">11701123</pub-id>
+        </citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whetstine</surname>
+              <given-names>JR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reversal of histone lysine trimethylation by the JMJD2 family of histone demethylases</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>125</volume>
+          <fpage>467</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="pmid">16603238</pub-id>
+        </citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klose</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The transcriptional repressor JHDM3A demethylates trimethyl histone H3 lysine 9 and lysine 36</article-title>
+          <source>Nature</source>
+          <year>2006</year>
+          <volume>442</volume>
+          <fpage>312</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">16732292</pub-id>
+        </citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hong</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of JmjC domain-containing UTX and JMJD3 as histone H3 lysine 27 demethylases</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <fpage>18439</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">18003914</pub-id>
+        </citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiff</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ATM and DNA-PK function redundantly to phosphorylate H2AX after exposure to ionizing radiation</article-title>
+          <source>Cancer Res</source>
+          <year>2004</year>
+          <volume>64</volume>
+          <fpage>2390</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">15059890</pub-id>
+        </citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayoub</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Jeyasekharan</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Bernal</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Venkitaraman</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <article-title>HP1-beta mobilization promotes chromatin changes that initiate the DNA damage response</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>453</volume>
+          <fpage>682</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">18438399</pub-id>
+        </citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruzzene</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Penzo</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Pinna</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein kinase CK2 inhibitor 4,5,6,7-tetrabromobenzotriazole (TBB) induces apoptosis and caspase-dependent degradation of haematopoietic lineage cell-specific protein 1 (HS1) in Jurkat cells</article-title>
+          <source>Biochem J</source>
+          <year>2002</year>
+          <volume>364</volume>
+          <fpage>41</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">11988074</pub-id>
+        </citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bakkenist</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Kastan</surname>
+              <given-names>MB</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA damage activates ATM through intermolecular autophosphorylation and dimer dissociation</article-title>
+          <source>Nature</source>
+          <year>2003</year>
+          <volume>421</volume>
+          <fpage>499</fpage>
+          <lpage>506</lpage>
+          <pub-id pub-id-type="pmid">12556884</pub-id>
+        </citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barski</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High-resolution profiling of histone methylations in the human genome</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>129</volume>
+          <fpage>823</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">17512414</pub-id>
+        </citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Regha</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Active and repressive chromatin are interspersed without spreading in an imprinted gene cluster in the mammalian genome</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <fpage>353</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="pmid">17679087</pub-id>
+        </citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goodarzi</surname>
+              <given-names>AA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ATM signaling facilitates repair of DNA double-strand breaks associated with heterochromatin</article-title>
+          <source>Mol Cell</source>
+          <year>2008</year>
+          <volume>31</volume>
+          <fpage>167</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">18657500</pub-id>
+        </citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vakoc</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Sachdeva</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Blobel</surname>
+              <given-names>GA</given-names>
+            </name>
+          </person-group>
+          <article-title>Profile of histone lysine methylation across transcribed mammalian chromatin</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2006</year>
+          <volume>26</volume>
+          <fpage>9185</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">17030614</pub-id>
+        </citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seligson</surname>
+              <given-names>DB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Global histone modification patterns predict risk of prostate cancer recurrence</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>435</volume>
+          <fpage>1262</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">15988529</pub-id>
+        </citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pethe</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mycobacterial heparin-binding hemagglutinin and laminin-binding protein share antigenic methyllysines that confer resistance to proteolysis</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>10759</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="pmid">12149464</pub-id>
+        </citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dignam</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Lebovitz</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Roeder</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Accurate transcription initiation by RNA polymerase II in a soluble extract from isolated mammalian nuclei</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1983</year>
+          <volume>11</volume>
+          <fpage>1475</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="pmid">6828386</pub-id>
+        </citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Stern</surname>
+              <given-names>DF</given-names>
+            </name>
+          </person-group>
+          <article-title>NFBD1/KIAA0170 is a chromatin-associated protein involved in DNA damage signaling pathways</article-title>
+          <source>J Biol Chem</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>8795</fpage>
+          <lpage>803</lpage>
+          <pub-id pub-id-type="pmid">12499369</pub-id>
+        </citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Targeted disruption of the murine Fanconi anemia gene, Fancg/Xrcc9</article-title>
+          <source>Blood</source>
+          <year>2001</year>
+          <volume>98</volume>
+          <fpage>3435</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="pmid">11719385</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec id="S13" sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="F1" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>Tip60&#x2019;s chromodomain is required for acetyltransferase activity</title>
+          <p><bold>(a)</bold> HeLaS3 cells expressing HA-Tip60 or HA-Tip60 with the indicated mutations were exposed to bleomycin (5&#x3BC;M for 40 minutes) as indicated. Tip60 was immunopurified with HA antibody or IgG, and the associated acetyltransferase activity measured as described in methods. Each data point represents the average of 3 independent immunoprecipitation assays, results &#xB1; SD. <bold>(b)</bold> HeLaS3 cells expressing vector, Tip60 or the indicated Tip60 chromodomain mutants were untreated (&#x2212;) or irradiated (5Gy: +), and ATM immunoprecipitated. Western blot analysis to detect ATM, phospho-ATM (pS1981) or Tip60-dependent acetylation of ATM (AcLys) was then carried out. <bold>(c</bold>) HeLaS3 cells expressing either HA-Tip60 or HA-Tip60<sup>CD</sup> (Tip60<sup>Y47A</sup>) were untreated (0Gy) or irradiated (5Gy). Cells were then fixed and immunofluorescent (IF) staining with antibodies to detect &#x3B3;H2AX or HA-Tip60 carried out. Scale bar equals 10&#x3BC;M. <bold>(d)</bold> HCT116 cells expressing either a non-targeting shRNA (shCon) or shRNA targeting Rad50 (shRad50) were transfected with HA-Tip60. Cells were either unirradiated (No IR) or exposed to 0.5Gy. Cells were fixed 15 or 40 minutes post-irradiation and immunofluorescent staining with antibodies to detect HA-Tip60 carried out. Scale bar equals 10&#x3BC;M. <bold>(e)</bold> Quantification of the images in (e). The number of cells with Tip60 foci (defined as cells with &gt; 5 foci) was measured visually. Results &#xB1; SD, based on analyzing at least 80 cells per slide.</p>
+        </caption>
+        <graphic xlink:href="nihms-133745-f0001"/>
+      </fig>
+      <fig id="F2" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <title>MRN is essential for Tip60 activation</title>
+          <p><bold>(a)</bold> HCT116 cells expressing either a non-targeting shRNA (shCon) or shRNA targeting Rad50 (shRad50) were exposed to bleomycin (5&#x3BC;M) for the indicated times. Tip60 was then immunopurified, and the associated HAT activity measured. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(b)</bold> HCT116 cells expressing either a non-targeting shRNA (shCon) or shRNA targeting Rad50 (shRad50) were irradiated (2Gy) and cell extracts prepared. ATM was immunoprecipitated, and ATM levels, phospho-ATM (pS1981) and ATM acetylation (AcLys) measured by western blot analysis. Levels of Rad50, Tip60 and &#x3B2;-actin in the original lysate are shown. <bold>(c)</bold> HeLaS3 cells expressing either HA-Tip60 (&#x394;) or HA-Tip60<sup>CD</sup> (&#x25CB;) were irradiated at the indicated dose, and the number of surviving colonies measured 12 days later. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(d)</bold> Tip60 and Tip60<sup>HD</sup> cells were irradiated (2Gy) and allowed to recover for 14hr. Metaphase spreads were subsequently scored for chromosome aberrations. Results expressed as number of aberrations per cell (n = 50 cells).</p>
+        </caption>
+        <graphic xlink:href="nihms-133745-f0002"/>
+      </fig>
+      <fig id="F3" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <title>Tip60&#x2019;s chromodomain interacts with H3K9me3 <italic>in vitro</italic></title>
+          <p><bold>(a)</bold> Immunopurified HA-Tip60 was incubated with buffer (control), calf thymus H3 (ctH3), unmodified H3 peptide (amino-acids 1-21), or H3 peptide di- or trimethylated at the indicated lysine. Peptide sequences listed in <xref ref-type="supplementary-material" rid="SD1">supplementary table 1</xref>. Excess peptide was removed by washing, and associated Tip60 acetyltransferase activity measured. Mock immunopurification with IgG shown. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(b)</bold> Immunopurified HA-Tip60 or HA-Tip60<sup>CD</sup> were incubated with buffer (control), unmodified peptides H3(1-21) or H3(21-44), corresponding to amino-acids 1-21 or 21-44 of H3 respectively, or peptides trimethylated on lysine 9 (H3K9me3) or lysine 36 (H3K36me3). Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(c)</bold> Biotinylated peptides were pre-bound to sepharose-avidin beads and incubated with nuclear extracts from cells expressing HA-Tip60. Bound Tip60 was eluted and detected by western blot using HA antibody. Unmodified peptides H3(1-21) and H3(21-44), di- or trimethylated H3K4, H3K9, H3K27, H3K36 and input Tip60 is shown. Polyacrylamide gels were stained with Coomasie Blue to confirm loading (<xref ref-type="supplementary-material" rid="SD6">figure S3b</xref>). <bold>(d)</bold> Biotinylated peptides were pre-bound to sepharose-avidin beads and incubated with nuclear extracts from cells expressing HA-Tip60 or HA-Tip60<sup>CD</sup>. Bound Tip60 was eluted and detected by western blot analysis using HA antibody. Polyacrylamide gels were stained with Coomasie Blue to confirm loading (<xref ref-type="supplementary-material" rid="SD6">figure S3c</xref>). <bold>(e)</bold> Biotinylated H3(1-21), H3K4me3, H3K9me3 or H3K27me3 peptides were pre-bound to sepharose-avidin beads and incubated with <italic>in vitro</italic> translated HA-Tip60, <italic>in vitro</italic> translated HA-Tip60<sup>CD</sup> or mock translation reactions (vector). Bound Tip60 was eluted and detected by western blot analysis using HA antibody. Input <italic>in vitro</italic> translates as indicated. <bold>(f) </bold><italic>In vitro</italic> translated HA-Tip60 was prebound to biotinylated H3K9me3 peptide immobilized on sepharose-avidin beads. Following washing, increasing concentrations of competitor peptides H3K4me3, H3K9me3 or H3K27me3 were added and incubated for 30 minutes. The remaining HA-Tip60 was eluted from the column, separated by SDS-PAGE and detected by western blot analysis using HA antibody.</p>
+        </caption>
+        <graphic xlink:href="nihms-133745-f0003"/>
+      </fig>
+      <fig id="F4" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <title>Demethylation of H3K9 blocks activation of Tip60 acetyltransferase activity</title>
+          <p><bold>(a</bold>) Wild type Suv39h1/2<sup>+/+</sup> or Suv39h1/2<sup>&#x2212;/&#x2212;</sup> double knockout MEFs were untreated (&#x2212;) or exposed to bleomycin (5&#x3BC;M for 30 minutes). Tip60 was immunopurified with Tip60 antibody, and associated acetyltransferase activity measured. Mock purification with IgG is shown for comparison. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(b)</bold>. Wild type Suv39h1/2<sup>+/+</sup> or Suv39h1/2<sup>&#x2212;/&#x2212;</sup> double knockout MEFs were untreated (&#x2212;) or irradiated (5Gy). Levels of ATM, phospho-ATM (pS1981), histone H3 or H3 trimethylated on lysine 9 (H3K9me3) were monitored by western blot analysis. <bold>(c)</bold> 293T cells expressing HA-Tip60 were transiently transfected with vector, or expression vectors for the histone demethylases Jmjd3/KDM6B, Jmjd2A/KDM4A or Jmjd2D/KDM4D. Cells were irradiated (5Gy) and immunofluorescent staining used to detect either nbs1 and &#x3B3;H2AX (<italic>left hand panel</italic>) or FLAG-Tip60 and &#x3B3;H2AX (<italic>right hand panel</italic>). Scale bar equals 10&#x3BC;M. <bold>(d)</bold> 293T cells were transiently transfected with vector, Jmjd3/KDM6B, Jmjd2A/KDM4A or Jmjd2D/KDM4D. Exactly 30h post-transfection, cells were exposed to bleomycin (5&#x3BC;M for 30 minutes) as indicated. Tip60 was immunopurified, and the associated acetyltransferase activity measured. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(e)</bold> 293T cells were transiently transfected with vector, Jmjd3/KDM6B, Jmjd2A/KDM4A or Jmjd2D/KDM4D demethylases. Exactly 30h post-transfection, cells were untreated (&#x2212;) or irradiated (5Gy) and analyzed by western blot analysis for ATM, phospho-ATM (pS1981), chk2 and phospho-chk2 (pT68-chk2), p53 and phospho-p53 (pS15-p53), and H2AX and phospho-H2AX (&#x3B3;H2AX).</p>
+        </caption>
+        <graphic xlink:href="nihms-133745-f0004"/>
+      </fig>
+      <fig id="F5" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <title>DNA damage regulates interaction between Tip60 and H3K9me3</title>
+          <p><bold>(a)</bold> HeLaS3 cells expressing vector, HA-Tip60 or HA-Tip60<sup>CD</sup> were untreated (&#x2212;) or exposed to bleomycin (5&#x3BC;M for 40mins), and cells lyzed in the presence of benzonase to release chromatin associated proteins. Cell extracts were immunoprecipitated with IgG or HA antibody and associated histone H3, H3K9me3 and HA-Tip60 detected by western blot. Levels of input Tip60 and H3 shown. <bold>(b)</bold> HeLaS3 cells were transiently transfected with vector, Jmjd3/KDM6B, Jmjd2A/KDM4A or Jmjd2D/KDM4D. Exactly 30h post-transfection, cells were exposed to bleomycin (5&#x3BC;M for 40min) and lyzed in the presence of benzonase. FLAG-Tip60 was immunoprecipitated and Tip60 and histone H3 detected by western blot analysis. Levels of input H3 are shown. <bold>(c)</bold> 293T cells transiently expressing vector, Jmjd3/KDM6B or Jmjd2D/KDM4D were irradiated, and cell survival assays carried out. Each data point represents the average of 3 independent assays, results &#xB1; SD. <bold>(d)</bold> Cells were preincubated in TBB (75&#x3BC;M for 2hr), followed by bleomycin as indicated. Cytoplasmic (S2), nucleoplasmic (S3) and chromatin (P3) fractions were analyzed for HP1&#x3B2; expression. Levels of &#x3B2;-tubulin (cytoplasmic marker), &#x3B2;-actin and H3 shown. <bold>(e)</bold> 293T cells transfected with control or HP1&#x3B2;-specific siRNA specific were incubated with TBB (75&#x3BC;M for 2hr) followed by bleomycin (5&#x3BC;M for 30min). <italic>Top panel:</italic> Tip60 was immunopurified with HA antibody and the associated acetyltransferase activity measured. Each data point represents the average of 3 independent assays, results &#xB1; SD. <italic>Bottom panel:</italic> Levels of HP1&#x3B2;, Tip60, phospho-chk2 (pT68-chk2), chk2, phospho-H2AX (&#x3B3;H2AX), H2AX and &#x3B2;-actin measured by western blot analysis. <bold>(f) Model for ATM activation.</bold> Generation of DSBs leads to recruitment of MRN and CK2 to the break. CK2-dependent phosphorylation of HP1&#x3B2; releases HP1&#x3B2; from the chromatin. Subsequent recruitment of the ATM-Tip60 to MRN facilitates interaction between Tip60&#x2019;s chromodomain and free H3K9me3. Tip60&#x2019;s acetyltransferase activity is upregulated, leading to acetylation and activation of ATM&#x2019;s kinase activity. The fully active ATM kinase then phosphorylates key target proteins and regulates ATM-dependent signaling events. Recruitment of CK2 and MRN to the DSB are independent events.</p>
+        </caption>
+        <graphic xlink:href="nihms-133745-f0005"/>
+      </fig>
+    </sec>
+  </back>
+</article>
+</pmc-articleset>

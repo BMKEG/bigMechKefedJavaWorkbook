@@ -1,0 +1,2281 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Exp Med</journal-id>
+      <journal-title>The Journal of Experimental Medicine</journal-title>
+      <issn pub-type="ppub">0022-1007</issn>
+      <issn pub-type="epub">1540-9538</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">10790433</article-id>
+      <article-id pub-id-type="pmc">2213442</article-id>
+      <article-id pub-id-type="publisher-id">000334</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Phosphoprotein Associated with Glycosphingolipid-Enriched Microdomains (Pag), a Novel Ubiquitously Expressed Transmembrane Adaptor Protein, Binds the Protein Tyrosine Kinase Csk and Is Involved in Regulation of T Cell Activation</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brdicka</surname>
+            <given-names>Tomas</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pavlistova</surname>
+            <given-names>Dagmar</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leo</surname>
+            <given-names>Albrecht</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bruyns</surname>
+            <given-names>Eddy</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Korinek</surname>
+            <given-names>Vladimir</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Angelisova</surname>
+            <given-names>Pavla</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scherer</surname>
+            <given-names>Jeanette</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shevchenko</surname>
+            <given-names>Andrej</given-names>
+          </name>
+          <xref ref-type="aff" rid="c">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shevchenko</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="c">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hilgert</surname>
+            <given-names>Ivan</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cerny</surname>
+            <given-names>Jan</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+          <xref ref-type="aff" rid="d">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Drbal</surname>
+            <given-names>Karel</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kuramitsu</surname>
+            <given-names>Yasuhiro</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kornacker</surname>
+            <given-names>Birgit</given-names>
+          </name>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Horejsi</surname>
+            <given-names>Vaclav</given-names>
+          </name>
+          <xref ref-type="aff" rid="a">a</xref>
+          <xref ref-type="aff" rid="d">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schraven</surname>
+            <given-names>Burkhart</given-names>
+          </name>
+          <address>
+            <addr-line>Institute for Immunology, Immunomodulation Laboratory, Ruprecht-Karls University Heidelberg, Im Neuenheimer Feld 305, 69120 Heidelberg, Germany.</addr-line>
+            <fax>6221-56-5541</fax>
+            <phone>6221-56-4059</phone>
+          </address>
+          <email>m53@popix.urz.uni-heidelberg.de</email>
+          <xref ref-type="aff" rid="b">b</xref>
+        </contrib>
+        <aff id="a"><label>a</label>Institute of Molecular Genetics, Academy of Sciences of the Czech Republic, 14220 Prague, Czech Republic</aff>
+        <aff id="b"><label>b</label>Immunomodulation Laboratory of the Institute for Immunology, Ruprecht-Karls University Heidelberg, 69120 Heidelberg, Germany</aff>
+        <aff id="c"><label>c</label>Peptide and Protein Group, European Molecular Biology Laboratory, 69012 Heidelberg, Germany</aff>
+        <aff id="d"><label>d</label>Faculty of Sciences, Charles University, 12842 Prague, Czech Republic</aff>
+      </contrib-group>
+      <pub-date pub-type="ppub">
+        <day>1</day>
+        <month>5</month>
+        <year>2000</year>
+      </pub-date>
+      <volume>191</volume>
+      <issue>9</issue>
+      <fpage>1591</fpage>
+      <lpage>1604</lpage>
+      <permissions>
+        <copyright-statement>&#xA9; 2000 The Rockefeller University Press</copyright-statement>
+        <copyright-year>2000</copyright-year>
+        <copyright-holder>The Rockefeller University Press</copyright-holder>
+      </permissions>
+      <abstract>
+        <p>According to a recently proposed hypothesis, initiation of signal transduction via immunoreceptors depends on interactions of the engaged immunoreceptor with glycosphingolipid-enriched membrane microdomains (GEMs). In this study, we describe a novel GEM-associated transmembrane adaptor protein, termed phosphoprotein associated with GEMs (PAG). PAG comprises a short extracellular domain of 16 amino acids and a 397-amino acid cytoplasmic tail containing ten tyrosine residues that are likely phosphorylated by Src family kinases. In lymphoid cell lines and in resting peripheral blood &#x3B1;/&#x3B2; T cells, PAG is expressed as a constitutively tyrosine-phosphorylated protein and binds the major negative regulator of Src kinases, the tyrosine kinase Csk. After activation of peripheral blood &#x3B1;/&#x3B2; T cells, PAG becomes rapidly dephosphorylated and dissociates from Csk. Expression of PAG in COS cells results in recruitment of endogenous Csk, altered Src kinase activity, and impaired phosphorylation of Src-specific substrates. Moreover, overexpression of PAG in Jurkat cells downregulates T cell receptor&#x2013;mediated activation of the transcription factor nuclear factor of activated T cells. These findings collectively suggest that in the absence of external stimuli, the PAG&#x2013;Csk complex transmits negative regulatory signals and thus may help to keep resting T cells in a quiescent state.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>signal transduction</kwd>
+        <kwd>lymphocytes</kwd>
+        <kwd>Src family kinases</kwd>
+        <kwd>phosphorylation</kwd>
+        <kwd>Csk</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Signal transduction by immunoreceptors (TCRs, B cell receptors, and most Fc receptors) after their aggregation by natural ligands or Abs is initiated by activation of protein tyrosine kinases (PTKs) of the Src and Syk families, which phosphorylate a variety of substrates, thus allowing propagation of the initial stimulus to cytosolic signaling pathways <xref ref-type="bib" rid="R1">1</xref>. Other structural membrane elements apparently important for initiation of immunoreceptor-mediated signaling are the so-called glycosphingolipid-enriched microdomains (GEMs), also known as membrane rafts or detergent-insoluble glycolipid-rich membrane domains <xref ref-type="bib" rid="R2">2</xref><xref ref-type="bib" rid="R3">3</xref>. These are small islets (&lt;70 nm) in the plasma membrane of most cell types and are enriched in glycosphingolipids, sphingomyelin, and cholesterol. The major extracellular protein components of GEMs are molecules that are anchored in the outer membrane leaflet via a glycolipid (glycosylphosphatidylinositol) anchor. In contrast, most transmembrane proteins (with a few exceptions) are excluded from the GEMs <xref ref-type="bib" rid="R4">4</xref><xref ref-type="bib" rid="R5">5</xref>. GEMs seem to form a specific &#x201C;ordered liquid phase&#x201D; more or less separated from the less-ordered bulk membrane, presumably because of their high content of cholesterol and lipids possessing saturated acyl chains <xref ref-type="bib" rid="R6">6</xref><xref ref-type="bib" rid="R7">7</xref>. GEMs are relatively resistant to solubilization at 0&#x2013;4&#xB0;C by some types of detergents (e.g., Triton X-100, NP-40, Brij series), but are mostly dissociated by detergents of the <italic>n</italic>-alkyl glycosidic type (octylglucoside, dodecylmaltoside [8-10]). Because of their high lipid content, GEMs can be conveniently isolated from detergent extracts by density gradient ultracentrifugation <xref ref-type="bib" rid="R8">8</xref>. The cytoplasmic side of GEMs is associated with several molecules involved in initiation of immunoreceptor signaling <xref ref-type="bib" rid="R11">11</xref><xref ref-type="bib" rid="R12">12</xref><xref ref-type="bib" rid="R13">13</xref><xref ref-type="bib" rid="R14">14</xref><xref ref-type="bib" rid="R15">15</xref><xref ref-type="bib" rid="R16">16</xref><xref ref-type="bib" rid="R17">17</xref>. These are heterotrimeric G proteins, Src family kinases, and the recently cloned transmembrane adaptor protein linker for activation of T cells (LAT). Src family kinases and G proteins are anchored in the plasma membrane by means of NH<sub>2</sub>-terminal dual acylation with long saturated fatty acids <xref ref-type="bib" rid="R16">16</xref><xref ref-type="bib" rid="R17">17</xref>. Similarly, the transmembrane protein LAT is targeted to GEMs of T lymphocytes by palmitoylation of two membrane-proximal cysteine residues <xref ref-type="bib" rid="R15">15</xref>. At least a fraction of the CD4 and CD8 co-receptors is also found in GEMs <xref ref-type="bib" rid="R18">18</xref>, possibly because of their association with Lck and/or LAT <xref ref-type="bib" rid="R19">19</xref><xref ref-type="bib" rid="R20">20</xref>.</p>
+      <p>Initiation of immunoreceptor signaling is accompanied by association of the receptor components with GEMs <xref ref-type="bib" rid="R21">21</xref><xref ref-type="bib" rid="R22">22</xref><xref ref-type="bib" rid="R23">23</xref><xref ref-type="bib" rid="R24">24</xref><xref ref-type="bib" rid="R25">25</xref><xref ref-type="bib" rid="R26">26</xref><xref ref-type="bib" rid="R27">27</xref>. Furthermore, treatments disrupting GEMs (cholesterol depletion, biosynthetic partial replacement of their saturated fatty acids by polyunsaturated ones) inhibits immunoreceptor signaling <xref ref-type="bib" rid="R22">22</xref><xref ref-type="bib" rid="R28">28</xref><xref ref-type="bib" rid="R29">29</xref>. A plausible hypothesis explaining the requirement of GEMs for immunoreceptor signaling is that immunoreceptor complexes merge with GEMs upon interaction (aggregation) with their ligands, and thus their immunoreceptor tyrosine-based activation motif (ITAM)-bearing chains become exposed to Src family kinases concentrated in GEMs. Furthermore, at least in T cells, a major substrate of the ZAP70 PTK, the linker protein LAT, is also present in these &#x201C;signaling islets&#x201D; <xref ref-type="bib" rid="R14">14</xref><xref ref-type="bib" rid="R15">15</xref>. Therefore, GEMs may well act as preformed &#x201C;signalosomes&#x201D; for initiation and spatial organization of early phases of immunoreceptor signaling.</p>
+      <p>One as yet unidentified component of the GEMs is an 80-kD phosphoprotein that was repeatedly observed as a major constituent of in vitro&#x2013;labeled immunoprecipitates prepared from various types of GEMs <xref ref-type="bib" rid="R9">9</xref><xref ref-type="bib" rid="R10">10</xref><xref ref-type="bib" rid="R30">30</xref><xref ref-type="bib" rid="R31">31</xref>. Similarly, we have demonstrated previously that an unknown highly acidic 80&#x2013;85-kD phosphoprotein is a component of an oligomeric protein complex that is formed in resting peripheral blood lymphocytes between the Src family PTK Fyn and several phosphoproteins <xref ref-type="bib" rid="R32">32</xref><xref ref-type="bib" rid="R33">33</xref><xref ref-type="bib" rid="R34">34</xref>. In this report, we describe molecular cloning and preliminary functional characterization of this GEM/Fyn-associated pp80 polypeptide, which we termed phosphoprotein associated with GEMs (PAG).</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec>
+        <title>Cells.</title>
+        <p>&#x3B1;/&#x3B2; T cells (99.5% pure, &gt;85% propidium iodide negative) were prepared from buffy coats by Ficoll centrifugation and preparative cell sorting using a FACS Vantage&#x2122; flow cytometer (Becton Dickinson) to remove monocytes, B, NK, and &#x3B3;/&#x3B4; T cells. Sorted cells were allowed to rest for at least 24 h in RPMI 1640 medium (GIBCO BRL) supplemented with 10% human AB serum. P116 cells (a gift from Dr. R. Abraham, The Mayo Clinic, Rochester, NY; reference <xref ref-type="bib" rid="R35">35</xref>), J.CaM1.6 cells (donated by Dr. A. Weiss, University of California at San Francisco, San Francisco, CA; reference <xref ref-type="bib" rid="R36">36</xref>), and the other cell lines used were maintained in medium supplemented with 10% FCS, 1% penicillin-streptomycin, and 2% glutamine (all supplements from GIBCO BRL).</p>
+      </sec>
+      <sec>
+        <title>Purification of pp80.</title>
+        <p>7 &#xD7; 10<sup>8</sup> Raji cells were lysed in 6 ml of 1% NP-40 lysis buffer A (20 mM Tris-HCl, pH 8.2, 140 mM NaCl, 1% NP-40 [Fluka], 5 mM iodoacetamide, 1 mM Pefabloc [4-(2-aminoethyl)-benzensulfonyl fluoride; Sigma-Aldrich]) on ice for 30 min, then mixed 1:1 with ice-cold 80% (wt/vol) sucrose diluted in lysis buffer A. Six 5-ml ultracentrifugation tubes were filled with 2 ml of this suspension, followed with ice-cold 2.5 ml of 30% sucrose and finally 0.5 ml of sucrose-free lysis buffer A. These tubes were centrifuged at 52,000 rpm in a SW55 swing-out rotor (cca 250,000 <italic>g</italic>; Beckman Coulter) for 18 h at 4&#xB0;C. 0.7-ml fractions were collected near the top, pooled, mixed with 6.3 ml of acetone, precipitated overnight at &#x2212;20&#xB0;C, and sedimented by a 15-min centrifugation at 15,000 <italic>g</italic> at 0&#xB0;C. The air-dried pellet was resuspended in 50 &#x3BC;l of 20 mM Tris-HCl, pH 7.5, 150 mM NaCl, 1% Triton X-100 (Sigma-Aldrich), briefly sonicated, and then subjected to two-dimensional gel electrophoresis <xref ref-type="bib" rid="R37">37</xref>. The wet gel was silver stained, and the spot corresponding to PAG (as judged from a parallel phosphotyrosine blot) was excised and subjected to sequencing.</p>
+      </sec>
+      <sec>
+        <title>Precipitation Experiments.</title>
+        <p>Immunoprecipitations were performed as described previously <xref ref-type="bib" rid="R38">38</xref> using postnuclear supernatants of 1% detergent (Triton X-100, NP-40, or laurylmaltoside [n-dodecyl &#x3B2;-D-maltoside; Sigma-Aldrich]) cell lysates (lysis buffer: Tris-buffered saline, pH 7.5, containing 1 mM Pefabloc, 10 mM EDTA, 10 mM NaF, 1 mM NaVO<sub>3</sub>) and CNBr Sepharose beads (Amersham Pharmacia Biotech) coupled with Protein A&#x2013;purified mAbs. Precipitations using recombinant glutathione <italic>S</italic>-transferase (GST)-coupled Src homology (SH)2 domains were performed as described elsewhere <xref ref-type="bib" rid="R32">32</xref><xref ref-type="bib" rid="R38">38</xref>. The SH2 domains of Csk, Vav, and Ras-GAP were provided by Dr. A. Beyers (University of Stellenbosch Medical School, Tygerberg, South Africa). All other SH2 domains have been described elsewhere <xref ref-type="bib" rid="R32">32</xref><xref ref-type="bib" rid="R38">38</xref>. Precipitates were washed and then either subjected to SDS-PAGE or further processed for two-dimensional gel electrophoresis, in vitro kinase assay, or reprecipitation experiments. GEMs were immunoprecipitated from Raji and Jurkat cells by the &#x201C;solid phase immunoisolation technique&#x201D; followed by in vitro kinase assays, as described previously <xref ref-type="bib" rid="R9">9</xref>. Reprecipitation experiments were conducted as described elsewhere <xref ref-type="bib" rid="R37">37</xref><xref ref-type="bib" rid="R38">38</xref>. In some experiments, immunoisolation was performed using minicolumns (25&#x2013;200-&#x3BC;l packed volume) of CNBr Sepharose beads coupled with Protein A&#x2013;purified mAbs. Postnuclear lysates were passed through the columns. After washing with 10-column volumes of lysis buffer, bound proteins were eluted with 2-column volumes of 2% SDS and the flow-through, and eluted fractions were analyzed by SDS-PAGE followed by Western blotting.</p>
+      </sec>
+      <sec>
+        <title>In Vitro Kinase Reaction, Two-dimensional Gel Electrophoresis, Density Gradient Ultracentrifugation, and Western Blotting.</title>
+        <p>In vitro kinase reaction, two-dimensional gel electrophoresis, and Western blot analysis were performed essentially as described previously <xref ref-type="bib" rid="R37">37</xref>, with the exception of the experiment shown in <xref ref-type="fig" rid="F8">Fig. 8</xref> B, where 1 &#x3BC;M cold ATP was added to the kinase buffer. For reproducible detection of GEM components (such as PAG) by Western blotting, it was necessary to solubilize the cells by 1% laurylmaltoside to avoid losses during removal of nuclei by low-speed centrifugation. Density gradient ultracentrifugation was performed essentially as described above, except that standard lysis buffer with 1% detergents (Brij58, laurylmaltoside) was used, sample size (in 40% sucrose) was 1 ml, and the 30% sucrose layer was 3.5 ml. After ultracentrifugation, the gradient was separated into eight fractions of equal volume. These and the sediment were further analyzed by SDS-PAGE and Western blotting.</p>
+      </sec>
+      <sec>
+        <title>Peptide Sequencing.</title>
+        <p>The protein spot corresponding to pp80 was excised from the silver-stained two-dimensional gel and in-gel digested with trypsin as described <xref ref-type="bib" rid="R39">39</xref>. Tryptic peptides were extracted from the gel matrix by 5% formic acid and acetonitrile, and extracts were pooled and dried. The sample was redissolved in 5% formic acid and analyzed by nanoelectrospray tandem mass spectrometry (Nano ES MS/MS) as described <xref ref-type="bib" rid="R40">40</xref>. Analyses were performed on a triple quadrupole mass spectrometer (API III; PE Sciex Instruments) equipped with the nanoelectrospray ion source developed at European Molecular Biology Laboratory (EMBL <xref ref-type="bib" rid="R41">41</xref>). Acquired tandem mass spectra were interpreted manually using AppleScript-based software developed at EMBL. Searching against comprehensive protein and expressed sequence tag (EST) sequence databases was performed by PeptideSearch v3.0 software developed at EMBL.</p>
+      </sec>
+      <sec>
+        <title>cDNA Cloning.</title>
+        <p>Based on an EST cDNA sequence AA220201 corresponding to the FSSLSYK peptide obtained by Nano ES MS/MS sequencing of purified pp80, forward and nested forward oligonucleotides (TTGTCATACAAGTCTCGGGAAGAAGACC and GGACAGTTAGTGAATAAATCGGGGCAG) and reverse and nested reverse oligonucleotides (CTGCGGGTGAAAGTGTGCTGTTTGGAG and AGGAGGAGGGTG ACCTCTGTGGGTCC) were used as primers for 3&#x2032;- and 5&#x2032;-rapid amplification of cDNA end (RACE) reaction performed on Leucocyte Marathon-ready&#x2122; cDNA (CLONTECH Laboratories, Inc.) using the Advantage<sup>&#xAE;</sup> cDNA PCR kit (CLONTECH Laboratories, Inc.) according to the manufacturer's instructions. The RACE products were sequenced yielding the entire sequence of the 3&#x2032; end of the coding region, whereas the 5&#x2032; part of the coding region was still incomplete, and another round of 5&#x2032; RACE had to be performed with ATP-tailed Raji cDNA. The cDNA encoding mouse homologue of PAG was cloned by a similar approach based on knowledge of mouse EST sequences covering the 5&#x2032; and 3&#x2032; regions of the gene.</p>
+      </sec>
+      <sec>
+        <title>cDNA Constructs, Transfection.</title>
+        <p>The coding region of human wild-type PAG and Csk was amplified from Jurkat cDNA (primers: CCCTCGGCTGGTGCCAGTGC versus GCAGCATATGAAGTATAGGTTTGTG for PAG and CTGAGAAGATGTCAGCAATACAGGCC versus GAGGCCAGCCGTCACAGGTGCAG for Csk). The PCR products were cloned into the BstXI site of the eukaryotic expression vector pEF-BOS <xref ref-type="bib" rid="R42">42</xref>. The FLAG-PAG construct encoding the full-length PAG containing the COOH-terminal FLAG and the various PAG mutants carrying tyrosine to phenylalanine exchanges were produced by site-directed mutagenesis using the QuikChange&#x2122; site-directed mutagenesis kit (Stratagene) according to the manufacturer's instructions.</p>
+        <p>Transient transfection of Jurkat and COS cells was performed essentially as described <xref ref-type="bib" rid="R38">38</xref>. For the transfection experiments in COS cells, we used the following cDNA constructs: wild-type Fyn cloned in pSR&#x3B1; expression vector (provided by Dr. A. da Silva, Dana Farber Cancer Institute, Boston, MA), MYC-tagged Lck or ZAP70 inserted into pcDNA3 vector (donated by Dr. R. Abraham), FLAG-tagged Syk cloned into the p5C7 vector (provided by Dr. W. Kolanus, Gene Center, Munich, Germany), and FLAG-tagged SH2 domain&#x2013;containing leukocyte phosphoprotein (SLP)-76 cDNA construct in pEF-BOS (a gift of Dr. G. Koretzky, University of Pennsylvania, Philadelphia, PA). The cDNA construct coding for a chimeric &#x3B6; molecule (consisting of the extracellular domain of CD25 [Tac] fused to the transmembrane and cytoplasmic domain of the TCR &#x3B6; chain) was provided by Dr. A. Veillette (McGill University, Montreal, Quebec, Canada). For bacterial expression, the PAG intracellular fragment corresponding to amino acid (aa) residues 97&#x2013;432 was cloned to BamHI site of pET-15b expression vector (Novagen), generating a construct with NH<sub>2</sub>-terminal His tag.</p>
+      </sec>
+      <sec>
+        <title>Northern Blots.</title>
+        <p>Human multiple-tissue Northern blots and multiple-tissue expression arrays were obtained from CLONTECH Laboratories, Inc. and hybridized as described previously <xref ref-type="bib" rid="R38">38</xref> with a PAG-specific cDNA probe encompassing nucleotides 257&#x2013;1685, i.e., corresponding to a full coding region and an additional 132 residues of the untranslated sequences.</p>
+      </sec>
+      <sec>
+        <title>Abs.</title>
+        <p>The following mAbs were used (if not stated otherwise, the mAbs are products of the authors' laboratories): CD59 (MEM-43), CD18 (MEM-48), CD25 (AICD25.1), T cell receptor&#x2013;interacting molecule (TRIM)-01, phosphotyrosine (P-Tyr)&#x2013;01 and 4G10, conjugated with horseradish peroxidase (Upstate Biotechnology), FLAG (M2; Eastman Kodak Co.), MYC (9E10, a gift from Dr. D. Cantrell, Imperial Cancer Research Fund, London, UK), rabbit antisera to Lck and Fyn (provided by Dr. A. Veillette), rabbit antiserum to LAT (provided by Dr. L. Samelson, National Institute of Child Health and Human Development, NIH, Bethesda, MD; reference 13), Csk and G-proteins &#x3B2; subunits (rabbit Abs from Santa Cruz Biotechnology, Inc.), mitogen-activated protein kinase (rabbit antiserum from Upstate Biotechnology). Horseradish peroxidase&#x2013;conjugated polyclonal Abs to mouse and rabbit Ig were from Bio-Rad or Dianova.</p>
+        <p>To raise mouse polyclonal and mAbs to the intracellular domain of PAG, F<sub>1</sub>(BALB/c &#xD7; B10.A) hybrid mice were immunized with the bacterially expressed His-tagged PAG fragment described above. Hybridomas were prepared and selected by standard techniques using Sp2/0 myeloma cells as fusion partners.</p>
+      </sec>
+      <sec>
+        <title>Biosynthetic Labeling with [<sup>3</sup>H]Palmitate.</title>
+        <p>5 &#xD7; 10<sup>7</sup> Jurkat or Raji cells were starved for 1 h at 37&#xB0;C in 50 ml of plain RPMI 1640 medium. Then, 2.5-mCi radiolabeled palmitate ([9,10(<italic>n</italic>)-<sup>3</sup>H]palmitic acid, specific activity 40&#x2013;60 Ci/mmol; Amersham Pharmacia Biotech) in 100 &#x3BC;l ethanol and 10% extensively dialyzed FCS (against PBS) was added. After 3 h at 37&#xB0;C, the cells were washed and solubilized in a 1% laurylmaltoside lysis buffer, and the postnuclear supernatant was used for immunoprecipitation followed by SDS-PAGE. The wet gel was treated with Amplify solution (Amersham Pharmacia Biotech) according to the manufacturer's recommendation, dried, and subjected to fluorography for 3 wk.</p>
+      </sec>
+      <sec>
+        <title>Cytofluorometry of Permeabilized Blood Cells and Confocal Laserscan Microscopy.</title>
+        <p>After 10 min of blocking of Fc receptors by 20% human AB serum, cells were permeabilized with 20 &#x3BC;g/ml digitonin and stained using the first-step mAbs followed by fluorescein goat anti&#x2013;mouse IgG. Samples were measured on a FACSort&#x2122; flow cytometer (Becton Dickinson) in a standard three-color setup. Leukocyte populations were resolved on the basis of their scatter properties. The subcellular localization of PAG in Raji cells was determined by confocal laser scan microscopy as described elsewhere <xref ref-type="bib" rid="R38">38</xref>, using PAG mAb MEM-250 (10 &#x3BC;g/ml, diluted in PBS/BSA) and Cy2 donkey anti&#x2013;mouse IgG (Dianova). Nuclei were stained with propidium iodide (0.1 &#x3BC;g/ml). Cells were analyzed on a Laserscan microscope (Ernst Leitz GmbH) using 570 nm (red emission) and 508 nm (green emission) filters, respectively.</p>
+      </sec>
+      <sec>
+        <title>Cell Activation and Luciferase Reporter Gene Assay.</title>
+        <p>In vitro activation of T cells was performed using IgM anti-CD3 mAb MEM-92 at 50 &#x3BC;g/ml or culture supernatants of anti-TCR mAb C305 (IgM; a gift from Dr. A. Weiss) and anti-CD28 mAb (IgM; donated by Dr. U. Moebius, University of Heidelberg, Heidelberg, Germany) or pervanadate as described previously <xref ref-type="bib" rid="R38">38</xref><xref ref-type="bib" rid="R43">43</xref><xref ref-type="bib" rid="R44">44</xref>. The Src family kinase&#x2013;specific inhibitor PP1 (Calbiochem; provided by Dr. P. Dr&#xE1;ber, Institute of Molecular Genetics, Prague, Czech Republic; reference 45) was used at 10 &#x3BC;g/ml. Luciferase assays were performed essentially as described previously <xref ref-type="bib" rid="R45">45</xref>, with the exception that in addition to the cDNA constructs coding for Fyn, FLAG-tagged SLP-76 (15 &#x3BC;g each) and the nuclear factor of activated T cells (NF-AT)&#x2013;driven luciferase reporter gene (5 &#x3BC;g) cells were transfected with 1 &#x3BC;g of a reporter gene coding for Renilla luciferase (whose activity is independent of the activation status of the cells). Luciferase activity was determined using the Dual-Luciferase<sup>&#xAE;</sup> assay kit from Promega. Normalized luciferase units were determined by the following calculation: (NF-AT luciferase units/Renilla luciferase units) &#xD7; 10<sup>5</sup>.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Purification and cDNA Cloning of PAG.</title>
+        <p>In vitro kinase assays performed on GEMs immunoprecipitated by, for example, CD59 mAb from leukocytes typically produce two major species of phosphorylated proteins: one with a molecular mass of 55&#x2013;60 kD (previously identified as Src family kinases) and the other, as yet unidentified, with a molecular mass of &#x223C;80 kD (<xref ref-type="fig" rid="F1">Fig. 1</xref> A). Moreover, an acidic 85-kD phosphoprotein is a component of the recently described Fyn complex <xref ref-type="bib" rid="R33">33</xref> and can be visualized after two-dimensional gel electrophoresis of an in vitro&#x2013;labeled Fyn immunoprecipitate prepared from resting human T cells (<xref ref-type="fig" rid="F1">Fig. 1</xref> B). Finally, a constitutive tyrosine-phosphorylated 70&#x2013;80-kD protein is expressed in peripheral blood leukocytes and lymphoid cell lines and associates with GEMs, as defined by flotation in density gradients (<xref ref-type="fig" rid="F1">Fig. 1</xref> C). We suspected that these 80&#x2013;85-kD GEM- and Fyn-associated phosphoproteins as well as the prominent pp70&#x2013;80 found in leukocytes might represent the same molecule, and thus attempted its characterization.</p>
+        <p>Since the expression of GEM-associated pp80 was found to be highest in the B cell line Raji, GEMs were isolated from 7 &#xD7; 10<sup>8</sup> Raji cells and subjected to two-dimensional gel electrophoresis. An acidic spot of 75&#x2013;85 kD was detected by silver staining (<xref ref-type="fig" rid="F2">Fig. 2</xref> A) and verified by antiphosphotyrosine staining of a corresponding blot (not shown). This spot was excised and digested in-gel with trypsin, and resulting peptides were sequenced by Nano ES MS/MS (<xref ref-type="fig" rid="F2">Fig. 2</xref> B). Database searching hit two peptides encoded by the EST clones AA960867, AA622656 (LLDENENLQEK), and AA220201 (FSSLSYK), respectively. Reverse and forward primers deduced from EST clone AA220201 were used for 5&#x2032; and 3&#x2032; RACE experiments to amplify the rest of the corresponding gene from human leukocyte cDNA. The sequence corresponding to the very 5&#x2032; end of the gene was finally obtained by 5&#x2032; RACE performed on cDNA obtained from Raji RNA.</p>
+        <p>An open reading frame of 1,296 nucleotides (not shown) codes for a polypeptide of 432 aa and a predicted molecular weight of 46,980; finally, four peptides sequenced by Nano ES MS/MS were matched to the full-length sequence of the protein (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). Because of the fact that the phosphoprotein was purified from GEMs, we termed it phosphoprotein associated with GEMs. In Jurkat T cells transiently transfected with an expression vector encoding PAG, a 68-kD polypeptide (see below) was detected by an anti-PAG mAb that exactly comigrated with the endogenously expressed protein (<xref ref-type="fig" rid="F2">Fig. 2</xref> D). This indicates that the sequenced cDNA contains the complete PAG gene.</p>
+        <p>To assess whether PAG is identical to the GEM- and Fyn-associated pp80 and to the major leukocyte tyrosine-phosphorylated 80-kD polypeptide, GEMs were immunoprecipitated from Raji cells using CD59 mAb and subjected to in vitro kinase assay followed by reprecipitation using anti-PAG mAbs. As demonstrated in <xref ref-type="fig" rid="F3">Fig. 3</xref> A, pp80 was selectively reprecipitated from the mixture of in vitro&#x2013;phosphorylated GEM proteins. Similarly, a polyclonal mouse anti-PAG Ab reprecipitated pp80&#x2013;85 from an in vitro&#x2013;labeled Fyn immunoprecipitate prepared from resting human T lymphocytes (<xref ref-type="fig" rid="F3">Fig. 3</xref> B). Finally, anti-PAG immunosorbent specifically removed the tyrosine-phosphorylated 75&#x2013;80-kD protein from lysates of peripheral blood T cells (<xref ref-type="fig" rid="F3">Fig. 3</xref> C). Thus, PAG is identical to GEM/Fyn-associated pp80&#x2013;85 and to the leukocyte tyrosine-phosphorylated pp80.</p>
+      </sec>
+      <sec>
+        <title>Molecular Characterization of PAG.</title>
+        <p>The first methionine of PAG is not followed by any typical signal sequence (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). However, a region of 20 mostly hydrophobic aa and devoid of charged aa extends from residues 17&#x2013;36 and likely corresponds to an &#x3B1;-helical transmembrane domain, indicating that PAG is a type III transmembrane protein with an extracellular portion of 16 aa. The transmembrane domain of PAG is directly followed by a putative palmitoylation site (CSSC; see below). Immediately downstream of the palmitoylation motif is a sequence of six aa enriched in basic residues (two arginines and two lysines). The predicted 397-aa cytoplasmic domain contains a total of 10 tyrosines, 9 of which are within potential consensus sequences for phosphorylation by Src family PTK (YxxV/L/I). Among the tyrosine-based signaling motifs, three can be distinguished (YxxL/V/I(x)<italic><sub>n</sub></italic>YxxL/V/I) that show some similarity to ITAMs, although the values of <italic>n</italic> are larger (14, 14, and 26 residues, respectively) than in typical ITAMs (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). In addition to the tyrosine-based signaling motifs, the cytoplasmic domain contains multiple sites for phosphorylation by casein kinase 2 and/or protein kinase C (12 serine and 10 threonine residues). Furthermore, two proline-rich sequences can be distinguished (positions 131&#x2013;138 and 257&#x2013;263) that may potentially bind to SH3 domains <xref ref-type="bib" rid="R46">46</xref>. All these motifs, except for the tyrosine residue corresponding to Y<sup>341</sup>, are also completely conserved in mouse PAG (<xref ref-type="fig" rid="F2">Fig. 2</xref> C). The overall acidic character of PAG (predicted isoelectric point 4.4) and further modification by phosphorylation might result in anomalous binding of SDS and thus retarded migration on SDS-PAGE, leading to an apparent molecular mass of 70&#x2013;85 kD. The structure of PAG allows it to be designated as a novel transmembrane adaptor protein <xref ref-type="bib" rid="R47">47</xref><xref ref-type="bib" rid="R48">48</xref>.</p>
+        <p>Previous reports and the data shown above indicated that in vitro&#x2013;labeled pp80 migrates at 80&#x2013;85 kD in SDS-PAGE. However, the data depicted in <xref ref-type="fig" rid="F2">Fig. 2</xref> D suggested that in nonstimulated Jurkat T cells, PAG only runs at about 68&#x2013;70 kD. The apparent discrepancy between the molecular weight of the in vitro&#x2013;phosphorylated PAG (<xref ref-type="fig" rid="F3">Fig. 3</xref>) versus its migration when prepared from lysates of nonstimulated cells suggested that the electrophoretic mobility of PAG is influenced by its level of tyrosine phosphorylation. Indeed, the electrophoretic mobility of PAG strongly decreased after pervanadate treatment of Jurkat cells and corresponded to the previously observed apparent molecular mass of 85 kD (<xref ref-type="fig" rid="F4">Fig. 4</xref> A). This demonstrates that in unstimulated Jurkat T cells, a submaximally phosphorylated 68-kD form of PAG predominates that shifts to 80&#x2013;85 kD upon pervanadate treatment.</p>
+        <p>To determine which PTKs may phosphorylate PAG in vivo, COS cells were cotransfected with cDNAs encoding FLAG-tagged PAG and various PTKs. As shown in <xref ref-type="fig" rid="F4">Fig. 4</xref> B, PAG serves as a substrate for Lck and Fyn but not for ZAP70 and/or Syk. In Jurkat T cells, tyrosine phosphorylation of PAG was absent in the Lck-negative Jurkat mutant J.CaM1.6 but was normal or even enhanced in the ZAP70/Syk-negative mutant P116 (<xref ref-type="fig" rid="F4">Fig. 4</xref> C), indicating that Lck might be primarily responsible for PAG phosphorylation in T cells. However, when wild-type Jurkat T cells (or Raji cells, not shown) were briefly treated with the Src family PTK&#x2013;specific inhibitor PP1, the constitutive tyrosine phosphorylation of PAG was lost (<xref ref-type="fig" rid="F4">Fig. 4</xref> D). This strongly suggests that the phosphorylation status of PAG is controlled by balanced activities of Src kinases (likely Lck) and an as yet unidentified tyrosine phosphatase(s).</p>
+      </sec>
+      <sec>
+        <title>Tissue and Subcellular Distribution of PAG.</title>
+        <p>Northern blot analysis was performed to investigate the pattern of PAG mRNA expression in human tissues. <xref ref-type="fig" rid="F5">Fig. 5</xref> A demonstrates that mRNA coding for PAG is expressed in almost all tissues examined, the highest level being observed in the immune system as well as in the lung, heart, and placenta. Interestingly, several bands hybridized with the PAG cDNA probe. This might indicate the existence of alternatively spliced forms of PAG or PAG-related genes. However, we did not yet obtain convincing evidence for the existence of PAG variants on the protein level (not shown).</p>
+        <p>Expression of PAG within hematopoietic cells was further examined by intracellular immunostaining of permeabilized peripheral blood leukocytes. These experiments revealed strong expression of PAG in lymphocytes and monocytes and weak expression in neutrophils (<xref ref-type="fig" rid="F5">Fig. 5</xref> B). In vitro kinase assay and Western blot analysis indicated that PAG is also expressed in platelets (not shown).</p>
+        <p>The subcellular localization of PAG was analyzed by immunofluorescence in fixed and permeabilized Raji cells. Confocal laser scan microscopy demonstrated that PAG predominantly localizes to the plasma membrane (<xref ref-type="fig" rid="F6">Fig. 6</xref> A); similar results were observed in Jurkat cells (not shown). To further analyze in which membrane compartment PAG is localized, Jurkat cells were lysed in Brij58 detergent and subjected to sucrose gradient ultracentrifugation. As shown in <xref ref-type="fig" rid="F6">Fig. 6</xref> B, nearly all PAG was present in buoyant, detergent-resistant GEMs; when cells were solubilized in laurylmaltoside (which effectively dissolves GEMs), all PAG was detected exclusively in the dense fractions of the gradient (<xref ref-type="fig" rid="F6">Fig. 6</xref> B). Thus, the major portion of PAG is localized in the plasma membrane, namely in the subcompartment corresponding to GEMs.</p>
+        <p>The cytoplasmic domain of PAG contains a potential palmitoylation site (CSSC) directly adjacent to the transmembrane domain. To determine whether PAG is palmitoylated in vivo, Raji B cells were biosynthetically labeled with <sup>3</sup>[H]palmitate, lysed in laurylmaltoside-containing buffer, and subjected to anti-PAG immunoprecipitation. As shown in <xref ref-type="fig" rid="F6">Fig. 6</xref> C, PAG is expressed as a palmitoylated polypeptide. Identical results were obtained in Jurkat T cells (not shown), although the radioactive signal was much weaker than in Raji cells (obviously because Jurkat cells express much lower amounts of PAG).</p>
+      </sec>
+      <sec>
+        <title>PAG Forms a Complex with Csk, which is Functionally Relevant to TCR/CD3 Signaling.</title>
+        <p>The presence of multiple tyrosine-based motifs suggested that PAG may associate with SH2 domain&#x2013;containing cytoplasmic signaling proteins. Indeed, in vitro pull-down assays performed on lysates of pervanadate-treated Jurkat T cells revealed that phosphorylated PAG strongly binds to the recombinant SH2 domains of Lck, Fyn, Lyn, Csk, Shc, Vav, GAP, and PI3K as well as the tandem SH2 domains of ZAP70 and Syk, whereas it only weakly binds to the SH2 domains of growth factor receptor binding protein 2 (Grb2), SLP-76, SH2 domain&#x2013;containing protein tyrosine phosphatase (SHP)-1, and SHP-2 (<xref ref-type="fig" rid="F7">Fig. 7</xref> A).</p>
+        <p>Based on these results, primary PAG immunoprecipitates obtained from lysates of unstimulated or pervanadate-treated hematopoietic cells were analyzed for the presence of the above cytoplasmic signaling molecules. Small amounts of Fyn (but not Lck; not shown) were found in PAG immunoprecipitates prepared from unstimulated peripheral blood T cells (<xref ref-type="fig" rid="F7">Fig. 7</xref> B) but not Jurkat or Raji cells (not shown). Moreover, Fyn and PAG also associated with each other when coexpressed in COS cells (<xref ref-type="fig" rid="F7">Fig. 7</xref> E). However, the interaction between Fyn and PAG seems to be independent from the tyrosine phosphorylation status of PAG, as it was not altered after PP1 treatment of the resting T cells (which caused a strong decrease of PAG tyrosine phosphorylation; <xref ref-type="fig" rid="F7">Fig. 7B</xref>).</p>
+        <p>Besides Fyn, the only other candidate molecule reproducibly found to associate with PAG in a variety of cells (resting T cells, Raji, and Jurkat cells) was the PTK Csk (<xref ref-type="fig" rid="F7">Fig. 7</xref> C). Analysis of PAG immunoprecipitates prepared from transfected COS cells indicated that the interaction between PAG and Csk requires tyrosine phosphorylation of PAG by Src kinases (<xref ref-type="fig" rid="F7">Fig. 7</xref> D). Moreover, PP1-mediated dephosphorylation of PAG in peripheral blood T cells resulted in a significant loss of the PAG-associated Csk (<xref ref-type="fig" rid="F7">Fig. 7</xref> B). Finally, expression of PAG molecules in which the ten cytoplasmic tyrosine residues were individually mutated to phenylalanine further revealed that the association between PAG and Csk is to a large extent mediated via the tyrosine residue Y<sup>317</sup> (<xref ref-type="fig" rid="F7">Fig. 7</xref> E). In contrast, under the same experimental conditions, Fyn bound to all of the PAG tyrosine mutants investigated. This further confirms that the PAG&#x2013;Fyn interaction is probably phosphotyrosine independent. Taken together, these data indicate that after phosphorylation by Src family PTKs, PAG recruits Csk to the plasma membrane via a mechanism involving Y<sup>317</sup> and independent from an association between PAG and Fyn.</p>
+        <p>Csk downregulates the activity of Src kinases via phosphorylation of negative regulatory tyrosine residues located at the COOH termini of the kinases. To investigate whether membrane targeting of Csk by PAG would lead to altered substrate phosphorylation by Src family kinases, COS cells (which express endogenous Csk; <xref ref-type="fig" rid="F7">Fig. 7</xref> D) were transiently transfected with cDNA constructs encoding a chimeric &#x3B6; molecule composed of the extracellular domain of CD25 (Tac) fused to the transmembrane and cytoplasmic domains of TCR &#x3B6; chain (Tac/&#x3B6;/&#x3B6;), the Src family PTK Fyn, and FLAG-tagged PAG. Cell lysates were subjected to CD25 immunoprecipitation followed by anti&#x2013;P-Tyr Western blotting. As shown in <xref ref-type="fig" rid="F8">Fig. 8</xref> A, when coexpressed with Fyn alone, the Tac/&#x3B6;/&#x3B6; chimera readily became tyrosine phosphorylated. However, when PAG was coexpressed with Fyn and Tac/&#x3B6;/&#x3B6;, the level of tyrosine phosphorylation of the Tac/&#x3B6;/&#x3B6; chimera markedly decreased, and this was accompanied by a strong recruitment of endogenously expressed Csk to PAG. Similarly, expression of Csk and PAG resulted in impaired Fyn kinase activity as judged from an experiment in which Fyn autophosphorylation was assessed by in vitro kinase assays of Fyn immunoprecipitates prepared from COS cells transfected with PAG and Csk cDNAs (<xref ref-type="fig" rid="F8">Fig. 8</xref> B). These experiments indicate a negative regulatory role of PAG in T cell activation based on its ability to recruit Csk to the plasma membrane, followed by downregulation of Src family kinase(s) activity and inhibition of tyrosine phosphorylation of substrates such as &#x3B6;. In agreement with a negative regulatory role of PAG during T cell activation was the finding that PAG, when transiently overexpressed in Jurkat cells, downregulated TCR-mediated activation of NF-AT (<xref ref-type="fig" rid="F8">Fig. 8</xref> C), whereas overexpression of the cytoplasmic adaptor protein SLP-76 upregulated the response as reported previously <xref ref-type="bib" rid="R49">49</xref>.</p>
+        <p>To assess whether binding of Csk to PAG occurs after T cell activation (which would indicate that the PAG&#x2013;Csk complex serves to downregulate Src family kinase activity after T cell activation) or whether it rather precedes T cell activation (which would indicate that this complex serves to downregulate Src kinase activity in the absence of external stimuli), we examined the phosphorylation status of PAG and its association with Csk in nontransformed human T lymphocytes. To this end, PAG immunoprecipitates were prepared from resting or anti-CD3 plus anti-CD28&#x2013;activated peripheral blood &#x3B1;/&#x3B2; T cells and analyzed by anti&#x2013;P-Tyr Western blotting. As shown in <xref ref-type="fig" rid="F9">Fig. 9</xref> B, the level of tyrosine phosphorylation of PAG and its association with Csk markedly decreased after activation, whereas its association with Fyn remained essentially unchanged. At the same time, moreover, the tyrosine phosphorylation of other polypeptides (such as pp38 LAT) strongly increased (<xref ref-type="fig" rid="F9">Fig. 9</xref> A). Thus, activation of resting peripheral blood &#x3B1;/&#x3B2; T lymphocytes via the TCR&#x2013;CD3 complex results in dephosphorylation of PAG and concomitant loss of its association with Csk.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Most recently, major progress has been made in the understanding of the molecular mechanisms underlying translocation of signaling molecules (e.g., phospholipase C &#x3B3;1, SLP-76, etc.) from the cytosol to the plasma membrane upon T cell activation. Thus, a novel group of transmembrane proteins has been identified whose cytoplasmic domains contain multiple tyrosine-based signaling motifs that provide docking sites for the SH2 domains of cytosolic effector molecules after phosphorylation by Src or Syk family PTKs. These molecules have collectively been termed transmembrane adaptor proteins <xref ref-type="bib" rid="R47">47</xref>. Until now, three transmembrane adaptor proteins have been identified, namely LAT <xref ref-type="bib" rid="R13">13</xref>, TRIM <xref ref-type="bib" rid="R38">38</xref>, and SHP2-interacting transmembrane adaptor protein <xref ref-type="bib" rid="R44">44</xref>. In this report, we describe identification, purification, Nano ES MS/MS sequencing, and molecular cloning of a novel transmembrane adaptor protein that we termed PAG.</p>
+      <p>PAG is ubiquitously expressed (<xref ref-type="fig" rid="F5">Fig. 5</xref> A). This characteristic (as well as its phosphorylation status in nonstimulated cells, described below) distinguishes it from the other transmembrane adaptor proteins whose expression seems to be largely restricted to hematopoietic cells. The wide expression of PAG indicates that transmembrane adaptor proteins not only play important signaling functions within the hematopoietic system but also in other tissues.</p>
+      <p>PAG comprises a short 16-aa extracellular domain that likely lacks an external ligand. The cytoplasmic domain of PAG contains a dicysteine motif (CSSC) that is located directly downstream of the transmembrane domain (<xref ref-type="fig" rid="F2">Fig. 2</xref> C) and could serve as a site for palmitoylation, thus allowing targeting of PAG to the GEMs <xref ref-type="bib" rid="R15">15</xref>. Indeed, in Jurkat and Raji cells, PAG is expressed as a constitutively palmitoylated polypeptide (<xref ref-type="fig" rid="F6">Fig. 6</xref> C). However, at present we do not know which of the two cysteines becomes palmitoylated, whether all PAG molecules become targeted to the GEMs via palmitoylation, and whether palmitoylation of PAG is essential for its function.</p>
+      <p>The cytoplasmic domain of human PAG contains 10 potential sites for tyrosine phosphorylation. Coexpression experiments performed in COS cells and analysis of various Jurkat variants suggest that the Src family PTK Lck might be responsible for basal tyrosine phosphorylation of PAG in T cells (<xref ref-type="fig" rid="F4">Fig. 4B</xref> and <xref ref-type="fig" rid="F4">Fig. C</xref>). 6 of the 10 tyrosines are found within three signaling motifs exhibiting some similarity to ITAM sequences, but with longer central stretches of aa than in typical ITAMs. Consistent with these ITAM-like sequence motifs, in vitro pull-down assays using recombinant GST&#x2013;SH2 domains revealed that PAG is capable of binding the tandem SH2 domains of ZAP70 and Syk (<xref ref-type="fig" rid="F7">Fig. 7</xref> A). However, we have not as yet observed a direct interaction between PAG and these two PTKs (or other tandem SH2 domain&#x2013;containing signaling molecules such as SHP-1 or SHP-2), even after pervanadate treatment of cells. These findings might indicate that unknown signaling molecules exist whose tandem SH2 domains require different spacing between the two tyrosines for binding.</p>
+      <p>The phosphorylation of PAG appears to be a tightly regulated process, as the Src-specific PTK inhibitor PP1 causes rapid dephosphorylation of PAG in T cells, which is obviously due to the unopposed activity of an as yet unidentified tyrosine phosphatase (<xref ref-type="fig" rid="F4">Fig. 4</xref> D and <xref ref-type="fig" rid="F7">Fig. 7</xref> B). We have excluded the possibility that the tyrosine phosphatase CD45 is dephosphorylating PAG in vivo, as PAG still becomes dephosphorylated in PP1-treated J45.01 Jurkat T cells that lack expression of CD45 (our unpublished observations). Identification of this phosphatase might be of major importance for future research.</p>
+      <p>Tyrosine-phosphorylated PAG binds to a remarkable number of different SH2 domains in vitro (<xref ref-type="fig" rid="F7">Fig. 7</xref> A). This is consistent with the idea that several, if not all, of the potential tyrosine residues become phosphorylated in vivo, and that PAG is capable of binding to a variety of intracellular SH2 domain&#x2013;containing signaling molecules. However, the only two proteins that we reproducibly found to interact with PAG were the PTKs Fyn and Csk (<xref ref-type="fig" rid="F7">Fig. 7</xref>).</p>
+      <p>A low-stoichiometry interaction between Fyn and PAG was observed in resting peripheral blood T cells (<xref ref-type="fig" rid="F7">Fig. 7</xref> B and <xref ref-type="fig" rid="F9">Fig. 9</xref> B), and both molecules interacted with each other when coexpressed in COS cells (<xref ref-type="fig" rid="F7">Fig. 7</xref> E). However, this interaction is apparently not dependent on tyrosine phosphorylation of PAG (<xref ref-type="fig" rid="F7">Fig. 7B</xref> and <xref ref-type="fig" rid="F7">Fig. E</xref>, and <xref ref-type="fig" rid="F9">Fig. 9</xref> B), which might suggest that Fyn interacts with PAG via its SH3 domain. Indeed, two potential SH3-binding sites are present in PAG.</p>
+      <p>In contrast to Fyn, the PTK Csk was found to associate with tyrosine-phosphorylated PAG in all types of cells investigated by us. This interaction involves a single tyrosine of PAG (Y<sup>317</sup>) and is not mediated via Fyn (<xref ref-type="fig" rid="F7">Fig. 7</xref> E). Together with the finding that PAG strongly binds to the isolated SH2 domain of Csk in vitro (<xref ref-type="fig" rid="F7">Fig. 7</xref> A), this suggests that the interaction between PAG and Csk is mediated directly via the SH2 domain of Csk and Y<sup>317</sup> of PAG. However, a possibility cannot be ruled out that an as yet unidentified molecule expressed in COS cells (and in lymphocytes) mediates the association between PAG and Csk. Potential candidates might be the tyrosine phosphatases protein tyrosine phosphatase (PTP)-PEST or PEST-containing phosphatase (PEP), which have been shown to bind to the SH3 domain of Csk <xref ref-type="bib" rid="R50">50</xref><xref ref-type="bib" rid="R51">51</xref>. However, this possibility is unlikely, because neither of these phosphatases possess SH2 domains that would allow them to bind PAG in a phosphotyrosine-dependent manner.</p>
+      <p>Csk is a ubiquitously expressed major negative regulator of Src family kinases and phosphorylates a negative regulatory tyrosine residue near the COOH terminus of the enzymes <xref ref-type="bib" rid="R52">52</xref><xref ref-type="bib" rid="R53">53</xref><xref ref-type="bib" rid="R54">54</xref>. Csk-deficient mice die in utero because of abnormalities in neuronal development <xref ref-type="bib" rid="R55">55</xref><xref ref-type="bib" rid="R56">56</xref>, which are obviously due to uncontrolled activity of Src kinases. In addition, elimination of Csk in thymocytes results in development of CD4<sup>+</sup> T cells independent from pre-TCR&#x2013;mediated signals <xref ref-type="bib" rid="R57">57</xref>. These data indicate that expression of Csk is required to maintain homeostasis in several tissues, including the immune system. Csk per se is not a membrane-associated polypeptide, as it does not possess a membrane-targeting motif (e.g., myristylation or palmitoylation sites as those present in most Src kinases). Thus, in order to regulate Src kinase activity, a fraction of Csk has to translocate from the cytosol to the plasma membrane. We propose here that one such mechanism is based on Csk association with PAG. This model would be in agreement with recent data showing that the SH2 domain of Csk is apparently involved in targeting of Csk to the plasma membrane and is required for Csk-mediated inhibition of T cell activation <xref ref-type="bib" rid="R58">58</xref>.</p>
+      <p>In resting human T cells (as well as in Jurkat T cells and in Raji B cells), PAG is expressed as a constitutively tyrosine-phosphorylated polypeptide and binds Csk in the absence of any stimuli (<xref ref-type="fig" rid="F7">Fig. 7B</xref> and <xref ref-type="fig" rid="F7">Fig. C</xref>, and <xref ref-type="fig" rid="F9">Fig. 9</xref> B). Moreover, immediately after T cell activation, PAG becomes dephosphorylated and releases Csk (<xref ref-type="fig" rid="F9">Fig. 9</xref> B). Together with our observation that PAG is an integral plasma membrane protein (<xref ref-type="fig" rid="F6">Fig. 6</xref> A), these data would be compatible with a model proposing that in resting T cells, the constitutively tyrosine-phosphorylated PAG targets a fraction of Csk to the plasma membrane and thus brings it into proximity with its substrates, the Src family kinases. Csk then can phosphorylate the COOH-terminal negative regulatory tyrosine residues, resulting in downregulation of the Src kinases enzymatic activity and, as a consequence, suppression of signal transduction.</p>
+      <p>In addition, Csk-associated polypeptides like PEP or PTP-PEST could simultaneously dephosphorylate additional key signaling molecules such as ZAP70, the TCR &#x3B6; chains, and/or the autophosphorylation sites of Src kinases, as was suggested recently <xref ref-type="bib" rid="R59">59</xref>. At present, we do not know whether the PAG-associated Csk is complexed with other negative regulatory signaling proteins (e.g., PEP or PTP-PEST), either in T cells or in other cell types. Therefore, we cannot exclude the possibility that the impaired tyrosine phosphorylation of the Tac &#x3B6;/&#x3B6; chimera and downregulation of the Fyn kinase activity observed after overexpression of PAG and Csk in COS cells (<xref ref-type="fig" rid="F8">Fig. 8</xref>) is not due only to Csk-mediated phosphorylation of the negative regulatory tyrosine of Fyn. Nevertheless, our data indicate that PAG binds Csk (<xref ref-type="fig" rid="F7">Fig. 7D</xref> and <xref ref-type="fig" rid="F7">Fig. E</xref>), and that this results (directly or indirectly) in downregulation of Fyn tyrosine kinase activity and impaired tyrosine phosphorylation of the TCR &#x3B6; chain (<xref ref-type="fig" rid="F8">Fig. 8a</xref> and <xref ref-type="fig" rid="F8">Fig. b</xref>).</p>
+      <p>It is also not yet clear which Src family kinases are regulated by the PAG-associated Csk. In T cells, the two major candidates are Fyn and Lck. Lck has been implicated as the major PTK in immunoreceptor-mediated phosphorylation of ITAMs present in the cytoplasmic domains of the TCR-associated CD3 complex and the &#x3B6; chains. Our experiments so far did not address directly the question whether Lck is the target of PAG function in T lymphocytes. However, overexpression of PAG in Jurkat T cells resulted in an &#x223C;50% downregulation of TCR-mediated induction of the transcriptional activity of NF-AT (<xref ref-type="fig" rid="F8">Fig. 8</xref> C), which is presumably mediated mainly via Lck; this might indicate that PAG at least partially downregulates Lck-mediated signaling pathways in vivo.</p>
+      <p>Alternatively, PAG might also (or even exclusively) influence signals mediated via Fyn. A preferential interaction between Fyn and PAG has been suggested previously <xref ref-type="bib" rid="R33">33</xref> and was also demonstrated in this study. Importantly, Fyn has recently been implicated in signaling processes induced by &#x3B2;1 integrins in T lymphocytes. Thus, stimulation of &#x3B1;4&#x3B2;1 integrins by mAbs or natural ligand leads to rapid tyrosine phosphorylation of cytosolic proteins that have recently been reported to be selective substrates of Fyn (e.g., SLAP-130/FYB and Src kinase&#x2013;associated phosphoprotein homolog; references <xref ref-type="bib" rid="R60">60</xref>, <xref ref-type="bib" rid="R61">61</xref>). Overexpression of at least one of these Fyn-specific substrates (SLAP-130) in T cells results in enhanced migration towards chemokines <xref ref-type="bib" rid="R61">61</xref>. Thus, PAG might also be involved in regulating cellular adhesion and/or migration by altering the enzymatic activity of Fyn. Further studies in PAG-deficient cell lines and knockout mice will help to clarify this question.</p>
+      <p>Nevertheless, our observation that PAG is expressed as a constitutively tyrosine-phosphorylated molecule that recruits Csk to the plasma membrane could indicate that in the absence of a stimulus (e.g., antigen), the PAG&#x2013;Csk complex increases the signaling threshold required for initiating an immune response and/or helps to keep lymphocytes in a resting state. It may be speculated that abnormal alterations of the phosphorylation status of PAG under certain pathological conditions (e.g., at sites of local inflammation) and thus decreased Csk binding may contribute to hyperactivity of T cells (and other leukocytes as well). This could be a factor contributing to development of some autoimmune disorders, for example. The phosphatase(s) involved in PAG dephosphorylation might thus be an interesting target for pharmacological intervention. In any case, further analysis of PAG will help to better understand how external signals become integrated at the intracellular level to yield an appropriate response of T cells (and also other cell types) towards externally applied stimuli.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We would like to thank Drs. R. Abraham, A. Beyers, D. Cantrell, P. Dr&#xE1;ber, S. Fischer, W. Kolanus, G. Koretzky, U. Moebius, L. Samelson, A. da Silva, A. Veillette, A. Weiss, and J. Wienands for kindly providing our laboratory with reagents, and Dr. P. Jansa for help with sequencing.</p>
+      <p>This work was supported in part by Deutsche Forschungsgemeinschaft grant SFB 405/A5 (to B. Schraven) and an internal research grant of the Medical Faculty of the University of Heidelberg (to B. Schraven). The work of the Prague laboratory was supported by the Grant Agency of the Czech Republic grant 204/99/0367 and the Wellcome Trust grant J1116W24Z. V. Hor&#x306;ejs&#x306;&#xED; is supported in part by an International Research Scholar's Award from the Howard Hughes Medical Institute.</p>
+    </ack>
+    <ref-list>
+      <ref id="R1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamir</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Cambier</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antigen receptor signalingintegration of protein tyrosine kinase functions</article-title>
+          <source>Oncogene</source>
+          <volume>17</volume>
+          <year>1998</year>
+          <fpage>1353</fpage>
+          <lpage>1364</lpage>
+          <pub-id pub-id-type="pmid">9779983</pub-id>
+        </citation>
+      </ref>
+      <ref id="R2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simons</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ikonen</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional rafts in cell membranes</article-title>
+          <source>Nature.</source>
+          <volume>387</volume>
+          <year>1997</year>
+          <fpage>569</fpage>
+          <lpage>572</lpage>
+          <pub-id pub-id-type="pmid">9177342</pub-id>
+        </citation>
+      </ref>
+      <ref id="R3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xavier</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Seed</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Membrane compartmentation and the response to antigen</article-title>
+          <source>Curr. Opin. Immunol.</source>
+          <volume>11</volume>
+          <year>1999</year>
+          <fpage>265</fpage>
+          <lpage>269</lpage>
+          <pub-id pub-id-type="pmid">10375560</pub-id>
+        </citation>
+      </ref>
+      <ref id="R4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>London</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and origin of ordered lipid domains in biological membranes</article-title>
+          <source>J. Membr. Biol.</source>
+          <volume>164</volume>
+          <year>1998</year>
+          <fpage>103</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="pmid">9662555</pub-id>
+        </citation>
+      </ref>
+      <ref id="R5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harder</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Simons</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Caveolae, DIGs, and the dynamics of sphingolipid-cholesterol microdomains</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <volume>9</volume>
+          <year>1997</year>
+          <fpage>534</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="pmid">9261060</pub-id>
+        </citation>
+      </ref>
+      <ref id="R6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schroeder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>London</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interactions between saturated acyl chains confer detergent resistance on lipids and glycosylphosphatidylinositol (GPI)-anchored proteinsGPI-anchored proteins in liposomes and cells show similar behavior</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>91</volume>
+          <year>1994</year>
+          <fpage>12130</fpage>
+          <lpage>12134</lpage>
+          <pub-id pub-id-type="pmid">7991596</pub-id>
+        </citation>
+      </ref>
+      <ref id="R7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schroeder</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>London</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cholesterol and sphingolipid enhance the Triton X-100 insolubility of glycosylphosphatidylinositol-anchored proteins by promoting the formation of detergent-insoluble ordered membrane domains</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>273</volume>
+          <year>1998</year>
+          <fpage>1150</fpage>
+          <lpage>1157</lpage>
+          <pub-id pub-id-type="pmid">9422781</pub-id>
+        </citation>
+      </ref>
+      <ref id="R8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Rose</surname>
+              <given-names>J.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sorting of GPI-anchored proteins to glycolipid-enriched membrane subdomains during transport to the apical cell surface</article-title>
+          <source>Cell</source>
+          <volume>68</volume>
+          <year>1992</year>
+          <fpage>533</fpage>
+          <lpage>544</lpage>
+          <pub-id pub-id-type="pmid">1531449</pub-id>
+        </citation>
+      </ref>
+      <ref id="R9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cinek</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hor&#x306;ejs&#x306;&#xED;</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The nature of large noncovalent complexes containing glycosyl-phosphatidylinositol-anchored membrane glycoproteins and protein tyrosine kinases</article-title>
+          <source>J. Immunol.</source>
+          <volume>149</volume>
+          <year>1992</year>
+          <fpage>2262</fpage>
+          <lpage>2270</lpage>
+          <pub-id pub-id-type="pmid">1382093</pub-id>
+        </citation>
+      </ref>
+      <ref id="R10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dr&#xE1;berov&#xE1;</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Dr&#xE1;ber</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thy-1 glycoprotein and src-like protein-tyrosine kinase p53/p56<sup>lyn</sup> are associated in large detergent-resistant complexes in rat basophilic leukemia cells</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>90</volume>
+          <year>1993</year>
+          <fpage>3611</fpage>
+          <lpage>3615</lpage>
+          <pub-id pub-id-type="pmid">7682713</pub-id>
+        </citation>
+      </ref>
+      <ref id="R11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hor&#x306;ejs&#x306;&#xED;</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Drbal</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Cebecauer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>C&#x306;ern&#xFD;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Brdic&#x306;ka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Angelisov&#xE1;</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stockinger</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>GPI-microdomainsa role in signalling via immunoreceptors</article-title>
+          <source>Immunol. Today.</source>
+          <volume>20</volume>
+          <year>1999</year>
+          <fpage>356</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="pmid">10431155</pub-id>
+        </citation>
+      </ref>
+      <ref id="R12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ilangumaran</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>H.-T.</given-names>
+            </name>
+            <name>
+              <surname>Hoessli</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microdomains in lymphocyte signallingbeyond GPI-anchored proteins</article-title>
+          <source>Immunol. Today.</source>
+          <volume>21</volume>
+          <year>2000</year>
+          <fpage>2</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">10637551</pub-id>
+        </citation>
+      </ref>
+      <ref id="R13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Sloan-Lancaster</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kitchen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Trible</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Samelson</surname>
+              <given-names>L.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>LATthe ZAP70 tyrosine kinase substrate that links T cell receptor to cellular activation</article-title>
+          <source>Cell.</source>
+          <volume>92</volume>
+          <year>1998</year>
+          <fpage>83</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="pmid">9489702</pub-id>
+        </citation>
+      </ref>
+      <ref id="R14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brdic&#x306;ka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>C&#x306;ern&#xFD;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hor&#x306;ejs&#x306;&#xED;</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>T cell receptor signalling results in rapid tyrosine phosphorylation of the linker protein LAT present in detergent-resistant membrane microdomains</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <volume>248</volume>
+          <year>1998</year>
+          <fpage>356</fpage>
+          <lpage>360</lpage>
+          <pub-id pub-id-type="pmid">9675140</pub-id>
+        </citation>
+      </ref>
+      <ref id="R15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Trible</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Samelson</surname>
+              <given-names>L.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>LAT palmitoylationits essential role in membrane microdomain targeting and tyrosine phosphorylation during T cell activation</article-title>
+          <source>Immunity.</source>
+          <volume>9</volume>
+          <year>1998</year>
+          <fpage>239</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="pmid">9729044</pub-id>
+        </citation>
+      </ref>
+      <ref id="R16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodgers</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Crise</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rose</surname>
+              <given-names>J.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signals determining protein tyrosine kinase and glycosyl-phosphatidylinositol-anchored protein targeting to a glycolipid-enriched membrane fraction</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>14</volume>
+          <year>1994</year>
+          <fpage>5384</fpage>
+          <lpage>5391</lpage>
+          <pub-id pub-id-type="pmid">8035816</pub-id>
+        </citation>
+      </ref>
+      <ref id="R17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Melkonian</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Ostermeyer</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of lipid modifications in targeting proteins to detergent-resistant membrane rafts. Many raft proteins are acylated, while few are prenylated</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>274</volume>
+          <year>1999</year>
+          <fpage>3910</fpage>
+          <lpage>3917</lpage>
+          <pub-id pub-id-type="pmid">9920947</pub-id>
+        </citation>
+      </ref>
+      <ref id="R18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cinek</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hilgert</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hor&#x306;ejs&#x306;&#xED;</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>An alternative way of CD4 and CD8 association with protein kinases of the Src family</article-title>
+          <source>Immunogenetics.</source>
+          <volume>41</volume>
+          <year>1995</year>
+          <fpage>110</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="pmid">7806282</pub-id>
+        </citation>
+      </ref>
+      <ref id="R19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Veillette</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bookman</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Horak</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Bolen</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The CD4 and CD8 T cell surface antigens are associated with the internal membrane tyrosine-protein kinase p56<sup>lck</sup></article-title>
+          <source>Cell.</source>
+          <volume>55</volume>
+          <year>1988</year>
+          <fpage>301</fpage>
+          <lpage>308</lpage>
+          <pub-id pub-id-type="pmid">3262426</pub-id>
+        </citation>
+      </ref>
+      <ref id="R20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bosselut</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ashe</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kopacz</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Samelson</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Singer</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of the adaptor molecule LAT with CD4 and CD8 coreceptors identifies a new coreceptor function in T cell receptor signal transduction</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>190</volume>
+          <year>1999</year>
+          <fpage>1517</fpage>
+          <lpage>1526</lpage>
+          <pub-id pub-id-type="pmid">10562325</pub-id>
+        </citation>
+      </ref>
+      <ref id="R21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Field</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Holowka</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baird</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fc&#x3B5;RI-mediated recruitment of p53/56<sup>lyn</sup> to detergent-resistant membrane domains accompanies cellular signaling</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>92</volume>
+          <year>1995</year>
+          <fpage>9201</fpage>
+          <lpage>9205</lpage>
+          <pub-id pub-id-type="pmid">7568101</pub-id>
+        </citation>
+      </ref>
+      <ref id="R22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xavier</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>McCormack</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Seed</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Membrane compartmentalization is required for efficient T cell activation</article-title>
+          <source>Immunity.</source>
+          <volume>8</volume>
+          <year>1998</year>
+          <fpage>723</fpage>
+          <lpage>732</lpage>
+          <pub-id pub-id-type="pmid">9655486</pub-id>
+        </citation>
+      </ref>
+      <ref id="R23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Montixi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Langlet</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Thimonier</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dubois</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wurbel</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Chauvin</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Pierres</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>H.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Engagement of T cell receptor triggers its recruitment to low-density detergent-insoluble membrane domains</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>17</volume>
+          <year>1998</year>
+          <fpage>5334</fpage>
+          <lpage>5348</lpage>
+        </citation>
+      </ref>
+      <ref id="R24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Viola</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schroeder</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sakakibara</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lanzavecchia</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>T lymphocyte costimulation mediated by reorganization of membrane microdomains</article-title>
+          <source>Science.</source>
+          <volume>283</volume>
+          <year>1999</year>
+          <fpage>680</fpage>
+          <lpage>682</lpage>
+          <pub-id pub-id-type="pmid">9924026</pub-id>
+        </citation>
+      </ref>
+      <ref id="R25">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Dykstra</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>R.N.</given-names>
+            </name>
+            <name>
+              <surname>Pierce</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for lipid rafts in B cell antigen receptor signaling and antigen targeting</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>190</volume>
+          <year>1999</year>
+          <fpage>1549</fpage>
+          <lpage>1560</lpage>
+          <pub-id pub-id-type="pmid">10587346</pub-id>
+        </citation>
+      </ref>
+      <ref id="R26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janes</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Ley</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Magee</surname>
+              <given-names>A.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aggregation of lipid rafts accompanies signaling via the T cell antigen receptor</article-title>
+          <source>J. Cell. Biol.</source>
+          <volume>147</volume>
+          <year>1999</year>
+          <fpage>447</fpage>
+          <lpage>461</lpage>
+          <pub-id pub-id-type="pmid">10525547</pub-id>
+        </citation>
+      </ref>
+      <ref id="R27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kosugi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saitoh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ogata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hamaoka</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translocation of tyrosine-phosphorylated TCR&#x3B6; chain to glycolipid-enriched membrane domains upon T cell activation</article-title>
+          <source>Int. Immunol.</source>
+          <volume>11</volume>
+          <year>1999</year>
+          <fpage>1395</fpage>
+          <lpage>1401</lpage>
+          <pub-id pub-id-type="pmid">10464160</pub-id>
+        </citation>
+      </ref>
+      <ref id="R28">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheets</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Holowka</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baird</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Critical role for cholesterol in Lyn-mediated tyrosine phosphorylation of Fc&#x3B5;RI and their association with detergent-resistant membranes</article-title>
+          <source>J. Cell Biol.</source>
+          <volume>145</volume>
+          <year>1999</year>
+          <fpage>877</fpage>
+          <lpage>887</lpage>
+          <pub-id pub-id-type="pmid">10330413</pub-id>
+        </citation>
+      </ref>
+      <ref id="R29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stulnig</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sigmund</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Raederstorff</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Stockinger</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Waldhausl</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyunsaturated fatty acids inhibit T cell signal transduction by modification of detergent-insoluble membrane domains</article-title>
+          <source>J. Cell Biol.</source>
+          <volume>143</volume>
+          <year>1998</year>
+          <fpage>637</fpage>
+          <lpage>644</lpage>
+          <pub-id pub-id-type="pmid">9813086</pub-id>
+        </citation>
+      </ref>
+      <ref id="R30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garnett</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Barclay</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Carmo</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Beyers</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The association of the protein tyrosine kinases p56<sup>lck</sup> and p60<sup>fyn</sup> with the glycosyl phosphatidylinositol-anchored proteins Thy-1 and CD48 in rat thymocytes is dependent on the state of cellular activation</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>23</volume>
+          <year>1993</year>
+          <fpage>2540</fpage>
+          <lpage>2544</lpage>
+          <pub-id pub-id-type="pmid">8104794</pub-id>
+        </citation>
+      </ref>
+      <ref id="R31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ilangumaran</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Arni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>van Echten-Deckert</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Borisch</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hoessli</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microdomain-dependent regulation of Lck and Fyn protein-tyrosine kinases in T lymphocyte plasma membranes</article-title>
+          <source>Mol. Biol. Cell</source>
+          <volume>10</volume>
+          <year>1999</year>
+          <fpage>891</fpage>
+          <lpage>905</lpage>
+          <pub-id pub-id-type="pmid">10198045</pub-id>
+        </citation>
+      </ref>
+      <ref id="R32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Eckerskorn</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning of SKAP55, a novel protein that associates with the protein tyrosine kinase p59<sup>fyn</sup> in human T-lymphocytes</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>16077</fpage>
+          <lpage>16080</lpage>
+          <pub-id pub-id-type="pmid">9195899</pub-id>
+        </citation>
+      </ref>
+      <ref id="R33">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular alterations of the Fyn-complex occur as late events of human T cell activation</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>29</volume>
+          <year>1999</year>
+          <fpage>1175</fpage>
+          <lpage>1187</lpage>
+          <pub-id pub-id-type="pmid">10229084</pub-id>
+        </citation>
+      </ref>
+      <ref id="R34">
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and molecular characterisation of novel phosphoproteins associated with signaling receptor complexes in human T-lymphocytes</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Yakura</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>Kinases and Phosphatases in Lymphocyte and Neuronal Signaling</source>
+          <year>1997</year>
+          <fpage>100</fpage>
+          <lpage>111</lpage>
+          <publisher-name>Springer Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+        </citation>
+      </ref>
+      <ref id="R35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Schreiber</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wange</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Samelson</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Leibson</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>R.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic evidence for differential coupling of Syk family kinases to the T cell receptorreconstitution studies in a ZAP70-deficient Jurkat T-cell line</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>1388</fpage>
+          <lpage>1399</lpage>
+          <pub-id pub-id-type="pmid">9488454</pub-id>
+        </citation>
+      </ref>
+      <ref id="R36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldsmith</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation and characterization of a T-lymphocyte somatic mutant with altered signal transduction by the antigen receptor</article-title>
+          <source>Proc. Natl. Acad. Sci. USA.</source>
+          <volume>84</volume>
+          <year>1987</year>
+          <fpage>6879</fpage>
+          <lpage>6883</lpage>
+          <pub-id pub-id-type="pmid">3309950</pub-id>
+        </citation>
+      </ref>
+      <ref id="R37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ratnofsky</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gaumont</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lindegger</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Moebius</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a novel dimeric phosphoprotein (PP29/30) associated with signaling receptors in human T lymphocytes and natural killer cells</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>180</volume>
+          <year>1994</year>
+          <fpage>897</fpage>
+          <lpage>906</lpage>
+          <pub-id pub-id-type="pmid">7914908</pub-id>
+        </citation>
+      </ref>
+      <ref id="R38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sagolla</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Autschbach</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bensussan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>T cell receptor (TCR) interacting molecule (TRIM), a novel disulfide-linked dimer associated with the TCR-CD3-&#x3B6; complex, recruits intracellular signaling proteins to the plasma membrane</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>188</volume>
+          <year>1998</year>
+          <fpage>561</fpage>
+          <lpage>575</lpage>
+          <pub-id pub-id-type="pmid">9687533</pub-id>
+        </citation>
+      </ref>
+      <ref id="R39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wilm</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vorm</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mass spectrometric sequencing of proteins silver-stained polyacrylamide gels</article-title>
+          <source>Anal. Chem.</source>
+          <volume>68</volume>
+          <year>1996</year>
+          <fpage>850</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="pmid">8779443</pub-id>
+        </citation>
+      </ref>
+      <ref id="R40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilm</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analytical properties of the nanoelectrospray ion source</article-title>
+          <source>Anal. Chem.</source>
+          <volume>68</volume>
+          <year>1996</year>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">8779426</pub-id>
+        </citation>
+      </ref>
+      <ref id="R41">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilm</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Houthaeve</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Breit</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schweigerer</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fotsis</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Femtomole sequencing of proteins from polyacrylamide gels by nano-electrospray mass spectrometry</article-title>
+          <source>Nature.</source>
+          <volume>379</volume>
+          <year>1996</year>
+          <fpage>466</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">8559255</pub-id>
+        </citation>
+      </ref>
+      <ref id="R42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mizushima</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nagata</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>pEF-BOS, a powerful mammalian expression vector</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>18</volume>
+          <year>1990</year>
+          <fpage>5322</fpage>
+          <pub-id pub-id-type="pmid">1698283</pub-id>
+        </citation>
+      </ref>
+      <ref id="R43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>C&#x306;ern&#xFD;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stockinger</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hor&#x306;ejs&#x306;&#xED;</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Noncovalent associations of T lymphocyte surface proteins</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>26</volume>
+          <year>1996</year>
+          <fpage>2335</fpage>
+          <lpage>2343</lpage>
+          <pub-id pub-id-type="pmid">8898942</pub-id>
+        </citation>
+      </ref>
+      <ref id="R44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirchgessner</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Autschbach</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ratnofsky</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHP2-interacting transmembrane adaptor protein (SIT), a novel disulfide-linked dimer regulating human T cell activation</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>189</volume>
+          <year>1999</year>
+          <fpage>1181</fpage>
+          <lpage>1194</lpage>
+          <pub-id pub-id-type="pmid">10209036</pub-id>
+        </citation>
+      </ref>
+      <ref id="R45">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanke</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Dow</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Changelian</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Brissette</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Weringer</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Pollok</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Connelly</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Discovery of a novel, potent, and Src family-selective tyrosine kinase inhibitor. Study of Lck- and FynT-dependent T cell activation</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>271</volume>
+          <year>1996</year>
+          <fpage>695</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="pmid">8557675</pub-id>
+        </citation>
+      </ref>
+      <ref id="R46">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayer</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Eck</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Minding your p's and q's</article-title>
+          <source>Curr. Biol.</source>
+          <volume>5</volume>
+          <year>1995</year>
+          <fpage>364</fpage>
+          <lpage>367</lpage>
+          <pub-id pub-id-type="pmid">7542990</pub-id>
+        </citation>
+      </ref>
+      <ref id="R47">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hubener</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bruyns</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integration of receptor-mediated signals in T cells by transmembrane adaptor proteins</article-title>
+          <source>Immunol. Today.</source>
+          <volume>20</volume>
+          <year>1999</year>
+          <fpage>431</fpage>
+          <lpage>434</lpage>
+          <pub-id pub-id-type="pmid">10500287</pub-id>
+        </citation>
+      </ref>
+      <ref id="R48">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coupling the TCR to downstream signalling pathwaysthe role of cytoplasmic and transmembrane adaptor proteins</article-title>
+          <source>Cell. Signal.</source>
+          <volume>11</volume>
+          <year>1999</year>
+          <fpage>705</fpage>
+          <lpage>712</lpage>
+          <pub-id pub-id-type="pmid">10574324</pub-id>
+        </citation>
+      </ref>
+      <ref id="R49">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motto</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hendricks-Taylor</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Koretzky</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Implication of the GRB2-associated phosphoprotein SLP-76 in T cell receptor&#x2013;mediated interleukin 2 production</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>183</volume>
+          <year>1996</year>
+          <fpage>1937</fpage>
+          <lpage>1943</lpage>
+          <pub-id pub-id-type="pmid">8666952</pub-id>
+        </citation>
+      </ref>
+      <ref id="R50">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cloutier</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Veillette</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of inhibitory tyrosine protein kinase p50<sup>csk</sup> with protein tyrosine phosphatase PEP in T cells and other hemopoietic cells</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>15</volume>
+          <year>1996</year>
+          <fpage>4909</fpage>
+          <lpage>4918</lpage>
+        </citation>
+      </ref>
+      <ref id="R51">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davidson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Cloutier</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Gregorieff</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Veillette</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibitory tyrosine protein kinase p50<sup>csk</sup> is associated with protein-tyrosine phosphatase PTP-PEST in hemopoietic and non-hemopoietic cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>272</volume>
+          <year>1997</year>
+          <fpage>23455</fpage>
+          <lpage>23462</lpage>
+          <pub-id pub-id-type="pmid">9287362</pub-id>
+        </citation>
+      </ref>
+      <ref id="R52">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamanashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>CSKa protein-tyrosine kinase involved in regulation of src family kinases</article-title>
+          <source>J. Biol. Chem.</source>
+          <volume>266</volume>
+          <year>1991</year>
+          <fpage>24249</fpage>
+          <lpage>24252</lpage>
+          <pub-id pub-id-type="pmid">1722201</pub-id>
+        </citation>
+      </ref>
+      <ref id="R53">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bergman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mustelin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Oetken</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Partanen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Flint</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Amrein</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Autero</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Burn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Alitalo</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The human p50<sup>csk</sup> tyrosine kinase phosphorylates p56<sup>lck</sup> at Tyr-505 and down regulates its catalytic activity</article-title>
+          <source>EMBO (Eur. Mol. Biol. Organ.) J.</source>
+          <volume>11</volume>
+          <year>1992</year>
+          <fpage>2919</fpage>
+          <lpage>2924</lpage>
+        </citation>
+      </ref>
+      <ref id="R54">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chow</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Fournel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Veillette</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Negative regulation of T cell receptor signalling by tyrosine protein kinase p50<sup>csk</sup></article-title>
+          <source>Nature.</source>
+          <volume>365</volume>
+          <year>1993</year>
+          <fpage>156</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="pmid">8371758</pub-id>
+        </citation>
+      </ref>
+      <ref id="R55">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yagi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ikawa</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive activation of Src family kinases in mouse embryos that lack Csk</article-title>
+          <source>Cell.</source>
+          <volume>73</volume>
+          <year>1993</year>
+          <fpage>1125</fpage>
+          <lpage>1135</lpage>
+          <pub-id pub-id-type="pmid">8513497</pub-id>
+        </citation>
+      </ref>
+      <ref id="R56">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Imamoto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Soriano</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Disruption of the <italic>csk</italic> gene, encoding a negative regulator of Src family tyrosine kinases, leads to neural tube defects and embryonic lethality in mice</article-title>
+          <source>Cell.</source>
+          <volume>73</volume>
+          <year>1993</year>
+          <fpage>1117</fpage>
+          <lpage>1124</lpage>
+          <pub-id pub-id-type="pmid">7685657</pub-id>
+        </citation>
+      </ref>
+      <ref id="R57">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmedt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Saijo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Niidome</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuhn</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Aizawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tarakhovsky</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Csk controls antigen receptor-mediated development and selection of T-lineage cells</article-title>
+          <source>Nature.</source>
+          <volume>394</volume>
+          <year>1998</year>
+          <fpage>901</fpage>
+          <lpage>904</lpage>
+          <pub-id pub-id-type="pmid">9732874</pub-id>
+        </citation>
+      </ref>
+      <ref id="R58">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cloutier</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Veillette</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cooperative inhibition of T-cell antigen receptor signaling by a complex between a kinase and a phosphatase</article-title>
+          <source>J. Exp. Med.</source>
+          <volume>189</volume>
+          <year>1999</year>
+          <fpage>111</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="pmid">9874568</pub-id>
+        </citation>
+      </ref>
+      <ref id="R59">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gjorloff-Wingren</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saxena</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hammi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mustelin</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of TCR-induced receptor-proximal signaling events negatively regulated by the protein tyrosine phosphatase PEP</article-title>
+          <source>Eur. J. Immunol.</source>
+          <volume>29</volume>
+          <year>1999</year>
+          <fpage>3845</fpage>
+          <lpage>3854</lpage>
+          <pub-id pub-id-type="pmid">10601992</pub-id>
+        </citation>
+      </ref>
+      <ref id="R60">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Timms</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Swanson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Marie-Cardine</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Raab</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rudd</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Schraven</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Neel</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHPS-1 is a scaffold for assembling distinct adhesion-regulated multi-protein complexes in macrophages</article-title>
+          <source>Curr. Biol.</source>
+          <volume>9</volume>
+          <year>1999</year>
+          <fpage>927</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="pmid">10469599</pub-id>
+        </citation>
+      </ref>
+      <ref id="R61">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hunter</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Ottoson</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Boerth</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Koretzky</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Shimizu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel function for the SLAP-130/FYB adapter protein in &#x3B2;1 integrin signaling and T lymphocyte migration</article-title>
+          <source>J. Immunol.</source>
+          <volume>164</volume>
+          <year>2000</year>
+          <fpage>1143</fpage>
+          <lpage>1147</lpage>
+          <pub-id pub-id-type="pmid">10640723</pub-id>
+        </citation>
+      </ref>
+      <ref id="R62">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biemann</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contributions of mass spectrometry to peptide and protein structure</article-title>
+          <source>Biomed. Environ. Mass Spectrom.</source>
+          <volume>16</volume>
+          <year>1988</year>
+          <fpage>99</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="pmid">3072035</pub-id>
+        </citation>
+      </ref>
+      <ref id="R63">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wilm</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Error-tolerant identification of peptides in sequence databases by peptide sequence tags</article-title>
+          <source>Anal. Chem.</source>
+          <volume>66</volume>
+          <year>1994</year>
+          <fpage>4390</fpage>
+          <lpage>4399</lpage>
+          <pub-id pub-id-type="pmid">7847635</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><italic>Abbreviations used in this paper:</italic> aa, amino acid(s); EST, expressed sequence tag; GEM, glycosphingolipid-enriched microdomain; GST, glutathione <italic>S</italic>-transferase; ITAM, immunoreceptor tyrosine-based activation motif; LAT, linker for activation of T cells; Nano ES MS/MS, nanoelectrospray tandem mass spectrometry; NF-AT, nuclear factor of activated T cells; PAG, phosphoprotein associated with GEMs; PEP, PEST-containing phosphatase; PTK, protein tyrosine kinase; PTP, protein tyrosine phosphatase; P-Tyr, phosphotyrosine; RACE, rapid amplification of cDNA end; SH, Src-homology; SHP, SH2-containing protein tyrosine phosphatase; SLP, SH2 domain containing leukocyte phosphoprotein; TRIM, T cell receptor&#x2013;interacting molecule.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-wrap>
+    <fig id="F1">
+      <label>Figure 1</label>
+      <caption>
+        <p>pp80 accumulates in GEMs and associates with Fyn in peripheral blood T cells. (A) GEMs immunoprecipitated from NP-40 lysates of Raji and Jurkat cells by anti-CD59 or control (Ctr) mAb were subjected to in vitro kinase assay followed by SDS-PAGE and autoradiography. (B) A Fyn immunoprecipitate obtained from peripheral blood T cells was subjected to in vitro phosphorylation and two-dimensional electrophoresis; the previously identified and so far unidentified components (p43 and p85) are indicated. (C) Jurkat cells were solubilized in a 1% NP-40 lysis buffer, the suspension was subjected to sucrose gradient ultracentrifugation, and the fractions (numbered 1&#x2013;8 from top to bottom) were analyzed by SDS-PAGE followed by anti&#x2013;P-Tyr Western blotting.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f1a"/>
+      <graphic xlink:href="JEM000334.f1b"/>
+      <graphic xlink:href="JEM000334.f1c"/>
+    </fig>
+    <fig id="F2">
+      <label>Figure 2</label>
+      <caption>
+        <p>Purification and cDNA cloning of PAG. (A) GEMs prepared from 7 &#xD7; 10<sup>8</sup> Raji cells were separated by two-dimensional electrophoresis followed by silver staining of the gel. The arrow indicates the position of pp80, which was verified by anti&#x2013;P-Tyr Western blotting (not shown). The silver-stained spot was excised and subjected to Nano ES MS/MS. (B) Sequencing of the p85 protein by Nano ES MS/MS. Top: a part of the spectrum of in-gel tryptic digest of the p85 protein. The peptide ions designated with * are autolysis products of trypsin. Ions of tryptic peptides originating from the p85 protein are designated with T. These ions were in turn isolated by the quadrupole mass filter of a triple quadrupole tandem mass spectrometer and fragmented in the collision cell, and their tandem mass spectra were acquired. The tandem mass spectrum acquired from the doubly charged peptide precursor ion having m/z 673.0 is shown (bottom). A short stretch of the peptide sequence was determined by considering precise mass differences between the adjacent fragment ions containing the COOH terminus (y-ions; reference <xref ref-type="bib" rid="R62">62</xref>). Note that the NH<sub>2</sub>-terminal aa of the peptide is at the right-hand side. The peptide sequence tag (reference <xref ref-type="bib" rid="R63">63</xref>) was assembled using the deduced peptide sequence, masses of the correspondent fragment ions, and the mass of the intact peptide, and was used for searching comprehensive protein and EST databases. Searching against a protein sequence database produced no hit. Searching against an EST database hit the peptide sequence LLDENENLQEK that is present in the clone AA622656 and in several homologous clones. The match was verified by comparing the masses of fragment ions calculated for the retrieved peptide sequence and the masses of peptide ions observed in the tandem mass spectrum. The COOH-terminal part of the peptide sequence is covered by continuous series of y-ions (in bold), and the NH<sub>2</sub>-terminal part of the sequence is covered by series of b-ions (reference 62). Thus database searching provided confident identification, although only a single peptide matched the sequence of the EST clone. Similarly, tandem mass spectrum acquired from the precursor ion with m/z 416.2 hit the peptide sequence FSSLSYK present in the EST clone AA220201 (data not shown). After a full-length sequence of the protein was obtained from the cDNA nucleotide sequence, more tandem mass spectra were retrospectively matched to correspondent tryptic peptides: T<sub>1</sub>, IPPESAVDTMLTAR; T<sub>4</sub>, ELPGPQTEGK. A stretch of the peptide sequence similar to the sequence of T<sub>1</sub> (&#x2026;PPESAVD&#x2026;) was deduced from tandem mass spectra acquired from peptide ions T<sub>2</sub> and T<sub>3</sub>. (C) aa sequence of human (upper) and mouse (lower) PAG. The putative transmembrane region is boxed. All tyrosines are in bold, and the putative tyrosine-based signaling motifs are overlined in bold. The peptides sequenced by Nano ES MS/MS are indicated by a thin line over the corresponding sequences. These sequence data are available from EMBL/GenBank/DDBJ under accession nos. AF240634 (human) and A5250192 (mouse). (D) Jurkat cells were transfected with cDNA encoding PAG, or were mock transfected (&#x2212;). The cell lysates were analyzed by SDS PAGE and anti-PAG Western blotting. The blot was restained by antiserum to &#x3B2; subunits of heterotrimeric G proteins (loading control), and both films were overlaid.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f2abd"/>
+      <graphic xlink:href="JEM000334.f2c"/>
+    </fig>
+    <fig id="F3">
+      <label>Figure 3</label>
+      <caption>
+        <p>PAG is identical to pp80. (A) GEM-associated phosphoproteins were obtained from Raji cells by CD59 immunoprecipitation followed by in vitro kinase assay (IVK). Phosphorylated proteins were then subjected to reprecipitation using anti-PAG or control (Ctr) mAbs, and were analyzed by SDS-PAGE followed by autoradiography. (B) Phosphoproteins obtained by immunoprecipitation and in vitro kinase assay of a Fyn immunoprecipitate prepared from peripheral blood T cells (left) were reprecipitated using a polyclonal mouse antiserum to PAG (center) or a polyclonal rabbit antiserum to SKAP55 (right), and were analyzed by two-dimensional electrophoresis followed by autoradiography. (C) Laurylmaltoside lysates of peripheral blood &#x3B1;/&#x3B2; T cells were subjected to preclearing by anti-PAG or control (Ctr) immunosorbents, followed by SDS-PAGE and analysis by anti&#x2013;P-Tyr (top) or anti-PAG (bottom) Western blotting. L, untreated lysate.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f3a"/>
+      <graphic xlink:href="JEM000334.f3b"/>
+      <graphic xlink:href="JEM000334.f3c"/>
+    </fig>
+    <fig position="float" id="F4">
+      <label>Figure 4</label>
+      <caption>
+        <p>Posttranslational modifications of PAG. (A) Lysates of pervanadate-treated (+) or untreated (&#x2212;) Jurkat cells were analyzed by anti-PAG Western blotting. (B) COS cells were transiently transfected with the depicted cDNA constructs. Lysates corresponding to 10% of the transfectants were analyzed by P-Tyr Western blotting (top left). The blot was stripped, and expression of the individual constructs was assessed using FLAG (FLAG-PAG and FLAG-Syk), Lck, Fyn, and MYC (MYC-ZAP70) Abs, respectively (right). The remaining 90% of the lysates were subjected to anti-FLAG immunoprecipitation and analyzed by P-Tyr Western blotting (bottom left). Arrowheads indicate the positions of phosphorylated PAG. (C) Anti-PAG (left) and anti&#x2013;P-Tyr (right) Western blots of total cell lysates of wild-type Jurkat cells, the Lck-negative mutant J.CaM1.6, and the ZAP70/Syk-negative mutant P116. (D) Lysates of Jurkat cells treated for 1 min with 10 &#x3BC;M inhibitor of Src family PTKs PP1 (left) or untreated controls (Ctr; right) were analyzed by anti&#x2013;P-Tyr blot. The blots were stripped and reincubated with mAb to PAG (bottom).</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f4"/>
+    </fig>
+    <fig id="F5">
+      <label>Figure 5</label>
+      <caption>
+        <p>Tissue distribution of PAG. (A) Multiple-tissue Northern blot analysis. Positions of size markers (kb) are shown on the left. (B) Peripheral blood leukocytes were permeabilized, stained by mAbs to PAG and irrelevant negative control (Ctr) followed by fluorescein-labeled goat anti&#x2013;mouse IgG, and analyzed by cytofluorometry. The results are shown as contour plots (x-axis: intensity of fluorescence in logarithmic scale; y-axis: side scatter). Different leukocyte populations are marked: N, neutrophils; M, monocytes; L, lymphocytes.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f5a"/>
+      <graphic xlink:href="JEM000334.f5b"/>
+    </fig>
+    <fig position="float" id="F6">
+      <label>Figure 6</label>
+      <caption>
+        <p>Subcellular localization of PAG. (A) Raji cells were permeabilized and immunostained using PAG mAb MEM-250 (left) followed by secondary Cy2-labeled anti&#x2013;mouse IgG (green fluorescence). Nuclei are visualized by propidium iodide (red fluorescence). In the negative control (right), PAG mAb was omitted. (B) Lysates of Jurkat cells solubilized in 1% Brij58 or laurylmaltoside (LM) were subjected to sucrose gradient ultracentrifugation, and the fractions (numbered 1&#x2013;8 from top to bottom) were analyzed by anti-PAG or anti-LAT Western blotting as indicated. LAT was used as a well-established control marker of GEMs. S, sediment. (C) Raji cells were biosynthetically labeled with [<sup>3</sup>H]palmitate solubilized in laurylamltoside-containing buffer, and PAG or control (Ctr) immunoprecipitates were analyzed by SDS-PAGE followed by fluorography.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f6"/>
+    </fig>
+    <fig id="F7">
+      <label>Figure 7</label>
+      <caption>
+        <p>Fyn and and Csk associate with PAG. (A) In vitro pull-down assay. Lysates of untreated (&#x2013;) or pervanadate (PV)-treated (+) Jurkat cells were subjected to precipitation using the depicted recombinant GST&#x2013;SH2 domain fusion proteins. Subsequently, anti-PAG or anti-TRIM Western blotting was performed. (B) Resting peripheral blood T cells (3 &#xD7; 10<sup>7</sup>) were left untreated or were treated with the Src family kinase inhibitor PP1 (10 &#x3BC;M) for 2 min. Subsequently, PAG immunoprecipitates obtained from laurylmaltoside lysates were subjected to sequential anti&#x2013;P-Tyr, anti-Fyn, and anti-Csk immunoblotting. (C) Untreated Raji, Jurkat, or peripheral blood &#x3B1;/&#x3B2; T cells were solubilized by 1% laurylmaltoside followed by PAG or control immunoprecipitation and Csk Western blotting. L, original lysates. (D) The blots shown in <xref ref-type="fig" rid="F4">Fig. 4</xref> B (corresponding to both total lysates [bottom] and anti-FLAG immunoprecipitates [middle]) were stripped and incubated with a polyclonal antiserum directed against Csk. (E) COS cells (expressing endogenous Csk) were transfected with cDNA constructs encoding tyrosine mutants of FLAG-PAG and the PTK Fyn. Anti-FLAG immunoprecipitates were analyzed by Western blotting for the presence of Csk and Fyn. The numbers at the top identify the Tyr residues mutated to Phe. The expression levels of Fyn and Csk in total lysates were determined in parallel (bottom strips). None of the investigated PAG mutants showed any gross alterations of the overall level of tyrosine phosphorylation (not shown).</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f7ac"/>
+      <graphic xlink:href="JEM000334.f7de"/>
+    </fig>
+    <fig id="F8">
+      <label>Figure 8</label>
+      <caption>
+        <p>PAG is involved in regulation of T cell responses. (A) COS cells were transfected with the depicted cDNAs. 40 h later, anti-CD25 (Tac) or anti-FLAG (FLAG-PAG) immunoprecipitates (IP) were prepared and subjected to anti&#x2013;P-Tyr, anti-&#x3B6;, or anti-Csk Western blotting (top). In parallel, total lysates were analyzed by anti-PAG and anti-Fyn Western blotting (bottom). (B) Right: COS cells were transfected with the indicated cDNA constructs followed by lysis in 1% laurylamaltoside, Fyn immunoprecipitation, in vitro kinase assay, SDS-PAGE, and autoradiography. The expression levels of Fyn in total lysates were determined in parallel. Left: corresponding densitometric analysis. (C) Jurkat T cells were transfected with cDNA constructs coding for Fyn, PAG, and FLAG&#x2013;SLP-76, respectively, and reporter constructs coding for a triplicated NF-AT binding site of the human IL-2 promotor and for Renilla luciferase. 16 h after transfection, 7 &#xD7; 10<sup>4</sup> cells per well were stimulated for additional 6 h using anti-TCR mAb C305, a combination of C305 and CD28 mAb, or PMA (10<sup>&#x2212;9</sup> M) and ionomycin (1 &#x3BC;g/ml). Subsequently, cells were lysed and luciferase activity was determined. Values represent means of quadruplicates. Right: anti-PAG, FLAG (SLP-76), Fyn, and mitogen-activated protein kinase (MAPK) Western blotting analysis of the transfectants. Note that overexpression of PAG alone also inhibited TCR- and TCR plus CD28&#x2013;mediated induction of NF-AT activity, although to a lesser extent (&#x223C;40%; not shown). This might be due to incomplete tyrosine phosphorylation of PAG in the cells not overexpressing Fyn.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f8a"/>
+      <graphic xlink:href="JEM000334.f8b"/>
+      <graphic xlink:href="JEM000334.f8c"/>
+    </fig>
+    <fig position="float" id="F9">
+      <label>Figure 9</label>
+      <caption>
+        <p>Decrease of PAG tyrosine phosphorylation and Csk association with PAG after stimulation of T cells. (A) Peripheral blood &#x3B1;/&#x3B2; T cells were stimulated for 1 min by an IgM anti-CD3 mAb (+) or were left untreated (&#x2212;), and postnuclear lysates were analyzed by anti&#x2013;P-Tyr Western blotting. (B) Lysates of &#x3B1;/&#x3B2; T cells stimulated (+) or unstimulated (&#x2212;) with a mixture of IgM mAbs to CD3 and CD28 were subjected to anti-PAG or control immunoprecipitation followed by sequential anti&#x2013;P-Tyr, Csk, PAG, and Fyn Western blotting. Left: quantitative evaluation of the data shown at right.</p>
+      </caption>
+      <graphic xlink:href="JEM000334.f9"/>
+    </fig>
+  </floats-wrap>
+</article>
+</pmc-articleset>

@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Cell Biol</journal-id>
+      <journal-title>The Journal of Cell Biology</journal-title>
+      <issn pub-type="ppub">0021-9525</issn>
+      <issn pub-type="epub">1540-8140</issn>
+      <publisher>
+        <publisher-name>The Rockefeller University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">11864996</article-id>
+      <article-id pub-id-type="pmc">2173313</article-id>
+      <article-id pub-id-type="publisher-id">0112059</article-id>
+      <article-id pub-id-type="doi">10.1083/jcb.200112059</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>14-3-3 transits to the nucleus and participates in dynamic nucleocytoplasmic transport</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brunet</surname>
+            <given-names>Anne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kanai</surname>
+            <given-names>Fumihiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stehn</surname>
+            <given-names>Justine</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Jian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sarbassova</surname>
+            <given-names>Dilara</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Frangioni</surname>
+            <given-names>John V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dalal</surname>
+            <given-names>Sorab N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DeCaprio</surname>
+            <given-names>James A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Greenberg</surname>
+            <given-names>Michael E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yaffe</surname>
+            <given-names>Michael B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="aff" rid="aff6">6</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Center for Cancer Research and Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02139</aff>
+      <aff id="aff2"><label>2</label>Division of Signal Transduction, Department of Medicine, Beth Israel Deaconess Medical Center, Boston, MA 02215</aff>
+      <aff id="aff3"><label>3</label>Division of Neuroscience, Children's Hospital, and Department of Neurobiology, Harvard Medical School, Boston, MA 02115</aff>
+      <aff id="aff4"><label>4</label>Division of Hematology/Oncology, Beth Israel Deaconess Medical Center, Boston, MA 02215</aff>
+      <aff id="aff5"><label>5</label>Dana-Farber Cancer Institute and Harvard Medical School, Boston, MA 02115</aff>
+      <aff id="aff6"><label>6</label>Department of Surgery, Beth Israel Deaconess Medical Center, Boston, MA 02215</aff>
+      <author-notes>
+        <fn>
+          <p>Address correspondence to Michael B. Yaffe, Center for Cancer Research, Massachusetts Institute of Technology, 77 Massachusetts Ave., E18-580 Cambridge, MA 02139. Tel.: (617) 452-2442. Fax: (617) 452-4978. E-mail: <email>myaffe@mit.edu</email></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>4</day>
+        <month>3</month>
+        <year>2002</year>
+      </pub-date>
+      <volume>156</volume>
+      <issue>5</issue>
+      <fpage>817</fpage>
+      <lpage>828</lpage>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>12</month>
+          <year>2001</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>13</day>
+          <month>12</month>
+          <year>2001</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>1</month>
+          <year>2002</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2002, The Rockefeller University Press</copyright-statement>
+      </permissions>
+      <abstract>
+        <p>14-3-3 proteins regulate the cell cycle and prevent apoptosis by controlling the nuclear and cytoplasmic distribution of signaling molecules with which they interact. Although the majority of 14-3-3 molecules are present in the cytoplasm, we show here that in the absence of bound ligands 14-3-3 homes to the nucleus. We demonstrate that phosphorylation of one important 14-3-3 binding molecule, the transcription factor FKHRL1, at the 14-3-3 binding site occurs within the nucleus immediately before FKHRL1 relocalization to the cytoplasm. We show that the leucine-rich region within the COOH-terminal &#x3B1;-helix of 14-3-3, which had been proposed to function as a nuclear export signal (NES), instead functions globally in ligand binding and does not directly mediate nuclear transport. Efficient nuclear export of FKHRL1 requires both intrinsic NES sequences within FKHRL1 and phosphorylation/14-3-3 binding. Finally, we present evidence that phosphorylation/14-3-3 binding may also prevent FKHRL1 nuclear reimport. These results indicate that 14-3-3 can mediate the relocalization of nuclear ligands by several mechanisms that ensure complete sequestration of the bound 14-3-3 complex in the cytoplasm.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>14-3-3; FKHRL1; phosphoserine; nuclear export; Crm1</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <fn-group>
+        <fn>
+          <p>A. Brunet and F. Kanai contributed equally to this work.</p>
+        </fn>
+        <fn>
+          <p>F. Kani's present address is Dept. of Gastroenterology, University of Tokyo, 7-3-1 Bunkyo-ku, Tokyo 113-8655, Japan.</p>
+        </fn>
+      </fn-group>
+    </notes>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>14-3-3 proteins are a highly conserved family of molecules that regulate intracellular signal transduction events within all eukaryotic cells. These &#x223C;30 kD &#x3B1;-helical molecules include 9 proteins in mammals and 2 to 12 proteins in yeast, fungi, and plants (<xref ref-type="bibr" rid="bib8">Fu et al., 2000</xref>; <xref ref-type="bibr" rid="bib29">Tzivion et al., 2001</xref>; <xref ref-type="bibr" rid="bib30">van Hemert et al., 2001</xref>). 14-3-3 proteins form homo- and heterodimeric U-shaped structures (<xref ref-type="bibr" rid="bib16">Liu et al., 1995</xref>; <xref ref-type="bibr" rid="bib33">Xiao et al., 1995</xref>) that bind to a large number of phosphorylated signaling molecules through the large central channel in the center of the U. For example, 14-3-3 proteins specifically recognize one or more short phosphoserine/threonine-containing sequence motifs (<xref ref-type="bibr" rid="bib19">Muslin et al., 1996</xref>; <xref ref-type="bibr" rid="bib34">Yaffe et al., 1997</xref>) on target proteins such as Raf to control mitogen-activated protein kinase activation, Cdc25 to control G2/M cell cycle progression, and BAD and FKHRL1 to control apoptosis. The molecular details of how 14-3-3 functions in many of these interactions remains obscure, though it appears that for at least some of its substrates 14-3-3 participates in regulating their subcellular localization. Several 14-3-3 binding molecules perform critical functions within the nucleus. These include the mitotic phosphatase Cdc25 (<xref ref-type="bibr" rid="bib21">Peng et al., 1997</xref>; <xref ref-type="bibr" rid="bib5">Dalal et al., 1999</xref>; <xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib17">Lopez-Girona et al., 1999</xref>; <xref ref-type="bibr" rid="bib35">Yang et al., 1999</xref>; <xref ref-type="bibr" rid="bib36">Zeng and Piwnica-Worms, 1999</xref>; <xref ref-type="bibr" rid="bib6">Davezac et al., 2000</xref>), the proapoptotic transcription factor FKHRL1 (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>), the yeast transcriptional activators MSN2 and MSN4 (<xref ref-type="bibr" rid="bib1">Beck and Hall, 1999</xref>), the mammalian transcriptional coactivator TAZ and YAP (<xref ref-type="bibr" rid="bib12">Kanai et al., 2000</xref>), and the histone deacetylases HDAC4, -5, and -7 (<xref ref-type="bibr" rid="bib10">Grozinger and Schreiber, 2000</xref>; <xref ref-type="bibr" rid="bib31">Wang et al., 2000</xref>; <xref ref-type="bibr" rid="bib13">Kao et al., 2001</xref>). When complexed to 14-3-3, these molecules become sequestered in the cytoplasm, impairing their nuclear function. Curiously, 14-3-3 proteins are found primary within the cytoplasm, raising the question of whether phosphorylation and 14-3-3 binding occurs in the cytoplasm or in the nucleus. In addition, there is controversy as to the mechanisms through which 14-3-3 causes the relocalization of these substrates from the nucleus into the cytoplasm.</p>
+      <p>Insight into the mechanism of 14-3-3&#x2013;dependent cytosolic sequestration has emerged from a series of studies on the interaction between 14-3-3 and Cdc25. Initial studies by <xref ref-type="bibr" rid="bib17">Lopez-Girona et al. (1999)</xref> identified a leucine-rich sequence within the COOH-terminal helix (helix &#x3B1;I) of 14-3-3 that was highly homologous to known nuclear export signals (NESs).<xref ref-type="fn" rid="fn1">*</xref> These authors proposed that 14-3-3 functioned essentially as an &#x201C;attachable NES&#x201D; to transport nuclear Cdc25 to the cytoplasmic compartment by a piggy-back mechanism. This view was contradicted by detailed studies by both <xref ref-type="bibr" rid="bib14">Kumagai and Dunphy (1999)</xref> and <xref ref-type="bibr" rid="bib36">Zeng and Piwnica-Worms (1999)</xref>. These authors showed that point mutations in this leucine-rich sequence of 14-3-3 prevented Cdc25 from being sequestered in the cytoplasm by disrupting its binding to 14-3-3. Furthermore, our x-ray crystallographic studies of 14-3-3&#x2013;peptide complexes of two canonical 14-3-3 binding motifs R[S/Ar]XpSXP and RX[Ar/S]XpSXP, (pS denotes phosphoserine and Ar denotes aromatic residues) showed that the critical leucine and isoleucine residues within helix &#x3B1;I were directly involved in binding to the phosphopeptide (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>). Taken together, these studies raise the possibility that the primary function of helix &#x3B1;I may be to mediate interactions between 14-3-3 and many phosphoprotein ligands but do not prove that this sequence cannot function as an NES.</p>
+      <p>The current prevailing mechanism for how 14-3-3 proteins mediate changes in the subcellular localization of Cdc25 comes from elegant studies by <xref ref-type="bibr" rid="bib14">Kumagai and Dunphy (1999)</xref> and <xref ref-type="bibr" rid="bib35">Yang et al. (1999)</xref>. Cdc25 was found to be exported from the nucleus at a constant rate. This process involved intrinsic NES sequences in Cdc25 but was not modified by phosphorylation/14-3-3 binding. In contrast, 14-3-3&#x2013;bound Cdc25 within the cytoplasm showed a decreased rate of nuclear import as a result of masking a Cdc25 nuclear localization signal (NLS) sequence, thereby inhibiting the interaction of Cdc25 with importin-&#x3B1;. Whether this mechanism operates for all 14-3-3&#x2013;bound ligands or whether a subset of ligands can undergo an increase in nuclear export upon phosphorylation/14-3-3 binding is not known.</p>
+      <p>In the present study, we sought to clarify where 14-3-3 binding to its ligands occurred, determine whether the leucine-rich helix &#x3B1;I truly functions as an NES, and identify features of both 14-3-3 and one of its nuclear ligands, the transcription factor FKHRL1, that are critical for the movement of this nuclear ligand to the cytoplasm. Surprisingly, we find that in the absence of bound ligands the majority of 14-3-3 is localized to the nucleus, where a large number of 14-3-3 ligands are present. For FKHRL1, growth-factor stimulation, which activates AKT, first leads to the phosphorylation of FKHRL1 at its 14-3-3 binding site within the nucleus immediately before FKHRL1 nuclear export. Helix &#x3B1;I of 14-3-3 does not function as an attachable NES but is involved in a general manner in the binding of phosphorylated ligands. Instead, rapid nuclear export of FKHRL1 requires both NES sequences that are intrinsic to FKHRL1 and phosphorylation/14-3-3 binding. Once in the cytoplasm, FKHRL1 remains phosphorylated and bound to 14-3-3, thereby preventing nuclear reimport. Together with the studies on Cdc25 cited above, our study suggests that 14-3-3 can function through multiple mechanisms that may cooperate to ensure complete sequestration of the phosphorylated 14-3-3 ligand in the cytoplasm.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Different intracellular localization of 14-3-3 and its ligands</title>
+        <p>To investigate the normal intracellular distribution of 14-3-3 proteins and their ligands, U2OS cells were immunostained with a polyclonal antibody that recognizes all 14-3-3 isotypes (pan &#x3B1;&#x2013;14-3-3) or with a monoclonal antibody generated against the 14-3-3&#x3C3; isotype (<xref rid="fig1" ref-type="fig">Fig. 1</xref>
+ 
+  A). Identical immunostaining results were obtained with both antibodies, though the performance of the monoclonal anti&#x2013;14-3-3&#x3C3; antibody was superior, and this antibody was therefore used preferentially. Both antibodies showed that the vast majority of 14-3-3 had a diffuse cytoplasmic and perinuclear distribution in unsychronized cells, consistent with findings reported by others (<xref ref-type="bibr" rid="bib11">Hermeking et al., 1997</xref>; <xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib17">Lopez-Girona et al., 1999</xref>; <xref ref-type="bibr" rid="bib10">Grozinger and Schreiber, 2000</xref>). A similar cytoplasmic distribution of 14-3-3 was observed after biochemical separation of the cells into cytoplasmic and nuclear fractions followed by immunoblotting with the pan &#x3B1;&#x2013;14-3-3 antibody (<xref rid="fig1" ref-type="fig">Fig. 1</xref> B). To investigate the intracellular localization of all ligands capable of 14-3-3 binding, cells were metabolically labeled with [<sup>35</sup>S]methionine, subjected to nuclear and cytoplasmic fractionation, and incubated with 14-3-3&#x2013;GST fusion proteins in pull-down assays. Surprisingly, these experiments revealed that many 14-3-3 binding ligands were in the nuclear fraction (<xref rid="fig1" ref-type="fig">Fig. 1</xref> C) despite the predominantly cytoplasmic location of endogenous 14-3-3.</p>
+        <fig position="float" id="fig1">
+          <label>Figure 1.</label>
+          <caption>
+            <p><bold>Different subcellular distributions of 14-3-3 and its ligands.</bold> (A) U2OS cells immunostained for 14-3-3&#x3C3; (left) and corresponding DAPI staining (right). Bar, 10 &#x3BC;m. (B) Biochemical fractionation of U2OS cells followed by immunoblotting using an antibody recognizing all 14-3-3 isotypes (N, nuclear fraction; C, cytoplasmic fraction). Blots were probed with anti&#x2013;&#x3B1;-tubulin (cytoplasmic) or anti&#x2013;lamin B (nuclear) as controls. A very small amount of 14-3-3 is present in the nuclear fraction but cannot be seen in this exposure. (C) U2OS cells were metabolically labeled with [<sup>35</sup>S]methionine, fractionated, and nuclear (N) and cytoplasmic (C) fractions containing equal amounts of protein and radioactivity were incubated with beads containing GST&#x2013;14-3-3 or GST alone. Bound proteins were visualized by SDS-PAGE and autoradiography. A small portion of the input sample is shown on the left (Lysate lanes). Positions of molecular weight markers, in kD, are indicated. The prominent band at &#x223C;28 kD in the cytoplasmic/14-3-3&#x2013;GST lane (arrow) is endogenous U2OS 14-3-3 (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>).</p>
+          </caption>
+          <graphic xlink:href="0112059f1"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>14-3-3 normally transits into and out of the nucleus</title>
+        <p>The findings in <xref rid="fig1" ref-type="fig">Fig. 1</xref> suggest that free 14-3-3 might dynamically transit into the nucleus to bind ligands followed by export of the ligand-bound 14-3-3 complex out of the nucleus. To investigate if 14-3-3 was actively exported out of the nucleus, U2OS cells were incubated with leptomycin B (LMB), a specific inhibitor of Crm1- and NES-dependent nuclear export (<xref ref-type="bibr" rid="bib7">Fornerod et al., 1997</xref>; <xref ref-type="bibr" rid="bib9">Fukuda et al., 1997</xref>; <xref ref-type="bibr" rid="bib20">Ossareh-Nazari et al., 1997</xref>), and the distribution of 14-3-3 was analyzed by immunofluorescence. As shown in <xref rid="fig2" ref-type="fig">Fig. 2, A and B</xref>
+ 
+ , incubation of U2OS cells with LMB caused the progressive accumulation of endogenous 14-3-3 in the nucleus, causing a 2.5-fold increase in nuclear 14-3-3 staining within 1.5 h and a nearly 15-fold increase in nuclear 14-3-3 accumulation by 18 h with the majority of 14-3-3 being clearly localized within the nuclear compartment (<xref rid="fig2" ref-type="fig">Fig. 2</xref>). These experiments demonstrate that nuclear export of 14-3-3 is an NES/Crm1-dependent process but do not reveal whether the NES is present on 14-3-3 or on the bound ligand.</p>
+        <fig position="float" id="fig2">
+          <label>Figure 2.</label>
+          <caption>
+            <p><bold>LMB sequesters endogenous 14-3-3 in the nucleus.</bold> (A) Immunostaining of U2OS cells for endogenous 14-3-3&#x3C3; with (right) or without (left) treatment with LMB for 18 h. Corresponding DAPI staining is shown on the bottom. Bar, 10 &#x3BC;m. (B) Quantitative analysis of 14-3-3&#x3C3; location. Subcellular localization of 14-3-3&#x3C3; was scored according to whether it was higher in the nucleus (N &gt; C), evenly distributed between nucleus and cytoplasm (C = N), or higher in cytoplasm (C &lt; N) for 300 cells at each time point. Results are the mean &#xB1; SD from three separate experiments.</p>
+          </caption>
+          <graphic xlink:href="0112059f2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The leucine-rich sequence in 14-3-3 functions in ligand binding rather than nuclear export</title>
+        <p>14-3-3 proteins contain a leucine-rich sequence in helix &#x3B1;I that matches the consensus sequence for nuclear export, and <xref ref-type="bibr" rid="bib17">Lopez-Girona et al. (1999)</xref> have argued that this sequence functions as an &#x201C;attachable NES&#x201D; for 14-3-3&#x2013;dependent nuclear export of Cdc25. However, several lines of evidence suggest that this leucine-rich sequence in helix &#x3B1;I functions primarily in binding to phosphorylated ligands, including crystallographic studies of two 14-3-3&#x2013;phosphopeptide complexes (<xref ref-type="bibr" rid="bib34">Yaffe et al., 1997</xref>; <xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>) and mutation and deletion studies involving interactions between this region of 14-3-3 with two specific phosphorylated ligands, Cdc25C (<xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib36">Zeng and Piwnica-Worms, 1999</xref>) and Raf (<xref ref-type="bibr" rid="bib27">Thorson et al., 1998</xref>).</p>
+        <p>To determine if helix &#x3B1;I of 14-3-3 has a very general function in binding to many serine-phosphorylated 14-3-3 binding proteins, we used commercial antibodies that had been generated against one of the major 14-3-3 phosphoserine binding motifs. This motif is present in many 14-3-3 ligands (<xref ref-type="bibr" rid="bib19">Muslin et al., 1996</xref>; <xref ref-type="bibr" rid="bib34">Yaffe et al., 1997</xref>), and this antibody detects a large number of immunoreactive bands in 293T total cell lysates (<xref rid="fig3" ref-type="fig">Fig. 3</xref>
+ 
+  A, TCL lane), which are specifically pulled down by wild-type (WT) 14-3-3&#x2013;GST (14-3-3&#x25B; WT lane) but not by a 14-3-3&#x2013;GST point mutant that is unable to bind to ligands (14-3-3&#x25B; MT lane, discussed in more detail below). Deletion of residues 215&#x2013;255 in 14-3-3&#x25B;, which includes both helix &#x3B1;I and the extreme COOH-terminal tail (<xref rid="fig3" ref-type="fig">Fig. 3</xref> A, &#x394;C lanes, and <xref rid="fig4" ref-type="fig">Fig. 4</xref>
+ 
+  A), completely abrogated binding of 14-3-3 to all of the detected proteins. The extreme COOH-terminal tail of 14-3-3 (residues 233&#x2013;255 in &#x25B;) cannot be visualized in 14-3-3 x-ray structures (<xref ref-type="bibr" rid="bib16">Liu et al., 1995</xref>; <xref ref-type="bibr" rid="bib33">Xiao et al., 1995</xref>) (<xref rid="fig4" ref-type="fig">Fig. 4</xref> A), and its contribution to ligand binding is unknown. Removal of this region while maintaining helix &#x3B1;I reduced but did not eliminate 14-3-3 binding (<xref rid="fig3" ref-type="fig">Fig. 3</xref> A, &#x394;T lanes), demonstrating that helix &#x3B1;I plays an essential role in binding to many phosphorylated protein ligands.</p>
+        <fig position="float" id="fig3">
+          <label>Figure 3.</label>
+          <caption>
+            <p><bold>The Leu-rich sequence in helix</bold> &#x3B1;<bold>I of 14-3-3 is responsible for ligand binding.</bold> (A) In the context of the entire 14-3-3 molecule, the Leu-rich helix &#x3B1;I functions primarily in ligand binding. Total cell lysates from 293T cells were incubated with beads containing the indicated GST&#x2013;14-3-3 constructs or GST alone and bound proteins analyzed by SDS-PAGE and immunoblotting using an antibody against the 14-3-3 phosphoserine-binding epitope. TCL, total cell lysate; WT, WT 14-3-3; MT, K49E mutant; &#x394;C, GST&#x2013;14-3-3 (1&#x2013;214); &#x394;T, GST&#x2013;14-3-3 (1&#x2013;232). The mobility of molecular mass standards in kD is indicated. (B and C) Direct contribution of leucine and isoleucine residues in helix &#x3B1;I to ligand binding. 293T cell lysates as in A were incubated with beads containing immobilized WT GST&#x2013;14-3-3&#x25B; or GST&#x2013;14-3-3&#x25B; containing sequential Ala substitutions for Leu/Ile residues in helix &#x3B1;I. Bound proteins were analyzed by SDS-PAGE followed by immunoblotting using the antibody against the 14-3-3 phosphoserine-binding epitope (top) or stained with Coomassie blue to quantitate the amount of bead-bound GST&#x2013;14-3-3 protein and GST alone (bottom, arrows). The bottom part of C shows the contributions from each Leu/Ile residue to phosphopeptide binding based on the x-ray structure of a 14-3-3&#x2013;phosphopeptide complex (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>).</p>
+          </caption>
+          <graphic xlink:href="0112059f3"/>
+        </fig>
+        <fig position="float" id="fig4">
+          <label>Figure 4.</label>
+          <caption>
+            <p><bold>A mutant 14-3-3, which cannot bind to ligands, accumulates in the nucleus.</bold> (A) Structural cartoon of the 14-3-3 dimer. Monomers (red and green) consists of nine &#x3B1;-helices. Helix &#x3B1;I containing the leucine-rich sequence is purple with leucine and isoleucine residues shown in ball and stick. Lys-49 in the phosphoserine-binding pocket is indicated. Only three residues in the extreme COOH-terminal tail (cyan) are visible in the x-ray structures. The figure was generated with Molscript and Raster3D. (B) Expression of Xpress-tagged 14-3-3 WT and K49E mutant protein in different stable U2OS cell lines. Total cell lysates corresponding to equivalent amounts of total protein from stable cell lines expressing empty vector (lane 1), WT 14-3-3 (lanes 2&#x2013;4), or K49E mutant (lanes 5&#x2013;7) were analyzed by SDS-PAGE and immunoblotting using an anti-Xpress epitope antibody. (C) Comparison of Xpress-tagged and endogenous 14-3-3 levels in several U2OS stable cell lines. Total cell lysates from stable cell lines containing empty vector (lane 1), WT 14-3-3&#x25B; (clone #15) (lane 2) and 14-3-3&#x25B; K49E mutant (clone #21) (lane 3) were immunoblotted using a pan anti&#x2013;14-3-3 antibody. Arrowhead indicates endogenous 14-3-3 in U2OS cells; arrow indicates Xpress-tagged 14-3-3. (D) Immunostaining of stable U2OS cell lines expressing WT 14-3-3&#x25B; (clone #15, left) or 14-3-3&#x25B; K49E mutant (clone #21, right) with the anti-Xpress antibody. Corresponding DAPI staining was shown in the middle, and the merged image is shown on the bottom. Bar, 10 &#x3BC;m. Each of three stable cell lines showed identical results.</p>
+          </caption>
+          <graphic xlink:href="0112059f4"/>
+        </fig>
+        <p>To specifically address the role of the leucine and isoleucine residues within helix &#x3B1;I, we progressively mutated these residues to alanines in a systematic manner and determined if the 14-3-3 mutants could bind to ligands (<xref rid="fig3" ref-type="fig">Fig. 3, B and C</xref>). Mutation of a single leucine, Leu-216, resulted in an &#x223C;50% global reduction in ligand binding (<xref rid="fig3" ref-type="fig">Fig. 3</xref> B, LA<sub>1</sub> lane). A double Ala substitution for Leu-216/Ile-217 (LA<sub>2</sub> lane) or a triple Ala substitution for Leu-216/Ile-217/Leu-220 (LA<sub>3</sub> lane) further reduced ligand binding to &#x223C;5% or less of that seen with WT 14-3-3. Additional Ala substitutions of Leu-221 (LA<sub>4</sub> lane), Leu-225 (LA<sub>5</sub> lane), and Leu-227 (LA<sub>6</sub> lane) eliminated binding altogether. Thus, the major role of the leucine and isoleucine residues within helix &#x3B1;I appears to be binding phosphoproteins.</p>
+      </sec>
+      <sec>
+        <title>A 14-3-3 mutant, which cannot bind to ligands, accumulates in the nucleus</title>
+        <p>The experiments described above strongly argue that helix &#x3B1;I functions primarily in ligand binding but cannot completely exclude the possibility that helix &#x3B1;I might also somehow mediate nuclear export. To directly address whether helix &#x3B1;I can function as an NES in vivo, we took advantage of a 14-3-3 point mutant in which Lys-49 is replaced by Glu (K49E) in the presence of an intact WT helix &#x3B1;I. This mutant, developed by Fu and colleagues, has the same conformation as WT 14-3-3 and is able to form homo- and heterodimers in vitro and in vivo (<xref ref-type="bibr" rid="bib37">Zhang et al., 1997</xref>; unpublished data) but is unable to bind to Raf (<xref ref-type="bibr" rid="bib37">Zhang et al., 1997</xref>). X-ray crystallographic studies revealed that Lys-49 forms part of a positively charged substrate-binding pocket in the central binding groove of 14-3-3 (<xref rid="fig4" ref-type="fig">Fig. 4</xref> A), where it directly coordinates the phosphoserine phosphate of 14-3-3 binding peptides (<xref ref-type="bibr" rid="bib34">Yaffe et al., 1997</xref>; <xref ref-type="bibr" rid="bib22">Petosa et al., 1998</xref>; <xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>). These structural observations on peptides suggested that the K49E mutation would be generally deficient in binding to phosphorylated protein ligands, while preserving its leucine-rich NES-like sequence. Indeed, the 14-3-3&#x25B; K49E mutant is unable to bind to numerous 14-3-3 binding proteins in cell extracts (<xref rid="fig3" ref-type="fig">Fig. 3</xref> A, MT lanes), allowing the intrinsic function of the leucine-rich sequence in helix &#x3B1;I to be directly investigated without complexities arising from 14-3-3 ligand interactions.</p>
+        <p>If the leucine-rich sequence in helix &#x3B1;I functions as a true NES for 14-3-3, then the unliganded 14-3-3&#x25B; K49E protein should localize exclusively in the cytoplasm. Stable U2OS cell lines expressing either WT or K49E mutant Xpress-tagged 14-3-3&#x25B; proteins were generated, and three different stable cell lines for each construct were studied in detail (<xref rid="fig4" ref-type="fig">Fig. 4</xref>, B&#x2013;D). The ligand-binding defective 14-3-3&#x25B; K49E mutant was found predominantly in the nucleus in 100% of the stable transfected cells in all cell lines investigated (<xref rid="fig4" ref-type="fig">Fig. 4</xref> D, left). In contrast, the tagged WT 14-3-3 protein was found almost exclusively in the cytoplasm (<xref rid="fig4" ref-type="fig">Fig. 4</xref> D, right), showing the identical staining pattern as that seen with endogenous 14-3-3 (<xref rid="fig1" ref-type="fig">Fig. 1</xref> A). Expression levels of tagged WT 14-3-3&#x25B; in all three cell lines were &#x223C;3.5- to 5-fold lower than those seen with the K49E mutant (<xref rid="fig4" ref-type="fig">Fig. 4, B and C</xref>), perhaps due to deleterious effects of 14-3-3 on cell growth (<xref ref-type="bibr" rid="bib11">Hermeking et al., 1997</xref>; <xref ref-type="bibr" rid="bib15">Kumagai et al., 1998</xref>). However, in all cases the expression levels of the stably transfected 14-3-3 proteins were less than or equal to those of endogenous 14-3-3 (<xref rid="fig4" ref-type="fig">Fig. 4</xref> C). The possibility that localization of the K49E mutant compared with WT was due to differences in expression levels was ruled out by transient transfection experiments. Under these conditions, both WT and mutant proteins are expressed at equivalent levels (albeit at significantly higher concentrations than the endogenous 14-3-3 proteins) and resulted in the same nuclear localization for the K49E mutant (unpublished data). Together, these findings show conclusively that the leucine-rich sequence within 14-3-3 does not function as an NES in the absence of bound ligands.</p>
+        <p>The nuclear localization of the K49E 14-3-3 mutant strongly argues that nuclear export of 14-3-3 requires ligand binding. In addition, the LMB experiments indicate that the 14-3-3 is exported in an NES-dependent manner. Therefore, we hypothesized that it is NES sequences on the bound ligand which drive the export of 14-3-3&#x2013;ligand complexes out of the nucleus and that this process is facilitated by 14-3-3 binding. To directly investigate the contribution of the 14-3-3&#x2013;bound cargo to nuclear export, we focused the remainder of this study on one particular 14-3-3 binding ligand, the human Forkhead transcription factor FKHRL1 (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>).</p>
+      </sec>
+      <sec>
+        <title>The export of the 14-3-3 ligand FKHRL1 requires Crm1, intrinsic FKHLR1 NES sequences, and 14-3-3 binding</title>
+        <p>The subcellular localization of FKHRL1 is dependent on its phosphorylation by the protein kinase Akt. In the absence of growth factor, Akt is inactive and FKHRL1 is present in the nucleus in an unphosphorylated form. Upon growth factor stimulation, Akt is activated, directly phosphorylating FKHRL1 at T32 and S253, and to a lesser extent at S315, and resulting in FKHRL1 relocalization from the nucleus to the cytoplasm (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>). Similar AKT-dependent changes in subcellular localization have also been observed for the additional FKHRL1 human homologs AFX and FKHR (<xref ref-type="bibr" rid="bib2">Brownawell et al., 2001</xref>; <xref ref-type="bibr" rid="bib23">Rena et al., 2001</xref>) and for the <italic>Caenorhabditis elegans</italic> homologue <italic>daf-16</italic> (<xref ref-type="bibr" rid="bib4">Cahill et al., 2001</xref>). Phosphorylation at T32 and S253 causes FKHRL1 to bind to 14-3-3, suggesting that the interaction between FKHRL1 and 14-3-3 may play an important role in regulating the subcellular localization of the complex. COOH-terminal to the two 14-3-3 binding sites, FKHRL1 contains two sequences that closely match a consensus for NES sequences (<xref rid="fig5" ref-type="fig">Fig. 5</xref>
+ 
+  A), suggesting that nuclear export of 14-3-3&#x2013;FKHRL1 complexes might involve a cooperative process involving both the FKHRL1 NES and 14-3-3 binding.</p>
+        <fig position="float" id="fig5">
+          <label>Figure 5.</label>
+          <caption>
+            <p><bold>Both FKHRL1 nuclear export sequences and interaction with 14-3-3 are necessary for efficient nucleocytoplasmic transport.</bold> (A) Schematic illustration of FKHRL1 showing the T32, S253, and S315 phosphorylation sites and the 14-3-3 binding sites. The two NES sequences in FKHRL1 are shown (NES1, amino acids 369&#x2013;378; NES2, amino acids 386&#x2013;396). (B) LMB treatment prevents FKHRL1 nuclear export even in the presence of growth factors. CCL39 cells were transfected with a WT HA-FKHRL1 construct. Cells were starved for 20 h, incubated with LMB for 2 h, and then stimulated with 10% serum (FCS) or 100 ng/ml IGF-I for 15 min. Localization of FKHRL1 WT or mutants was monitored by immunolocalization with the anti-HA antibody. Quantitative analysis of a representative experiment is shown. C, cytoplasm; C + N, cytoplasm and nucleus; N, nucleus. (C) Mutation of FKHRL1 NES or 14-3-3 binding site prevents FKHRL1 relocalization from the nucleus to the cytoplasm in the presence of growth factors. CCL39 cells were transfected with a WT HA-FKHRL1 construct or a mutant of both NES mutant of FKHRL1 (NESm) or a mutant in which all three phosphorylation sites of FKHRL1 have been replaced by alanine (TM). Cells were incubated in the presence of 10% serum (FCS). Localization of FKHRL1 WT or mutants was monitored by immunolocalization with the anti-HA antibody. (D) Quantitative analysis of FKHRL1 localization. Results are the mean &#xB1; SD from three separate experiments. C, cytoplasm; C + N, cytoplasm and nucleus; N, nucleus. (E) Mutation of FKHRL1 NES does not abolish binding to 14-3-3, whereas mutation of the phosphorylation sites of FKHRL1 does. 293T cells were cotransfected with a construct encoding M2&#x2013;14-3-3&#x3B6; and either empty vector (CTL) or vectors encoding HA-FKHRL1 WT, T32A/S253A/S315A (TM), or a mutant of the putative NES1 and 2 (NESm). 14-3-3 was immunoprecipitated with the anti-M2 antibody, and the immune complex was analyzed by SDS-PAGE and immunoblotted with the anti-HA antibody (top). Total cell lysates (TCL) were also analyzed by direct immunoblotting with the anti-HA antibody (middle) or the anti-M2 antibody (bottom).</p>
+          </caption>
+          <graphic xlink:href="0112059f5"/>
+        </fig>
+        <p>To first determine if FKHRL1 nuclear export is a Crm1- and NES-dependent process, we followed FKHLR1 subcellular localization in fibroblasts in the presence or absence of LMB upon stimulation by growth factors (<xref rid="fig5" ref-type="fig">Fig. 5</xref> B). We found that treatment of cells with LMB prevented the relocalization of FKHRL1 from the nucleus to the cytoplasm in response to serum or insulin-like growth factor (IGF)-I, indicating that FKHRL1 was exported from the nucleus in an NES-dependent manner.</p>
+        <p>To investigate whether the intrinsic FKHRL1 NES sequences were responsible for the NES-dependent FKHRL1 nuclear export, we generated mutants of FKHRL1 in which the critical leucine or methionine residues in NES1 or NES2 were replaced by alanines either individually or in combination (<xref rid="fig5" ref-type="fig">Fig. 5, C and D</xref>). We found that an FKHRL1 mutant in which both NES1 and -2 were mutated remains localized in the nucleus even in the presence of growth factors, indicating that the NES sequences of FKHRL1 are required for the nuclear export of this protein. Importantly, we verified that the FKHRL1 NES mutant protein, which localizes to the nucleus, still binds to 14-3-3 (<xref rid="fig5" ref-type="fig">Fig. 5</xref> E). This indicates that in the absence of a functional NES in FKHRL1, 14-3-3 binding alone is not sufficient to promote the efficient localization of FKHRL1 from the nucleus to the cytoplasm.</p>
+        <p>Consistent with our previous results, we found that a triple point mutant of FKHRL1, which does not bind to 14-3-3 (<xref rid="fig5" ref-type="fig">Fig. 5</xref> E) because the key 14-3-3 binding residues T32 and S253 has been mutated to alanine, remains localized within the nucleus even in the presence of growth factors (<xref rid="fig5" ref-type="fig">Fig. 5, C and D</xref>). As this FKHRL1 mutant contains the intact NESs, this result further indicates that the NESs of FKHRL1 are not sufficient to lead to the net export of FKHRL1 out of the nucleus in the absence of 14-3-3 binding. Therefore, both the NES of FKHRL1 and FKHRL1's ability to bind 14-3-3 appear to be necessary to promote efficient FKHRL1 nuclear export. In addition, we found in transient transfection studies that FKHRL1 bound to Crm1 in a manner that is dependent on FKHRL1 NESs, further confirming that the NES sequences of FKHRL1 play a role in a Crm1-dependent nuclear export of this transcription factor (unpublished data). However, in these overexpression studies we have been unable to show that the interaction between FKHRL1 and Crm1 is facilitated by 14-3-3. Nevertheless, 14-3-3 may enhance the binding of FKHRL1 to Crm1 in a context where both proteins are expressed at physiological levels, or alternatively 14-3-3 may enhance the export of FKHRL1 without directly enhancing its binding to Crm1.</p>
+      </sec>
+      <sec>
+        <title>FKHLR1 undergoes phosphorylation within the nucleus upon growth factor stimulation before nuclear export&#x2014;roles of intrinsic NES and NLS sequences and the 14-3-3 binding site in FKHRL1 localization</title>
+        <p>The experiments described above reflect the overall subcellular distribution of FKHRL1 at a given time but do not address the dynamic sequence of events involving FKHRL1 relocalization from the nucleus to the cytoplasm. Based on the results from <xref rid="fig1" ref-type="fig">Figs. 1</xref>&#x2013;<xref rid="fig4" ref-type="fig">4</xref>, we hypothesized that 14-3-3 binding to FKHRL1 might occur in the nucleus, exposing the FKHRL1 NES and facilitating export of the 14-3-3&#x2013;FKHRL1 complex to the cytoplasm. Once in the cytoplasm, 14-3-3 may have additional function in masking potential NLS, thereby preventing reentry of the ligands into the nucleus.</p>
+        <p>This sequence of events would require the phosphorylation of FKHRL1 in the nucleus to precede its cytoplasmic translocation. To investigate this, WT HA-tagged FKHRL1 was expressed in CCL39 fibroblasts, and the kinetics of phosphorylation and FKHRL1 relocalization were examined using immunofluorescence experiments with an antibody to HA and an antibody specific to phospho-Thr32 (<xref rid="fig6" ref-type="fig">Fig. 6</xref>
+ 
+ , WT panels). When cells were deprived of survival factors, WT FKHRL1 was localized in the nucleus and was not phosphorylated at Thr32. At short times after stimulation by IGF-1 phosphorylation of WT FKHRL1 at the 14-3-3 consensus binding site, Thr32 was detected, whereas FKHRL1 remained in the nucleus (<xref rid="fig6" ref-type="fig">Fig. 6</xref>, WT, 2 min). Upon longer stimulation times, the phosphorylated form of FKHRL1 began to appear predominantly in the cytoplasm (<xref rid="fig6" ref-type="fig">Fig. 6</xref>, WT, 5 and 15 min). In contrast, the NES1/2 mutant (NESm) was efficiently phosphorylated by IGF-1 within the nucleus, but unlike WT FKHRL1 the FKHRL1 NESm remained within the nucleus even after relatively long incubation times (<xref rid="fig6" ref-type="fig">Fig. 6</xref>, NESm 2, 5, and 15 min panels). Thus, phosphorylation of FKHRL1 at Thr32, which generates a 14-3-3 binding site, occurs within the nucleus before FKHRL1 cytoplasmic relocalization. The finding that phosphorylation of FKHRL1 to generate 14-3-3 binding sites occurs within the nucleus together with the nuclear localization of ligand-free 14-3-3 proteins further suggests that 14-3-3 binding to nuclear FKHRL1 may facilitate its NES-dependent export.</p>
+        <fig position="float" id="fig6">
+          <label>Figure 6.</label>
+          <caption>
+            <p><bold>Phosphorylation of FKHRL1 at the 14-3-3 binding site occurs within the nucleus immediately before nuclear export.</bold> CCL39 fibroblasts were transfected with WT HA-tagged FKHRL1 or a mutant of NES1 and -2 (NESm). Cells were serum starved for 12 h and incubated in the presence of 20 &#x3BC;M LY294002 for the last hour and then incubated in the presence of 100 ng/ml IGF-I for the indicated periods of time. Cells were rapidly fixed with paraformaldehyde, and FKHRL1 was detected by immunolocalization with an anti-HA antibody. Phosphorylation of FKHRL1 was assessed by immunolocalization with an antibody to phospho-Thr32. Representative pictures are shown. NESm, mutant of NES1 and NES2 of FKHRL1.</p>
+          </caption>
+          <graphic xlink:href="0112059f6"/>
+        </fig>
+        <p>It is possible that 14-3-3 binding to FKHRL1 may also function in the cytoplasm to prevent FKHRL1 reentry into the nucleus, perhaps by masking NLS. Two regions in the primary sequence of FKHRL1 represent putative NLS sequences in the vicinity of the second phosphorylation site (Ser 253). To determine whether these regions indeed played a role in the subcellular localization of FKHRL1, we mutated the arginines 248, 249, and 250 into alanines (RRR &#x2192; AAA) and the lysines 269, 270, and 271 to alanines (KKK &#x2192; AAA). Expression of these FKHRL1 mutants within cells followed by immunofluorescence experiments revealed that the RRR &#x2192; AAA mutant of FKHRL1 no longer localized in the nucleus, even in the absence of survival factors (<xref rid="fig7" ref-type="fig">Fig. 7, A and B</xref>
+ 
+ , &#x2212; lanes) or after complete inhibition of AKT using the phosphatidylinositol 3-kinase inhibitor LY294002 (<xref rid="fig7" ref-type="fig">Fig. 7, A and B</xref>, LY lanes). The KKK &#x2192; AAA mutant of FKHRL1 also showed less nuclear localization in the absence of survival factors compared with WT FKHRL1 (<xref rid="fig7" ref-type="fig">Fig. 7</xref> B) but did accumulate in the nucleus when the basal activity of Akt in serum-starved cells was completely eliminated by LY294002 (<xref rid="fig7" ref-type="fig">Fig. 7, A and B</xref>). Thus, the RRR sequence plays a major role, whereas the KKK region plays a minor role, in the nuclear localization of FKHRL1. These results indicate that the region surrounding the second 14-3-3 phosphorylation site is an NLS and further suggests that phosphorylation of this site, either by introducing negatively charged residue or by masking due to 14-3-3 binding, may participate in the retention of FKHRL1 in the cytoplasm. These results are in excellent agreement with the role of similar RRR and KKK sequences in AFX (<xref ref-type="bibr" rid="bib2">Brownawell et al., 2001</xref>) and an RRR sequence in FKHR (<xref ref-type="bibr" rid="bib23">Rena et al., 2001</xref>).</p>
+        <fig position="float" id="fig7">
+          <label>Figure 7.</label>
+          <caption>
+            <p><bold>Role of NLS and NES sequences in FKHRL1 subcellular localization.</bold> (A) CCL39 fibroblasts were transfected with a WT HA-tagged FKHRL1 construct or with FKHRL1 mutant constructs. Cells were either incubated in the presence of 10% serum (FCS) or 100 ng/ml IGF-I (IGF-I), or serum-starved for 12 h (&#x2212;), or incubated in the presence of 20 &#x3BC;M LY294002 for 1 h (LY). FKHRL1 was detected by immunolocalization with an anti-HA antibody. RRR, RRR &#x2192; AAA mutant of FKHRL1; KKK, KKK &#x2192; AAA mutant of FKHRL1; NESm, mutant of NES1 and NES2 of FKHRL1; TM, triple mutant of FKHRL1 (T32A/S253A/S315A). (B) Quantification of a representative experiment is shown.</p>
+          </caption>
+          <graphic xlink:href="0112059f7"/>
+        </fig>
+        <p>To experimentally determine the relative contributions of the NES, NLS, and 14-3-3 in promoting the export and/or preventing the reimport of FKHRL1, we analyzed the kinetics of cytoplasmic relocalization of a series of FKHRL1 mutants (<xref rid="fig8" ref-type="fig">Fig. 8</xref>)
+ 
+ . Cells were first treated with the phosphatidylinositol 3-kinase inhibitor LY294002 to drive localization of all FKHRL1 mutants into the nucleus. LY294002 was then washed out, and cells were stimulated by IGF-I for short periods of time. FKHRL1 subcellular localization was determined by immunolocalization, and the number of cells in which FKHRL1 is present in the cytoplasm was quantified. We found that WT FKHRL1 was exported rapidly to the cytoplasm, and the percentage of cells showing exclusively cytoplasmic FKHRL1 remained constant at &#x223C;40% (<xref rid="fig8" ref-type="fig">Fig. 8</xref>, WT) with the remaining 60% of cells displaying both cytoplasmic and nuclear localization. In contrast, the NES mutant of FKHRL1 did not relocalize to the cytoplasm even after longer stimulation with IGF-I. Next, we tested the cytoplasmic relocalization of the FKHRL1 RRR &#x2192; AAA NLS mutant. We found that this NLS mutant was also exported from the nucleus with similar kinetics at early times to those of WT FKHRL1 (<xref rid="fig8" ref-type="fig">Fig. 8</xref>, RRR). However, after longer times a larger number of cells containing this mutant displayed exclusively cytoplasmic FKHRL1 staining, suggesting that the NLS of FKHRL1 plays a role after longer times of stimulation to promote the reentry of WT FKHRL1 into the nucleus. Phosphorylation of Ser253 could interfere with the basic residues of the NLS or 14-3-3 binding may mask this stretch of basic residues, thereby preventing FKHRL1 from being reimported to the nucleus at longer time of stimulation by growth factors.</p>
+        <fig position="float" id="fig8">
+          <label>Figure 8.</label>
+          <caption>
+            <p><bold>Kinetics of FKHRL1 cytoplasmic relocalization after IGF-I stimulation shows a requirement for both 14-3-3 binding and NES sequences for rapid nuclear export and NLS for inhibition of nuclear reimport.</bold> CCL39 fibroblasts were transfected with a WT HA-tagged FKHRL1 construct or with various FKHRL1 mutant constructs. Cells were treated as in the legend to <xref rid="fig6" ref-type="fig">Fig. 6</xref>, and FKHRL1 was detected by immunolocalization using an anti-HA antibody. The data presented correspond to the mean and variation of two experiments. Error bars are present for all time points, though in some cases they are obscured by the plot symbol. RRR, RRR &#x2192; AAA mutant of FKHRL1; NESm, mutant of NES1 and NES2 of FKHRL1; TM, triple mutant of FKHRL1 (T32A/S253A/S315A).</p>
+          </caption>
+          <graphic xlink:href="0112059f8"/>
+        </fig>
+        <p>To specifically address the role of 14-3-3 binding in the export of FKHRL1 from the nucleus, we next tested the export kinetics of FKHRL1 mutants in which the canonical 14-3-3 binding site at T32 or both 14-3-3 binding sites at T32 and S253 were replaced by alanines (<xref rid="fig8" ref-type="fig">Fig. 8</xref>, T32A and T32A/S253A). These experiments conclusively show that neither T32A nor T32A/S253A are exported efficiently from the nucleus even at short times of stimulation by growth factors. These results indicate that 14-3-3 binding to FKHRL1 is critical for the early nuclear events leading to export of FKHRL1 to the cytoplasm in a manner that requires FKHRL1 NES.</p>
+        <p>Together, these findings suggest that 14-3-3 binding to ligands can occur within the nucleus and may facilitate the nuclear export of the 14-3-3&#x2013;ligand complex through the NES of the bound ligand. In the cytoplasm, 14-3-3 may have an additional role in preventing the reimport of ligands such as FKHRL1.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>In this study, we have shown that (a) although 14-3-3 proteins are predominantly localized in the cytoplasm, a large number of ligands are localized within the nucleus; (b) endogenous 14-3-3, fully competent to bind ligands, can be trapped in the nucleus by inhibiting Crm1-dependent nuclear export with LMB; (c) the leucine-rich putative NES sequence in 14-3-3, despite its structural homology to known NES sequences (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>) and its ability to function as an NES in isolation when fused to GFP (unpublished data), functions primarily in phosphoprotein binding and not as an NES in the context of the intact 14-3-3 molecule; (d) a mutant 14-3-3, which cannot bind to ligands, homes to the nucleus; (e) the nuclear 14-3-3 ligand FKHRL1 is phosphorylated at its major 14-3-3 binding site within the nucleus before its export into the cytoplasm; and (f) at least for FKHRL1, rapid export from the nucleus to the cytoplasm requires both phosphorylation/14-3-3 binding and NES sequences within the bound ligand. In addition, we have identified NLS sequences within FKHRL1 that are responsible for its nuclear localization in the absence of phosphorylation. These data suggest that for nuclear FKHRL1, the sequence of events after growth factor stimulation involves phosphorylation at the 14-3-3 binding site within the nucleus, where ligand-free 14-3-3 molecules are located, followed by rapid nuclear export that requires both phosphorylation/14-3-3 binding and intrinsic NES sequences in FKHRL1. Once FKHRL1 has been exported to the cytoplasm, phosphorylation/14-3-3 binding may play an additional role in preventing nuclear reimport possibly by masking the FKHRL1 NLS.</p>
+      <p>Our observation that many potential 14-3-3 binding substrates are present in the nuclear fraction and that FKHRL1 is phosphorylated at its major 14-3-3 binding site within the nucleus suggests that kinases, such as AKT, Chk1, and Chk2, may act preferentially within this compartment, conferring 14-3-3 binding to some of their substrates. Furthermore, the observations that LMB treatment led to accumulation of endogenous 14-3-3 in the nucleus and that a K49E mutant of 14-3-3, which does not bind to ligands, localizes preferentially within the nucleus suggests that unliganded 14-3-3 normally transits to the nuclear compartment where binding to some ligands can occur. It would also be interesting to investigate the rate of import of 14-3-3 into the nucleus to address whether dissociation of ligands from preformed cytoplasmic complexes determines the rate of 14-3-3 nuclear import. We found that elimination or mutation of the leucine-rich sequence within helix &#x3B1;I disrupts binding to numerous phosphorylated protein ligands. This is in excellent agreement with the results of more focused mutational studies reported by others examining 14-3-3 binding to Raf and Cdc25 (<xref ref-type="bibr" rid="bib27">Thorson et al., 1998</xref>; <xref ref-type="bibr" rid="bib32">Wang et al., 1998</xref>; <xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib36">Zeng and Piwnica-Worms, 1999</xref>). Thus, the primary and general function of this &#x3B1;-helix is to directly participate in ligand binding. Furthermore, the observation that this leucine-rich sequence is incapable of maintaining unliganded 14-3-3 in the cytoplasm is incompatible with its proposed function as a true NES (<xref ref-type="bibr" rid="bib17">Lopez-Girona et al., 1999</xref>). Instead, our present study of FKHRL1 and previous studies on Cdc25 (<xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib35">Yang et al., 1999</xref>; <xref ref-type="bibr" rid="bib6">Davezac et al., 2000</xref>) indicate that export of the 14-3-3&#x2013;bound complex involves NES sequences that are intrinsic to the ligands.</p>
+      <p>We reported previously an interaction between 14-3-3 and Crm1 within eukaryotic cell lysates that was disrupted by a 14-3-3 binding peptide (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>). At that time, we interpreted this as evidence that the leucine-rich region within helix &#x3B1;I could interact with either ligands or Crm1 but not both simultaneously. In light of our current findings, the interaction that we observed between 14-3-3 and Crm1 was most likely mediated through the 14-3-3&#x2013;bound ligands, which were competed off by the 14-3-3 binding peptide. In agreement with this, we have been unable to show a direct interaction between 14-3-3 and Crm1 when both are expressed in <italic>Escherichia coli</italic> (unpublished data).</p>
+      <p>Our findings are consistent with several different functions for AKT and 14-3-3 in regulating the activity and subcellular localization of FKHRL1. We have shown that AKT-mediated phosphorylation of FKHRL1 at the 14-3-3 binding site within the nucleus results in accelerated nuclear export of FKHRL1. This role for phosphorylation/14-3-3 binding in nuclear export is novel and complements recent results from other investigators who reported, while our paper was under revision, that AKT phosphorylation of the FKHRL1 homologs AFX and FKHR can inhibit nuclear reimport (<xref ref-type="bibr" rid="bib2">Brownawell et al., 2001</xref>; <xref ref-type="bibr" rid="bib23">Rena et al., 2001</xref>). In addition, <xref ref-type="bibr" rid="bib2">Brownawell et al. (2001)</xref> proposed that phosphorylation at the 14-3-3 binding site did not affect nuclear export, since a triple phosphorylation site mutant of AFX that could not bind to 14-3-3 was able to shuttle between nuclei in heterokaryon fusion experiments. However, this study did not examine the time dependence of the import or export process, and our data in <xref rid="fig8" ref-type="fig">Fig. 8</xref> indicates that phosphorylation at the 14-3-3 binding site is critical for rapid nuclear export of FKHRL1. Therefore, it is likely that AKT phosphorylation of Forkhead family members affects both nuclear export and import: phosphorylation/14-3-3 binding increases the rapid export of FKHRL1 from the nucleus in a manner that requires the intrinsic NES sequences on FKHRL1, whereas phosphorylation near the NLS site may disrupt FKHRL1 subsequent nuclear reimport. Furthermore, <xref ref-type="bibr" rid="bib4">Cahill et al. (2001)</xref> showed that phosphorylation of the <italic>C. elegans</italic> FKHRL1 homologue <italic>daf-16</italic> by AKT together with 14-3-3 binding directly inhibited its DNA binding ability. Thus, AKT- and 14-3-3&#x2013;mediated inhibition of FKHRL1 function is likely to involve multiple events, first by blocking DNA binding and then by ensuring a complete sequestration of this transcription factor in the cytoplasm away from their nuclear target genes.</p>
+      <p>We find that a K49E mutant of 14-3-3 is unable to bind to ligands or be exported from the nucleus, despite its ability to form heterodimers with endogenous WT 14-3-3 in vivo and in vitro. This finding underscores the important role of ligand binding by each monomer within the 14-3-3 dimer for 14-3-3 function. A requirement for dimeric 14-3-3 has also been demonstrated for both 14-3-3&#x2013;mediated Raf activation (<xref ref-type="bibr" rid="bib28">Tzivion et al., 1998</xref>) and for 14-3-3&#x2013;mediated disruption of <italic>daf-16</italic> DNA binding after AKT phosphorylation (<xref ref-type="bibr" rid="bib4">Cahill et al., 2001</xref>) using a mutant 14-3-3 in which the dimerization interface was disrupted.</p>
+      <p>Our functional data shown in <xref rid="fig8" ref-type="fig">Fig. 8</xref>, examining FKHRL1 export as a function of time, shows an increase in nuclear export upon FKHRL1 phosphorylation and 14-3-3 binding, which suggests that 14-3-3 may enhance the export process. Exactly how 14-3-3 accomplishes this remains to be defined. 14-3-3 binding might facilitate the formation of productive complexes between FKHRL1 and regulatory components of the nuclear export machinery, perhaps through inducing conformational changes in the 14-3-3&#x2013;bound ligand. Recent data from <xref ref-type="bibr" rid="bib2">Brownawell et al. (2001)</xref> on AFX and our unpublished observations on FKHRL1 suggest, however, that 14-3-3 binding does not cause an increase in the bulk association of these transcription factors with Crm1, though both proteins are grossly overexpressed in these assays. It has not been technically possible to measure the kinetics with which the association occurs between the endogenous proteins within cells. Alternatively, 14-3-3 binding could facilitate the ability of FKHRL1&#x2013;Crm1 complexes to bind to endogenous Ran-GTP to trigger nuclear export. Another possibility is that 14-3-3 binding protects phosphorylation sites from the action of phosphatases and/or thereby permits additional modifications of FKHRL1, which are themselves involved in the export process.</p>
+      <p>We have focused this study specifically on one particular 14-3-3 ligand, FKHRL1, but studies on other 14-3-3 binding ligands such as HDAC4, -5, and -7 and Cdc25 are consistent with the idea that cytoplasmic relocalization involves both 14-3-3 proteins and ligand NES and NLS sequences (<xref ref-type="bibr" rid="bib14">Kumagai and Dunphy, 1999</xref>; <xref ref-type="bibr" rid="bib35">Yang et al., 1999</xref>; <xref ref-type="bibr" rid="bib6">Davezac et al., 2000</xref>; <xref ref-type="bibr" rid="bib10">Grozinger and Schreiber, 2000</xref>; <xref ref-type="bibr" rid="bib31">Wang et al., 2000</xref>; <xref ref-type="bibr" rid="bib13">Kao et al., 2001</xref>). Furthermore, not all 14-3-3&#x2013;bound ligands are destined for cytoplasmic sequestration. For other molecules, 14-3-3 binding may preferentially sequester them within the nucleus as has been reported for the catalytic subunit of human telomerase (<xref ref-type="bibr" rid="bib25">Seimiya et al., 2000</xref>) and the HOX11 homeobox transcription factor Tlx-2 (<xref ref-type="bibr" rid="bib26">Tang et al., 1998</xref>). Thus, it appears that the ligand, rather than 14-3-3, dictates the resulting subcellular location (<xref ref-type="bibr" rid="bib18">Muslin and Xing, 2000</xref>). In this manner, 14-3-3 functions as a type of &#x201C;molecular chauffeur&#x201D; where the destination of the 14-3-3&#x2013;bound complex is determined by instructions contained within the sequence and structure of the bound cargo rather than through any intrinsic properties of 14-3-3. The ultimate fate of such cargo is then determined by 14-3-3&#x2013;mediated alterations in the kinetics of dynamic nuclear-cytoplasmic transport.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec>
+        <title>Antibodies</title>
+        <p>Monoclonal antibodies against 14-3-3&#x3C3; were raised by immunizing DnJ mice with purified GST&#x2013;14-3-3&#x3C3; (<xref ref-type="bibr" rid="bib34">Yaffe et al., 1997</xref>) and spleen fusions to NS1 myeloma cells performed as described (<xref ref-type="bibr" rid="bib5">Dalal et al., 1999</xref>). Clones specifically recognizing 14-3-3&#x3C3; but not the other 14-3-3 isoforms were identified by immunoprecipitation of in vitro&#x2013;translated 14-3-3&#x3C3; and immunoblotting using GST fusion proteins of all mammalian 14-3-3 isotypes. Additional details will be published elsewhere (unpublished data). An anti&#x2013;phospho-14-3-3 binding motif antibody was obtained from New England Biolabs. An antibody recognizing all 14-3-3 isotypes (K-19) were purchased from Santa Cruz Biotechnology. Anti&#x2013;&#x3B1;-tubulin antibody (DM1A) and anti-M2 antibody were purchased from Sigma-Aldrich. Anti-HA antibody (12CA5) and anti&#x2013;lamin B (Ab-1) antibody were obtained from Roche-Boehringer Mannheim and Oncogene Research Products, respectively. Anti-Xpress antibody and Cy3-conjugated anti&#x2013;mouse IgG secondary antibody were obtained from Invitrogen and Jackson ImmunoResearch Laboratories, respectively. The anti-phosphoThr32 FKHRL1 antibody has been described previously (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>).</p>
+      </sec>
+      <sec>
+        <title>Plasmids</title>
+        <p>Plasmids encoding GST&#x2013;14-3-3&#x25B;, GST&#x2013;14-3-3&#x25B; K49E, HA-FKHRL1 WT, and FKHRL1 T32A/S253A/S315A have been described previously (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>; <xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>). GST&#x2013;14-3-3&#x25B; ([1&#x2013;214]; &#x394;C) and GST&#x2013;14-3-3&#x25B; ([1&#x2013;232]; &#x394;T) were generated by PCR amplification and cDNA cloning into pGEX4T. cDNAs of 14-3-3&#x25B; WT and 14-3-3&#x25B; K49E were subcloned into mammalian expression vector pcDNA3.1/His C (Invitrogen) to express Xpress epitope-tagged 14-3-3. The vector encoding the M2-tagged form of 14-3-3&#x3B6; subcloned in the pcDNAneo3 expression vector was provided by Dr. Haian Fu (Emory University School of Medicine, Atlanta, GA). Sequential point mutations of individual leucine and isoleucine residues to alanines in helix &#x3B1;I of GST&#x2013;14-3-3&#x25B; were generated using specific oligonucleotides and the Quickchange site-directed mutagenesis kit (Stratagene). A mutant of FKHRL1 NES1 (amino acids 369&#x2013;378) and NES2 (amino acids 386&#x2013;396) was obtained as follows: first, a mutant of FKHRL1 NES2 (LMDDAADNATA) was generated using the following set of primers: forward, 5&#x2032;-AAAGCTGCAGATAACGCCACGGCCCCGCCATCCCAGCCATCGC-3&#x2032; and reverse, 5&#x2032;-AAAGGCCGTGGCGTTATCTGCAGCGTCGTCCATGAGGTTTTCAG-3&#x2032;. The PCR fragment was subcloned into the Acc I sites of HA-FKHRL1 in the pECE vector. FKHRL1 NES2 mutant was then used as a template to generate FKHRL1 NES1-NES2 mutant (LTDMAGTANANDGATENLMDDAADNATA) using the following set of primers: forward, 5&#x2032;-AAAGCGAATGCGAATGATGGGGCGACTGAAAACCTCATGGACGAC-3&#x2032; and reverse, 5&#x2032;-AAACGCCCCATCATTCGCATTCGCGGTGCCTGCCATATCAGTCAGC-3&#x2032;. The triple point mutants of FKHRL1 NLS sequences were produced with the Quickchange site-directed mutagenesis kit (Stratagene) using the following primers: RRR &#x2192; AAA forward, 5&#x2032;-GGGAAGAGCGGAAAAGCCCCCGCGGCGGCGGCTGTCTCCATGGACAATAGC-3&#x2032; and RRR &#x2192; AAA reverse, 5&#x2032;-GCTATTGTCCATGGAGACAGCCGCCGCCGCGGGGGCTTTTCCGCTCTTCCC-3&#x2032; and KKK &#x2192; AAA forward, 5&#x2032;-GAGCCGTGGCCGCGCAGCCGCGGCGGCGGCAGCCCTGCAGACAGCCCCCG-3&#x2032; and KKK &#x2192; AAA reverse, 5&#x2032;-CGGGGGCTGTCTGCAGGGCTGCCGCCGCCGCGGCTGCGCGGCCACGGCTC-3&#x2032;.</p>
+      </sec>
+      <sec>
+        <title>Cell lines and transfection</title>
+        <p>The 293T human epithelial kidney cell line, human osteosarcoma U2OS cell line, and Chinese hamster lung fibroblast cell line CCL39 were cultured in DME supplemented with 10% FBS, and NIH3T3 cells were maintained in DME with 10% calf serum. LMB was used at final concentration of 20 ng/ml. To establish stable cell lines expressing 14-3-3 proteins, U2OS cells were transfected with pcDNA3.1/His-14-3-3&#x25B; or pcDNA3.1/His-14-3-3&#x25B; (K49E) using Superfect (QIAGEN) and transfected cells selected in media containing 400 &#x3BC;g/ml G418 (GIBCO BRL). After 2 wk, resistant colonies were tested for expression of epitope-tagged 14-3-3 by immunoblotting and used to propagate stable cell lines.</p>
+      </sec>
+      <sec>
+        <title>Cellular fractionation, immunoblotting, and 14-3-3 binding assays</title>
+        <p>U2OS cells were suspended in buffer A (10 mM Hepes, pH 7.9, 10 mM KCl, 0.1 mM EDTA, 0.1 mM EGTA, 1 mM DTT, 0.15% NP-40, 1 mg/ml each of AEBSF, aprotinin, leupeptin, and pepstatin), swollen for 10 min on ice, and centrifuged at 12,000 <italic>g</italic> for 30 s. Supernatant was collected as a cytoplasmic extract. The pellet was washed, resuspend in buffer B (20 mM Hepes, pH 7.9, 400 mM NaCl, 1 mM EDTA, 1 mM EGTA, 1 mM DTT, 0.5% NP-40, 4 &#x3BC;g/ml each of AEBSF, aprotinin, leupeptin, and pepstatin), and rocked for 15 min at 4&#xB0;C. The supernatant after centrifugation was used as nuclear extract. Equal amounts of proteins from cytosol and nuclear extract were subjected to immunoblotting as described (<xref ref-type="bibr" rid="bib12">Kanai et al., 2000</xref>). To investigate the distribution of 14-3-3 ligands, cells were metabolically labeled in the presence of [<sup>35</sup>S]methionine for 8 h and then separated into nuclear or cytoplasmic fractions as above. Samples (240 &#x3BC;g total protein containing equal amounts of radioactivity) were adjusted to the same final buffer composition and pulled down with beads containing 150 &#x3BC;g of GST&#x2013;14-3-3&#x25B; or GST as described (<xref ref-type="bibr" rid="bib24">Rittinger et al., 1999</xref>). Proteins binding to the beads were eluted, separated by SDS-PAGE, and analyzed by autoradiography. To analyze the interaction between FKHRL1 and 14-3-3, 293T cells transfected with HA-FKHRL1 constructs and M2&#x2013;14-3-3&#x3B6; were lysed and subjected to immunoprecipitation and immunoblotting as described previously (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>).</p>
+      </sec>
+      <sec>
+        <title>Immunofluorescence microscopy</title>
+        <p>Immunofluorescent microscopy was done as described (<xref ref-type="bibr" rid="bib3">Brunet et al., 1999</xref>; <xref ref-type="bibr" rid="bib12">Kanai et al., 2000</xref>). U2OS cells grown on glass coverslips were fixed with 3% formaldehyde, permeabilized with 0.2% Triton X-100, and stained with an anti&#x2013;14-3-3 antibody (K-19) or an anti&#x2013;14-3-3&#x3C3; monoclonal antibody and Cy3-conjugated secondary antibodies. Cells were counterstained with 1 &#x3BC;g/ml DAPI (Sigma-Aldrich) to visualize the nucleus. The anti-Xpress antibody was used to stain 14-3-3&#x2013;expressing stable cell lines. For immunolocalization studies of FKHRL1, CCL39 fibroblasts on glass coverslips in 12-well dishes were transfected with 4 &#x3BC;g of the indicated plasmids using calcium phosphate. After 24 h, the cells were fixed in 4% formaldehyde/2% sucrose, permeabilized with 0.1% Triton X-100, and stained with anti-HA antibody, anti-phosphoT32 antibody, and Cy3- or Cy2-conjugated anti&#x2013;mouse IgG secondary antibody and Cy3-conjugated anti&#x2013;rabbit IgG secondary antibody. For quantification experiments, 150&#x2013;300 cells were scored according to whether the protein of interest was higher in the nucleus, evenly distributed between nucleus and cytoplasm, or higher in cytoplasm. Microscopic images were acquired using Nikon Diaphot 300 microscope mounted with a Photometrics SenSys CCD camera and processed using Vaytek Imaging Software.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. M. Yoshida (University of Tokyo) for LMB, Colleen Schweitzer and Jianmin Gan (DeCaprio lab) for assistance with antibody production, and members of the Yaffe and Greenberg lab and Lewis C. Cantley for discussions.</p>
+      <p>A. Brunet was supported by a Goldenson-Berenberg fellowship, F. Kanai was supported by fellowships from the Cell Science Research Foundation and Sankyo Foundation of Life Science, and J. Stehn was supported by a C.J. Martin Fellowship from the National Health and Medical Research Council of Australia. J.V. Frangioni is a postdoctoral fellow of the Howard Hughes Medical Institute. S.N. Dalal was a fellow of the Leukemia Society of America. This work was funded by National Institutes of Health grant HD24926 and HD18655 to M.E. Greenberg, National Institutes of Health grant GM60594, and a Burroughs-Wellcome Career Development award to M.B. Yaffe.</p>
+    </ack>
+    <ref-list>
+      <ref id="bib1">
+        <citation citation-type="journal">Beck, T., and M.N. Hall. <year>1999</year>. The TOR signalling pathway controls nuclear localization of nutrient-regulated transcription factors. <source>Nature.</source> <volume>402</volume>:<fpage>689</fpage>&#x2013;692.<pub-id pub-id-type="pmid">10604478</pub-id></citation>
+      </ref>
+      <ref id="bib2">
+        <citation citation-type="journal">Brownawell, A.M., G.J. Kops, I.G. Macara, and B.M. Burgering. <year>2001</year>. Inhibition of nuclear import by protein kinase B (Akt) regulates the subcellular distribution and activity of the forkhead transcription factor AFX. <source>Mol. Cell. Biol.</source> <volume>21</volume>:<fpage>3534</fpage>&#x2013;3546.<pub-id pub-id-type="pmid">11313479</pub-id></citation>
+      </ref>
+      <ref id="bib3">
+        <citation citation-type="journal">Brunet, A., A. Bonni, M.J. Zigmond, M.Z. Lin, P. Juo, L.S. Hu, M.J. Anderson, K.C. Arden, J. Blenis, and M.E. Greenberg. <year>1999</year>. Akt promotes cell survival by phosphorylating and inhibiting a forkhead transcription factor. <source>Cell</source>. <volume>96</volume>:<fpage>857</fpage>&#x2013;868.<pub-id pub-id-type="pmid">10102273</pub-id></citation>
+      </ref>
+      <ref id="bib4">
+        <citation citation-type="journal">Cahill, C.M., G. Tzivion, N. Nasrin, S. Ogg, J. Dore, G. Ruvkun, and M. Alexander-Bridges. <year>2001</year>. Phosphatidylinositol 3-kinase signaling inhibits DAF-16 DNA binding and function via 14-3-3-dependent and 14-3-3-independent pathways. <source>J. Biol. Chem.</source> <volume>276</volume>:<fpage>13402</fpage>&#x2013;13410.<pub-id pub-id-type="pmid">11124266</pub-id></citation>
+      </ref>
+      <ref id="bib5">
+        <citation citation-type="journal">Dalal, S.N., C.M. Schweitzer, J. Gan, and J.A. DeCaprio. <year>1999</year>. Cytoplasmic localization of human cdc25C during interphase requires an intact 14-3-3 binding site. <source>Mol. Cell. Biol.</source> <volume>19</volume>:<fpage>4465</fpage>&#x2013;4479.<pub-id pub-id-type="pmid">10330186</pub-id></citation>
+      </ref>
+      <ref id="bib6">
+        <citation citation-type="journal">Davezac, N., V. Baldin, B. Gabrielli, A. Forrest, N. Theis-Febvre, M. Yashida, and B. Ducommun. <year>2000</year>. Regulation of CDC25B phosphatases subcellular localization. <source>Oncogene.</source> <volume>19</volume>:<fpage>2179</fpage>&#x2013;2185.<pub-id pub-id-type="pmid">10822367</pub-id></citation>
+      </ref>
+      <ref id="bib7">
+        <citation citation-type="journal">Fornerod, M., M. Ohno, M. Yoshida, and I.W. Mattaj. <year>1997</year>. CRM1 is an export receptor for leucine-rich nuclear export signals. <source>Cell.</source> <volume>90</volume>:<fpage>1051</fpage>&#x2013;1060.<pub-id pub-id-type="pmid">9323133</pub-id></citation>
+      </ref>
+      <ref id="bib8">
+        <citation citation-type="journal">Fu, H., R.R. Subramanian, and S.C. Masters. <year>2000</year>. 14-3-3 proteins: structure, function, and regulation. <source>Annu. Rev. Pharmacol. Toxicol.</source> <volume>40</volume>:<fpage>617</fpage>&#x2013;647.<pub-id pub-id-type="pmid">10836149</pub-id></citation>
+      </ref>
+      <ref id="bib9">
+        <citation citation-type="journal">Fukuda, M., S. Asano, T. Nakamura, M. Adachi, M. Yoshida, M. Yanagida, and E. Nishida. <year>1997</year>. CRM1 is responsible for intracellular transport mediated by the nuclear export signal. <source>Nature.</source> <volume>390</volume>:<fpage>308</fpage>&#x2013;311.<pub-id pub-id-type="pmid">9384386</pub-id></citation>
+      </ref>
+      <ref id="bib10">
+        <citation citation-type="journal">Grozinger, C.M., and S.L. Schreiber. <year>2000</year>. Regulation of histone deacetylase 4 and 5 and transcriptional activity by 14-3-3-dependent cellular localization. <source>Proc. Natl. Acad. Sci. USA.</source> <volume>97</volume>:<fpage>7835</fpage>&#x2013;7840.<pub-id pub-id-type="pmid">10869435</pub-id></citation>
+      </ref>
+      <ref id="bib11">
+        <citation citation-type="journal">Hermeking, H., C. Lengauer, K. Polyak, T.C. He, L. Zhang, S. Thiagalingam, K.W. Kinzler, and B. Vogelstein. <year>1997</year>. 14-3-3 sigma is a p53-regulated inhibitor of G2/M progression. <source>Mol. Cell.</source> <volume>1</volume>:<fpage>3</fpage>&#x2013;11.<pub-id pub-id-type="pmid">9659898</pub-id></citation>
+      </ref>
+      <ref id="bib12">
+        <citation citation-type="journal">Kanai, F., P.A. Marignani, D. Sarbassova, R. Yagi, R.A. Hall, M. Donowitz, A. Hisaminato, T. Fujiwara, Y. Ito, L.C. Cantley, and M.B. Yaffe. <year>2000</year>. TAZ: a novel transcriptional co-activator regulated by interactions with 14-3-3 and PDZ domain proteins. <source>EMBO J.</source> <volume>19</volume>:<fpage>6778</fpage>&#x2013;6791.<pub-id pub-id-type="pmid">11118213</pub-id></citation>
+      </ref>
+      <ref id="bib13">
+        <citation citation-type="journal">Kao, H.Y., A. Verdel, C.C. Tsai, C. Simon, H. Juguilon, and S. Khochbin. <year>2001</year>. Mechanism for nucleocytoplasmic shuttling of histone deacetylase 7. <source>J. Biol. Chem.</source> <volume>276</volume>:<fpage>47496</fpage>&#x2013;47507.<pub-id pub-id-type="pmid">11585834</pub-id></citation>
+      </ref>
+      <ref id="bib14">
+        <citation citation-type="journal">Kumagai, A., and W.G. Dunphy. <year>1999</year>. Binding of 14-3-3 proteins and nuclear export control the intracellular localization of the mitotic inducer cdc25. <source>Genes Dev.</source> <volume>13</volume>:<fpage>1067</fpage>&#x2013;1072.<pub-id pub-id-type="pmid">10323858</pub-id></citation>
+      </ref>
+      <ref id="bib15">
+        <citation citation-type="journal">Kumagai, A., P.S. Yakowec, and W.G. Dunphy. <year>1998</year>. 14-3-3 proteins act as negative regulators of the mitotic inducer Cdc25 in <italic>Xenopus</italic> egg extracts. <source>Mol. Biol. Cell.</source> <volume>9</volume>:<fpage>345</fpage>&#x2013;354.<pub-id pub-id-type="pmid">9450960</pub-id></citation>
+      </ref>
+      <ref id="bib16">
+        <citation citation-type="journal">Liu, D., J. Bienkowska, C. Petosa, R.J. Collier, H. Fu, and R. Liddington. <year>1995</year>. Crystal structure of the zeta isoform of the 14-3-3 protein. <source>Nature.</source> <volume>376</volume>:<fpage>191</fpage>&#x2013;194.<pub-id pub-id-type="pmid">7603574</pub-id></citation>
+      </ref>
+      <ref id="bib17">
+        <citation citation-type="journal">Lopez-Girona, A., B. Fumari, O. Mondesert, and P. Russel. <year>1999</year>. Nuclear localization of cdc25 is regulated by DNA damage and a 14-3-3 protein. <source>Nature.</source> <volume>397</volume>:<fpage>172</fpage>&#x2013;175.<pub-id pub-id-type="pmid">9923681</pub-id></citation>
+      </ref>
+      <ref id="bib18">
+        <citation citation-type="journal">Muslin, A.J., and H. Xing. <year>2000</year>. 14-3-3 proteins: regulation of subcellular localization by molecular interference. <source>Cell. Signal.</source> <volume>12</volume>:<fpage>703</fpage>&#x2013;709.<pub-id pub-id-type="pmid">11152955</pub-id></citation>
+      </ref>
+      <ref id="bib19">
+        <citation citation-type="journal">Muslin, A.J., J.W. Tanner, P.M. Allen, and A.S. Shaw. <year>1996</year>. Interaction of 14-3-3 with signaling proteins is mediated by the recognition of phosphoserine. <source>Cell.</source> <volume>84</volume>:<fpage>889</fpage>&#x2013;897.<pub-id pub-id-type="pmid">8601312</pub-id></citation>
+      </ref>
+      <ref id="bib20">
+        <citation citation-type="journal">Ossareh-Nazari, B., F. Bachelerie, and C. Dargemont. <year>1997</year>. Evidence for a role of CRM1 in signal-mediated nuclear protein export. <source>Science.</source> <volume>278</volume>:<fpage>141</fpage>&#x2013;144.<pub-id pub-id-type="pmid">9311922</pub-id></citation>
+      </ref>
+      <ref id="bib21">
+        <citation citation-type="journal">Peng, C.Y., P.R. Graves, R.S. Thoma, Z. Wu, A.S. Shaw, and H. Piwnica-Worms. <year>1997</year>. Mitotic and G2 checkpoint control: regulation of 14-3-3 protein binding by phosphorylation of Cdc25C on serine-216. <source>Science.</source> <volume>277</volume>:<fpage>1501</fpage>&#x2013;1505.<pub-id pub-id-type="pmid">9278512</pub-id></citation>
+      </ref>
+      <ref id="bib22">
+        <citation citation-type="journal">Petosa, C., S.C. Masters, L.A. Bankston, J. Pohl, B. Wang, H. Fu, and R.C. Liddington. <year>1998</year>. 14-3-3zeta binds a phosphorylated Raf peptide and an unphosphorylated peptide via its conserved amphipathic groove. <source>J. Biol. Chem.</source> <volume>273</volume>:<fpage>16305</fpage>&#x2013;16310.<pub-id pub-id-type="pmid">9632691</pub-id></citation>
+      </ref>
+      <ref id="bib23">
+        <citation citation-type="journal">Rena, G., A.R. Prescott, S. Guo, P. Cohen, and T.G. Unterman. <year>2001</year>. Roles of the forkhead in rhabdomyosarcoma (FKHR) phosphorylation sites in regulating 14-3-3 binding, transactivation and nuclear targeting. <source>Biochem. J.</source> <volume>354</volume>:<fpage>605</fpage>&#x2013;612.<pub-id pub-id-type="pmid">11237865</pub-id></citation>
+      </ref>
+      <ref id="bib24">
+        <citation citation-type="journal">Rittinger, K., J. Budman, J. Xu, S. Volinia, L.C. Cantley, S.J. Smerdon, S.J. Gamblin, and M.B. Yaffe. <year>1999</year>. Structural analysis of 14-3-3 phosphopeptide complexes identifies a dual role for the nuclear export signal of 14-3-3 in ligand binding. <source>Mol. Cell.</source> <volume>4</volume>:<fpage>153</fpage>&#x2013;166.<pub-id pub-id-type="pmid">10488331</pub-id></citation>
+      </ref>
+      <ref id="bib25">
+        <citation citation-type="journal">Seimiya, H., H. Sawada, Y. Muramatsu, M. Shimizu, K. Ohko, K. Yamane, and T. Tsuruo. <year>2000</year>. Involvement of 14-3-3 proteins in nuclear localization of telomerase. <source>EMBO J.</source> <volume>19</volume>:<fpage>2652</fpage>&#x2013;2661.<pub-id pub-id-type="pmid">10835362</pub-id></citation>
+      </ref>
+      <ref id="bib26">
+        <citation citation-type="journal">Tang, S.J., T.C. Suen, R.R. McInnes, and M. Buchwald. <year>1998</year>. Association of the TLX-2 homeodomain and 14-3-3zeta signaling proteins. <source>J. Biol. Chem.</source> <volume>273</volume>:<fpage>25356</fpage>&#x2013;25363.<pub-id pub-id-type="pmid">9738002</pub-id></citation>
+      </ref>
+      <ref id="bib27">
+        <citation citation-type="journal">Thorson, J.A., L.W. Yu, A.L. Hsu, N.Y. Shih, P.R. Graves, J.W. Tanner, P.M. Allen, H. Piwnica-Worms, and A.S. Shaw. <year>1998</year>. 14-3-3 proteins are required for maintenance of Raf-1 phosphorylation and kinase activity. <source>Mol. Cell. Biol</source>. <volume>18</volume>:<fpage>5229</fpage>&#x2013;5238.<pub-id pub-id-type="pmid">9710607</pub-id></citation>
+      </ref>
+      <ref id="bib28">
+        <citation citation-type="journal">Tzivion, G., Z. Luo, and J. Avruch. <year>1998</year>. A dimeric 14-3-3 protein is an essential cofactor for Raf kinase activity. <source>Nature.</source> <volume>394</volume>:<fpage>88</fpage>&#x2013;92.<pub-id pub-id-type="pmid">9665134</pub-id></citation>
+      </ref>
+      <ref id="bib29">
+        <citation citation-type="journal">Tzivion, G., Y.H. Shen, and J. Zhu. <year>2001</year>. 14-3-3 proteins; bringing new definitions to scaffolding. <source>Oncogene.</source> <volume>20</volume>:<fpage>6331</fpage>&#x2013;6338.<pub-id pub-id-type="pmid">11607836</pub-id></citation>
+      </ref>
+      <ref id="bib30">
+        <citation citation-type="journal">van Hemert, M.J., H.Y. Steensma, and G.P. van Heusden. <year>2001</year>. 14-3-3 proteins: key regulators of cell division, signalling and apoptosis. <source>Bioessays.</source> <volume>23</volume>:<fpage>936</fpage>&#x2013;946.<pub-id pub-id-type="pmid">11598960</pub-id></citation>
+      </ref>
+      <ref id="bib31">
+        <citation citation-type="journal">Wang, A.H., M.J. Kruhlak, J. Wu, N.R. Bertos, M. Vezmar, B.I. Posner, D.P. Bazett-Jones, and X.J. Yang. <year>2000</year>. Regulation of histone deacetylase 4 by binding of 14-3-3 proteins. <source>Mol. Cell. Biol.</source> <volume>20</volume>:<fpage>6904</fpage>&#x2013;6912.<pub-id pub-id-type="pmid">10958686</pub-id></citation>
+      </ref>
+      <ref id="bib32">
+        <citation citation-type="journal">Wang, H., L. Zhang, R. Liddington, and H. Fu. <year>1998</year>. Mutations in the hydrophobic surface of an amphipathic groove of 14-3-3zeta disrupt its interaction with Raf-1 kinase. <source>J. Biol. Chem.</source> <volume>273</volume>:<fpage>16297</fpage>&#x2013;16304.<pub-id pub-id-type="pmid">9632690</pub-id></citation>
+      </ref>
+      <ref id="bib33">
+        <citation citation-type="journal">Xiao, B., S.J. Smerdon, D.H. Jones, G.G. Dodson, Y. Soneji, A. Aitken, and S.J. Gamblin. <year>1995</year>. Structure of a 14-3-3 protein and implications for coordination of multiple signalling pathways. <source>Nature.</source> <volume>376</volume>:<fpage>188</fpage>&#x2013;191.<pub-id pub-id-type="pmid">7603573</pub-id></citation>
+      </ref>
+      <ref id="bib34">
+        <citation citation-type="journal">Yaffe, M.B., K. Rittinger, S. Volinia, P.R. Caron, A. Aitken, H. Leffers, S.J. Gamblin, S.J. Smerdon, and L.C. Cantley. <year>1997</year>. The structural basis for 14-3-3:phosphopeptide binding specificity. <source>Cell.</source> <volume>91</volume>:<fpage>961</fpage>&#x2013;971.<pub-id pub-id-type="pmid">9428519</pub-id></citation>
+      </ref>
+      <ref id="bib35">
+        <citation citation-type="journal">Yang, J., K. Winkler, M. Yoshida, and S. Kornbluth. <year>1999</year>. Maintenance of G2 arrest in the <italic>Xenopus</italic> oocyte: a role for 14-3-3-mediated inhibition of Cdc25 nuclear import. <source>EMBO J.</source> <volume>18</volume>:<fpage>2174</fpage>&#x2013;2183.<pub-id pub-id-type="pmid">10205171</pub-id></citation>
+      </ref>
+      <ref id="bib36">
+        <citation citation-type="journal">Zeng, Y., and H. Piwnica-Worms. <year>1999</year>. DNA damage and replication checkpoints in fission yeast require nuclear exclusion of the Cdc25 phosphatase via 14-3-3 binding. <source>Mol. Cell. Biol.</source> <volume>19</volume>:<fpage>7410</fpage>&#x2013;7419.<pub-id pub-id-type="pmid">10523629</pub-id></citation>
+      </ref>
+      <ref id="bib37">
+        <citation citation-type="journal">Zhang, L., H. Wang, D. Liu, R. Liddington, and H. Fu. <year>1997</year>. Raf-1 kinase and exoenzyme S interact with 14-3-3zeta through a common site involving lysine 49. <source>J. Biol. Chem.</source> <volume>272</volume>:<fpage>13717</fpage>&#x2013;13724.<pub-id pub-id-type="pmid">9153224</pub-id></citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="fn1">
+        <label>*</label>
+        <p>Abbreviations used in this paper: IGF, insulin-like growth factor; LMB, leptomycin B; NES, nuclear export signal; NLS, nuclear localization signal; WT, wild-type.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
+</pmc-articleset>
