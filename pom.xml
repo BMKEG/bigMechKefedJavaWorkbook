@@ -75,6 +75,11 @@
 		</dependency>
 
 		<dependency>
+			<groupId>edu.isi.bmkeg</groupId>
+			<artifactId>digitalLibraryDao</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-io</artifactId>
 		</dependency>

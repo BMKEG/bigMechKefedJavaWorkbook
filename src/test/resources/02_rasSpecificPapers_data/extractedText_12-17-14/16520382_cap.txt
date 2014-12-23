@@ -1,0 +1,50 @@
+1	P66shc stimulates rac1 activity and rac1-specific GEF activity of sos1.
+1a	(A) Comparison of rac1 activity in MEF cell lines derived from p66shcWT (p66shc +/+) and p66shc −/− mice with rac1 activity in p66shc −/− MEF transiently transfected with empty vector or the indicated p66shc constructs.
+1a	Expression of the Xpress-tagged p66shc constructs sos1, eps8, and e3b1 are shown at bottom.
+1a	The black line indicates that intervening lanes have been spliced.
+1a	All cells were cotransfected with sos1, eps8, and e3b1.
+1a	(right) Immunoprecipitated sos1.
+1a	Error bars depict mean ± SEM.
+1b	(B, left) Comparison of rac1-specific GEF activity of immunoprecipitated sos1 in wild-type and p66shc −/− MEF (top) with p66shc −/− MEF transfected with empty vector or the indicated p66shc constructs (bottom).
+1left	(B, left) Comparison of rac1-specific GEF activity of immunoprecipitated sos1 in wild-type and p66shc −/− MEF (top) with p66shc −/− MEF transfected with empty vector or the indicated p66shc constructs (bottom).
+2	P66shc promotes the formation of the sos1–eps8–e3b1 complex and dissociation of sos1 from grb2.
+2	(A and B) Comparison of sos1–eps8 (A) and sos1–grb2 (B) coprecipitates in p66shc +/+ and −/− MEF and in p66shc −/− MEF transfected with empty vector or the indicated p66shc construct.
+2	All cells were cotransfected with sos1, eps8, and e3b1 (A) or sos1 and grb2 (B).
+2c	(C) Comparison of sos1–grb2 coprecipitates in HEK 293 with and without p66shcWT overexpression.
+2c	All cells were cotransfected with sos1 and grb2.
+2d	(D) Comparison of sos1–grb2 and shc–grb2 coprecipitates in HEK 293 cells transfected with the indicated p66shc construct.
+2d	All cells were cotransfected with sos1 and grb2.
+2e	(E) Comparison of shc–grb2 coprecipitates in HEK 293 cells transfected with the indicated p66shc construct.
+2e	All cells were cotransfected with grb2.
+3	Rac1 and e3b1 mediate p66shc-induced H2O2 generation.
+3a	(A) Comparison of intracellular H2O2 levels in p66shc −/− MEF transfected with empty vector or the indicated p66shc construct.
+3a	All cells were cotransfected with e3b1.
+3a	Values are expressed as fold change in mean fluorescence compared with empty vector–transfected cells.
+3b	(B) Comparison of H2O2 levels in media of p66shc −/− and MEF and rescue of H2O2 levels in p66shc −/− MEF transfected with p66shc (WT).
+3b	*, P < 0.05 compared with vector-transfected p66shc −/− cells (n = 5).
+3c	(C) H2O2 levels in media of p66shc −/− and +/+ MEF transfected with empty vector (control) or rac1N17.
+3c	Values are normalized for expression of rac1N17 and presented as a percentage of control cells.
+3c	*, P < 0.05; #, P = NS, compared with vector-transfected cells (n = 5).
+3d	(D) H2O2 levels in media of p66shc −/− and MEF transfected with empty vectors, p66shc alone, or p66shc and rac1N17.
+3d	Values are expressed as a percentage of empty vector–transfected cells.
+3d	Expression of ectopic proteins is shown at the bottom.
+3d	*, P < 0.05; #, P = NS, compared with cells transfected with empty vectors (n = 5).
+3e	(E) H2O2 levels in media of control and e3b1RNAi HeLa cell lines transfected with empty vector or the indicated p66shc construct.
+3e	Values are expressed as a percentage of vector-transfected cells.
+3e	Expression of ectopic p66shc constructs, and endogenous e3b1 is shown at bottom.
+3e	*, P < 0.05; #, P = NS, compared with vector-transfected cells (n = 5).
+3e	Error bars depict mean ± SEM.
+4	P66shc and sos1 compete for binding to grb2.
+4a	(A) Comparison of in vitro binding of the wild-type CH2 domain of p66shc (CH2[WT]) or the double proline mutant of the CH2 domain (CH2[P47A/P50A]) to GST-tagged full-length grb2 (FL) or the C- or N-SH3 domains of grb2.
+4b	(B) In vitro dis-ruption of grb2–sos1 binding by CH2(WT) but not by CH2(P47A/P50A).
+4b	Increasing amounts (250, 500, and 1,000 ng) of CH2 constructs were added to a preformed complex of GST-tagged full-length grb2 (GST-grb2) and GST–C-sos1.
+4c	(C) In vitro binding assay showing displacement of CH2 from grb2 by C-sos1.
+4c	Increasing amounts (50, 100, 200, and 400 ng) of GST–C-sos1 were added to preformed complex of GST-tagged full-length grb2 (GST-grb2) and hexahistidine-tagged CH2 ([His]6-CH2).
+4c	GST was used to equalize the protein amount.
+4c	The lysate from grb2 and p66shcCH2 overexpressing cells was also immunoprecipitated with control IgG and immunoblotted with Xpress antibody (right lane).
+4c	(bottom) Expression of grb2 and p66shcCH2 in whole cell lysates.
+4c	Black lines indicate that intervening lanes have been spliced.
+4d	(D, top) Coimmunoprecipitation of the CH2 domain and grb2 in COS7 cells overexpressing p66shcCH2 and grb2.
+4top	(D, top) Coimmunoprecipitation of the CH2 domain and grb2 in COS7 cells overexpressing p66shcCH2 and grb2.
+5	Proposed molecular mechanism by which p66shc switches sos1 from a ras- to a rac1-specific GEF.
+5	Novel interaction required for the regulation of rac1 activity by p66shc is shown by dashed line.

@@ -1,0 +1,82 @@
+1a	Our survey of several primary endothelial cells including, HUVEC, HMVE and BAEC cells showed that c-Src is ubiquitously tyrosine phosphorylated in response to VEGF stimulation (  Figure 1A  ) and associates with VEGFR-2 in a ligand-dependent manner in these primary endothelial cells (  Figure 1C  ).
+1c	Our survey of several primary endothelial cells including, HUVEC, HMVE and BAEC cells showed that c-Src is ubiquitously tyrosine phosphorylated in response to VEGF stimulation (  Figure 1A  ) and associates with VEGFR-2 in a ligand-dependent manner in these primary endothelial cells (  Figure 1C  ).
+1c	Cell lysates obtained from HEK-293 (human embryonic kidney-293) cells which do not express VEGFR-2 was negative for VEGFR-2 and was used as a negative control (  Figure 1C  ).
+1c	The cytoplasmic region of VEGFR-2 contains multiple tyrosine phosphorylation sites  [18]  , albeit none of these tyrosine autophosphorylation sites shows obvious sequence similarities to the preferred Src SH2 recognition motif, pYEEI  [19]  .
+1c	To analyze association of c-Src with VEGFR-2 we utilized the previously characterized VEGFR-2 chimera  [20]  herein called CKR which is created by replacing the extracellular domain of VEGFR-2 with that of human Colony stimulating factor-1 receptor (CSF1R) and expressed in PAE (porcine aortic endothelial) cells as an experimental system.
+1c	In our previous studies we have extensively characterized CKR with VEGFR-2 in a comparative manner.
+1c	CKR in term of its ability undergo down-regulation, activation, recruitment of signaling proteins and to stimulate cellular responses is identical to VEGFR-2  [3]  ,  [14]  ,  [20]  ,  [21]  and data presented in this manuscript.
+1c	We used this strategy to avoid cross-talk between VEGFR-2 and other VEGF receptors, in particular, VEGFR-1.
+1e	Our initial observation demonstrated that mutation of tyrosines 799, 820, 925 to phenylalanine (F) and deletion of C-terminus of VEGFR-2 coupled with mutation of tyrosines 1173 and 1212 has no effect on the ability of VEGFR-2 to associate with the SH2 domain of c-Src (  Figure 1E  ).
+1g	In contrast, mutation of Y1052 to glutamic acid (E) and particularly Y1057, located in the kinase domain, severely reduced the binding of VEGFR-2 with SH2 domain of c-Src (  Figure 1G  ).
+1i	Consistent with its reduced binding capability to E1052, the result showed that E1052 only partially reduces the ability of VEGFR-2 to phosphorylate c-Src (  Figure 1I  ).
+1i	In contrast, the potential of mutant Y1057 (E1057/CKR) to stimulate Src tyrosine phosphorylation was severely compromised and was near to undetectable (  Figure 1I  ).
+1i	Since both Y1052 and Y1057 are located in the kinase domain we replaced these residues to glutamic acid (E) rather than phenylalanine (F).
+1i	This type of mutations has been suggested to be useful for characterization of sensitive tyrosine sites on the RTKs (receptor tyrosine kinases) when their mutation to phenylalanine interferes with receptor activation  [15]  .
+1k	The result showed that VEGFR-2 associates with SH2-Src in VEGF-dependent manner and mutation of Y1057 inhibited association of VEGFR-2 with c-Src (  Figure 1K  ).
+1k	Altogether, the data show that Y1057 of VEGFR-2 is a major c-Src binding site on VEGFR-2 and its presence is critically required for VEGFR-2 to activate c-Src.
+2a	Over-expression of wild type c-Cbl enhanced association of SH2 domain of c-Src with VEGFR-2, where disabling the binding of c-Cbl with VEGFR-2 had no effect on the binding of SH2-Src to VEGFR-2 (  Figure 2A  ).
+2b	Quantification of the blots (three independent experiments) showed that indeed interaction of VEGFR-2 with GST-SH2-Src is more than doubled when c-Cbl is over-expressed, where as the deletion of TKB domain almost entirely is inhibited this effect of c-Cbl (  Figure 2B  ).
+2c	Over-expression of either c-Cbl or c-Cbl-N had no effect on the protein levels of CKR or on its tyrosine phosphorylation (  Figure 2C, 2D  ).
+2e	Expression of c-Cbl and c-Cbl-N also is shown (  Figure 2E  ).
+2e	Since up-regulation of c-Cbl by over-expression enhanced association of c-Src with VEGFR-2, we further tested whether silencing expression of c-Cbl by siRNA would reduce interaction of SH2-Src with VEGFR-2.
+2f	As shown, silencing the expression of c-Cbl in PAE cells reduced the binding of GST-SH2 Src with VEGFR-2 (  Figure 2F  ).
+2g	Quantification of the blots (three independent experiments) is also shown which further support the hypothesis that endogenous c-Cbl plays a role in bridging c-Src to VEGFR-2 (  Figure 2G  ).
+2h	The silencing effect of c-Cbl-siRNA on the c-Cbl protein level also is shown (  Figure 2H  ).
+2h	It showed be noted that c-Cbl is highly expressed in these cells and siRNA only partially reduced its expression (  Figure 2H  ).
+2h	Altogether, the data show that c-Cbl, in part, facilitates association of Src with VEGFR-2.
+2h	To firmly establish a direct binding of SH2 domain of c-Src with phospho-Y1057 of VEGFR-2 we synthesized a phosphorylated peptide corresponding to Y1057 and tested its binding ability to GST-SH2 domain of c-Src in an  in vitro  dot blot assay.
+2j	The result shows that SH2 domain of Src also directly interacts with phosphorylated Y1057 in a c-Cbl independent manner (  Figure 2J  ), suggesting that the interaction of c-Src with Y1057 of VEGFR-2 is established by a direct binding involving its SH2 domain and an indirect interaction involving c-Cbl.
+2k	 Figure 2K  summarizes our observation regarding interaction of c-Src with VEGFR-2 and role of c-Cbl in this process.
+3a	The result showed that mutation of 1057 markedly reduced ligand-dependent phosphorylation of Y1173 as detected by an anti-phospho-Y1173 specific antibody (  Figure 3A  ).
+3a	Mutation of Y1052 only slightly reduced phosphorylation of Y1173, suggesting that Y1057 but not Y1052, is specifically involved in modulation of phosphorylation of Y1173 (  Figure 3A  ).
+3b	However, mutation of either Y1052 or Y1057 had no major effect on the phosphorylation Y1212 (  Figure 3B  ).
+3d	Quantification of phosphorylation of Y1173 and Y1212 obtained from three separate independent experiments also is shown (  Figure 3D  ).
+3d	Since Src kinase binds to Y1057 of VEGFR-2, we tested potential role of Src in the phosphorylation of Y1173.
+3d	Our analysis showed that co-expression of v-Src with non-chimeric wild-type VEGFR-2 in a transient transfection of HEK-293 cells also increases phosphorylation of Y1173 (  Figure 3D  ), where phosphorylation of Y1052, Y1057 and Y1212 were not effected (  Figure 3F–H  ).
+3f�	Our analysis showed that co-expression of v-Src with non-chimeric wild-type VEGFR-2 in a transient transfection of HEK-293 cells also increases phosphorylation of Y1173 (  Figure 3D  ), where phosphorylation of Y1052, Y1057 and Y1212 were not effected (  Figure 3F–H  ).
+3k	The quantification of phosphorylation of Y1173, Y1052, Y1057 and Y1212 also is shown (  Figure 3K  ).
+3k	Of note, co-expression of v-Src with E1057 mutant VEGFR-2 also rescued the reduced phosphorylation of Y1173 further suggesting that c-Src is involved in catalyzing phosphorylation of Y1173 of VEGFR-2 (data not shown).
+3l	In contrast, phosphorylation of VEGFR-2 at Y1173 was almost undetectable (  Figure 3L and 3M  ).
+3l	Only a long exposure of the film detected a weak phosphorylation of Y1173 (data not shown), suggesting that in addition to Src kinases, VEGFR-2 itself also catalyzes phosphorylation of Y1173 of VEGFR-2.
+3l	Since in the recent years various Src inhibitors were used for therapeutic purposes in cancer and anti-angiogenesis treatments  [25]  , we tested the effect of Src-specific inhibitor, SU6656 to inhibit phosphorylation of VEGFR-2 at Y1173.
+3o	The result showed that SU6656 selectively inhibits phosphorylation of VEGFR-2 at Y1173 in a dose-dependent manner but had no effect on the phosphorylation of Y1052 (  Figure 3O, 3P  ).
+3r	The quantification of inhibition of phosphorylation of Y1173 of VEGFR-2 by SU6656 also is shown (  Figure 3R  ).
+3s	Taken together, the data demonstrate that Src kinases upon activation by VEGFR-2 phosphorylate Y1173 of VEGFR-2 (  Figure 3S  ).
+4a	However, mutation of Y1057 significantly reduced the ability of CKR to stimulate tube formation of PAE cells (  Figure 4A  ).
+4b	Quantification of tube formation of PAE cells in response to CKR, E1052/CKR and E1057/CKR activation is shown (  Figure 4B  ).
+4b	To test whether c-Src activation is required for tube formation of PAE cells, we used previously established PAE cells co-expressing CKR with either wild type c-Src or dominantly negative acting kinase inactive Src  [15]  .
+4c	The result showed that over-expression of c-Src or dominant negative c-Src in PAE cells do not alter the ability of VEGFR-2 to stimulate tube formation (  Figure 4C, 4D  ), indicating that perhaps c-Src activity is not required for VEGFR-2 to stimulate tube formation of endothelial cells.
+4e	In contrast, our analysis showed that over-expression of c-Src significantly enhances the ability of VEGFR-2 to stimulate proliferation of PAE cells and over-expression of dominant negative Src (Src kinase-dead) inhibits the VEGFR-2 driven proliferation of PAE cells (  Figure 4E  ).
+4e	To test the role of c-Src in endothelial cell proliferation further we knocked down c-Src expression in HUVE and HMVE cells by siRNA strategy and tested their VEGF-dependent proliferation.
+4f	The result showed that silencing the expression of c-Src in endothelial cells significantly inhibits the ability of VEGFR-2 to stimulate proliferation of these primary endothelial cells (  Figure 4F, 4G  ).
+4g	Interestingly, HMVE cells were more sensitive to silencing of c-Src than HUVE cells since silencing of Src expression almost totally inhibited VEGF-stimulated proliferation (  Figure 4G  ).
+4g	Taken together, our results identify c-Src as a key component of mitogenic signaling of VEGFR-2 in endothelial cells.
+5a	Our initial observation showed that IQGAP1 is tyrosine phosphorylated in PAE cells by VEGFR-2 and mutation of Y1057 reduces the ability of VEGFR-2 to stimulate its tyrosine phosphorylation (  Figure 5A  ).
+5a	IQGAP1 also is tyrosine phosphorylated by other RTKs including, ErbB1/EGFR-1 and PDGFRβ ectopically expressed in PAE cells (our unpublished data), suggesting that IQGAP1 serves as a common substrate for RTKs.
+5a	In addition, our data show that over-expression of c-Src in PAE cells highly enhanced tyrosine phosphorylation of IQGAP1.
+5c	In a sharp contrast, over-expression of a dominant negatively acting c-Src inhibited tyrosine phosphorylation of IQGAP1 (  Figure 5C  ).
+5e	To further establish role of c-Src in phosphorylation of IQGAP1 we show that in SYF knockout cells where Src family kinases (Yes, Fyn and Src) are absent, IQGAP1 is not tyrosine phosphorylated in response to activation of VEGFR-2, where re-introduction of c-Src rescued phosphorylation of IQGAP1 by VEGFR-2 (  Figure 5E  ).
+5e	Our further studies showed that in an  in vitro  kinase assay recombinant c-Src protein phosphorylates GST-fusion IQGAP1 (data not shown).
+5e	Taken together, the data support the hypothesis that IQGAP1 directly associates with c-Src and undergoes c-Src-dependent tyrosine phosphorylation.
+5e	Hence to further establish as to whether c-Src interacts with IQGAP1 we tested the ability of SH2 and SH3 domains of c-Src to associate with IQGAP1 in an  in vitro  pull-down assay.
+5h	The result showed that SH2 domain of c-Src interacts with IQGAP1 independent of its tyrosine phosphorylation since SH2 domain of c-Src forms a complex with IQGAP1 prior to stimulation of cells with ligand (  Figure 5H  ).
+5h	Additional analysis using PAE cells null for chimeric VEGFR-2 revealed that indeed association of SH2 domain of Src with IQGAP1 is independent of VEGFR-2 (data not shown).
+5i	In contrast to the SH2 domain, the SH3 domain of c-Src failed to interact with IQGAP1 with or without stimulation of VEGFR-2 (  Figure 5I  ).
+5i	The data suggest that SH2 domain mediates the interaction of c-Src with IQGAP1 by a novel mechanism that is independent of tyrosine phosphorylation of IQGAP1.
+5l	IQGAP1 siRNA significantly reduced expression of IQGAP1 in HMVE cells (  Figure 5L  ).
+5l	We further analyzed these cells for their ability to undergo proliferation in response to VEGF.
+5m	Silencing the expression of IQGAP1 in primary endothelial cells, but not control siRNA, significantly inhibited VEGF-dependent cell proliferation (  Figure 5M  ), suggesting that VEGFR-2/c-Src orchestrated tyrosine phosphorylation of IQGAP1 serves an important role in endothelial cell proliferation.
+5m	Our recent study indicates that IQGAP1 is capable of modulating activity of b-Raf  [27]  , to test whether IQGAP1 activity is also required for b-Raf phosphorylation in endothelial cells in response to VEGFR-2 activation we tested phosphorylation of b-Raf where expression of IQGAP1 is knocked down by siRNA.
+5n	The data show that stimulation of endothelial cells with VEGF promotes phosphorylation of b-Raf at Ser 455 and silencing expression of IQGAP1 notably reduced its phosphorylation (  Figure 5N  ).
+5o	The reduced phosphorylation of b-Raf in IQGAP1 siRNA treated cells was not due to the differential amount of protein since relatively equal amount of b-Raf protein is present in each group (  Figure 5O  ).
+5p	The expression of IQGAP1 in cells treated with control siRNA or IQGAP1 siRNA also is shown (  Figure 5P  ).
+5q	Quantification of phosphorylation of Ser 455 of b-Raf based on the three independent experiments also is shown (  Figure 5Q  ).
+5r	In short, the data indicate that VEGFR-2-dependent endothelial cell proliferation, in part, is established by Src, IQGAP1and b-Raf axis (  Figure 5R  ).
+5r	To further address the physiological importance of c-Src, IQGAP1and b-Raf in angiogenesis in an  in vivo  setting, we used chicken chorioallantoic membrane (CAM) angiogenesis assay where their expression were knocked down by siRNA strategy.
+6a	The result showed that targeting IQGAP1, c-Src and b-Raf individually by siRNA suppresses the ability of VEGF to stimulate angiogenesis (  Figure 6A  ), where control siRNA had no negative effect on angiogenesis (  Figure 6A  ).
+6a	The result showed that targeting IQGAP1, c-Src and b-Raf individually by siRNA suppresses the ability of VEGF to stimulate angiogenesis (  Figure 6A  ), where control siRNA had no negative effect on angiogenesis (  Figure 6A  ).
+6b	Furthermore, quantification of CAM assay showed that VEGF treatment of CAM induced robust angiogenic response where IQGAP1-siRNA, c-Src-siRNA and b-Raf-siRNA each decreased VEGF-induced angiogenesis (  Figure 6B  ).
+6b	As noted the siRNA-mediated inhibition of VEGF-induced angiogenesis was near to baseline angiogenesis (  Figure 6B  ) underscoring the importance of this pathway for VEGF-induced angiogenesis.
+6c	The ability of these specific siRNAs to knockdown expression of c-Src, IQGAP1 and b-Raf also are analyzed (  Figure 6C, 6E, 6G  ).
+6d	The same membranes were re-probed for PLCγ1 as a loading control (  Figure 6D, 6F, 6H  ).
+6d	In sum, our data demonstrate that IQGAP1, c-Src and b-Raf pathway plays a critical role both  in vitro  and  in vivo  in VEGF-mediated angiogenesis.

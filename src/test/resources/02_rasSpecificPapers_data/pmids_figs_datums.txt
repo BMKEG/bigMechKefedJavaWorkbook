@@ -1,0 +1,71 @@
+pmid	fig	datum
+11777939	-Fig-1b	Abi1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-1b	Sos1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-1c	Abi1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-1c	Sos1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-3b	Sos1[Ab] copptby[WB] Grb2[Ab] is detectable
+11777939	-Fig-4a	xSos1[tAb] copptby[WB] EgfR[Ab] is increased irt Egf (3 min)
+11777939	-Fig-4b	xErk2[tAb]IP phos(TEY)[phosAb] is increased irt Egf (5 min)
+11777939	-Fig-4b	xHras[tAb] GTP-association[BDPD] is increased irt Egf (5 min)
+11777939	-Fig-5	Rac1[Ab] GTP-association[BDPD] is increased itpo xAbi1
+11777939	-Fig-5	xPak2[tAb]IP IVKA(MBP)[32P-ATP] is increased itpo xAbi1
+11777939	-Fig-5	xPak2[tAb]IP IVKA(MBP)[32P-ATP] is unchanged itpo xSos1
+11777939	-Fig-5[tl]	Abi1[Ab] copptby[WB] Grb2[Ab] is undetectable
+11777939	-Fig-5[tl]	Grb2[Ab] copptby[WB] Abi1[Ab] is undetectable
+11777939	-Fig-5[tl]	Sos1[Ab] copptby[WB] Abi1[Ab] is detectable
+11777939	-Fig-5[tl]	Sos1[Ab] copptby[WB] Grb2[Ab] is detectable
+11777939	-Fig-7a	Abi1[Ab] copptby[WB] xSos1[tAb] is detectable
+11777939	-Fig-7a	xAbi1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-7a	xEps8[Ab] copptby[WB] xSos1[tAb] is detectable
+11777939	-Fig-7a	xSos1[Ab] copptby[WB] xEps8[tAb] is detectable
+11777939	-Fig-7b	xEps8[Ab]IP IVGefA(Hras)[3H-GDP] is undetectable
+11777939	-Fig-7b	xEps8[Ab]IP IVGefA(Rac1)[3H-GDP] is detectable
+11777939	-Fig-7b	xSos1[Ab]IP IVGefA(Hras)[3H-GDP] is detectable
+11777939	-Fig-7b	xSos1[Ab]IP IVGefA(Rac1)[3H-GDP] is increased itpo (xAbi1 + xEps8)
+11777939	-Fig-7c	Sos1[Ab] snaggedby[WB] rRac1{NucFree}[GST] is detectable
+11777939	-Fig-7c	xSos1[tAb] snaggedby[WB] rCdc42{NucFree}[GST] is undetectable
+11777939	-Fig-8a	Sos1[Ab] copptby[WB] Abi1[Ab] is unchanged irt Pdgf (15 min)
+11777939	-Fig-8a	Sos1[Ab] copptby[WB] Grb2[Ab] is decreased irt Pdgf (15 min)
+11777939	-Fig-8b	Sos1[Ab] copptby[WB] PdgfR[Ab] is increased irt Pdgf (times)
+11777939	-Fig-8b	Sos1[Ab] phos[WBMS] is increased irt Pdgf (times)
+11777939	-Fig-8c	Abi1[Ab] copptby[WB] xEps8[tAb] is unchanged irt Pdgf (15 min)
+11777939	-Fig-8c	Sos1[Ab] copptby[WB] xEps8[tAb] is unchanged irt Pdgf (15 min)
+11777939	-Fig-8d	Hras[Ab] GTP-association[BDPD] is increased irt Pdgf (times)
+11777939	-Fig-8d	Rac1[Ab] GTP-association[BDPD] is increased irt Pdgf (times)
+11777939	-Fig-8d	Sos1[Ab] phos[WBMS] is increased irt Pdgf (times)
+12515821	-Fig-1a	Pik3rs[Ab] copptby[WB] Abi1[Ab] is detectable
+12515821	-Fig-1e	Pik3rs[Ab] copptby[WB] xAbi1[tAb] is detectable
+12515821	-Fig-3a	Pik3rs[Ab] copptby[WB] xEps8[tAb] is detectable
+12515821	-Fig-3a	xAbi1[Ab] copptby[WB] xEps8[tAb] is detectable
+12515821	-Fig-3a	xSos1[Ab] copptby[WB] xEps8[tAb] is detectable
+12515821	-Fig-3b	xEps8[tAb]IP IVGefA(Rac1)[3H-GDP] is detectable
+12515821	-Fig-3c	xAbi1[Ab] copptby[WB] xEps8[tAb] is detectable
+12515821	-Fig-3c	xSos1[Ab] copptby[WB] xEps8[tAb] is detectable
+12515821	-Fig-4a	xRac1[tAb] GTP-association[BDPD] is increased irt Egf (3 min)
+12515821	-Fig-4a	xRac1[tAb] GTP-association[BDPD] is increased itpo xAbi1
+12515821	-Fig-4b	xRac1[tAb] GTP-association[BDPD] is increased itpo xAbi1
+12515821	-Fig-4c	xRac1[tAb] GTP-association[BDPD] is increased irt Egf (3 min)
+12515821	-Fig-S1a	xAbi1[tAb]IP IVLKA(PtdIns)[TLC] is detectable
+12515821	-Fig-S1b	xPik3r?[Ab] copptby[WB] xAbi1[tAb] is detectable
+12515821	-Fig-S1c	Abi1[Ab]IP Yphos[pYAb] is detectable
+16492808	-Fig-1c	ArhGef7[Ab] copptby[WB] xRac1[GST] is detectable
+16492808	-Fig-1c	Rac1[Ab] copptby[WB] xArhGef7[GST] is detectable
+16492808	-Fig-1d	ArhGef7[Ab] snaggedby[WB] rPak1(mnr)"Crib"[biotin] is detectable
+16492808	-Fig-1d	Rac1[Ab] GTP-association[BDPD] is detectable
+16520382	-Fig-1a	Rac1[Ab] GTP-association[BDPD] is detectable
+16520382	-Fig-1b	xSos1[Ab]IP IVGefA(Rac1)[3H-GDP] is detectable
+16520382	-Fig-2a	xEps8[Ab] copptby[WB] xSos1[Ab] is detectable
+16520382	-Fig-2b	xSos1[Ab] copptby[WB] xGrb2[Ab] is decreased itpo xShc1p66
+16520382	-Fig-2b	xSos1[Ab] copptby[WB] xGrb2[Ab] is increased itao Shc1p66 [KO]
+16520382	-Fig-2c	xSos1[Ab] copptby[WB] xGrb2[Ab] is detectable
+16520382	-Fig-2d	xShc1p66[Ab] copptby[WB] xGrb2[Ab] is detectable
+16520382	-Fig-2e	xShc1p66[Ab] copptby[WB] xGrb2[Ab] is detectable
+19050761	-Fig-1a	Src[phosAb] phos(T416)[phosAb] is increased irt Vegfa (times)
+19050761	-Fig-1c	VegfR2[Ab] copptby[WB] Src[Ab] is increased irt Vegfa (10 min)
+19050761	-Fig-1k	xVegfR2[Ab] snaggedby[WB] rSrc(mnr)"SH2"[GST] is increased irt Vegfa (10 min)
+19050761	-Fig-3e	xVegfR2[phosAb] phos(Y1175)[phosAb] is increased irt Vegfa (10 min)
+19050761	-Fig-3f	xVegfR2[phosAb] phos(Y1054)[phosAb] is increased irt Vegfa (10 min)
+19050761	-Fig-3g	xVegfR2[phosAb] phos(Y1059)[phosAb] is increased irt Vegfa (10 min)
+19050761	-Fig-3g	xVegfR2[phosAb] phos(Y1214)[phosAb] is increased irt Vegfa (10 min)
+19050761	-Fig-5j	IqGap1[Ab] copptby[WB] Src[Ab] is increased irt Vegfa (10 min)
+19050761	-Fig-5n	Braf[phosAb] phos(S446)[phosAb] is increased irt Vegfa (10 min)

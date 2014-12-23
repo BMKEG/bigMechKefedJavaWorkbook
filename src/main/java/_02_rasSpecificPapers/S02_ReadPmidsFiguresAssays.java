@@ -1,4 +1,4 @@
-package edu.isi.bmkeg.utils.nlp.bin;
+package _02_rasSpecificPapers;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -28,28 +28,30 @@ import org.kohsuke.args4j.Option;
 
 import edu.isi.bmkeg.utils.Converters;
 
-
 /**
- * This command-line utility loads a file of OA PMC identifiers, loads their citations, 
- * downloads PDFs and XML data for each file
+ * Queries the Pathway Logic web system, 
+ * and parses the returning data into a list of assays and datum objects
  * 
  * @author burns
  *
  */
-public class GetPmidAndFiguresFromPLHtml {
+public class S02_ReadPmidsFiguresAssays {
 	
 	public static class Options {
 
 		@Option(name = "-pmids", usage = "File of pmids to query", required = true, metaVar = "FILTER")
 		public File filter;
 
-		@Option(name = "-outFile", usage = "Output file", required = true, metaVar = "OUT")
-		public File out;
+		@Option(name = "-assays", usage = "Output file", required = true, metaVar = "OUT")
+		public File assays;
 
-		
+		@Option(name = "-datums", usage = "Output file", required = true, metaVar = "OUT")
+		public File datums;
+
+
 	}
 
-	private static Logger logger = Logger.getLogger(GetPmidAndFiguresFromPLHtml.class);
+	private static Logger logger = Logger.getLogger(S02_ReadPmidsFiguresAssays.class);
 
 	/**
 	 * @param args
@@ -71,7 +73,8 @@ public class GetPmidAndFiguresFromPLHtml {
 			String pmid = "";
 			String fig = "";
 
-			Set<String> outSet = new HashSet<String>(); 
+			Set<String> outSet1 = new HashSet<String>(); 
+			Set<String> outSet2 = new HashSet<String>(); 
 
 			String filterString = FileUtils.readFileToString(options.filter);
 
@@ -97,7 +100,8 @@ public class GetPmidAndFiguresFromPLHtml {
 						if( m2.find() ) {
 							pmid = m2.group(1);
 							fig = m2.group(2);
-							outSet.add( pmid + "\t" + fig + "\t" + assay + "\n" );
+							outSet1.add( pmid + "\t" + fig + "\t" + assay + "\n" );
+							outSet2.add( pmid + "\t" + fig + "\t" + datum + "\n" );
 							break;
 						}
 					}
@@ -106,16 +110,26 @@ public class GetPmidAndFiguresFromPLHtml {
 
 			}
 			
-			List<String> outList = new ArrayList<String>(outSet);
+			List<String> outList = new ArrayList<String>(outSet1);
 			Collections.sort(outList);
 			
-			FileWriter fr = new FileWriter(options.out); 
+			FileWriter fr = new FileWriter(options.assays); 
+			fr.write("pmid\tfig\tassay\n");
+			for( String l : outList ) {
+				fr.write(l);
+			}
+			fr.close();
+
+			outList = new ArrayList<String>(outSet2);
+			Collections.sort(outList);
+			
+			fr = new FileWriter(options.datums); 
 			fr.write("pmid\tfig\tdatum\n");
 			for( String l : outList ) {
 				fr.write(l);
 			}
 			fr.close();
-						
+
 		} catch (CmdLineException e) {
 
 			System.err.println(e.getMessage());

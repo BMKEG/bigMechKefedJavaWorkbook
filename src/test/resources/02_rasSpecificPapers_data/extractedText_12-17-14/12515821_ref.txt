@@ -1,0 +1,144 @@
+1	Figure 1.
+1	 p85 interacts with Abi1.
+1	 (A) Left; lysates (5 mg) from MEFs were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (ctr, preimmune serum).
+1	Abi1 could also be detected in p85 immunoprecipitates (supplemental materials).
+1	About 1% of total p85 could be found associated with Abi1 immunoprecipitates.
+1	Right; lysates (5 mg; p85 = 0.3 mg) from MEFs were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (top).
+1	The immunocomplexes were tested for PI3K lipid kinase activity by TLC (bottom;  Domin et al., 1996  ).
+1	(B) Binding of GST-p85 fragments (amino acid boundaries or domains are indicated) to Abi1 from lysates of HA-Abi1–transfected 293T cells.
+1	The altered electrophoretic mobility of the Abi1 band in the 320–724 lane is due its co-migration with the GST-fusion protein.
+1	(C) Lysates (2 mg) from 293T cells transfected with HA-Abi1 were immunoprecipitated with anti-HA antibody.
+1	Immunoprecipitates, treated with alkaline phosphatase in the presence (+) or absence (−) of inhibitors (API), were immunoblotted (IB) with anti-HA (left) or anti-pY (middle), or analyzed in Far-western with the proteins indicated on the top.
+1	(D) Lysates (1 mg) from 293T cells, transfected with HA-tagged wild-type (WT) or Y407F Abi1, were subjected to in vitro binding with the GST-NH  2  -terminal SH2 domain of p85 (SH2-N) or GST alone.
+1	Similar results were also obtained using the COOH-terminal SH2 domain of p85, indicating that the apparent affinities of the SH2 domains of p85 for Abi1 were similar (not depicted).
+1	(E) Lysates (5 mg) from Cos-7 cells, transfected with HA-Abi1 (WT) or HA-Abi1Y407F, were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (ctr, anti-flag antibody used as a control).
+1a	Endogenous p85 and Abi1 could be coimmunoprecipitated (  Fig. 1  A, left, and supplemental materials), and a wortmannin-sensitive (Fig S1, available at  http://www.jcb.org/cgi/content/full/jcb.200206079/DC1  ) PI3K enzymatic activity was detected in Abi1 immunocomplexes (  Fig. 1  A, right), suggesting that the p110–p85 complex binds to Abi1.
+1a	Endogenous p85 and Abi1 could be coimmunoprecipitated (  Fig. 1  A, left, and supplemental materials), and a wortmannin-sensitive (Fig S1, available at  http://www.jcb.org/cgi/content/full/jcb.200206079/DC1  ) PI3K enzymatic activity was detected in Abi1 immunocomplexes (  Fig. 1  A, right), suggesting that the p110–p85 complex binds to Abi1.
+1b	GST-p85 or either of its SH2 domains could bind to Abi1 (  Fig. 1  B) and to various pTyr-containing proteins, one of which co-migrated with Abi1 (unpublished data).
+1c	Indeed, as previously reported, tyrosine phosphorylation of Abi1 was readily detectable (  Juang and Hoffmann, 1999  ;  Fan and Goff, 2000  ) and was abolished by treatment with alkaline phosphatase (  Fig. 1  C, left panels and supplemental materials).
+1c	Finally, a Far-western analysis revealed that the NH  2  -terminal SH2 of p85 bound directly and specifically to Abi1 in a phosphorylation-dependent manner (  Fig. 1  C).
+1c	Notably, the recruitment of p85 to Abi1 was independent of RTK activation (unpublished data), in agreement with the observation that Abi1 displays constitutive levels of tyrosine phosphorylation (unpublished data).
+1c	Tyr  407  of Abi1 was predicted by the NetPhos neural network (  Blom et al., 1999  ) as a strong candidate for phosphorylation by tyrosine kinases (supplemental materials).
+1c	Thus, the possibility that in vivo, the interaction between p85 and Abi1 is indirect, cannot be formally excluded, albeit our Far-western data (  Fig. 1  C) argue against it.
+1d	Mutation of Tyr  407  to Phe abrogated the p85–Abi1 interaction both in vitro (  Fig. 1  D) and in vivo (  Fig. 1  E).
+1d	The overall tyrosine phosphorylation of Abi1Y407F was not reduced, as compared with wild-type Abi1 (unpublished data).
+1d	Thus, although other tyrosine residues are also phosphorylated in Abi1, Tyr  407  is absolutely critical for the interaction with p85.
+1d	Of note, Tyr  407  is present in noncanonical context for ligands of the SH2 domains of p85 (  Songyang et al., 1993  ).
+1d	Mutation of tyrosine 407 to phenylalanine abrogated the binding of Abi1 to both the NH  2  -terminal SH2 domain of p85 in in vitro binding experiments (  Fig. 1  D) and to native p85 in coimmunoprecipitation (  Fig. 1  E).
+1d	Site-directed mutagenesis was carried out using PCR-based techniques.
+1e	Mutation of Tyr  407  to Phe abrogated the p85–Abi1 interaction both in vitro (  Fig. 1  D) and in vivo (  Fig. 1  E).
+1e	The overall tyrosine phosphorylation of Abi1Y407F was not reduced, as compared with wild-type Abi1 (unpublished data).
+1e	Thus, although other tyrosine residues are also phosphorylated in Abi1, Tyr  407  is absolutely critical for the interaction with p85.
+1e	Of note, Tyr  407  is present in noncanonical context for ligands of the SH2 domains of p85 (  Songyang et al., 1993  ).
+1e	Mutation to phenylalanine of the sole tyrosine (Y283) of Abi1 embedded in a stretch of amino acids compatible with a consensus sequence for ligands of the SH2 domain of p85 (  Songyang et al., 1993  ) did not prevent interaction (  Fig. 1  E of the supplemental materials).
+1e	Mutation of tyrosine 407 to phenylalanine abrogated the binding of Abi1 to both the NH  2  -terminal SH2 domain of p85 in in vitro binding experiments (  Fig. 1  D) and to native p85 in coimmunoprecipitation (  Fig. 1  E).
+1e	Site-directed mutagenesis was carried out using PCR-based techniques.
+2	Figure 2.
+2	 p85 associates with the Eps8–Abi1–Sos-1 complex under physiological conditions.
+2	 (A) Top; model of the Eps8–Abi1–p85–Sos-1 complex.
+2	Bottom; lysates (10 mg) from −/− [Eps8myc] cells and supplemental materials) were immunoprecipitated (IP) with the indicated antibodies (ctr, irrelevant antibody) in the presence of the peptides PPPPPV  DY  TEDEE (competing) or PPPPPV  AA  TEDEE (control).
+2	Immunoblotting (IB) was performed with the indicated antibodies.
+2	(B) Quiescent (Serum Starved) and PDGF-treated (PDGF) MEFs were fixed and stained with the indicated antibodies.
+2	Confocal analysis was carried and the apical sections are shown.
+2	Notably, colocalization between Abi1 and p85 could be detected only when the apical sections of PDGF-treated cells were analyzed.
+2	In these sections, the increase in the local concentration of the two proteins favors their detection by immunofluorescence, consistent with a notion that a relatively small (but physiologically relevant) pool of p85 is associated with Abi1 and enriched in ruffles.
+2	Arrows indicate dorsal ruffles.
+2	Bar, 10 μm.
+2	The immunoprecipitated Eps8–Abi1–Sos-1 complex displays Rac-specific GEF activity (  Scita et al., 1999  ).
+2	This, and the results presented here, raise the possibility that the recruitment in vivo of PI3K to the complex is also required.
+2	Cells were transfected with a combination of Sos-1–mycEps8–Abi1wt or Sos-1–mycEps8–Abi1Y407F, and Rac-GEF assays were performed on anti-myc immunoprecipitates.
+2a	To assess whether p85 is associated to the Eps8–Abi1–Sos-1 complex (  Fig. 2  A), we used Eps8−/− fibroblasts in which the expression of Eps8 was restored to physiological levels (−/− [Eps8myc] cells;  Scita et al., 2001  ;  Innocenti et al., 2002  ).
+2a	Endogenous Sos-1, Abi1, and p85 could be specifically detected in anti-myc immunoprecipitates (  Fig. 2  A).
+2a	In addition, the disruption of the Eps8–Abi1 interaction with the specific PPPPPVDYTEDEE peptide (but not with a control, PPPPPVAATEDEE, peptide;  Mongiovi et al., 1999  ) caused the disappearance of Abi1, p85, and Sos-1 from the anti-myc immunoprecipitates (  Fig. 2  A).
+2a	Previously, we have shown that Eps8, Abi1, and Sos-1 are enriched into membrane ruffles induced by PDGF treatment (  Scita et al., 2001  ).
+2b	Similarly, endogenous p85 was found to colocalize with Abi1 (  Fig. 2  B) and Eps8 (unpublished data) on treatment with PDGF.
+2b	Thus, p85 is part of an Abi1-based signaling complex that includes Eps8 and Sos-1 in vivo.
+2b	Finally, the RTK-dependent relocalization of the macromolecular complex at sites where membrane ruffling takes place (  Fig. 2  B; for review see  Scita et al., 2001  ) suggests that the recruitment of the complex to proper sites within the cell's formation is key for signal propagation, further ensuring that the production of PIP3 is directed to and modulates the activation of Rac-GEFs, and thereby of Rac, in a defined microenvironment.
+3	Figure 3.
+3	 PI3K recruitment to the Eps8–Abi1–Sos-1 complex is required for Rac-GEF activity, which is further increased by PIP3.
+3	 (A) Cos-7 cells were transfected (tfx) with mycEps8 and Sos-1, together with either Abi1wt (WT) or the Y407F mutant (Y407F).
+3	Lysates were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies.
+3	Control immunoprecipitates were obtained using an irrelevant antibody.
+3	(B) Rac-GEF activity was measured in aliquots of the immunoprecipitates shown in A, in the absence or presence of the indicated water-soluble phosphoinositides (  Han et al., 1998  ; supplemental materials).
+3	The difference in the samples marked by the asterisks was significant (P < 0.01) in a paired  t  test.
+3	(C) Cos-7 cells were transfected (tfx) with mycEps8 and Abi1, together with either Sos-1 (WT) or a dominant-negative mutant of Sos-1 (DH−).
+3	Lysates were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies.
+3	(D) Rac-GEF activity was measured on aliquots of the immunoprecipitate containing equal amounts of wild-type Sos-1 and the Sos-1 DH− mutant shown in C, in the absence or presence of the indicated water-soluble phosphoinositides.
+3	The difference in the samples marked by the asterisks was significant (P < 0.005) in a paired  t  test.
+3	Next, we performed Rac-GEF assays on Eps8–Abi1wt–Sos-1 or Eps8–Abi1Y407F–Sos-1 immunocomplexes in the presence of water-soluble phosphoinositides.
+3	The PH domain of Sos-1 displays selectivity for PI3,4,5P over the more physiologically abundant PI4,5P (  Rameh et al., 1997  ).
+3	However, no Rac-GEF activity could be detected in Eps8–Abi1–Sos-1DH− immunocomplexes as compared with the Eps8–Abi1–Sos-1 complex under conditions in which equal amounts of wild-type or mutant Sos-1 were present (  Fig. 3, C and D  ).
+3	Fig. S3 shows the dose-dependent effects exerted by water-soluble PIPs on the Rac-specific GEF activity of the Eps8–Abi1–p85–Sos-1 complex, extending the observations reported in  Fig. 3  .
+3a	Trimeric Eps8–Abi1–Sos-1 complexes were readily detected that contained similar amounts of the catalytic subunit Sos-1 (  Fig. 3  A).
+3a	Endogenous p85 (  Fig. 3  A) and Rac-GEF activity (  Fig. 3  B) were present only in the complexes containing Abi1wt, but not in those with Abi1Y407F.
+3a	If these in vitro findings were to translate into physiologically relevant events, then one would predict that (1) interference with the formation of the Eps8–Abi1–p85–Sos-1 complex either by preventing the binding between Abi1 and p85 (  Fig. 3  A) or by genetically removing p85; and (2) pharmacological inhibition of PI3-K by wortmannin should affect Rac activation mediated by the complex in vivo.
+3b	Endogenous p85 (  Fig. 3  A) and Rac-GEF activity (  Fig. 3  B) were present only in the complexes containing Abi1wt, but not in those with Abi1Y407F.
+3b	Consistently, the addition of PI3,4,5P (0.5 μM), the catalytic product of PI3K, but not of PI4,5P, PI5P, or PI3P (unpublished data and Fig. S3), led to a statistically significant increase in the Rac-GEF activity of the Eps8–Abi1wt–Sos-1 complex (  Fig. 3  B and supplemental materials).
+3b	More importantly, it restored the GEF activity of the Eps8–Abi1Y407F–Sos-1 complex (  Fig. 3  B).
+3b	The two events, p85 recruitment and PIP3 availability, might independently influence the Rac-GEF activity of the tricomplex, or might be somehow integrated.
+3b	Whatever the case, both the physical presence of p85 and the availability of PIP3 seem to participate in the activation of the Rac-GEF activity of the Eps8–Abi1–Sos-1 complex, at least in vitro.
+3b	To rule out the possibility that GEFs other than Sos-1 might be contained in the Eps8–Abi1–Sos-1 complex and be responsible for the observed Rac-GEF activity, we engineered a dominant-negative form of Sos-1, carrying point mutations inactivating the DH domain (  Soisson et al., 1998  ;  Mettouchi et al., 2001  ).
+3b	Cells were transfected with a combination of mycEps8, Abi1, and either wild-type Sos-1 or Sos-1DH−.
+3b	For the Rac-GEF in  Fig. 3  B, performed in the presence of the water-soluble phospholipids, it is noteworthy that PIP3, which restored the Rac-GEF activity of the Eps8–Abi1Y407F–Sos-1 complex (  Fig. 3  B), was shown to bind to and permit the association to Rac of the bacterially produced and purified DH-PH domain of Sos-1 (  Das et al., 2000  ).
+3b	For the Rac-GEF in  Fig. 3  B, performed in the presence of the water-soluble phospholipids, it is noteworthy that PIP3, which restored the Rac-GEF activity of the Eps8–Abi1Y407F–Sos-1 complex (  Fig. 3  B), was shown to bind to and permit the association to Rac of the bacterially produced and purified DH-PH domain of Sos-1 (  Das et al., 2000  ).
+3b	None of the water-soluble phospholipids used had any effect on the release of guanine nucleotides from [  3  H]-loaded Rac incubated in the presence of buffer alone or of mock immunoprecipitates.
+3b	None of the water-soluble phospholipids used had any effect on the release of guanine nucleotides from [  3  H]-loaded Rac incubated in the presence of buffer alone or of mock immunoprecipitates.
+3b	Data are the mean ± SEM of at least three independent experiments performed in triplicate.
+3b	Data are the mean ± SEM of at least three independent experiments performed in triplicate.
+3b	Results are expressed as the [  3  H]GDP released after 20 min relative to time 0, after subtracting the background counts released in control reactions (obtained in the presence of immunoprecipitates performed with an ANTI-FLAG  ®  antibody as a control).
+3b	Results are expressed as the [  3  H]GDP released after 20 min relative to time 0, after subtracting the background counts released in control reactions (obtained in the presence of immunoprecipitates performed with an ANTI-FLAG  ®  antibody as a control).
+3c	Sos-1DH− associates with the Eps8–Abi1 complex as efficiently as wild-type Sos-1 (  Fig. 3  C).
+3d	Moreover, the addition of water-soluble PIP3 increased the Rac-GEF of the Eps8–Abi1–Sos-1, but not of the Eps8–Abi–SosDH− immunocomplex (  Fig. 3  D).
+3d	Thus, Sos-1 is not only critical for Rac-GEF activity of the Eps8–Abi1–p85–Sos-1 complex, but it is also required to confer responsiveness to PIP3.
+3d	The above observations indicate that the recruitment of PI3K by Abi1 into an Eps8–Abi1–Sos-1 complex is necessary and sufficient to activate, in vitro, the Rac-GEF capability of the latter.
+3d	They further highlight a regulatory role exerted by PIP3 on this complex.
+4	Figure 4.
+4	 p85 is required for Abi1-induced activation of Rac in vivo.
+4	 Cos-7 cells, transfected (tfx) with HA-Rac together with HA-Abi1, HA-Abi1Y407F, HA-Abi1DY, or the empty vector (ctr) were treated with 100 ng/ml of EGF for 3 min (+) or mock-treated (−).
+4	Lysates were either incubated with GST-CRIB and detected with anti-Rac antibodies (RacGTP), or directly immunoblotted with the indicated antibody.
+4	(B) p85α/p85β-double (p85 −/−) and p85β-single (p85 −/− [p85α]) knockout MEFs, transfected (tfx) with HA-Rac together with either an HA-Abi1 (+) vector or the empty vector as control (−), were serum-starved for 24 h. Lysates were incubated with GST-CRIB as described above and detected with anti–HA-Rac antibody (RacGTP) or directly immunoblotted with the indicated antibody.
+4	(C) Cos-7 cells, transfected (tfx) with HA-Rac together with Abi1 (Abi WT) or the empty vector (ctr), were incubated for 1 h with 100 nM of wortmannin (Wort, + lanes) or vehicle (Wort, − lanes), as a control, and treated with EGF (EGF, + lanes) or mock-treated (EGF, − lanes).
+4	Rac-GTP levels, total Rac, and the expression of Abi1 were determined as in A.
+4	The trimeric complex Eps8–Abi1–Sos-1 is essential for RTK-mediated actin cytoskeletal remodeling, as witnessed by the lack of PDGF-induced Rac activation and Rac-dependent membrane ruffling detected in Eps8−/− cells (  Scita et al., 1999  ;  Innocenti et al., 2002  ).
+4	To analyze the biological consequence of p85 recruitment by the tricomplex, two approaches were undertaken.
+4	First, a phosphorylated peptide encompassing Tyr  407  of Abi, and corresponding to the Abi1 binding site of p85, was used.
+4	Notably, inhibition of RTK-mediated ruffles could also be caused by microinjection of anti-Abi1 antibodies (  Scita et al., 1999  and Fig. S4), which, however, did not affect TPA-induced actin remodeling, indicating that additional pathways leading to Rac activation (and possibly reflecting the simultaneous presence of several Rac GEFs in the cells) are at play (supplemental information,  Fig. 4  ).
+4	Second, we cotransfected the activated version of either Ras (RasV12) or Rac (RacQL) together with either Abi1wt or the Abi1Y407F mutant, and scored the formation of ruffles.
+4	This is further supported by the finding (  Fig. 4  ) that the overexpression of Abi1 leads to increased Rac-GTP levels, in a p85-dependent manner, even in the absence of growth factor stimulation.
+4	However, this basal Rac-GEF activity requires further stimulation by PIP3s, which in vivo, are produced after RTK activation, to achieve a threshold of biological significance.
+4	Thus, in vivo, the integrity of the complex and PI3K activity are both necessary for RTK-dependent activation of Rac.
+4	However, it is clear that further work will be needed to define the exact interplay between the effects of the physical recruitment of PI3K and of its catalytic activity on the Rac-GEF activity of the Eps8–Abi1–Sos-1 tricomplex.
+4a	As show in  Fig. 4  A, both the basal and the EGF-induced levels of Rac-GTP were increased by the expression of wild-type Abi1, consistent with the notion that Abi1 is rate-limiting in Rac activation (  Innocenti et al., 2002  ).
+4a	However, no Rac activity could be detected when the Abi1Y407F, or a mutant of Abi1 (Abi1DY), which does not associate with Eps8, were used (  Fig. 4  A).
+4a	These results strongly suggest that Abi1 mutants, defective in their ability to assemble to PI3K or Eps8, are not only biologically inactive, but act as dominant-negatives, most likely by sequestering the other endogenous components in inactive complexes.
+4a	Moreover, a formal proof of the requirement of p85 for Abi1-dependent activation of Rac was obtained by using fibroblasts in which both p85 isoforms (α and β) were genetically removed (unpublished data).
+4b	In these cells, expression of Abi1 failed to induce Rac activation, which was, however, restored by reintroduction of p85α (  Fig. 4  B).
+4c	Finally, treatment with wortmannin reduced (but did not abrogate) EGF-dependent and EGF-independent Rac activation induced by Abi1 (  Fig. 4  C).
+4c	Similarly, the Rac-GEF activity in the Eps8–Abi1–p85–Sos-1 immunocomplex was only reduced by pretreatment of the cells with wortmannin (unpublished data).
+4c	Thus, all together, these data support the notion that PI3K recruitment to the Eps8–Abi1–Sos-1 complex is physically required to elicit a basal Rac-GEF activity, which is further increased by PIP3.
+5	Figure 5.
+5	 The Abi1-p85 association is required for ruffling by activated RTK and Ras, but not by activated Rac.
+5	 (A) Quiescent MEFs, microinjected with the indicated peptides together with rabbit IgG (supplemental materials), were treated with PDGF for 10 min.
+5	Cells were fixed and stained with rhodamine-conjugated phalloidin to detect F-actin (red) and anti–rabbit IgG (not depicted) to detect microinjected cells (indicated by asterisks).
+5	More than 100 cells were injected in each experiment.
+5	In the bar graph, a quantitation of the experiment is reported.
+5	(B) MEFs were transfected, as indicated on the top, with expression vectors for either RasV12 or RacQL, together with either ECFP-Abi1WT or ECFP-Abi1Y407F.
+5	After serum starvation, cells were fixed and stained with rhodamine-conjugated phalloidin (ph, red).
+5	Expression of the transfected proteins was detected (green) with either anti-Ras or anti-Rac antibodies or by epifluorescence (ECFP).
+5	The percentage of transfected cells undergoing ruffling is reported in Materials and methods.
+5	Bars, 10 μm.
+5	Our results elucidate the molecular mechanisms through which PI3K is coupled to Rac via the Eps8–Abi1–Sos-1 tricomplex.
+5	In vitro Rac-GEF assays revealed that the physical interaction with p85 and the availability of PIP3 concur to stimulate the Rac-GEF activity of the tricomplex.
+5	This likely reflects the situation in vivo as supported by two observations.
+5	First, interference with the association between p85 and the tricomplex results in lack of Rac activation and actin cytoskeleton remodeling.
+5	Second, there is an absolute requirement for PIP3 in Rac activation, as shown by several studies using enzymatic inhibitors of PI3K (  Cantrell, 2001  ).
+5	The most simple explanation for the sum of our results is that recruitment of p85 to the Eps8–Abi1–Sos-1 tricomplex unmasks a basal Rac-GEF activity.
+5a	Microinjection of the phosphorylated peptide (but not of the two control peptides) inhibited PDGF-induced ruffles by more than 70% (  Fig. 5  A).
+5b	RasV12-induced (but not RacQL-induced) ruffles were efficiently inhibited by coexpression of Abi1Y407F, but not by Abi1wt (  Fig. 5  B).
+5b	Thus, the recruitment of PI3K by Abi1 plays a critical role in RTK-induced actin remodeling and is essential for the propagation of signals from Ras to Rac.
+5b	For the experiments shown in  Fig. 5  B, fibroblasts seeded on gelatin were transfected with various combinations of RasV12, RacQL, Abi1WT, and Abi1Y407F as indicated.
+5b	After serum starvation, cells were fixed and stained with the appropriate antibodies to detect activated Ras or Rac.
+5b	F-actin was revealed by rhodamine-conjugated phalloidin (red).
+5b	Detection of ECFP-Abi1WT or ECFP-Abi1Y407F was by epifluorescence (ECFP).
+5b	In the cotransfection experiments, a molar ratio of 1:3 of the activated GTPases to the ECFP-Abi1 constructs was used so that all the epifluorescent cells also expressed the corresponding GTPase.
+5b	The percentage of transfected cells (mean ± SEM) undergoing ruffling was as follows: RasV12 = 65 ± 3%; RasV12 + Abi1WT = 62 ± 4%; RasV12 + Abi1Y407F = 16 ± 2%; RacQL = 93 ± 3%; RacQL + Abi1WT = 90 ± 4%; RacQL + Abi1Y407F = 95 ± 5%.

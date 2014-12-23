@@ -1,0 +1,112 @@
+1	The S/E/E8 complex exists under physiological conditions.
+1a	(A) Eps8−/− cells were transfected with a control vector (−/− lanes) or a vector coding a myc epitope–tagged Eps8 (−/− [Eps8myc] lanes), both carrying a hygromicin resistance gene.
+1a	Hygromicin-resistant single-cell clones were established after 10 d of selection with hygromicin (0.2 mg/ml).
+1a	The levels of Eps8, PDGFR, and EGFR in individual clones of eps8−/−, −/− [Eps8myc], or in wild-type (WT) cells were determined by immunoblotting analysis of equal amounts of total cellular lysates (50 μg) using the indicated antibodies (WB), and clones with levels of expression of Eps8, PDGFR, and EGFR similar to wild-type fibroblasts were used.
+1b	(B) Total cellular lysates (10 mg), obtained from the transfectants described in A, were immunoprecipitated (IP) with the antibody indicated at the bottom (ctr, irrelevant antibody), followed by immunoblot with indicated antibodies (WB).
+1b	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+1c	(C) Total cellular lysates (10 mg) obtained from −/− [Eps8myc] cells were immunoprecipitated (IP) with the antibody indicated at the top (ctr, irrelevant antibody) in the presence or absence (−) of 40 ng/ml of the indicated peptides (peptides).
+1c	The peptides used were PPPPPVDYTEDEE (PXXDY) and PPPPPVDATEDEE (PXXDA, used as a control).
+1c	Immunoblotting was with the indicated antibodies (WB).
+1c	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+2	In vitro competition between E3b1 and Grb2 for binding to Sos-1.
+2	The ruler shows amino acid positions.
+2	(Bottom) In vitro binding of various fragments of E3b1 (all engineered as GST fusions, amino acid boundaries are indicated on the top) to Sos-1 from lysates of Sos-1–transfected Cos-7 cells.
+2	Detection was with anti–Sos-1 antibody.
+2	The lane “lysate” was loaded with 50 μg of total cellular lysates.
+2	P Rich, proline rich region; SH3, SH3 domain.
+2a	(A, Top) schematic of E3b1.
+2b	(B) A His-tagged COOH-terminal fragment (His-Sos, aa 1131–1333) of Sos-1 (10 pmoles) was bound to 60 pmoles of either immobilized GST (GST) or GST-E3b1–331–480 in the presence of increasing concentrations of the NH2-terminal SH3 domain of Grb2 or of Eps8 (SH3s, 0, 10, 100, 1,000 pmoles, as indicated on the top).
+2b	Detection was with antihistidine antibody.
+2b	I, input, 10 pmoles of His-Sos-1.
+2c	(C) His-Sos (10 pmoles) was bound to 60 pmoles of GST fusions encompassing the SH3s of either E3b1 (○ and •) or of Grb2 (□ and ▪).
+2c	Binding was in the presence of the indicated amounts of the competing peptide NH2-VPVPPPVPPRRR-COOH (derived from the sequence of Sos-1, • and ▪), or of a scrambled control peptide (○ and □).
+2c	Detection was by immunoblot with anti-His, followed by densitometric scanning.
+2d	(D) Kinetic analysis and rate constants for the binding of the SH3 domains of Grb2 and E3b1 to the proline-rich COOH-terminal of Sos-1 (aa 1131–1333).
+2d	Increasing concentrations (10–400 nM) of His-Sos-1 were passed over the immobilized GST fusion proteins (GST-SH3-Grb2 and GST-SH3-E3b1) for 2.5 min at a flow rate of 50 μl/min.
+2d	The kinetics of binding are shown in the graphs.
+2d	Coupling of equal amounts of the GST fusion proteins was performed with a goat anti-GST antibody covalently linked to CM5 sensor chip according to the manufacturer's instructions. kon and koff kinetic rates were obtained by simple Langmuir fitting model (biaevaluation software v2.1).
+2top	(A, Top) schematic of E3b1.
+3	In vivo competition between E3b1 and Grb2 for binding to Sos-1.
+3	Detection was with anti–Sos-1.
+3	(Bottom) The same cellular lysates (50 μg) were detected with anti-Grb2.
+3a	(A, Top) GST-E3b1-331–480, or control GST, was bound to Sos-1 present in Cos-7 cells transfected (Tfx) with either Sos-1 or S/G.
+3b	(B) Lysates, from 293T cells transfected (Tfx) with E3b1 or a control vector (ctr), were immunoprecipitated (IP) with anti-Grb2 or an irrelevant antibody (ctr), followed by detection (WB) with anti–Sos-1 (top) or anti-Grb2 (middle).
+3b	The expression of E3b1 (bottom) was detected with an anti-E3b1 antibody.
+3top	(A, Top) GST-E3b1-331–480, or control GST, was bound to Sos-1 present in Cos-7 cells transfected (Tfx) with either Sos-1 or S/G.
+4	The S/G and the S/E complexes are functionally distinct.
+4a	(A) Cos-7 cells were transfected with the indicated cDNAs (Tfx), and treated with EGF (3 min, +) or mock treated (−).
+4a	Immunoprecipitates (IP) with anti-EGFR or preimmune sera (ctr) were analyzed by immunoblotting (WB) with anti–EGFR or HA (for Sos-1 detection).
+4a	Lysates (50 μg) were analyzed by immunoblotting with anti-EGFR, anti-HA (for Sos-1 detection), or anti-E3b1 antibody.
+4a	HA-Sos, HA-epitope tagged Sos-1(B) Cos-7 cells were cotransfected (Tfx) with E3b1 (or a control empty vector, ctr) and either a myc-tagged Ras (left) or HA-tagged MAPK (right), followed by treatment with EGF (5 min, +) or mock-treatment (−).
+4a	The levels of expression of myc-Ras and HA-MAPK (middle) and E3b1 (bottom) are also shown.
+4c	(C) Quiescent NIH-3T3 fibroblasts were microinjected with an empty vector together with rabbit IgG (left) or with an HA-tagged E3b1 expression vector (right) followed by treatment with 10% serum.
+4c	After 15 h, BrdU was added and 3 h later the cells were fixed and stained to detect BrdU incorporation (top), E3b1 (anti-HA), or control (anti-IgG).
+4c	Nuclei were counterstained with Dapi (bottom).
+4c	A quantitative analysis of BrdU incorporation into control (empty bar) and E3b1 (closed bar) injected cells is shown on the right.
+4c	The data are the mean ± SEM of three independent experiments.
+4c	Results are expressed as a percentage of injected cells incorporating BrdU respect to uninjected ones.
+4c	Serum treatment induces BrdU incorporation in >95% of not injected cells.
+4left	(Top, left) Ras-GTP was recovered with the GST-RBD of Raf-1 followed by immunodetection with anti-myc antibodies.
+4right	(Top, right) Anti-HA immunoprecipitation, followed by immunodetection with an anti–phosphorylated MAPK antibody.
+4top	(Top, left) Ras-GTP was recovered with the GST-RBD of Raf-1 followed by immunodetection with anti-myc antibodies.
+4top	(Top, right) Anti-HA immunoprecipitation, followed by immunodetection with an anti–phosphorylated MAPK antibody.
+5	E3b1 is a limiting factor in Rac activation.
+5	Lysate, 50 μg of total cellular lysate.
+5	(Middle) Cos-7 cells were transfected (Tfx) with HA-tagged PAK65 (all lanes) together with the plasmids indicated on the top (ctr, empty vector) and serum starved for 24 h. Equal amounts of anti-HA immunoprecipitated PAK65 were subjected to an in vitro kinase assay using myelin basic protein (MBP) as a substrate.
+5	The levels of immunoprecipitated PAK65 and the expression of Sos-1, E3b1, and HARacN17 in the various transfectants are also shown.
+5	Similar results were obtained using Cos-7 cells.
+5	(Bottom) Wild-type (+/+) and eps8−/− (−/−) mouse embryo fibroblasts were infected with retroviral vectors coding for E3b1 (E3b1) or the mutant of E3b1-DY (E3b1-DY), or with an empty vector as a control (ctr).
+5	>95% of the cells expressed the infected cDNA, as determined by immunostaining with anti-E3b1 (not shown).
+5	Equal amounts of lysates were subjected to in vitro binding assays with the immobilized CRIB domain of PAK65.
+5	After washing, bound proteins were resolved by SDS-PAGE and immunoblotted with anti-Rac antibodies (Rac-GTP).
+5	The levels of total Rac (Rac) and E3b1 proteins are also shown.
+5left	(Top, left) Lysates of Cos-7 cells were immunoprecipitated (IP) with the antibody indicated on the top and immunoblotted with the antibody indicated on the right.
+5right	(Top, right) The efficiency of Grb2 and E3b1 immunoprecipitations was >95%, as determined by immunoblot analysis of the supernatants of the immunoprecipitations performed with either the specific antibody with (Grb2 and E3b1, respectively, as indicated) or with an irrelevant (ctr) antibody.
+5top	(Top, left) Lysates of Cos-7 cells were immunoprecipitated (IP) with the antibody indicated on the top and immunoblotted with the antibody indicated on the right.
+5top	(Top, right) The efficiency of Grb2 and E3b1 immunoprecipitations was >95%, as determined by immunoblot analysis of the supernatants of the immunoprecipitations performed with either the specific antibody with (Grb2 and E3b1, respectively, as indicated) or with an irrelevant (ctr) antibody.
+6	The E3b1DY mutant inhibits actin remodeling induced by activated Ras, but not by activated Rac.
+6	Mouse embryo fibroblasts were transfected, as indicated on the top, with expression vectors for either RasV12 or RacQL, together with ECFP-tagged versions of either E3b1 or the E3b1DY mutant.
+6	After serum starvation, cells were fixed and stained with rhodamine-conjugated phalloidine to detect F-actin (top, red).
+6	Expression of the transfected proteins was detected (bottom, green) with either anti-Ras or anti-Rac antibodies or by epifluorescence (ECFP).
+6	In the cotransfection experiments a molar ratio of 1:3 of the activated GTPases to the ECFP-E3b1 constructs was used, such as that all of the epifluorescent cells expressed also the corresponding GTPase (not shown).
+6	The percent of transfected cells (mean ± SEM) undergoing ruffling was as follow: RasV12 = 65 ± 3%; RasV12 + E3b1 WT = 62 ± 4%; RasV12 + E3b1DY = 16 ± 2%; RacQL = 93 ± 3%; RacQL + E3b1 WT = 90 ± 4%; RacQL + E3b1DY = 95 ± 5%.
+6	Bar, 10 μm.
+7	The bifunctional guanine nucleotide exchange activity of Sos-1 is regulated by its assembly into distinct molecular complexes.
+7a	(A) Cos-7 cells were transfected with expression vectors for Sos-1 (SosTfx) or for Sos-1, E3b1, and Eps8 (TripleTfx) or with the corresponding empty vectors (mock).
+7a	Total cellular lysates (100 μg, left), or immunoprecipitates (IP, right) with the antibody indicated on the top (ctr, irrelevant antibody), were immunoblotted (WB) with the indicated antibody.
+7a	5 mg of total cellular lysates were used for the immunoprecipitations, except in the SosTfx 1/10 lanes, in which 0.5 mg were used.
+7b	(B) Ras-GEF (empty bars) and Rac-GEF (closed bars) activities in aliquots of the same immunoprecipitates (IP) shown in B.
+7b	Data are expressed as described in Material and methods.
+7c	(C) Immobilized, purified GST-Rac (Rac) and GST-Cdc42 (Cdc42) were depleted of guanine nucleotide by extensive washing in 10 mM EDTA as described in Material and methods.
+7c	Equal amounts of the nucleotide-free GST-GTPases or GST alone (GST) were incubated with total cellular lysates from eps8−/− fibroblasts (−/−) or eps8−/− stably expressing Eps8myc (−/−[Eps8myc]) in the presence or absence (−) of the 40 ng/ml of the indicated peptides (peptides).
+7c	The peptide used were PPPPPPVDATEDEE (PXXDA), used as control (see text and Fig. 1); PPPPPVDYTEDEE (PXXDY), which corresponds to the E3b1 binding site for the SH3 domain of Eps8 and prevents Eps8-E3b1 association (refer to Fig. 1 B); VPVPPPVPPRRR (PXXP), which corresponds to the Sos-1 binding site for the SH3 domain of E3b1 and readily competes the interaction between Sos-1 and E3b1 (refer to Fig. 2 C).
+7c	Bound proteins were resolved by SDS-PAGE.
+7c	Detection was with anti–Sos-1 antibody (Sos-1).
+7c	The indicted lanes (lysate) were loaded with 50 μg of total cellular lysates.
+8	The differential regulation of the S/G and S/E/E8 complexes by RTKs correlates with the kinetics of activation of Ras and Rac.
+8a	(A) Mouse embryo fibroblasts cells were treated with PDGF for 15 min (+) or mock treated (−).
+8a	Lysates were immunoprecipitated (IP) with anti-Grb2 (left) or anti-E3b1 (right) antibody and detected with anti–Sos-1 antibody (top) or anti-Grb2 (bottom, left), or anti-E3b1 (bottom, right).
+8a	The indicated lanes (lysate) (50 μg) were detected with anti–Sos-1 antibody to show the mobility shift after PDGF stimulation.
+8a	Similar results were obtained upon EGF stimulation in Cos-7 cells (not shown).
+8b	(B) Fibroblasts were treated with PDGF for the indicated lengths of time.
+8b	Lysates were immunoprecipitated (IP) with anti-PDGFR (PDGFR) or an irrelevant antibody as a control (ctr) and detected with the indicated antibodies (WB).
+8c	(C) −/− [Eps8myc] cells were treated with 20 ng/ml of PDGF (+) or mock treated (−), and total cellular lysates were prepared.
+8c	Immmunoprecipitations (IP) were performed with anti-myc antibody or with an irrelevant (ctr) antibody, followed by immunoblot with the antibody indicated on the right (WB).
+8c	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+8d	(D) Fibroblasts were treated with PDGF for the indicated lengths of time.
+8d	The levels of Ras-GTP and Rac-GTP in total cellular lysates were determined by affinity precipitation using GST-RBD and GST-CRIB, as described in Materials and methods.
+8d	Elevated levels of Rac-GTP could be observed ≤30 min of RTK stimulation (not shown).
+8d	The expression levels of Ras (total Ras) and Rac (total Rac), in the same lysates, were determined by immunoblotting with anti-Ras and anti-Rac antibodies, respectively.
+8d	The kinetic of the mobility shift of Sos-1, after PDGF stimulation, was determined by immunoblotting with anti–Sos-1 antibodies.
+9	Proposed model for the roles of Sos-1 in the signaling pathway leading to activation of Rac.
+9	Under unstimulated conditions (unstimulated), Sos-1-based complexes, PI3K, and the small GTPases, Ras and Rac, are present in the cell in an inactive state.
+9	Immediately after stimulation (Stimulated: early events) by growth factor (G.F.), the S/G complex is recruited to the activated RTK at the plasma membrane, leading to Ras activation.
+9	GTP-loaded Ras, in turn, mediates signal propagation with the ensuing activation of Rac, through the trimeric complex S/E/E8 (dashed black arrow).
+9	In this pathway, PI3K, which binds to GTP-Ras, plays a key role, although it cannot be formally excluded that other Ras effectors may participate in the activation of Rac.
+9	Activation of Rac can also be achieved through Ras-independent pathways, among which the one involving the direct recruitment of PI3K to activated RTK (dashed orange arrow).
+9	All these pathways converge on the S/E/E8 Rac GEF complex.
+9	Activated Rac finally mediates actin remodelling.
+9	Concomitantly, activated Ras leads to stimulation of the ERK kinase via the RAF-MEK-ERK cascade (solid red arrow).
+9	ERK can phosphorylate Sos-1 (dashed green arrow) with ensuing reduced affinity for Grb2, but not for E3b1.
+9	This results (Stimulated: late events) in the disassembly of the RTK-Grb2-Sos-1 complex contributing to the termination of Ras activation.
+9	Conversely, the trimeric complex S/E/E8 is stable, thus allowing sustained Rac activation through Ras-independent pathways (dashed orange arrow), which are most likely PI3K dependent, but could also be PI3K dependent.

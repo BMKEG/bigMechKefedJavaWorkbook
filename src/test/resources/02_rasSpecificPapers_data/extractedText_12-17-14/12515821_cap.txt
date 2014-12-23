@@ -1,0 +1,49 @@
+1	p85 interacts with Abi1.
+1a	(A) Left; lysates (5 mg) from MEFs were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (ctr, preimmune serum).
+1a	Abi1 could also be detected in p85 immunoprecipitates (supplemental materials).
+1a	About 1% of total p85 could be found associated with Abi1 immunoprecipitates.
+1a	Right; lysates (5 mg; p85 = 0.3 mg) from MEFs were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (top).
+1a	The immunocomplexes were tested for PI3K lipid kinase activity by TLC (bottom; Domin et al., 1996).
+1b	(B) Binding of GST-p85 fragments (amino acid boundaries or domains are indicated) to Abi1 from lysates of HA-Abi1–transfected 293T cells.
+1b	The altered electrophoretic mobility of the Abi1 band in the 320–724 lane is due its co-migration with the GST-fusion protein.
+1c	(C) Lysates (2 mg) from 293T cells transfected with HA-Abi1 were immunoprecipitated with anti-HA antibody.
+1c	Immunoprecipitates, treated with alkaline phosphatase in the presence (+) or absence (−) of inhibitors (API), were immunoblotted (IB) with anti-HA (left) or anti-pY (middle), or analyzed in Far-western with the proteins indicated on the top.
+1d	(D) Lysates (1 mg) from 293T cells, transfected with HA-tagged wild-type (WT) or Y407F Abi1, were subjected to in vitro binding with the GST-NH2-terminal SH2 domain of p85 (SH2-N) or GST alone.
+1d	Similar results were also obtained using the COOH-terminal SH2 domain of p85, indicating that the apparent affinities of the SH2 domains of p85 for Abi1 were similar (not depicted).
+1e	(E) Lysates (5 mg) from Cos-7 cells, transfected with HA-Abi1 (WT) or HA-Abi1Y407F, were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies (ctr, anti-flag antibody used as a control).
+2	p85 associates with the Eps8–Abi1–Sos-1 complex under physiological conditions.
+2a	(A) Top; model of the Eps8–Abi1–p85–Sos-1 complex.
+2a	Bottom; lysates (10 mg) from −/− [Eps8myc] cells and supplemental materials) were immunoprecipitated (IP) with the indicated antibodies (ctr, irrelevant antibody) in the presence of the peptides PPPPPVDYTEDEE (competing) or PPPPPVAATEDEE (control).
+2a	Immunoblotting (IB) was performed with the indicated antibodies.
+2b	(B) Quiescent (Serum Starved) and PDGF-treated (PDGF) MEFs were fixed and stained with the indicated antibodies.
+2b	Confocal analysis was carried and the apical sections are shown.
+2b	Notably, colocalization between Abi1 and p85 could be detected only when the apical sections of PDGF-treated cells were analyzed.
+2b	In these sections, the increase in the local concentration of the two proteins favors their detection by immunofluorescence, consistent with a notion that a relatively small (but physiologically relevant) pool of p85 is associated with Abi1 and enriched in ruffles.
+2b	Arrows indicate dorsal ruffles.
+2b	Bar, 10 μm.
+3	PI3K recruitment to the Eps8–Abi1–Sos-1 complex is required for Rac-GEF activity, which is further increased by PIP3.
+3a	(A) Cos-7 cells were transfected (tfx) with mycEps8 and Sos-1, together with either Abi1wt (WT) or the Y407F mutant (Y407F).
+3a	Lysates were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies.
+3a	Control immunoprecipitates were obtained using an irrelevant antibody.
+3b	(B) Rac-GEF activity was measured in aliquots of the immunoprecipitates shown in A, in the absence or presence of the indicated water-soluble phosphoinositides (Han et al., 1998; supplemental materials).
+3b	The difference in the samples marked by the asterisks was significant (P < 0.01) in a paired t test.
+3c	(C) Cos-7 cells were transfected (tfx) with mycEps8 and Abi1, together with either Sos-1 (WT) or a dominant-negative mutant of Sos-1 (DH−).
+3c	Lysates were immunoprecipitated (IP) and immunoblotted (IB) with the indicated antibodies.
+3d	(D) Rac-GEF activity was measured on aliquots of the immunoprecipitate containing equal amounts of wild-type Sos-1 and the Sos-1 DH− mutant shown in C, in the absence or presence of the indicated water-soluble phosphoinositides.
+3d	The difference in the samples marked by the asterisks was significant (P < 0.005) in a paired t test.
+4	p85 is required for Abi1-induced activation of Rac in vivo.
+4	Cos-7 cells, transfected (tfx) with HA-Rac together with HA-Abi1, HA-Abi1Y407F, HA-Abi1DY, or the empty vector (ctr) were treated with 100 ng/ml of EGF for 3 min (+) or mock-treated (−).
+4	Lysates were either incubated with GST-CRIB and detected with anti-Rac antibodies (RacGTP), or directly immunoblotted with the indicated antibody.
+4b	(B) p85α/p85β-double (p85 −/−) and p85β-single (p85 −/− [p85α]) knockout MEFs, transfected (tfx) with HA-Rac together with either an HA-Abi1 (+) vector or the empty vector as control (−), were serum-starved for 24 h. Lysates were incubated with GST-CRIB as described above and detected with anti–HA-Rac antibody (RacGTP) or directly immunoblotted with the indicated antibody.
+4c	(C) Cos-7 cells, transfected (tfx) with HA-Rac together with Abi1 (Abi WT) or the empty vector (ctr), were incubated for 1 h with 100 nM of wortmannin (Wort, + lanes) or vehicle (Wort, − lanes), as a control, and treated with EGF (EGF, + lanes) or mock-treated (EGF, − lanes).
+4c	Rac-GTP levels, total Rac, and the expression of Abi1 were determined as in A.
+5	The Abi1-p85 association is required for ruffling by activated RTK and Ras, but not by activated Rac.
+5a	(A) Quiescent MEFs, microinjected with the indicated peptides together with rabbit IgG (supplemental materials), were treated with PDGF for 10 min.
+5a	Cells were fixed and stained with rhodamine-conjugated phalloidin to detect F-actin (red) and anti–rabbit IgG (not depicted) to detect microinjected cells (indicated by asterisks).
+5a	More than 100 cells were injected in each experiment.
+5a	In the bar graph, a quantitation of the experiment is reported.
+5b	(B) MEFs were transfected, as indicated on the top, with expression vectors for either RasV12 or RacQL, together with either ECFP-Abi1WT or ECFP-Abi1Y407F.
+5b	After serum starvation, cells were fixed and stained with rhodamine-conjugated phalloidin (ph, red).
+5b	Expression of the transfected proteins was detected (green) with either anti-Ras or anti-Rac antibodies or by epifluorescence (ECFP).
+5b	The percentage of transfected cells undergoing ruffling is reported in Materials and methods.
+5b	Bars, 10 μm.

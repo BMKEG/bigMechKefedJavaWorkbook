@@ -1,0 +1,69 @@
+1	HUVEC, HMVE and BAE cells were stimulated with VEGF-A (100 ηg/ml) for indicated times.
+1	Whole cell lysates (WCL) were immunoblotted with an anti-phospho-Src (pY416) antibody (A) or an anti-Src antibody (B).
+1	HUVEC, HMVE and HEK-293 cells were either unstimulated (−) or stimulated with VEGF (+) for 10 minutes, lysed, immunoprecipitated with c-Src antibody and immunoblotted with an anti-VEGFR-2 antibody (C).
+1	Whole cell lysates (WCL) from the same group was immunoblotted with an anti-VEGFR-2 as a control (D).
+1	PAE cells expressing wild type chimeric VEGFR-2 (CKR) and tyrosine mutant CKRs, F799/CKR, F820/CKR, F925/CKR and carboxyl terminus deleted CKR coupled with mutation of Y1173 and Y1212 denoted as ΔCKR/F1173/F1212 was stimulated with CSF-1 for 10 minutes.
+1	Cells were lysed, and whole cell lysates were incubated with purified GST-SH2-Src protein.
+1	The GST-SH2-Src bound proteins were subjected to Western blot analysis using an anti-VEGFR-2 antibody (E).
+1	Whole cell lysates from the same groups was blotted with an anti-VEGFR-2 antibody (F).
+1	PAE cells expressing CKR, E1052/CKR, and E1057/CKR were either unstimulated or stimulated with CSF-1 for 10 minutes and cells were lysed and cell lysates was subjected to GST-SH2-Src pull-down assay (G).
+1	An immunoblot of whole cell lysates also were probed with an anti-VEGFR-2 antibody (F,H), an anti-phospho-Src (pY416) antibody (I) or an anti-Src antibody (J).
+1	PAE cells expressing VEGFR-2 or F1057/VEGFR-2 were prepared and subjected to pull-down analysis as panel E (K) or whole cell lysates was blotted with an anti-VEGFR-2 antibody (L).
+1	The results shown in A–L are representative of three separate experiments.
+2	Serum-starved PAE cells expressing chimeric VEGFR-2 (CKR) or co-expressing CKR with c-Cbl and CKR with Cbl-N were either unstimulated (−) or stimulated with CSF-1 (+) for 10 minutes.
+2	Cells were lysed and subjected to an in vitro pull-down assay using purified GST-SH2-Src protein (A).
+2	Quantification of blots of SH2-Src binding to VEGFR-2 of three separate experiments is shown.
+2	Each bar represents the mean ±SD of triplicate experiments.
+2	*P<0.01 (B).
+2	A parallel immunoblot of whole cell lysates (WCL) was probed with an anti-VEGFR-2 antibody (C), with an anti-phosphotyrosine antibody (D) and with an anti-c-Cbl antibody (E).
+2	PAE cells co-expressing chimeric VEGFR-2 (CKR) with a control siRNA or Cbl-siRNA were stimulated with CSF-1 for 10 minutes and cells were lysed and prepared for in vitro pull-down assay as panel A (F).
+2	A parallel immunoblot of whole cell lysates were probed with an anti-c-Cbl antibody for confirmation of c-Cbl knockdown (H) and anti-Hsp70 antibody as a control for protein loading (I).
+2	To detect a direct interaction between the SH2 domain of c-Src and Y1057 of VEGFR-2, the indicated quantities of purified recombinant GST-SH2-Src (top) and GST control (bottom row) were dot blotted as described in the Materials and Methods and detected by an anti-pY1057 VEGFR-2 antibody (J).
+2	The graph represents the average binding of SH2-Src to VEGFR-2 in the absence or presence of c-Cbl-siRNA (±SD) of three separate experiments.
+2	Quantification of blots of SH2-Src binding to VEGFR-2 of three separate experiments is shown.
+2	*P<0.01 (G).
+2	All the experiments repeated at least three times.
+2	A summary of the proposed interaction of c-Src with VEGFR-2 is shown (K).
+3	Serum-starved PAE cells expressing wild type CKR, E1052/CKR and E1057/CKR were either unstimulated (−) or stimulated with CSF-1 (+) for 10 minutes.
+3	Whole cell lysates (WCL) were subjected to Western blot analysis using an anti-phosphoY1173 specific-VEGFR-2 antibody (A), an anti-phosphoY1212 specific-VEGFR-2 antibody (B) or an anti-VEGFR-2 antibody (C).
+3	The graph represents the mean phosphorylation of Y1173 and Y1212 of VEGFR-2 (±SD) of three separate experiments.
+3	*P<0.01 (D).
+3	HEK-293 cells transiently expressing VEGFR-2 alone or co-expressing v-Src were stimulated with VEGF and immunoblotted with anti-pY1173 (E), anti-pY1052 (F), anti-pY1057 (G), anti-pY1212 (H), anti-c-Src (I) and anti-VEGFR-2 (J) antibodies.
+3	The blots were also quantified using Image J program (developed by NIH) and represents average tyrosine phosphorylation sites on VEGFR-2 of three separate experiments (±SD) from three separate experiments (K).
+3	SYF cells and SYF cells expressing chimeric VEGFR-2 (CKR) were either unstimulated (−) or stimulated with CSF-1 (+) for 10 minutes and cells lysates were prepared and immunoblotted with anti-pY1173 (L), anti-pY1052 (M) and anti-VEGFR-2 (N) antibodies.
+3	PAE cells expressing CKR were treated with different concentration of SU6656 for 30 minutes and stimulated with CSF-1 for 10 minutes and cell lysates were prepared as panel A and immunoblotted with anti-pY1173 (O), anti-pY1052 (P) and anti-VEGFR-2 (Q) antibodies.
+3	Phosphorylation of Y1173 and Y1052 in response to SU6656 treatment was quantified as panel D and is presented as the mean (±SD) of three separate independent experiments (R).
+3	A summary of the proposed model of phosphorylation Y1173 of VEGFR-2 by c-Src and VEGFR-2 itself is shown (S).
+4	PAE cells expressing CKR, E1052/CKR, and E1057/CKR alone or with c-Src and dominant negative c-Src (DN-Src) were prepared as spheroids and subjected to an in vitro angiogenesis/tubulogenesis assay as described in the Materials and Methods.
+4	The pictures shown are representative spheroids from three independent experiments (A, C).
+4	Tubulogenesis was also quantified as the mean of ± SD of four sprouting colonies.
+4	*P<0.05 (B, D).
+4	Equal number of PAE expressing CKR alone or co-expressing CKR with c-Src, and CKR with DN-Src were subjected to proliferation assay as described in the Materials and Methods and expressed as the mean ± SD of triplicate.
+4	*P<0.05 (E).
+4	HUVE and HMVE cells treated with either a control siRNA or c-Src-siRNA, after 48 hours cells were stimulated with different concentrations of VEGF and subjected to proliferation as Panel C. *P<0.05 (F, G).
+4	The Western blots of cells treated with either control siRNA or c-Src-siRNA also are shown (F, G).
+5	Serum-starved PAE cells expressing CKR (chimeric VEGFR-2) and E1057/CKR were either unstimulated (−) or stimulated with CSF-1 (+) for 10 minutes.
+5	Whole cell lysates were subjected to immunoprecipitation with IQGAP1 and Western blot analysis using an anti-phosphotyrosine antibody (A) or anti-IQGAP1 antibody (B).
+5	PAE cells co-expressing either wild type c-Src or a dominant negative form of c-Src (KD-Src) were stimulated and subjected to Western blot analysis as panel A using an anti-phosphotyrosine antibody (C).
+5	The same membrane striped off the antibody and re-blotted with an anti-IQGAP1 antibody for protein levels (D).
+5	SYF cells co-expressing CKR with c-Src or expressing CKR alone were prepared as above and blotted with anti-phosphotyrosine (E), anti-IQGAP1 (F), and anti-VEGFR-2 (G).
+5	Cell lysates derived from PAE cells expressing CKR were either precipitated with GST, GST-SH2-Src, (H) or GST-SH3-Src (I) and blotted for IQGAP1 using an anti-IQGAP1 antibody.
+5	Human primary dermal vascular endothelial (HMVE) cells were stimulated with VEGF for 10 minutes, cells were lysed and immunoprecipitated with either control antibody (Ctrl.IgG) or c-Src antibody and blotted with anti-IQGAP1 (J).
+5	Whole cell lysates was blotted with anti-Src antibody (K).
+5	HMVE cells expressing either control siRNA (Ctrl.siRNA) or IQGAP1 siRNA were lysed and blotted for IQGAP1 using an anti-IQGAP1 antibody (L).
+5	HMVE cells expressing either control siRNA or IQGAP1 siRNA were subjected to proliferation assay as described in Method section.
+5	Error bars represent mean ± SD of triplicate samples.
+5	*p<0.001 as compared to proliferation of HMVE cells in response to 100 ηg VEGF-A (M).
+5	HMVE cells expressing either control siRNA or IQGAP1-siRNA were unstimulated (−) or stimulated (+) with VEGF for 10 minutes and cells were lysed and immunoprecipitated with an anti-b-Raf antibody and blotted with an anti-phospho-Ser445 antibody (N) or with anti- b-Raf antibody (O).
+5	Whole cell lysates was blotted for IQGAP1 (P).
+5	Also shown is the graph of the mean phosphorylation of b-Raf where the expression of IQGAP1 is silenced by siRNA.
+5	It represents (±SD) of three separate experiments.
+5	*P<0.01 (Q).
+5	Summary of the proposed VEGFR-2-dependent signal relay in endothelial cell proliferation also is shown (R).
+6	9-day old chicken chorioallantoic membrane (CAM) (n =  10 CAM for each experimental group) were prepared as described in Materials and Method section and exposed to filter paper disks saturated with siRNAs of either IQGAP1, Src, b-Raf or scrambled control siRNA for 24 hours and then incubated in the presence or in absence VEGF for an additional 72 hours.
+6	Pictures were taken by Leica Camera under microscope and a representative pictures from each group are shown (A).
+6	Blood vessels were quantified by Leica imaging software system.
+6	Each bar represents the mean ±SD of 10 CAM (n = 10).
+6	*P<0.05 versus control siRNA plus VEGF (B).
+6	CAM tissue was prepared and subjected to Western blot analysis using an anti-IQGAP1 antibody (C), anti-c-Src antibody (E), and anti-b-Raf antibody (G).
+6	The same membranes were re-blotted with an anti-PLCγ1 antibody as a control for protein loading (D, F, H).

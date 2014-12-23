@@ -1,0 +1,115 @@
+1	Analysis of the Rac1–β-Pix interaction.
+1a	(A) Endogenous β-Pix interacts specifically with the Rac1 COOH terminus.
+1a	Pull-down experiments were performed using cell lysates from HEK293 and MDCKII cells with control peptide (Ctrl) or the indicated GTPase COOH-terminal peptides.
+1a	β-Pix was detected by Western blotting (WB).
+1a	TCL, total cell lysate.
+1b	(B) The COOH terminus of Rac1 binds β-Pix but not Tiam1.
+1b	Pull-down assays (PD) were performed with the Rac1 COOH-terminal peptide in lysates from COS-7 cells transfected with β-Pix or Tiam1.
+1c	(C) Full-length Rac1 binds to β-Pix.
+1c	Reciprocal GST pull-down experiments were performed with lysates from COS-7 cells transfected, as indicated, with β-Pix or Rac1.
+1d	(D) Interaction between endogenous Rac1 and β-Pix.
+1d	Cells were incubated in suspension or on collagen-coated dishes for 1 h before lysis.
+1d	Active Rac1 was precipitated with a biotinylated Pak1-Crib peptide, and the precipitate was washed and analyzed by Western blotting for Rac1 (left) and β-Pix (right).
+1d	S, cells in suspension; A, cells that are adherent.
+2	The Rac1–β-Pix interaction is mediated via the β-Pix SH3 domain and the Rac1 COOH terminus.
+2a	(A) The Rac1–β-Pix interaction is direct and is mediated via the COOH terminus of Rac1.
+2a	Bacterially purified β-Pix, GST-Rac1, and GST-RacΔC were used in GST pull-down experiments in the presence of control (Ctrl), Rac1 COOH-terminal, or Pak1-Crib peptides.
+2a	GST-RacΔC does not bind to β-Pix, and the interaction between GST-Rac1 and purified β-Pix is competed only by the COOH-terminal peptide.
+2b	(B) The Rac1 COOH-terminal proline residues mediate β-Pix binding.
+2b	Binding of transfected Rac1wt, Rac1 P-A, V12Rac1, or V12Rac1 P-A to GST–β-Pix was analyzed by pull-down (PD) assays followed by Western blotting (WB).
+2c	(C) The β-Pix SH3 domain mediates binding to Rac1.
+2c	Bacterially purified GST-Rac1, β-Pix, and β-PixW43K were used in pull-down assays as indicated.
+2d	(D) The β-Pix SH3 domain is sufficient for Rac1 binding.
+2d	Pull-down assays were performed with either GST or GST-SH3 in the presence of purified Rac1.
+2e	(E) Binding of β-Pix to Rac1 is independent of the nucleotide, which is bound to Rac1.
+2e	COS-7 cells were transfected with a β-PixΔDH mutant, and pull-down assays were performed with GST, GST Rac1-GDP, or GST Rac1-GTPγS.
+2e	Western blotting was used to detect an association with β-Pix and to detect GST.
+2f	(F) β-Pix and Rac1 colocalize in FAs and membrane ruffles.
+2f	HA-Rac1 was expressed in HEK293 cells and detected by immunostaining.
+2f	Endogenous β-Pix is in green, Rac1 is in red, and colocalization appears in yellow.
+2g	(G) β-Pix is differentially localized at FAs at the leading edge of polarized cells.
+2g	NIH3T3 cells were seeded on fibronectin for 18 h, after which they were fixed and stained for endogenous paxillin and β-Pix.
+2g	Paxillin is in green, β-Pix is in red, and colocalization in the merged images appears in yellow.
+2g	Arrow indicates the leading edge, and the asterisk indicates the contractile back of the cell.
+2g	Magnified images of the front, middle, and back of the cell are indicated by the dashed boxes.
+2g	Bars, 10 μm.
+3	Binding of the COOH terminus of Rac1 to β-Pix is important for β-Pix–mediated Rac activation and membrane ruffling.
+3a	(A) β-Pix–mediated Rac1 activation is dependent on the Rac1 COOH terminus.
+3a	HEK293 cells transfected with empty vector (EV) or β-Pix were seeded on fibronectin for 1 h and incubated with the control (Ctrl) or Rac1 COOH-terminal peptide (Rac1 C-term) 15 min before lysis.
+3a	A Pak1-Crib peptide was used to isolate GTP-loaded Rac1, and total Rac1 and β-Pix were detected by Western blotting.
+3b	(B) β-Pix–induced membrane ruffling is inhibited by the Rac1 COOH-terminal peptide.
+3b	HEK293 cells were transfected with GFP–β-Pix, seeded on fibronectin, and treated with a control peptide, the Rac1 COOH-terminal peptide, or a Rac1 COOH-terminal peptide in which the prolines were replaced by alanines (Rac1 C-term P-A).
+3b	Cells were subsequently fixed and stained for β-Pix (green) and F-actin (red).
+3b	Arrows indicate membrane ruffles.
+3b	Bar, 10 μm.
+3c	(C) The SH3 domain of β-Pix is necessary for β-Pix–mediated Rac1 activation.
+3c	HEK293 cells expressing β-Pix or β-PixW43K were seeded on fibronectin for 15 min before lysis.
+3c	A biotinylated Pak1-Crib peptide was used to isolate GTP-loaded Rac1.
+3c	Total Rac1 and β-Pix were detected by Western blotting.
+3d	(D) β-Pix mediates adhesion-induced Rac1 activation.
+3d	MEFs were transfected with control siRNA or β-Pix siRNA, and cells were seeded on fibronectin for 15 min before lysis.
+3d	Active Rac1 was pulled down with a biotinylated Pak1-Crib peptide.
+3d	Rac1 and β-Pix were detected by Western blotting.
+4	The Rac1–β-Pix interaction mediates Rac1 targeting to the plasma membrane.
+4a	(A) The nongeranylgeranylated V12Rac1C189S mutant is targeted to the plasma membrane in β-Pix–expressing cells.
+4a	HEK293 cells were transfected with GFPV12Rac1C189S (green) with or without myc–β-Pix (red) and were seeded on fibronectin for 1 h. Cotransfection of β-Pix results in the detection of GFPV12Rac1C189S in membrane ruffles, which is blocked by the Rac1 COOH-terminal peptide (bottom three panels).
+4a	Bars, 10 μm.
+4b	(B) Rac1, β-Pix, and RhoGDI can form a trimeric complex.
+4b	Pull-down experiments were performed with GST or GST–β-Pix in COS-7 cell lysates in the presence of control (Ctrl) or the COOH-terminal Rac1 peptide (Rac1 C-term).
+4b	RhoGDI and GST–β-Pix were detected by immunoblotting.
+4b	TCL, total cell lysate.
+5	Rac1 targeting to FAs is important for Rac1-mediated cell spreading.
+5a	(A) The Rac1–paxillin interaction can be inhibited by the Rac1 COOH-terminal peptide.
+5a	Pull-down experiments with GST-Rac1 in COS-7 cell lysates was performed in the presence of 100 μg of the indicated peptides.
+5a	Paxillin was detected by immunoblotting.
+5a	TCL, total cell lysate.
+5b	(B) The association of Rac1 with paxillin and GIT is mediated by the Rac1 COOH terminus.
+5b	Pull-down (PD) experiments were performed with COS-7 cell lysates using GST-Rac1 or GST-Rac1ΔC.
+5b	Paxillin and GIT were detected by immunoblotting.
+5c	(C) Rac1 colocalization with paxillin in spreading cells is dependent on the Rac1 COOH-terminal proline residues.
+5c	HEK293 cells were transfected with HA-tagged V12Rac1 or V12Rac1 P-A and stained with antibodies to the HA immunotag (green) and to paxillin (red).
+5c	The boxed areas are magnified in the corresponding bottom panels.
+5d	(D) Rac1-mediated cell spreading is dependent on the proline stretch in the COOH terminus of Rac1.
+5d	HEK293 cells stably expressing empty vector (EV), V12Rac1, or V12Rac1 P-A were seeded on fibronectin- or collagen-coated gold electrodes, and resistance was measured for 30 min. n = 75 (per line).
+5e	(E) HEK293 cells stably expressing empty vector, V12Rac1, or V12Rac1 P-A were seeded on collagen dishes and fixed after 30 min.
+5e	Images were obtained with phase-contrast microscopy.
+5f	(F) HEK293 transiently expressing V12Rac1 or V12 Rac1 P-A were seeded on collagen for 1 h. Cells were fixed and immunostained for Rac1 (green) and actin (red).
+5f	Bars, 10 μm.
+6	Pak1 regulates the interaction of Rac1 or Cdc42 with β-Pix.
+6a	(A) Direct binding of the Rac1 COOH terminus to β-Pix is inhibited by Pak1.
+6a	GST–β-Pix and GST-Pak1 were incubated with control (Ctrl) or Rac1 COOH-terminal peptides (Rac1 C-term).
+6a	After peptide pull-down, β-Pix was detected by immunoblotting.
+6a	The bands in the first and second lanes represent a specific binding of GST–β-Pix.
+6b	(B) Pak1 inhibits the interaction of full-length Rac1 with β-Pix.
+6b	GST-Rac1, GST–β-Pix, and GST-Pak1ΔCrib were purified from bacteria.
+6b	GST-Rac1 was loaded with GTPγS, and pull-down experiments were performed with a biotinylated Pak1-Crib peptide in the presence or absence of GST–β-Pix and GST-Pak1ΔCrib.
+6b	β-Pix binding and GST-Rac1 loading were detected by immunoblotting.
+6c	(C) Pak1 specifically regulates Rac1 activity.
+6c	WT and Pak1−/− cells were seeded on fibronectin-coated dishes for 30 min before lysis.
+6c	A Pak1-Crib peptide was used to isolate GTP-loaded Rac1 as well as to isolate GTP-Cdc42.
+6c	Pak1, Cdc42, and Rac1 were detected by Western blotting.
+6c	TCL, total cell lysate.
+6d	(D) Pak1 and Rac1 are competitive binders for β-Pix.
+6d	WT and Pak1−/− cells were seeded on fibronectin-coated dishes for 30 min before lysis.
+6d	Pull-down (PD) assays were performed with the COOH-terminal Rac1 peptide, and β-Pix binding was detected by Western blotting (WB).
+6e	(E) Loss of Pak1 results in enhanced cell spreading.
+6e	WT and Pak1−/− cells were seeded on fibronectin-coated ECIS electrodes, and resistance was measured for 2 h. (F) Loss of Pak1 expression induces cell spreading.
+6e	WT and Pak1−/− cells were seeded on fibronectin-coated dishes and fixed after 15 min.
+6e	Images were obtained by phase-contrast microscopy.
+6g	(G) Pak1-dependent cell spreading is mediated by β-Pix.
+6g	Pak1−/− cells were transfected with myc-tagged Pak1 or Pak1 P191A and P192A and seeded on fibronectin for 15 min before fixation.
+6g	Pak1 is indicated in green, and F-actin is indicated in red.
+6h	(H) β-Pix regulates cell spreading.
+6h	WT and Pak1−/− MEFs were transfected with control (Ctrl) or β-Pix siRNA and seeded on fibronectin-coated ECIS electrodes.
+6h	β-Pix and RhoGDI expression were determined by Western blotting.
+6h	(E and H) n = 300 (per line).
+6i	(I) V12Cdc42 induces translocation of the nongeranylgeranylated V12Rac1C189S mutant to the plasma membrane.
+6i	HEK293 cells were transfected with GFPV12Rac1C189S (green) and cotransfected or left untransfected with V12Cdc42 (red).
+6i	Arrows indicate the membrane-targeted V12Rac1C189S.
+6i	Bars, 10 μm.
+7	Model for β-Pix–mediated membrane/FA targeting and activation of Rac1.
+7	Activation of Cdc42 at the plasma membrane (PM), e.g., by β-Pix (1), will lead to the activation of Pak1 (2), resulting in its autophosphorylation.
+7	Activated Pak1 dissociates from the β-Pix–GIT complex (3), enabling the Rac1–RhoGDI complex to associate with the β-Pix–GIT complex (4).
+7	Subsequently, the release of RhoGDI from Rac1 (5) enables the activation of Rac1 by β-Pix (6) and allows Rac1-mediated actin polymerization (7).
+7	See Discussion for details.
+7	(middle) P, protein phosphorylation event.

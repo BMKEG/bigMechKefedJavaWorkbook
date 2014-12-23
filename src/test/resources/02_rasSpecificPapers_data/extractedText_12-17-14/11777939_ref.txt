@@ -1,0 +1,262 @@
+1	Figure 1.
+1	 The S/E/E8 complex exists under physiological conditions.
+1	 (A) Eps8  −/−  cells were transfected with a control vector (−/− lanes) or a vector coding a myc epitope–tagged Eps8 (−/− [Eps8myc] lanes), both carrying a hygromicin resistance gene.
+1	Hygromicin-resistant single-cell clones were established after 10 d of selection with hygromicin (0.2 mg/ml).
+1	The levels of Eps8, PDGFR, and EGFR in individual clones of eps8  −/−  , −/− [Eps8myc], or in wild-type (WT) cells were determined by immunoblotting analysis of equal amounts of total cellular lysates (50 μg) using the indicated antibodies (WB), and clones with levels of expression of Eps8, PDGFR, and EGFR similar to wild-type fibroblasts were used.
+1	(B) Total cellular lysates (10 mg), obtained from the transfectants described in A, were immunoprecipitated (IP) with the antibody indicated at the bottom (ctr, irrelevant antibody), followed by immunoblot with indicated antibodies (WB).
+1	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+1	(C) Total cellular lysates (10 mg) obtained from −/− [Eps8myc] cells were immunoprecipitated (IP) with the antibody indicated at the top (ctr, irrelevant antibody) in the presence or absence (−) of 40 ng/ml of the indicated peptides (peptides).
+1	The peptides used were PPPPPVD  Y  TEDEE (PXXDY) and PPPPPVD  A  TEDEE (PXXDA, used as a control).
+1	Immunoblotting was with the indicated antibodies (WB).
+1	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+1	To determine whether E3b1 mediates the interaction between Eps8 and Sos-1, as it would be expected according to the tricomplex model, we performed coimmunoprecipitation experiments under conditions in which the association between Eps8 and E3b1 was disrupted.
+1	The binding site of E3b1 to the SH3 domain of Eps8 was previously mapped to the amino acid sequence, PPPPPVDYTEDEE, where the D and the Y residues are critical for efficient binding (  Mongiovi et al., 1999  ).
+1	Thus, a peptide encompassing this region should specifically disrupt the Eps8–E3b1 association.
+1	Indeed, no E3b1could be recovered in anti-myc immunoprecipitates from lysates of Eps8myc-reconstituted cells, when the immunoprecipitation was performed in the presence of an excess of the competing peptide.
+1	The peptide used were PPPPPPVDATEDEE (PXXDA), used as control (see text and  Fig. 1  ); PPPPPVDYTEDEE (PXXDY), which corresponds to the E3b1 binding site for the SH3 domain of Eps8 and prevents Eps8-E3b1 association (refer to  Fig. 1  B); VPVPPPVPPRRR (PXXP), which corresponds to the Sos-1 binding site for the SH3 domain of E3b1 and readily competes the interaction between Sos-1 and E3b1 (refer to  Fig. 2  C).
+1	Bound proteins were resolved by SDS-PAGE.
+1	Detection was with anti–Sos-1 antibody (Sos-1).
+1	The indicted lanes (lysate) were loaded with 50 μg of total cellular lysates.
+1	At this stage, we cannot formally exclude that an unknown GEF, coprecipitating with Sos-1, is responsible for the observed activity.
+1	However, such a hypothetical protein should not only be associated with Sos-1, but also be active only in the presence of Eps8 and E3b1, which are both required for the formation of the trimeric complex endowed with Rac-specific GEF activity (  Scita et al., 1999  ), making this possibility unlikely.
+1	It is reasonable, therefore, to propose that Sos-1 alone (or complexed with proteins, such as Grb2) is endowed with Ras-GEF activity.
+1	However, upon interaction with Eps8 and E3b1, its specificity is switched toward Rac.
+1	A common feature of proteins endowed with GEF catalytic activity is their ability to bind to their specific nucleotide-depleted GTPase with relative high affinities.
+1	Thus, one might postulate that Sos-1 associates with the nucleotide-free form of Rac exclusively when engaged in the S/E/E8 complex.
+1	Purified and nucleotide depleted, GST-Rac and GST-Cdc42 proteins were therefore used to test their ability to interact with Sos-1.
+1a	We selected transfected clones in which the levels of expression of Eps8myc were very similar to those present in wild-type fibroblasts (  Fig. 1  A).
+1b	Endogenous Sos-1 and E3b1 could be detected in anti-myc immunoprecipitates from lysates of Eps8myc-reconstituted, but not from eps8  −/−  fibroblasts (  Fig. 1  B).
+1b	The peptide used were PPPPPPVDATEDEE (PXXDA), used as control (see text and  Fig. 1  ); PPPPPVDYTEDEE (PXXDY), which corresponds to the E3b1 binding site for the SH3 domain of Eps8 and prevents Eps8-E3b1 association (refer to  Fig. 1  B); VPVPPPVPPRRR (PXXP), which corresponds to the Sos-1 binding site for the SH3 domain of E3b1 and readily competes the interaction between Sos-1 and E3b1 (refer to  Fig. 2  C).
+1b	Bound proteins were resolved by SDS-PAGE.
+1b	Detection was with anti–Sos-1 antibody (Sos-1).
+1b	The indicted lanes (lysate) were loaded with 50 μg of total cellular lysates.
+1b	At this stage, we cannot formally exclude that an unknown GEF, coprecipitating with Sos-1, is responsible for the observed activity.
+1b	However, such a hypothetical protein should not only be associated with Sos-1, but also be active only in the presence of Eps8 and E3b1, which are both required for the formation of the trimeric complex endowed with Rac-specific GEF activity (  Scita et al., 1999  ), making this possibility unlikely.
+1b	It is reasonable, therefore, to propose that Sos-1 alone (or complexed with proteins, such as Grb2) is endowed with Ras-GEF activity.
+1b	However, upon interaction with Eps8 and E3b1, its specificity is switched toward Rac.
+1b	A common feature of proteins endowed with GEF catalytic activity is their ability to bind to their specific nucleotide-depleted GTPase with relative high affinities.
+1b	Thus, one might postulate that Sos-1 associates with the nucleotide-free form of Rac exclusively when engaged in the S/E/E8 complex.
+1b	Purified and nucleotide depleted, GST-Rac and GST-Cdc42 proteins were therefore used to test their ability to interact with Sos-1.
+1c	The association was, however, preserved when a control peptide, bearing a Y→A substitution and unable to bind to Eps8 (  Mongiovi et al., 1999  ), was used (  Fig. 1  C).
+1c	Similarly, no Sos-1 could be recovered in anti-myc immunoprecipitates in the presence of the competing, but not of the control, peptide (  Fig. 1  C).
+1c	Thus, under physiological conditions, the coimmunoprecipitation of Eps8 and Sos-1 depends on the integrity of the Eps8–E3b1 interaction, pointing to the existence of a physiological S/E/E8 complex.
+1c	It cannot be formally excluded that Eps8, E3b1, and Sos-1 associate after cell lysis, thus allowing coimmunoprecipitation.
+1c	However, we have previously demonstrated (  Scita et al., 2001  ) that the three endogenous proteins also colocalize in vivo in dynamic actin structures.
+1c	Thus, the sum of our results strongly argues in favor of the existence of a physiological S/E/E8 complex.
+1c	Similarly, it cannot be formally excluded that other interactors of the SH3 domain of Eps8, besides E3b1, mediate the formation of the endogenous trimeric complex.
+1c	This is, however, unlikely since no coimmunoprecipitation between Eps8 and Sos-1 could be detected when the two proteins were overexpressed in cell lines with relative low levels of E3b1 (  Scita et al., 1999  ; unpublished data).
+1c	Moreover, neither RN-tre, nor JIK, two other known interactors of the SH3 domain of Eps8 (  Biesova et al., 1997  ;  Mongiovi et al., 1999  ), were able to bind to Sos-1 (unpublished data).
+2	Figure 2.
+2	 In vitro competition between E3b1 and Grb2 for binding to Sos-1.
+2	 (A, Top) schematic of E3b1.
+2	The ruler shows amino acid positions.
+2	(Bottom) In vitro binding of various fragments of E3b1 (all engineered as GST fusions, amino acid boundaries are indicated on the top) to Sos-1 from lysates of Sos-1–transfected Cos-7 cells.
+2	Detection was with anti–Sos-1 antibody.
+2	The lane “lysate” was loaded with 50 μg of total cellular lysates.
+2	P Rich, proline rich region; SH3, SH3 domain.
+2	(B) A His-tagged COOH-terminal fragment (His-Sos, aa 1131–1333) of Sos-1 (10 pmoles) was bound to 60 pmoles of either immobilized GST (GST) or GST-E3b1–331–480 in the presence of increasing concentrations of the NH  2  -terminal SH3 domain of Grb2 or of Eps8 (SH3s, 0, 10, 100, 1,000 pmoles, as indicated on the top).
+2	Detection was with antihistidine antibody.
+2	I, input, 10 pmoles of His-Sos-1.
+2	(C) His-Sos (10 pmoles) was bound to 60 pmoles of GST fusions encompassing the SH3s of either E3b1 (○ and •) or of Grb2 (□ and ▪).
+2	Binding was in the presence of the indicated amounts of the competing peptide NH2-VPVPPPVPPRRR-COOH (derived from the sequence of Sos-1, • and ▪), or of a scrambled control peptide (○ and □).
+2	Detection was by immunoblot with anti-His, followed by densitometric scanning.
+2	(D) Kinetic analysis and rate constants for the binding of the SH3 domains of Grb2 and E3b1 to the proline-rich COOH-terminal of Sos-1 (aa 1131–1333).
+2	Increasing concentrations (10–400 nM) of His-Sos-1 were passed over the immobilized GST fusion proteins (GST-SH3-Grb2 and GST-SH3-E3b1) for 2.5 min at a flow rate of 50 μl/min.
+2	The kinetics of binding are shown in the graphs.
+2	Coupling of equal amounts of the GST fusion proteins was performed with a goat anti-GST antibody covalently linked to CM5 sensor chip according to the manufacturer's instructions. k  on  and k  off  kinetic rates were obtained by simple Langmuir fitting model (biaevaluation software v2.1).
+2	We have previously shown that E3b1 binds to the proline-rich, COOH-terminal tail of Sos-1 (aa 1131–1333) (  Scita et al., 1999  ), which also binds to the SH3 of Grb2 (  Li et al., 1993  ;  Cussac et al., 1994  ).
+2	Thus, Grb2 and E3b1 might compete for binding to Sos-1.
+2	This hypothesis was validated by a series of experiments performed both in vitro and in vivo.
+2a	Native Sos-1 could be efficiently recovered onto GST-E3b1 full length (  Fig. 2  A, amino acids [aa] 2–480).
+2a	Further mapping revealed that the SH3 domain of E3b1 (aa 416–480) was necessary and sufficient for binding (  Fig. 2  A).
+2a	Although we cannot exclude that the NH  2  -terminal region of E3b1–Abi-1 participates in binding, in vivo  ,  we were not able to observe a high-affinity binding surface in that region by in vitro binding experiments (  Fig. 2  A;  Scita et al., 1999  ).
+2a	Conversely, under our conditions of analysis, the efficient competition of the SH3 domains of Grb2 and E3b1 for binding to the same Sos-1 peptide, coupled to the readily detectable biological competition, strongly suggests that the SH3-mediated contact is the major determinant of the interaction between Sos-1 and E3b1.
+2b	We could demonstrate that  (  a) the SH3 of Grb2, but not of Eps8, efficiently competed with the SH3 of E3b1 for binding to the proline-rich COOH-terminal tail of Sos-1 in vitro (  Fig. 2  B); (b) the Sos-1 peptide VPVPPPVPPRRR, known to constitute a Grb2-SH3 binding site (  Li et al., 1993  ;  Cussac et al., 1994  ), competed equally well the binding of the COOH-terminal tail of Sos-1 to the SH3s of Grb2 or E3b1 (  Fig. 2  C); (c) the binding constants of the interaction between the proline rich COOH-terminal tail of Sos-1 and the SH3 domains of Grb2 and E3b1 were very similar (  Fig. 2  D); (d) overexpression of Grb2 abolished the ability of GST-E3b1 to bind to native Sos-1 (  Fig. 3  A); and (e) overexpression of E3b1 significantly decreased the coimmunoprecipitation between Grb2 and Sos-1 (  Fig. 3  B).
+2b	Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive fashion, suggesting that two distinct pools of Sos-1 exist in the cells.
+2c	We could demonstrate that  (  a) the SH3 of Grb2, but not of Eps8, efficiently competed with the SH3 of E3b1 for binding to the proline-rich COOH-terminal tail of Sos-1 in vitro (  Fig. 2  B); (b) the Sos-1 peptide VPVPPPVPPRRR, known to constitute a Grb2-SH3 binding site (  Li et al., 1993  ;  Cussac et al., 1994  ), competed equally well the binding of the COOH-terminal tail of Sos-1 to the SH3s of Grb2 or E3b1 (  Fig. 2  C); (c) the binding constants of the interaction between the proline rich COOH-terminal tail of Sos-1 and the SH3 domains of Grb2 and E3b1 were very similar (  Fig. 2  D); (d) overexpression of Grb2 abolished the ability of GST-E3b1 to bind to native Sos-1 (  Fig. 3  A); and (e) overexpression of E3b1 significantly decreased the coimmunoprecipitation between Grb2 and Sos-1 (  Fig. 3  B).
+2c	Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive fashion, suggesting that two distinct pools of Sos-1 exist in the cells.
+2c	The peptide used were PPPPPPVDATEDEE (PXXDA), used as control (see text and  Fig. 1  ); PPPPPVDYTEDEE (PXXDY), which corresponds to the E3b1 binding site for the SH3 domain of Eps8 and prevents Eps8-E3b1 association (refer to  Fig. 1  B); VPVPPPVPPRRR (PXXP), which corresponds to the Sos-1 binding site for the SH3 domain of E3b1 and readily competes the interaction between Sos-1 and E3b1 (refer to  Fig. 2  C).
+2c	Bound proteins were resolved by SDS-PAGE.
+2c	Detection was with anti–Sos-1 antibody (Sos-1).
+2c	The indicted lanes (lysate) were loaded with 50 μg of total cellular lysates.
+2c	At this stage, we cannot formally exclude that an unknown GEF, coprecipitating with Sos-1, is responsible for the observed activity.
+2c	However, such a hypothetical protein should not only be associated with Sos-1, but also be active only in the presence of Eps8 and E3b1, which are both required for the formation of the trimeric complex endowed with Rac-specific GEF activity (  Scita et al., 1999  ), making this possibility unlikely.
+2c	It is reasonable, therefore, to propose that Sos-1 alone (or complexed with proteins, such as Grb2) is endowed with Ras-GEF activity.
+2c	However, upon interaction with Eps8 and E3b1, its specificity is switched toward Rac.
+2c	A common feature of proteins endowed with GEF catalytic activity is their ability to bind to their specific nucleotide-depleted GTPase with relative high affinities.
+2c	Thus, one might postulate that Sos-1 associates with the nucleotide-free form of Rac exclusively when engaged in the S/E/E8 complex.
+2c	Purified and nucleotide depleted, GST-Rac and GST-Cdc42 proteins were therefore used to test their ability to interact with Sos-1.
+2d	We could demonstrate that  (  a) the SH3 of Grb2, but not of Eps8, efficiently competed with the SH3 of E3b1 for binding to the proline-rich COOH-terminal tail of Sos-1 in vitro (  Fig. 2  B); (b) the Sos-1 peptide VPVPPPVPPRRR, known to constitute a Grb2-SH3 binding site (  Li et al., 1993  ;  Cussac et al., 1994  ), competed equally well the binding of the COOH-terminal tail of Sos-1 to the SH3s of Grb2 or E3b1 (  Fig. 2  C); (c) the binding constants of the interaction between the proline rich COOH-terminal tail of Sos-1 and the SH3 domains of Grb2 and E3b1 were very similar (  Fig. 2  D); (d) overexpression of Grb2 abolished the ability of GST-E3b1 to bind to native Sos-1 (  Fig. 3  A); and (e) overexpression of E3b1 significantly decreased the coimmunoprecipitation between Grb2 and Sos-1 (  Fig. 3  B).
+2d	Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive fashion, suggesting that two distinct pools of Sos-1 exist in the cells.
+2d	We showed that BIAcore measurements revealed similar kinetic parameters for the SH3-mediated S/G and S/E interactions (  Fig. 2  D).
+3	Figure 3.
+3	 In vivo competition between E3b1 and Grb2 for binding to Sos-1.
+3	 (A, Top) GST-E3b1-331–480, or control GST, was bound to Sos-1 present in Cos-7 cells transfected (Tfx) with either Sos-1 or S/G.
+3	Detection was with anti–Sos-1.
+3	(Bottom) The same cellular lysates (50 μg) were detected with anti-Grb2.
+3	(B) Lysates, from 293T cells transfected (Tfx) with E3b1 or a control vector (ctr), were immunoprecipitated (IP) with anti-Grb2 or an irrelevant antibody (ctr), followed by detection (WB) with anti–Sos-1 (top) or anti-Grb2 (middle).
+3	The expression of E3b1 (bottom) was detected with an anti-E3b1 antibody.
+3	To test this possibility in vivo, we set out to perturb the equilibrium between the Sos-1–E3b1 (S/E) and Sos-1–Grb2 (S/G) complexes, by increasing the levels of E3b1 within the cell.
+3	If the two complexes are functionally distinct, then the overexpression of E3b1, by competing the S/G interaction, should result in (a) reduced Sos-1 recruitment in vivo to active EGFR, (b) consequent reduction in Ras activation, as measured by reduced Ras-GTP levels, (c) reduced activation of Ras-dependent pathways, as measured by activation of MAPK, and finally (d) reduced proliferative response.
+3a	We could demonstrate that  (  a) the SH3 of Grb2, but not of Eps8, efficiently competed with the SH3 of E3b1 for binding to the proline-rich COOH-terminal tail of Sos-1 in vitro (  Fig. 2  B); (b) the Sos-1 peptide VPVPPPVPPRRR, known to constitute a Grb2-SH3 binding site (  Li et al., 1993  ;  Cussac et al., 1994  ), competed equally well the binding of the COOH-terminal tail of Sos-1 to the SH3s of Grb2 or E3b1 (  Fig. 2  C); (c) the binding constants of the interaction between the proline rich COOH-terminal tail of Sos-1 and the SH3 domains of Grb2 and E3b1 were very similar (  Fig. 2  D); (d) overexpression of Grb2 abolished the ability of GST-E3b1 to bind to native Sos-1 (  Fig. 3  A); and (e) overexpression of E3b1 significantly decreased the coimmunoprecipitation between Grb2 and Sos-1 (  Fig. 3  B).
+3a	Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive fashion, suggesting that two distinct pools of Sos-1 exist in the cells.
+3b	We could demonstrate that  (  a) the SH3 of Grb2, but not of Eps8, efficiently competed with the SH3 of E3b1 for binding to the proline-rich COOH-terminal tail of Sos-1 in vitro (  Fig. 2  B); (b) the Sos-1 peptide VPVPPPVPPRRR, known to constitute a Grb2-SH3 binding site (  Li et al., 1993  ;  Cussac et al., 1994  ), competed equally well the binding of the COOH-terminal tail of Sos-1 to the SH3s of Grb2 or E3b1 (  Fig. 2  C); (c) the binding constants of the interaction between the proline rich COOH-terminal tail of Sos-1 and the SH3 domains of Grb2 and E3b1 were very similar (  Fig. 2  D); (d) overexpression of Grb2 abolished the ability of GST-E3b1 to bind to native Sos-1 (  Fig. 3  A); and (e) overexpression of E3b1 significantly decreased the coimmunoprecipitation between Grb2 and Sos-1 (  Fig. 3  B).
+3b	Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive fashion, suggesting that two distinct pools of Sos-1 exist in the cells.
+4	All of these predictions were confirmed experimentally (  Fig. 4  , A–C).
+4	Figure 4.
+4	 The S/G and the S/E complexes are functionally distinct.
+4	 (A) Cos-7 cells were transfected with the indicated cDNAs (Tfx), and treated with EGF (3 min, +) or mock treated (−).
+4	Immunoprecipitates (IP) with anti-EGFR or preimmune sera (ctr) were analyzed by immunoblotting (WB) with anti–EGFR or HA (for Sos-1 detection).
+4	Lysates (50 μg) were analyzed by immunoblotting with anti-EGFR, anti-HA (for Sos-1 detection), or anti-E3b1 antibody.
+4	HA-Sos, HA-epitope tagged Sos-1(B) Cos-7 cells were cotransfected (Tfx) with E3b1 (or a control empty vector, ctr) and either a myc-tagged Ras (left) or HA-tagged MAPK (right), followed by treatment with EGF (5 min, +) or mock-treatment (−).
+4	(Top, left) Ras-GTP was recovered with the GST-RBD of Raf-1 followed by immunodetection with anti-myc antibodies.
+4	(Top, right) Anti-HA immunoprecipitation, followed by immunodetection with an anti–phosphorylated MAPK antibody.
+4	The levels of expression of myc-Ras and HA-MAPK (middle) and E3b1 (bottom) are also shown.
+4	(C) Quiescent NIH-3T3 fibroblasts were microinjected with an empty vector together with rabbit IgG (left) or with an HA-tagged E3b1 expression vector (right) followed by treatment with 10% serum.
+4	After 15 h, BrdU was added and 3 h later the cells were fixed and stained to detect BrdU incorporation (top), E3b1 (anti-HA), or control (anti-IgG).
+4	Nuclei were counterstained with Dapi (bottom).
+4	A quantitative analysis of BrdU incorporation into control (empty bar) and E3b1 (closed bar) injected cells is shown on the right.
+4	The data are the mean ± SEM of three independent experiments.
+4	Results are expressed as a percentage of injected cells incorporating BrdU respect to uninjected ones.
+4	Serum treatment induces BrdU incorporation in >95% of not injected cells.
+4	We note that our mapping data are at variance with those recently reported by  Fan and Goff (2000)  , who concluded that, in vivo  ,  the interaction between Sos-1 and E3b1–Abi-1 is mediated by the NH  2  -terminal portion of the latter.
+4	Consistently,  Fan and Goff (2000)  did not observe competition in vivo between Grb2 and E3b1 for binding to Sos-1.
+5	 Figure 5.
+5	 E3b1 is a limiting factor in Rac activation.
+5	 (Top, left) Lysates of Cos-7 cells were immunoprecipitated (IP) with the antibody indicated on the top and immunoblotted with the antibody indicated on the right.
+5	Lysate, 50 μg of total cellular lysate.
+5	(Top, right) The efficiency of Grb2 and E3b1 immunoprecipitations was >95%, as determined by immunoblot analysis of the supernatants of the immunoprecipitations performed with either the specific antibody with (Grb2 and E3b1, respectively, as indicated) or with an irrelevant (ctr) antibody.
+5	(Middle) Cos-7 cells were transfected (Tfx) with HA-tagged PAK65 (all lanes) together with the plasmids indicated on the top (ctr, empty vector) and serum starved for 24 h. Equal amounts of anti-HA immunoprecipitated PAK65 were subjected to an in vitro kinase assay using myelin basic protein (MBP) as a substrate.
+5	The levels of immunoprecipitated PAK65 and the expression of Sos-1, E3b1, and HARacN17 in the various transfectants are also shown.
+5	Similar results were obtained using Cos-7 cells.
+5	(Bottom) Wild-type (+/+) and eps8  −/−  (−/−) mouse embryo fibroblasts were infected with retroviral vectors coding for E3b1 (E3b1) or the mutant of E3b1-DY (E3b1-DY), or with an empty vector as a control (ctr).
+5	>95% of the cells expressed the infected cDNA, as determined by immunostaining with anti-E3b1 (not shown).
+5	Equal amounts of lysates were subjected to in vitro binding assays with the immobilized CRIB domain of PAK65.
+5	After washing, bound proteins were resolved by SDS-PAGE and immunoblotted with anti-Rac antibodies (Rac-GTP).
+5	The levels of total Rac (Rac) and E3b1 proteins are also shown.
+5	The indispensability of E3b1 in the cascade of events leading to Rac activation and Rac-dependent actin reorganization was further analyzed at the biological level.
+5	We have previously shown that interference with E3b1 functions, by microinjection of anti-E3b1 antibodies, inhibited PDGF-induced ruffles (  Scita et al. 1999  ).
+5	We also showed that in eps8  −/−  cells, ruffling induced by PDGF and activated Ras, but not by activated Rac, was inhibited.
+5	Ruffling, however, could be restored upon reexpression of Eps8, but not of an Eps8 mutant unable to bind to E3b1 (  Scita et al., 1999  ), suggesting that the Eps8–E3b1-based complex is implicated in the transmission of signal between Ras and Rac.
+5	Thus, one might predict that a mutant of E3b1 unable to associate to Eps8 should function as a dominant negative on Ras-induced Rac-dependent ruffling.
+5	To test this, we cotransfected the activated versions of either Ras or Rac, together with E3b1 or the E3b1DY mutant.
+5a	However, when we measured the relative abundance of S/G and S/E complexes within the cell, we found a 10-fold excess of the former (  Fig. 5  A), under conditions in which quantitative immunoprecipitation of the adaptor molecules, Grb2 and E3b1, was achieved (  Fig. 5  A).
+5a	However, when we measured the relative abundance of S/G and S/E complexes within the cell, we found a 10-fold excess of the former (  Fig. 5  A), under conditions in which quantitative immunoprecipitation of the adaptor molecules, Grb2 and E3b1, was achieved (  Fig. 5  A).
+5a	Thus, the data indicate that two pools of Sos-1, associated with different adaptors, exist simultaneously in the cell.
+5a	Thus, the data indicate that two pools of Sos-1, associated with different adaptors, exist simultaneously in the cell.
+5a	They further suggest that the pool of E3b1, available for binding to Sos-1, is reduced relative to that of Grb2, and may be rate-limiting.
+5a	They further suggest that the pool of E3b1, available for binding to Sos-1, is reduced relative to that of Grb2, and may be rate-limiting.
+5b	Indeed, overexpression of E3b1 resulted in increased PAK65 activity, an indicator of Rac activation (  Manser et al., 1994  ) (  Fig. 5  B), which was abrogated by a dominant negative Rac mutant (  Fig. 5  B).
+5b	Indeed, overexpression of E3b1 resulted in increased PAK65 activity, an indicator of Rac activation (  Manser et al., 1994  ) (  Fig. 5  B), which was abrogated by a dominant negative Rac mutant (  Fig. 5  B).
+5b	On the other hand, overexpression of Sos-1 did not lead to increased PAK65 activity.
+5b	On the other hand, overexpression of Sos-1 did not lead to increased PAK65 activity.
+5b	An additional corollary of this hypothesis is that the overexpression of E3b1, by facilitating the formation of a trimeric complex with Eps8 and Sos-1, should directly lead to activation of Rac.
+5b	An additional corollary of this hypothesis is that the overexpression of E3b1, by facilitating the formation of a trimeric complex with Eps8 and Sos-1, should directly lead to activation of Rac.
+5b	To test this prediction E3b1 or a mutant of E3b1 (E3b1-DY), bearing alanine substitutions of the DY residues critical for the interaction with Eps8 (  Mongiovi et al., 1999  ), were used to infect wild-type and eps8  −/−  fibroblasts.
+5b	To test this prediction E3b1 or a mutant of E3b1 (E3b1-DY), bearing alanine substitutions of the DY residues critical for the interaction with Eps8 (  Mongiovi et al., 1999  ), were used to infect wild-type and eps8  −/−  fibroblasts.
+5b	The levels of GTP-bound Rac were then determined by in vitro binding assays using the immobilized CRIB domain of PAK65 (  Manser et al., 1994  ).
+5b	The levels of GTP-bound Rac were then determined by in vitro binding assays using the immobilized CRIB domain of PAK65 (  Manser et al., 1994  ).
+5c	E3b1, but not the E3b1 mutant impaired in Eps8 binding, caused a readily detectable increase in Rac-GTP levels in wild type, but not in eps8  −/−  fibroblasts (  Fig. 5  C).
+5c	Thus, the overexpression of E3b1 is sufficient to activate Rac and this effect is strictly dependent on Eps8  .
+6	RasV12-induced, but not RacQL-induced, ruffles were efficiently inhibited by the coexpression of E3b1DY, but not of E3b1 wild type (  Fig. 6  ), supporting the contention that the ability of E3b1 to form a complex with Eps8 is required to transmit signals from Ras to Rac.
+6	In conclusion, our data show that two pools of Sos-1 exist in the cell, coupled respectively to Grb2 or E3b1.
+6	In addition, the availability of E3b1, but not of Sos-1, is indispensable and rate limiting in the pathway leading to Rac activation.
+6	Figure 6.
+6	 The E3b1DY mutant inhibits actin remodeling induced by activated Ras, but not by activated Rac.
+6	 Mouse embryo fibroblasts were transfected, as indicated on the top, with expression vectors for either RasV12 or RacQL, together with ECFP-tagged versions of either E3b1 or the E3b1DY mutant.
+6	After serum starvation, cells were fixed and stained with rhodamine-conjugated phalloidine to detect F-actin (top, red).
+6	Expression of the transfected proteins was detected (bottom, green) with either anti-Ras or anti-Rac antibodies or by epifluorescence (ECFP).
+6	In the cotransfection experiments a molar ratio of 1:3 of the activated GTPases to the ECFP-E3b1 constructs was used, such as that all of the epifluorescent cells expressed also the corresponding GTPase (not shown).
+6	The percent of transfected cells (mean ± SEM) undergoing ruffling was as follow: RasV12 = 65 ± 3%; RasV12 + E3b1 WT = 62 ± 4%; RasV12 + E3b1DY = 16 ± 2%; RacQL = 93 ± 3%; RacQL + E3b1 WT = 90 ± 4%; RacQL + E3b1DY = 95 ± 5%.
+6	Bar, 10 μm.
+7	We then used the Triple Tfx and coimmunoprecipitated Sos-1 with anti-Eps8 antibodies (  Fig. 7, A and B  ).
+7	Under these conditions, all of the coimmunoprecipitated Sos-1 is present in the S/E/E8 tricomplex (  Scita et al., 1999  ).
+7	To prove this point, we immunoprecipitated from SosTfx an amount of Sos-1 comparable to that present in anti-Eps8 immunoprecipitates from Triple Tfx (  Fig. 7, A and B  , lanes SosTfx1/10).
+7	Figure 7.
+7	 The bifunctional guanine nucleotide exchange activity of Sos-1 is regulated by its assembly into distinct molecular complexes.
+7	 (A) Cos-7 cells were transfected with expression vectors for Sos-1 (SosTfx) or for Sos-1, E3b1, and Eps8 (TripleTfx) or with the corresponding empty vectors (mock).
+7	Total cellular lysates (100 μg, left), or immunoprecipitates (IP, right) with the antibody indicated on the top (ctr, irrelevant antibody), were immunoblotted (WB) with the indicated antibody.
+7	5 mg of total cellular lysates were used for the immunoprecipitations, except in the SosTfx 1/10 lanes, in which 0.5 mg were used.
+7	(B) Ras-GEF (empty bars) and Rac-GEF (closed bars) activities in aliquots of the same immunoprecipitates (IP) shown in B.
+7	Data are expressed as described in Material and methods.
+7	(C) Immobilized, purified GST-Rac (Rac) and GST-Cdc42 (Cdc42) were depleted of guanine nucleotide by extensive washing in 10 mM EDTA as described in Material and methods.
+7	Equal amounts of the nucleotide-free GST-GTPases or GST alone (GST) were incubated with total cellular lysates from eps8  −/−  fibroblasts (−/−) or eps8  −/−  stably expressing Eps8myc (−/−[Eps8myc]) in the presence or absence (−) of the 40 ng/ml of the indicated peptides (peptides).
+7	On the contrary, Sos-1 acts as a Ras-specific GEF when alone or in association with Grb2 (  Fig. 7  ;  Buday and Downward, 1993b  ).
+7a	Cells were transfected with either Sos-1 alone (SosTfx) or a combination of S/E/E8 (Triple Tfx) (  Fig. 7  A).
+7a	Of note, little E3b1 and no Eps8 could be detected in Sos-1 immunoprecipitates (  Fig. 7  A).
+7a	Conversely, Grb2 was readily recovered from the same immunoprecipitates (unpublished data).
+7b	When Sos-1 was immunoprecipitated from SosTfx, it displayed Ras-GEF, but not Rac-GEF, activity (  Fig. 7  B).
+7b	Despite lower levels of Sos-1 in the coimmunoprecipitate (with respect to a Sos-1 immunoprecipitate from SosTfx), Rac-GEF activity was now present (  Fig. 7  B).
+7b	Conversely, no Ras-GEF activity could be detected (  Fig. 7  B).
+7b	The lack of Ras-GEF activity was not due to the low levels of Sos-1.
+7b	Under these conditions, Ras-GEF activity was readily detectable (  Fig. 7  B).
+7b	The detection of Rac-specific GEF activity in anti-Eps8 immunoprecipitates strictly required the presence of Sos-1, since no GEF activity was detected in Eps8 immunoprecipitates, in the absence of coexpressed Sos-1 (  Scita et al., 1999  ; unpublished data).
+7b	Furthermore, no Rac-GEF activity could be detected in Eps8 immunoprecipitates from lysates of cells transfected with Sos-1, E3b1, and an Eps8 mutant that is impaired in its ability to bind E3b1 and thereby cannot form a trimeric complex (  Scita et al., 1999  ).
+7c	Native Sos-1, present in lysates of −/− [Eps8myc] fibroblasts, could be specifically recovered with nucleotide-depleted immobilized GST-Rac, but not with GST-Cdc42 or GST alone (  Fig. 7  C).
+7c	Conversely, no Sos-1 could be recovered with GST-Rac from lysates of eps8  −/−  cells.
+7c	Thus, Eps8 is required for the association between Sos-1 and nucleotide-free Rac.
+7c	Furthermore, under conditions in which the Eps8–E3b1 or the E3b1–Sos-1 interactions were disrupted by specifically competing peptides, a reduction of >80% in the amount of Sos-1 bound to nucleotide-depleted Rac was observed (  Fig. 7  C).
+7c	This latter result strongly suggests that an intact S/E/E8 complex is required for binding to Rac, providing a molecular basis for the catalytic specificity of the complex.
+8	Upon PDGF stimulation, we observed decreased coimmunoprecipitation between Grb2 and Sos-1 and consequently between PDGFR and Sos-1 (  Fig. 8, A and B  ), which correlated with the appearance of a mobility-retarded form of Sos-1.
+8	This likely represents a hyperphosphorylated form of Sos-1, as previously demonstrated (  Baltensperger et al., 1993  ;  Cherniack et al., 1994  ;  Pronk et al., 1994  ).
+8	Figure 8.
+8	 The differential regulation of the S/G and S/E/E8 complexes by RTKs correlates with the kinetics of activation of Ras and Rac.
+8	 (A) Mouse embryo fibroblasts cells were treated with PDGF for 15 min (+) or mock treated (−).
+8	Lysates were immunoprecipitated (IP) with anti-Grb2 (left) or anti-E3b1 (right) antibody and detected with anti–Sos-1 antibody (top) or anti-Grb2 (bottom, left), or anti-E3b1 (bottom, right).
+8	The indicated lanes (lysate) (50 μg) were detected with anti–Sos-1 antibody to show the mobility shift after PDGF stimulation.
+8	Similar results were obtained upon EGF stimulation in Cos-7 cells (not shown).
+8	(B) Fibroblasts were treated with PDGF for the indicated lengths of time.
+8	Lysates were immunoprecipitated (IP) with anti-PDGFR (PDGFR) or an irrelevant antibody as a control (ctr) and detected with the indicated antibodies (WB).
+8	(C) −/− [Eps8myc] cells were treated with 20 ng/ml of PDGF (+) or mock treated (−), and total cellular lysates were prepared.
+8	Immmunoprecipitations (IP) were performed with anti-myc antibody or with an irrelevant (ctr) antibody, followed by immunoblot with the antibody indicated on the right (WB).
+8	The indicated lanes (lysates) were loaded with 100 μg of total cellular lysates.
+8	(D) Fibroblasts were treated with PDGF for the indicated lengths of time.
+8	The levels of Ras-GTP and Rac-GTP in total cellular lysates were determined by affinity precipitation using GST-RBD and GST-CRIB, as described in Materials and methods.
+8	Elevated levels of Rac-GTP could be observed ≤30 min of RTK stimulation (not shown).
+8	The expression levels of Ras (total Ras) and Rac (total Rac), in the same lysates, were determined by immunoblotting with anti-Ras and anti-Rac antibodies, respectively.
+8	The kinetic of the mobility shift of Sos-1, after PDGF stimulation, was determined by immunoblotting with anti–Sos-1 antibodies.
+8	The above data indicate that, as a consequence of activation of RTKs, the S/G complex is disrupted, whereas the S/E/E8 complex persists in the cell.
+8	This might lead to a transient peak in Ras activity vis a vis a more prolonged activation of Rac.
+8	Therefore, we measured the kinetic of RTK-induced activation of Ras and Rac.
+8	Thus, the interaction between Sos-1 and Grb2 is dynamically regulated by RTK and might contribute to the rapid, but transient, activation of Ras after RTK stimulation (  Fig. 8, A, B, and D  ).
+8	Conversely, the S/E/E8 complex is stable under the same conditions, and may account, at least in part, for the prolonged activation of Rac signaling (  Fig. 8  , A–D) and ruffling activity (  Ridley et al., 1992  ; unpublished data) (  Fig. 9  shows a proposed mode of action of Sos-1) The shift in catalytic specificity of Sos-1, upon interaction with Eps8 and E3b1 does not exclude the possibility that additional mechanisms might participate in its action on Rac in vivo.
+8	This is supported by the observation that the Rac-specific GEF activity, detected in total cellular lysates and in the immunoprecipitated trimeric S/E/E8 complex, is not apparently affected by RTK activation (unpublished data).
+8	GTP-bound active Rac accumulates on the plasma membrane at sites where ruffling takes place (  Kraynov et al., 2000  ).
+8	Similarly, upon growth factor stimulation, Eps8, E3b1, and Sos-1 are localized at the plasma membrane and colocalize with F-actin within membrane ruffles (  Provenzano et al., 1998  ;  Scita et al., 1999  ,  2001  ), whereas Grb2 cannot be detected in these structures (  Scita et al. 2001  ).
+8	This provides a potential docking system for the Rac-based signaling machinery and argues that differential localization of adaptor molecules may further participate in the regulation of Sos-1 biological activities.
+8a	Conversely, under identical conditions, the coimmunoprecipitation between E3b1 and Sos-1 was not affected (  Fig. 8  A).
+8c	Similarly, the stability of the endogenous trimeric complex, Sos-1/Eps8/E3b1 was not affected by treatment of cells with growth factors (  Fig. 8  C).
+8d	As shown in  Fig. 8  D, activation of Ras was rapid and short lived, whereas activation of Rac was sustained over a longer period of time, compatible with the differential regulation of the corresponding activating complexes, S/G and S/E/E8.
+9	Thus, in light of these results and previous finding, we conclude that a S/G complex directs Ras activation through binding to RTKs, whereas a S/E complex directs Rac activation by entering into a tricomplex with Eps8 (  Fig. 9  ).
+9	Figure 9.
+9	 Proposed model for the roles of Sos-1 in the signaling pathway leading to activation of Rac.
+9	 Under unstimulated conditions (unstimulated), Sos-1-based complexes, PI3K, and the small GTPases, Ras and Rac, are present in the cell in an inactive state.
+9	Immediately after stimulation (Stimulated: early events) by growth factor (G.F.), the S/G complex is recruited to the activated RTK at the plasma membrane, leading to Ras activation.
+9	GTP-loaded Ras, in turn, mediates signal propagation with the ensuing activation of Rac, through the trimeric complex S/E/E8 (dashed black arrow).
+9	In this pathway, PI3K, which binds to GTP-Ras, plays a key role, although it cannot be formally excluded that other Ras effectors may participate in the activation of Rac.
+9	Activation of Rac can also be achieved through Ras-independent pathways, among which the one involving the direct recruitment of PI3K to activated RTK (dashed orange arrow).
+9	All these pathways converge on the S/E/E8 Rac GEF complex.
+9	Activated Rac finally mediates actin remodelling.
+9	Concomitantly, activated Ras leads to stimulation of the ERK kinase via the RAF-MEK-ERK cascade (solid red arrow).
+9	ERK can phosphorylate Sos-1 (dashed green arrow) with ensuing reduced affinity for Grb2, but not for E3b1.
+9	This results (Stimulated: late events) in the disassembly of the RTK-Grb2-Sos-1 complex contributing to the termination of Ras activation.
+9	Conversely, the trimeric complex S/E/E8 is stable, thus allowing sustained Rac activation through Ras-independent pathways (dashed orange arrow), which are most likely PI3K dependent, but could also be PI3K dependent.
+9	The finding that Sos-1 participates in both Ras and Rac activation does not immediately explain the temporal sequence by which the activation of Ras precedes that of Rac.
+9	This latter concept, however, is largely based on the fact that ectopic expression of a constitutively active Ras mutant is sufficient to cause membrane ruffles, indicative of Rac activation (  Bar-Sagi and Feramisco, 1986  ;  Rodriguez-Viciana et al., 1997  ;  Scita et al., 1999  ).
+9	Current thinking holds therefore that active Ras, through binding and activation of phosphatidylinositol 3-kinase, leads to the formation of phosphatidylinositol 3, 4, 5 triphosphate, which in turn regulates Rac-specific GEFs, like Vav-1, and possibly Sos-1 (  Kotani et al., 1994  ;  Rodriguez-Viciana et al., 1994  ,  1996  ,  1997  ;  Han et al., 1998  ;  Nimnual et al., 1998  ;  Das et al., 2000  ) (  Fig. 9  ).
+9	Our data and published literature highlight a much more complex scenario.
+9	First, it is difficult to conceive how Rac activation could be exclusively Ras dependent.
+9	In some cell lines, such as Swiss 3T3, RTK-induced Rac activation is apparently Ras independent (  Ridley et al., 1992  ).
+9	In addition, even in those cell lines in which a dominant negative Ras mutant can suppress ruffle formation, the inhibition is never quantitative (a maximum of 65 ± 5% SEM inhibition of PDGF-induced ruffling was observed in mouse embryo fibroblasts microinjected with a Ras dominant negative mutant) (Scita, G., personal communication).
+9	Second, our kinetic data revealed that Rac activation persists long after the return to basal levels of Ras-GTP, a finding not immediately reconcilable with a simple and unique Ras→Rac pathway.
+9	It seems therefore that multiple mechanisms could lead to Rac activation from stimulated RTK (  Fig. 9  ).
+9	Nevertheless, signals appear to converge on a S/E/E8 complex, as suggested by the fact that genetic and biochemical interference with this complex leads to abrogation of Rac activation induced by either active RTKs or dominant active Ras and phosphatidylinositol 3-kinase mutants (  Scita et al., 1999  ).
+9	Our demonstration of differential regulation of the stability of the S/G and S/E complexes sheds new light on the molecular understanding of this circuitry.
+9	A dynamic interaction between Sos-1 and Grb2 after RTK stimulation has been previously reported (  Buday and Downward, 1993a  ;  Egan et al., 1993  ;  Rozakis-Adcock et al., 1993  ;  Cherniack et al., 1994  ;  Waters et al., 1995  ;  Hu and Bowtell, 1996  ).
+9	Moreover, it is well established that upon EGF treatment, Sos-1 is rapidly phosphorylated, mainly as a consequence of MAPK activation (  Cherniack et al., 1994  ;  Rozakis-Adcock et al., 1995  ;  Corbalan-Garcia et al., 1996  ;  Porfiri and McCormick, 1996  ), leading to a decrease in its affinity for Grb2 (  Corbalan-Garcia et al., 1996  ).
+9	Conversely, the S/E/E8 complex is stable under the same conditions, and may account, at least in part, for the prolonged activation of Rac signaling (  Fig. 8  , A–D) and ruffling activity (  Ridley et al., 1992  ; unpublished data) (  Fig. 9  shows a proposed mode of action of Sos-1) The shift in catalytic specificity of Sos-1, upon interaction with Eps8 and E3b1 does not exclude the possibility that additional mechanisms might participate in its action on Rac in vivo.
+9	This is supported by the observation that the Rac-specific GEF activity, detected in total cellular lysates and in the immunoprecipitated trimeric S/E/E8 complex, is not apparently affected by RTK activation (unpublished data).
+9	GTP-bound active Rac accumulates on the plasma membrane at sites where ruffling takes place (  Kraynov et al., 2000  ).
+9	Similarly, upon growth factor stimulation, Eps8, E3b1, and Sos-1 are localized at the plasma membrane and colocalize with F-actin within membrane ruffles (  Provenzano et al., 1998  ;  Scita et al., 1999  ,  2001  ), whereas Grb2 cannot be detected in these structures (  Scita et al. 2001  ).
+9	This provides a potential docking system for the Rac-based signaling machinery and argues that differential localization of adaptor molecules may further participate in the regulation of Sos-1 biological activities.
+9	Although more work will be needed to define the exact interplay of all components of the circuitry, our findings of differential regulation of the S/G and S/E complexes suggest an efficient mechanism for a wave-like propagation of signals in which upstream signaling is rapidly switched off after stimulation, whereas downstream signaling is still permitted (  Fig. 9  ).
