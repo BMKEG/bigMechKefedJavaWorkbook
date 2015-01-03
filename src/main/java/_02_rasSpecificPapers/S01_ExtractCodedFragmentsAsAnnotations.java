@@ -13,12 +13,15 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
 
 import edu.isi.bmkeg.digitalLibrary.controller.DigitalLibraryEngine;
+import edu.isi.bmkeg.ftd.model.FTDFragment;
+import edu.isi.bmkeg.ftd.model.FTDFragmentBlock;
 
 /**
  * This script runs through the digital library and extracts 
@@ -27,15 +30,15 @@ import edu.isi.bmkeg.digitalLibrary.controller.DigitalLibraryEngine;
  * @author Gully
  *
  */
-public class S01_ExtractCodedFragmentsAsSentences {
+public class S01_ExtractCodedFragmentsAsAnnotations {
 
 	public static class Options {
 
 		@Option(name = "-outDir", usage = "Output", required = true, metaVar = "OUTPUT")
 		public File outdir;
 		
-		@Option(name = "-corpus", usage = "Corpus", required = true, metaVar = "CORPUS")
-		public String corpus = "";
+		@Option(name = "-pmid", usage = "Pmid", required = true, metaVar = "PMID")
+		public int pmid = -1;
 
 		@Option(name = "-frgType", usage = "FrgType", required = true, metaVar = "FRG_TYPE")
 		public String frgType = "";
@@ -54,7 +57,7 @@ public class S01_ExtractCodedFragmentsAsSentences {
 
 	}
 
-	private static Logger logger = Logger.getLogger(S01_ExtractCodedFragmentsAsSentences.class);
+	private static Logger logger = Logger.getLogger(S01_ExtractCodedFragmentsAsAnnotations.class);
 
 	/**
 	 * @param args
@@ -63,7 +66,7 @@ public class S01_ExtractCodedFragmentsAsSentences {
 	public static void main(String[] args) throws Exception {
 
 		Options options = new Options();
-		Pattern patt = Pattern.compile("(\\S+)-fig(\\S+)");
+		Pattern patt = Pattern.compile("(\\S+)___(\\S+)");
 		
 		Map<Integer,Set<String>> pmids = new HashMap<Integer,Set<String>>();
 		Map<Integer,String> pmcids = new HashMap<Integer,String>();
@@ -87,21 +90,17 @@ public class S01_ExtractCodedFragmentsAsSentences {
 			// Query based on a query constructed with SqlQueryBuilder based on the TriagedArticle view.
 			String countSql = "SELECT COUNT(*) ";
 
-			String selectSql = "SELECT l.vpdmfId, a.pmid, f.name, frg.vpdmfId, frg.frgOrder, blk.vpdmfOrder, blk.text ";
+			String selectSql = "SELECT l.vpdmfId, a.pmid, f.name, frg.vpdmfId, frg.frgOrder, blk.vpdmfOrder, blk.text, blk.code ";
 			
 			String fromWhereSql = "FROM LiteratureCitation AS l," +
 					" ArticleCitation as a, FTD as f, " + 
-					" FTDFragment as frg, FTDFragmentBlock as blk, " +
-					" Corpus_corpora__resources_LiteratureCitation AS link, " + 
-					" Corpus AS c " +
+					" FTDFragment as frg, FTDFragmentBlock as blk " +
 					" WHERE " +
 					"blk.fragment_id = frg.vpdmfId AND " +
 					"l.fullText_id = f.vpdmfId AND " +
 					"l.vpdmfId = a.vpdmfId AND " +
 					"frg.ftd_id = f.vpdmfId AND " +
-					"link.resources_id=l.vpdmfId AND " +
-					"link.corpora_id=c.vpdmfId AND " +
-					"c.name = '"+ options.corpus+ "' AND " + 
+					"a.pmid = '"+ options.pmid + "' AND " + 
 					"frg.frgType = '"+ options.frgType + "' " +
 					" ORDER BY l.vpdmfId, frg.vpdmfId, frg.frgOrder, blk.vpdmfOrder;";
 
@@ -119,7 +118,12 @@ public class S01_ExtractCodedFragmentsAsSentences {
 
 			Map<Long,Map<String,String>> lookup = new HashMap<Long,Map<String,String>>();
 
-			Map<String,String> hash = new HashMap<String,String>();
+			Map<String,String> txtHash = new HashMap<String,String>();
+			Map<String,String> annHash = new HashMap<String,String>();
+			
+			String frgText = "";
+			String annText = "";
+			int j = 0, pos = 0;
 			
 			while( rs.next() ) {
 
@@ -128,15 +132,30 @@ public class S01_ExtractCodedFragmentsAsSentences {
 				int pmid = rs.getInt("a.pmid");
 				String frgOrder = rs.getString("frg.frgOrder");
 				String blkId = rs.getString("blk.vpdmfOrder");
-				String text = rs.getString("blk.text");
+				
+				String blkCode = rs.getString("blk.code");
+				if( blkCode == null || blkCode.equals("-") ) 
+					continue;
+				
+				String blkText = rs.getString("blk.text");
+				blkText = blkText.replaceAll("\\s+", " ");
+				blkText = blkText.replaceAll("\\-\\s+", "");
 
-				if( hash.containsKey(pmid + "-fig" + frgOrder) ) {
-					String s = hash.get(pmid + "-fig" + frgOrder);
-					s += text;
-					hash.put(pmid + "-fig" + frgOrder, s);						
-				} else {
-					hash.put(pmid + "-fig" + frgOrder, text);						
-				}
+				frgText += blkText;
+						
+				int start = frgText.indexOf(blkText);
+				int end = start + blkText.length() - 1;
+				
+				annText += "T"+ (j++) + "\t" + 
+						blkCode.replaceAll(": ", "_") + " " + 
+						start + " " +
+						end + "\t" + 
+						blkText +"\n";
+
+				txtHash.put(pmid + "___" + frgOrder, frgText);
+				annHash.put(pmid + "___" + frgOrder, annText);
+				
+				pos += pos + blkText.length();
 				
 			}
 			rs.close();
@@ -144,12 +163,8 @@ public class S01_ExtractCodedFragmentsAsSentences {
 			//
 			// now write these to files. 
 			//
-			List<String> fragments = new ArrayList<String>(hash.keySet());
+			List<String> fragments = new ArrayList<String>(txtHash.keySet());
 			Collections.sort(fragments);
-
-			String cPmid = "";
-			String cCode = "";
-			BufferedWriter writer = null;
 			
 			for(String s : fragments) {
 			
@@ -157,19 +172,21 @@ public class S01_ExtractCodedFragmentsAsSentences {
 				if( m.find() ) {
 					String pmid = m.group(1);
 					String code = m.group(2);
+
+					frgText = txtHash.get(s);
+					annText = annHash.get(s);
 					
-					File output = new File(options.outdir.getPath() + "/" + pmid + "_ann.txt");
-					if(!cPmid.equals(pmid) ) {
-						if( writer != null )
-							writer.close();
-						writer = new BufferedWriter(new FileWriter(output));
-						cPmid = pmid;
-					}
-					writer.write(code + "\t" + hash.get(s) + "\n" );	
+					String pathStem = options.outdir.getPath() + "/" + options.frgType +
+							"/" + pmid + "/" + pmid + "_" + code;
+					File frgFile = new File( pathStem + ".txt" );
+					File annFile = new File( pathStem + ".ann" );
+					
+					FileUtils.writeStringToFile(frgFile, frgText);
+					FileUtils.writeStringToFile(annFile, annText);
+					
 				}
 				
 			}
-			writer.close();
 
 		} catch (CmdLineException e) {
 

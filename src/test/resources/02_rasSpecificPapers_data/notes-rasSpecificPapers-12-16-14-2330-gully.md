@@ -171,3 +171,13 @@ ORCA Annotation Notes
 5. Use `1u` as a fragment code to denote 'unpublished data' pertaining to the information surrounding Figure 1. 
 6. We are currently ignoring large-scale interpretations. We need to code and examine these as well. 
 7. Try to preserve the order of the narrative by picking fragment numbers appropriately.
+
+
+Notes from 11777939 (Innocenti-2002-156-125)
+---
+
+Fig4c has an assay that tests for 'proliferative response' involving injections of BrdU and IgG. 
+
+> Not sure how this works or how you interpret it. 
+
+ 
