@@ -1,0 +1,6 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+2	2	1	Ras	bind	32P-GTP			As expected based on previous studies, wild-type K-Ras bound primarily 32P-GDP, while G12V-Ras bound 32P-GTP (Fig.2, A and B).
+2	8	2	Ras	MedScan_Binding	GTP			Figure 2 Figure 2 Ubiquitination of K147, a conserved lysine in the G5 box, increases the fraction of GTP-bound Ras.
+2	8	3	Ras	MedScan_Binding	GTP			Figure 2 Figure 2 Ubiquitination of K147, a conserved lysine in the G5 box, increases the fraction of GTP-bound Ras.
+2	10	4	<blank>	ubiquitinate	Ras			To ensure that ubiquitinated Ras was being detected, the protein pulled down by GST-Ras binding domain was subjected to a second affinity purification on a cobalt column to purify the Flag-His-tagged K-Ras.
+2	13	5	<blank>	ubiquitinate	K-Ras			These results are consistent with a greater fraction of ubiquitinated K-Ras being in the GTP state (Fig. 2, A and B).

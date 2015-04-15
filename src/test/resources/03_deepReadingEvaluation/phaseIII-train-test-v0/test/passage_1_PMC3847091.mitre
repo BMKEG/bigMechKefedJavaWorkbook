@@ -1,0 +1,19 @@
+ENTITIES
+1.1	apoptotic	PATHWAY	MEDSCAN:urn:agi-gocellproc:0006915
+1.1	p53	GENE_PROTEIN	MEDSCAN:urn:agi-llid:7157
+1.1	ASPP1 and ASPP2	GENE_PROTEIN	MEDSCAN:urn:agi-llid:23368
+1.2	GTP	DRUG	pubchem:3085100
+1.3	ASPP2	GENE_PROTEIN	MEDSCAN:urn:agi-llid:7159
+1.4	Raf-MAPK	PROTEIN_FAMILY	MEDSCAN:urn:agi-enz:2.7.11.24
+1.9	p38 SAPK	PROTEIN_FAMILY	MEDSCAN:urn:agi-go:0016909
+1.9	MAPK1	GENE_PROTEIN	MEDSCAN:urn:agi-llid:5594
+1.10	histone 2B	PROTEIN_FAMILY	MEDSCAN:urn:agi-protfc:histone%20H2B
+1.11	trypsin	PROTEIN_FAMILY	MEDSCAN:urn:agi-enz:3.4.21.4
+1.14	serine 827	DRUG	pubchem:617
+RELATIONS
+1.2	1	ASPP1 and ASPP2	Activation	p53
+1.2	2	ASPP1 and ASPP2	Binding	GTP
+1.10	3	p38 SAPK	ProtModification	histone 2B
+1.10	4	p38 SAPK	ProtModification	ASPP2
+1.15	5	MAPK2	ProtModification	ASPP2
+1.15	6	MAPK2	ProtModification	ASPP2

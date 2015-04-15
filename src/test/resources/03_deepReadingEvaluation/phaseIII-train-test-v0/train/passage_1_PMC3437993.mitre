@@ -1,0 +1,7 @@
+ENTITIES
+1.1	Ras	PROTEIN_FAMILY	MEDSCAN:urn:agi-aopfc:0000465
+1.2	ubiquitin and Flag	PROTEIN_FAMILY	MEDSCAN:urn:agi-protfc:ubiquitin
+1.2	K-Ras4B	GENE_PROTEIN	MEDSCAN:urn:agi-llid:3845
+1.2	HEK293T cells	CELL_LINE	MEDSCAN:urn:agi-cellline:11027204
+1.3	Co2+	DRUG	pubchem:104729
+1.6	H-Ras	GENE_PROTEIN	MEDSCAN:urn:agi-llid:3265

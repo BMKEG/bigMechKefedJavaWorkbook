@@ -1,4 +1,4 @@
-package _02_rasSpecificPapers;
+package _05_kefedExtraction;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -42,6 +42,9 @@ public class S01_ExtractCodedFragmentsAsAnnotations {
 
 		@Option(name = "-frgType", usage = "FrgType", required = true, metaVar = "FRG_TYPE")
 		public String frgType = "";
+
+		@Option(name = "-frgCode", usage = "FrgCode", required = true, metaVar = "FRG_CODE")
+		public String frgCode = "";
 		
 		@Option(name = "-l", usage = "Database login", required = true, metaVar = "LOGIN")
 		public String login = "";
@@ -67,11 +70,8 @@ public class S01_ExtractCodedFragmentsAsAnnotations {
 
 		Options options = new Options();
 		Pattern patt = Pattern.compile("(\\S+)___(\\S+)");
-		
-		Map<Integer,Set<String>> pmids = new HashMap<Integer,Set<String>>();
-		Map<Integer,String> pmcids = new HashMap<Integer,String>();
-		Map<String,String> pdfLocs = new HashMap<String,String>();
-		
+		Pattern p2 = Pattern.compile("^(\\D?)(\\d+)(\\D*)$");
+				
 		CmdLineParser parser = new CmdLineParser(options);
 	
 		int nLapdfErrors = 0, nSwfErrors = 0, total = 0;
@@ -112,6 +112,7 @@ public class S01_ExtractCodedFragmentsAsAnnotations {
 			
 			ResultSet countRs = de.getDigLibDao().getCoreDao().getCe().executeRawSqlQuery(
 					countSql + fromWhereSql);
+			
 			countRs.next();
 			int count = countRs.getInt(1);
 						
@@ -122,8 +123,8 @@ public class S01_ExtractCodedFragmentsAsAnnotations {
 
 			Map<Long,Map<String,String>> lookup = new HashMap<Long,Map<String,String>>();
 
-			Map<String,String> txtHash = new HashMap<String,String>();
-			Map<String,String> annHash = new HashMap<String,String>();
+			Map<String,Map<String,Map<String,String>>> pmidHash = 
+					new HashMap<String,Map<String,Map<String,String>>>();
 			
 			String frgText = "";
 			String annText = "";
@@ -144,49 +145,93 @@ public class S01_ExtractCodedFragmentsAsAnnotations {
 				String blkText = rs.getString("blk.text");
 				blkText = blkText.replaceAll("\\s+", " ");
 				blkText = blkText.replaceAll("\\-\\s+", "");
-
-				if( !txtHash.containsKey(pmid + "___" + frgOrder) ) {
-					frgText = "";
-					annText = "";
+				
+				Map<String,Map<String,String>> figHash = null;
+				
+				String pmidStr = pmid + "";
+				if( !pmidHash.containsKey( pmidStr  ) ) {
+					figHash = new HashMap<String,Map<String,String>>();
+					pmidHash.put(pmidStr, figHash );
 				} else {
-					frgText = txtHash.get(pmid + "___" + frgOrder);
-					annText = annHash.get(pmid + "___" + frgOrder);
+					figHash = pmidHash.get( pmidStr);
 				}
 				
-				frgText += blkText;
+				// Parse the frgOrder code.
+				// First split any '+' codes
+				// then enumerate numbers for figures and ignore Supplemental data. 
+				String[] splitCodes = frgOrder.split("\\+");
+				for( String s : splitCodes) {
+					
+					Matcher m = p2.matcher(s);
+					if( m.find() ) {
 						
-				int start = frgText.indexOf(blkText);
-				int end = start + blkText.length() - 1;
-				
-				annText += "T"+ (j++) + "\t" + 
-						blkCode.replaceAll(": ", "_") + " " + 
-						start + " " +
-						end + "\t" + 
-						blkText +"\n";
+						String suppCode = m.group(1);
+						String number = m.group(2);
+						String letters = m.group(3);
+						
+						if( suppCode.equals("S") )
+							continue;
 
-				txtHash.put(pmid + "___" + frgOrder, frgText);
-				annHash.put(pmid + "___" + frgOrder, annText);
+						for(int i=0; i<letters.length(); i++) {
+							String l = letters.substring(i, i+1);
+							
+							if(  !figHash.containsKey(number+l) ) {
+								frgText = "";
+								annText = "";
+							} else {
+								Map<String, String> map = figHash.get(number+l);
+								frgText = map.get("txt");
+								annText = map.get("ann");
+							}
+							
+							frgText += blkText;
+							
+							int start = frgText.indexOf(blkText);
+							int end = start + blkText.length() - 1;
+							
+							annText += "T"+ (j++) + "\t" + 
+									blkCode.replaceAll(": ", "_") + " " + 
+									start + " " +
+									end + "\t" + 
+									blkText +"\n";
+
+							Map<String, String> map = new HashMap<String, String>();
+							figHash.put( number+l , map);
+							map.put("txt", frgText);
+							map.put("ann", annText);
+							
+							pos += pos + blkText.length();
+							
+						}
 				
-				pos += pos + blkText.length();
+					} else {
+						
+						logger.info("skipping fragment coded: " + pmid + "_" + s);
+											
+					}
 				
+				}
+								
 			}
 			rs.close();
 
 			//
 			// now write these to files. 
 			//
-			List<String> fragments = new ArrayList<String>(txtHash.keySet());
-			Collections.sort(fragments);
+			List<String> pmids = new ArrayList<String>(pmidHash.keySet());
+			Collections.sort(pmids);
 			
-			for(String s : fragments) {
-			
-				Matcher m = patt.matcher(s);
-				if( m.find() ) {
-					String pmid = m.group(1);
-					String code = m.group(2);
+			for(String pmid : pmids) {
 
-					frgText = txtHash.get(s);
-					annText = annHash.get(s);
+				Map<String,Map<String,String>> codeHash = pmidHash.get(pmid);
+				List<String> codes = new ArrayList<String>(codeHash.keySet());
+				Collections.sort(codes);
+					
+				for( String code: codes ) {
+										
+					Map<String,String> h = codeHash.get(code);
+					frgText = h.get("txt");
+					annText = h.get("ann");
 					
 					String pathStem = options.outdir.getPath() + "/" + options.frgType +
 							"/" + pmid + "/" + pmid + "_" + code;

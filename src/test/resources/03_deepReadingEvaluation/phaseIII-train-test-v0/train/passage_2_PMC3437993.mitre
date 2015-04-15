@@ -1,0 +1,11 @@
+ENTITIES
+2.1	GTP	DRUG	pubchem:3085100
+2.1	K-Ras	GENE_PROTEIN	MEDSCAN:urn:agi-llid:3845
+2.1	32P-orthophosphate	DRUG	pubchem:23694678
+2.1	32P-GDP	DRUG	pubchem:8977
+2.2	Ras	PROTEIN_FAMILY	MEDSCAN:urn:agi-aopfc:0000465
+2.9	lysine	DRUG	pubchem:69567
+RELATIONS
+2.2	1	Ras	Binding	32P-GTP
+2.9	2	Ras	Binding	GTP
+2.9	3	Ras	Binding	GTP

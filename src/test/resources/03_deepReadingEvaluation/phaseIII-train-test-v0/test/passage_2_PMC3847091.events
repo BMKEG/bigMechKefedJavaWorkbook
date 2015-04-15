@@ -1,0 +1,2 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+2	5	1	<blank>	activate	RAS/Raf/MAPK			Additionally, RAS/Raf/MAPK pathway activation stabilizes ASPP2 protein, although the underlying mechanism remains to be investigated.

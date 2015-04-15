@@ -1,0 +1,14 @@
+ENTITIES
+1.1	Ras	PROTEIN_FAMILY	MEDSCAN:urn:agi-aopfc:0000465
+1.1	GAP	PROTEIN_FAMILY	MEDSCAN:urn:agi-go:0005096
+1.2	GTP	DRUG	pubchem:3085100
+1.6	K-Ras	GENE_PROTEIN	MEDSCAN:urn:agi-llid:3845
+1.7	cysteine	DRUG	pubchem:5260155
+1.7	Ubiquitin	PROTEIN_FAMILY	MEDSCAN:urn:agi-protfc:ubiquitin
+1.11	HEK293T cells	CELL_LINE	MEDSCAN:urn:agi-cellline:11027204
+RELATIONS
+1.8	1	GAP	MolSynthesis	GTP
+1.12	2	GAP	MolSynthesis	GTP
+1.12	3	GTP	Activation	K-Ras
+1.13	4	Ras	Binding	GTP
+1.13	5	Ras	Binding	GTP

@@ -13,7 +13,7 @@
 		<relativePath>../bmkeg-parent</relativePath>
 	</parent>
 
-	<name>BMKEG NLP Utilities</name>
+	<name>Systems Biology KEfED Notebook</name>
 
 	<build>
 		<plugins>
@@ -88,7 +88,7 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-io</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-math3</artifactId>
@@ -112,14 +112,14 @@
 			<artifactId>args4j</artifactId>
 			<version>2.0.16</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.7.3</version>
 		</dependency>
 
-	<!-- Omitting versions of clearTk dependencies because they are handle 
+		<!-- Omitting versions of clearTk dependencies because they are handle 
 			in the dependency management imported from cleartk-release -->
 		<dependency>
 			<groupId>org.cleartk</groupId>
@@ -141,7 +141,7 @@
 			<artifactId>cleartk-ml-liblinear</artifactId>
 		</dependency>
 
- 		<dependency>
+		<dependency>
 			<groupId>org.cleartk</groupId>
 			<artifactId>cleartk-ml-libsvm</artifactId>
 		</dependency>
@@ -149,7 +149,7 @@
 		<dependency>
 			<groupId>org.cleartk</groupId>
 			<artifactId>cleartk-ml-mallet</artifactId>
-		</dependency> 
+		</dependency>
 
 		<dependency>
 			<groupId>org.cleartk</groupId>
@@ -166,21 +166,53 @@
 			<artifactId>cleartk-opennlp-tools</artifactId>
 		</dependency>
 
- 		<dependency>
+		<dependency>
 			<groupId>org.cleartk</groupId>
 			<artifactId>cleartk-util</artifactId>
 		</dependency>
 
- 		<dependency>
+		<dependency>
 			<groupId>org.cleartk</groupId>
 			<artifactId>cleartk-snowball</artifactId>
 		</dependency>
 
-   		<dependency>
+		<dependency>
 			<groupId>org.cleartk</groupId>
 			<artifactId>cleartk-token</artifactId>
-		</dependency> 
-					 		
+		</dependency>
+
+		<dependency>
+			<groupId>org.biopax.paxtools</groupId>
+			<artifactId>paxtools-core</artifactId>
+			<version>4.3.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<type>pom</type>
+			<version>2.13.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-core</artifactId>
+			<version>2.13.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hdfgroup</groupId>
+			<artifactId>hdf-java</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+
 	</dependencies>
 
 </project>

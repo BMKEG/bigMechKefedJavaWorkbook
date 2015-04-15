@@ -1,0 +1,9 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+1	2	1	ASPP1 and ASPP2	activate	p53			Mechanistically ASPP1 and ASPP2 bind RAS-GTP and potentiates RAS signalling to enhance p53 mediated apoptosis [ ].
+1	2	2	ASPP1 and ASPP2	bind	GTP			Mechanistically ASPP1 and ASPP2 bind RAS-GTP and potentiates RAS signalling to enhance p53 mediated apoptosis [ ].
+1	7	7	<blank>	phosphorylate	ASPP2			We thus tested whether RAS activation may regulate ASPP2 phosphorylation.
+1	10	3	p38 SAPK	MedScan_ProtModification	histone 2B			As shown in , histone 2B phosphorylated by p38 SAPK had high levels of incorporated 32P, suggesting that p38 SAPK was active; while under the same conditions, ASPP2 (693-1128) fragment phosphorylated by p38 SAPK had very low levels of incorporated 32P, indicating that p38 SAPK is not an efficient kinase for ASPP2 phosphorylation.
+1	10	4	p38 SAPK	MedScan_ProtModification	ASPP2			As shown in , histone 2B phosphorylated by p38 SAPK had high levels of incorporated 32P, suggesting that p38 SAPK was active; while under the same conditions, ASPP2 (693-1128) fragment phosphorylated by p38 SAPK had very low levels of incorporated 32P, indicating that p38 SAPK is not an efficient kinase for ASPP2 phosphorylation.
+1	10	8	<blank>	phosphorylate	ASPP2			As shown in , histone 2B phosphorylated by p38 SAPK had high levels of incorporated 32P, suggesting that p38 SAPK was active; while under the same conditions, ASPP2 (693-1128) fragment phosphorylated by p38 SAPK had very low levels of incorporated 32P, indicating that p38 SAPK is not an efficient kinase for ASPP2 phosphorylation.
+1	16	5	MAPK2	phosphorylate	ASPP2			(A) ASPP1 and ASPP2 have two conserved putative MAPK2 phosphorylation sites in their C-terminus.
+1	16	6	MAPK2	phosphorylate	ASPP2			(A) ASPP1 and ASPP2 have two conserved putative MAPK2 phosphorylation sites in their C-terminus.

@@ -1,0 +1,8 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+1	8	1	GAP	MedScan_MolSynthesis	GTP			We measured the rate of GAP-mediated GTP hydrolysis and observed that the response of Ras ligated to UbiquitinC77 was identical to Ras ligated to UbiquitinG76C .
+1	9	6	<blank>	downregulation	GAP			These results indicate that variations in the linker length on this scale (1-2 bonds) do not influence the sensitivity of monoubiquitinated Ras to GAP downregulation.
+1	10	7	<blank>	regulate	Ras			To validate the use of an in vitro system to dissect the mechanism of Ras regulation, we measured the sensitivity of monoubiquitinated Ras to GAP-mediated hydrolysis in a cellular reconstitution system.
+1	12	2	GAP	MedScan_MolSynthesis	GTP			As seen in , monoubiquitinated K-Ras is less sensitive than the unmodified protein to GAP-mediated GTP hydrolysis.
+1	12	3	GTP	activate	K-Ras			As seen in , monoubiquitinated K-Ras is less sensitive than the unmodified protein to GAP-mediated GTP hydrolysis.
+1	13	4	Ras	MedScan_Binding	GTP			These data support our in vitro findings that monoubiquitination increases the population of active, GTP-bound Ras through a defect in sensitivity to GAP-mediated regulation.
+1	13	5	Ras	MedScan_Binding	GTP			These data support our in vitro findings that monoubiquitination increases the population of active, GTP-bound Ras through a defect in sensitivity to GAP-mediated regulation.

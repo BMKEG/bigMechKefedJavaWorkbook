@@ -1,0 +1,3 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+1	4	1	<blank>	ubiquitinate	K-Ras			His-ubiquitinated K-Ras was subsequently purified with anti-Flag resin.
+1	5	2	<blank>	ubiquitinate	K-Ras			Following purification, mono- and di- ubiquitinated K-Ras appeared to be the major ubiquitination forms, which is consistent with the endogenous K-Ras ubiquitination pattern (Fig. 1, A and B).

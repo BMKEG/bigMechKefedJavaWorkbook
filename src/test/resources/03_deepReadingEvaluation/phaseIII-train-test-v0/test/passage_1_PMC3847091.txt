@@ -1,0 +1,15 @@
+It has recently been shown that oncogenic RAS can enhance the apoptotic function of p53 via ASPP1 and ASPP2.
+Mechanistically ASPP1 and ASPP2 bind RAS-GTP and potentiates RAS signalling to enhance p53 mediated apoptosis [ ].
+As RAS is upstream of several signalling cascades [ ], we queried whether the activity of ASPP2 is regulated by the activation of a RAS-mediated signalling pathway.
+One of the most studied downstream pathways of RAS signalling is the Raf-MAPK pathway.
+Interestingly, we observed two conserved putative MAPK phosphorylation sites in ASPP1 and ASPP2.
+The ASPP1 sites are at residues 671 and 746, and the ASPP2 sites are at residues 698 and 827 .
+We thus tested whether RAS activation may regulate ASPP2 phosphorylation.
+An in vitro phophorylation assay was performed with a purified C-terminus fragment of ASPP2 (693-1128) containing both MAPK putative phosphorylation sites.
+When compared to p38 SAPK, MAPK1 was clearly able to phosphorylate the ASPP2 fragment in vitro ( , left and middle panels).
+As shown in , histone 2B phosphorylated by p38 SAPK had high levels of incorporated 32P, suggesting that p38 SAPK was active; while under the same conditions, ASPP2 (693-1128) fragment phosphorylated by p38 SAPK had very low levels of incorporated 32P, indicating that p38 SAPK is not an efficient kinase for ASPP2 phosphorylation.
+The phosphorylated ASPP2 fragment by MAPK1 was digested by trypsin and fractioned on a high performance liquid chromatography .
+Each eluted fraction was measured for its radioactivity content ( , right panel).
+The fractions representing these radioactive peaks were analysed by mass spectrometry.
+Of the two radioactive peaks, one represented the linker region between the GST and our ASPP2 fragment and the other corresponded to a fragment of the same mass as that containing the second putative phosphorylation site, serine 827.
+Hence ASPP2 can be phosphorylated at serine 827//827 by MAPK1 in vitro. (A) ASPP1 and ASPP2 have two conserved putative MAPK2 phosphorylation sites in their C-terminus. (B) The C-terminus fragment of ASPP2 is phosphorylated in vitro by MAPK1 (left panel).

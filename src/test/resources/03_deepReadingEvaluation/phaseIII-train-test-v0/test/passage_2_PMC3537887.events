@@ -1,0 +1,3 @@
+Events (format: <passage ID> <sentence ID> <event ID> <arg1> <predicate> <arg2> <site> <context> <sentence>)
+2	8	1	GAP	MedScan_MolSynthesis	GTP			The analysis revealed that monoubiquitination abrogates GAP-mediated GTP hydrolysis.
+2	11	2	<blank>	activate	Ras			Thus our work establishes an entirely new mode of Ras activation in which signaling is sustained even in the absence of hormone stimulus or oncogene mutation.

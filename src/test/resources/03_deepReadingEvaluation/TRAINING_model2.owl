@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref7">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P00533</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P04626</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref5">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q02750</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P36507</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref3">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P27361</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P28482</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref1">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00696</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PSI-MI</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="org.biopax.paxtools.model.level3.ModificationFeature2">
+ <bp:modificationType rdf:resource="org.biopax.paxtools.model.level3.SequenceModificationVocabulary1" />
+</bp:ModificationFeature>
+
+<bp:UnificationXref rdf:about="org.biopax.paxtools.model.level3.UnificationXref2">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00492</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PSI-MI</bp:db>
+</bp:UnificationXref>
+
+<bp:ModificationFeature rdf:about="org.biopax.paxtools.model.level3.ModificationFeature1">
+ <bp:modificationType rdf:resource="org.biopax.paxtools.model.level3.SequenceModificationVocabulary1" />
+</bp:ModificationFeature>
+
+<bp:ModificationFeature rdf:about="org.biopax.paxtools.model.level3.ModificationFeature3">
+ <bp:modificationType rdf:resource="org.biopax.paxtools.model.level3.SequenceModificationVocabulary1" />
+</bp:ModificationFeature>
+
+<bp:Catalysis rdf:about="org.biopax.paxtools.model.level3.Catalysis1">
+ <bp:controller rdf:resource="org.biopax.paxtools.model.level3.Protein1" />
+ <bp:controlled rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction1" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="org.biopax.paxtools.model.level3.Catalysis3">
+ <bp:controller rdf:resource="org.biopax.paxtools.model.level3.Protein3" />
+ <bp:controlled rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction3" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="org.biopax.paxtools.model.level3.Catalysis2">
+ <bp:controller rdf:resource="org.biopax.paxtools.model.level3.Protein3" />
+ <bp:controlled rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction2" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HER2</bp:displayName>
+ <bp:feature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature2" />
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference6" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HER2</bp:displayName>
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference6" />
+ <bp:notFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature2" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEK</bp:displayName>
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference8" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EGFR</bp:displayName>
+ <bp:feature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature1" />
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EGFR</bp:displayName>
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference5" />
+ <bp:notFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature1" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ERK</bp:displayName>
+ <bp:feature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature3" />
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="org.biopax.paxtools.model.level3.Protein2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ERK</bp:displayName>
+ <bp:entityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference7" />
+ <bp:notFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature3" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference8">
+ <bp:memberEntityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference4" />
+ <bp:memberEntityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference3" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEK</bp:name>
+</bp:ProteinReference>
+
+<bp:Pathway rdf:about="org.biopax.paxtools.model.level3.Pathway1">
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction1" />
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.Catalysis1" />
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction2" />
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.Catalysis3" />
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.Catalysis2" />
+ <bp:pathwayComponent rdf:resource="org.biopax.paxtools.model.level3.BiochemicalReaction3" />
+</bp:Pathway>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference7">
+ <bp:entityFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature3" />
+ <bp:memberEntityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference2" />
+ <bp:memberEntityReference rdf:resource="org.biopax.paxtools.model.level3.ProteinReference1" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ERK</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference6">
+ <bp:entityFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature2" />
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref8" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HER2</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference5">
+ <bp:entityFeature rdf:resource="org.biopax.paxtools.model.level3.ModificationFeature1" />
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref7" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EGFR</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference4">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref6" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEK2</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference3">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref5" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEK1</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference2">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref4" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ERK2</bp:name>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="org.biopax.paxtools.model.level3.ProteinReference1">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref3" />
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ERK1</bp:name>
+</bp:ProteinReference>
+
+<bp:SequenceModificationVocabulary rdf:about="org.biopax.paxtools.model.level3.SequenceModificationVocabulary1">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref1" />
+</bp:SequenceModificationVocabulary>
+
+<bp:SequenceModificationVocabulary rdf:about="org.biopax.paxtools.model.level3.SequenceModificationVocabulary2">
+ <bp:xref rdf:resource="org.biopax.paxtools.model.level3.UnificationXref2" />
+</bp:SequenceModificationVocabulary>
+
+<bp:BiochemicalReaction rdf:about="org.biopax.paxtools.model.level3.BiochemicalReaction1">
+ <bp:right rdf:resource="org.biopax.paxtools.model.level3.Protein3" />
+ <bp:left rdf:resource="org.biopax.paxtools.model.level3.Protein2" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RIGHT_TO_LEFT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="org.biopax.paxtools.model.level3.BiochemicalReaction2">
+ <bp:right rdf:resource="org.biopax.paxtools.model.level3.Protein5" />
+ <bp:left rdf:resource="org.biopax.paxtools.model.level3.Protein4" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RIGHT_TO_LEFT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="org.biopax.paxtools.model.level3.BiochemicalReaction3">
+ <bp:right rdf:resource="org.biopax.paxtools.model.level3.Protein7" />
+ <bp:left rdf:resource="org.biopax.paxtools.model.level3.Protein6" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RIGHT_TO_LEFT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+</rdf:RDF>
