@@ -1,4 +1,4 @@
-package _09_elsevierScienceDirect;
+package _09_pubmedAndPubmedCentral;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,12 +7,17 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
+
+
+import edu.isi.bmkeg.utils.Converters;
 
 /**
  * This script runs through serialized JSON files from the model and converts
@@ -21,29 +26,26 @@ import org.kohsuke.args4j.Option;
  * @author Gully
  * 
  */
-public class S09d_MultithreadedFullTextRetrievalFromScienceDirect {
+public class S09_04_MultithreadedRunNxmlToText {
 
 	public static class Options {
 
-		@Option(name = "-searchFile", usage = "Input File", required = true, metaVar = "INPUT")
-		public File input;
-
-		@Option(name = "-apiKey", usage = "API String", required = true, metaVar = "APIKEY")
-		public String apiKey;
+		@Option(name = "-inDir", usage = "Input Directory", required = true, metaVar = "INPUT")
+		public File inDir;
 
 		@Option(name = "-outDir", usage = "Output", required = true, metaVar = "OUTPUT")
 		public File outDir;
 
 		@Option(name = "-activePoolSize", usage = "Number of concurrent threads active", required = true, metaVar = "OUTPUT")
 		public int activePoolSize;
-		
-		@Option(name = "-httpAccept", usage = "Type of format requested", required = true, metaVar = "TYPE")
-		public String httpAccept;
-		
+
+		@Option(name = "-execPath", usage = "Path to the nxml2text executable", required = true, metaVar = "OUTPUT")
+		public File execPath;
+
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S09d_MultithreadedFullTextRetrievalFromScienceDirect.class);
+			.getLogger(S09_04_MultithreadedRunNxmlToText.class);
 
 	/**
 	 * @param args
@@ -70,42 +72,38 @@ public class S09d_MultithreadedFullTextRetrievalFromScienceDirect {
 
 		}
 
-		S09d_MultithreadedFullTextRetrievalFromScienceDirect readScienceDirect = new S09d_MultithreadedFullTextRetrievalFromScienceDirect();
-
 		if( !options.outDir.exists() )
 			options.outDir.mkdirs();
 				
-		List<UrlDownloadWorker> workers = new ArrayList<UrlDownloadWorker>();
+		List<ExecWorker> workers = new ArrayList<ExecWorker>();
 
-		BufferedReader in = new BufferedReader(new FileReader(options.input));
-		String inputLine;
-		while ((inputLine = in.readLine()) != null) {
-			String[] fields = inputLine.split("\\t");
-			if( fields.length<6 || !fields[5].startsWith("http") )
-				continue;
+		Map<String, File> nxmlFiles = Converters.recursivelyListFiles(
+				options.inDir,
+				Pattern.compile("\\.nxml"));
+		
+		for(File f : nxmlFiles.values()) {
 			
-			URL url = new URL(fields[5] 
-					+ "?apiKey=" + options.apiKey 
-					+ "&httpAccept=" + options.httpAccept);
-			String doi = fields[4];
-			doi = doi.replaceAll("\\/", "_slash_");
-			doi = doi.replaceAll("\\:", "_colon_");
-
-			File f = new File(options.outDir.getPath() + "/" + doi + ".json"); 
-			if( f.exists() )
-				continue;
-
-			UrlDownloadWorker w = new UrlDownloadWorker(url, f);
+			String newPath = f.getPath().replaceAll(
+					options.inDir.getPath(),
+					options.outDir.getPath());
+			File txtFile = new File(newPath.replaceAll(".nxml", ".txt"));
+			File annFile = new File(newPath.replaceAll(".nxml", ".so"));
+			File logFile = new File(newPath.replaceAll(".nxml", "_nxml2txt.log"));
+			txtFile.getParentFile().mkdirs();
+			
+			String command = options.execPath.getPath() + " " + f.getPath() 
+					+ " " + txtFile.getPath()
+					+ " " + annFile.getPath() + "\"";
+			ExecWorker w = new ExecWorker(command);
 			workers.add(w);
 			
 		}
-		in.close();
 	
-		Set<UrlDownloadWorker> activeWorkers = new HashSet<UrlDownloadWorker>();
-		Set<UrlDownloadWorker> completeWorkers = new HashSet<UrlDownloadWorker>();
+		Set<ExecWorker> activeWorkers = new HashSet<ExecWorker>();
+		Set<ExecWorker> completeWorkers = new HashSet<ExecWorker>();
 		
 		while( completeWorkers.size() < workers.size() ) {
-			for( UrlDownloadWorker w : workers ) {
+			for( ExecWorker w : workers ) {
 				if( activeWorkers.size() < options.activePoolSize ) {
 					activeWorkers.add(w);
 					w.execute();
@@ -117,7 +115,6 @@ public class S09d_MultithreadedFullTextRetrievalFromScienceDirect {
 			}
 	
 		}
-		
 		
 	}
 

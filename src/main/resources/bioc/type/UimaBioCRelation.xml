@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>UimaBioCRelation</name>
+	<version>1.0.0</version>
+	<vendor>Copyright 2015 University of Southern California. All Rights
+		Reserved.
+	</vendor>
+	<types>
+		<typeDescription>
+			<name>bioc.type.UimaBioCRelation</name>
+			<description />
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>id</name>
+					<description>Used to refer to this relation in other relationships.
+					</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>infons</name>
+					<description> Information of relation. Implemented examples include
+						abbreviation long forms and short forms and protein events.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.MapEntry</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>nodes</name>
+					<description> Describes how the referenced annotated object or
+						other relation participates in the current relationship.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCNode</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

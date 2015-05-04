@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>UimaBioCCollection</name>
+	<version>1.0.0</version>
+	<vendor/>
+	<types>
+		<typeDescription>
+			<name>bioc.type.UimaBioCCollection</name>
+			<description />
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>source</name>
+					<description>Describe the original source of the documents
+					</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>date</name>
+					<description>Date the documents obtained from the source.
+					</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>key</name>
+					<description>Name of a file describing the contents and conventions
+						used in this XML file.</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>infons</name>
+					<description/>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.MapEntry</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>documents</name>
+					<description/>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCDocument</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

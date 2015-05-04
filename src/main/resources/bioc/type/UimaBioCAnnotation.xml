@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>UimaBioCAnnotation</name>
+	<version>1.0.0</version>
+	<vendor/>
+	<types>
+		<typeDescription>
+			<name>bioc.type.UimaBioCAnnotation</name>
+			<description />
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>id</name>
+					<description></description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>infons</name>
+					<description />
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.MapEntry</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>locations</name>
+					<description />
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCLocation</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>text</name>
+					<description>The annotated text</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

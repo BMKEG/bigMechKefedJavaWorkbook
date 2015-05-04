@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>UimaBioCLocation</name>
+	<version>1.0.0</version>
+	<vendor></vendor>
+	<types>
+		<typeDescription>
+			<name>bioc.type.UimaBioCLocation</name>
+			<description />
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>offset</name>
+					<description>
+						Type of annotation. Options include "token", "noun phrase", "gene",
+						and
+						"disease". The valid values should be described in the key file
+					</description>
+					<rangeTypeName>uima.cas.Integer</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>length</name>
+					<description>
+						The length of the annotated text. While unlikely, this could be zero
+						to describe an annotation that belongs between two characters.
+					</description>
+					<rangeTypeName>uima.cas.Integer</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>TypeSystem</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <imports>
+    <import name="bioc.type.MapEntry"/>
+    <import name="bioc.type.UimaBioCLocation"/>
+    <import name="bioc.type.UimaBioCCollection"/>
+    <import name="bioc.type.UimaBioCDocument"/>
+    <import name="bioc.type.UimaBioCPassage"/>
+    <import name="bioc.type.UimaBioCRelation"/>
+    <import name="bioc.type.UimaBioCNode"/>
+    <import name="bioc.type.UimaBioCAnnotation"/>
+    <import name="bioc.type.UimaBioCSentence"/>
+  </imports>
+</typeSystemDescription>

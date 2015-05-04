@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>UimaBioCPassage</name>
+	<version>1.0.0</version>
+	<vendor></vendor>
+	<types>
+		<typeDescription>
+			<name>bioc.type.UimaBioCPassage</name>
+			<description />
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>offset</name>
+					<description>
+						The offset of the passage in the parent document. The
+						significance of the exact value may depend on the source corpus.
+						They should be sequential and identify the passage's position in
+						the document. Since pubmed is extracted from an XML file, the
+						title has an offset of zero, while the abstract is assumed to
+						begin after the title and one space.
+					</description>
+					<rangeTypeName>uima.cas.Integer</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>text</name>
+					<description>
+						The original text of the passage.
+					</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>infons</name>
+					<description> Information of text in the passage.
+						For PubMed references, it might be "title" or 
+						"abstract". For full text papers, it might be
+						Introduction, Methods, Results, or
+						Conclusions. Or they might be paragraphs.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.MapEntry</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>sentences</name>
+					<description> 
+					 The sentences of the passage.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCSentence</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>annotations</name>
+					<description> 
+					 Annotations on the text of the passage.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCAnnotation</elementType>
+				</featureDescription>
+				<featureDescription>
+					<name>relations</name>
+					<description> 
+					 Relations between the annotations and possibly
+					 other relations on the text of the passage.
+					</description>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>bioc.type.UimaBioCRelation</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

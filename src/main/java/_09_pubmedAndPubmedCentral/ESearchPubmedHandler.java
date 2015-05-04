@@ -1,4 +1,4 @@
-package _09_elsevierScienceDirect;
+package _09_pubmedAndPubmedCentral;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +8,7 @@ import java.util.Map;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
-
-class SearchXmlHandler extends DefaultHandler {
+class ESearchPubmedHandler extends DefaultHandler {
 
 	String currentAttribute = "";
 	String currentMatch = "";
@@ -17,12 +16,7 @@ class SearchXmlHandler extends DefaultHandler {
 	private int total;
 	private int offset;
 	
-	String oa = null;
-	String doi = null;
-	String url = null;
-	String title = null;
-	String date = null;
-	List<String> authors = new ArrayList<String>();
+	String id = null;
 
 	private List<Map<String,String>> entries = null;
 	
@@ -45,32 +39,16 @@ class SearchXmlHandler extends DefaultHandler {
 
 	public void endElement(String uri, String localName, String qName) {
 		
-		if( this.currentMatch.endsWith("entry") ) {
-			if( doi != null && url != null ) {
+		if( this.currentMatch.endsWith(".Id") ) {
+			if( id != null ) {
 
 				Map<String, String> map = new HashMap<String, String>();
-				map.put("doi", doi);
-				map.put("url", url);
-				map.put("title", title);
-				map.put("date", date);
-				map.put("oa", oa);
-				String au = "";
-				for( String a : authors ) {
-					au += a + "; ";
-				}
-				if( au.length() > 0 )
-					au = au.substring(0, au.length()-2);
-				map.put("authors", au);
+				map.put("id", id);
 				getEntries().add(map);
 				
 			}
 			
-			doi = null;
-			url = null;
-			title = null;
-			date = null;
-			oa = null;
-			authors = new ArrayList<String>();
+			id = null;
 			
 		}
 		
@@ -85,39 +63,17 @@ class SearchXmlHandler extends DefaultHandler {
 
 		try {
 
-			if( this.currentMatch.endsWith(".prism:url") ) {
-				url = value;
-			}
-
-			if( this.currentMatch.endsWith(".dc:identifier") ) {
-				doi = value;
-			}
-
-			if( this.currentMatch.endsWith(".dc:title") ) {
-				title = value;
+			if( this.currentMatch.endsWith(".Id") ) {
+				id = value;
 			}
 			
-			if( this.currentMatch.endsWith(".prism:coverDisplayDate") ) {
-				date = value;
-			}
-			
-			if( this.currentMatch.endsWith("authors.author.surname") ) {
-				authors.add( value );
-			}
-			
-			if( this.currentMatch.endsWith("opensearch:totalResults") ) {
-				this.setTotal(new Integer( value ));
+			if( this.currentMatch.endsWith("eSearchResult.Count") ) {
+				total = new Integer(value);
 			}
 
-			if( this.currentMatch.endsWith("opensearch:startIndex") ) {
-				this.setOffset(new Integer( value ));
+			if( this.currentMatch.endsWith("eSearchResult.RetStart") ) {
+				offset = new Integer(value);
 			}
-
-			if( this.currentMatch.endsWith("openaccessArticle") ) {
-				oa = value;
-			}
-
-			
 			
 		} catch (Exception e) {
 
