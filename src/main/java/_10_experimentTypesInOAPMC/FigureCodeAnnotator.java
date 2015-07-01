@@ -29,6 +29,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -39,6 +41,7 @@ import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.jcas.cas.FSArray;
 import org.apache.uima.jcas.tcas.DocumentAnnotation;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.cleartk.ml.feature.extractor.CleartkExtractor;
@@ -56,9 +59,12 @@ import org.uimafit.descriptor.ConfigurationParameter;
 import org.uimafit.factory.ConfigurationParameterFactory;
 import org.uimafit.util.JCasUtil;
 
+import bioc.type.UimaBioCAnnotation;
 import bioc.type.UimaBioCDocument;
+import bioc.type.UimaBioCLocation;
 import bioc.type.UimaBioCPassage;
 import edu.isi.bmkeg.digitalLibrary.utils.BioCUtils;
+import edu.isi.bmkeg.uimaBioC.UimaBioCUtils;
 
 
 /**
@@ -66,68 +72,63 @@ import edu.isi.bmkeg.digitalLibrary.utils.BioCUtils;
  * 
  * @author Gully
  */
-public class ExperimentTypeClassifier extends JCasAnnotator_ImplBase {
+public class FigureCodeAnnotator extends JCasAnnotator_ImplBase {
 	
-	private static Logger logger = Logger.getLogger(ExperimentTypeClassifier.class);
+	private static Logger logger = Logger.getLogger(FigureCodeAnnotator.class);
 	
-	public final static String PARAM_OUTPUT_FILE = ConfigurationParameterFactory
-			.createConfigurationParameterName(ExperimentTypeClassifier.class,
-					"outFile");
-	@ConfigurationParameter(mandatory = true, description = "Output file.")
-	String outFile;
-	
-	private CleartkExtractor<UimaBioCPassage, Token> unigramExtractor; 
-	private CleartkExtractor<DocumentAnnotation, Token> bigramExtractor;
-			
-	private PrintWriter outWriter;
-	
-	Pattern patt = Pattern.compile("Figure\\s+(\\d+)");
-	
-	public static URI createTokenTfIdfDataURI(File outputDirectoryName, String code) {
-		File f = new File(outputDirectoryName, code + "_tfidf_extractor.dat");
-		return f.toURI();
-	}
+	Pattern figNumber = Pattern.compile("Figure\\s+(\\d+)");
+	List<Pattern> figPatterns;
+	List<String> codes;
+	String bioChunk;
 
 	public void initialize(UimaContext context)
 			throws ResourceInitializationException {
 		
 		super.initialize(context);		
+
+		figPatterns = new ArrayList<Pattern>();
+		figPatterns.add( Pattern.compile("(?:\\s+|^)\\(([A-Za-z]|[Tt]op|[Mm]iddle|[Bb]otton)\\)(?:\\s+|$|\\.|,|;)") ); // '. (A) '
+		
+		figPatterns.add( Pattern.compile(
+				"(?:\\s+|^)\\({0,1}([A-Za-z]), ([A-Za-z]), ([A-Za-z]),{0,1} and ([A-Za-z])\\){0,1}(?:\\s+|$|\\.|,)") 
+				); // '(a, b, c and d) '
+		figPatterns.add( Pattern.compile(
+				"(?:\\s+|^)\\({0,1}([A-Za-z]), ([A-Za-z]),{0,1} and ([A-Za-z])\\){0,1}(?:\\s+|$|\\.|,)") 
+				); // '(a, b and c) '
+		figPatterns.add( Pattern.compile(
+				"(?:\\s+|^)\\({0,1}([A-Za-z]) and ([A-Za-z])\\){0,1}(?:\\s+|$|\\.|,)") 
+				); // '(a and b) '
+		
+		figPatterns.add( Pattern.compile("\\s+([A-Za-z])\\.") ); // ' A. '
+		figPatterns.add( Pattern.compile("(?:\\s+|^)([A-Za-z])(?:,|\\.|;|$)") ); // ' A, '
+		figPatterns.add( Pattern.compile("(?:\\s+|^)\\(([A-Za-z])\\)(?:,|\\.|;|$)") ); // ' (A) '
+		figPatterns.add( Pattern.compile("\\.\\s+\\d+([A-Za-z])\\s+") ); // '. 1A '
+		figPatterns.add( Pattern.compile("\\.\\s+\\d+([A-Za-z])\\s+") ); // '. 1A '
 				
-		FeatureExtractor1<Token> lowerCaseExtractor1 = new FeatureFunctionExtractor<Token>(
-				new CoveredTextExtractor<Token>(),
-				BaseFeatures.EXCLUDE,
-				new LowerCaseFeatureFunction());
-						
-		unigramExtractor = new CleartkExtractor<UimaBioCPassage, Token>(
-				Token.class,
-				lowerCaseExtractor1,
-				new CleartkExtractor.Count(new CleartkExtractor.Covered())
-				);
+	}
+	
+	public static String readCode(Pattern p, Sentence s) {
 		
-	    FeatureExtractor1<Token> lowerCaseExtractor2 = new FeatureFunctionExtractor<Token>(
-				new CoveredTextExtractor<Token>(),
-				BaseFeatures.EXCLUDE,
-				new LowerCaseFeatureFunction());
-
-		CleartkExtractor<Token, Token> biExtractor = new CleartkExtractor<Token, Token>(Token.class,
-				lowerCaseExtractor2,
-			    new Ngram(new Preceding(1), new Focus()));
-
-		this.bigramExtractor = new CleartkExtractor<DocumentAnnotation, Token>(Token.class,
-				biExtractor, new CleartkExtractor.Count(new CleartkExtractor.Covered()));
+		Matcher matcher = p.matcher(s.getCoveredText());
+		List<String> codes = new ArrayList<String>();
 		
-		try {
-			File f = new File(outFile);
-			if( f.exists() )
-				f.delete();
-			outWriter = new PrintWriter(new BufferedWriter(
-					new FileWriter(f, true)));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		while( matcher.find() ) {									
+			codes.add(matcher.group(1));
+			for(int i=1; i<matcher.groupCount(); i++) {
+				codes.add(matcher.group(i+1));	
+			}
+		} 
+		
+		String code = "";
+		for(String c: codes) {
+			if(code.length()>0)
+				code += ", ";
+			
+			code += c;
 		}
-
-				
+		
+		return code;
+		
 	}
 
 	public void process(JCas jCas) throws AnalysisEngineProcessException {
@@ -135,59 +136,69 @@ public class ExperimentTypeClassifier extends JCasAnnotator_ImplBase {
 		UimaBioCDocument uiD = JCasUtil.selectSingle(jCas, UimaBioCDocument.class);
 		Map<String, String> dInf = BioCUtils.convertInfons(uiD.getInfons());
 		
-		List<UimaBioCPassage> passages = JCasUtil.selectCovered(UimaBioCPassage.class, uiD);
-		for (UimaBioCPassage uiP : passages) {			
+		List<UimaBioCAnnotation> annotations = JCasUtil.selectCovered(UimaBioCAnnotation.class, uiD);
+		for (UimaBioCAnnotation uiA1 : annotations) {			
 		
-			Map<String, String> psgInf = BioCUtils.convertInfons(uiP.getInfons());
-			if( psgInf.containsKey("type") && psgInf.get("type").equals("fig") ){
+			Map<String, String> a1Inf = BioCUtils.convertInfons(uiA1.getInfons());
+			if( a1Inf.containsKey("type") && a1Inf.get("type").equals("fig") ){
 				
-				Matcher m = patt.matcher(uiP.getCoveredText());
+				Matcher m = figNumber.matcher(uiA1.getCoveredText());
 				int figNumber = -1;
 				if( m.find() ) {
 					figNumber = new Integer(m.group(1));
 				}
 				
-				List<UimaBioCPassage> captions = JCasUtil.selectCovered(UimaBioCPassage.class, uiP);
-				for (UimaBioCPassage caption : captions) {			
+				List<UimaBioCAnnotation> captions = JCasUtil.selectCovered(UimaBioCAnnotation.class, uiA1);
+				for (UimaBioCAnnotation caption : captions) {			
 
 					Map<String, String> capInf = BioCUtils.convertInfons(caption.getInfons());
 					if( capInf.containsKey("type") && capInf.get("type").equals("caption") ){
 
 						List<Sentence> sentences = JCasUtil.selectCovered(Sentence.class, caption);
-						for (Sentence sentence : sentences) {			
+						bioChunk = "o";
 						
-							if( sentence.getCoveredText().contains("precipitat") ) {
-								System.out.println( uiD.getId() 
-										+ ", fig" + ((figNumber!=-1)?figNumber+"":"?") + ": " 
-										+ sentence.getCoveredText().replaceAll("\\n", " ") );
-								outWriter.write( uiD.getId() 
-										+ ", fig" + ((figNumber!=-1)?figNumber+"":"?") + ": " 
-										+ sentence.getCoveredText().replaceAll("\\n", " ") );
-								outWriter.write( "\n" );
+						for (Sentence s : sentences) {			
+
+							String code = "";
+							for (Pattern patt: figPatterns) {
+								code = readCode(patt, s);
+								if( code.length() > 0 )
+									break;
 							}
+
+							if( code.length() > 0 )
+								bioChunk = "b";
+							else if( bioChunk.equals("b") ) 
+								bioChunk = "i";
+								
+							UimaBioCAnnotation uiA = new UimaBioCAnnotation(jCas);
+							uiA.setBegin(s.getBegin());
+							uiA.setEnd(s.getEnd());
+							Map<String,String> infons = new HashMap<String, String>();
+							infons.put("type", "sub-figure-sentence");
+							infons.put("code", code);
+							infons.put("figNumber", figNumber + "");
+							infons.put("bio", bioChunk);
+							uiA.setInfons(UimaBioCUtils.convertInfons(infons, jCas));
+							uiA.addToIndexes();
 							
+							FSArray locations = new FSArray(jCas, 1);
+							uiA.setLocations(locations);
+							UimaBioCLocation uiL = new UimaBioCLocation(jCas);
+							locations.set(0, uiL);
+							uiL.setOffset(s.getBegin());
+							uiL.setLength(s.getEnd() - s.getBegin());
+
 						}
 						
 					}
 					
 				}
-								/*for( Feature f : this.unigramExtractor.extract(jCas, uiP) ) {
-					System.out.println(f.getName() + " " + f.getValue() ); 
-				}*/
 
 			}
 				
 		}
 		
 	}
-	
-	public void collectionProcessComplete()
-			throws AnalysisEngineProcessException {
-	
-		super.collectionProcessComplete();
-		outWriter.close();
-	
-	}
-	
 	
 }

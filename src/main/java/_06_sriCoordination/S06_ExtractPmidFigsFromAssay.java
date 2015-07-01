@@ -6,7 +6,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -37,7 +39,7 @@ public class S06_ExtractPmidFigsFromAssay {
 
 		@Option(name = "-assay", 
 				usage = "Assay Code: http://pl.csl.sri.com/CurationNotebook/pages/_Assays.html", 
-				required = true, metaVar = "ASSAY")
+				required = false, metaVar = "ASSAY")
 		public String assay;
 
 		@Option(name = "-file_list", 
@@ -64,6 +66,49 @@ public class S06_ExtractPmidFigsFromAssay {
 
 		CmdLineParser parser = new CmdLineParser(options);
 		Pattern patt = Pattern.compile("PMID:(\\d+)$");
+		
+		Map<String,String> types = new HashMap<String, String>();
+		types.put("acetylation", "Modifies");
+		types.put("boundby", "Binds");
+		types.put("boundto", "Binds");
+		types.put("cleavage", "Binds");
+		types.put("colocwith", "Translocates");
+		types.put("copptby", "Binds");
+		types.put("dimerization", "Binds");
+		types.put("Gal4-reporter", "Increases Activity");
+		types.put("GDP-dissociation", "Increases Activity");
+		types.put("GTP-association", "Increases Activity");
+		types.put("GTP-bdpd", "Increases Activity");
+		types.put("GTP-hydrolysis", "Increases Activity");
+		types.put("GTP-percent", "Increases Activity");
+		types.put("infraction", "Translocates");
+		types.put("internalization", "Translocates");
+		types.put("IVGefA", "Increases Activity");
+		types.put("IVKA", "Modifies");
+		types.put("IVLKA", "Modifies");
+		types.put("LexA-reporter", "Increases Activity");
+		types.put("locatedin", "Translocates");
+		types.put("mRNA", "Increases");
+		types.put("nuc-export", "Translocates");
+		types.put("nuc-import", "Translocates");
+		types.put("oligo-binding", "Binds");
+
+		types.put("oligomerization", "Binds");
+		types.put("phos", "Modifies");
+		types.put("polymerization", "Binds");
+		types.put("promo-reporter", "Increases Activity");
+		types.put("prot-exp", "Increases");
+		types.put("prot-stability", "Increases");
+		types.put("secretion", "Translocates");
+		types.put("snaggedby", "Translocates");
+		types.put("Sphos", "Modifies");
+		types.put("STphos", "Modifies");
+		types.put("sumo", "Modifies");
+		types.put("surface-exp", "Translocates");
+		types.put("Tphos", "Modifies");
+		types.put("ubiq", "Modifies");
+		types.put("upshift", "Modifies");
+		types.put("Yphos", "Modifies");		
 			
 		try {
 
@@ -88,12 +133,16 @@ public class S06_ExtractPmidFigsFromAssay {
 			MongoCollection<Document> datums = db.getCollection("datums");
 			
 			//{"assay.assay" : "copptby"}, {"_id":0, "assay.assay":1, "source.pmid":1, "source.figures":1}
-			BasicDBObject query = new BasicDBObject("assay.assay", options.assay);
-			BasicDBObject select = new BasicDBObject("_id", 0)
+			BasicDBObject query = new BasicDBObject();
+			if( options.assay != null  )
+				query = new BasicDBObject("assay.assay", options.assay);
+			
+			/*BasicDBObject select = new BasicDBObject("_id", 0)
 					.append("assay.assay", 1)
 					.append("source.pmid", 1)
-					.append("source.figures", 1);
+					.append("source.figures", 1);*/
 			
+			options.outFile.delete();
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
 					options.outFile, true)));
 			
@@ -105,7 +154,9 @@ public class S06_ExtractPmidFigsFromAssay {
 					continue;
 				}
 				Object figures = ((Document) doc.get("source")).get("figures");
-				out.println ( pmid + "\t" + figures );
+				String assay = (String) ((Document) doc.get("assay")).get("assay");
+				String type = types.get(assay);
+				out.println ( type + "\t" + assay + "\t" + pmid + "\t" + figures );
 			}
 			
 			out.close();

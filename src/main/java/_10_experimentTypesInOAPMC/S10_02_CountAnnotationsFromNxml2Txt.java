@@ -1,13 +1,7 @@
 package _10_experimentTypesInOAPMC;
 
 import java.io.File;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
@@ -24,6 +18,8 @@ import org.uimafit.pipeline.SimplePipeline;
 
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
+import edu.isi.bmkeg.digitalLibrary.cleartk.cr.DigitalLibraryCollectionReader;
+import edu.isi.bmkeg.uimaBioC.uima.out.TabulateNestedBioCAnnotations;
 import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
 
 /**
@@ -33,7 +29,7 @@ import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
  * @author Gully
  * 
  */
-public class S10_01_BuildBioCFromNxml2Txt {
+public class S10_02_CountAnnotationsFromNxml2Txt {
 
 	public static class Options {
 
@@ -45,7 +41,12 @@ public class S10_01_BuildBioCFromNxml2Txt {
 		@Option(name = "-bratDir", usage = "Brat directory", required = true, metaVar = "LOGIN")
 		public File bratDir;
 
+		@Option(name = "-bratType", usage = "Brat directory", required = true, metaVar = "LOGIN")
+		public File bratType;
 		//~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		@Option(name = "-corpus", usage = "The target corpus to be evaluated", required = true)
+		public String corpus = "";
 		
 		@Option(name = "-l", usage = "Database login", required = true, metaVar = "LOGIN")
 		public String login = "";
@@ -61,16 +62,19 @@ public class S10_01_BuildBioCFromNxml2Txt {
 
 		//~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		@Option(name = "-outDir", usage = "Output Directory", required = true, metaVar = "OUT-DIRECTORY")
-		public File outDir;
+		@Option(name = "-outFile", usage = "Output Directory", required = true, metaVar = "OUT-DIRECTORY")
+		public File outFile;
 
-		@Option(name = "-outFormat", usage = "Output Format", required = true, metaVar = "XML/JSON")
-		public String outFormat;
+		@Option(name = "-annType1", usage = "Output Format", required = true, metaVar = "XML/JSON")
+		public String annType1;
+
+		@Option(name = "-annType2", usage = "Output Format", required = true, metaVar = "XML/JSON")
+		public String annType2;
 
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S10_01_BuildBioCFromNxml2Txt.class);
+			.getLogger(S10_02_CountAnnotationsFromNxml2Txt.class);
 
 	/**
 	 * @param args
@@ -97,15 +101,29 @@ public class S10_01_BuildBioCFromNxml2Txt {
 
 		}
 		
-		if (!options.outDir.getParentFile().exists())
-			options.outDir.getParentFile().mkdirs();
+		if (!options.outFile.getParentFile().exists())
+			options.outFile.getParentFile().mkdirs();
 
 		TypeSystemDescription typeSystem = TypeSystemDescriptionFactory
 				.createTypeSystemDescription("bioc.TypeSystem");
 
-		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
+		/*CollectionReader cr = CollectionReaderFactory.createCollectionReader(
 				Nxml2TxtFilesCollectionReader.class, typeSystem,
-				Nxml2TxtFilesCollectionReader.PARAM_INPUT_DIRECTORY, options.inDir);
+				Nxml2TxtFilesCollectionReader.PARAM_INPUT_DIRECTORY, options.inDir);*/
+		
+		CollectionReader cr = CollectionReaderFactory
+				.createCollectionReader(
+						DigitalLibraryCollectionReader.class,
+						typeSystem, DigitalLibraryCollectionReader.LOGIN,
+						options.login,
+						DigitalLibraryCollectionReader.PASSWORD,
+						options.password,
+						DigitalLibraryCollectionReader.DB_URL,
+						options.dbName,
+						DigitalLibraryCollectionReader.WORKING_DIRECTORY,
+						options.workingDirectory,
+						DigitalLibraryCollectionReader.CORPUS_NAME,
+						options.corpus);
 
 		AggregateBuilder builder = new AggregateBuilder();
 
@@ -122,22 +140,23 @@ public class S10_01_BuildBioCFromNxml2Txt {
 				AddFragmentsAndCodes.FRAGMENT_TYPE, "epistSeg"));
 		 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				AddBratAnnotations.class, AddBratAnnotations.BRAT_DATA_DIRECTORY,
-				options.bratDir ));
+				AddBratAnnotations.class, 
+				AddBratAnnotations.BRAT_DATA_DIRECTORY,
+				options.bratDir,
+				AddBratAnnotations.BRAT_TYPE,
+				options.bratType ));
 		 
-		String outFormat = SaveAsBioCDocuments.JSON;
-		if( options.outFormat.equals("XML") ) 
-			outFormat = SaveAsBioCDocuments.XML;
-
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				SaveAsBioCDocuments.class, 
-				SaveAsBioCDocuments.PARAM_FILE_PATH,
-				options.outDir.getPath(),
-				SaveAsBioCDocuments.PARAM_FORMAT,
-				outFormat));
+				TabulateNestedBioCAnnotations.class, 
+				TabulateNestedBioCAnnotations.PARAM_OUTER_ANNOTATION_TYPE,
+				options.annType1,
+				TabulateNestedBioCAnnotations.PARAM_FILE_PATH,
+				options.outFile.getPath(),
+				TabulateNestedBioCAnnotations.PARAM_INNER_ANNOTATION_TYPE,
+				options.annType2));
 
 		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 

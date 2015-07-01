@@ -24,6 +24,7 @@ import org.uimafit.pipeline.SimplePipeline;
 
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
+import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
 import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
 
 /**
@@ -33,17 +34,12 @@ import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
  * @author Gully
  * 
  */
-public class S10_01_BuildBioCFromNxml2Txt {
+public class S10_03_AddFragmentsToBioC {
 
 	public static class Options {
 
 		@Option(name = "-inDir", usage = "Input Directory", required = true, metaVar = "IN-DIRECTORY")
 		public File inDir;
-
-		//~~~~~~~~~~~~~~~~~~~~~~~~~
-		
-		@Option(name = "-bratDir", usage = "Brat directory", required = true, metaVar = "LOGIN")
-		public File bratDir;
 
 		//~~~~~~~~~~~~~~~~~~~~~~~~~
 		
@@ -70,7 +66,7 @@ public class S10_01_BuildBioCFromNxml2Txt {
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S10_01_BuildBioCFromNxml2Txt.class);
+			.getLogger(S10_03_AddFragmentsToBioC.class);
 
 	/**
 	 * @param args
@@ -104,9 +100,11 @@ public class S10_01_BuildBioCFromNxml2Txt {
 				.createTypeSystemDescription("bioc.TypeSystem");
 
 		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
-				Nxml2TxtFilesCollectionReader.class, typeSystem,
-				Nxml2TxtFilesCollectionReader.PARAM_INPUT_DIRECTORY, options.inDir);
-
+				BioCCollectionReader.class, typeSystem,
+				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
+				BioCCollectionReader.OUTPUT_DIRECTORY, options.outDir,
+				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
+		
 		AggregateBuilder builder = new AggregateBuilder();
 
 		builder.add(SentenceAnnotator.getDescription()); // Sentence
@@ -121,14 +119,14 @@ public class S10_01_BuildBioCFromNxml2Txt {
 				AddFragmentsAndCodes.WORKING_DIRECTORY, options.workingDirectory,
 				AddFragmentsAndCodes.FRAGMENT_TYPE, "epistSeg"));
 		 
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				AddBratAnnotations.class, AddBratAnnotations.BRAT_DATA_DIRECTORY,
-				options.bratDir ));
-		 
-		String outFormat = SaveAsBioCDocuments.JSON;
-		if( options.outFormat.equals("XML") ) 
+		String outFormat = null;
+		if( options.outFormat.toLowerCase().equals("xml") ) 
 			outFormat = SaveAsBioCDocuments.XML;
-
+		else if( options.outFormat.toLowerCase().equals("json") ) 
+			outFormat = SaveAsBioCDocuments.JSON;
+		else 
+			throw new Exception("Output format " + options.outFormat + " not recognized");
+		
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 

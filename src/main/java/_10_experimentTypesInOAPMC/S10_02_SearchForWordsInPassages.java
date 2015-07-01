@@ -17,6 +17,8 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
+import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
+
 
 /**
  * This script runs through serialized JSON files from the model and converts
@@ -76,7 +78,7 @@ public class S10_02_SearchForWordsInPassages {
 
 		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
 				Nxml2TxtFilesCollectionReader.class, typeSystem,
-				Nxml2TxtFilesCollectionReader.INPUT_DIRECTORY, options.inDir);
+				Nxml2TxtFilesCollectionReader.PARAM_INPUT_DIRECTORY, options.inDir);
 
 		AggregateBuilder builder = new AggregateBuilder();
 
@@ -87,13 +89,12 @@ public class S10_02_SearchForWordsInPassages {
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 
-		
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 		
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				ExperimentTypeClassifier.class,
-				ExperimentTypeClassifier.PARAM_OUTPUT_FILE, options.outFile));
+		/*builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				FigureCodeAnnotator.class,
+				FigureCodeAnnotator.PARAM_OUTPUT_FILE, options.outFile));*/
 
 		/*
 		 * builder.add(AnalysisEngineFactory.createPrimitiveDescription(

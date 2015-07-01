@@ -35,7 +35,7 @@ public class S08_ExamineTypesAndPredicates {
 
 	public static class Options {
 
-		@Option(name = "-inFile", usage = "Input =file", required = true, metaVar = "INPUT")
+		@Option(name = "-inFile", usage = "Input file", required = true, metaVar = "INPUT")
 		public File inFile;
 
 		@Option(name = "-outFile", usage = "Output file", required = true, metaVar = "OUTPUT")

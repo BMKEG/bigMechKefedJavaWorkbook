@@ -135,6 +135,16 @@
 		<dependency>
 			<groupId>edu.isi.bmkeg</groupId>
 			<artifactId>digitalLibraryDao</artifactId>
+			<exclusions>
+				<exclusion>
+					<artifactId>vpdmf-digitalLibrary-jpa</artifactId>
+					<groupId>edu.isi.bmkeg</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>vpdmf-ftd-jpa</artifactId>
+					<groupId>edu.isi.bmkeg</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -269,7 +279,7 @@
 			<artifactId>BioC_Java</artifactId>
 			<version>1.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>au.com.nicta.csp</groupId>
 			<artifactId>BRATEval</artifactId>
@@ -300,6 +310,35 @@
 			<version>2.3.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.1.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>edu.isi.bmkeg</groupId>
+			<artifactId>UimaBioC</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.fge</groupId>
+			<artifactId>json-schema-core</artifactId>
+			<version>1.2.3</version>
+		</dependency>
 
 	</dependencies>
 

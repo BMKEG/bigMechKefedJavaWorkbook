@@ -86,9 +86,9 @@ public class S09_05_SimpleRunNxmlToText {
 			String newPath = f.getPath().replaceAll(
 					options.inDir.getPath(),
 					options.outDir.getPath());
-			File txtFile = new File(newPath.replaceAll(".nxml", ".txt"));
-			File annFile = new File(newPath.replaceAll(".nxml", ".so"));
-			File logFile = new File(newPath.replaceAll(".nxml", "_nxml2txt.log"));
+			File txtFile = new File(newPath.replaceAll("\\.nxml$", ".txt"));
+			File annFile = new File(newPath.replaceAll("\\.nxml$", ".so"));
+			File logFile = new File(newPath.replaceAll("\\.nxml$", "_nxml2txt.log"));
 			txtFile.getParentFile().mkdirs();
 			
 			String command = options.execPath.getPath() + " " + f.getPath() 

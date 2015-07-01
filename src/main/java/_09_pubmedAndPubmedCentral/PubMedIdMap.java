@@ -40,11 +40,11 @@ public class PubMedIdMap {
 	Pattern p2 = Pattern.compile("\\w{2}\\/\\w{2}\\/(.*?)_\\d{4}_");
 
 	Map<Integer, String> pm_to_pmc;
-	//Map<String, Integer> pmc_to_pm;
+	Map<String, Integer> pmc_to_pm;
 	Map<Integer, String> pm_to_xml;
-	//Map<String, String> pmc_to_xml;
+	Map<String, String> pmc_to_xml;
 	Map<Integer, String> pm_to_pdf;
-	//Map<String, String> pmc_to_pdf;
+	Map<String, String> pmc_to_pdf;
 
 	private static Logger logger = Logger
 			.getLogger(S09_02_RetrievePmcArticlesFromSearchList.class);
@@ -71,14 +71,14 @@ public class PubMedIdMap {
 		logger.info("Loading PDF information");
 		buildPdfMaps(targetDir, f);
 		
-		/*f = new File(targetDir + "/"
+		f = new File(targetDir + "/"
 				+ readFilename(PMCIDS).replaceAll("\\.gz", ""));
 		if (!f.exists()) {
 			logger.info("Saving " + PMCIDS);
 			this.dumpToUnzippedFile(PMCIDS, f);
 		}
 		logger.info("Loading mapping between PMC and PMID");
-		buildIdMaps(targetDir, f);*/
+		buildIdMaps(targetDir, f);
 
 	}
 
@@ -105,7 +105,7 @@ public class PubMedIdMap {
 
 		if (!f2.exists()) {
 			pm_to_xml = new HashMap<Integer, String>();
-			//pmc_to_xml = new HashMap<String, String>();
+			pmc_to_xml = new HashMap<String, String>();
 	
 			BufferedReader in2 = new BufferedReader(new InputStreamReader(
 					new FileInputStream(f)));
@@ -130,7 +130,7 @@ public class PubMedIdMap {
 										+ xmlStem + ".nxml");
 								pm_to_xml.put(new Integer(pmidStr),
 										xmlFile.getPath());
-								//pmc_to_xml.put(pmcId, xmlFile.getPath());
+								pmc_to_xml.put(pmcId, xmlFile.getPath());
 							}
 						}
 					} catch (NumberFormatException e) {
@@ -147,9 +147,9 @@ public class PubMedIdMap {
 					new FileOutputStream(targetDir.getPath() + "/pm_to_xml.obj"));
 			out.writeObject(pm_to_xml);
 	
-			/*out = new ObjectOutputStream(new FileOutputStream(
+			out = new ObjectOutputStream(new FileOutputStream(
 					targetDir.getPath() + "/pmc_to_xml.obj"));
-			out.writeObject(pmc_to_xml);*/
+			out.writeObject(pmc_to_xml);
 		
 		} else {
 			
@@ -158,10 +158,10 @@ public class PubMedIdMap {
 			pm_to_xml = (Map<Integer, String>) out.readObject();
 			out.close();
 
-			/*out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
+			out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
 					+ "/pmc_to_xml.obj"));
 			pmc_to_xml = (Map<String, String>) out.readObject();
-			out.close();*/
+			out.close();
 			
 		}
 		
@@ -175,7 +175,7 @@ public class PubMedIdMap {
 
 		if (!f2.exists()) {
 			pm_to_pdf = new HashMap<Integer, String>();
-			//pmc_to_pdf = new HashMap<String, String>();
+			pmc_to_pdf = new HashMap<String, String>();
 	
 			BufferedReader in2 = new BufferedReader(new InputStreamReader(
 					new FileInputStream(f)));
@@ -189,7 +189,7 @@ public class PubMedIdMap {
 						String pmidStr = fields[3].replaceAll("PMID:", "");
 						String pdf = BASE + "/" + fields[0];
 						pm_to_pdf.put(new Integer(pmidStr), pdf);
-						//pmc_to_pdf.put(pmcId, pdf);
+						pmc_to_pdf.put(pmcId, pdf);
 					} catch (NumberFormatException e) {
 						// just ignore these, skip to the next.
 					}
@@ -204,9 +204,9 @@ public class PubMedIdMap {
 					new FileOutputStream(targetDir.getPath() + "/pm_to_pdf.obj"));
 			out.writeObject(pm_to_pdf);
 	
-			/*out = new ObjectOutputStream(new FileOutputStream(
+			out = new ObjectOutputStream(new FileOutputStream(
 					targetDir.getPath() + "/pmc_to_pdf.obj"));
-			out.writeObject(pmc_to_pdf);*/
+			out.writeObject(pmc_to_pdf);
 		
 		} else {
 			
@@ -215,10 +215,10 @@ public class PubMedIdMap {
 			pm_to_pdf = (Map<Integer, String>) out.readObject();
 			out.close();
 
-			/*out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
+			out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
 					+ "/pmc_to_pdf.obj"));
 			pmc_to_pdf = (Map<String, String>) out.readObject();
-			out.close();*/
+			out.close();
 			
 		}
 		
@@ -230,7 +230,7 @@ public class PubMedIdMap {
 		File f2 = new File(targetDir.getPath() + "/pm_to_pmc.obj");
 
 		pm_to_pmc = new HashMap<Integer, String>();
-		//pmc_to_pm = new HashMap<String, Integer>();
+		pmc_to_pm = new HashMap<String, Integer>();
 
 		if (!f2.exists()) {
 
@@ -245,7 +245,7 @@ public class PubMedIdMap {
 				if (notFirstLine) {
 					try {
 						pm_to_pmc.put(new Integer(pmidStr), pmcId);
-						//pmc_to_pm.put(pmcId, new Integer(pmidStr));
+						pmc_to_pm.put(pmcId, new Integer(pmidStr));
 					} catch (NumberFormatException e) {
 						// just ignore these, skip to the next.
 					}
@@ -259,9 +259,9 @@ public class PubMedIdMap {
 					new FileOutputStream(targetDir.getPath() + "/pm_to_pmc.obj"));
 			out.writeObject(pm_to_pmc);
 
-			/*out = new ObjectOutputStream(new FileOutputStream(
+			out = new ObjectOutputStream(new FileOutputStream(
 					targetDir.getPath() + "/pmc_to_pm.obj"));
-			out.writeObject(pmc_to_pm);*/
+			out.writeObject(pmc_to_pm);
 
 		} else {
 
@@ -270,10 +270,10 @@ public class PubMedIdMap {
 			pm_to_pmc = (Map<Integer, String>) out.readObject();
 			out.close();
 
-			/*out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
+			out = new ObjectInputStream(new FileInputStream(targetDir.getPath()
 					+ "/pmc_to_pm.obj"));
 			pmc_to_pm = (Map<String, Integer>) out.readObject();
-			out.close();*/
+			out.close();
 
 		}
 
