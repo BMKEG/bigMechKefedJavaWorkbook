@@ -87,7 +87,11 @@ public class FigureCodeAnnotator extends JCasAnnotator_ImplBase {
 		super.initialize(context);		
 
 		figPatterns = new ArrayList<Pattern>();
-		figPatterns.add( Pattern.compile("(?:\\s+|^)\\(([A-Za-z]|[Tt]op|[Mm]iddle|[Bb]otton)\\)(?:\\s+|$|\\.|,|;)") ); // '. (A) '
+
+		figPatterns.add( Pattern.compile("^\\(([A-Za-z])\\)(?:\\s+|\\:|\\.|,|;)") ); // '(A): '
+		figPatterns.add( Pattern.compile("^([A-Za-z])(?:\\:|\\.)") ); // 'A. '
+
+		figPatterns.add( Pattern.compile("(?:\\s+|^)\\(([A-Za-z]|[Tt]op|[Mm]iddle|[Bb]ottom)\\)(?:\\s+|$|\\.|,|;)") ); // '. (A) '
 		
 		figPatterns.add( Pattern.compile(
 				"(?:\\s+|^)\\({0,1}([A-Za-z]), ([A-Za-z]), ([A-Za-z]),{0,1} and ([A-Za-z])\\){0,1}(?:\\s+|$|\\.|,)") 
@@ -140,7 +144,9 @@ public class FigureCodeAnnotator extends JCasAnnotator_ImplBase {
 		for (UimaBioCAnnotation uiA1 : annotations) {			
 		
 			Map<String, String> a1Inf = BioCUtils.convertInfons(uiA1.getInfons());
-			if( a1Inf.containsKey("type") && a1Inf.get("type").equals("fig") ){
+			if( a1Inf.containsKey("type") 
+					&& a1Inf.get("type").equals("formatting")
+					&& a1Inf.get("value").equals("fig")){
 				
 				Matcher m = figNumber.matcher(uiA1.getCoveredText());
 				int figNumber = -1;
@@ -152,7 +158,9 @@ public class FigureCodeAnnotator extends JCasAnnotator_ImplBase {
 				for (UimaBioCAnnotation caption : captions) {			
 
 					Map<String, String> capInf = BioCUtils.convertInfons(caption.getInfons());
-					if( capInf.containsKey("type") && capInf.get("type").equals("caption") ){
+					if( capInf.containsKey("type") 
+							&& capInf.get("type").equals("formatting")
+							&& capInf.get("value").equals("caption") ){
 
 						List<Sentence> sentences = JCasUtil.selectCovered(Sentence.class, caption);
 						bioChunk = "o";

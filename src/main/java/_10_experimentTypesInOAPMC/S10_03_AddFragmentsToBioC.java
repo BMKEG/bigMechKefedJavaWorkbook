@@ -26,6 +26,7 @@ import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
 import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
 import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
+import edu.isi.bmkeg.uimaBioC.uima.out.SaveAsBioCDocuments;
 
 /**
  * This script runs through serialized JSON files from the model and converts

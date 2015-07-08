@@ -44,6 +44,9 @@ public class S10_05_ProcessFigureLegends {
 		@Option(name = "-outFile", usage = "Output Directory", required = true, metaVar = "OUT-DIRECTORY")
 		public File outFile;
 
+		@Option(name = "-figLabelFile", usage = "Figure Label File", required = true, metaVar = "FIGURE-LABEL-FILE")
+		public File figLabelFile;
+
 	}
 
 	private static Logger logger = Logger
@@ -99,7 +102,8 @@ public class S10_05_ProcessFigureLegends {
 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				FigureCodeSummarizer.class,
-				FigureCodeSummarizer.PARAM_OUT_FILE, options.outFile));
+				FigureCodeSummarizer.PARAM_OUT_FILE, options.outFile,
+				FigureCodeSummarizer.PARAM_FIG_LABEL_FILE, options.figLabelFile));
 				
 		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 

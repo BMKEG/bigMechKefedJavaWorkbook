@@ -23,48 +23,31 @@
  */
 package _10_experimentTypesInOAPMC;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.net.URI;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.cas.FSArray;
-import org.apache.uima.jcas.tcas.DocumentAnnotation;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.cleartk.ml.feature.extractor.CleartkExtractor;
-import org.cleartk.ml.feature.extractor.CleartkExtractor.Focus;
-import org.cleartk.ml.feature.extractor.CleartkExtractor.Ngram;
-import org.cleartk.ml.feature.extractor.CleartkExtractor.Preceding;
-import org.cleartk.ml.feature.extractor.CoveredTextExtractor;
-import org.cleartk.ml.feature.extractor.FeatureExtractor1;
-import org.cleartk.ml.feature.function.FeatureFunctionExtractor;
-import org.cleartk.ml.feature.function.FeatureFunctionExtractor.BaseFeatures;
-import org.cleartk.ml.feature.function.LowerCaseFeatureFunction;
-import org.cleartk.token.type.Sentence;
-import org.cleartk.token.type.Token;
 import org.uimafit.descriptor.ConfigurationParameter;
 import org.uimafit.factory.ConfigurationParameterFactory;
 import org.uimafit.util.JCasUtil;
 
 import bioc.type.UimaBioCAnnotation;
 import bioc.type.UimaBioCDocument;
-import bioc.type.UimaBioCLocation;
-import bioc.type.UimaBioCPassage;
 import edu.isi.bmkeg.digitalLibrary.utils.BioCUtils;
-import edu.isi.bmkeg.uimaBioC.UimaBioCUtils;
 
 
 /**
@@ -82,8 +65,17 @@ public class FigureCodeSummarizer extends JCasAnnotator_ImplBase {
 	@ConfigurationParameter(mandatory = true, description = "The summary file.")
 	String outFilePath;
 
+	public final static String PARAM_FIG_LABEL_FILE = ConfigurationParameterFactory
+			.createConfigurationParameterName(FigureCodeSummarizer.class,
+					"figLabelFile");
+	@ConfigurationParameter(mandatory = true, description = "File with figure labels.")
+	String figLabelFile;
+	
 	File outFile;
 	StringBuffer sb;
+	
+	// lookup.get(pmid).get(fig).get("indexCard|exptCode")
+	Map<String,Map<String,Map<String,String>>> lookup;
 	
 	public void initialize(UimaContext context)
 			throws ResourceInitializationException {
@@ -95,7 +87,34 @@ public class FigureCodeSummarizer extends JCasAnnotator_ImplBase {
 		this.outFile = new File(this.outFilePath);
 
 		this.sb = new StringBuffer();
-		this.sb.append( "pmid\tfigure\tcode\tbio\tbegin\tend\ttext\n" );
+		this.sb.append( "id\tpmid\tfigure\tcode\tbio\tindexCard\texptCode\tbegin\tend\ttext\n" );
+		
+		lookup = new HashMap<String,Map<String,Map<String,String>>>();
+		try (BufferedReader br = new BufferedReader(new FileReader(figLabelFile))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		       String[] fields = line.split("\\t");
+		       String indexCard = fields[0];
+		       String exptCode = fields[1];
+		       String pmid = fields[2];
+		       
+		       String fig = fields[3];
+		       fig = fig.substring(fig.lastIndexOf("-")+1, fig.length()).toLowerCase();
+		       
+		       if(!lookup.containsKey(pmid))
+		    	   lookup.put(pmid, new HashMap<String,Map<String,String>>());
+		       if(!lookup.get(pmid).containsKey(fig))
+		    	   lookup.get(pmid).put(fig, new HashMap<String,String>());
+		       lookup.get(pmid).get(fig).put("exptCode", exptCode);
+		       lookup.get(pmid).get(fig).put("indexCard", indexCard);
+		    }
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			throw new ResourceInitializationException(e);
+		} catch (IOException e) {
+			e.printStackTrace();
+			throw new ResourceInitializationException(e);
+		}
 		
 	}
 
@@ -104,20 +123,55 @@ public class FigureCodeSummarizer extends JCasAnnotator_ImplBase {
 		UimaBioCDocument uiD = JCasUtil.selectSingle(jCas, UimaBioCDocument.class);
 		
 		List<UimaBioCAnnotation> annotations = JCasUtil.selectCovered(UimaBioCAnnotation.class, uiD);
+		int i = 0;
 		for (UimaBioCAnnotation uiA : annotations) {			
 		
 			Map<String, String> inf = BioCUtils.convertInfons(uiA.getInfons());
-			if( !inf.containsKey("type") || !inf.get("type").equals("sub-figure-sentence") )
+			if( !(inf.containsKey("type") 
+					&& inf.get("type").equals("formatting") 
+					&& inf.get("value").equals("sub-figure-sentence")) )
 				continue;
+			
+			String pmid = uiD.getId();
+			String figNumber = inf.get("figNumber");
+			String code = inf.get("code");
+			String[] codes = code.split(", ");
+			String indexCards = "";
+			String exptCodes = "";
+			if( lookup.containsKey(pmid) ) {
+				if( lookup.get(pmid).containsKey(figNumber)) {
+					if( indexCards.length() > 0)
+						indexCards += ", ";
+					indexCards += lookup.get(pmid).get(figNumber).get("indexCard");
+					if( exptCodes.length() > 0)
+						exptCodes += ", ";
+					exptCodes += lookup.get(pmid).get(figNumber).get("exptCode");
+				} else {
+					for( String c : codes) {
+						String fc = figNumber + c.toLowerCase();
+						if( lookup.get(pmid).containsKey(fc)) {
+							if( indexCards.length() > 0)
+								indexCards += ", ";
+							indexCards += lookup.get(pmid).get(fc).get("indexCard");
+							if( exptCodes.length() > 0)
+								exptCodes += ", ";
+							exptCodes += lookup.get(pmid).get(fc).get("exptCode");
+						}
+					}
+				}
+			}
+			
 		
-			this.sb.append(uiD.getId() 
+			this.sb.append(i++ 
+					+ "\t" + uiD.getId() 
 					+ "\t" + inf.get("figNumber") 
 					+ "\t" + inf.get("code") 
 					+ "\t" + inf.get("bio") 
+					+ "\t" + indexCards 
+					+ "\t" + exptCodes 
 					+ "\t" + uiA.getBegin() 
 					+ "\t" + uiA.getEnd() 
 					+ "\t" + uiA.getCoveredText().replaceAll("\\n", " ") + "\n");
-			
 			
 		}
 		
