@@ -1,13 +1,7 @@
 package _10_experimentTypesInOAPMC;
 
 import java.io.File;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
@@ -22,10 +16,7 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
 import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
-import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
 
 /**
  * This script runs through serialized JSON files from the model and converts

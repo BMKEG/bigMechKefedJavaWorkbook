@@ -50,6 +50,10 @@ public class S10_04_AddBratAnnotationsToBioC {
 		@Option(name = "-outFormat", usage = "Output Format", required = true, metaVar = "XML/JSON")
 		public String outFormat;
 
+		@Option(name = "-keepExisting", usage = "If true, don't delete existing data for restarts", 
+				required = false, metaVar = "KEEP?")
+		public Boolean keepExisting = false;
+
 	}
 
 	private static Logger logger = Logger
@@ -89,8 +93,15 @@ public class S10_04_AddBratAnnotationsToBioC {
 		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
 				BioCCollectionReader.class, typeSystem,
 				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
+				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
+		
+		if( options.keepExisting ) {		
+			cr = CollectionReaderFactory.createCollectionReader(
+				BioCCollectionReader.class, typeSystem,
+				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
 				BioCCollectionReader.OUTPUT_DIRECTORY, options.outDir,
 				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
+		}
 		
 		AggregateBuilder builder = new AggregateBuilder();
 
@@ -120,7 +131,6 @@ public class S10_04_AddBratAnnotationsToBioC {
 				options.outDir.getPath(),
 				SaveAsBioCDocuments.PARAM_FORMAT,
 				outFormat));
-
 		
 		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 

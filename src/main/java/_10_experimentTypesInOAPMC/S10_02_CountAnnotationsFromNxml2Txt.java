@@ -17,10 +17,8 @@ import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
 import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
 import edu.isi.bmkeg.digitalLibrary.cleartk.cr.DigitalLibraryCollectionReader;
 import edu.isi.bmkeg.uimaBioC.uima.out.TabulateNestedBioCAnnotations;
-import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
 
 /**
  * This script runs through serialized JSON files from the model and converts

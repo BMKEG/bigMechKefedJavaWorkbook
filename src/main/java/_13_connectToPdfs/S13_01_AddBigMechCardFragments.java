@@ -1,17 +1,12 @@
 package _13_connectToPdfs;
 
 import java.io.File;
-import java.io.FileReader;
-import java.sql.ResultSet;
-import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
 import org.cleartk.opennlp.tools.SentenceAnnotator;
 import org.cleartk.token.tokenizer.TokenAnnotator;
-import org.json.JSONArray;
-import org.json.simple.parser.JSONParser;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
@@ -21,13 +16,6 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
-import _09_pubmedAndPubmedCentral.PubMedESIndex;
-import bioc.BioCDocument;
-
-import com.google.gson.Gson;
-
-import edu.isi.bmkeg.digitalLibrary.controller.DigitalLibraryEngine;
-import edu.isi.bmkeg.uimaBioC.uima.ae.core.MatchPdfBlocksAndSentencesToNxmlText;
 import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
 
 /**

@@ -20,6 +20,8 @@ import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
 
+import edu.isi.bmkeg.uimaBioC.PubMedESIndex;
+
 /**
  * This script runs through serialized JSON files from the model and converts
  * them to VPDMf KEfED models, including the data.

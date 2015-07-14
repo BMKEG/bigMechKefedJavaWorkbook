@@ -1,13 +1,7 @@
 package _10_experimentTypesInOAPMC;
 
 import java.io.File;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
@@ -22,11 +16,8 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddFragmentsAndCodes;
-import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
-import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
 import edu.isi.bmkeg.uimaBioC.uima.out.SaveAsBioCDocuments;
+import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
 
 /**
  * This script runs through serialized JSON files from the model and converts
@@ -63,6 +54,10 @@ public class S10_03_AddFragmentsToBioC {
 
 		@Option(name = "-outFormat", usage = "Output Format", required = true, metaVar = "XML/JSON")
 		public String outFormat;
+
+		@Option(name = "-keepExisting", usage = "If true, don't delete existing data for restarts", 
+				required = false, metaVar = "KEEP?")
+		public Boolean keepExisting = false;
 
 	}
 
@@ -103,8 +98,15 @@ public class S10_03_AddFragmentsToBioC {
 		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
 				BioCCollectionReader.class, typeSystem,
 				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
+				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
+		
+		if( options.keepExisting ) {		
+			cr = CollectionReaderFactory.createCollectionReader(
+				BioCCollectionReader.class, typeSystem,
+				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
 				BioCCollectionReader.OUTPUT_DIRECTORY, options.outDir,
 				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
+		}
 		
 		AggregateBuilder builder = new AggregateBuilder();
 

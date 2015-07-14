@@ -6,10 +6,8 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -39,7 +37,6 @@ import org.uimafit.descriptor.ConfigurationParameter;
 import org.uimafit.factory.ConfigurationParameterFactory;
 import org.uimafit.util.JCasUtil;
 
-import _09_pubmedAndPubmedCentral.PubMedESIndex;
 import bioc.type.UimaBioCAnnotation;
 import bioc.type.UimaBioCDocument;
 import edu.isi.bmkeg.digitalLibrary.controller.DigitalLibraryEngine;
@@ -48,6 +45,7 @@ import edu.isi.bmkeg.ftd.model.FTDFragment;
 import edu.isi.bmkeg.ftd.model.FTDFragmentBlock;
 import edu.isi.bmkeg.ftd.model.qo.FTDFragment_qo;
 import edu.isi.bmkeg.ftd.model.qo.FTD_qo;
+import edu.isi.bmkeg.uimaBioC.PubMedESIndex;
 import edu.isi.bmkeg.uimaBioC.UimaBioCUtils;
 import edu.isi.bmkeg.vpdmf.model.instances.LightViewInstance;
 
