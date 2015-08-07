@@ -78,8 +78,7 @@ public class S09_02_RetrievePmcArticlesFromSearchList {
 
 		}
 
-		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir, 
-				options.pmcDir.getParentFile());
+		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir);
 
 		boolean isPmid = true;
 		File inputFile = options.pmidFile;

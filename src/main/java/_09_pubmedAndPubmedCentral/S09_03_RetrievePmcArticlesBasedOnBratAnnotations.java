@@ -72,8 +72,7 @@ public class S09_03_RetrievePmcArticlesBasedOnBratAnnotations {
 
 		}
  
-		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir, 
-				options.pmcDir.getParentFile());
+		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir);
 
 		Set<String> pmidSet = new HashSet<String>();
 		String[] fileTypes = {"ann"};		
