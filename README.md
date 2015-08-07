@@ -1,4 +1,4 @@
-systems-biology-kefed
+KEfED Java Workbook
 =====================
 
-KEfED-based technology applied to systems biology. Note, this work is primarily being developed under DARPA's Big Mechanism program. 
+KEfED-based for DARPA's Big Mechanism program. 
