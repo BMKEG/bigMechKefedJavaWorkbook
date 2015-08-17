@@ -3,11 +3,12 @@ package _10_experimentTypesInOAPMC;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.apache.uima.UimaContext;
@@ -86,6 +87,8 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 	private static Logger logger = Logger
 			.getLogger(AddFragmentsAndCodes.class);
 	
+	private Pattern unicodeStripper;
+	
 	public void initialize(UimaContext context)
 			throws ResourceInitializationException {
 
@@ -99,6 +102,9 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 					password, 
 					dbUrl, 
 					workingDirectory);
+			
+			unicodeStripper = Pattern.compile("(alpha|beta|gamma|delta)");
+			
 		} catch (Exception e) {
 
 			throw new ResourceInitializationException(e);
@@ -195,6 +201,8 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 					frgBlockList = frgBlockListHash.get(frgOrder);
 				}
 							
+				if( frgText.length() != 0 )
+					frgText += " ";
 				frgText += blkText;
 							
 				int start = frgText.indexOf(blkText);
@@ -233,18 +241,32 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 				float best = 0;
 				int sCount = 0;
 				int bestCount = 0;
-				int winL = 50;
+				int winL = 80;
 				int l = frgText.length();
 				Sentence bestS = null;	
 				for (Sentence sentence : sentences) {
+					
 					int s = sentence.getBegin();
 					int e = (l>winL)?(s+winL):(s+l);
 					if( e > txt.length() )
 						e = txt.length();
 					String sText = txt.substring(s, e);
-					final float result = cosineSimilarityMetric.compare(
+					
+					//
+					// Minor hack to remove unicode characters from the comparison. 
+					//
+					Matcher m = unicodeStripper.matcher(sText);
+					if( m.find() ) {
+						String newText = sText.replaceAll(unicodeStripper.pattern(), " ");
+						int extraText = sText.length() - newText.length();
+						sText = txt.substring(s,e + extraText);
+						sText = sText.replaceAll(unicodeStripper.pattern(), " ");
+					}
+					
+					final float result = levenshteinSimilarityMetric.compare(
 							frgText.substring(0,(l>winL?winL:l)), 
 							sText); 
+					
 					if( result > best ) {
 						best = result;
 						bestS = sentence;
@@ -256,7 +278,7 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 				//
 				// If we can't find a good match, skip this whole fragment. 
 				//
-				if( best < 0.70 ) {
+				if( best < 0.80 ) {
 					int w = (l>winL)?(winL):(l);
 					logger.error("ERROR(" + uiD.getId() + "_" + code + 
 							"), score:" + best + 
@@ -269,6 +291,13 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 				
 				int nextCount = 0;
 				Sentence thisS = sentences.get(bestCount + nextCount);
+				
+				logger.debug("(" + uiD.getId() + "_" + code + 
+						"), score:" + best + 
+						",\n   guess: " + bestS.getCoveredText()
+						+ "\n   frg: " + 
+						frgText.substring(0, 50) + "\n");
+				
 				int delta1 = frgText.length() - (thisS.getEnd() - bestS.getBegin());
 				Sentence nextS = sentences.get(bestCount + nextCount + 1);
 				int delta2 = frgText.length() - (nextS.getEnd() - bestS.getBegin());
@@ -331,13 +360,12 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 						
 						int s = ss + i;
 						String baseText = txt.substring(s, s+tt.length()).replaceAll("\\s+", "");
-						String sText = "";
-						try {
-							sText = (baseText.length()<win2)?baseText:baseText.substring(0, win2);
-						} catch (Exception e1) {
-							// TODO Auto-generated catch block
-							e1.printStackTrace();
+						String sText = (baseText.length()<win2)?baseText:baseText.substring(0, win2);
+						
+						if( sText.equals( ttNoWhite.substring(0,win2) ) ) {
+							
 						}
+						
 						float s_result = levenshteinSimilarityMetric.compare(ttNoWhite.substring(0,win2), sText); 
 						
 						// Only permit this position to be included as a candidate if 
@@ -408,8 +436,15 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 								+ "\n");	
 					}
 					
+					if(best_s == 0) {
+						logger.error("Can't identify block: " 
+								+ uiD.getId() + "_" + code + "('" + tt + "')");
+						continue;
+					}
+					
 					blk.setBegin(best_s);
 					blk.setEnd(best_e);
+					blk.setText(blk.getCoveredText());
 					blk.addToIndexes();
 					
 					newBlkAnnotations.add(blk);
@@ -447,7 +482,7 @@ public class AddFragmentsAndCodes extends JCasAnnotator_ImplBase {
 			}
 							
 			uiP.setAnnotations(withAddedAnnotations);
-			//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+			//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/\\
 			
 			de.getDigLibDao().getCoreDao().getCe().closeDbConnection();
 

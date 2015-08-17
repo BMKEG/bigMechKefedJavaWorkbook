@@ -110,10 +110,15 @@ public class S10_03_AddFragmentsToBioC {
 		
 		AggregateBuilder builder = new AggregateBuilder();
 
-		builder.add(SentenceAnnotator.getDescription()); // Sentence
-														// segmentation
 		builder.add(TokenAnnotator.getDescription()); // Tokenization
 
+		builder.add(SentenceAnnotator.getDescription()); // Sentence
+														// segmentation
+		
+		// Sentence makes mistakes when you get titles & subtitles in the text
+		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				FixSentenceAnnotator.class)); 
+		
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddFragmentsAndCodes.class, 
 				AddFragmentsAndCodes.LOGIN, options.login, 
