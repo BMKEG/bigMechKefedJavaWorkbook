@@ -1,5 +1,5 @@
 name: Systems Biology KEfED Tools
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: none
 kramdown:
