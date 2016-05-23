@@ -1,0 +1,14 @@
+T13	binds-complex 77 104	the Eps8–Abi1–Sos-1 complex
+T14	binds-constituent3 49 54	Sos-1
+T15	binds-constituent3 33 37	GEFs
+T16	binds-constituent3 201 206	Sos-1
+T17	binds-site 246 259	the DH domain
+T18	process 322 333	transfected
+T19	transfection-molecule 356 363	mycEps8
+T20	transfection-molecule 365 369	Abi1
+T21	transfection-molecule 382 397	wild-type Sos-1
+T22	transfection-molecule 401 409	Sos-1DH−
+T23	binds-constituent1 411 419	Sos-1DH−
+T24	binds-constituent2 436 457	the Eps8–Abi1 complex
+T25	binds-constituent2 476 491	wild-type Sos-1
+T26	binds-strength 458 475	as efficiently as

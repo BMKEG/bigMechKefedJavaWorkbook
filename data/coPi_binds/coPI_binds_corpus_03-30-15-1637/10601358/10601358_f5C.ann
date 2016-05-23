@@ -1,0 +1,16 @@
+T1	cell-type 4 15	Ramos cells
+T2	process 28 40	unstimulated
+T3	process 44 54	stimulated
+T4	incubation-reagent 60 64	IL-4
+T5	entity 77 93	Nuclear extracts
+T6	process 99 107	prepared
+T7	process 112 130	immunoprecipitated
+T8	ip-molecule 151 156	IRF-4
+T9	ip-molecule 168 173	BCL-6
+T10	assay-molecule 288 293	BCL-6
+T11	process 223 234	7% SDS-PAGE
+T12	process 257 273	Western blotting
+T13	entity 185 205	The immune complexes
+T14	entity 311 319	The blot
+T15	assay-molecule 365 370	IRF-4
+T16	coreference-target 407 427	the legend to Fig. 3

@@ -1,0 +1,18 @@
+T1	binds-site 203 222	SH2 domain of c-Src
+T3	binds-site 238 288	IQGAP1 independent of its tyrosine phosphorylation
+T4	binds-site 295 314	SH2 domain of c-Src
+T5	binds-constituent2 336 342	IQGAP1
+T7	cell-type 426 461	PAE cells null for chimeric VEGFR-2
+T9	binds-site 498 515	SH2 domain of Src
+T10	binds-constituent2 521 527	IQGAP1
+T11	binds-catalysis 546 553	VEGFR-2
+T12	binds-constituent1 41 46	c-Src
+T13	binds-constituent2 62 68	IQGAP1
+T14	binds-site 94 122	SH2 and SH3 domains of c-Src
+T15	binds-constituent1 117 122	c-Src
+T16	binds-constituent2 141 147	IQGAP1
+T17	process 154 178	in vitro pull-down assay
+T18	binds-constituent1 217 222	c-Src
+T2	binds-constituent2 238 244	IQGAP1
+T19	binds-constituent1 309 314	c-Src
+T6	binds-constituent1 512 515	Src

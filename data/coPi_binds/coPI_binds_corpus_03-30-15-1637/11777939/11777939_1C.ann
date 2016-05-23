@@ -1,0 +1,38 @@
+T1	m-val 573 575	no
+T2	assay-molecule 576 580	E3b1
+T3	ip-molecule 602 611	anti-myc 
+T4	cell-type 646 673	Eps8myc-reconstituted cells
+T5	coreference-target 750 771	the competing peptide
+T7	coreference-target 773 788	The association
+T8	m-val 803 812	preserved
+T9	incubation-reagent 818 891	a control peptide, bearing a Y→A substitution and unable to bind to Eps8 
+T11	m-val 951 953	no
+T12	assay-molecule 954 959	Sos-1
+T13	ip-molecule 982 990	anti-myc
+T14	incubation-reagent 1029 1042	the competing
+T15	incubation-reagent 1055 1075	the control, peptide
+T17	binds-constituent1 1156 1160	Eps8
+T18	binds-constituent2 1165 1170	Sos-1
+T19	binds-controller 1182 1224	the integrity of the Eps8–E3b1 interaction
+T6	binds-complex 1271 1285	S/E/E8 complex
+T10	binds-constituent1 1323 1327	Eps8
+T16	binds-constituent2 1329 1333	E3b1
+T20	binds-constituent2 1339 1344	Sos-1
+T21	binds-complex 1636 1666	a physiological S/E/E8 complex
+T22	binds-controller 21 25	E3b1
+T23	binds-constituent1 59 63	Eps8
+T24	binds-constituent2 68 73	Sos-1
+T25	binds-constituent1 231 235	Eps8
+T26	binds-constituent2 240 244	E3b1
+T27	binds-constituent1 542 546	Eps8
+T28	binds-constituent2 547 551	E3b1
+T29	coreference-target 1479 1508	the three endogenous proteins
+T30	process 147 180	coimmunoprecipitation experiments
+T32	binds-constituent1 280 284	E3b1
+T33	binds-site 288 310	the SH3 domain of Eps8
+T34	binds-constituent2 306 310	Eps8
+T35	binds-site 336 374	the amino acid sequence, PPPPPVDYTEDEE
+T31	binds-site 264 284	binding site of E3b1
+T36	process 684 703	immunoprecipitation
+T37	binds-controller 475 509	a peptide encompassing this region
+T38	coreference-target 498 509	this region

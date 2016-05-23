@@ -1,0 +1,32 @@
+T2	binds-catalysis 642 650	enhanced
+T4	binds-site 666 685	SH2 domain of c-Src
+T5	binds-constituent2 691 698	VEGFR-2
+T7	binds-catalysis 750 763	had no effect
+T9	binds-constituent1 782 789	SH2-Src
+T10	binds-constituent2 793 800	VEGFR-2
+T11	binds-site 30 54	tyrosine 1057 of VEGFR-2
+T12	binds-constituent1 47 54	VEGFR-2
+T13	binds-constituent2 89 94	c-Cbl
+T14	binds-constituent2 221 226	c-Cbl
+T15	binds-constituent2 231 236	c-Src
+T16	binds-constituent1 259 264	Y1057
+T17	binds-constituent2 268 273	c-Cbl
+T18	binds-constituent2 289 294	c-Src
+T19	binds-constituent3 298 305	VEGFR-2
+T20	binds-constituent1 312 317	c-Cbl
+T21	binds-constituent2 344 349	c-Src
+T22	binds-site 358 361	SH3
+T23	cell-type 426 435	PAE cells
+T24	transfection-molecule 450 453	CKR
+T25	process 436 449	co-expressing
+T26	transfection-molecule 466 481	wild type c-Cbl
+T27	transfection-molecule 485 490	Cbl-N
+T28	binds-site 498 512	the TKB domain
+T29	binds-site 557 580	GST-SH2 domain of c-Src
+T30	binds-constituent1 575 580	c-Src
+T31	binds-constituent2 598 605	VEGFR-2
+T1	binds-controller 626 640	wild type c-Cb
+T3	binds-constituent1 680 685	c-Src
+T32	binds-constituent1 731 736	c-Cbl
+T33	binds-constituent2 742 749	VEGFR-2
+T34	binds-strength 706 715	disabling

@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<title>Reading Against a Model of Experimental Evidence</title>
+
+    	<script src="javascripts/toc.js"></script>
+    	<script src="javascripts/jquery-2.1.0.min.js"></script>
+
+	    <link rel="stylesheet" href="stylesheets/styles.css">
+    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+      		<header>
+	    		<h1>Reading Against a Model of Experimental Evidence</h1>
+    			<p>Here we describe a possible approach to evaluating the process of extracting experimental evidence from pathway papers automatically based on the <em>Big Mechanism</em> principle of 'reading against a model'.</p>
+
+			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
+				<ul>
+        			<li><a href="04kefed1.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
+        			<li><a href="06deployingBioScholar.html">Navigate to <strong>next</strong></a></li>
+				</ul>
+<ol>
+	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
+        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+ 	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+ 	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+ 	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+ 	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+</ol>
+
+			</header>
+      
+      		<section>
+      		<div class="toc"></div>
+
+          	<h2>1. How to Extend Existing Evaluation To Include Evidence</h2>
+
+<p>Following the underlying premise of conducting reading evaluation within the Big Mechanism program as <em>&#39;reading against the model&#39;</em>, we examine how the structures being proposed for reading against an interpretive model (such as <a href="http://www.biopax.org/"><code>BioPax</code></a>) might also apply to reading against a model of experimental observations. The relationship between interpretative assertions (such as those generated against a BioPax model) and text describing experimental results is relevant here:</p>
+
+<p><img src="images/kefedStagedModelingElements.jpg" alt="KEfED Staged Modeling Elements"></p>
+
+<p>As a representation, BioPax and other formal representations of pathways do not explicitly represent the intermediate elements required to represent experimental design and data. Thus to evaluate this multi-stage process, simply focussing only on the ability of the system to generate final-stage interpretive assertions is likely to direct focus too heavily on the end result (and disempower staged approaches that explicitly deal with experimental evidence). </p>
+
+<p>Elements that require explicit representation within the model to be evaluated against include:</p>
+
+<ul>
+<li>A description of the <code>experimental protocol</code> including:
+
+<ul>
+<li><strong><code>entities</code></strong>, which could consist of:<br>
+
+<ul>
+<li><em>material entities</em> </li>
+<li><em>information entities</em></li>
+</ul></li>
+<li><strong><code>processes</code></strong>, which could consist of:
+
+<ul>
+<li><em>material processing</em> </li>
+<li><em>assays</em><br></li>
+<li><em>information transformation</em></li>
+</ul></li>
+<li><strong><code>variables</code></strong> denoting the data structures used to frame data:
+
+<ul>
+<li><em>independent variables</em> - which constrain the experimental design<br></li>
+<li><em>dependent variables</em> - which are not constrained before the experiment. </li>
+</ul></li>
+</ul></li>
+<li>The <code>experimental data</code> itself which consists of:
+
+<ul>
+<li><strong><code>statistical-effects</code></strong> based on<br></li>
+<li><strong><code>measurements</code></strong> that are contextualized and given meaning by</li>
+<li><strong><code>parameters</code></strong> and <strong><code>constants</code></strong> which denote the circumstances under which each measurement is made and allow it to be interpreted in context. </li>
+</ul></li>
+</ul>
+
+<p>Within the L<sup>2</sup>K<sup>2</sup>R<sup>2</sup> reading evaluation model for reading against BioPax, evaluation takes place by representing the model <strong>M</strong> as a list of assertions. Each reading system produces lists of evidence with a relation for each assertion pertaining to the model (<code>new</code>; <code>confirm</code>; <code>refute</code>).</p>
+
+<p>BioPax does provide a framework for attaching evidence to models which does not currently extend to support details to the extent required above. We will characterize evidence within BioPax models in a way that is consistent with the modeling approach described above so that BioPax assertions of evidence may be included in the model under evaluation. This will permit the extension of phase 1 evaluation to include experimental evidence at later phases. </p>
+
+<h2>An Example of Reading Against a KEfED Model </h2>
+
+<p>Given a model (from Montero <em>et al.</em> 2013, Figure 5B) such as the one shown below: </p>
+
+<p><img src="images/montero-2013-3-520-fig5B-kefed.jpg" alt=""></p>
+
+<p>With this text from the figure legend: </p>
+
+<blockquote>
+<p>B, 8505C cells were treated with increasing concentrations of AZD6244. Lysates were extracted at 24 h post-treatment and immunoblotted with the indicated antibodies. </p>
+</blockquote>
+
+<p>And the following text from the results section to assert data: </p>
+
+<blockquote>
+<p>The effects of the MEK inhibitor on total HER2, HER3 protein and on pHER3 were dose dependent, and inversely associated with the degree of inhibition of pERK (Fig. 5B)</p>
+</blockquote>
+
+<p>This model generates this KEfED data structure:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">?qualitative-correlation 
+    [ ?cell-type ][  ?reagent ][ ?time ][ ?primary-antibody ] 
+</code></pre></div>
+<p>The statement basically makes four statements. </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">?qualitative-correlation 
+    [ 8505C ][ AZD52ff ][ 24h ][ tHER2 ] = &#39;positive&#39;
+
+?qualitative-correlation 
+    [ 8505C ][ AZD52ff ][ 24h ][ tHER3 ] = &#39;positive&#39;
+
+?qualitative-correlation 
+    [ 8505C ][ AZD52ff ][ 24h ][ pHER3 ] = &#39;positive&#39;
+
+?qualitative-correlation 
+    [ 8505C ][ AZD52ff ][ 24h ][ pERK ] = &#39;negative&#39;
+</code></pre></div>
+<p><strong><em>How does this information inform a BioPAX-style model?</em></strong></p>
+
+<p>The simple answer to this is that <em>&quot;it doesn&#39;t&quot;</em></p>
+
+
+	  	</section>
+
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        	try {
+              	var pageTracker = _gat._getTracker("UA-50171612-1");
+            	pageTracker._trackPageview();
+            } catch(err) {}
+		</script>
+  </body>
+</html>

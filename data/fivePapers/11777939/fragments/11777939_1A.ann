@@ -1,0 +1,5 @@
+T0	cited-result_v3_bD_sN 0 246	In previous studies, we showed that Sos-1, E3b1, and Eps8 could form a trimeric complex in vivo upon concomitant overexpression of the three proteins. However, we failed to detect the existence of an endogenous S/E/E8 complex (Scita et al., 1999).
+T1	hypothesis_v1_b0_sA 247 346	We reasoned that this could be due to the low efficiency of the immunoprecipitating antibodies used.
+T2	v1_bD_sA 347 438	We thus sought to exploit the availability of eps8 / fibroblasts to circumvent this problem.
+T3	method 439 674	To this end, we performed immunoprecipitation experiments using eps8 / fibroblasts in which the expression of Eps8 was restored, to physiological levels, with an expression vector encoding a myc epitope-tagged Eps8 ( / [Eps8myc] cells).
+T4	result_v3_bD_sA 675 821	We selected transfected clones in which the levels of expression of Eps8myc were very similar to those present in wild-type fibroblasts (Fig. 1 A).

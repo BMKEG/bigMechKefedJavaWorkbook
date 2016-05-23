@@ -1,0 +1,15 @@
+T2	binds-catalysis 243 252	no effect
+T4	binds-constituent1 271 275	H2AX
+T5	binds-constituent2 300 304	JNK1
+T9	process 17 29	knocked down
+T10	transfection-molecule 30 45	endogenous Fe65
+T11	cell-type 49 59	293T cells
+T12	entity 66 81	specific siRNAs
+T13	binds-constituent1 146 150	H2AX
+T14	binds-constituent2 155 159	JNK1
+T15	binds-controller 175 191	genotoxic stress
+T16	process 195 217	co-immunoprecipitation
+T1	binds-controller 225 238	control siRNA
+T3	binds-controller 306 323	knockdown of Fe65
+T6	binds-catalysis 324 342	strongly inhibited
+T7	coreference-target 343 359	this interaction

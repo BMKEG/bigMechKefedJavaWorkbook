@@ -1,0 +1,1099 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "http://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100941354</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21750</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Immunol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Immunol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature immunology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1529-2908</issn>
+      <issn pub-type="epub">1529-2916</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23142775</article-id>
+      <article-id pub-id-type="pmc">3501571</article-id>
+      <article-id pub-id-type="doi">10.1038/ni.2460</article-id>
+      <article-id pub-id-type="manuscript">NIHMS410677</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>DDX41 recognizes bacterial secondary messengers cyclic di-GMP and cyclic di-AMP to activate a type I interferon immune response</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Parvatiyar</surname>
+            <given-names>Kislay</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN1">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Zhiqiang</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN1">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Teles</surname>
+            <given-names>Rosane M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ouyang</surname>
+            <given-names>Songying</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Yan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Iyer</surname>
+            <given-names>Shankar S</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zaver</surname>
+            <given-names>Shivam A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schenk</surname>
+            <given-names>Mirjam</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zeng</surname>
+            <given-names>Shang</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhong</surname>
+            <given-names>Wenwan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Zhi-Jie</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Modlin</surname>
+            <given-names>Robert L</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Yongjun</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cheng</surname>
+            <given-names>Genhong</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Microbiology, Immunology and Molecular Genetics, University of California, Los Angeles, CA 90095, USA.</aff>
+      <aff id="A2"><label>2</label>Baylor Institute for Immunology Research, Baylor Research Institute 3434 Live Oak St, Dallas, TX 75204, USA.</aff>
+      <aff id="A3"><label>3</label>Division of Dermatology, Department of Medicine, David Geffen School of Medicine, University of California, Los Angeles, CA 90095, USA.</aff>
+      <aff id="A4"><label>4</label>Institute of Biophysics, Chinese Academy of Science, Beijing, China.</aff>
+      <aff id="A5"><label>5</label>Department of Chemistry, University of California, Riverside, CA 92521, USA.</aff>
+      <author-notes>
+        <fn fn-type="equal" id="FN1">
+          <label>6</label>
+          <p id="P1">These authors contributed equally to this work.</p>
+        </fn>
+        <corresp id="CR1">Correspondence should be addressed to G.C. (<email>gcheng@mednet.ucla.edu</email>) or Y.L. (<email>yongjun.liu@baylorhealth.com</email>).</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>12</day>
+        <month>10</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>01</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>12</issue>
+      <fpage>1155</fpage>
+      <lpage>1161</lpage>
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P2">Induction of type I interferons by the bacterial secondary messengers cyclic-di-GMP (c-di-GMP) or cyclic-di-AMP (c-di-AMP) is dependent on a signaling axis involving the STING adaptor, TBK1 kinase and IRF3 transcription factor. Here we identified the helicase DEAD box polypeptide 41 (DDX41) as a pattern recognition receptor (PRR) that sensed both c-di-GMP and c-di-AMP. DDX41 specifically and directly interacted with c-di-GMP. Knockdown of DDX41 via shRNA in murine or human cells inhibited the induction of innate immune genes and resulted in defective STING, TBK1 and IRF3 activation in response to c-di-GMP or c-di-AMP. These results suggest a mechanism whereby c-di-GMP and c-di-AMP are detected by the DDX41 PRR, which complexes with STING to signal to TBK1-IRF3 and activate the interferon response.</p>
+      </abstract>
+      <funding-group>
+        <award-group>
+          <funding-source country="United States">National Institute of Arthritis and Musculoskeletal and Skin Diseases : NIAMS</funding-source>
+          <award-id>T32 AR058921 || AR</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P3">The host innate immune system provides a critical first line of defense against invading microorganisms including pathogenic bacteria. Utilizing germ-line encoded pattern recognition receptors (PRRs), mammalian cells detect a wide variety of highly invariant molecular structures (known as PAMPs, for <underline>p</underline>athogen <underline>a</underline>ssociated <underline>m</underline>olecular <underline>p</underline>atterns) that are often required by microbes for their survival or pathogenicity<sup><xref ref-type="bibr" rid="R1">1</xref>-<xref ref-type="bibr" rid="R3">3</xref></sup>. Indeed, many bacterial pathogens employ cyclic-diguanosine monophosphate (c-di-GMP) or cyclic-diadenosine monophosphate (c-di-AMP), two key secondary messengers that play essential roles in regulating metabolism, motility and virulence <sup><xref ref-type="bibr" rid="R4">4</xref>-<xref ref-type="bibr" rid="R6">6</xref></sup>. During infection with certain bacterial species, these bacterially derived secondary messengers can also act as PAMPs, triggering a host type I interferon (IFN) innate immune response, characterized by the activation of NF-&#x3BA;B and IRF3 transcription factors<sup><xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R8">8</xref></sup>.</p>
+    <p id="P4">The mechanism by which c-di-GMP and c-di-AMP activate the host type I IFN response remains poorly understood. Indeed, intracellular detection of c-di-GMP or c-di-AMP leads to the activation of the type I IFN response in a manner independent of the cytoplasmic PRR RIG-I (also known as DDX58) or its downstream adaptor IPS-1. Moreover, c-di-GMP or c-di-AMP require neither MyD88 nor TRIF adaptors, suggesting that the Toll-like receptor (TLR) family of PRRs also do not play a role in the detection of c-di-GMP or c-di-AMP<sup><xref ref-type="bibr" rid="R9">9</xref></sup>. The activation of type I IFNs by c-di-GMP and c-di-AMP was however, shown to require STING (aka MITA, MPYS, ERIS or TMEM173), suggesting that these cyclic dinucleotides are detected via a PRR that signals via STING<sup><xref ref-type="bibr" rid="R10">10</xref>, <xref ref-type="bibr" rid="R11">11</xref></sup>. In response to certain viral nucleic acids and B-DNA, STING functions as an adaptor protein and has been demonstrated to facilitate downstream signal transmission to IRF3 and NF-&#x3BA;B<sup><xref ref-type="bibr" rid="R12">12</xref>-<xref ref-type="bibr" rid="R14">14</xref></sup>. Here, we provide evidence that the recently identified PRR DDX41 is the primary sensor that directly binds to c-di-GMP or c-di-AMP and can trigger the type I IFN host immune response via STING.</p>
+    <sec sec-type="results" id="S1">
+      <title>RESULTS</title>
+      <sec id="S2">
+        <title>DDX41 mediates c-dinucleotide sensing in murine DCs and human monocytes</title>
+        <p id="P5">We stably knocked down DDX41 via short hairpin RNA (shRNA) in the murine splenic dendritic cell line D2SC (<bold><xref ref-type="fig" rid="F1">Fig. 1a</xref></bold>) and examined IFN-&#x3B2; induction in response to c-di-GMP and c-di-AMP. Control cells infected with <italic>L. monocytogenes</italic> displayed a robust IFN-&#x3B2; response, whereas DDX41-shRNA cells showed a marked reduction in the IFN-&#x3B2; response (<bold><xref ref-type="fig" rid="F1">Fig. 1b</xref></bold>). Consistent with published data<sup><xref ref-type="bibr" rid="R10">10</xref>, <xref ref-type="bibr" rid="R11">11</xref></sup>, STING-shRNA cells also showed impaired IFN-&#x3B2; induction in response to <italic>L. monocytogenes</italic> (<bold><xref ref-type="fig" rid="F1">Fig. 1b</xref></bold>). Cytoplasmic delivery of either c-di-GMP or c-di-AMP via lipofection also yielded strong IFN-&#x3B2; activation which was largely diminished in DDX41-shRNA cells, which paralleled the impairment displayed in STING-shRNA cells (<bold><xref ref-type="fig" rid="F1">Fig. 1c,d</xref></bold>). Induction of IFN-&#x3B2; by the synthetic DNA poly (dA:dT) but not by the RNA ligand poly (I:C) was impaired in DDX41-shRNA cells (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1a,b</xref></bold>), demonstrating the specificity of DDX41 for c-di-GMP, c-di-AMP and B-DNA. Type I IFNs mediate the innate immune response via the IFN-&#x3B1;/&#x3B2; receptor, where receptor ligation leads toward the activation of hundreds of interferon stimulated genes (ISGs)<sup><xref ref-type="bibr" rid="R15">15</xref></sup>. Both c-di-GMP and c-di-AMP activated the ISG Mx1 in control cells, however, induction of Mx1 was significantly reduced in DDX41-shRNA or STING-shRNA cells (<bold><xref ref-type="fig" rid="F1">Fig. 1e,f</xref></bold>). Similarly, c-di-GMP-mediated activation of other ISGs was also impaired in DDX41-shRNA cells (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1c-f</xref></bold>). These results indicate that DDX41 plays a critical role in c-dinucleotide-mediated activation of type I IFN and IFN-mediated signaling. Cytosolic detection of bacterial secondary messengers also leads to the activation of NF-&#x3BA;B, a key transcription factor important for the induction of pro-inflammatory cytokines such as interleukin 6 (IL-6) and TNF<sup><xref ref-type="bibr" rid="R16">16</xref></sup>. We found that IL-6 and TNF expression levels were significantly reduced in DDX41-shRNA cells compared to control-shRNA cells that were treated with c-di-GMP and/or c-di-AMP (<bold><xref ref-type="fig" rid="F1">Fig. 1g,h</xref></bold> and <bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1g</xref></bold>). To determine whether DDX41 mediates c-di-GMP/c-di-AMP sensing and type I IFN activation in human cells, we stably knocked down DDX41 via shRNA in the human monocyte cell line THP-1 (<bold><xref ref-type="fig" rid="F1">Fig. 1i</xref></bold>). Consistent with our findings in murine cells, both c-di-GMP and c-di-AMP induced the production of IFN-&#x3B2; in control&#x2013;shRNA cells, whereas c-di-GMP or c-di-AMP-mediated production of IFN-&#x3B2; was significantly defective in DDX41- or STING-shRNA THP-1 cells (<bold><xref ref-type="fig" rid="F1">Fig. 1j,k</xref></bold>). Induction of ISGs in response to c-di-GMP was also impaired in DDX41-shRNA THP-1 cells (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1h-l</xref></bold>). In addition, the DDX41-STING signaling axis was required for the induction of IFN-&#x3B2; in THP-1 cells stimulated with B-DNA (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 1m</xref></bold>). These results suggest that DDX41 functions in regulating type I IFN and pro-inflammatory gene inductions in response to c-dinucleotides in both murine and human cells.</p>
+      </sec>
+      <sec id="S3">
+        <title>DDX41-mediates c-dinucleotide sensing in primary cells</title>
+        <p id="P6">The role of DDX41 in facilitating c-di-GMP or c-di-AMP induced activation of type I IFN in primary cells was also examined. BMDCs (mDCs derived from bone marrow with granulocyte-macrophage colony-stimulating factor (GM-CSF)) were prepared and transfected with shRNA targeting DDX41 (<bold><xref ref-type="fig" rid="F2">Fig. 2a</xref></bold>). Control-shRNA BMDCs infected with <italic>L. monocytogenes</italic> displayed robust production of IFN-&#x3B2;, while IFN-&#x3B2; induction in DDX41-shRNA BMDCs was markedly reduced (<bold><xref ref-type="fig" rid="F2">Fig. 2b</xref></bold>). c-di-GMP and c-di-AMP stimulation also induced the production of IFN-&#x3B2; in control-shRNA BMDCs, while IFN-&#x3B2; production was highly impaired in DDX41-shRNA BMDCs (<bold><xref ref-type="fig" rid="F2">Fig. 2c,d</xref></bold>). Similarly, primary thioglycollate-elicited mouse peritoneal macrophages transfected with siRNA targeting DDX41 (<bold><xref ref-type="fig" rid="F2">Fig. 2e</xref></bold>) displayed reduced activation of IFN-&#x3B2; in response to <italic>L. monocytogenes</italic> infection or c-di-GMP stimulation compared to control-siRNA transfected cells (<bold><xref ref-type="fig" rid="F2">Fig. 2f,g</xref></bold>). Consistently, induction of Mx1 and IL-6 were also impaired in DDX41-siRNA peritoneal macrophages infected with <italic>L. monocytogenes</italic> or treated with c-di-GMP (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2a-d</xref></bold>).</p>
+        <p id="P7">To determine whether DDX41 plays a role in sensing c-di-GMP in primary human cells, we transfected peripheral blood mononuclear cells (PBMCs) with an siRNA specific for DDX41 (<bold><xref ref-type="fig" rid="F2">Fig. 2h</xref></bold>). While control-siRNA PBMCs infected with <italic>L. monocytogenes</italic> or treated with c-di-GMP elicited the activation of IFN-&#x3B2;, DDX41-siRNA PBMCs showed defective IFN-&#x3B2; activation in response to <italic>L. monocytogenes</italic> or c-di-GMP (<bold><xref ref-type="fig" rid="F2">Fig. 2i,j</xref></bold>). Similar reductions in IFN-&#x3B2; activation were displayed in DDX41-siRNA PBMCs obtained from two additional human donors (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 2e,f</xref></bold>). These results further indicate a critical role for DDX41 in facilitating type I IFN responses induced by c-di-GMP or c-di-AMP in primary immune cells.</p>
+      </sec>
+      <sec id="S4">
+        <title>DDX41 is a direct sensor of c-di-GMP</title>
+        <p id="P8">DDX41 is known not only to signal via the STING adaptor to activate type I IFN, but to also function as a PRR that directly binds viral DNA and B-DNA<sup><xref ref-type="bibr" rid="R17">17</xref></sup>. We therefore investigated whether DDX41 functioned as a direct sensor (PRR) for c-di-GMP or c-di-AMP. Biotin-labeled c-di-GMP or c-di-AMP pulled down ectopically expressed DDX41 from 293T cell lysates (<bold><xref ref-type="fig" rid="F3">Fig. 3a</xref></bold> and <bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3a</xref></bold>). Immunofluorescence microscopy further revealed that DDX41 and c-di-GMP co-localized upon their co-transfection into D2SC cells (<bold><xref ref-type="fig" rid="F3">Fig. 3b</xref></bold>). In addition, we found that GST-purified DDX41 or His-purified DDX41 from <italic>E.coli</italic> directly bound c-di-GMP (<bold><xref ref-type="fig" rid="F3">Fig. 3c</xref></bold> and <bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3b</xref></bold>). The c-di-GMP interaction with DDX41 was specific as only unlabeled c-di-GMP, c-di-AMP and poly (dA:dT) (B-DNA), but not poly (I:C), could competitively disrupt the c-di-GMP-DDX41 interaction (<bold><xref ref-type="fig" rid="F3">Fig. 3d</xref></bold>). Furthermore, the structurally similar molecules GMP and AMP, but not the c-di-GMP and c-di-AMP precursors, GTP or ATP, also disrupted the DDX41-c-di-GMP complex (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3c</xref></bold>).</p>
+        <p id="P9">To determine whether c-di-GMP binding was specific to the DDX41 helicase, we compared c-di-GMP binding with another DEAD box helicase PRR. c-di-GMP bound to DDX41, but showed no interaction with DDX58 (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 3d</xref></bold>). To define which domain of DDX41 was important for binding c-di-GMP or c-di-AMP, we used a series of deletion mutants of DDX41 (<bold><xref ref-type="fig" rid="F4">Fig. 4a,b</xref></bold>) and evaluated their interactions with biotinylated c-di-GMP or c-di-AMP in 293T cells. c-di-GMP and c-di-AMP failed to interact with DDX41 lacking the central DEAD box domain (<bold><xref ref-type="fig" rid="F4">Fig. 4c,d</xref></bold>). To determine the physiological relevance of this domain in terms of type I IFN induction, we reconstituted DDX41-shRNA THP-1 cells with either full length DDX41 or the DDX41 deletion mutant lacking the DEAD box domain (<bold><xref ref-type="fig" rid="F4">Fig. 4e</xref></bold>). As expected, DDX41-shRNA cells displayed defective IFN-&#x3B2; production in response to c-di-GMP or c-di-AMP compared to control-shRNA cells (<bold><xref ref-type="fig" rid="F4">Fig. 4f,g</xref></bold>). However, DDX41-shRNA cells reconstituted with full length DDX41, but not the DDX41 deletion mutant lacking the DEAD box domain, &#x201C;rescued&#x201D; the defective IFN-&#x3B2; production in DDX41-shRNA cells in response to c-di-GMP or c-di-AMP stimulation (<bold><xref ref-type="fig" rid="F4">Fig. 4f,g</xref></bold>). Thus c-dinucleotide mediated induction of IFN-&#x3B2; requires the central DEAD box domain of DDX41.</p>
+      </sec>
+      <sec id="S5">
+        <title>DDX41-dependent signaling downstream of c-di-GMP and c-di-AMP</title>
+        <p id="P10">DDX41 interacts and co-localizes with the STING adaptor (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 4a,b</xref></bold>) to facilitate DNA ligand dependent signal transduction<sup><xref ref-type="bibr" rid="R17">17</xref></sup>. Introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced DDX41-STING complex formation (<bold><xref ref-type="fig" rid="F5">Fig. 5a</xref></bold>). In DNA dependent signaling pathways, STING further binds to the downstream kinase TBK1 to activate the type I IFN response<sup><xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R19">19</xref></sup>. Both c-di-GMP and c-di-AMP when transfected into control D2SC cells activated the formation of a STING-TBK1 complex, however, c-di-GMP and c-di-AMP mediated activation of the STING-TBK1 complex was almost completely abrogated in DDX41-shRNA cells (<bold><xref ref-type="fig" rid="F5">Fig. 5b</xref></bold>). Consequently, c-di-GMP and c-di-AMP mediated activation of TBK1, IRF3 and the downstream type I IFN effector, STAT1 was impaired in DDX41-shRNA cells (<bold><xref ref-type="fig" rid="F5">Fig. 5c</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 5</xref></bold>). Activation of NF-&#x3BA;B was also impaired in DDX41-shRNA cells in response to either c-di-GMP or c-di-AMP (<bold><xref ref-type="fig" rid="F5">Fig. 5c</xref></bold>). Together, our findings suggest that DDX41 is a critical PRR for c-di-GMP and c-di-AMP mediated IFN induction, and that its absence generates a defect in downstream STING-dependent signaling.</p>
+      </sec>
+      <sec id="S6">
+        <title>c-di-GMP signals to the STING adaptor via DDX41</title>
+        <p id="P11">A recent study found that c-di-GMP could bind to the C-terminal domain of STING (STING CTD) and suggested that the STING adaptor could function as an immune sensor of c-di-GMP<sup><xref ref-type="bibr" rid="R20">20</xref></sup>. We therefore performed binding assays to determine the affinities of c-di-GMP or c-di-AMP for DDX41 and for STING in parallel. Biotin-labeled c-di-GMP pulled down ectopically expressed DDX41 with greater affinity over ectopically expressed STING from 293T cell lysates (<bold><xref ref-type="fig" rid="F6">Fig. 6a</xref></bold>). Physiologically, binding of c-di-GMP with endogenous DDX41 was also greater than the association between c-di-GMP and endogenous STING (<bold><xref ref-type="fig" rid="F6">Fig. 6b</xref></bold>). Immunofluorescence imaging further revealed greater co-localization between c-di-GMP and DDX41 in comparison to STING (34.13% vs 6.25%) (<bold><xref ref-type="fig" rid="F6">Fig. 6c</xref></bold>). Affinity capillary electrophoresis (ACE) experiments were also performed to examine the binding affinities between c-di-GMP and recombinant DDX41 or recombinant STING CTD. c-di-GMP bound DDX41 with a <italic>K</italic><sub>d</sub> of ~5.65 &#x3BC;M, whereas c-di-GMP associated with STING CTD with a <italic>K</italic><sub>d</sub> of ~14.54 &#x3BC;M (<bold><xref ref-type="fig" rid="F6">Fig. 6d</xref></bold>). Consistent with these findings, c-di-GMP bound to purified recombinant DDX41 with stronger affinity than purified recombinant STING CTD in pulldown binding assays (<bold><xref ref-type="fig" rid="F6">Fig. 6e</xref></bold>). We therefore hypothesized that DDX41 is the major primary sensor of c-di-GMP and c-di-AMP, operating upstream of STING, and upon binding these PAMPs, yields enhanced complex formation with STING to facilitate downstream signaling and type I IFN activation (<bold><xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref></bold>). Accordingly, c-di-GMP was significantly impaired in its capacity to associate with ectopically expressed STING in 293T cells transfected with siRNA targeting DDX41 (<bold><xref ref-type="fig" rid="F7">Fig. 7a</xref></bold>). Consistently, co-localization between c-di-GMP and STING was largely reduced in DDX41-shRNA cells, whereas c-di-GMP-DDX41 interactions remained intact in STING-shRNA cells (<bold><xref ref-type="fig" rid="F7">Fig. 7b,c</xref></bold>). Taken together, our findings indicate that DDX41 is the primary PRR for c-di-GMP and c-di-AMP, which signals via STING for type I IFN induction.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="S7">
+      <title>DISCUSSION</title>
+      <p id="P12">Many bacterial pathogens including Staphylococcus, Streptococcus, Pseudomonas, Yersiniae, Listeria and <italic>Mycobacterial</italic> species employ key secondary messengers including c-di-GMP or c-di-AMP that play essential modulatory roles in bacteria<sup><xref ref-type="bibr" rid="R4">4</xref>, <xref ref-type="bibr" rid="R7">7</xref></sup>. Although several substrates and effectors have been identified for these cyclic dinucleotide monophosphate species within the bacterial cell, our understanding of these bacteria-specific secondary messengers on the innate immune response within the mammalian host cell is just beginning to emerge. c-di-GMP and c-di-AMP activate the host type I IFN response in a manner dependent on the STING adaptor<sup><xref ref-type="bibr" rid="R10">10</xref>, <xref ref-type="bibr" rid="R11">11</xref></sup> and our findings indicate that the DNA sensor helicase DDX41 functions as a direct PRR for these cyclic dinucleotides in both murine and human cells. Our results showed that unlabeled c-di-GMP or c-di-AMP could disrupt the DDX41-c-di-GMP interaction. We found that GMP and AMP, but not the bulkier GTP or ATP molecules, could also competitively disrupt the DDX41-c-di-GMP complex. Although two molecules of GMP or AMP are structurally similar to c-di-GMP or c-di-AMP, respectively, they are not known to function as PAMPs in mammalian cells<sup><xref ref-type="bibr" rid="R9">9</xref></sup>. It will therefore be of further interest to determine how these species play a modulatory role in the type I IFN response. Our competition experiments additionally revealed that B-DNA could disrupt the DDX41-c-di-GMP complex. Indeed DDX41 has been shown to function as a sensor for B-DNA as well<sup><xref ref-type="bibr" rid="R17">17</xref></sup>. The mechanism by which DDX41 binds B-DNA, as well as cyclic dinucleotides, as revealed by co-crystallization studies and point mutation analysis will be the subject of future investigation.</p>
+      <p id="P13">Our results additionally indicated that c-di-GMP and c-di-AMP mediated activation of innate signaling and type I IFN induction were similarly defective between cells in which DDX41 or STING had been knocked down , suggesting DDX41 and STING share a common signaling pathway. STING-deficient cells displayed a very modest defect in NF-&#x3BA;B activation in response to c-di-GMP or c-di-AMP. The reason for this phenomenon is not entirely clear<sup><xref ref-type="bibr" rid="R10">10</xref></sup>, however it may be possible that there is redundancy or compensation in signaling to NF-&#x3BA;B. Another DNA sensor, IFI16 (also known as p204) was also shown to facilitate some viral DNA triggered signaling via the STING adaptor<sup><xref ref-type="bibr" rid="R21">21</xref>, <xref ref-type="bibr" rid="R22">22</xref></sup>. Although a role for IFI16 cannot be ruled out in the c-di-GMP and c-di-AMP signaling pathway, it is however unlikely that IFI16 functions as a primary sensor for these molecules since its&#x2019; basal expression is low and is rather induced in a type I IFN-dependent manner. DDX41 expression on the other hand, is greater at the basal state and is not modulated by type I IFNs<sup><xref ref-type="bibr" rid="R17">17</xref></sup>.</p>
+      <p id="P14">Our data suggests that DDX41 serves as the PRR for c-di-GMP and c-di-AMP, which upon receptor binding signals to TBK1-IRF3 via the STING adaptor. Lending further credibility as a scaffolding molecule, STING was recently shown to bridge TBK1-IRF3 interactions for optimal signaling<sup><xref ref-type="bibr" rid="R23">23</xref></sup>. Nevertheless, consistent with a published report<sup><xref ref-type="bibr" rid="R20">20</xref></sup>, we also found that c-di-GMP associated with STING, however, with lower affinity than DDX41. Although the physiological relevance of this interaction requires further investigation, our data shows that c-di-GMP interaction with STING is significantly enhanced in the presence of DDX41 in cells. The solved structure of the C-terminal domain of STING in complex with c-di-GMP revealed that one molecule of c-di-GMP binds one dimer of STING<sup><xref ref-type="bibr" rid="R24">24</xref>-<xref ref-type="bibr" rid="R28">28</xref></sup>. We propose that c-di-GMP detection and binding to DDX41 promotes enhanced DDX41-STING interactions leading to an increase in binding affinity of STING toward c-di-GMP, ultimately driving downstream signaling events. Thus, STING may function as a secondary receptor or co-factor in the cyclic dinucleotide signaling pathway.</p>
+      <p id="P15">The significance of type I IFN induction in the context of anti-bacterial innate immunity is currently unclear and somewhat controversial, particularly due to conflicting reports on whether type I IFN either functions to support or inhibit bacterial growth<sup><xref ref-type="bibr" rid="R29">29</xref>-<xref ref-type="bibr" rid="R32">32</xref></sup>. It will therefore be of interest to further study how different bacteria and host cells use secondary messengers and DDX41 as virulence factors and innate immune receptors, respectively, in their battle of infection and immunity<sup><xref ref-type="bibr" rid="R33">33</xref>-<xref ref-type="bibr" rid="R35">35</xref></sup>. As such, cyclic dinucleotide species and DDX41 represent new targets such that modulation of their interaction during certain bacterial infections can alter the host immune response in a manner to suppress bacterial replication and spread.</p>
+    </sec>
+    <sec sec-type="methods" id="S8" specific-use="web-only">
+      <title>METHODS</title>
+      <p id="P16">Methods and any associated references are available in the online version of the paper at <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/natureimmunology/">http://www.nature.com/natureimmunology/</ext-link>.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS410677-supplement-1.pdf" orientation="portrait" xlink:type="simple" id="d35e680" position="anchor" mimetype="application" mime-subtype="pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S18">
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>We thank K. Kelly-Scumpia (UCLA-Dermatology) for technical assistance and A. Dev (UCLA-MBI) for critical reading of the manuscript. We also thank members of the Cheng and Modlin laboratories for discussion. K. Parvatiyar is supported by NIH training grant T32-AR058921. This work is supported by NIH grants AI056154, AI067769, AI047868 and AR63020.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN2">
+        <p id="P25">AUTHOR CONTRIBUTIONS</p>
+        <p id="P26">K.P., Z.Z., R.L.M., Y.L. and G.C. designed the research. K.P. and Z.Z. performed and analyzed the biochemical experiments. R.M.T. carried out the confocal imaging and analysis. S.O., Y.J. and Z-J.L. performed the cloning, expression and purification of DDX41 and STING CTD. S.S.I. prepared peritoneal macrophages and M.S. prepared PBMCs. S.A.Z. performed and analyzed experiments on primary cells. S.Z. and W.Z. performed and analyzed the ACE binding affinity experiments and K.P. wrote the manuscript.</p>
+      </fn>
+      <fn id="FN3">
+        <p id="P27">Note: Supplementary Information is available on the nature immunology website.</p>
+      </fn>
+      <fn id="FN4">
+        <p id="P28">COMPETING FINANCIAL INTERESTS</p>
+        <p id="P29">The authors declare no competing financial interests.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCoy</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>O'Neill</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of toll-like receptors in macrophages.</article-title>
+          <source>Front Biosci</source>
+          <year>2008</year>
+          <volume>13</volume>
+          <fpage>62</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="pmid">17981528</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pluddemann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mukhopadhyay</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Innate immunity to intracellular pathogens: macrophage receptors and responses to microbial entry.</article-title>
+          <source>Immunol Rev</source>
+          <year>2011</year>
+          <volume>240</volume>
+          <fpage>11</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="pmid">21349083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Medzhitov</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Recognition of microorganisms and activation of the immune response.</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>449</volume>
+          <fpage>819</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="pmid">17943118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mills</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pultz</surname>
+              <given-names>IS</given-names>
+            </name>
+            <name>
+              <surname>Kulasekara</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>SI</given-names>
+            </name>
+          </person-group>
+          <article-title>The bacterial second messenger c-di-GMP: mechanisms of signalling.</article-title>
+          <source>Cell Microbiol</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>1122</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">21707905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hengge</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Principles of c-di-GMP signalling in bacteria.</article-title>
+          <source>Nat Rev Microbiol</source>
+          <year>2009</year>
+          <volume>7</volume>
+          <fpage>263</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="pmid">19287449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pesavento</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hengge</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacterial nucleotide-based second messengers.</article-title>
+          <source>Curr Opin Microbiol</source>
+          <year>2009</year>
+          <volume>12</volume>
+          <fpage>170</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">19318291</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hengge</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic-di-GMP reaches out into the bacterial RNA world.</article-title>
+          <source>Sci Signal</source>
+          <year>2010</year>
+          <volume>3</volume>
+          <fpage>e44</fpage>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woodward</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Iavarone</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Portnoy</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>c-di-AMP secreted by intracellular Listeria monocytogenes activates a host type I interferon response.</article-title>
+          <source>Science</source>
+          <year>2010</year>
+          <volume>328</volume>
+          <fpage>1703</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="pmid">20508090</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McWhirter</surname>
+              <given-names>SM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A host type I interferon response is induced by cytosolic sensing of the bacterial second messenger cyclic-di-GMP.</article-title>
+          <source>J Exp Med</source>
+          <year>2009</year>
+          <volume>206</volume>
+          <fpage>1899</fpage>
+          <lpage>911</lpage>
+          <pub-id pub-id-type="pmid">19652017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>MPYS is required for IFN response factor 3 activation and type I IFN production in the response of cultured phagocytes to bacterial second messengers cyclic-di-AMP and cyclic-di-GMP.</article-title>
+          <source>J Immunol</source>
+          <year>2011</year>
+          <volume>187</volume>
+          <fpage>2595</fpage>
+          <lpage>601</lpage>
+          <pub-id pub-id-type="pmid">21813776</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sauer</surname>
+              <given-names>JD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The N-ethyl-N-nitrosourea-induced Goldenticket mouse mutant reveals an essential function of Sting in the in vivo interferon response to Listeria monocytogenes and cyclic dinucleotides.</article-title>
+          <source>Infect Immun</source>
+          <year>2011</year>
+          <volume>79</volume>
+          <fpage>688</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="pmid">21098106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Barber</surname>
+              <given-names>GN</given-names>
+            </name>
+          </person-group>
+          <article-title>STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling.</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>455</volume>
+          <fpage>674</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">18724357</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The adaptor protein MITA links virus-sensing receptors to IRF3 transcription factor activation.</article-title>
+          <source>Immunity</source>
+          <year>2008</year>
+          <volume>29</volume>
+          <fpage>538</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">18818105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ERIS, an endoplasmic reticulum IFN stimulator, activates innate immune signaling through dimerization.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>8653</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">19433799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kumar</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kawai</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathogen recognition by the innate immune system.</article-title>
+          <source>Int Rev Immunol</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>16</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="pmid">21235323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayden</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>NF-kappaB in immunobiology.</article-title>
+          <source>Cell Res</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>223</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">21243012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The helicase DDX41 senses intracellular DNA mediated by the adaptor STING in dendritic cells.</article-title>
+          <source>Nat Immunol</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>959</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">21892174</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Barber</surname>
+              <given-names>GN</given-names>
+            </name>
+          </person-group>
+          <article-title>STING regulates intracellular DNA-mediated, type I interferon-dependent innate immunity.</article-title>
+          <source>Nature</source>
+          <year>2009</year>
+          <volume>461</volume>
+          <fpage>788</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="pmid">19776740</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saitoh</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Atg9a controls dsDNA-driven dynamic translocation of STING and the innate immune response.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>20842</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">19926846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burdette</surname>
+              <given-names>DL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>STING is a direct innate immune sensor of cyclic di-GMP.</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>478</volume>
+          <fpage>515</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">21947006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Unterholzner</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IFI16 is an innate immune sensor for intracellular DNA.</article-title>
+          <source>Nat Immunol</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>997</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="pmid">20890285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stein</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Falck-Pedersen</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensing adenovirus infection: activation of interferon regulatory factor 3 in RAW 264.7 cells.</article-title>
+          <source>J Virol</source>
+          <year>2012</year>
+          <volume>86</volume>
+          <fpage>4527</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">22345436</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>STING specifies IRF3 phosphorylation by TBK1 in the cytosolic DNA signaling pathway.</article-title>
+          <source>Sci Signal</source>
+          <year>2012</year>
+          <volume>5</volume>
+          <fpage>ra20</fpage>
+          <pub-id pub-id-type="pmid">22394562</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural Analysis of the STING Adaptor Protein Reveals a Hydrophobic Dimer Interface and Mode of Cyclic di-GMP Binding.</article-title>
+          <source>Immunity</source>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yin</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cyclic di-GMP Sensing via the Innate Immune Signaling Protein STING.</article-title>
+          <source>Mol Cell</source>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shang</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystal structures of STING protein reveal basis for recognition of cyclic di-GMP.</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2012</year>
+          <volume>19</volume>
+          <fpage>725</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">22728660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>XY</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>XX</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>ZF</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>XD</given-names>
+            </name>
+          </person-group>
+          <article-title>The structural basis for the sensing and binding of cyclic di-GMP by STING.</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2012</year>
+          <volume>19</volume>
+          <fpage>728</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="pmid">22728659</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Watts</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kao</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of STING bound to cyclic di-GMP reveals the mechanism of cyclic dinucleotide recognition by the immune system.</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2012</year>
+          <volume>19</volume>
+          <fpage>722</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">22728658</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perry</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>The host type I interferon response to viral and bacterial infections.</article-title>
+          <source>Cell Res</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>407</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">15987599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishii</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Koyama</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Coban</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Host innate immune receptors and beyond: making sense of microbial infections.</article-title>
+          <source>Cell Host Microbe</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>352</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="pmid">18541212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Auerbuch</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Brockstedt</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Meyer-Morse</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>O'Riordan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Portnoy</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>Mice lacking the type I interferon receptor are resistant to Listeria monocytogenes.</article-title>
+          <source>J Exp Med</source>
+          <year>2004</year>
+          <volume>200</volume>
+          <fpage>527</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="pmid">15302899</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Negishi</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cross-interference of RLR and TLR signaling pathways modulates antibacterial T cell responses.</article-title>
+          <source>Nat Immunol</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>659</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="pmid">22610141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brodsky</surname>
+              <given-names>IE</given-names>
+            </name>
+            <name>
+              <surname>Medzhitov</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting of immune signalling networks by bacterial pathogens.</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>521</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">19404331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Mocarski</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathogen subversion of cell-intrinsic innate immunity.</article-title>
+          <source>Nat Immunol</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>1179</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="pmid">17952043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hajishengallis</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lambris</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial manipulation of receptor crosstalk in innate immunity.</article-title>
+          <source>Nat Rev Immunol</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <fpage>187</fpage>
+          <lpage>200</lpage>
+          <pub-id pub-id-type="pmid">21350579</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>c-di-GMP and c-di-AMP mediated induction of the innate immune response in murine DCs and human monocytes requires DDX41. (<bold>a</bold>) Immunoblot analysis of DDX41 and STING in D2SC mDCs transfected with non-targeting scrambled shRNA, or shRNAs targeting DDX41 or STING. (<bold>b-d</bold>) Expression of IFN-&#x3B2; mRNA measured via qPCR in control-shRNA D2SC mDCs left unstimulated (US) or in control-shRNA, DDX41-shRNA or STING-shRNA mDCs stimulated with <italic>L. monocytogenes</italic> (b), c-di-GMP (c) and c-di-AMP (d) for 6 h. (<bold>e-h</bold>) Expression of Mx1 mRNA (<bold>e,f</bold>) or IL-6 mRNA (<bold>g,h</bold>) measured by qPCR in D2SC cells treated as in <bold>c-d</bold> and stimulated with c-di-GMP (<bold>e,g</bold>) and c-di-AMP (<bold>f,h</bold>). (<bold>i</bold>) Immunoblot analysis of DDX41and STING in THP-1 monocytes treated with non-targeting scrambled shRNA control, or shRNAs targeting either DDX41 (two shRNAs: DDX41-a and DDX41-b) or STING. (<bold>j,k</bold>) ELISA of IFN-&#x3B2; cytokine production in control-shRNA, DDX41-shRNA or STING-shRNA THP-1 monocytes 16 h after stimulation with c-di-GMP (j) or c-di-AMP (k). Error bars indicate standard error. Data are representative of at least three independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>Cyclic dinucleotides activate IFN via DDX41 in primary cells. (<bold>a</bold>) Immunoblot analysis of DDX41 in primary mouse BMDCs treated with non-targeting scrambled shRNA, or shRNAs targeting DDX41 (three shRNAs: DDX41-a, DDX41-b and DDX41-c). (<bold>b-d</bold>) ELISA of IFN-&#x3B2; cytokine production in control-shRNA or DDX41-shRNA BMDCs treated with <italic>L. monocytogenes</italic> (b), c-di-GMP (c) or c-di-AMP (d) for 16 h. (<bold>e-g</bold>) Quantification of DDX41 mRNA (<bold>e</bold>) or IFN-&#x3B2; mRNA induction (<bold>f,g</bold>) by qPCR in primary mouse peritoneal macrophages transfected with either control siRNA or siRNA targeting DDX41 (e), then stimulated with <italic>L. monocytogenes</italic> (f) or c-di-GMP (g) for 6 h. (<bold>h-j</bold>) Quantification of DDX41 mRNA (<bold>h</bold>) and IFN-&#x3B2; mRNA induction (<bold>i,j</bold>) via qPCR performed as in <bold>e-g</bold> using primary human peripheral blood monocytes electroporated with either control siRNA or siRNA targeting DDX41 (h), then stimulated with <italic>L. monocytogenes</italic> (i) or c-di-GMP (j) for 6 h.. Error bars indicate standard error. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>DDX41 is a direct sensor of c-di-GMP. (<bold>a</bold>) Pulldown and immunoblot analysis of biotinylated c-di-GMP interactions with Myc-DDX41 from 293T cell lyasates. (<bold>b</bold>) Confocal imaging of c-di-GMP-DDX41 colocalization in D2SC cells co-transfected with Myc-DDX41 and biotinylated c-di-GMP. (<bold>c</bold>) Pulldown and immunoblot analysis between biotinylated c-di-GMP and GST-DDX41. (<bold>d</bold>) Pulldown and immunoblot analysis of biotinylated c-di-GMP (2.0 &#x3BC;M) interactions with GST-DDX41 alone or with increasing amounts of unlabeled ligands as indicated, (3&#xD7; = 6.0 &#x3BC;M, 10&#xD7; = 20 &#x3BC;M). Immunoanalysis was performed as in <bold>c</bold>. I, input GST-DDX41; <underline>N</underline>, no competitor. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>DDX41 DEAD box domain is required for c-di-GMP and c-di-AMP mediated induction of IFN-&#x3B2;. (<bold>a</bold>) Schematic of deletion constructs of DDX41. (<bold>b</bold>) Input immunoblot of HA-tagged DDX41 deletion mutants used in co-immunoprecipitation experiments (for <bold>c</bold> and <bold>d</bold>). (<bold>c,d</bold>) Co-immunoprecipitation and immunoblot analysis of biotinylated c-di-GMP (<bold>c</bold>) or biotinylated c-di-AMP (<bold>d</bold>) incubated with lysates from 293T cells transfected with HA-DDX41-full length or deletion constructs labeled A-E as shown. (<bold>e</bold>) Immunoblot of THP-1 monocytes treated with control shRNA or shRNA targeting the 3&#x2019;UTR of DDX41, then transfected with HA-DDX41 full length (X41A) or HA-DDX41 lacking the DEAD box domain (X41C). (<bold>f,g</bold>) ELISA for IFN-&#x3B2; cytokine production from THP-1 cells treated with control shRNA or shRNA targeting DDX41 that were reconstituted as in <bold>e</bold> following treatment with c-di-GMP (f) or c-di-AMP (g) for 16h. Error bars indicate standard error. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0004"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p>c-di-GMP and c-di-AMP require DDX41 for STING dependent signaling. (<bold>a</bold>) Immunoprecipitation and immunoblot analysis of DDX41-STING interactions is D2SC cells transfected with c-di-GMP or c-di-AMP for 4 h. (<bold>b)</bold> Immunoprecipitation and immunoblot analysis of STING-TBK1 interactions in control-shRNA or DDX41-shRNA D2SC cells transfected as in <bold>a</bold>. (<bold>c</bold>) Immunoblot analysis of TBK1, IRF3, p65 and STAT1 phosphorylations in control-shRNA, DDX41-shRNA or STING-shRNA D2SC mDCs transfected with c-di-GMP, c-di-AMP, Poly (I:C) or B-DNA for 4 h. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0005"/>
+    </fig>
+    <fig id="F6" orientation="portrait" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p>c-di-GMP binds DDX41with a greater affinity than STING (<bold>a)</bold> Pulldown and immunoblot analysis of biotinylated c-di-GMP interactions with Myc-DDX41 or Myc-STING from 293T cell lyasates. (<bold>b</bold>) Pulldown and immunoblot analysis of biotinylated c-di-GMP or biotinylated c-di-AMP interactions with endogenous DDX41 and STING from D2SC cell lysates. (<bold>c</bold>) Confocal microscopy indicating c-di-GMP interactions with DDX41 or STING in 293T cells co-transfected with Myc-DDX41 and biotinylated c-di-GMP (top) or Myc-STING and biotinylated c-di-GMP (bottom). (<bold>d</bold>) Hill plots of Affinity Capillary Electrophoresis analysis showing binding affinities between recombinant DDX41 and c-di-GMP (left panel) or recombinant STING CTD (139-379) and c-di-GMP (right panel). DDX41-c-di-GMP <italic>K</italic><sub>d</sub> =5.65 &#x3BC;M, R<sup>2</sup> = 0.99992. STING CTD-c-di-GMP <italic>K</italic><sub>d</sub> = 14.54 &#x3BC;M, R<sup>2</sup> = 0.98342. <italic>K</italic><sub>d</sub>, dissociation constant. (<bold>e</bold>) Pulldown and immunoblot analysis of biotinylated c-di-GMP interactions with bacterially purified DDX41 and STING CTD. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0006"/>
+    </fig>
+    <fig id="F7" orientation="portrait" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p>DDX41 is required for c-di-GMP downstream association with STING. <bold>(a</bold>) Pulldown and immunoblot analysis of biotinylated c-di-GMP interactions with HA-STING from lysates of 293T cells transfected with control siRNA or siRNA targeting DDX41. (<bold>b</bold>) Confocal analysis showing c-di-GMP colocalizations with DDX41 or STING in control-shRNA or DDX41-shRNA (upper right panel) and STING-shRNA (lower right panel) D2SC mDCs co-transfected with biotinylated c-di-GMP and Myc-STING (upper panels) or biotinylated c-di-GMP and Myc-DDX41 (lower panels). (<bold>c</bold>) Quantification of c-di-GMP colocalizations with DDX41 or STING in control-shRNA (upper panel), c-di-GMP colocalization with DDX41 in STING-shRNA (middle panel) or c-di-GMP colocalization with STING in DDX41-shRNA (lower panel) D2SC cells from <bold>b</bold>. Error bars indicate standard error. Data are representative of at least two independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-410677-f0007"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

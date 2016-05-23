@@ -1,0 +1,14 @@
+T1	cell-type 4 14	293T cells
+T2	transfection-molecule 37 54	4 μg of Flag-TRAM
+T3	binds-site 71 95	a plasmid encoding IRF-3
+T4	entity 133 151	whole cell lysates
+T5	process 157 175	immunoprecipitated
+T6	ip-molecule 181 191	anti–IRF-3
+T7	ip-molecule 193 202	anti-Flag
+T8	ip-molecule 207 215	anti-CBP
+T9	entity 221 253	the immunoprecipitated complexes
+T10	process 259 272	immunoblotted
+T11	assay-molecule 277 293	Flag-tagged TRAM
+T12	assay-molecule 298 303	IRF-3
+T13	entity 305 329	Whole cell lysates (WCL)
+T14	assay-molecule 353 373	Flag-tagged proteins

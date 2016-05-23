@@ -1,0 +1,9 @@
+T1	cell-type 4 15	Fibroblasts
+T2	process 21 28	treated
+T3	incubation-reagent 34 38	PDGF
+T4	entity 74 81	Lysates
+T5	process 87 110	immunoprecipitated (IP)
+T6	ip-molecule 116 134	anti-PDGFR (PDGFR)
+T7	transfection-molecule 138 179	an irrelevant antibody as a control (ctr)
+T8	process 184 192	detected
+T9	coreference-target 198 222	the indicated antibodies

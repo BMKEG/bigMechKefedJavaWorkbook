@@ -1,0 +1,216 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "lysate",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "lysate",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "1/7: very low"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "myc",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "1/7: very low"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "myc",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "lysate",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "lysate",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "myc",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "myc",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "lysate",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "lysate",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "myc",
+                "reagent": "control",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "myc",
+                "reagent": "PDGF",
+                "modified-cell-type": {
+                    "CF259E26-85DA-B56D-E785-A805F0978F38": "mouse embryo fibroblasts",
+                    "17C9EDC5-4F02-1745-1CFC-A806132BD0D9": "-/-",
+                    "F462788F-2B96-E0AF-D242-A80606E0C6C3": "eps8"
+                },
+                "promoter-construct": "eps8-myc"
+            }
+        }
+    ],
+    "type": "Mutate_Tfx_Incubate_IP_WB",
+    "name": "11777939-Fig8C"
+}

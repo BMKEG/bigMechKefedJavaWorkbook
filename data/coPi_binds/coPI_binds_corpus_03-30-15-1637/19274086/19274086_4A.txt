@@ -1,0 +1,1 @@
+The data indicated that some fraction of AMPKα is constitutively bound to LKB1. Interestingly, treatment of cells with the growth factor induced dissociation of the LKB1-AMPKα complexes ( Fig. 4A ). Moreover, this effect was totally independent of LKB1 kinase activity since Flag-tagged kinase dead LKB1 (LKB1 KD ) reproduced exactly the same result.

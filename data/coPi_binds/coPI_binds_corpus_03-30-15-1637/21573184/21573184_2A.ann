@@ -1,0 +1,25 @@
+T4	assay-molecule 117 122	Stat3
+T5	assay-molecule 127 130	Src
+T7	ip-molecule 156 159	Src
+T9	assay-molecule 189 194	Stat3
+T10	assay-molecule 199 203	EGFR
+T18	binds-complex 351 394	the EGFR, Src and Stat3 heteromeric complex
+T21	ip-molecule 454 477	non-specific rabbit IgG
+T22	m-val 537 550	no detectable
+T23	assay-molecule 551 555	EGFR
+T24	assay-molecule 557 560	Src
+T25	assay-molecule 564 569	Stat3
+T27	assay-molecule 647 673	Tata-binding protein (TBP)
+T28	process 0 22	Co-immunoprecipitation
+T29	process 28 42	immunoblotting
+T1	entity 55 71	nuclear extracts
+T2	ip-molecule 83 87	EGFR
+T3	ip-molecule 235 240	Stat3
+T6	assay-molecule 270 274	EGFR
+T8	assay-molecule 279 282	Src
+T11	ip-molecule 300 308	IP:Stat3
+T12	ip-molecule 146 153	IP:EGFR
+T13	binds-constituent1 355 359	EGFR
+T14	binds-constituent2 361 364	Src
+T15	binds-constituent3 369 374	Stat3
+T16	process 607 621	Immunoblotting

@@ -1,0 +1,33 @@
+T1	m-obj 247 276	presence of the Stat6 protein
+T2	m-val 277 294	could be detected
+T3	ip-molecule 302 307	IRF-4
+T4	incubation-reagent 337 347	stimulated
+T5	incubation-reagent 352 364	unstimulated
+T6	entity 365 378	Ramos lysates
+T8	cell-type 435 443	JY cells
+T10	m-val 621 629	detected
+T11	assay-molecule 630 635	IRF-4
+T14	binds-constituent1 738 743	IRF-4
+T15	binds-constituent2 744 749	Stat6
+T16	m-val 750 761	association
+T17	incubation-reagent 775 806	the absence of IL-4 stimulation
+T19	binds-constituent1 877 882	IRF-4
+T20	binds-constituent2 883 888	Stat6
+T22	binds-catalysis 912 920	decrease
+T23	cell-type 941 952	Ramos cells
+T24	incubation-reagent 958 969	the CD40 Ab
+T25	assay-molecule 263 268	Stat6
+T26	entity 308 326	immunoprecipitates
+T7	binds-constituent1 20 25	IRF-4
+T27	binds-constituent2 26 31	Stat6
+T28	process 100 117	immunoprecipitate
+T29	entity 118 143	extracts from Ramos cells
+T30	incubation-reagent 167 179	anti-CD40 Ab
+T31	incubation-reagent 181 193	a control Ab
+T32	incubation-reagent 198 202	IL-4
+T33	incubation-reagent 488 504	an anti–IRF-4 Ab
+T34	entity 534 556	the immunoprecipitates
+T9	process 831 872	GST and coimmunoprecipitation experiments
+T12	binds-constituent1 1001 1006	IRF-4
+T13	binds-constituent2 1051 1056	Stat6
+T18	binds-strength 1021 1045	specifically interacting

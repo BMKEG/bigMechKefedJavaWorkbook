@@ -1,0 +1,15 @@
+T1	entity 10 24	lysates (5 mg)
+T2	process 40 63	immunoprecipitated (IP)
+T3	process 68 86	immunoblotted (IB)
+T4	coreference-target 92 116	the indicated antibodies
+T5	assay-molecule 141 145	Abi1
+T6	process 160 168	detected
+T7	ip-molecule 172 175	p85
+T8	assay-molecule 239 242	p85
+T9	ip-molecule 274 278	Abi1
+T10	entity 306 334	lysates (5 mg; p85 = 0.3 mg)
+T11	cell-type 340 344	MEFs
+T12	cell-type 30 34	MEFs
+T13	process 350 373	immunoprecipitated (IP)
+T14	process 378 396	immunoblotted (IB)
+T15	coreference-target 402 426	the indicated antibodies

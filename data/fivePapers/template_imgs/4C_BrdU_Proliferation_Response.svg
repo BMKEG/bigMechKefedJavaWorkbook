@@ -1,0 +1,362 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="534.75" height="682" viewBox="0 0 534.75 682" xmlns:k="http://schemas.kapit.fr/svg/2007/" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css"><![CDATA[.background
+{
+fill-opacity:0;
+fill:#008000
+}
+
+.annotation
+{
+lock:all;
+font-family:Arial;
+action-doubleclick:textedit;
+text-anchor:middle;
+wordwrap:true;
+fill:#666666
+}
+
+.link-annotation
+{
+lock:all;
+font-family:Arial;
+action-doubleclick:textedit;
+text-anchor:middle;
+wordwrap:true;
+fill:#0000ff
+}
+
+.select-ui-rect
+{
+stroke:#0000ff;
+stroke-opacity:0.2;
+stroke-width:2;
+fill-opacity:0;
+fill:#0000ff
+}
+
+.select-ui-knob
+{
+stroke:#ffffff;
+stroke-opacity:1;
+stroke-width:1;
+fill-opacity:0.2;
+fill:#0000ff
+}
+
+.lanescope-link
+{
+stroke:#aaaaaa;
+stroke-opacity:1;
+stroke-width:2;
+fill:#aaaaaa
+}
+
+.feedback-link
+{
+stroke:#66ff00;
+stroke-opacity:1;
+stroke-width:2;
+fill:#66ff00
+}
+
+.panelscope-link
+{
+stroke:#8787de;
+stroke-opacity:1;
+stroke-width:2;
+fill:#8787de
+}
+
+.viewscope-link
+{
+stroke:#8787de;
+stroke-opacity:1;
+stroke-width:2;
+stroke-dasharray:2,4,10,4;
+fill:#8787de
+}
+
+.link-ui
+{
+stroke:#000000;
+stroke-opacity:0.2;
+stroke-width:2
+}
+
+.link-ui-knob
+{
+stroke:#666666;
+stroke-opacity:1;
+stroke-width:1;
+fill-opacity:1;
+fill:#ffffff
+}
+
+.link-ui-knob-selected
+{
+stroke:#666666;
+stroke-opacity:1;
+stroke-width:1;
+fill-opacity:1;
+fill:#ffa500
+}
+
+.feedback-sprite
+{
+stroke:#66ff00;
+stroke-opacity:1;
+stroke-width:2;
+fill-opacity:0.7;
+fill:#66ff00
+}
+
+
+.basic
+{
+action-accept:annotation
+}
+
+.outonly
+{
+action-click:link
+}
+
+.bg
+{
+action-click:link;
+action-accept:link
+}
+
+.annotation
+{
+font-style:italic
+}
+
+.link-annotation
+{
+fill:#666666;
+font-size:12px
+}
+
+
+]]></style>
+  </defs>
+  <svg x="0" y="0" width="472.75" height="682" viewBox="0 0 472.75 682">
+    <g transform="matrix(1,0,0,1,184.95,92)">
+      <path class="lanescope-link" style="fill:none" d="M1.15 0 L99.85 0"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M87.85 0 L87.85 -3 99.85 0 87.85 3 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,345.9,84.8)">
+      <path class="lanescope-link" style="fill:none" d="M4.85 33.65 L4.85 48.45"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M4.849999999999999 36.45 L7.849999999999999 36.45 4.85 48.45 1.8499999999999988 36.45 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,350,153.95)">
+      <path class="lanescope-link" style="fill:none" d="M3 46.35 L3 69.6"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M2.999999999999999 57.599999999999994 L5.999999999999999 57.599999999999994 3 69.6 -8.881784197001252e-16 57.599999999999994 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,189,187)">
+      <path class="lanescope-link" style="fill:none" d="M-0.75 -21 L100.5 -21"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M88.5 -21 L88.5 -24 100.5 -21 88.5 -18 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,356.25,287.6)">
+      <path class="lanescope-link" style="fill:none" d="M0 3.15 L0 21.6"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M-7.347880794884119e-16 9.600000000000001 L2.999999999999999 9.600000000000001 0 21.6 -3.000000000000001 9.600000000000001 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,357.75,293)">
+      <path class="lanescope-link" style="fill:none" d="M2.25 82.75 L2.25 98.85"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M2.249999999999999 86.85 L5.249999999999999 86.85 2.25 98.85 -0.7500000000000009 86.85 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,360,424.95)">
+      <path class="lanescope-link" style="fill:none" d="M3 33.75 L3 50.85"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M2.999999999999999 38.85 L5.999999999999999 38.85 3 50.85 -8.881784197001252e-16 38.85 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,364,516.95)">
+      <path class="lanescope-link" style="fill:none" d="M0 22.85 L0 71.45"/>
+      <path class="lanescope-link" style="stroke-width:0" d="M-7.347880794884119e-16 59.45 L2.999999999999999 59.45 0 71.45 -3.000000000000001 59.45 z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,158.95,38)">
+      <g id="kefed_parameterspec" class="basic" style="spriteid:Parameter Specification;groupid:Basic">
+        <path id="indepdrect1" style="stroke-width:3;stroke-linecap:round;fill:#6a99ce;stroke:#6996cf" d="M0.35200000000000387 0.020999999999958163 l25.024 0 l0 76.299 l-25.024 0 z"/>
+        <line id="indepdline1" style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="25.252999999999986" y1="50.978999999999985" x2="0.31100000000000705" y2="50.978999999999985"/>
+        <line id="indepdline2" style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="25.25200000000001" y1="25.498999999999967" x2="0.2680000000000007" y2="25.498999999999967"/>
+        <path id="indepd_path" class="bg" style="stroke-width:5;stroke-linecap:round;fill:none;stroke:#e6f2ff" d="M0.35200000000000387 0.020999999999958163 l25.024 0 l0 76.299 l-25.024 0 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,286,53.3)">
+      <g id="kefed_expobject" class="basic" style="spriteid:Experimental Object;groupid:Basic">
+        <path id="expobject_rect" style="stroke-width:3;stroke-linecap:round;fill:#ffffff;stroke:#6996cf" d="M3.950000000000003 3.8999999999999986 l112 0 l0 55 l-112 0 z"/>
+        <polygon id="expobj_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" points="-0.018000000000000682,-0.017000000000003013 119.867,-0.017000000000003013 119.867,62.983 -0.018000000000000682,62.983"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,293.25,225.6)">
+      <g id="kefed_activity" class="basic" style="spriteid:Activity;groupid:Basic">
+        <path id="activity_ellipse" style="stroke-width:3;fill:#ffffff;stroke:#6996cf" d="M60.06699999999999 3.718999999999994 c15.281 0 55.975 5.846 55.975 27.581 c0 18.437 -32.58 27.581 -55.975 27.581 c-49.842 0 -55.975 -23.397 -55.975 -27.581 C4.091999999999999 10.998999999999995 44.17400000000001 3.718999999999994 60.06699999999999 3.718999999999994 z"/>
+        <path id="activity_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" d="M59.75 0.014000000000010004 c16.312 0 59.75 6.649 59.75 31.368 c0 20.969 -34.777 31.368 -59.75 31.368 C6.546999999999997 62.75 0 36.14099999999999 0 31.382000000000005 C0 8.293000000000006 42.785 0.014000000000010004 59.75 0.014000000000010004 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,291,135.6)">
+      <g id="kefed_activity" class="basic" style="spriteid:Activity;groupid:Basic">
+        <path id="activity_ellipse" style="stroke-width:3;fill:#ffffff;stroke:#6996cf" d="M60.06699999999999 3.718999999999994 c15.281 0 55.975 5.846 55.975 27.581 c0 18.437 -32.58 27.581 -55.975 27.581 c-49.842 0 -55.975 -23.397 -55.975 -27.581 C4.091999999999999 10.998999999999995 44.17400000000001 3.718999999999994 60.06699999999999 3.718999999999994 z"/>
+        <path id="activity_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" d="M59.75 0.014000000000010004 c16.312 0 59.75 6.649 59.75 31.368 c0 20.969 -34.777 31.368 -59.75 31.368 C6.546999999999997 62.75 0 36.14099999999999 0 31.382000000000005 C0 8.293000000000006 42.785 0.014000000000010004 59.75 0.014000000000010004 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,298,311.3)">
+      <g id="kefed_activity" class="basic" style="spriteid:Activity;groupid:Basic">
+        <path id="activity_ellipse" style="stroke-width:3;fill:#ffffff;stroke:#6996cf" d="M60.06699999999999 3.718999999999994 c15.281 0 55.975 5.846 55.975 27.581 c0 18.437 -32.58 27.581 -55.975 27.581 c-49.842 0 -55.975 -23.397 -55.975 -27.581 C4.091999999999999 10.998999999999995 44.17400000000001 3.718999999999994 60.06699999999999 3.718999999999994 z"/>
+        <path id="activity_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" d="M59.75 0.014000000000010004 c16.312 0 59.75 6.649 59.75 31.368 c0 20.969 -34.777 31.368 -59.75 31.368 C6.546999999999997 62.75 0 36.14099999999999 0 31.382000000000005 C0 8.293000000000006 42.785 0.014000000000010004 59.75 0.014000000000010004 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,300.25,393.6)">
+      <g id="kefed_activity" class="basic" style="spriteid:Activity;groupid:Basic">
+        <path id="activity_ellipse" style="stroke-width:3;fill:#ffffff;stroke:#6996cf" d="M60.06699999999999 3.718999999999994 c15.281 0 55.975 5.846 55.975 27.581 c0 18.437 -32.58 27.581 -55.975 27.581 c-49.842 0 -55.975 -23.397 -55.975 -27.581 C4.091999999999999 10.998999999999995 44.17400000000001 3.718999999999994 60.06699999999999 3.718999999999994 z"/>
+        <path id="activity_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" d="M59.75 0.014000000000010004 c16.312 0 59.75 6.649 59.75 31.368 c0 20.969 -34.777 31.368 -59.75 31.368 C6.546999999999997 62.75 0 36.14099999999999 0 31.382000000000005 C0 8.293000000000006 42.785 0.014000000000010004 59.75 0.014000000000010004 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,303.25,477.6)">
+      <g id="kefed_activity" class="basic" style="spriteid:Activity;groupid:Basic">
+        <path id="activity_ellipse" style="stroke-width:3;fill:#ffffff;stroke:#6996cf" d="M60.06699999999999 3.718999999999994 c15.281 0 55.975 5.846 55.975 27.581 c0 18.437 -32.58 27.581 -55.975 27.581 c-49.842 0 -55.975 -23.397 -55.975 -27.581 C4.091999999999999 10.998999999999995 44.17400000000001 3.718999999999994 60.06699999999999 3.718999999999994 z"/>
+        <path id="activity_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" d="M59.75 0.014000000000010004 c16.312 0 59.75 6.649 59.75 31.368 c0 20.969 -34.777 31.368 -59.75 31.368 C6.546999999999997 62.75 0 36.14099999999999 0 31.382000000000005 C0 8.293000000000006 42.785 0.014000000000010004 59.75 0.014000000000010004 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,161,137)">
+      <g id="kefed_parameterspec" class="basic" style="spriteid:Parameter Specification;groupid:Basic">
+        <path id="indepdrect1" style="stroke-width:3;stroke-linecap:round;fill:#6a99ce;stroke:#6996cf" d="M0.35200000000000387 0.020999999999958163 l25.024 0 l0 76.299 l-25.024 0 z"/>
+        <line id="indepdline1" style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="25.252999999999986" y1="50.978999999999985" x2="0.31100000000000705" y2="50.978999999999985"/>
+        <line id="indepdline2" style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="25.25200000000001" y1="25.498999999999967" x2="0.2680000000000007" y2="25.498999999999967"/>
+        <path id="indepd_path" class="bg" style="stroke-width:5;stroke-linecap:round;fill:none;stroke:#e6f2ff" d="M0.35200000000000387 0.020999999999958163 l25.024 0 l0 76.299 l-25.024 0 z"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,332,557.2)">
+      <g id="kefed_measurementspec" class="basic" style="spriteid:Measurement Specification;groupid:Basic">
+        <path style="stroke-width:3;stroke-linecap:round;fill:#ffffff;stroke:#6996cf" d="M4.063000000000002 4.24199999999999 l55.866 0 l0 55 l-55.866 0 z"/>
+        <path style="stroke-linecap:round;fill:#6a99ce;stroke:#6996cf" d="M4.0319999999999965 4.332999999999998 l55.897 0 l0 18.333 l-55.897 0 z"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#6996cf" x1="41.263000000000005" y1="4.24199999999999" x2="41.263000000000005" y2="59.24199999999999"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#6996cf" x1="22.596000000000004" y1="4.24199999999999" x2="22.596000000000004" y2="59.24199999999999"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#6996cf" x1="4.063000000000002" y1="22.57499999999999" x2="59.929" y2="22.57499999999999"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#6996cf" x1="4.063000000000002" y1="40.90899999999999" x2="59.929" y2="40.90899999999999"/>
+        <path style="stroke-linecap:round;fill:#6a99ce;stroke:#6996cf" d="M4.049000000000007 22.57499999999999 l18.547 0 l0 36.667 l-18.547 0 z"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="4.049000000000007" y1="40.90899999999999" x2="22.596000000000004" y2="40.90899999999999"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="4.0319999999999965" y1="22.57499999999999" x2="22.596000000000004" y2="22.57499999999999"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="22.596000000000004" y1="22.575999999999993" x2="22.596000000000004" y2="4.302999999999997"/>
+        <line style="stroke-linecap:round;fill:none;stroke:#ffffff" x1="41.263000000000005" y1="22.57499999999999" x2="41.263000000000005" y2="4.271999999999991"/>
+        <polygon id="depv_path" class="bg" style="stroke-width:5;fill:none;stroke:#e6f2ff" points="0,0.09899999999998954 64,-0.0040000000000048885 64,63.099999999999994 0.019000000000005457,63.099999999999994"/>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,294.9,71.3)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="16" viewBox="0 0 100 16">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[Cell-Line
+]]></tspan>
+            <k:textfield><![CDATA[Cell-Line]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,303,236.35)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="43.65" viewBox="0 0 100 43.65">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[BrdU ]]></tspan>
+            <tspan x="50" dx="2" dy="17"><![CDATA[Treatment
+]]></tspan>
+            <k:textfield><![CDATA[BrdU Treatment]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,295.75,153.35)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="16" viewBox="0 0 100 16">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[Transfection
+]]></tspan>
+            <k:textfield><![CDATA[Transfection]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,72.45,59.3)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="16" viewBox="0 0 100 16">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[cell-type
+]]></tspan>
+            <k:textfield><![CDATA[cell-type]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,63.5,151.3)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="33.7" viewBox="0 0 100 33.7">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[promoter-]]></tspan>
+            <tspan x="50" dx="2" dy="17"><![CDATA[construct
+]]></tspan>
+            <k:textfield><![CDATA[promoter-construct]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,302.75,330.05)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="16" viewBox="0 0 100 16">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[Cell Fixing
+]]></tspan>
+            <k:textfield><![CDATA[Cell Fixing]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,304,410.35)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="21.25" viewBox="0 0 100 21.25">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[Cell Staining
+]]></tspan>
+            <k:textfield><![CDATA[Cell Staining]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,308,499.35)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="16" viewBox="0 0 100 16">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[Data Analysis
+]]></tspan>
+            <k:textfield><![CDATA[Data Analysis]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,314,623.3)">
+      <g style="spriteid:annotation;groupid:__sys__">
+        <svg class="annotation" x="2" y="2" width="100" height="38.7" viewBox="0 0 100 38.7">
+          <text style="shapeid:annotation" x="0" y="0">
+            <tspan x="50" dx="2" dy="16"><![CDATA[BrdU-]]></tspan>
+            <tspan x="50" dx="2" dy="17"><![CDATA[incorporation
+]]></tspan>
+            <k:textfield><![CDATA[BrdU-incorporation]]></k:textfield>
+          </text>
+        </svg>
+      </g>
+    </g>
+    <rect style="stroke-opacity:1;stroke-width:1;fill-opacity:1;fill:#eeeeee;stroke:#838ea8" x="0" y="0" rx="0" ry="0" width="31" height="682"/>
+    <text style="font-family:arial;fill:#4f5e66;font-size:10px" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,0,146.7)" x="0" y="0">
+      <tspan x="0" dx="2" dy="11"><![CDATA[BrdU Proliferation Response
+]]></tspan>
+      <k:textfield><![CDATA[BrdU Proliferation Response]]></k:textfield>
+    </text>
+    <rect style="stroke-opacity:1;stroke-width:1;fill-opacity:0;fill:#000000;stroke:#838ea8" x="0" y="0" rx="0" ry="0" width="472.75" height="682"/>
+  </svg>
+  <rect style="stroke-opacity:1;stroke-width:1;fill-opacity:1;fill:#cccccc;stroke:#838ea8" x="-31" y="0" rx="0" ry="0" width="31" height="682"/>
+  <text style="font-family:arial;fill:#4f5e66;font-size:10px" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,-31,146.7)" x="0" y="0">
+    <tspan x="0" dx="2" dy="11"><![CDATA[BrdU Proliferation Response
+]]></tspan>
+    <k:textfield><![CDATA[BrdU Proliferation Response]]></k:textfield>
+  </text>
+</svg>

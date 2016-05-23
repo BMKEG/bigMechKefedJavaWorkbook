@@ -1,0 +1,18 @@
+T1	binds-constituent1 201 206	IRF-4
+T2	binds-constituent2 211 216	BCL-6
+T5	m-val 323 354	did not detect increased levels
+T6	assay-molecule 358 363	IRF-4
+T7	incubation-reagent 395 399	IL-4
+T10	cell-type 32 43	Ramos cells
+T11	incubation-reagent 53 73	with or without IL-4
+T12	process 78 103	mmunoprecipitation assays
+T13	ip-molecule 116 129	an anti–IRF-4
+T14	ip-molecule 133 143	anti–BCL-6
+T3	binds-constituent1 254 259	BCL-6
+T15	binds-constituent2 264 269	IRF-4
+T16	binds-catalysis 274 286	not affected
+T17	binds-controller 290 294	IL-4
+T4	incubation-reagent 404 408	CD40
+T8	assay-molecule 476 481	IRF-4
+T9	m-val 463 488	induction of IRF-4 levels
+T18	coreference-target 492 510	these stimulations

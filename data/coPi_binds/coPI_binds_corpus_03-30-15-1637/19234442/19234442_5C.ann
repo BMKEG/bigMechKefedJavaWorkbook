@@ -1,0 +1,7 @@
+T1	binds-strength 81 87	robust
+T3	binds-constituent1 108 134	transfected wild-type H2AX
+T4	binds-constituent2 139 154	endogenous JNK1
+T5	cell-type 158 168	293T cells
+T6	binds-controller 184 203	high-dose radiation
+T2	binds-strength 226 242	markedly reduced
+T7	binds-constituent1 258 279	the H2AX Y142F mutant

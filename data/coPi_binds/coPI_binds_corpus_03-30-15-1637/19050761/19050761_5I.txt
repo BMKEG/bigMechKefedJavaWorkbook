@@ -1,0 +1,1 @@
+In contrast to the SH2 domain, the SH3 domain of c-Src failed to interact with IQGAP1 with or without stimulation of VEGFR-2 ( Figure 5I ). The data suggest that SH2 domain mediates the interaction of c-Src with IQGAP1 by a novel mechanism that is independent of tyrosine phosphorylation of IQGAP1.

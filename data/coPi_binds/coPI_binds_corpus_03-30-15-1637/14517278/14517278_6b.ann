@@ -1,0 +1,22 @@
+T1	binds-constituent1 52 56	TRAM
+T2	binds-strength 57 67	interacted
+T3	binds-constituent2 78 82	TRIF
+T4	binds-constituent2 87 96	Mal/TIRAP
+T6	binds-constituent1 116 120	TRIF
+T7	binds-strength 126 136	interacted
+T8	binds-constituent2 142 145	Mal
+T10	binds-constituent1 180 184	TRIF
+T11	binds-constituent1 189 193	TRAM
+T12	binds-strength 194 204	interacted
+T13	binds-constituent2 210 250	the Mal-P125H (dominant negative) mutant
+T17	binds-constituent1 280 284	TRIF
+T18	binds-constituent2 289 293	TRAM
+T25	entity 471 489	whole cell lysates
+T26	m-obj 505 524	the expression leve
+T27	assay-molecule 529 531	Ma
+T28	assay-molecule 536 540	TRIF
+T5	binds-catalysis 252 276	The stronger interaction
+T9	binds-controller 308 328	the Mal-P125H mutant
+T14	binds-catalysis 346 383	a higher avidity for this interaction
+T15	m-comp 416 443	the higher expression level
+T16	assay-molecule 447 467	the MAL-P125H mutant

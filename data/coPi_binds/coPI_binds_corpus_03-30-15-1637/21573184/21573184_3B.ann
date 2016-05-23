@@ -1,0 +1,17 @@
+T1	ip-molecule 40 44	EGFR
+T2	m-val 66 82	decreased levels
+T3	assay-molecule 97 102	Stat3
+T4	m-val 116 119	not
+T5	assay-molecule 120 123	Src
+T7	incubation-reagent 154 156	ZD
+T8	incubation-reagent 158 161	Das
+T9	incubation-reagent 166 173	S3I-201
+T10	incubation-reagent 178 182	24 h
+T11	process 13 36	immunoblotting analysis
+T6	binds-controller 247 281	the EGFR and Src kinase activities
+T12	binds-constituent1 309 314	Stat3
+T13	binds-constituent2 320 324	EGFR
+T14	binds-controller 385 403	EGFR or Src kinase
+T15	binds-catalysis 410 443	does not preclude the interaction
+T16	binds-constituent1 452 456	EGFR
+T17	binds-constituent2 461 464	Src

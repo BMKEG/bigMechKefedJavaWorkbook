@@ -1,0 +1,12 @@
+T1	m-comp 0 30	A similar inverse relationship
+T4	cell-type 95 133	human embryonic kidney (HEK) 293 cells
+T2	assay-molecule 39 45	p66shc
+T3	ip-molecule 61 70	grb2–sos1
+T5	transfection-molecule 166 174	p66shcWT
+T6	cell-type 178 192	p66shc −/− MEF
+T7	assay-molecule 203 207	sos1
+T8	ip-molecule 224 228	eps8
+T9	m-val 193 202	increased
+T10	m-val 248 258	decreasing
+T11	assay-molecule 259 263	sos1
+T12	ip-molecule 273 277	grb2

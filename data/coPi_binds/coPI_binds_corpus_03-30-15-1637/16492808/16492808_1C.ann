@@ -1,0 +1,13 @@
+T3	binds-constituent2 265 293	the full-length Rac1 protein
+T4	binds-constituent1 316 353	bacterially purified full-length Rac1
+T6	binds-constituent2 360 365	β-Pix
+T7	binds-constituent1 20 25	β-Pix
+T8	binds-constituent2 49 53	Rac1
+T9	binds-constituent1 75 80	β-Pix
+T10	binds-constituent1 84 88	Rac1
+T11	cell-type 92 103	COS-7 cells
+T12	process 118 145	reciprocal pull-down assays
+T13	ip-molecule 151 175	bacterially purified GST
+T14	ip-molecule 177 185	GST-Rac1
+T15	ip-molecule 190 199	GST–β-Pix
+T1	binds-constituent1 244 249	β-Pix

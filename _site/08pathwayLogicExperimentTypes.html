@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<title>Pathway Logic Experiment Types</title>
+
+    	<script src="javascripts/toc.js"></script>
+    	<script src="javascripts/jquery-2.1.0.min.js"></script>
+
+	    <link rel="stylesheet" href="stylesheets/styles.css">
+    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+      		<header>
+	    		<h1>Pathway Logic Experiment Types</h1>
+    			<p>Here we describe working with the different assay types within the Pathway Logic database and how this might fit in to a KEfED-based strategy.</p>
+
+			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
+				<ul>
+        			<li><a href="07heuristicsForResultText.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
+        			<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Navigate to <strong>next</strong></a></li>
+				</ul>
+<ol>
+	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
+        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+ 	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+ 	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+ 	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+ 	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+</ol>
+
+			</header>
+      
+      		<section>
+      		<div class="toc"></div>
+
+          	<p>Based on our simple parsing of html forms from the Pathway Logic database, we have identified ~1966 papers that have been curated into their system. </p>
+
+<p>Of these 1966, only 73 are available in the open access dataset. Here, we list these by assay type. These are also listed in the digital library under the Corpus labeled <code>PathwayLogicFullText</code>. </p>
+
+<table>
+<tr><td>Assay</td><td># papers in OA</td></tr>
+<tr><td>coprecipitation</td><td>33</td></tr>
+<tr><td>Phosphorylation</td><td>28</td></tr>
+<tr><td>ProteinExpression</td><td>14</td></tr>
+<tr><td>inVitroKinase</td><td>13</td></tr>
+<tr><td>location</td><td>13</td></tr>
+<tr><td>mRNAExpression</td><td>13</td></tr>
+<tr><td>InFraction</td><td>12</td></tr>
+<tr><td>SnaggedBy</td><td>11</td></tr>
+<tr><td>directProteinBinding</td><td>9</td></tr>
+<tr><td>OligoBinding</td><td>6</td></tr>
+<tr><td>Oligomerization</td><td>6</td></tr>
+<tr><td>GTPAssoc</td><td>5</td></tr>
+<tr><td>SurfaceExpression</td><td>4</td></tr>
+<tr><td>Ubiquitination</td><td>4</td></tr>
+<tr><td>Upshift</td><td>4</td></tr>
+<tr><td>GenePromoterReporter</td><td>3</td></tr>
+<tr><td>chromatin</td><td>3</td></tr>
+<tr><td>colocalization</td><td>3</td></tr>
+<tr><td>gal4binding</td><td>3</td></tr>
+<tr><td>inVitroGEFActivity</td><td>3</td></tr>
+<tr><td>Polymerization</td><td>1</td></tr>
+<tr><td>acetylation</td><td>1</td></tr>
+<tr><td>inVitroHat</td><td>1</td></tr>
+<tr><td>inVitroPPhase</td><td>1</td></tr>
+<tr><td>methylation</td><td>1</td></tr>
+<tr><td>GTPHydrol</td><td>0</td></tr>
+<tr><td>Neddylation</td><td>0</td></tr>
+<tr><td>NuclearExport</td><td>0</td></tr>
+<tr><td>NuclearImport</td><td>0</td></tr>
+<tr><td>ProteinStability</td><td>0</td></tr>
+<tr><td>cleavage</td><td>0</td></tr>
+<tr><td>gdpDissosc</td><td>0</td></tr>
+<tr><td>internalization</td><td>0</td></tr>
+ </table>
+ 
+Since `Coprecipitation` is the largest contributor in this list, we now list all figures from the OA data set that describe Coprecipitation experiments. This provides an initial training set that we may now attempt to model and understand with 
+
+<table>
+<th><td>pmid</td><td>figure</td></th>
+<tr><td>23142775</td><td>-Fig-5a</td></tr>
+<tr><td>23142775</td><td>-Fig-5b</td></tr>
+<tr><td>10790433</td><td>-Fig-9a</td></tr>
+<tr><td>18583988</td><td>-Fig-2e</td></tr>
+<tr><td>19274086</td><td>-Fig-4d</td></tr>
+<tr><td>19274086</td><td>-Fig-4b</td></tr>
+<tr><td>22833096</td><td>-Fig-2d</td></tr>
+<tr><td>22833096</td><td>-Fig-2a</td></tr>
+<tr><td>22833096</td><td>-Fig-2c</td></tr>
+<tr><td>14517278</td><td>-Fig-3b</td></tr>
+<tr><td>10790433</td><td>-Fig-8a</td></tr>
+<tr><td>10871282</td><td>-Fig-4b</td></tr>
+<tr><td>10790433</td><td>-Fig-7e</td></tr>
+<tr><td>11524436</td><td>(D)</td></tr>
+<tr><td>16520382</td><td>-Fig-2a</td></tr>
+<tr><td>11777939</td><td>-Fig-7a</td></tr>
+<tr><td>7561682</td><td>-Fig-1a</td></tr>
+<tr><td>16717130</td><td>-Fig-1d</td></tr>
+<tr><td>11864996</td><td>-Fig-5c</td></tr>
+<tr><td>11777939</td><td>-Fig-5[tl]</td></tr>
+<tr><td>10871282</td><td>-Fig-1d</td></tr>
+<tr><td>10871282</td><td>-Fig-2b</td></tr>
+<tr><td>19783983</td><td>-Fig-5a</td></tr>
+<tr><td>19783983</td><td>-Fig-5b</td></tr>
+<tr><td>9625770</td><td>-Fig-3a</td></tr>
+<tr><td>10601358</td><td>-Fig-5c</td></tr>
+<tr><td>15767370</td><td>-Fig-1a,1c</td></tr>
+<tr><td>15767370</td><td>-Fig-1a</td></tr>
+<tr><td>18583988</td><td>-Fig-4b</td></tr>
+<tr><td>9625770</td><td>-Fig-2a</td></tr>
+<tr><td>18411307</td><td>-Fig-1a</td></tr>
+<tr><td>18411307</td><td>-Fig-1c</td></tr>
+<tr><td>18411307</td><td>-Fig-2c</td></tr>
+<tr><td>18411307</td><td>-Fig-1e</td></tr>
+<tr><td>18411307</td><td>-Fig-7a</td></tr>
+<tr><td>15314656</td><td>-Fig-4a</td></tr>
+<tr><td>19734906</td><td>-Fig-6c</td></tr>
+<tr><td>19734906</td><td>-Fig-6b</td></tr>
+<tr><td>12515821</td><td>-Fig-S1b</td></tr>
+<tr><td>12515821</td><td>-Fig-1a</td></tr>
+<tr><td>12515821</td><td>-Fig-1e</td></tr>
+<tr><td>12515821</td><td>-Fig-3a</td></tr>
+<tr><td>20337593</td><td>-Fig-2b</td></tr>
+<tr><td>16520382</td><td>-Fig-2d</td></tr>
+<tr><td>16520382</td><td>-Fig-2e</td></tr>
+<tr><td>16520382</td><td>-Fig-2b</td></tr>
+<tr><td>22833096</td><td>-Fig-2b</td></tr>
+<tr><td>14517278</td><td>-Fig-6c</td></tr>
+<tr><td>14517278</td><td>-Fig-6b</td></tr>
+<tr><td>23142775</td><td>-Fig-S4a</td></tr>
+<tr><td>12370254</td><td>-Fig-2a</td></tr>
+<tr><td>19783983</td><td>-Fig-S2a</td></tr>
+<tr><td>20337593</td><td>-Fig-2a</td></tr>
+<tr><td>16492808</td><td>-Fig-1c</td></tr>
+<tr><td>19234442</td><td>-Fig-3e</td></tr>
+<tr><td>19234442</td><td>-Fig-2b</td></tr>
+<tr><td>19234442</td><td>-Fig-5d</td></tr>
+<tr><td>19234442</td><td>-Fig-5c</td></tr>
+<tr><td>19234442</td><td>-Fig-3b</td></tr>
+<tr><td>19234442</td><td>-Fig-2a</td></tr>
+<tr><td>19234442</td><td>-Fig-3d</td></tr>
+<tr><td>19234442</td><td>-Fig-5e</td></tr>
+<tr><td>19234442</td><td>-Fig-5f</td></tr>
+<tr><td>20026654</td><td>-Fig-4b</td></tr>
+<tr><td>20026654</td><td>-Fig-4a</td></tr>
+<tr><td>19274086</td><td>-Fig-4a</td></tr>
+<tr><td>21573184</td><td>-Fig-2a</td></tr>
+<tr><td>21573184</td><td>-Fig-3a</td></tr>
+<tr><td>21573184</td><td>-Fig-3b</td></tr>
+<tr><td>21573184</td><td>-Fig-3c</td></tr>
+<tr><td>21573184</td><td>-Fig-S1c</td></tr>
+<tr><td>21573184</td><td>-Fig-1a</td></tr>
+<tr><td>21573184</td><td>-Fig-1c</td></tr>
+<tr><td>16729043</td><td>-Fig-5b</td></tr>
+<tr><td>11777939</td><td>-Fig-4a</td></tr>
+<tr><td>10871282</td><td>-Fig-3b</td></tr>
+<tr><td>19675569</td><td>-Fig-3b</td></tr>
+<tr><td>10601358</td><td>-Fig-3b</td></tr>
+<tr><td>11777939</td><td>-Fig-8c</td></tr>
+<tr><td>11777939</td><td>-Fig-8a</td></tr>
+<tr><td>11777939</td><td>-Fig-8b</td></tr>
+<tr><td>19734906</td><td>-Fig-6a</td></tr>
+<tr><td>12515821</td><td>-Fig-3c</td></tr>
+<tr><td>11777939</td><td>-Fig-1c</td></tr>
+<tr><td>11777939</td><td>-Fig-1b</td></tr>
+<tr><td>11777939</td><td>-Fig-3b</td></tr>
+<tr><td>16520382</td><td>-Fig-2c</td></tr>
+<tr><td>19112497</td><td>-Fig-2d</td></tr>
+<tr><td>19112497</td><td>-Fig-1d</td></tr>
+<tr><td>19112497</td><td>-Fig-1c</td></tr>
+<tr><td>19112497</td><td>-Fig-1b</td></tr>
+<tr><td>19112497</td><td>-Fig-2c</td></tr>
+<tr><td>21629263</td><td>-Fig-6c</td></tr>
+<tr><td>21629263</td><td>-Fig-6d</td></tr>
+<tr><td>19050761</td><td>-Fig-5j</td></tr>
+<tr><td>19050761</td><td>-Fig-1c</td></tr>
+<tr><td>18215320</td><td>-Fig-S1</td></tr>
+</table>
+
+<p>An example of coprecipitation is shown below: </p>
+
+<p>From <code>Parvatiyar-2012-13-1155</code> (pmid: 23142775), Fig-5a</p>
+
+<p>From page 1159, narrative text:</p>
+
+<blockquote>
+<p>The introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced formation of the DDX41-STING complex (Fig. 5a). </p>
+</blockquote>
+
+<p>Based on this figure: </p>
+
+<p><img src="images/23142775-fig5a.jpg" alt=""></p>
+
+<p>After manual curation, this provides this model:</p>
+
+<p>This model generates this KEfED data structure:</p>
+
+<p><img src="images/23142775-fig5a-kefed.jpg" alt=""></p>
+
+<p>Which when represented as a data structure looks like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">?protein-concentration 
+    [?cell-type][?reagent][?duration][?primary-antibody][?primary-antibody] 
+</code></pre></div>
+<p>The experiment shows the behavior of  DDX41 / STING 
+ complex concentration based on this value (which corresponds is the top row of the figure).  </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">?protein-concentration 
+    [D2SC][?reagent][4h][DDX41][STING] 
+</code></pre></div>
+<p>See this link for definitions of Pathway Logic Assays: <a href="http://pl.csl.sri.com/CurationNotebook/index.html">http://pl.csl.sri.com/CurationNotebook/index.html</a> </p>
+
+<h3>Identifying the most relevant assays for Ras-based work.</h3>
+
+<p>From the 71 &quot;open access&quot; pmids, there are 1716 datums.
+24 have Hras, Braf, Raf1 or Rac1 as subject.</p>
+
+<p>These come from 8 papers: [16492808, 11448999, 11777939, 12515821, 19050761, 20929976, 16520382, 12876277]</p>
+
+<p>The majority of these were about Rac1</p>
+
+<p>They include the following assays
+[copptby, GTP-association, phos, boundto, IVKA]</p>
+
+<h3>Highest priority assays</h3>
+
+<ul>
+<li>coprecipitation<br></li>
+<li>Phosphorylation<br></li>
+<li>ProteinExpression </li>
+<li>inVitroKinase</li>
+<li>location</li>
+<li>GTPAssoc</li>
+</ul>
+
+
+	  	</section>
+
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        	try {
+              	var pageTracker = _gat._getTracker("UA-50171612-1");
+            	pageTracker._trackPageview();
+            } catch(err) {}
+		</script>
+  </body>
+</html>

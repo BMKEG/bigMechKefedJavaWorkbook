@@ -1,0 +1,9 @@
+T1	binds-site 24 77	a fragment spanning the first 500 amino acids of MDC1
+T3	binds-constituent2 135 139	NBS1
+T5	binds-strength 183 203	not further increase
+T6	binds-site 220 249	the more C-terminal sequences
+T8	binds-constituent1 303 307	MDC1
+T9	binds-site 322 358	an FHA domain at the very N terminus
+T10	binds-site 360 477	this domain (either isolated or in the context of a larger fragment spanning up to the first 200 amino acids of MDC1)
+T13	binds-constituent1 73 77	MDC1
+T2	binds-constituent2 518 522	NBS1

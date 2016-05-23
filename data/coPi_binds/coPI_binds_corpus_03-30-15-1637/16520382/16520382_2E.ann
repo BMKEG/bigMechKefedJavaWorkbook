@@ -1,0 +1,8 @@
+T2	binds-constituent1 45 61	p66shcP47A/P50A 
+T3	binds-constituent2 65 70	grb2 
+T4	m-comp 74 101	not appreciably diminished 
+T5	binds-constituent1 128 137	p66shcWT 
+T1	binds-controller 263 269	p66shc
+T6	binds-constituent2 273 277	grb2
+T7	binds-constituent1 330 334	sos1
+T8	binds-constituent2 340 344	grb2

@@ -1,0 +1,78 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "immunoprecipitate": "lysate",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "immunoprecipitate": "Grb2",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "immunoprecipitate": "E3b1",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "immunoprecipitate": "lysate",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "immunoprecipitate": "Grb2",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "E3b1",
+                "cell-type": "Cos-7",
+                "primary-antibody": "Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "immunoprecipitate": "lysate",
+                "cell-type": "Cos-7",
+                "primary-antibody": "E3b1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "Grb2",
+                "cell-type": "Cos-7",
+                "primary-antibody": "E3b1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "immunoprecipitate": "E3b1",
+                "cell-type": "Cos-7",
+                "primary-antibody": "E3b1"
+            }
+        }
+    ],
+    "type": "IP_WB",
+    "name": "11777939-Fig5A"
+}

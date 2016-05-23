@@ -1,0 +1,5 @@
+T1	binds-constituent1 17 25	WT SENP1
+T3	binds-strength 62 80	a complex detected
+T4	binds-constituent2 89 94	Elk-1
+T5	binds-constituent1 99 118	the mutant SENP1 CS
+T2	binds-strength 32 60	no complex could be detected

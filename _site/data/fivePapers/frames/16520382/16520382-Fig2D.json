@@ -1,0 +1,114 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "primary-antibody": "sos1",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "shc",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "grb2",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "sos1",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "2/7: low"},
+            "context": {
+                "primary-antibody": "shc",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "grb2",
+                "immunoprecipitate": "grb2",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "sos1",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "shc",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "grb2",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "sos1",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "shc",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "grb2",
+                "immunoprecipitate": "lysate",
+                "cell-type": "HEK293",
+                "promoter-construct": "p66shc-Y3F"
+            }
+        }
+    ],
+    "type": "Transfect_IP_WB",
+    "name": "16520382-Fig2D"
+}
