@@ -40,12 +40,12 @@ import org.uimafit.util.JCasUtil;
 import bioc.type.UimaBioCAnnotation;
 import bioc.type.UimaBioCDocument;
 import edu.isi.bmkeg.digitalLibrary.controller.DigitalLibraryEngine;
+import edu.isi.bmkeg.elasticNlm.PubMedESIndex;
 import edu.isi.bmkeg.ftd.model.FTD;
 import edu.isi.bmkeg.ftd.model.FTDFragment;
 import edu.isi.bmkeg.ftd.model.FTDFragmentBlock;
 import edu.isi.bmkeg.ftd.model.qo.FTDFragment_qo;
 import edu.isi.bmkeg.ftd.model.qo.FTD_qo;
-import edu.isi.bmkeg.uimaBioC.PubMedESIndex;
 import edu.isi.bmkeg.uimaBioC.UimaBioCUtils;
 import edu.isi.bmkeg.vpdmf.model.instances.LightViewInstance;
 
@@ -81,6 +81,12 @@ public class BuildFragmentsFromBigMechIndexCards extends JCasAnnotator_ImplBase 
 					BuildFragmentsFromBigMechIndexCards.class, "cardDirectory");
 	@ConfigurationParameter(mandatory = true, description = "Directory holding index cards")
 	protected String cardDirectory;
+	
+	public static final String CLUSTER_NAME = ConfigurationParameterFactory
+			.createConfigurationParameterName(
+					BuildFragmentsFromBigMechIndexCards.class, "clusterName");
+	@ConfigurationParameter(mandatory = true, description = "Directory holding index cards")
+	protected String clusterName;
 
 	private DigitalLibraryEngine de;
 
@@ -107,7 +113,7 @@ public class BuildFragmentsFromBigMechIndexCards extends JCasAnnotator_ImplBase 
 			de = new DigitalLibraryEngine();
 			de.initializeVpdmfDao(login, password, dbUrl, workingDirectory);
 
-			this.pmES = new PubMedESIndex();
+			this.pmES = new PubMedESIndex(clusterName);
 
 			File cardDir = new File(this.cardDirectory);
 			if (!cardDir.exists())

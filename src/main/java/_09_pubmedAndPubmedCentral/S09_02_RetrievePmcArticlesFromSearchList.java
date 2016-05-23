@@ -32,6 +32,9 @@ import edu.isi.bmkeg.uimaBioC.PubMedESIndex;
 public class S09_02_RetrievePmcArticlesFromSearchList {
 
 	public static class Options {
+		
+		@Option(name = "-clusterName", usage = "ES Cluster Name", required = true, metaVar = "CLUSTER_NAME")
+		public String clusterName;
 
 		@Option(name = "-pmidFile", usage = "File containing pmid values", required = false, metaVar = "INPUT")
 		public File pmidFile;
@@ -78,7 +81,7 @@ public class S09_02_RetrievePmcArticlesFromSearchList {
 
 		}
 
-		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir);
+		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir, options.clusterName);
 
 		boolean isPmid = true;
 		File inputFile = options.pmidFile;

@@ -1,4 +1,4 @@
-package _10_experimentTypesInOAPMC;
+package _10_pipelineElements;
 
 import java.io.File;
 
@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
 import org.cleartk.opennlp.tools.SentenceAnnotator;
-import org.cleartk.snowball.DefaultSnowballStemmer;
 import org.cleartk.token.tokenizer.TokenAnnotator;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
@@ -17,8 +16,9 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
+import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
+import edu.isi.bmkeg.uimaBioC.uima.out.SaveAsBioCDocuments;
 import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
-
 
 /**
  * This script runs through serialized JSON files from the model and converts
@@ -27,26 +27,44 @@ import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
  * @author Gully
  * 
  */
-public class S10_02_SearchForWordsInPassages {
+public class S10_01_BuildBioCFromNxml2Txt {
 
 	public static class Options {
 
 		@Option(name = "-inDir", usage = "Input Directory", required = true, metaVar = "IN-DIRECTORY")
 		public File inDir;
 
-		@Option(name = "-outFile", usage = "Output File", required = true, metaVar = "IN-DIRECTORY")
-		public File outFile;
+		//~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+		@Option(name = "-bratDir", usage = "Brat directory", required = true, metaVar = "LOGIN")
+		public File bratDir;
 
-		@Option(name = "-words", usage = "Words to search for", required = true, metaVar = "SEARCH")
-		public String wordList;
+		//~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+		@Option(name = "-l", usage = "Database login", required = true, metaVar = "LOGIN")
+		public String login = "";
 
-		@Option(name = "-passage", usage = "Passages to search in", required = true, metaVar = "SECTION")
-		public String passage;
+		@Option(name = "-p", usage = "Database password", required = true, metaVar = "PASSWD")
+		public String password = "";
+
+		@Option(name = "-db", usage = "Database name", required = true, metaVar = "DBNAME")
+		public String dbName = "";
+
+		@Option(name = "-wd", usage = "Working directory", required = true, metaVar = "WDIR")
+		public String workingDirectory = "";
+
+		//~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+		@Option(name = "-outDir", usage = "Output Directory", required = true, metaVar = "OUT-DIRECTORY")
+		public File outDir;
+
+		@Option(name = "-outFormat", usage = "Output Format", required = true, metaVar = "XML/JSON")
+		public String outFormat;
 
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S10_02_SearchForWordsInPassages.class);
+			.getLogger(S10_01_BuildBioCFromNxml2Txt.class);
 
 	/**
 	 * @param args
@@ -72,6 +90,9 @@ public class S10_02_SearchForWordsInPassages {
 			System.exit(-1);
 
 		}
+		
+		if (!options.outDir.getParentFile().exists())
+			options.outDir.getParentFile().mkdirs();
 
 		TypeSystemDescription typeSystem = TypeSystemDescriptionFactory
 				.createTypeSystemDescription("bioc.TypeSystem");
@@ -83,40 +104,34 @@ public class S10_02_SearchForWordsInPassages {
 		AggregateBuilder builder = new AggregateBuilder();
 
 		builder.add(SentenceAnnotator.getDescription()); // Sentence
+														// segmentation
 		builder.add(TokenAnnotator.getDescription()); // Tokenization
-	    builder.add(DefaultSnowballStemmer.getDescription("English"));
+
+		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				AddFragmentsAndCodes.class, 
+				AddFragmentsAndCodes.LOGIN, options.login, 
+				AddFragmentsAndCodes.PASSWORD, options.password,
+				AddFragmentsAndCodes.DB_URL, options.dbName,
+				AddFragmentsAndCodes.WORKING_DIRECTORY, options.workingDirectory,
+				AddFragmentsAndCodes.FRAGMENT_TYPE, "epistSeg"));
+		 
+		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				AddBratAnnotations.class, AddBratAnnotations.BRAT_DATA_DIRECTORY,
+				options.bratDir ));
+		 
+		String outFormat = SaveAsBioCDocuments.JSON;
+		if( options.outFormat.equals("XML") ) 
+			outFormat = SaveAsBioCDocuments.XML;
 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				AddBioCPassagesAndAnnotationsToDocuments.class));
-		
-		/*builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				FigureCodeAnnotator.class,
-				FigureCodeAnnotator.PARAM_OUTPUT_FILE, options.outFile));*/
-
-		/*
-		 * builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-		 * AddFragmentsAndCodes.class, AddFragmentsAndCodes.LOGIN,
-		 * options.login, AddFragmentsAndCodes.PASSWORD, options.password,
-		 * AddFragmentsAndCodes.DB_URL, options.dbName,
-		 * AddFragmentsAndCodes.WORKING_DIRECTORY, options.workingDirectory,
-		 * AddFragmentsAndCodes.FRAGMENT_TYPE, options.frgType ));
-		 */
-
-		/*
-		 * builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-		 * AddBratAnnotations.class, AddBratAnnotations.BRAT_DATA_DIRECTORY,
-		 * options.inBrat ));
-		 */
-	
-		/*builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				SaveAsBioCDocuments.class, 
 				SaveAsBioCDocuments.PARAM_FILE_PATH,
 				options.outDir.getPath(),
 				SaveAsBioCDocuments.PARAM_FORMAT,
-				outFormat));*/
+				outFormat));
 
 		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 

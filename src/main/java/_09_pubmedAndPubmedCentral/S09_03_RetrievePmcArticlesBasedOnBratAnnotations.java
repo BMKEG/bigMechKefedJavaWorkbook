@@ -33,6 +33,9 @@ public class S09_03_RetrievePmcArticlesBasedOnBratAnnotations {
 
 	public static class Options {
 
+		@Option(name = "-clusterName", usage = "ES Cluster Name", required = true, metaVar = "CLUSTER_NAME")
+		public String clusterName;
+
 		@Option(name = "-bratDir", usage = "Brat annotation directory", required = true, metaVar = "INPUT")
 		public File bratDir;
 
@@ -72,7 +75,7 @@ public class S09_03_RetrievePmcArticlesBasedOnBratAnnotations {
 
 		}
  
-		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir);
+		PubMedESIndex pmES = new PubMedESIndex(options.pmcDir, options.clusterName);
 
 		Set<String> pmidSet = new HashSet<String>();
 		String[] fileTypes = {"ann"};		

@@ -46,6 +46,9 @@ public class S12_01_UploadJsonIntoES {
 		@Option(name = "-isExpt", usage = "Is this an experiment?", required = true, metaVar = "IS-THIS-EXPT?")
 		public Boolean isExpt;
 
+		@Option(name = "-clusterName", usage = "ES Cluster Name", required = true, metaVar = "ES-CLUSTER-NAME")
+		public File clusterName;
+
 	}
 
 	private static Logger logger = Logger
@@ -98,7 +101,7 @@ public class S12_01_UploadJsonIntoES {
 			String kefedJson = sb.toString();
 
 			Settings settings = ImmutableSettings.settingsBuilder()
-					.put("cluster.name", "pubmed").build();
+					.put("cluster.name", options.clusterName).build();
 			Client esClient = new TransportClient(settings)
 					.addTransportAddress(new InetSocketTransportAddress(
 							"127.0.0.1", 9300));

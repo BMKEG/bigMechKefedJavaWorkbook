@@ -1,4 +1,4 @@
-package _10_experimentTypesInOAPMC;
+package _10_pipelineElements;
 
 import java.io.File;
 
@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
 import org.cleartk.opennlp.tools.SentenceAnnotator;
+import org.cleartk.snowball.DefaultSnowballStemmer;
 import org.cleartk.token.tokenizer.TokenAnnotator;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
@@ -16,9 +17,8 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
-import edu.isi.bmkeg.uimaBioC.uima.out.SaveAsBioCDocuments;
-import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
+import edu.isi.bmkeg.uimaBioC.uima.readers.Nxml2TxtFilesCollectionReader;
+
 
 /**
  * This script runs through serialized JSON files from the model and converts
@@ -27,37 +27,26 @@ import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
  * @author Gully
  * 
  */
-public class S10_04_AddBratAnnotationsToBioC {
+public class S10_02_SearchForWordsInPassages {
 
 	public static class Options {
 
 		@Option(name = "-inDir", usage = "Input Directory", required = true, metaVar = "IN-DIRECTORY")
 		public File inDir;
 
-		//~~~~~~~~~~~~~~~~~~~~~~~~~
-		
-		@Option(name = "-bratDir", usage = "Brat directory", required = true, metaVar = "LOGIN")
-		public File bratDir;
+		@Option(name = "-outFile", usage = "Output File", required = true, metaVar = "IN-DIRECTORY")
+		public File outFile;
 
-		@Option(name = "-bratType", usage = "Type of these annotations", required = true, metaVar = "TYPE")
-		public String bratType;
+		@Option(name = "-words", usage = "Words to search for", required = true, metaVar = "SEARCH")
+		public String wordList;
 
-		//~~~~~~~~~~~~~~~~~~~~~~~~~
-		
-		@Option(name = "-outDir", usage = "Output Directory", required = true, metaVar = "OUT-DIRECTORY")
-		public File outDir;
-
-		@Option(name = "-outFormat", usage = "Output Format", required = true, metaVar = "XML/JSON")
-		public String outFormat;
-
-		@Option(name = "-keepExisting", usage = "If true, don't delete existing data for restarts", 
-				required = false, metaVar = "KEEP?")
-		public Boolean keepExisting = false;
+		@Option(name = "-passage", usage = "Passages to search in", required = true, metaVar = "SECTION")
+		public String passage;
 
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S10_04_AddBratAnnotationsToBioC.class);
+			.getLogger(S10_02_SearchForWordsInPassages.class);
 
 	/**
 	 * @param args
@@ -83,55 +72,52 @@ public class S10_04_AddBratAnnotationsToBioC {
 			System.exit(-1);
 
 		}
-		
-		if (!options.outDir.getParentFile().exists())
-			options.outDir.getParentFile().mkdirs();
 
 		TypeSystemDescription typeSystem = TypeSystemDescriptionFactory
 				.createTypeSystemDescription("bioc.TypeSystem");
 
 		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
-				BioCCollectionReader.class, typeSystem,
-				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
-				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
-		
-		if( options.keepExisting ) {		
-			cr = CollectionReaderFactory.createCollectionReader(
-				BioCCollectionReader.class, typeSystem,
-				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
-				BioCCollectionReader.OUTPUT_DIRECTORY, options.outDir,
-				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
-		}
-		
+				Nxml2TxtFilesCollectionReader.class, typeSystem,
+				Nxml2TxtFilesCollectionReader.PARAM_INPUT_DIRECTORY, options.inDir);
+
 		AggregateBuilder builder = new AggregateBuilder();
 
 		builder.add(SentenceAnnotator.getDescription()); // Sentence
-														// segmentation
 		builder.add(TokenAnnotator.getDescription()); // Tokenization
-		 
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				AddBratAnnotations.class, 
-				AddBratAnnotations.BRAT_DATA_DIRECTORY, options.bratDir, 
-				AddBratAnnotations.BRAT_TYPE, options.bratType  ));
-		 
-		String outFormat = null;
-		if( options.outFormat.toLowerCase().equals("xml") ) 
-			outFormat = SaveAsBioCDocuments.XML;
-		else if( options.outFormat.toLowerCase().equals("json") ) 
-			outFormat = SaveAsBioCDocuments.JSON;
-		else 
-			throw new Exception("Output format " + options.outFormat + " not recognized");
-		
+	    builder.add(DefaultSnowballStemmer.getDescription("English"));
+
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				AddBioCPassagesAndAnnotationsToDocuments.class));
 
 		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				AddBioCPassagesAndAnnotationsToDocuments.class));
+		
+		/*builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+				FigureCodeAnnotator.class,
+				FigureCodeAnnotator.PARAM_OUTPUT_FILE, options.outFile));*/
+
+		/*
+		 * builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+		 * AddFragmentsAndCodes.class, AddFragmentsAndCodes.LOGIN,
+		 * options.login, AddFragmentsAndCodes.PASSWORD, options.password,
+		 * AddFragmentsAndCodes.DB_URL, options.dbName,
+		 * AddFragmentsAndCodes.WORKING_DIRECTORY, options.workingDirectory,
+		 * AddFragmentsAndCodes.FRAGMENT_TYPE, options.frgType ));
+		 */
+
+		/*
+		 * builder.add(AnalysisEngineFactory.createPrimitiveDescription(
+		 * AddBratAnnotations.class, AddBratAnnotations.BRAT_DATA_DIRECTORY,
+		 * options.inBrat ));
+		 */
+	
+		/*builder.add(AnalysisEngineFactory.createPrimitiveDescription(
 				SaveAsBioCDocuments.class, 
 				SaveAsBioCDocuments.PARAM_FILE_PATH,
 				options.outDir.getPath(),
 				SaveAsBioCDocuments.PARAM_FORMAT,
-				outFormat));
-		
+				outFormat));*/
+
 		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 
 	}

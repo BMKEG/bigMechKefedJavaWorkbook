@@ -1,4 +1,4 @@
-package _10_experimentTypesInOAPMC;
+package _14_reachIntegration;
 
 import java.io.File;
 
@@ -25,7 +25,7 @@ import edu.isi.bmkeg.uimaBioC.uima.readers.BioCCollectionReader;
  * @author Gully
  * 
  */
-public class S10_05_ProcessFigureLegends {
+public class S14_01_RunBasics {
 
 	public static class Options {
 
@@ -41,7 +41,7 @@ public class S10_05_ProcessFigureLegends {
 	}
 
 	private static Logger logger = Logger
-			.getLogger(S10_05_ProcessFigureLegends.class);
+			.getLogger(S14_01_RunBasics.class);
 
 	/**
 	 * @param args
@@ -71,32 +71,6 @@ public class S10_05_ProcessFigureLegends {
 		if (!options.outFile.getParentFile().exists())
 			options.outFile.getParentFile().mkdirs();
 
-		TypeSystemDescription typeSystem = TypeSystemDescriptionFactory
-				.createTypeSystemDescription("bioc.TypeSystem");
-
-		CollectionReader cr = CollectionReaderFactory.createCollectionReader(
-				BioCCollectionReader.class, typeSystem,
-				BioCCollectionReader.INPUT_DIRECTORY, options.inDir,
-				BioCCollectionReader.PARAM_FORMAT, BioCCollectionReader.JSON);
-		
-		AggregateBuilder builder = new AggregateBuilder();
-
-		builder.add(SentenceAnnotator.getDescription()); // Sentence
-														// segmentation
-		builder.add(TokenAnnotator.getDescription()); // Tokenization
-	
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				AddBioCPassagesAndAnnotationsToDocuments.class));
-
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				FigureCodeAnnotator.class));
-
-		builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-				FigureCodeSummarizer.class,
-				FigureCodeSummarizer.PARAM_OUT_FILE, options.outFile,
-				FigureCodeSummarizer.PARAM_FIG_LABEL_FILE, options.figLabelFile));
-				
-		SimplePipeline.runPipeline(cr, builder.createAggregateDescription());
 
 	}
 

@@ -1,4 +1,4 @@
-package _10_experimentTypesInOAPMC;
+package _10_pipelineElements;
 
 import java.io.File;
 
@@ -15,11 +15,11 @@ import org.uimafit.factory.CollectionReaderFactory;
 import org.uimafit.factory.TypeSystemDescriptionFactory;
 import org.uimafit.pipeline.SimplePipeline;
 
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.AddBratAnnotations;
-import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.SummarizeBratAnnotations;
+import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.SaveAsBioC;
+import edu.isi.bmkeg.digitalLibrary.cleartk.annotators.SaveAsBratFragments;
 import edu.isi.bmkeg.digitalLibrary.cleartk.cr.DigitalLibraryCollectionReader;
 
-public class CategorizeAnnotations {
+public class GenerateBratAnnotationsFromEpistemicFragments {
 
 	public static class Options {
 
@@ -29,6 +29,9 @@ public class CategorizeAnnotations {
 		@Option(name = "-frgType", usage = "The fragment type to be used", required = true)
 		public String frgType = "";
 
+		@Option(name = "-bratType", usage = "The type of brat annotations to be used", required = true)
+		public String bratType = "";
+		
 		@Option(name = "-frgCode", usage = "The fragment codes to be extracted", required = false)
 		public String frgCode = "";
 
@@ -44,11 +47,8 @@ public class CategorizeAnnotations {
 		@Option(name = "-wd", usage = "Working Directory", required = true)
 		public File workingDirectory;
 
-		@Option(name = "-inBrat", usage = "Brat Annotations", required = true)
-		public File inBrat;
-
-		@Option(name = "-out", usage = "Where to put the summaries", required = true)
-		public File out;
+		@Option(name = "-outBratDir", usage = "Brat Annotations", required = true)
+		public File outBratDir;
 
 	}
 
@@ -96,22 +96,12 @@ public class CategorizeAnnotations {
 					));
 			
 			builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-					AddBratAnnotations.class,
-					AddBratAnnotations.BRAT_DATA_DIRECTORY, options.inBrat
+					SaveAsBratFragments.class,
+					SaveAsBratFragments.PARAM_DIR_PATH, options.outBratDir,
+					SaveAsBratFragments.FRAGMENT_TYPE, options.frgType,
+					SaveAsBratFragments.ANNOTATION_TYPE, options.bratType
 					));
-			
-			// The simple document classification annotator
-			String corpusName = options.corpus;
-
-			corpusName = corpusName.replaceAll("\\s+", "_");
-			corpusName = corpusName.replaceAll("\\/", "_");
-
-			String filePath = options.out.getPath() + "/" + corpusName + "_annSummary.txt";
-
-			builder.add(AnalysisEngineFactory.createPrimitiveDescription(
-					SummarizeBratAnnotations.class,
-					SummarizeBratAnnotations.PARAM_FILE_PATH, filePath));
-
+						
 			SimplePipeline
 					.runPipeline(cr, builder.createAggregateDescription());
 
