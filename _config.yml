@@ -1,6 +1,5 @@
 name: Systems Biology KEfED Tools
 markdown: kramdown
-pygments: true
 permalink: none
 highlighter: rouge
 kramdown:
