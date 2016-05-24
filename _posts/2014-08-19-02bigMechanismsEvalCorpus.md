@@ -8,7 +8,7 @@ nextPage: 04kefed1.html
 
 1. BigMech Wiki Instructions + Redundancy 
 ---
-This [link on the Big Mechanisms wiki](https://www.schafertmd.com/darpa/i2o/bigmechanism/wiki/images/f/f8/BigMech_PMC_OA_subset_IDs.txt) provides a list of **1,741** PMC id values. Since some of the articles occur in more than one query, only **840** of these are unique. Here is a [list of these unique PMC id values](https://raw.githubusercontent.com/BMKEG/systems-biology-kefed/master/docs/BigMech_PMC_OA_unique_IDs.txt).
+This [link on the Big Mechanisms wiki](https://www.schafertmd.com/darpa/i2o/bigmechanism/wiki/images/f/f8/BigMech_PMC_OA_subset_IDs.txt) provides a list of **1,741** PMC id values. Since some of the articles occur in more than one query, only **840** of these are unique. Here is a [list of these unique PMC id values](https://raw.githubusercontent.com/BMKEG/bigMechKefedJavaWorkbook/master/docs/BigMech_PMC_OA_unique_IDs.txt).
 
 2. Preliminary Corpora
 ------

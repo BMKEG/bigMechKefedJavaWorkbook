@@ -27,21 +27,24 @@
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
         			<li><a href="08pathwayLogicExperimentTypes.html">Navigate to <strong>next</strong></a></li>
 				</ul>
-<ol>
+				
+				<ol>
 	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
-        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
-        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
-        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
-        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
-        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
  	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
  	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
  	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
  	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
 	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
 	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+	<li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
 </ol>
 
+				
 			</header>
       
       		<section>
@@ -50,137 +53,141 @@
           	<p>Typically, experimental papers are split into sections. This is evident from the structure of the XML of the full text articles. A typical structure would be:</p>
 
 <ol>
-<li>Title + Abstract</li>
-<li>Introduction</li>
-<li>Materials and Methods (sometimes this is at the end or in supplemental material)</li>
-<li>Results (this is what we care about and contains Figure Legends)
-4a. Figure Legends</li>
-<li>Discussion</li>
+  <li>Title + Abstract</li>
+  <li>Introduction</li>
+  <li>Materials and Methods (sometimes this is at the end or in supplemental material)</li>
+  <li>Results (this is what we care about and contains Figure Legends)
+ 4a. Figure Legends</li>
+  <li>Discussion</li>
 </ol>
 
-<p>As an example, let&#39;s take <a href="http://www.ncbi.nlm.nih.gov/pubmed/23142775">http://www.ncbi.nlm.nih.gov/pubmed/23142775</a>, which is one of the Open Access papers from PL. This is interesting because in Figure 5a and 5b, the paper talks about data from a &#39;coprecipitation&#39; assay, which is a technique used to examine what proteins complexes are made of. </p>
+<p>As an example, let’s take <a href="http://www.ncbi.nlm.nih.gov/pubmed/23142775">http://www.ncbi.nlm.nih.gov/pubmed/23142775</a>, which is one of the Open Access papers from PL. This is interesting because in Figure 5a and 5b, the paper talks about data from a ‘coprecipitation’ assay, which is a technique used to examine what proteins complexes are made of.</p>
 
-<p>This is the assay we&#39;re going to look at in detail for the documents in the PL corpus. The XML of the results section of the PubMedCentral articles reads thus: </p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;sec sec-type=&quot;results&quot; id=&quot;S1&quot;&gt;
+<p>This is the assay we’re going to look at in detail for the documents in the PL corpus. The XML of the results section of the PubMedCentral articles reads thus:</p>
+
+<pre><code>&lt;sec sec-type="results" id="S1"&gt;
   &lt;title&gt;RESULTS&lt;/title&gt;
    ...
-   &lt;sec id=&quot;S5&quot;&gt;
+   &lt;sec id="S5"&gt;
     &lt;title&gt;DDX41-dependent signaling downstream of c-di-GMP and c-di-AMP&lt;/title&gt;
-        &lt;p id=&quot;P10&quot;&gt;
+        &lt;p id="P10"&gt;
         DDX41 interacts and co-localizes with the STING adaptor (&lt;bold&gt;&lt;xref 
-        ref-type=&quot;supplementary-material&quot; rid=&quot;SD1&quot;&gt;Supplementary Fig. 4a,b&lt;/xref&gt;&lt;/bold&gt;) 
-        to facilitate DNA ligand dependent signal transduction&lt;sup&gt;&lt;xref ref-type=&quot;bibr&quot; rid=&quot;R17&quot;&gt;17&lt;/xref&gt;&lt;/sup&gt;. 
-        Introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced DDX41-STING complex
-        formation (&lt;bold&gt;&lt;xref ref-type=&quot;fig&quot; rid=&quot;F5&quot;&gt;Fig. 5a&lt;/xref&gt;&lt;/bold&gt;). In DNA dependent signaling
-         pathways, STING further binds to the downstream kinase TBK1 to activate the type I IFN 
-         response&lt;sup&gt;&lt;xref ref-type=&quot;bibr&quot; rid=&quot;R18&quot;&gt;18&lt;/xref&gt;, &lt;xref ref-type=&quot;bibr&quot; rid=&quot;R19&quot;&gt;19&lt;/xref&gt;&lt;/sup&gt;. 
-         Both c-di-GMP and c-di-AMP when transfected into control D2SC cells activated the formation of a STING-
-         TBK1 complex, however, c-di-GMP and c-di-AMP mediated activation of the STING-TBK1 complex was 
-         almost completely abrogated in DDX41-shRNA cells (&lt;bold&gt;&lt;xref ref-type=&quot;fig&quot; rid=&quot;F5&quot;&gt;Fig. 5b&lt;/xref&gt;
-         &lt;/bold&gt;). Consequently, c-di-GMP and c-di-AMP mediated activation of TBK1, IRF3 and the downstream type 
-         I IFN effector, STAT1 was impaired in DDX41-shRNA cells (&lt;bold&gt;&lt;xref ref-type=&quot;fig&quot; rid=&quot;F5&quot;&gt;Fig. 5c&lt;/xref&gt; 
-         and &lt;xref ref-type=&quot;supplementary-material&quot; rid=&quot;SD1&quot;&gt;Supplementary Fig. 5&lt;/xref&gt;&lt;/bold&gt;). Activation of 
-         NF-&amp;#x3BA;B was also impaired in DDX41-shRNA cells in response to either c-di-GMP or c-di-AMP 
-         (&lt;bold&gt;&lt;xref ref-type=&quot;fig&quot; rid=&quot;F5&quot;&gt;Fig. 5c&lt;/xref&gt;&lt;/bold&gt;). Together, our findings suggest that DDX41 is a 
-         critical PRR for c-di-GMP and c-di-AMP mediated IFN induction, and that its absence generates a defect in 
-         downstream STING-dependent signaling.
-         &lt;/p&gt;
+    	ref-type="supplementary-material" rid="SD1"&gt;Supplementary Fig. 4a,b&lt;/xref&gt;&lt;/bold&gt;) 
+    	to facilitate DNA ligand dependent signal transduction&lt;sup&gt;&lt;xref ref-type="bibr" rid="R17"&gt;17&lt;/xref&gt;&lt;/sup&gt;. 
+    	Introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced DDX41-STING complex
+    	formation (&lt;bold&gt;&lt;xref ref-type="fig" rid="F5"&gt;Fig. 5a&lt;/xref&gt;&lt;/bold&gt;). In DNA dependent signaling
+    	 pathways, STING further binds to the downstream kinase TBK1 to activate the type I IFN 
+    	 response&lt;sup&gt;&lt;xref ref-type="bibr" rid="R18"&gt;18&lt;/xref&gt;, &lt;xref ref-type="bibr" rid="R19"&gt;19&lt;/xref&gt;&lt;/sup&gt;. 
+    	 Both c-di-GMP and c-di-AMP when transfected into control D2SC cells activated the formation of a STING-
+    	 TBK1 complex, however, c-di-GMP and c-di-AMP mediated activation of the STING-TBK1 complex was 
+    	 almost completely abrogated in DDX41-shRNA cells (&lt;bold&gt;&lt;xref ref-type="fig" rid="F5"&gt;Fig. 5b&lt;/xref&gt;
+    	 &lt;/bold&gt;). Consequently, c-di-GMP and c-di-AMP mediated activation of TBK1, IRF3 and the downstream type 
+    	 I IFN effector, STAT1 was impaired in DDX41-shRNA cells (&lt;bold&gt;&lt;xref ref-type="fig" rid="F5"&gt;Fig. 5c&lt;/xref&gt; 
+    	 and &lt;xref ref-type="supplementary-material" rid="SD1"&gt;Supplementary Fig. 5&lt;/xref&gt;&lt;/bold&gt;). Activation of 
+    	 NF-&amp;#x3BA;B was also impaired in DDX41-shRNA cells in response to either c-di-GMP or c-di-AMP 
+    	 (&lt;bold&gt;&lt;xref ref-type="fig" rid="F5"&gt;Fig. 5c&lt;/xref&gt;&lt;/bold&gt;). Together, our findings suggest that DDX41 is a 
+    	 critical PRR for c-di-GMP and c-di-AMP mediated IFN induction, and that its absence generates a defect in 
+    	 downstream STING-dependent signaling.
+    	 &lt;/p&gt;
  &lt;/sec&gt;
   ...
 &lt;/sec&gt;
-</code></pre></div>
+</code></pre>
+
 <p>This paragraph, when parsed out using modified JATS XSLT transforms yields this text (with sentences of interest highlighted and tokenization from our text processing pipeline ):</p>
 
 <blockquote>
-<p>DDX41 interacts and co-localizes with the STING adaptor ( Supplementary Fig. 4a,b  ) to facilitate DNA ligand dependent signal transduction  <sup>17</sup> . <font color="red">Introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced DDX41-STING complex formation (  Fig. 5a  ).</font> In DNA dependent signaling pathways, STING further binds to the downstream kinase TBK1 to activate the type I IFN response  <sup>18  ,  19</sup>  . <font color="red"> Both c-di-GMP and c-di-AMP when transfected into control D2SC cells activated the formation of a STING-TBK1 complex, however, c-di-GMP and c-di-AMP mediated activation of the STING-TBK1 complex was almost completely abrogated in DDX41-shRNA cells (  Fig. 5b  ) .</font> Consequently, c-di-GMP and c-di-AMP mediated activation of TBK1, IRF3 and the downstream type I IFN effector, STAT1 was impaired in DDX41-shRNA cells (  Fig. 5c  and  Supplementary Fig. 5  ). Activation of NF-κB was also impaired in DDX41-shRNA cells in response to either c-di-GMP or c-di-AMP (  Fig. 5c  ). Together, our findings suggest that DDX41 is a critical PRR for c-di-GMP and c-di-AMP mediated IFN induction, and that its absence generates a defect in downstream STING-dependent signaling. </p>
+  <p>DDX41 interacts and co-localizes with the STING adaptor ( Supplementary Fig. 4a,b  ) to facilitate DNA ligand dependent signal transduction  <sup>17</sup> . <font color="red">Introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced DDX41-STING complex formation (  Fig. 5a  ).</font> In DNA dependent signaling pathways, STING further binds to the downstream kinase TBK1 to activate the type I IFN response  <sup>18  ,  19</sup>  . <font color="red"> Both c-di-GMP and c-di-AMP when transfected into control D2SC cells activated the formation of a STING-TBK1 complex, however, c-di-GMP and c-di-AMP mediated activation of the STING-TBK1 complex was almost completely abrogated in DDX41-shRNA cells (  Fig. 5b  ) .</font> Consequently, c-di-GMP and c-di-AMP mediated activation of TBK1, IRF3 and the downstream type I IFN effector, STAT1 was impaired in DDX41-shRNA cells (  Fig. 5c  and  Supplementary Fig. 5  ). Activation of NF-κB was also impaired in DDX41-shRNA cells in response to either c-di-GMP or c-di-AMP (  Fig. 5c  ). Together, our findings suggest that DDX41 is a critical PRR for c-di-GMP and c-di-AMP mediated IFN induction, and that its absence generates a defect in downstream STING-dependent signaling.</p>
 </blockquote>
 
-<p>Note that the sentences to either side of the desired text either contain citations (as superscripted numbers in the text or <code>&lt;xref ref-type=&quot;bibr&quot; rid=&quot;R17&quot;&gt;</code> elements in the XML) or references to other figures in the document (also denoted by <code>xref</code> tags in the xml).</p>
+<p>Note that the sentences to either side of the desired text either contain citations (as superscripted numbers in the text or <code>&lt;xref ref-type="bibr" rid="R17"&gt;</code> elements in the XML) or references to other figures in the document (also denoted by <code>xref</code> tags in the xml).</p>
 
-<p>In this XML, the figure legends of interest occur in a completely separate part of the file (right at the end and separate from the other parts) </p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">  &lt;floats-group&gt;
+<p>In this XML, the figure legends of interest occur in a completely separate part of the file (right at the end and separate from the other parts)</p>
+
+<pre><code>  &lt;floats-group&gt;
   ...
-        &lt;fig id=&quot;F5&quot; orientation=&quot;portrait&quot; position=&quot;float&quot;&gt;
-            &lt;label&gt;Figure 5&lt;/label&gt;
-            &lt;caption&gt;
-                &lt;p&gt;c-di-GMP and c-di-AMP require DDX41 for STING dependent signaling.
-                 (&lt;bold&gt;a&lt;/bold&gt;) Immunoprecipitation and immunoblot analysis of DDX41-
-                 STING interactions is D2SC cells transfected with c-di-GMP or c-di-AMP 
-                 for 4 h. (&lt;bold&gt;b)&lt;/bold&gt; Immunoprecipitation and immunoblot analysis of 
-                 STING-TBK1 interactions in control-shRNA or DDX41-shRNA D2SC cells 
-                 transfected as in &lt;bold&gt;a&lt;/bold&gt;. (&lt;bold&gt;c&lt;/bold&gt;) Immunoblot analysis of 
-                 TBK1, IRF3, p65 and STAT1 phosphorylations in control-shRNA, DDX41-
-                 shRNA or STING-shRNA D2SC mDCs transfected with c-di-GMP, c-di-
-                 AMP, Poly (I:C) or B-DNA for 4 h. Data are representative of at least two 
-                 independent experiments.
-                &lt;/p&gt;
-            &lt;/caption&gt;
-            &lt;graphic xlink:href=&quot;nihms-410677-f0005&quot;/&gt;
-        &lt;/fig&gt;
+		&lt;fig id="F5" orientation="portrait" position="float"&gt;
+  			&lt;label&gt;Figure 5&lt;/label&gt;
+  			&lt;caption&gt;
+    			&lt;p&gt;c-di-GMP and c-di-AMP require DDX41 for STING dependent signaling.
+    			 (&lt;bold&gt;a&lt;/bold&gt;) Immunoprecipitation and immunoblot analysis of DDX41-
+    			 STING interactions is D2SC cells transfected with c-di-GMP or c-di-AMP 
+    			 for 4 h. (&lt;bold&gt;b)&lt;/bold&gt; Immunoprecipitation and immunoblot analysis of 
+    			 STING-TBK1 interactions in control-shRNA or DDX41-shRNA D2SC cells 
+    			 transfected as in &lt;bold&gt;a&lt;/bold&gt;. (&lt;bold&gt;c&lt;/bold&gt;) Immunoblot analysis of 
+    			 TBK1, IRF3, p65 and STAT1 phosphorylations in control-shRNA, DDX41-
+    			 shRNA or STING-shRNA D2SC mDCs transfected with c-di-GMP, c-di-
+    			 AMP, Poly (I:C) or B-DNA for 4 h. Data are representative of at least two 
+    			 independent experiments.
+    			&lt;/p&gt;
+    		&lt;/caption&gt;
+    		&lt;graphic xlink:href="nihms-410677-f0005"/&gt;
+    	&lt;/fig&gt;
     ...
     &lt;/floats-group&gt;
-</code></pre></div>
-<p>This yields the following text: </p>
+</code></pre>
+
+<p>This yields the following text:</p>
 
 <blockquote>
-<p>Figure 5 c-di-GMP and c-di-AMP require DDX41 for STING dependent signaling. <font color="red">(  a  ) Immunoprecipitation and immunoblot analysis of DDX41-STING interactions is D2SC cells transfected with c-di-GMP or c-di-AMP for 4 h. </font> <font color="red">(  b )  Immunoprecipitation and immunoblot analysis of STING-TBK1 interactions in control-shRNA or DDX41-shRNA D2SC cells transfected as in  a  . </font>(  c  ) Immunoblot analysis of TBK1, IRF3, p65 and STAT1 phosphorylations in control-shRNA, DDX41-shRNA or STING-shRNA D2SC mDCs transfected with c-di-GMP, c-di-AMP, Poly (I:C) or B-DNA for 4 h. Data are representative of at least two independent experiments. </p>
+  <p>Figure 5 c-di-GMP and c-di-AMP require DDX41 for STING dependent signaling. <font color="red">(  a  ) Immunoprecipitation and immunoblot analysis of DDX41-STING interactions is D2SC cells transfected with c-di-GMP or c-di-AMP for 4 h. </font> <font color="red">(  b )  Immunoprecipitation and immunoblot analysis of STING-TBK1 interactions in control-shRNA or DDX41-shRNA D2SC cells transfected as in  a  . </font>(  c  ) Immunoblot analysis of TBK1, IRF3, p65 and STAT1 phosphorylations in control-shRNA, DDX41-shRNA or STING-shRNA D2SC mDCs transfected with c-di-GMP, c-di-AMP, Poly (I:C) or B-DNA for 4 h. Data are representative of at least two independent experiments.</p>
 </blockquote>
 
-<p>Ideally, what we would like would be a table of all subfigures (1a, 1b, 1c, ... , 6f), with their location in the text (this could be described in any way that we could reconstruct easily) and the text of the sentences as shown.</p>
+<p>Ideally, what we would like would be a table of all subfigures (1a, 1b, 1c, … , 6f), with their location in the text (this could be described in any way that we could reconstruct easily) and the text of the sentences as shown.</p>
 
 <p>Files for this example are listed here:</p>
 
 <ul>
-<li><a href="data/23142775/23142775_pmc.xml">23142775_pmc.xml</a></li>
-<li><a href="data/23142775/23142775.pdf">23142775.pdf</a></li>
-<li><a href="data/23142775/23142775.html">23142775.html</a></li>
-<li><a href="data/23142775/23142775.txt">23142775.txt</a></li>
+  <li><a href="data/23142775/23142775_pmc.xml">23142775_pmc.xml</a></li>
+  <li><a href="data/23142775/23142775.pdf">23142775.pdf</a></li>
+  <li><a href="data/23142775/23142775.html">23142775.html</a></li>
+  <li><a href="data/23142775/23142775.txt">23142775.txt</a></li>
 </ul>
 
-<p>Note that the text file has a bunch of tokens that look like this: <code>__s_A__</code> or <code>__e_A__</code>. These are &#39;start&#39; and &#39;end&#39; tags for formatting and links that we might find useful in the information extraction process. How we use these is open for discussion.</p>
+<p>Note that the text file has a bunch of tokens that look like this: <code>__s_A__</code> or <code>__e_A__</code>. These are ‘start’ and ‘end’ tags for formatting and links that we might find useful in the information extraction process. How we use these is open for discussion.</p>
 
-<h3>Strategic Plan</h3>
-
-<ol>
-<li>Build heuristics to extract  <code>Results Statements</code> and <code>Figure Statements</code> from example texts provided by Pathway Logic</li>
-<li>Develop an annotated test set of this data based on manually annotated documents (from the BioScholar Fragmenter)</li>
-<li>Classify each fragment according to experiment type (or &#39;assay type&#39; as defined by PL)
-
-<ul>
-<li>Based on discussions with Merrill and Carolyn at Pathway Logic, we are focussing our effort on the following PL assays:
+<h3 id="strategic-plan">Strategic Plan</h3>
 
 <ol>
-<li>Coprecipitation</li>
-<li>Phosphorylation</li>
-<li>Protein Expression</li>
-<li>In vitro Kinase Studies</li>
-<li>Location assays </li>
-<li>GTP Assocation</li>
-</ol></li>
-</ul></li>
-<li>Perform entity detection and information extraction over these fragments and normalize them to a joint KEfED  / PL Datum object model.</li>
-<li>Build a large-scale extracted database of scientific observations from cancer pathways.</li>
+  <li>Build heuristics to extract  <code>Results Statements</code> and <code>Figure Statements</code> from example texts provided by Pathway Logic</li>
+  <li>Develop an annotated test set of this data based on manually annotated documents (from the BioScholar Fragmenter)</li>
+  <li>Classify each fragment according to experiment type (or ‘assay type’ as defined by PL)
+    <ul>
+      <li>Based on discussions with Merrill and Carolyn at Pathway Logic, we are focussing our effort on the following PL assays:
+        <ol>
+          <li>Coprecipitation</li>
+          <li>Phosphorylation</li>
+          <li>Protein Expression</li>
+          <li>In vitro Kinase Studies</li>
+          <li>Location assays</li>
+          <li>GTP Assocation</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Perform entity detection and information extraction over these fragments and normalize them to a joint KEfED  / PL Datum object model.</li>
+  <li>Build a large-scale extracted database of scientific observations from cancer pathways.</li>
 </ol>
 
-<h3>Work Action Plan</h3>
+<h3 id="work-action-plan">Work Action Plan</h3>
 
-<h4>Pradeep</h4>
+<h4 id="pradeep">Pradeep</h4>
 
 <ol>
-<li>Run preliminary extraction for result sentences over the 33 coprecipitation papers. </li>
-<li>Express the results as JSON (so that Gully can fit this into the BioScholar system)</li>
+  <li>Run preliminary extraction for result sentences over the 33 coprecipitation papers.</li>
+  <li>Express the results as JSON (so that Gully can fit this into the BioScholar system)</li>
 </ol>
 
-<h4>Gully</h4>
+<h4 id="gully">Gully</h4>
 
 <ol>
-<li>Start work on fragmenting the PL corpus to provide training data.</li>
-<li>Fit training data from PDFs to offset annotations within the text documents</li>
-<li>Develop formatting specification for data from fragmenter in JSON
-
-<ul>
-<li><em>Let&#39;s make this JSON-LD to prepare for a Linked Open Data approach.</em><br></li>
-</ul></li>
+  <li>Start work on fragmenting the PL corpus to provide training data.</li>
+  <li>Fit training data from PDFs to offset annotations within the text documents</li>
+  <li>Develop formatting specification for data from fragmenter in JSON
+    <ul>
+      <li><em>Let’s make this JSON-LD to prepare for a Linked Open Data approach.</em></li>
+    </ul>
+  </li>
 </ol>
 
 

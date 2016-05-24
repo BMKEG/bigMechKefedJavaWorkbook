@@ -27,68 +27,79 @@
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
         			<li><a href="05evaluatingEvidenceExtraction.html">Navigate to <strong>next</strong></a></li>
 				</ul>
-<ol>
+				
+				<ol>
 	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
-        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
-        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
-        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
-        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
-        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
  	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
  	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
  	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
  	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
 	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
 	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+	<li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
 </ol>
 
+				
 			</header>
       
       		<section>
       		<div class="toc"></div>
 
-          	<h2>1. Fragments and KEfED models   </h2>
+          	<ol>
+  <li>
+    <h2 id="fragments-and-kefed-models">Fragments and KEfED models</h2>
+  </li>
+</ol>
 
-<p>We drive the definition of simple KEfED models through the <code>Fragmenter</code>. We denote each fragment by a code (<em>e.g.,</em> &#39;Fig5C&#39;&#39;), that here refers to the figure but could conceivably be based on any label for the model. </p>
+<p>We drive the definition of simple KEfED models through the <code>Fragmenter</code>. We denote each fragment by a code (<em>e.g.,</em> ‘Fig5C’’), that here refers to the figure but could conceivably be based on any label for the model.</p>
 
-<p>Here, we show a screenshot of the system in its current form with a simple KEfED model based on the experimental protocol used to generate the data of Figure 5C from Montero Conde <em>et al.</em> 2013. The system shows the text of the fragment on-screen and updates the underlying database entry as you enter individual elements and edges into the system. Importantly, the <code>Data Structure</code> panel on the right hand side shows the variable dependencies for the currently selected element (in other words, there each individual measurement of <code>Relative Light Units</code> derived from the this more ). We will incorporate this piece to model more complex data structures derived from statistical analysis and data processing steps. </p>
+<p>Here, we show a screenshot of the system in its current form with a simple KEfED model based on the experimental protocol used to generate the data of Figure 5C from Montero Conde <em>et al.</em> 2013. The system shows the text of the fragment on-screen and updates the underlying database entry as you enter individual elements and edges into the system. Importantly, the <code>Data Structure</code> panel on the right hand side shows the variable dependencies for the currently selected element (in other words, there each individual measurement of <code>Relative Light Units</code> derived from the this more ). We will incorporate this piece to model more complex data structures derived from statistical analysis and data processing steps.</p>
 
-<p><a href="http://bmkeg.github.io/systems-biology-kefed/images/bioscholarKefedModel1.jpg">
-<img src="images/bioscholarKefedModel1.jpg"/></a>
+<p><a href="http://bmkeg.github.io/bigMechKefedJavaWorkbook/images/bioscholarKefedModel1.jpg">
+<img src="images/bioscholarKefedModel1.jpg" /></a>
 Figure 1: Screenshot of KEfED model <code>5c</code> from Montero Conde <em>et al.</em> 2013.</p>
 
-<p>Note that the actual text of the Figure legend reads: </p>
+<p>Note that the actual text of the Figure legend reads:</p>
 
 <blockquote>
-<p>C, luciferase assays of 8505C cells transfected with plasmids containing HER3 promoter- reporter constructs (−992/+63; −730/+63; −401/+63 or −42/+63, relative to transcriptional start site) and pRenilla-CMV, used as transfection normalizing control plasmid. Twelve hours post-transfection, complete media containing 2 μM PLX4032 or 0.5 μM AZD6244 was added to cells. Lysates were obtained at different time points post-treatment (0, 6, 24 and 48 h), and luciferase activity measured. Promoter activity was determined as the ratio between luciferase and renilla, relative to untreated cells. The results shown are the mean +/ − SD of triplicate samples. * p&lt; 0.05, *<em>p &lt; 0.01, *</em>*p &lt; 0.001</p>
+  <p>C, luciferase assays of 8505C cells transfected with plasmids containing HER3 promoter- reporter constructs (−992/+63; −730/+63; −401/+63 or −42/+63, relative to transcriptional start site) and pRenilla-CMV, used as transfection normalizing control plasmid. Twelve hours post-transfection, complete media containing 2 μM PLX4032 or 0.5 μM AZD6244 was added to cells. Lysates were obtained at different time points post-treatment (0, 6, 24 and 48 h), and luciferase activity measured. Promoter activity was determined as the ratio between luciferase and renilla, relative to untreated cells. The results shown are the mean +/ − SD of triplicate samples. * p&lt; 0.05, <em>*p &lt; 0.01, **</em>p &lt; 0.001</p>
 </blockquote>
 
 <p>This illustrates that the text we capture from the PDF file is somewhat inaccurate (but is the only text source we have for this paper since it is not part of the PubMedCentral OA set, but we could conceivably scrape the online HTML on a paper-by-paper basis, requiring getting permission from the publishers).</p>
 
-<p>... and the figure portraying the data itself in the paper is this: </p>
+<p>… and the figure portraying the data itself in the paper is this:</p>
 
-<p><a href="http://bmkeg.github.io/systems-biology-kefed/images/montero-2013-3-520-fig5C.jpg">
-<img src="images/montero-2013-3-520-fig5C.jpg"/></a></p>
+<p><a href="http://bmkeg.github.io/bigMechKefedJavaWorkbook/images/montero-2013-3-520-fig5C.jpg">
+<img src="images/montero-2013-3-520-fig5C.jpg" /></a></p>
 
-<p>It is immediately evident from the figure that the measurements are based on <code>Relative Light Units</code> (<code>RLU</code>), and the axes of experiment are (a) the <code>Cell Type Name</code>, (b) <code>Promoter Construct</code>, (c) <code>Time after treatment</code> and (d) the <code>Drug</code>. </p>
+<p>It is immediately evident from the figure that the measurements are based on <code>Relative Light Units</code> (<code>RLU</code>), and the axes of experiment are (a) the <code>Cell Type Name</code>, (b) <code>Promoter Construct</code>, (c) <code>Time after treatment</code> and (d) the <code>Drug</code>.</p>
 
-<p>Our long term challenge is (A) to be able to infer or select this design based only on the data presented in the scientific paper, (B) populate this model with values derived from the content of the paper and then (C) to interpret this data correctly to support reasoning about cancer pathways. Note that this sort of reasoning need not conform to &#39;traditional&#39; modeling approaches but may leverage Bayesian / Causal reasoning based on the the variables that are directly implicated in the experimental design or hidden &#39;interpretive&#39; variables of importance to the domain. </p>
+<p>Our long term challenge is (A) to be able to infer or select this design based only on the data presented in the scientific paper, (B) populate this model with values derived from the content of the paper and then (C) to interpret this data correctly to support reasoning about cancer pathways. Note that this sort of reasoning need not conform to ‘traditional’ modeling approaches but may leverage Bayesian / Causal reasoning based on the the variables that are directly implicated in the experimental design or hidden ‘interpretive’ variables of importance to the domain.</p>
 
 <p>We have gone through each of the experiments in Figure 5 of <a href="http://www.ncbi.nlm.nih.gov/pubmed/23365119">Montero-Conde et al. 2013</a> from parts A-F, decomposing the text in detail to infer the underlying data and methods used to substantiate the claims made in the paper. This forms the basis of our continued discussion with the Pathway Logic <code>Datum</code> formalism (available here: <a href="http://light.csl.sri.com/datum">http://light.csl.sri.com/datum</a>) and possible connections to other formalisms such as BEL (<a href="http://www.openbel.org/">http://www.openbel.org/</a>).</p>
 
 <p><strong><em><a href="images/Montero-Conde-2013-3-520-figure5A-F.pdf">Montero-Conde-2013-3-520-figure5A-F.pdf</a></em></strong></p>
 
-<p>We simply go through <strong>five</strong> assertions from the narrative text of the document describing some findings of the paper reported in a <strong>single figure</strong>. In fact, these statements are derived from <strong>six</strong> separate small scale experiments which together form the basis of the evidence pertaining to this section of the paper. </p>
+<p>We simply go through <strong>five</strong> assertions from the narrative text of the document describing some findings of the paper reported in a <strong>single figure</strong>. In fact, these statements are derived from <strong>six</strong> separate small scale experiments which together form the basis of the evidence pertaining to this section of the paper.</p>
 
-<h2>2. KEfED-based NL Annotations   </h2>
+<ol>
+  <li>
+    <h2 id="kefed-based-nl-annotations">KEfED-based NL Annotations</h2>
+  </li>
+</ol>
 
-<p>The current annotation scheme for extracting relations from text into the KEfED model is shown below: </p>
+<p>The current annotation scheme for extracting relations from text into the KEfED model is shown below:</p>
 
-<p><img src="images/kefedAnnotationFramework.jpg" alt="KEfED Annotation Framework"></p>
+<p><img src="images/kefedAnnotationFramework.jpg" alt="KEfED Annotation Framework" /></p>
 
-<p>This currently shows the schema used in <code>brat</code> to annotate sentences for NLP. Here, we focus mainly on the relationships between the <code>Statistical Effect</code>, <code>Dependent Variable</code> and <code>Parameter</code> classes as a preliminary structure to be able to extract from text the dependency relations that lie at the heart of the KEfED representation of the structure of data cited in systems biology experiments. </p>
+<p>This currently shows the schema used in <code>brat</code> to annotate sentences for NLP. Here, we focus mainly on the relationships between the <code>Statistical Effect</code>, <code>Dependent Variable</code> and <code>Parameter</code> classes as a preliminary structure to be able to extract from text the dependency relations that lie at the heart of the KEfED representation of the structure of data cited in systems biology experiments.</p>
 
-<p>We are currently in the process of curating many such sentences in order to then track how these annotations (A) reflect readable linguistic features from within the text and (B) correctly reconstruct the parameterization signature of experimental findings based on the KEfED model. Formulating and evaluating this structure is a key contribution of this effort.     </p>
+<p>We are currently in the process of curating many such sentences in order to then track how these annotations (A) reflect readable linguistic features from within the text and (B) correctly reconstruct the parameterization signature of experimental findings based on the KEfED model. Formulating and evaluating this structure is a key contribution of this effort.</p>
 
 
 	  	</section>

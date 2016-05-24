@@ -27,58 +27,62 @@
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
         			<li><a href="04kefed1.html">Navigate to <strong>next</strong></a></li>
 				</ul>
-<ol>
+				
+				<ol>
 	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
-        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
-        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
-        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
-        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
-        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
  	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
  	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
  	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
  	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
 	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
 	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+	<li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
 </ol>
 
+				
 			</header>
       
       		<section>
       		<div class="toc"></div>
 
-          	<h2>1. BigMech Wiki Instructions + Redundancy </h2>
-
-<p>This <a href="https://www.schafertmd.com/darpa/i2o/bigmechanism/wiki/images/f/f8/BigMech_PMC_OA_subset_IDs.txt">link on the Big Mechanisms wiki</a> provides a list of <strong>1,741</strong> PMC id values. Since some of the articles occur in more than one query, only <strong>840</strong> of these are unique. Here is a <a href="https://raw.githubusercontent.com/BMKEG/systems-biology-kefed/master/docs/BigMech_PMC_OA_unique_IDs.txt">list of these unique PMC id values</a>.</p>
-
-<h2>2. Preliminary Corpora</h2>
-
-<p>Consistent with this list, we have attempted to download these documents to provide to the community as a shared resource. Pending additional bug checking, we now provide this as a resource for the community. </p>
+          	<ol>
+  <li>
+    <h2 id="bigmech-wiki-instructions--redundancy">BigMech Wiki Instructions + Redundancy</h2>
+    <p>This <a href="https://www.schafertmd.com/darpa/i2o/bigmechanism/wiki/images/f/f8/BigMech_PMC_OA_subset_IDs.txt">link on the Big Mechanisms wiki</a> provides a list of <strong>1,741</strong> PMC id values. Since some of the articles occur in more than one query, only <strong>840</strong> of these are unique. Here is a <a href="https://raw.githubusercontent.com/BMKEG/bigMechKefedJavaWorkbook/master/docs/BigMech_PMC_OA_unique_IDs.txt">list of these unique PMC id values</a>.</p>
+  </li>
+  <li>
+    <h2 id="preliminary-corpora">Preliminary Corpora</h2>
+    <p>Consistent with this list, we have attempted to download these documents to provide to the community as a shared resource. Pending additional bug checking, we now provide this as a resource for the community.</p>
+  </li>
+</ol>
 
 <p>Given <a href="http://www.ncbi.nlm.nih.gov/pmc/tools/ftp/">the latest lists of the open access xml from PMC</a>, we were able to download <strong>812</strong> of these <strong>840</strong> documents .</p>
 
-<h2>3. Corpus Organization</h2>
+<ol>
+  <li>
+    <h2 id="corpus-organization">Corpus Organization</h2>
+    <ul>
+      <li>We organize directories of the corpus <code>Journal</code>/<code>Year</code>/<code>Volume</code></li>
+      <li><code>space</code> characters are replaced with <code>_</code> in Journal and Volume names.</li>
+      <li>Each article’s files are named according to it’s PubMed ID (pmid)</li>
+      <li>[<code>pmid</code>].pdf                  - The pdf file</li>
+      <li>[<code>pmid</code>]_pmc.xml        - The xml full text</li>
+    </ul>
+  </li>
+</ol>
+
+<p>We host the files for this on Amazon, so that they may only be downloaded from links on this site.</p>
 
 <ul>
-<li>We organize directories of the corpus <code>Journal</code>/<code>Year</code>/<code>Volume</code> 
-
-<ul>
-<li><code>space</code> characters are replaced with <code>_</code> in Journal and Volume names. </li>
-</ul></li>
-<li>Each article&#39;s files are named according to it&#39;s PubMed ID (pmid)
-
-<ul>
-<li>[<code>pmid</code>].pdf                  - The pdf file</li>
-<li>[<code>pmid</code>]_pmc.xml        - The xml full text</li>
-</ul></li>
+  <li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_pdf%2Bxml.zip">Corpus 1: PDF + XML Files (955.8MB)</a></li>
+  <li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_xml.zip">Corpus 2: XML Files (19.9MB)</a></li>
 </ul>
 
-<p>We host the files for this on Amazon, so that they may only be downloaded from links on this site. </p>
-
-<ul>
-<li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_pdf%2Bxml.zip">Corpus 1: PDF + XML Files (955.8MB)</a></li>
-<li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_xml.zip">Corpus 2: XML Files (19.9MB)</a></li>
-</ul>
 
 
 	  	</section>

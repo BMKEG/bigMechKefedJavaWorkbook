@@ -59,336 +59,45 @@ Reading this text (and text from the paper's material's and methods section) all
 
 Based on KEfED's modeling principles (described here: [Russ *et al.* 2011](http://www.biomedcentral.com/1471-2105/12/351)), we can therefore completely reconstruct the data in this experiment by manually reading numbers off the figure based on this relation.
 
-	?gene-expression-nfold-change[?cell-type][?reagent][?time][?probe] 
-	
-<table border=0 cellpadding=0 cellspacing=0 width=455 style='border-collapse:
- collapse;table-layout:fixed;width:455pt'>
- <col width=65 span=7 style='width:65pt'>
- <tr height=15 style='height:15.0pt'>
-  <th height=15 class=xl65 width=65 style='height:15.0pt;width:65pt'>?cell-type</td>
-  <th class=xl65 width=65 style='width:65pt'>?reagent</td>
-  <th class=xl65 width=65 style='width:65pt'>?time</td>
-  <th class=xl65 width=65 style='width:65pt'>?probe</td>
-  <th class=xl65 colspan=3 width=195 style='mso-ignore:colspan;width:195pt'>?gene-expression-nfold-change</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>2.9 ± 0.05</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>3.6 ± 0.4</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>6 .2 ± 1.0</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>8505C</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>18.0 ± 10.0</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>1.2 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>2.0 ± 0.4</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>1.8 ± 1.0</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BHT101</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>8.1 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>1.8 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>2.1 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>3.9 ± 1.0</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>BCPAP</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>7.0 ± 0.5</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>4.4 ± 0.2</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>6.1 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>5.8 ± 0.3</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>T235</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>4.7 ± 0.5</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>0.5 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>0.7 ± 0.2</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>2.0 ± 0.1</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>2.7 ± 0.3</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>HTH104</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>2.1 ± 0.3</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER2</td>
-  <td>1 .0 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER2</td>
-  <td>1.2 ± 0.01</td>
- 
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER2</td>
-  <td>2.0 ± 0.1</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>1</td>
-  <td>HER3</td>
-  <td>1 .0 ± 0.01</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>6</td>
-  <td>HER3</td>
-  <td>3.1 ± 0.3</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 style='height:15.0pt'>SW1736</td>
-  <td>2 &#956;M PLX40<span style='display:none'>32<span
-  style="mso-spacerun:yes">&nbsp;</span></span></td>
-  <td align=right>48</td>
-  <td>HER3</td>
-  <td>1.9 ± 0.3</td>
- </tr>
-</table>
+?gene-expression-nfold-change[?cell-type][?reagent][?time][?probe] 
+
+?cell-type |?reagent | ?time | ?probe | ?gene-expression-nfold-change 
+8505C | 2 μM PLX40 | 1 | HER2 | 1 .0 ± 0.01
+8505C | 2 μM PLX40 | 6 | HER2 | 2.9 ± 0.05
+8505C | 2 μM PLX40 | 48 | HER2 | 3.6 ± 0.4
+8505C | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+8505C | 2 μM PLX40 | 6 | HER3 | 6 .2 ± 1.0
+8505C | 2 μM PLX40 | 48 | HER3 | 18.0 ± 10.0
+BHT101 | 2 μM PLX40 | 1 | HER2 | 1 .0 ± 0.01
+BHT101 | 2 μM PLX40 | 6 | HER2 | 1.2 ± 0.1
+BHT101 | 2 μM PLX40 | 48 | HER2 | 2.0 ± 0.4
+BHT101 | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+BHT101 | 2 μM PLX40 | 6 | HER3 | 1.8 ± 1.0
+BHT101 | 2 μM PLX40 | 48 | HER3 | 8.1 ± 0.1
+BCPAP | 2 μM PLX40 | 1 | HER2 | 1 .0 ± 0.01
+BCPAP | 2 μM PLX40 | 6 | HER2 | 1.8 ± 0.1
+BCPAP | 2 μM PLX40 | 48 | HER2 | 2.1 ± 0.1
+BCPAP | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+BCPAP | 2 μM PLX40 | 6 | HER3 | 3.9 ± 1.0
+BCPAP | 2 μM PLX40 | 48 | HER3 | 7.0 ± 0.5
+T235 | 2 μM PLX40 | 1 | HER2 | 1 .0 ± 0.01
+T235 | 2 μM PLX40 | 6 | HER2 | 4.4 ± 0.2
+T235 | 2 μM PLX40 | 48 | HER2 | 6.1 ± 0.1
+T235 | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+T235 | 2 μM PLX40 | 6 | HER3 | 5.8 ± 0.3
+T235 | 2 μM PLX40 | 48 | HER3 | 4.7 ± 0.5
+HTH104 | 2 μM PLX40 | 1 | HER2 | 0.5 ± 0.01
+HTH104 | 2 μM PLX40 | 6 | HER2 | 0.7 ± 0.2
+HTH104 | 2 μM PLX40 | 48 | HER2 | 2.0 ± 0.1
+HTH104 | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+HTH104 | 2 μM PLX40 | 6 | HER3 | 2.7 ± 0.3
+HTH104 | 2 μM PLX40 | 48 | HER3 | 2.1 ± 0.3
+SW1736 | 2 μM PLX40 | 1 | HER2 | 1 .0 ± 0.01
+SW1736 | 2 μM PLX40 | 6 | HER2 | 1.2 ± 0.01
+SW1736 | 2 μM PLX40 | 48 | HER2 | 2.0 ± 0.1
+SW1736 | 2 μM PLX40 | 1 | HER3 | 1 .0 ± 0.01
+SW1736 | 2 μM PLX40 | 6 | HER3 | 3.1 ± 0.3
+SW1736 | 2 μM PLX40 | 48 | HER3 | 1.9 ± 0.3
 
 Thus, summarizing the data in the table above provides the following logical relations (which are asserted as generalized in all conditions of `?cell-type` and `?time`): 
 

@@ -27,29 +27,32 @@
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
         			<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Navigate to <strong>next</strong></a></li>
 				</ul>
-<ol>
+				
+				<ol>
 	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
-        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
-        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
-        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
-        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
-        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
  	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
  	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
  	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
  	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
 	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
 	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+	<li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
 </ol>
 
+				
 			</header>
       
       		<section>
       		<div class="toc"></div>
 
-          	<p>Based on our simple parsing of html forms from the Pathway Logic database, we have identified ~1966 papers that have been curated into their system. </p>
+          	<p>Based on our simple parsing of html forms from the Pathway Logic database, we have identified ~1966 papers that have been curated into their system.</p>
 
-<p>Of these 1966, only 73 are available in the open access dataset. Here, we list these by assay type. These are also listed in the digital library under the Corpus labeled <code>PathwayLogicFullText</code>. </p>
+<p>Of these 1966, only 73 are available in the open access dataset. Here, we list these by assay type. These are also listed in the digital library under the Corpus labeled <code>PathwayLogicFullText</code>.</p>
 
 <table>
 <tr><td>Assay</td><td># papers in OA</td></tr>
@@ -87,8 +90,8 @@
 <tr><td>gdpDissosc</td><td>0</td></tr>
 <tr><td>internalization</td><td>0</td></tr>
  </table>
- 
-Since `Coprecipitation` is the largest contributor in this list, we now list all figures from the OA data set that describe Coprecipitation experiments. This provides an initial training set that we may now attempt to model and understand with 
+
+<p>Since <code>Coprecipitation</code> is the largest contributor in this list, we now list all figures from the OA data set that describe Coprecipitation experiments. This provides an initial training set that we may now attempt to model and understand with</p>
 
 <table>
 <th><td>pmid</td><td>figure</td></th>
@@ -191,40 +194,44 @@ Since `Coprecipitation` is the largest contributor in this list, we now list all
 <tr><td>18215320</td><td>-Fig-S1</td></tr>
 </table>
 
-<p>An example of coprecipitation is shown below: </p>
+<p>An example of coprecipitation is shown below:</p>
 
 <p>From <code>Parvatiyar-2012-13-1155</code> (pmid: 23142775), Fig-5a</p>
 
 <p>From page 1159, narrative text:</p>
 
 <blockquote>
-<p>The introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced formation of the DDX41-STING complex (Fig. 5a). </p>
+  <p>The introduction of either c-di-GMP or c-di-AMP into D2SC cells led to enhanced formation of the DDX41-STING complex (Fig. 5a).</p>
 </blockquote>
 
-<p>Based on this figure: </p>
+<p>Based on this figure:</p>
 
-<p><img src="images/23142775-fig5a.jpg" alt=""></p>
+<p><img src="images/23142775-fig5a.jpg" alt="" /></p>
 
 <p>After manual curation, this provides this model:</p>
 
 <p>This model generates this KEfED data structure:</p>
 
-<p><img src="images/23142775-fig5a-kefed.jpg" alt=""></p>
+<p><img src="images/23142775-fig5a-kefed.jpg" alt="" /></p>
 
 <p>Which when represented as a data structure looks like this:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">?protein-concentration 
-    [?cell-type][?reagent][?duration][?primary-antibody][?primary-antibody] 
-</code></pre></div>
+
+<pre><code>?protein-concentration 
+	[?cell-type][?reagent][?duration][?primary-antibody][?primary-antibody] 
+</code></pre>
+
 <p>The experiment shows the behavior of  DDX41 / STING 
- complex concentration based on this value (which corresponds is the top row of the figure).  </p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">?protein-concentration 
-    [D2SC][?reagent][4h][DDX41][STING] 
-</code></pre></div>
-<p>See this link for definitions of Pathway Logic Assays: <a href="http://pl.csl.sri.com/CurationNotebook/index.html">http://pl.csl.sri.com/CurationNotebook/index.html</a> </p>
+ complex concentration based on this value (which corresponds is the top row of the figure).</p>
 
-<h3>Identifying the most relevant assays for Ras-based work.</h3>
+<pre><code>?protein-concentration 
+	[D2SC][?reagent][4h][DDX41][STING] 
+</code></pre>
 
-<p>From the 71 &quot;open access&quot; pmids, there are 1716 datums.
+<p>See this link for definitions of Pathway Logic Assays: <a href="http://pl.csl.sri.com/CurationNotebook/index.html">http://pl.csl.sri.com/CurationNotebook/index.html</a></p>
+
+<h3 id="identifying-the-most-relevant-assays-for-ras-based-work">Identifying the most relevant assays for Ras-based work.</h3>
+
+<p>From the 71 “open access” pmids, there are 1716 datums.
 24 have Hras, Braf, Raf1 or Rac1 as subject.</p>
 
 <p>These come from 8 papers: [16492808, 11448999, 11777939, 12515821, 19050761, 20929976, 16520382, 12876277]</p>
@@ -234,16 +241,48 @@ Since `Coprecipitation` is the largest contributor in this list, we now list all
 <p>They include the following assays
 [copptby, GTP-association, phos, boundto, IVKA]</p>
 
-<h3>Highest priority assays</h3>
+<h3 id="highest-priority-assays">Highest priority assays</h3>
 
 <ul>
-<li>coprecipitation<br></li>
-<li>Phosphorylation<br></li>
-<li>ProteinExpression </li>
-<li>inVitroKinase</li>
-<li>location</li>
-<li>GTPAssoc</li>
+  <li>coprecipitation</li>
+  <li>Phosphorylation</li>
+  <li>ProteinExpression</li>
+  <li>inVitroKinase</li>
+  <li>location</li>
+  <li>GTPAssoc</li>
 </ul>
+
+<h2 id="open-access-phosphorylation-papers">Open Access Phosphorylation Papers</h2>
+
+<p>23142775
+19274086
+10790433
+18604198
+16717130
+19112497
+12876277
+8376945
+12654898
+16984645
+17470642
+17101693
+19953085
+22833096
+16461339
+15767370
+9625770
+21629263
+15320955
+19675569
+18411307
+18583988
+11483158
+19234442
+19783983
+15314656
+20026654
+16618811</p>
+
 
 
 	  	</section>

@@ -27,37 +27,40 @@
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
         			<li><a href="11kefedDatabaseConstruction.html">Navigate to <strong>next</strong></a></li>
 				</ul>
-<ol>
+				
+				<ol>
 	<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Model for Text from Experimental Observations</a></li>
-        <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
-        <li><a href="03fragments.html">Epistemics and Fragments</a></li>
-        <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
-        <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
-        <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
  	<li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
  	<li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
  	<li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
  	<li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
 	<li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
 	<li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+	<li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
 </ol>
 
+				
 			</header>
       
       		<section>
       		<div class="toc"></div>
 
-          	<h3>Rationale:</h3>
+          	<h3 id="rationale">Rationale:</h3>
 
-<p>Curating models &amp; data into the previous BioScholar system based on a simple JSON store is now outdated and should be updated into the current KEfED VPDMf model. The goal here is <em>not</em> to fully rely on the VPDMf architecture (which is a little cumbersome), but to implement the data simply as a relational database store with minimal overhead.  </p>
+<p>Curating models &amp; data into the previous BioScholar system based on a simple JSON store is now outdated and should be updated into the current KEfED VPDMf model. The goal here is <em>not</em> to fully rely on the VPDMf architecture (which is a little cumbersome), but to implement the data simply as a relational database store with minimal overhead.</p>
 
-<h3>Backup of previous data:</h3>
+<h3 id="backup-of-previous-data">Backup of previous data:</h3>
 
-<p>Changes to the model </p>
+<p>Changes to the model</p>
 
 <ol>
-<li>Removed additional data constructs (such as <code>StatisticalAssertion</code>). If needed, we will add these back in. It is likely that we will develop these as data workflow elements that occur downstream of primary measurements.<br></li>
-<li>Altered the curation elements in <code>vpdmf-bioscholar.xml</code></li>
+  <li>Removed additional data constructs (such as <code>StatisticalAssertion</code>). If needed, we will add these back in. It is likely that we will develop these as data workflow elements that occur downstream of primary measurements.</li>
+  <li>Altered the curation elements in <code>vpdmf-bioscholar.xml</code></li>
 </ol>
 
 
