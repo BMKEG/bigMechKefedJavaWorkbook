@@ -36,17 +36,17 @@
     <ol>
     
   
-    <li><a href="/13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
+    <li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
   
 
   
   
-    <li><a href="/12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+    <li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
   
 
   
   
-    <li><a href="/11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+    <li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
   
 
   
@@ -56,52 +56,52 @@
     <ol>
     
   
-    <li><a href="/10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+    <li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
   
 
   
   
-    <li><a href="/09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+    <li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
   
 
   
   
-    <li><a href="/08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+    <li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
   
 
   
   
-    <li><a href="/07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+    <li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
   
 
   
   
-    <li><a href="/06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
   
 
   
   
-    <li><a href="/05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
   
 
   
   
-    <li><a href="/04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
   
 
   
   
-    <li><a href="/03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
   
 
   
   
-    <li><a href="/02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
   
 
   
   
-    <li><a href="/01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
+    <li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
   </ol>
 
 				
@@ -130,7 +130,7 @@ Central PMCID: PMC3651738.</li>
 
 <ol>
   <li>Sasaki AT, <em>et al.</em>. <strong>Ubiquitination of K-Ras enhances activation and facilitates binding to select downstream effectors.</strong> Sci Signal. 2011 Mar 8;4(163):ra13. doi: 10.1126/scisignal.2001518. PubMed PMID: 21386094;
-PubMed Central PMCID: PMC3437993. <code>sasaki-2011-4-ra13-frg[1-3]</code></li>
+PubMed Central PMCID: PMC3437993. <code class="highlighter-rouge">sasaki-2011-4-ra13-frg[1-3]</code></li>
 </ol>
 
 <p><strong><em>Fragment 3:</em></strong> 
@@ -141,7 +141,7 @@ PubMed Central PMCID: PMC3437993. <code>sasaki-2011-4-ra13-frg[1-3]</code></li>
 inhibition leads to PI3K/AKT activation by relieving a negative feedback on ERBB 
 receptors.</strong> Cancer Res. 2012 Jul 1;72(13):3228-37. doi:
 10.1158/0008-5472.CAN-11-3747. Epub 2012 May 2. PubMed PMID: 22552284; PubMed
-Central PMCID: PMC3515079. <code>turke-2012-72-3228-frg[1-2]</code></li>
+Central PMCID: PMC3515079. <code class="highlighter-rouge">turke-2012-72-3228-frg[1-2]</code></li>
 </ol>
 
 <p><strong><em>Fragment 1:</em></strong> 
@@ -441,18 +441,19 @@ Central PMCID: PMC3515079. <code>turke-2012-72-3228-frg[1-2]</code></li>
   </tbody>
 </table>
 
-<p>Thus, summarizing the data in the table above provides the following logical relations (which are asserted as generalized in all conditions of <code>?cell-type</code> and <code>?time</code>):</p>
+<p>Thus, summarizing the data in the table above provides the following logical relations (which are asserted as generalized in all conditions of <code class="highlighter-rouge">?cell-type</code> and <code class="highlighter-rouge">?time</code>):</p>
 
 <!--
 TODO: How should we express this in a logical form? What would be the best way of expressing this?
 -->
 
-<pre><code>?gene-expression-nfold-change[?reagent=PLX40][?probe=HER3]  
+<div class="highlighter-rouge"><pre class="highlight"><code>?gene-expression-nfold-change[?reagent=PLX40][?probe=HER3]  
 
 	   &gt;&gt; 
 
 ?gene-expression-nfold-change[Control][HER3]  
 </code></pre>
+</div>
 
 <p>This logical relation is expressed as natural language in the paper.</p>
 
@@ -466,12 +467,13 @@ TODO: How should we express this in a logical form? What would be the best way o
 
 <p><img src="images/kefedGenerativeStory.jpg" alt="KEfED Generative Story" /></p>
 
-<p>And, at a high level, by Bayes Law, we may then consider that the likelihood of a given model based on the stated text in the paper is given by <code>p( M | NL )</code>, which by Bayes Law, may be expressed as a noisy channel models based on the following high level formulation:</p>
+<p>And, at a high level, by Bayes Law, we may then consider that the likelihood of a given model based on the stated text in the paper is given by <code class="highlighter-rouge">p( M | NL )</code>, which by Bayes Law, may be expressed as a noisy channel models based on the following high level formulation:</p>
 
-<pre><code>p( M | NL ) = p(M) p( NL | M ) / p ( NL )
+<div class="highlighter-rouge"><pre class="highlight"><code>p( M | NL ) = p(M) p( NL | M ) / p ( NL )
 
   p( NL | M ) =  p(M) p( ED | M ) p( D | ED ) p( NL | D )
 </code></pre>
+</div>
 
 <p>This is a guiding strategic methodology for applying KEfED to the Big Mechanisms challenge.</p>
 

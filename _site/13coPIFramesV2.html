@@ -36,17 +36,17 @@
     <ol>
     
   
-    <li><a href="/13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
+    <li><a href="13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
   
 
   
   
-    <li><a href="/12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+    <li><a href="12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
   
 
   
   
-    <li><a href="/11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+    <li><a href="11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
   
 
   
@@ -56,52 +56,52 @@
     <ol>
     
   
-    <li><a href="/10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+    <li><a href="10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
   
 
   
   
-    <li><a href="/09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+    <li><a href="09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
   
 
   
   
-    <li><a href="/08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+    <li><a href="08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
   
 
   
   
-    <li><a href="/07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+    <li><a href="07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
   
 
   
   
-    <li><a href="/06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+    <li><a href="06deployingBioScholar.html">Deploying the BioScholar System</a></li>
   
 
   
   
-    <li><a href="/05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+    <li><a href="05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
   
 
   
   
-    <li><a href="/04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+    <li><a href="04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
   
 
   
   
-    <li><a href="/03fragments.html">Epistemics and Fragments</a></li>
+    <li><a href="03fragments.html">Epistemics and Fragments</a></li>
   
 
   
   
-    <li><a href="/02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+    <li><a href="02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
   
 
   
   
-    <li><a href="/01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
+    <li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
   </ol>
 
 				
@@ -124,35 +124,37 @@
 
 <p>At this stage, we use a flat annotation structure where multiple slots can be populated from a single sentence, in order to attempt to construct three things from the text (A) features that permit us to classify the experiment according to it’s type and subtype (i.e., a coprecipitation experiment specialization), (B) contextual values of independent variables that anchor a given measurement and (C) the measurement value itself.</p>
 
-<pre><code>{
-	cell-type
-	transfection-molecule
-	mutation-molecule
-	incubation-reagent
-	ip-molecule
-	assay-molecule
-	coreference-target
-	m-obj
-	m-val
-	m-comp
-}
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="err">cell-type</span><span class="w">
+	</span><span class="err">transfection-molecule</span><span class="w">
+	</span><span class="err">mutation-molecule</span><span class="w">
+	</span><span class="err">incubation-reagent</span><span class="w">
+	</span><span class="err">ip-molecule</span><span class="w">
+	</span><span class="err">assay-molecule</span><span class="w">
+	</span><span class="err">coreference-target</span><span class="w">
+	</span><span class="err">m-obj</span><span class="w">
+	</span><span class="err">m-val</span><span class="w">
+	</span><span class="err">m-comp</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <h2 id="binding-interpretation-frame">Binding interpretation frame</h2>
 
 <p>We found a great many more annotations of this type because the focus of these relatively simple experiments in the narrative of a given paper is whether two (or more) molecules bind together to form a complex.</p>
 
-<pre><code>{
-	binds-strength # how strong is the binding between the constituents
-	binds-catalysis # how does the catalysis work (inhibits, activates, etc.)
-	binds-constituent1 # molecules binding together
-	binds-constituent2
-	binds-constituent3
-	binds-controller # molecule acting as a catalyst
-	binds-complex # molecule formed as a complex
-	binds-site # site on constituent molecule's DNA where an event happens. This may or may not be binding related. 
-}
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="err">binds-strength</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">how</span><span class="w"> </span><span class="err">strong</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">binding</span><span class="w"> </span><span class="err">between</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">constituents</span><span class="w">
+	</span><span class="err">binds-catalysis</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">how</span><span class="w"> </span><span class="err">does</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">catalysis</span><span class="w"> </span><span class="err">work</span><span class="w"> </span><span class="err">(inhibits,</span><span class="w"> </span><span class="err">activates,</span><span class="w"> </span><span class="err">etc.)</span><span class="w">
+	</span><span class="err">binds-constituent1</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">molecules</span><span class="w"> </span><span class="err">binding</span><span class="w"> </span><span class="err">together</span><span class="w">
+	</span><span class="err">binds-constituent2</span><span class="w">
+	</span><span class="err">binds-constituent3</span><span class="w">
+	</span><span class="err">binds-controller</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">molecule</span><span class="w"> </span><span class="err">acting</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">catalyst</span><span class="w">
+	</span><span class="err">binds-complex</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">molecule</span><span class="w"> </span><span class="err">formed</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">complex</span><span class="w">
+	</span><span class="err">binds-site</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="err">site</span><span class="w"> </span><span class="err">on</span><span class="w"> </span><span class="err">constituent</span><span class="w"> </span><span class="err">molecule's</span><span class="w"> </span><span class="err">DNA</span><span class="w"> </span><span class="err">where</span><span class="w"> </span><span class="err">an</span><span class="w"> </span><span class="err">event</span><span class="w"> </span><span class="err">happens.</span><span class="w"> </span><span class="err">This</span><span class="w"> </span><span class="err">may</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">may</span><span class="w"> </span><span class="err">not</span><span class="w"> </span><span class="err">be</span><span class="w"> </span><span class="err">binding</span><span class="w"> </span><span class="err">related.</span><span class="w"> 
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <h1 id="annotated-data">Annotated Data</h1>
 
@@ -160,7 +162,7 @@
   <li><a href="./data/coPI_binds/coPI_binds_corpus_03-30-15-1637.zip">coPI_binds_corpus_03-30-15-1637.zip</a></li>
 </ul>
 
-<p>This data comprises <code>brat</code> files from 18 articles, containing information from 103 experimental passages / figure descriptions. We also include brat configuration files (<code>annotation.conf</code>, <code>kb_shortcuts.conf</code> and <code>visual.conf</code>) that determine and assist how these annotations are used within the brat annotation tool.</p>
+<p>This data comprises <code class="highlighter-rouge">brat</code> files from 18 articles, containing information from 103 experimental passages / figure descriptions. We also include brat configuration files (<code class="highlighter-rouge">annotation.conf</code>, <code class="highlighter-rouge">kb_shortcuts.conf</code> and <code class="highlighter-rouge">visual.conf</code>) that determine and assist how these annotations are used within the brat annotation tool.</p>
 
 
 
