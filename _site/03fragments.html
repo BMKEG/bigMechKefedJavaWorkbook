@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<title>Epistemics and Fragments</title>
+
+    	<script src="javascripts/toc.js"></script>
+    	<script src="javascripts/jquery-2.1.0.min.js"></script>
+
+	    <link rel="stylesheet" href="stylesheets/styles.css">
+    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+      		<header>
+	    		<h1>Epistemics and Fragments</h1>
+    			<p>Developing the epistemic model of documents with marked up text from articles based on the 'Fragmenter'</p>
+
+			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
+				<ul>
+        			<li><a href="02bigMechanismsEvalCorpus.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
+        			<li><a href="04kefed1.html">Navigate to <strong>next</strong></a></li>
+				</ul>
+				
+				
+  
+  
+    
+    <h1 id="y2015">2015</h1>
+    <ol>
+    
+  
+    <li><a href="/13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
+  
+
+  
+  
+    <li><a href="/12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+  
+
+  
+  
+    <li><a href="/11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+  
+
+  
+  
+    </ol>
+    <h1 id="y2014">2014</h1>
+    <ol>
+    
+  
+    <li><a href="/10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+  
+
+  
+  
+    <li><a href="/09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+  
+
+  
+  
+    <li><a href="/08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+  
+
+  
+  
+    <li><a href="/07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+  
+
+  
+  
+    <li><a href="/06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+  
+
+  
+  
+    <li><a href="/05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+  
+
+  
+  
+    <li><a href="/04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+  
+
+  
+  
+    <li><a href="/03fragments.html">Epistemics and Fragments</a></li>
+  
+
+  
+  
+    <li><a href="/02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+  
+
+  
+  
+    <li><a href="/01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
+  </ol>
+
+				
+			</header>
+      
+      		<section>
+      		<div class="toc"></div>
+
+          	<ol>
+  <li>
+    <h2 id="epistemic-types-and-fragments">Epistemic types and fragments</h2>
+  </li>
+</ol>
+
+<p>Based on <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#065;&#046;&#100;&#101;&#119;&#097;&#097;&#114;&#100;&#064;&#101;&#108;&#115;&#101;&#118;&#105;&#101;&#114;&#046;&#099;&#111;&#109;">Anita de Waard</a>’s work, we use a simple representation of ‘Epistemic Segment Types’. These consist of the following codes:</p>
+
+<ol>
+  <li>Fact, <code>fact</code>: a claim that has been accepted to be true, a known fact.</li>
+  <li>Hypothesis, <code>hypothesis</code>: a proposed idea, not supported by evidence</li>
+  <li>Problem, <code>problem</code>: unresolved, contradictory, or unclear issue</li>
+  <li>Goal, <code>goal</code>: research goal</li>
+  <li>Method, <code>method</code>: experimental method</li>
+  <li>Result, <code>result</code>: a restatement of the outcome of an experiment</li>
+  <li>Implication, <code>implication</code>: an interpretation of the results, in light of earlier hypotheses and facts</li>
+  <li>Other-Goal, <code>other-goal</code>: Goal described in a cited paper</li>
+  <li>Other-Implication, <code>other-implication</code>: Interpretation made in a cited paper</li>
+  <li>Other-Problem, <code>other-problem</code>: Problem described in a cited paper</li>
+  <li>Other-Fact, <code>other-fact</code>: Fact with an explicit reference</li>
+  <li>Other-Hypothesis, <code>other-hypothesis</code>: Hypothesis presented in a cited paper</li>
+  <li>Other-Method, <code>other-method</code>: Method description in a cited paper</li>
+  <li>
+    <p>Other-Result, <code>other-result</code>: Experimental Result in a cited paper</p>
+  </li>
+  <li>
+    <h2 id="bioscholar-the-digital-library-subsystem-and-the-fragmenter">BioScholar, the Digital Library subsystem and the Fragmenter</h2>
+  </li>
+</ol>
+
+<p>The <code>BioScholar</code> system is the web application I am building to house the framework for knowledge management and engineering based on the KEfEd / CoSI model. The <code>Digitial Libary</code> is concerned with all aspects of managing papers and the <code>Fragmenter</code> is simply the subcomponent within that that handles delineating fragments of text from within the overall body of the document. We have advanced this system significantly.</p>
+
+<p>Figure 1 shows the latest version of the annotation system. This image shows the basic formulation of the Digital Library as a way of managing the full text documents of papers (PDFs, XMLs, HTMLs). It provides fragmenting capability over PDF files where each numbered fragment may be made up of several blocks, each fragment may also be assigned a <code>fragment type</code> (based on the epistemic categories shown above).</p>
+
+<p><a href="http://bmkeg.github.io/bigMechKefedJavaWorkbook/images/bioscholarFragment1.jpg">
+<img src="images/bioscholarFragment1.jpg" /></a>
+Figure 1: Screenshot of the fragmenter superimposed over Sasaki <em>et al.</em> 2011</p>
+
+<p>Figure 2 shows the list of fragments.</p>
+
+<p><a href="http://bmkeg.github.io/bigMechKefedJavaWorkbook/images/bioscholarFragment2.jpg">
+<img src="images/bioscholarFragment2.jpg" /></a>
+Figure 2: Screenshot of the list of fragments themselves (there is a bug where the fragments are ordered by numbers in their string order, not numeric).</p>
+
+<p>Note that Figure 1 has a button labeled <code>brat</code>. This permits the user to automatically dump the current fragments to an installation of the <code>brat</code> annotation system for subsequent markup and processing (see Figure 3).</p>
+
+<p><a href="http://bmkeg.github.io/bigMechKefedJavaWorkbook/images/bioscholarFragment_brat.jpg">
+<img src="images/bioscholarFragment_brat.jpg" /></a>
+Figure 3: A list of 14 fragments pertaining to experimental work from Sasaki <em>et al.</em> 2011 where each fragments delineates a separate experiment.</p>
+
+<p>The Bioscholar system now has implemented an annotation framework that permits annotators to process texts according to these epistemics codes is shown at the 
+following link:</p>
+
+
+	  	</section>
+
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        	try {
+              	var pageTracker = _gat._getTracker("UA-50171612-1");
+            	pageTracker._trackPageview();
+            } catch(err) {}
+		</script>
+  </body>
+</html>

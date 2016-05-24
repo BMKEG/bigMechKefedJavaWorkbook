@@ -1,0 +1,12 @@
+T1	binds-constituent1 271 278	VEGFR-2
+T3	binds-constituent2 295 302	SH2-Src
+T6	binds-catalysis 350 359	inhibited
+T8	binds-constituent1 375 382	VEGFR-2
+T9	binds-constituent2 388 393	c-Src
+T10	binds-constituent1 98 105	VEGFR-2
+T2	binds-controller 306 310	VEGF
+T4	binds-site 344 349	Y1057
+T5	binds-site 440 456	Y1057 of VEGFR-2
+T7	binds-constituent1 449 456	VEGFR-2
+T11	binds-constituent2 468 473	c-Src
+T12	binds-constituent1 490 497	VEGFR-2

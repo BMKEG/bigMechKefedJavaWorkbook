@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<title>List of Experimental Motif Types + Definitions</title>
+
+    	<script src="javascripts/toc.js"></script>
+    	<script src="javascripts/jquery-2.1.0.min.js"></script>
+
+	    <link rel="stylesheet" href="stylesheets/styles.css">
+    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+      		<header>
+	    		<h1>List of Experimental Motif Types + Definitions</h1>
+    			<p>Here we build a list of experimental motif definitions to serve as the basis of a classification ontology (for consultation and collaboration with OBI curators and other Big Mech participants). .</p>
+
+			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
+				<ul>
+        			<li><a href="11kefedDatabaseConstruction.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
+        			<li><a href="13coPIFramesV2.html">Navigate to <strong>next</strong></a></li>
+				</ul>
+				
+				
+  
+  
+    
+    <h1 id="y2015">2015</h1>
+    <ol>
+    
+  
+    <li><a href="/13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
+  
+
+  
+  
+    <li><a href="/12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+  
+
+  
+  
+    <li><a href="/11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+  
+
+  
+  
+    </ol>
+    <h1 id="y2014">2014</h1>
+    <ol>
+    
+  
+    <li><a href="/10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+  
+
+  
+  
+    <li><a href="/09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+  
+
+  
+  
+    <li><a href="/08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+  
+
+  
+  
+    <li><a href="/07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+  
+
+  
+  
+    <li><a href="/06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+  
+
+  
+  
+    <li><a href="/05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+  
+
+  
+  
+    <li><a href="/04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+  
+
+  
+  
+    <li><a href="/03fragments.html">Epistemics and Fragments</a></li>
+  
+
+  
+  
+    <li><a href="/02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+  
+
+  
+  
+    <li><a href="/01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
+  </ol>
+
+				
+			</header>
+      
+      		<section>
+      		<div class="toc"></div>
+
+          	<p>This was initiated from the list on the <a href="10modelsOfCoprecipitationPapers.html">10: KEfED Modeling of Coprecipitation Ras Papers</a> page. This is where we add definitions and maintain a definitive list + curation manual.</p>
+
+<h1 id="coprecipitation-motifs">Coprecipitation Motifs</h1>
+
+<ul>
+  <li><strong>KOTag_IP_WB (knockout+tag - immunoprecipitation - western blot)</strong>
+    <ul>
+      <li>Used to examine the existence of a complex based on knocking a protein out from a cell and then transfecting it back with a tagged group that may be targeted for immunoprecipitation.</li>
+      <li>Example: 11777939_1A</li>
+    </ul>
+  </li>
+</ul>
+
+<pre><code>{
+    "type": "Transfect_IP_WB",
+    "measurements": [
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "control",
+                "cell-type": " Eps8(-/-) fibroblasts",
+                "promoter-construct": "Eps8myc",
+                "primary-antibody": "Sos-1"
+            },
+            "text": "Endogenous Sos-1 and E3b1 could be detected in anti-myc 
+    		immunoprecipitates from lysates of Eps8myc-reconstituted, but not 
+    		from eps8 / fibroblasts"
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "control",
+                "cell-type": " Eps8(-/-) fibroblasts",
+                "promoter-construct": "Eps8myc",
+                "primary-antibody": "E3b-1"
+            },
+            "text": "Endogenous Sos-1 and E3b1 could be detected in anti-myc 
+    		immunoprecipitates from lysates of Eps8myc-reconstituted, but not 
+    		from eps8 / fibroblasts"
+        },
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "immunoprecipitate": "myc",
+                "cell-type": " Eps8(-/-) fibroblasts",
+                "promoter-construct": "Eps8myc",
+                "primary-antibody": "Sos-1"
+            },
+            "text": "Endogenous Sos-1 and E3b1 could be detected in anti-myc 
+    		immunoprecipitates from lysates of Eps8myc-reconstituted, but not 
+    		from eps8 / fibroblasts"
+        },
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "immunoprecipitate": "myc",
+                "cell-type": " Eps8(-/-) fibroblasts",
+                "promoter-construct": "Eps8myc",
+                "primary-antibody": "E3b-1"
+            },
+            "text": "Endogenous Sos-1 and E3b1 could be detected in anti-myc 
+    		immunoprecipitates from lysates of Eps8myc-reconstituted, but not 
+    		from eps8 / fibroblasts"
+        }
+    ],
+    "name": "11777939-Fig1B"
+    "methodFragment": "",    
+    "figureFragment": "(B) Total cellular lysates (10 mg), obtained from the transfectants
+     	described in A, were immunoprecipitated (IP) with the antibody indicated at the 
+     	bottom (ctr, irrelevant antibody), followed by immunoblot with indicated antibodies
+     	(WB). The indicated lanes (lysates) were loaded with 100 g of total cellular 
+     	lysates.",    
+    "resultFragment": "Endogenous Sos-1 and E3b1 could be detected in anti-myc 
+    		immunoprecipitates from lysates of Eps8myc-reconstituted, but not from eps8 /
+    		fibroblasts",    
+    "implicationFragment": ""  
+}
+</code></pre>
+
+<ul>
+  <li><strong>Tfx_IP_WB: (transfection - immunoprecipitation - western blot)</strong>
+ 	* Used to examine the effect of the overexpression of the TFx protein on the formation of a complex between the IP and WB proteins.<br />
+ 	* Example: 11777939_3B</li>
+</ul>
+
+<pre><code>{
+    "constant-context": {
+    	"cell-type": "293T",       
+    },	
+    "measurement-comparisons": [
+        {
+            "value1": {"protein-concentration": "low"},
+            "context1": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "Grb2",
+                "promoter-construct": "E3b1"
+            },
+            "value2": {"protein-concentration": "high"},
+            "context2": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate": "Grb2",
+                "promoter-construct": "control"
+            }
+        }
+    ],
+    "type": "Tfx_IP_WB",
+    "name": "11777939-Fig3B"
+    "methodFragment": "This hypothesis was validated by a series of experiments performed both in vitro and in vivo.",    
+    "figureFragment": "(B) Lysates, from 293T cells transfected (Tfx) with E3b1 or a control
+     		vector (ctr), were immunoprecipitated (IP) with anti-Grb2 or an irrelevant 
+     		antibody (ctr), followed by detection (WB) with anti?Sos-1 (top) or anti-Grb2
+     		(middle). The expression of E3b1 (bottom) was detected with an anti-E3b1 antibody.",    
+    "resultFragment": "(e) overexpression of E3b1 significantly decreased the 
+    		coimmunoprecipitation between Grb2 and Sos-1 (Fig. 3 B).",    
+    "implicationFragment": "Thus, Sos-1 binds either E3b1 or Grb2, in a mutually exclusive 
+    		fashion, suggesting that two distinct pools of Sos-1 exist in the cells.", 
+}
+</code></pre>
+
+<ul>
+  <li>2Tfx_IP_WB
+    <ul>
+      <li>(‘double transfection - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>3Tfx_IP_WB
+    <ul>
+      <li>(‘triple transfection - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>Incubate_IP_WB
+    <ul>
+      <li>(‘incubate - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>Incubate_IP_WB__MobilityShift
+    <ul>
+      <li>(‘double transfection - immunoprecipitation - western blot + mobility shift’ )</li>
+    </ul>
+  </li>
+  <li>IP_Competition_IB
+    <ul>
+      <li>(‘immunoprecipitation - competitive binding - immunoblot’ )</li>
+    </ul>
+  </li>
+  <li>IP_WB
+    <ul>
+      <li>(‘immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>Mutate_3Tfx_IP_WB
+    <ul>
+      <li>(‘knockout - triple transfection - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>Mutate_Tfx_Incubate_IP_WB
+    <ul>
+      <li>(‘knockout - transfection - incubation - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>Tfx_Incubate_IP_WB
+    <ul>
+      <li>(‘incubation - transfection - immunoprecipitation - western blot’ )</li>
+    </ul>
+  </li>
+  <li>TimedIncubation_IP_WB_MobilityShift
+    <ul>
+      <li>(‘incubation over a time series - transfection - immunoprecipitation - western blot + mobility shift’ )</li>
+    </ul>
+  </li>
+  <li>Transfect_Pulldown_WB MobilityShift
+ 	* (‘transfection - pulldown assay - western blot + mobility shift’ )</li>
+</ul>
+
+
+	  	</section>
+
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        	try {
+              	var pageTracker = _gat._getTracker("UA-50171612-1");
+            	pageTracker._trackPageview();
+            } catch(err) {}
+		</script>
+  </body>
+</html>

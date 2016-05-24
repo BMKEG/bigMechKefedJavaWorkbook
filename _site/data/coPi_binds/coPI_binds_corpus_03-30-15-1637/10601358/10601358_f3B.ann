@@ -1,0 +1,16 @@
+T1	cell-type 4 15	Ramos cells
+T2	process 21 31	stimulated
+T3	coreference-target 48 68	the legend to Fig. 2
+T4	cell-type 71 79	JY cells
+T5	process 92 104	unstimulated
+T6	process 108 118	stimulated
+T7	incubation-reagent 124 128	IL-4
+T8	entity 141 145	WCEs
+T9	process 156 164	prepared
+T10	process 169 187	immunoprecipitated
+T11	entity 193 211	an IRF-4 antiserum
+T12	ip-molecule 196 201	IRF-4
+T13	coreference-target 213 244	The immunoprecipitated proteins
+T14	process 262 273	7% SDS-PAGE
+T15	process 283 328	analyzed by Western blotting using a Stat6 Ab
+T16	assay-molecule 390 395	IRF-4

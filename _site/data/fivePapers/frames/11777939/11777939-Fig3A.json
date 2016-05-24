@@ -1,0 +1,110 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "high"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST-E3b1",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "331",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "480"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "medium"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "lysate",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "none"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "none"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST-E3b1",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "331",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "480"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1/Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "high"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "lysate",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1/Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "none"},
+            "context": {
+                "primary-antibody": "Sos-1",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1/Grb2"
+            }
+        },
+        {
+            "value": {"protein-concentration": "none"},
+            "context": {
+                "primary-antibody": "Grb2",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "high"},
+            "context": {
+                "primary-antibody": "Grb2",
+                "immunoprecipitate-fragment": {
+                    "83AE6EB8-EA2B-F1F6-87C1-887D4B5DF561": "GST",
+                    "DA46D297-590E-C023-7987-887D65B448CF": "0",
+                    "C21E150E-4904-B94E-6351-887D873F7FD4": "0"
+                },
+                "cell-type": "Cos-7",
+                "promoter-construct": "Sos-1/Grb2"
+            }
+        }
+    ],
+    "type": "Transfect_IP(fragment)_WB",
+    "name": "11777939-Fig3A"
+}

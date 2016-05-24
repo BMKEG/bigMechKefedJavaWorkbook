@@ -1,0 +1,60 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "p85",
+                "immunoprecipitate": "lysate",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1 (WT)"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "p85",
+                "immunoprecipitate": "lysate",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1Y407F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "p85",
+                "immunoprecipitate": "HA",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1 (WT)"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "p85",
+                "immunoprecipitate": "HA",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1Y407F"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "HA",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1 (WT)"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "HA",
+                "cell-type": "Cos-7",
+                "promoter-construct": "HA-Abi1Y407F"
+            }
+        }
+    ],
+    "type": "Transfect_IP_WB",
+    "name": "12515821-Fig1e"
+}

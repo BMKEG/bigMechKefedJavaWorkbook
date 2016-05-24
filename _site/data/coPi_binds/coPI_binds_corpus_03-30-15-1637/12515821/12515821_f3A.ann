@@ -1,0 +1,11 @@
+T1	cell-type 4 15	Cos-7 cells
+T2	process 21 38	transfected (tfx)
+T3	transfection-molecule 44 51	mycEps8
+T4	transfection-molecule 56 61	Sos-1
+T5	transfection-molecule 84 95	Abi1wt (WT)
+T6	transfection-molecule 99 123	the Y407F mutant (Y407F)
+T7	entity 125 132	Lysates
+T8	process 138 161	immunoprecipitated (IP)
+T9	process 166 184	immunoblotted (IB)
+T10	coreference-target 190 214	the indicated antibodies
+T11	entity 216 242	Control immunoprecipitates

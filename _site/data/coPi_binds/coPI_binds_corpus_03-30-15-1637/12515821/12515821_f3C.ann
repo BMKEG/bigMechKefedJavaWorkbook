@@ -1,0 +1,8 @@
+T1	cell-type 4 15	Cos-7 cells
+T2	process 21 38	transfected (tfx)
+T3	transfection-molecule 44 51	mycEps8
+T4	transfection-molecule 56 60	Abi1
+T5	transfection-molecule 83 93	Sos-1 (WT)
+T6	transfection-molecule 97 138	a dominant-negative mutant of Sos-1 (DH−)
+T7	process 153 176	immunoprecipitated (IP)
+T8	entity 140 147	Lysates

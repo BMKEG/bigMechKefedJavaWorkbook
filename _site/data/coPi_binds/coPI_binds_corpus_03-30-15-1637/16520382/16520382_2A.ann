@@ -1,0 +1,9 @@
+T1	binds-constituent1 0 4	Sos1
+T2	binds-constituent2 51 55	grb2
+T3	binds-constituent1 65 82	rac1-specific GEF
+T4	binds-complex 102 128	the sos1–eps8–e3b1 complex
+T5	binds-constituent1 106 110	sos1
+T6	binds-constituent2 111 115	eps8
+T7	binds-constituent3 116 120	e3b1
+T8	binds-controller 164 170	p66shc
+T9	binds-complex 202 233	these sos1-containing complexes

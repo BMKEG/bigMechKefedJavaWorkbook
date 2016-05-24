@@ -1,0 +1,312 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "2/7: low"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "vector",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "2/7: low"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-CH2",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "2/7: low"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-P47A/P50A",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "+/+",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "vector",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-CH2",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-P47A/P50A",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Sos1",
+                "immunoprecipitate": "Sos1",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "+/+",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "vector",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-CH2",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc-P47A/P50A",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "P66shc",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "-/-",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "primary-antibody": "Eps8",
+                "immunoprecipitate": "lysate",
+                "modified-cell-type": {
+                    "CEEA30FC-F3B8-5418-4574-D048D08DCFB9": "MEF",
+                    "3F1C1C0A-C450-712B-6869-D048D08D60C0": "+/+",
+                    "DB07621A-3269-147E-F16C-D048D08D6DDF": "p66shc"
+                },
+                "triple-promoter-construct": {
+                    "F42BD0A7-7177-C2C5-4D29-D048D08D7550": "control",
+                    "CC7340BE-C740-EA1A-A0B8-D04C01B7D5B1": "Eps8",
+                    "F002C09C-E4A6-CA0E-9B1E-D04C7467D902": "E3b1"
+                }
+            }
+        }
+    ],
+    "type": "Mutate_3Tfx_IP_WB",
+    "name": "16520382-Fig2A"
+}

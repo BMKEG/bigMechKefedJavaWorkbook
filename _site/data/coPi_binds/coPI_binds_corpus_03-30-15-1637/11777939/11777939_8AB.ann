@@ -1,0 +1,11 @@
+T1	binds-controller 5 9	PDGF
+T2	binds-strength 35 44	decreased
+T3	binds-constituent1 75 79	Grb2
+T4	binds-constituent2 84 89	Sos-1
+T5	binds-constituent1 115 120	PDGFR
+T6	binds-constituent2 125 130	Sos-1
+T9	binds-constituent1 194 225	mobility-retarded form of Sos-1
+T11	coreference-target 410 430	identical conditions
+T12	binds-constituent1 466 470	E3b1
+T13	binds-constituent2 475 480	Sos-1
+T14	binds-strength 485 497	not affected

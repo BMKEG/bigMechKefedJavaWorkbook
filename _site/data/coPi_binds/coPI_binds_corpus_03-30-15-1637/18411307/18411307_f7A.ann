@@ -1,0 +1,16 @@
+T1	binds-site 18 31	the SDT sites
+T2	binds-catalysis 46 54	inhibits
+T3	binds-constituent1 55 59	MDC1
+T4	binds-constituent2 60 64	NBS1
+T5	cell-type 78 88	U2OS cells
+T6	process 94 105	transfected
+T7	transfection-molecule 111 253	the HA-tagged MDC1 fragments spanning the intact N terminus (WT) and its derivatives where the indicated residues were substituted to alanines
+T8	entity 456 463	lysates
+T9	process 479 497	immunoprecipitated
+T10	ip-molecule 506 513	anti-HA
+T11	process 540 554	immunoblotting
+T12	assay-molecule 564 573	anti-NBS1
+T13	assay-molecule 584 591	anti-HA
+T14	process 617 631	immunoblotting
+T15	assay-molecule 635 639	NBS1
+T16	entity 645 668	the whole cell extracts

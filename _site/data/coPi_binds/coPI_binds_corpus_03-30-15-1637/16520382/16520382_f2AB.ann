@@ -1,0 +1,14 @@
+T3	cell-type 74 96	p66shc +/+ and −/− MEF
+T4	cell-type 104 118	p66shc −/− MEF
+T5	transfection-molecule 136 148	empty vector
+T6	transfection-molecule 152 182	the indicated p66shc construct
+T1	ip-molecule 24 28	sos1
+T7	assay-molecule 29 33	eps8
+T2	ip-molecule 42 46	sos1
+T8	assay-molecule 47 51	grb2
+T9	process 199 212	cotransfected
+T10	transfection-molecule 218 222	sos1
+T11	transfection-molecule 224 228	eps8
+T12	transfection-molecule 234 238	e3b1
+T13	transfection-molecule 246 250	sos1
+T14	transfection-molecule 255 259	grb2

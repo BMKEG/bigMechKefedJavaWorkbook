@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    	<title>Coprecipitation Frames v2</title>
+
+    	<script src="javascripts/toc.js"></script>
+    	<script src="javascripts/jquery-2.1.0.min.js"></script>
+
+	    <link rel="stylesheet" href="stylesheets/styles.css">
+    	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+      		<header>
+	    		<h1>Coprecipitation Frames v2</h1>
+    			<p>Here we describe the annotation process + annotations for IE extraction frames based on co-precipitation experiments.</p>
+
+			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
+				<ul>
+        			<li><a href="12MotifTypes.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
+        			<li><a href="13coPIFramesV2.html">Navigate to <strong>next</strong></a></li>
+				</ul>
+				
+				
+  
+  
+    
+    <h1 id="y2015">2015</h1>
+    <ol>
+    
+  
+    <li><a href="/13coPIFramesV2.html">Coprecipitation Frames v2</a></li>
+  
+
+  
+  
+    <li><a href="/12MotifTypes.html">List of Experimental Motif Types + Definitions</a></li>
+  
+
+  
+  
+    <li><a href="/11kefedDatabaseConstruction.html">KEfED Database Construction</a></li>
+  
+
+  
+  
+    </ol>
+    <h1 id="y2014">2014</h1>
+    <ol>
+    
+  
+    <li><a href="/10modelsOfCoprecipitationPapers.html">KEfED Modeling of Coprecipitation Ras Papers</a></li>
+  
+
+  
+  
+    <li><a href="/09initialResultsKEfEDEpistemicsStudy.html">Initial Extraction Study of Results-Based Epistemics</a></li>
+  
+
+  
+  
+    <li><a href="/08pathwayLogicExperimentTypes.html">Pathway Logic Experiment Types</a></li>
+  
+
+  
+  
+    <li><a href="/07heuristicsForResultText.html">Building a Database of Observations from Result Text</a></li>
+  
+
+  
+  
+    <li><a href="/06deployingBioScholar.html">Deploying the BioScholar System</a></li>
+  
+
+  
+  
+    <li><a href="/05evaluatingEvidenceExtraction.html">Reading Against a Model of Experimental Evidence</a></li>
+  
+
+  
+  
+    <li><a href="/04kefed1.html">Developing NL Annotations for KEfED Elements</a></li>
+  
+
+  
+  
+    <li><a href="/03fragments.html">Epistemics and Fragments</a></li>
+  
+
+  
+  
+    <li><a href="/02bigMechanismsEvalCorpus.html">Generating the Big Mechanisms Evaluation Corpus</a></li>
+  
+
+  
+  
+    <li><a href="/01aGenerativeModelForTextFromExperimentalObservations.html">A Generative Story for Scientific Text from Experimental Data</a></li>
+  </ol>
+
+				
+			</header>
+      
+      		<section>
+      		<div class="toc"></div>
+
+          	<h1 id="coprecipitation-experiments-and-model-fragments">Coprecipitation experiments and model fragments.</h1>
+
+<p><img src="images/coPI/coPIFrames.jpg" alt="Simple mapping between coprecipitation studies and BioPax pathway models (for a Tfx_IP_IB motif). The right hand side shows the typical interpretation of data as a controlled binding event" /></p>
+
+<h1 id="experimental-and-interpretive-frames">Experimental and Interpretive Frames</h1>
+
+<p>Based on separating interpretive and observational frames for knowledge derived from a given experimental type, we present (A) an IE frame for data expressed in the paper as experimental knowledge (which might refer to the major parts of the experimental procedure, the context for measurements or measurements themselves) and (B) an IE frame for data expressed as an interpretation (or implication).</p>
+
+<p>In this case, data is expressed as experimental data from coprecipitation experiments (i.e., experiments in which a coprecipitation step gave rise to measurements of the concentration of complexes)</p>
+
+<h2 id="coprecipitation-experiment-frame">Coprecipitation experiment frame</h2>
+
+<p>At this stage, we use a flat annotation structure where multiple slots can be populated from a single sentence, in order to attempt to construct three things from the text (A) features that permit us to classify the experiment according to it’s type and subtype (i.e., a coprecipitation experiment specialization), (B) contextual values of independent variables that anchor a given measurement and (C) the measurement value itself.</p>
+
+<pre><code>{
+	cell-type
+	transfection-molecule
+	mutation-molecule
+	incubation-reagent
+	ip-molecule
+	assay-molecule
+	coreference-target
+	m-obj
+	m-val
+	m-comp
+}
+</code></pre>
+
+<h2 id="binding-interpretation-frame">Binding interpretation frame</h2>
+
+<p>We found a great many more annotations of this type because the focus of these relatively simple experiments in the narrative of a given paper is whether two (or more) molecules bind together to form a complex.</p>
+
+<pre><code>{
+	binds-strength # how strong is the binding between the constituents
+	binds-catalysis # how does the catalysis work (inhibits, activates, etc.)
+	binds-constituent1 # molecules binding together
+	binds-constituent2
+	binds-constituent3
+	binds-controller # molecule acting as a catalyst
+	binds-complex # molecule formed as a complex
+	binds-site # site on constituent molecule's DNA where an event happens. This may or may not be binding related. 
+}
+</code></pre>
+
+<h1 id="annotated-data">Annotated Data</h1>
+
+<ul>
+  <li><a href="./data/coPI_binds/coPI_binds_corpus_03-30-15-1637.zip">coPI_binds_corpus_03-30-15-1637.zip</a></li>
+</ul>
+
+<p>This data comprises <code>brat</code> files from 18 articles, containing information from 103 experimental passages / figure descriptions. We also include brat configuration files (<code>annotation.conf</code>, <code>kb_shortcuts.conf</code> and <code>visual.conf</code>) that determine and assist how these annotations are used within the brat annotation tool.</p>
+
+
+
+	  	</section>
+
+    	</div>
+    	<script src="javascripts/scale.fix.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        	try {
+              	var pageTracker = _gat._getTracker("UA-50171612-1");
+            	pageTracker._trackPageview();
+            } catch(err) {}
+		</script>
+  </body>
+</html>

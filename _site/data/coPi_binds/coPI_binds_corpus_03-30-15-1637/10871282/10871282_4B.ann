@@ -1,0 +1,40 @@
+T1	binds-controller 471 503	deletion of the PH domain (ΔPH) 
+T2	binds-strength 503 518	did not reduce 
+T4	binds-controller 522 528	HGF/SF
+T5	binds-constituent2 554 558	Shp2
+T6	binds-constituent2 560 564	CRKL
+T7	binds-constituent2 569 576	PI(3)K 
+T10	binds-constituent1 589 593	CRKL
+T11	binds-strength 606 615	abrogated
+T13	binds-strength 693 709	strongly reduced
+T14	binds-constituent2 713 762	the mutant lacking the CRKL-binding region (ΔCBR)
+T15	binds-constituent1 770 775	Shp2 
+T17	binds-site 799 824	the COOH terminus of Gab1
+T20	binds-site 839 844	Y628 
+T21	binds-constituent2 864 873	Gab1ΔShp2
+T23	binds-constituent1 924 948	the Gab1 mutant ΔPI(3)K 
+T24	binds-site 962 1015	mutations in all three PI(3)K consensus binding sites
+T26	binds-site 1042 1067	the p85 subunit of PI(3)K
+T27	binds-strength 1081 1094	less strongly
+T28	binds-constituent1 1100 1114	wild-type Gab1
+T30	binds-constituent1 1128 1134	PI(3)K
+T33	binds-constituent2 1168 1202	Gab1Cter lacking amino acids 1–449
+T35	binds-strength 1228 1244	strongly reduced
+T36	binds-site 1248 1334	mutation of the remaining PI(3)K consensus binding sites, Y473 and Y590 (CterΔPI(3)K) 
+T37	transfection-molecule 95 99	Gab1
+T38	process 121 142	transiently expressed
+T39	cell-type 146 155	293 cells
+T40	incubation-reagent 196 202	HGF/SF
+T41	assay-molecule 267 271	CRKL
+T42	assay-molecule 273 276	p85
+T43	assay-molecule 278 282	Shp2
+T44	assay-molecule 288 292	Gab1
+T45	binds-site 306 327	The PH domain of Gab1
+T46	binds-constituent1 323 327	Gab1
+T8	binds-site 652 677	the COOH terminus of Gab1
+T12	binds-site 732 755	the CRKL-binding region
+T3	binds-constituent2 619 688	the Gab1 mutants expressing only the COOH terminus of Gab1 (Gab1Cter)
+T9	binds-constituent2 820 824	Gab1
+T16	binds-constituent2 1061 1067	PI(3)K
+T18	binds-constituent1 1321 1332	CterΔPI(3)K
+T19	binds-constituent2 362 375	phospholipids

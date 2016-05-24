@@ -1,0 +1,12 @@
+T1	transfection-molecule 4 17	Gab1 proteins
+T2	transfection-molecule 22 32	p85 PI(3)K
+T3	cell-type 51 60	293 cells
+T4	process 75 86	stimulation
+T5	incubation-reagent 92 98	HGF/SF
+T6	mutation-molecule 168 180	Gab1 mutants
+T7	mutation-molecule 226 230	ΔCBR
+T8	mutation-molecule 232 239	ΔPI(3)K
+T9	mutation-molecule 245 250	ΔShp2
+T10	ip-molecule 303 307	Gab1
+T11	ip-molecule 345 349	Flag
+T12	process 389 405	Western blotting

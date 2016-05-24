@@ -1,0 +1,33 @@
+T2	binds-constituent1 499 503	Gab1
+T3	binds-constituent2 509 514	c-Met
+T4	binds-catalysis 518 527	abrogated
+T5	binds-controller 531 558	the MBS mutation (Δc-Met), 
+T9	binds-constituent2 643 648	c-Met
+T10	m-val 665 712	a reduced strength compared with wild-type Gab1
+T14	binds-constituent1 714 718	Grb2
+T15	binds-constituent2 736 740	Gab1
+T16	binds-catalysis 745 757	not affected
+T17	binds-controller 761 799	the V490A mutation in the MBS (Δc-Met)
+T18	binds-catalysis 805 814	impaired 
+T19	binds-controller 817 863	mutation of the two Grb2-binding sites (ΔGrb2)
+T20	binds-controller 30 34	Grb2
+T21	binds-complex 39 49	Gab1-c-Met
+T22	process 87 115	immunoprecipitation analyses
+T23	cell-type 152 185	293 human kidney epithelial cells
+T24	process 191 202	transfected
+T25	transfection-molecule 235 259	Flag epitope-tagged Gab1
+T26	transfection-molecule 273 295	HA epitope-tagged Grb2
+T27	process 303 314	stimulation
+T28	incubation-reagent 340 346	HGF/SF
+T29	transfection-molecule 318 334	endogenous c-Met
+T30	ip-molecule 348 352	Gab1
+T31	coreference-target 357 376	its mutant proteins
+T32	process 382 394	precipitated
+T33	ip-molecule 400 409	anti-Flag
+T34	process 454 470	Western blotting
+T1	binds-constituent1 564 627	the Gab1 mutant which lacks both Grb2 association sites (ΔGrb2)
+T6	binds-constituent1 920 924	Gab1
+T7	binds-constituent1 930 935	c-Met
+T8	binds-controller 947 977	direct interaction via its MBS
+T11	binds-controller 985 989	Grb2
+T12	binds-catalysis 1002 1021	add to the strength

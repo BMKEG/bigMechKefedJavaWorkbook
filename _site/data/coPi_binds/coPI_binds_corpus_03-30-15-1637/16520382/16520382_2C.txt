@@ -1,0 +1,1 @@
+A similar inverse relationship between p66shc expression and grb2–sos1 binding was observed in human embryonic kidney (HEK) 293 cells ( Fig. 2 C ). Reconstitution of p66shcWT in p66shc −/− MEF increased sos1 associated with eps8 ( Fig. 2 A ) while decreasing sos1 bound to grb2 ( Fig. 2 B ).

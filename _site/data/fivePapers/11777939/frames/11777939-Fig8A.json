@@ -1,0 +1,60 @@
+{
+    "measurements": [
+        {
+            "value": {"mobility-shift": true},
+            "context": {
+                "immunoprecipitate": "control",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"mobility-shift": "FALSE"},
+            "context": {
+                "immunoprecipitate": "Grb2",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"mobility-shift": true},
+            "context": {
+                "immunoprecipitate": "control",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"mobility-shift": true},
+            "context": {
+                "immunoprecipitate": "E3b1",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "Sos-1"
+            }
+        },
+        {
+            "value": {"mobility-shift": "FALSE"},
+            "context": {
+                "immunoprecipitate": "Grb2",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "Grb2"
+            }
+        },
+        {
+            "value": {"mobility-shift": "FALSE"},
+            "context": {
+                "immunoprecipitate": "E3b1",
+                "reagent": "PDGF / control",
+                "cell-type": "mouse wmbryo fibroblast",
+                "primary-antibody": "E3b1"
+            }
+        }
+    ],
+    "type": "Incubate_IP_WB_MobiltyShift",
+    "name": "11777939-Fig8A"
+}

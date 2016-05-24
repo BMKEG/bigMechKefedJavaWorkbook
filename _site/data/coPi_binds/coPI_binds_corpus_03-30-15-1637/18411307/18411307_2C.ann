@@ -1,0 +1,14 @@
+T1	binds-constituent1 0 43	The fragment containing all six SDT repeats
+T3	binds-constituent2 65 80	endogenous NBS1
+T4	cell-type 99 123	the U2OS/shRNA cell line
+T6	binds-constituent1 163 256	shorter fragments containing either three N-terminal (SDT1) or four C-terminal (SDT2) repeats
+T8	binds-constituent2 279 283	NBS1
+T11	binds-constituent1 321 347	the full-length SDT region
+T14	binds-site 459 478	the MDC1 N terminus
+T16	binds-constituent2 487 491	NBS1
+T2	binds-site 24 43	all six SDT repeats
+T5	binds-site 199 222	three N-terminal (SDT1)
+T17	binds-site 226 256	four C-terminal (SDT2) repeats
+T7	binds-strength 297 315	a lower efficiency
+T9	binds-site 389 422	deletion of the entire SDT region
+T10	binds-constituent1 463 467	MDC1

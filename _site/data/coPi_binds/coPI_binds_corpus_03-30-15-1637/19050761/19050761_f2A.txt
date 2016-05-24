@@ -1,0 +1,1 @@
+Serum-starved PAE cells expressing chimeric VEGFR-2 (CKR) or co-expressing CKR with c-Cbl and CKR with Cbl-N were either unstimulated (−) or stimulated with CSF-1 (+) for 10 minutes. Cells were lysed and subjected to an in vitro pull-down assay using purified GST-SH2-Src protein (A).

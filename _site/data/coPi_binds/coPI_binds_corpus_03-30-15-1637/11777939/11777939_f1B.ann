@@ -1,0 +1,7 @@
+T1	entity 4 34	Total cellular lysates (10 mg)
+T2	process 89 112	immunoprecipitated (IP)
+T3	coreference-target 118 154	the antibody indicated at the bottom
+T4	process 195 236	immunoblot with indicated antibodies (WB)
+T5	coreference-target 211 231	indicated antibodies
+T6	entity 259 266	lysates
+T7	entity 295 317	total cellular lysates

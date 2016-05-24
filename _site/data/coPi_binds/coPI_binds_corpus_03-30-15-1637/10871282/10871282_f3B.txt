@@ -1,0 +1,1 @@
+(B) HGF/SF enhances Gab1 phosphorylation and association with signaling molecules. 293 cells were transfected with expression vectors encoding Flag-tagged Gab1 and p85α PI(3)K. After serum starvation for 1 h, cells were stimulated with 50 U/ml HGF/SF for the time period indicated. Proteins were precipitated with anti-Flag beads and detected by Western blotting.

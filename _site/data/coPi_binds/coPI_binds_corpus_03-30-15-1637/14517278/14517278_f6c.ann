@@ -1,0 +1,15 @@
+T1	cell-type 4 56	Stable TLR4 YFP - or TLR3 YFP -expressing HELA cells
+T2	process 62 73	transfected
+T3	transfection-molecule 104 112	Flag-Mal
+T4	transfection-molecule 114 123	Flag-TRAM
+T5	transfection-molecule 128 143	Flag TRAM-C113H
+T6	entity 157 175	whole cell lysates
+T7	process 181 199	immunoprecipitated
+T8	ip-molecule 205 213	anti-GFP
+T9	entity 228 256	immunoprecipitated complexes
+T10	process 262 275	immunoblotted
+T11	assay-molecule 280 300	Flag-tagged adapters
+T12	process 302 318	Western blotting
+T13	entity 322 329	lysates
+T14	assay-molecule 357 368	stable TLRs
+T15	assay-molecule 373 401	transfected adaptor proteins

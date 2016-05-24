@@ -1,0 +1,318 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "1/7: very low"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "Ras-GTP",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "Ras-GTP",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "1/7: very low"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "Ras-GTP",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "4/7: moderate"},
+            "context": {
+                "primary-antibody": "myc",
+                "immunoprecipitate": "Ras-GTP",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Ras",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Ras",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Ras",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "Ras",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "myc-Ras"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "pMAPK",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "pMAPK",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "pMAPK",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "HA",
+                "immunoprecipitate": "pMAPK",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "MAPK",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "MAPK",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "MAPK",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "MAPK",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "control",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "control",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "primary-antibody": "E3b1",
+                "immunoprecipitate": "control",
+                "reagent": "EGF",
+                "cell-type": "Cos-7",
+                "promoter-construct": {
+                    "E7A7938F-30B9-6836-B6A2-88E391B51E1A": "E3b1",
+                    "979A3E56-321A-EFC1-4BC5-88E391B5527E": "HA-MAPK"
+                }
+            }
+        }
+    ],
+    "type": "2Tfx_Incubate_IP_WB",
+    "name": "11777939-Fig4B"
+}

@@ -1,0 +1,1 @@
+Quantification of the blots (three independent experiments) showed that indeed interaction of VEGFR-2 with GST-SH2-Src is more than doubled when c-Cbl is over-expressed, where as the deletion of TKB domain almost entirely is inhibited this effect of c-Cbl ( Figure 2B ).

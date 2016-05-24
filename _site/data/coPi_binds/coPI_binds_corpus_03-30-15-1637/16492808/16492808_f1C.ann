@@ -1,0 +1,8 @@
+T1	binds-constituent1 16 20	Rac1
+T2	binds-constituent2 30 35	β-Pix
+T3	process 37 73	Reciprocal GST pull-down experiments
+T4	entity 94 101	lysates
+T5	cell-type 107 118	COS-7 cells
+T6	process 119 130	transfected
+T7	transfection-molecule 151 156	β-Pix
+T8	transfection-molecule 160 164	Rac1

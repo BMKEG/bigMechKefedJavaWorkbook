@@ -1,0 +1,21 @@
+T1	cell-type 4 14	293T cells
+T2	process 20 31	transfected
+T3	transfection-molecule 37 53	4 μg of TRAM-CFP
+T4	transfection-molecule 57 65	TRIF-CFP
+T5	transfection-molecule 89 97	Flag-Mal
+T6	transfection-molecule 99 113	Flag-Mal-P125H
+T7	transfection-molecule 118 127	Flag-TRIF
+T8	entity 129 147	Whole cell lysates
+T9	process 178 196	immunoprecipitated
+T10	ip-molecule 202 210	anti-GFP
+T11	process 232 250	immunoprecipitates
+T12	ip-molecule 251 281	cyan fluorescent protein [CFP]
+T13	ip-molecule 285 317	yellow fluorescent protein [YFP]
+T14	entity 320 348	Immunoprecipitated complexes
+T15	process 379 392	immunoblotted
+T16	assay-molecule 397 417	Flag-tagged adapters
+T17	process 366 374	SDS-PAGE
+T18	entity 419 443	Whole cell lysates (WCL)
+T19	assay-molecule 467 471	CFP-
+T20	assay-molecule 476 496	Flag-tagged proteins
+T21	process 500 514	immunoblotting

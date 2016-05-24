@@ -1,0 +1,32 @@
+T2	cell-type 91 97	Panc-1
+T3	cell-type 101 109	Colo-357
+T4	entity 110 128	whole-cell lysates
+T6	assay-molecule 144 147	Src
+T7	assay-molecule 152 157	Stat3
+T19	assay-molecule 331 354	non-specific rabbit IgG
+T20	ip-molecule 414 417	Src
+T21	ip-molecule 419 424	Stat3
+T22	ip-molecule 428 432	EGFR
+T23	m-val 440 461	no detectable protein
+T27	assay-molecule 694 699	Stat3
+T33	process 0 30	Co-immunoprecipitation (co-IP)
+T34	process 36 59	immunoblotting analysis
+T1	ip-molecule 67 71	EGFR
+T5	ip-molecule 174 177	Src
+T8	assay-molecule 207 211	EGFR
+T9	assay-molecule 216 221	Stat3
+T10	ip-molecule 245 250	Stat3
+T11	assay-molecule 279 283	EGFR
+T12	assay-molecule 288 291	Src
+T13	process 362 381	immunoprecipitation
+T14	process 386 400	immunoblotting
+T15	process 504 531	the immunoblotting analysis
+T16	entity 545 568	the immune precipitates
+T17	incubation-reagent 588 625	the respective blocking peptides (BP)
+T18	coreference-target 588 625	the respective blocking peptides (BP)
+T24	m-val 633 666	a complete or near complete block
+T25	assay-molecule 701 704	Src
+T26	assay-molecule 708 712	EGFR
+T28	m-val 726 745	the levels detected
+T29	incubation-reagent 749 785	the absence of the blocking peptides
+T30	coreference-target 749 785	the absence of the blocking peptides

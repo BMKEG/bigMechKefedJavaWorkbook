@@ -1,0 +1,1 @@
+(B) p97/Gab2+MBS associates with c-Met in cultured cells. 293 cells were transfected with HA-Grb2 and Flag-tagged Gab1 expression vectors and were stimulated with HGF/SF. After immunoprecipitation with anti-Flag agarose, proteins were detected by Western blotting with anti–c-Met, anti-HA and anti-Flag antibodies as indicated.

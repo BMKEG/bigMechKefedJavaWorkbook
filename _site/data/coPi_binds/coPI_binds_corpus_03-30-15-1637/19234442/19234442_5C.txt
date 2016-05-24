@@ -1,0 +1,1 @@
+In agreement with our peptide purification experiments, we were able to detect a robust interaction between transfected wild-type H2AX and endogenous JNK1 in 293T cells in response to high-dose radiation; this interaction was markedly reduced in the case of the H2AX Y142F mutant ( Fig. 5c ).

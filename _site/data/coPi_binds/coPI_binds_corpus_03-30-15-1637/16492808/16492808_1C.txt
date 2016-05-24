@@ -1,0 +1,1 @@
+To demonstrate that β-Pix also binds full-length Rac1, we expressed either β-Pix or Rac1 in COS-7 cells and performed reciprocal pull-down assays with bacterially purified GST, GST-Rac1, or GST–β-Pix ( Fig. 1 C ). These experiments showed that β-Pix interacts with the full-length Rac1 protein and, conversely, that bacterially purified full-length Rac1 binds β-Pix.

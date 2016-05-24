@@ -1,0 +1,1 @@
+Eya was capable of interacting with H2AX in the context of chromatin, based on co-immunoprecipitation experiments using fixed sonicated chromatin from 293T cells as input ( Fig. 2c ).

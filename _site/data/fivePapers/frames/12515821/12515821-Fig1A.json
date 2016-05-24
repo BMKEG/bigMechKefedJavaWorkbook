@@ -1,0 +1,54 @@
+{
+    "measurements": [
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "immunoprecipitate": "lysate",
+                "cell-type": "MEF",
+                "primary-antibody": "p85"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "control",
+                "cell-type": "MEF",
+                "primary-antibody": "p85"
+            }
+        },
+        {
+            "value": {"protein-concentration": "3/7: low/moderate"},
+            "context": {
+                "immunoprecipitate": "Ab1",
+                "cell-type": "MEF",
+                "primary-antibody": "p85"
+            }
+        },
+        {
+            "value": {"protein-concentration": "6/7: high"},
+            "context": {
+                "immunoprecipitate": "lysate",
+                "cell-type": "MEF",
+                "primary-antibody": "Ab1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "0/7: none"},
+            "context": {
+                "immunoprecipitate": "control",
+                "cell-type": "MEF",
+                "primary-antibody": "Ab1"
+            }
+        },
+        {
+            "value": {"protein-concentration": "7/7: very high"},
+            "context": {
+                "immunoprecipitate": "Ab1",
+                "cell-type": "MEF",
+                "primary-antibody": "Ab1"
+            }
+        }
+    ],
+    "type": "IP_WB",
+    "name": "12515821-Fig1A"
+}

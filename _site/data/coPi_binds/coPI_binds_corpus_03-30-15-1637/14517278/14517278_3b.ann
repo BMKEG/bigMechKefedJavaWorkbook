@@ -1,0 +1,18 @@
+T1	cell-type 80 92	HEK293 cells
+T2	transfection-molecule 115 131	Flag-tagged TRAM
+T3	ip-molecule 160 188	antibody to endogenous IRF-3
+T4	assay-molecule 190 206	Flag-tagged TRAM
+T5	m-val 216 224	detected
+T7	ip-molecule 302 323	an anti-Flag antibody
+T9	m-val 396 404	detected
+T11	binds-constituent1 468 472	TRIF
+T12	binds-strength 478 488	interacted
+T13	binds-constituent2 494 526	endogenous and transfected IRF-3
+T18	process 136 154	immunoprecipitated
+T19	process 277 296	Immunoprecipitation
+T8	assay-molecule 352 386	endogenous and cotransfected IRF-3
+T20	transfection-molecule 367 386	cotransfected IRF-3
+T6	entity 408 440	the immunoprecipitated complexes
+T10	binds-constituent1 754 759	IRF-7
+T14	binds-constituent2 781 785	TRAM
+T15	binds-constituent2 790 794	TRIF

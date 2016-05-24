@@ -1,0 +1,17 @@
+T1	binds-strength 378 394	failed to detect
+T3	binds-constituent1 413 418	IRF-4
+T4	binds-constituent2 424 427	p65
+T5	binds-constituent1 61 66	IRF-4
+T6	binds-constituent2 72 77	BCL-6
+T7	binds-constituent2 82 87	Stat6
+T8	process 107 140	coimmunoprecipitation experiments
+T9	incubation-reagent 156 166	anti–IRF-4
+T10	incubation-reagent 170 237	an antiserum against a nuclear factor κB (NF-κB) family member, p65
+T11	cell-type 284 292	JY cells
+T12	entity 270 278	extracts
+T13	transfection-molecule 323 326	p65
+T2	binds-constituent1 463 468	IRF-4
+T14	binds-constituent2 487 543	the Krüppel zinc finger transcriptional repressor, BCL-6
+T15	m-val 585 604	no such interaction
+T16	cell-type 620 630	cells (JY)
+T17	transfection-molecule 659 664	CD23b

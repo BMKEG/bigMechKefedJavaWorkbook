@@ -1,0 +1,11 @@
+T7	binds-site 0 18	Serine 219 of Eya3
+T8	binds-constituent1 14 18	Eya3
+T1	binds-constituent1 115 134	a S219A Eya3 mutant
+T9	binds-site 117 122	S219A
+T2	binds-strength 135 141	failed
+T3	binds-constituent2 197 201	H2AX
+T4	binds-controller 208 220	IR treatment
+T5	binds-site 280 298	Eya3 on serine 219
+T6	binds-constituent1 280 284	Eya3
+T10	binds-constituent1 324 327	Eya
+T11	binds-constituent2 328 332	H2AX

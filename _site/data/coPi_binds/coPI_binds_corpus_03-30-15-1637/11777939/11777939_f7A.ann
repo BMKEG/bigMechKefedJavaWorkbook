@@ -1,0 +1,12 @@
+T1	cell-type 4 15	Cos-7 cells
+T2	process 21 32	transfected
+T3	transfection-molecule 61 75	Sos-1 (SosTfx)
+T4	transfection-molecule 83 116	Sos-1, E3b1, and Eps8 (TripleTfx)
+T5	transfection-molecule 125 163	the corresponding empty vectors (mock)
+T6	entity 165 202	Total cellular lysates (100 μg, left)
+T7	entity 207 237	immunoprecipitates (IP, right)
+T8	coreference-target 243 276	the antibody indicated on the top
+T9	coreference-target 334 357	the indicated antibody.
+T10	entity 358 388	5 mg of total cellular lysates
+T11	process 403 427	the immunoprecipitations
+T12	transfection-molecule 443 449	SosTfx

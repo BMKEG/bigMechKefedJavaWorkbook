@@ -1,0 +1,7 @@
+T2	binds-constituent1 82 110	tyrosine-phosphorylated H2AX
+T3	binds-strength 188 202	no interaction
+T7	binds-controller 465 486	DNA damage conditions
+T1	binds-constituent2 204 231	the PTB-domain protein Fe65
+T4	binds-constituent1 443 458	wild type γH2AX
+T5	binds-constituent1 500 521	he γH2AX Y142F mutant
+T6	binds-strength 492 495	not
