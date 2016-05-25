@@ -1,1 +1,0 @@
-To test this, we knocked down endogenous Fe65 in 293T cells using specific siRNAs ( Supplementary Figure 2 ) and assessed the interaction between H2AX and JNK1 in response to genotoxic stress by co-immunoprecipitation. While control siRNA had no effect on the ability of H2AX to co-immunoprecipitate JNK1, knockdown of Fe65 strongly inhibited this interaction ( Fig. 5f ).

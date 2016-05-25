@@ -1,7 +1,0 @@
-T1	assay-molecule 11 16	Sos-1
-T2	assay-molecule 21 25	E3b1
-T4	ip-molecule 47 55	anti-myc
-T5	cell-type 91 112	Eps8myc-reconstituted
-T6	cell-type 127 147	eps8 −/− fibroblasts
-T3	entity 56 74	immunoprecipitates
-T7	entity 80 87	lysates

@@ -1,1 +1,0 @@
-(B) Lysates, from 293T cells transfected (Tfx) with E3b1 or a control vector (ctr), were immunoprecipitated (IP) with anti-Grb2 or an irrelevant antibody (ctr), followed by detection (WB) with anti–Sos-1 (top) or anti-Grb2 (middle). The expression of E3b1 (bottom) was detected with an anti-E3b1 antibody.

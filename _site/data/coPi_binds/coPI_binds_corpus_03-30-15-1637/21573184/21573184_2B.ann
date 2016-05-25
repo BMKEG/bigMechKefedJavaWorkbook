@@ -1,9 +1,0 @@
-T2	ip-molecule 52 56	EGFR
-T3	ip-molecule 61 66	Stat3
-T5	process 146 159	IgG pull-down
-T6	assay-molecule 201 205	EGFR
-T7	assay-molecule 209 214	Stat3
-T8	m-val 222 242	no detectable levels
-T1	ip-molecule 116 123	IP:EGFR
-T9	ip-molecule 124 130	IP:Src
-T4	process 182 196	immunoblotting

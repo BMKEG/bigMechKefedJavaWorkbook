@@ -1,6 +1,0 @@
-T1	binds-constituent1 465 469	Pak1
-T2	binds-constituent1 474 480	SPIN90
-T3	binds-site 495 533	the SH3 domain of Rac1/Cdc42 GEF β-Pix
-T4	binds-constituent2 513 533	Rac1/Cdc42 GEF β-Pix
-T5	binds-constituent1 594 598	Rac1
-T6	binds-constituent2 624 629	β-Pix

@@ -33,7 +33,14 @@ Querying the PL database for datum objects revealed this file: [pmids\_figs\_dat
 
 ### Assay Types in this set.
 
-* copptby[WB]* GTP-association[BDPD]* IVGefA(Hras)[3H-GDP]* IVKA(MBP)[32P-ATP]* phos(Y1214)[phosAb]* phos[WBMS]* snaggedby[WB]* Yphos[pYAb]
+* copptby[WB]
+* GTP-association[BDPD]
+* IVGefA(Hras)[3H-GDP]
+* IVKA(MBP)[32P-ATP]
+* phos(Y1214)[phosAb]
+* phos[WBMS]
+* snaggedby[WB]
+* Yphos[pYAb]
 
 > Note that these assay types are documented in the Pathway Logic database here:  [http://pl.csl.sri.com/CurationNotebook/pages/_Assays.html](http://pl.csl.sri.com/CurationNotebook/pages/_Assays.html)
 
@@ -61,7 +68,28 @@ Full Case Study: <a href="#single-paper-study">11777939</a> (Innocenti et al. 20
 
 This paper has a total of 18 experiments. Interestingly, there is *not* a one-to-one correspondence between the assays described in the Pathway Logic database, the KEfED models we've curated and the precise delineation of fragments in the results section. The authors occasionally describe more than one experiment in a single sentence. A single experiment may similarly provide more than one datum from more than one assay type (or even, a given experiment yields no PL datum objects at all). This reflects some of the differences between the KEfED modeling methodology and the PL curation approach.   
 
-<table border=0 cellpadding=0 cellspacing=0 width=577 style='border-collapse: collapse;table-layout:fixed;width:577pt'> <col width=65 style='width:65pt'> <col width=120 style='mso-width-source:userset;mso-width-alt:5120;width:120pt'> <col width=262 style='mso-width-source:userset;mso-width-alt:11178;width:262pt'> <col width=65 span=2 style='width:65pt'> <tr height=15 style='height:15.0pt'>  <td height=15 width=65 style='height:15.0pt;width:65pt'>Expt</td>  <td width=120 style='width:120pt'>Pathway Logic Assay</td>  <td width=262 style='width:262pt'>KEfED Model Name</td>  <td width=65 style='width:65pt'>Fragment</td>  <td width=65 style='width:65pt'></td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>1A</td>  <td></td>  <td>KO_Transfect_IP_WB</td>  <td>1A</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>1B</td>  <td>copptby[WB]</td>  <td>KO_Transfect_IP_WB</td>  <td>1B</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>1C</td>  <td>copptby[WB]</td>  <td>IP_Competition_WB</td>  <td>1C</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>2A</td>  <td></td>  <td>Map_Complex_Binding</td>  <td>2, 2A</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>2BC</td>  <td></td>  <td>In_Vitro_Competitive_Binding_assay</td>  <td colspan=2 style='mso-ignore:colspan'>2, 2BCD+3AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>3A</td>  <td></td>  <td>Transfect_IP(fragment)_WB</td>  <td colspan=2 style='mso-ignore:colspan'>2, 2BCD+3AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>3B</td>  <td>copptby[WB]</td>  <td>Transfect_IP_WB</td>  <td colspan=2 style='mso-ignore:colspan'>2, 2BCD+3AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>4A</td>  <td>copptby[WB]</td>  <td>Tfx_Incubate_IP_WB</td>  <td>4ABCD</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>4B</td>  <td>GTP-association[BD<span style='display:none'>PD] + phos(TEY)[phosAb]</span></td>  <td>2Tfx_Incubate_IP_WB</td>  <td>4ABCD</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>5A</td>  <td>GTP-association[BD<span style='display:none'>PD] + IVKA(MBP)[32P-ATP] +  copptby[WB]</span></td>  <td>IP_WB</td>  <td>5, 5A</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>5B</td>  <td></td>  <td>2Tfx_IP_WB</td>  <td>5, 5B</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>5C</td>  <td></td>  <td>Retroviral_Ras_GTP</td>  <td>5, 5C</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 align=right style='height:15.0pt'>6</td>  <td></td>  <td>2Tfx_fix+stain_score</td>  <td align=right>6</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>7A</td>  <td>copptby[WB]</td>  <td>3Tfx_IP_WB</td>  <td>7AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>7B</td>  <td>IVGefA(Rac1)[3H-GD<span style='display:none'>P] + IVGefA(Hras)[3H-GDP]</span></td>  <td>3Tfx_IP_ActivityAssay</td>  <td>7AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>7C</td>  <td>snaggedby[WB]</td>  <td>Incubate_Competition_WB</td>  <td>7C</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>8A</td>  <td>copptby[WB]</td>  <td>Incubate_IP_WB_MobilityShift</td>  <td>8, 8AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>8B</td>  <td>copptby[WB] + phos[<span style='display:none'>WBMS]</span></td>  <td>TimedIncubation_IP_WB_MobilityShift</td>  <td>8, 8AB</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>8C</td>  <td>copptby[WB]</td>  <td>Mutate_Tfx_Incubate_IP_WB</td>  <td>8, 8C</td> </tr> <tr height=15 style='height:15.0pt'>  <td height=15 style='height:15.0pt'>8D</td>  <td>GTP-association[BD<span style='display:none'>PD] + phos[WBMS]</span></td>  <td>TimedIncubation_affinityPrecipitation_Mobilit<span style='display:none'>yShift</span></td>  <td>8, 8D</td> </tr></table>
+Expt | Pathway Logic Assay | KEfED Model Name | Fragment 
+1A |  | KO_Transfect_IP_WB | 1A
+1B | copptby[WB] | KO_Transfect_IP_WB | 1B
+1C | copptby[WB] | IP_Competition_WB | 1C
+2A |  | Map_Complex_Binding | 2, 2A
+2BC |  | In_Vitro_Competitive_Binding_assay | 2, 2BCD+3AB
+3A |  | Transfect_IP(fragment)_WB | 2, 2BCD+3AB
+3B | copptby[WB] | Transfect_IP_WB | 2, 2BCD+3AB
+4A | copptby[WB] | Tfx_Incubate_IP_WB | 4ABCD
+4B | GTP-association[BD | 2Tfx_Incubate_IP_WB | 4ABCD
+5A | GTP-association[BD | IP_WB | 5, 5A
+5B |  | 2Tfx_IP_WB | 5, 5B
+5C |  | Retroviral_Ras_GTP | 5, 5C
+6 |  | 2Tfx_fix+stain_score | 6
+7A | copptby[WB] | 3Tfx_IP_WB | 7AB
+7B | IVGefA(Rac1)[3H-GD | 3Tfx_IP_ActivityAssay | 7AB
+7C | snaggedby[WB] | Incubate_Competition_WB | 7C
+8A | copptby[WB] | Incubate_IP_WB_MobilityShift | 8, 8AB
+8B | copptby[WB] + phos[ | TimedIncubation_IP_WB_MobilityShift | 8, 8AB
+8C | copptby[WB] | Mutate_Tfx_Incubate_IP_WB | 8, 8C
+8D | GTP-association[BD | TimedIncubation_affinityPrecipitation_Mobilit | 8, 8D
+
 
 All ORCA-encoded fragments and KEfED models are included in [this zipfile](data/fivePapers/11777939.zip)
 
@@ -86,175 +114,62 @@ Here, we examine coprecipitation studies from the five papers in terms of their 
 
  I curated models for each of these experiments  
  
-<table border=0 cellpadding=0 cellspacing=0 width=457 style='border-collapse:
- collapse;table-layout:fixed;width:457pt'>
- <col width=65 span=2 style='width:65pt'>
- <col width=197 style='mso-width-source:userset;mso-width-alt:8405;width:197pt'>
- <col width=65 span=2 style='width:65pt'>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 width=65 style='height:15.0pt;width:65pt'>pmid</td>
-  <td width=65 style='width:65pt'>expt</td>
-  <td width=197 style='width:197pt'>type</td>
-  <td width=65 style='width:65pt'>comment</td>
-  <td width=65 style='width:65pt'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>1b</td>
-  <td>KO_Transfect_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>1c</td>
-  <td>IP_Competition_IB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>3b</td>
-  <td>Transfect_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>4a</td>
-  <td>Tfx_Incubate_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>5[tl]</td>
-  <td>IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>7a</td>
-  <td>3Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>8a</td>
-  <td>Incubate_IP_WB_MobilityShift</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>8b</td>
-  <td colspan=2 style='mso-ignore:colspan'>TimedIncubation_IP_WB_MobilityShift</td>
-  <td></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>8c</td>
-  <td>Mutate_Tfx_Incubate_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td>1a</td>
-  <td>IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>1e</td>
-  <td>Transfect_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>3a</td>
-  <td>3Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>3c</td>
-  <td>3Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td colspan=2 style='mso-ignore:colspan'><span
-  style="mso-spacerun:yes">&nbsp;</span>S1b (not included)</td>
-  <td colspan=2 style='mso-ignore:colspan'><span
-  style="mso-spacerun:yes">&nbsp;</span>not included</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16492808</td>
-  <td>1c</td>
-  <td>Transfect_Pulldown_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'>needs checking</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2a</td>
-  <td>Mutate_3Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>2b</td>
-  <td>Mutate_3Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>2c</td>
-  <td>Transfect_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>2d</td>
-  <td>Transfect_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>2e</td>
-  <td>2Tfx_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td>1c</td>
-  <td>Incubate_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>5j</td>
-  <td>Incubate_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>5n</td>
-  <td>Tfx_Incubate_IP_WB</td>
-  <td colspan=2 style='mso-ignore:colspan'></td>
- </tr>
-</table>
+ 
+pmid | expt | type | comment | 
+11777939 | 1b | KO_Transfect_IP_WB | 
+11777939 |  1c | IP_Competition_IB | 
+11777939 |  3b | Transfect_IP_WB | 
+11777939 |  4a | Tfx_Incubate_IP_WB | 
+11777939 |  5[tl] | IP_WB | 
+11777939 |  7a | 3Tfx_IP_WB | 
+11777939 |  8a | Incubate_IP_WB_MobilityShift | 
+11777939 |  8b | TimedIncubation_IP_WB_MobilityShift | 
+11777939 |  8c | Mutate_Tfx_Incubate_IP_WB | 
+12515821 | 1a | IP_WB | 
+12515821 |  1e | Transfect_IP_WB | 
+12515821 |  3a | 3Tfx_IP_WB | 
+12515821 |  3c | 3Tfx_IP_WB | 
+12515821 |  S1b (not included) |  not included
+16492808 | 1c | Transfect_Pulldown_WB | needs checking
+16520382 | 2a | Mutate_3Tfx_IP_WB | 
+16520382 |  2b | Mutate_3Tfx_IP_WB | 
+16520382 |  2c | Transfect_IP_WB | 
+16520382 |  2d | Transfect_IP_WB | 
+16520382 |  2e | 2Tfx_IP_WB | 
+19050761 | 1c | Incubate_IP_WB | 
+19050761 |  5j | Incubate_IP_WB | 
+19050761 |  5n | Tfx_Incubate_IP_WB | 
 
 That makes 23 separate coprecipitation studies from 5 papers, using 13 different KEfED experiment types (note that these experimental types should be tightened up ontologically).
 
 * 2Tfx\_IP\_WB 
-	* ('double transfection - immunoprecipitation - western blot' )* 3Tfx\_IP\_WB 
-	* ('triple transfection - immunoprecipitation - western blot' )* Incubate\_IP\_WB 
-	* ('incubate - immunoprecipitation - western blot' )* Incubate\_IP\_WB\_\_MobilityShift 
-	* ('double transfection - immunoprecipitation - western blot + mobility shift' )* IP\_Competition\_IB 
-	* ('immunoprecipitation - competitive binding - immunoblot' )* IP\_WB 
-	* ('immunoprecipitation - western blot' )* KO\_Transfect\_IP\_WB 
-	* ('knockout - transfection - immunoprecipitation - western blot' )* Mutate\_3Tfx\_IP\_WB 
-	* ('knockout - triple transfection - immunoprecipitation - western blot' )* Mutate\_Tfx\_Incubate\_IP\_WB 
-	* ('knockout - transfection - incubation - immunoprecipitation - western blot' )* Tfx\_Incubate\_IP\_WB 
-	* ('incubation - transfection - immunoprecipitation - western blot' )* TimedIncubation\_IP\_WB\_MobilityShift 
-	* ('incubation over a time series - transfection - immunoprecipitation - western blot + mobility shift' )* Transfect\_IP\_WB 
- 	* ('transfection - immunoprecipitation - western blot' )* Transfect\_Pulldown\_WB MobilityShift
- 	* ('transfection - pulldown assay - western blot + mobility shift' )
+	* ('double transfection - immunoprecipitation - western blot' )
+* 3Tfx\_IP\_WB 
+	* ('triple transfection - immunoprecipitation - western blot' )
+* Incubate\_IP\_WB 
+	* ('incubate - immunoprecipitation - western blot' )
+* Incubate\_IP\_WB\_\_MobilityShift 
+	* ('double transfection - immunoprecipitation - western blot + mobility shift' )
+* IP\_Competition\_IB 
+	* ('immunoprecipitation - competitive binding - immunoblot' )
+* IP\_WB 
+	* ('immunoprecipitation - western blot' )
+* KO\_Transfect\_IP\_WB 
+	* ('knockout - transfection - immunoprecipitation - western blot' )
+* Mutate\_3Tfx\_IP\_WB 
+	* ('knockout - triple transfection - immunoprecipitation - western blot' )
+* Mutate\_Tfx\_Incubate\_IP\_WB 
+	* ('knockout - transfection - incubation - immunoprecipitation - western blot' )
+* Tfx\_Incubate\_IP\_WB 
+	* ('incubation - transfection - immunoprecipitation - western blot' )
+* TimedIncubation\_IP\_WB\_MobilityShift 
+	* ('incubation over a time series - transfection - immunoprecipitation - western blot + mobility shift' )
+* Transfect\_IP\_WB 
+ 	* ('transfection - immunoprecipitation - western blot' )
+* Transfect\_Pulldown\_WB MobilityShift
+ 	* ('transfection - pulldown assay - western blot + mobility shift' )
+
+
 *How should we continue here?* 
 
 1. Standardization of KEfED entities to make classification of templates more rigorous. 
@@ -269,109 +184,23 @@ The focus of this work is now pushing on the KEfED model to demonstrate the tech
 
 This includes the following experiments (to be extended as we proceed):  
 
-<table border=0 cellpadding=0 cellspacing=0 width=457 style='border-collapse:
- collapse;table-layout:fixed;width:457pt'>
- <col width=65 span=2 style='width:65pt'>
- <col width=197 style='mso-width-source:userset;mso-width-alt:8405;width:197pt'>
- <col width=65 span=2 style='width:65pt'>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 width=65 style='height:15.0pt;width:65pt'>pmid</td>
-  <td width=65 style='width:65pt'>expt</td>
-  <td width=197 style='width:197pt'>type</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>1a</td>
-  <td>KOTag_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>1b</td>
-  <td>KOTag_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>3b</td>
-  <td>Transfect_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>4a</td>
-  <td>Tfx_Incubate_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>5[tl]</td>
-  <td>IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>7a</td>
-  <td>3Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>11777939</td>
-  <td>8c</td>
-  <td>Mutate_Tfx_Incubate_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td>1a</td>
-  <td>IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td>1e</td>
-  <td>Transfect_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td>3a</td>
-  <td>3Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>12515821</td>
-  <td><span style="mso-spacerun:yes">&nbsp;</span>3c</td>
-  <td>3Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2a</td>
-  <td>Mutate_3Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2b</td>
-  <td>Mutate_3Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2c</td>
-  <td>Transfect_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2d</td>
-  <td>Transfect_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>16520382</td>
-  <td>2e</td>
-  <td>2Tfx_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td>1c</td>
-  <td>Incubate_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td>5j</td>
-  <td>Incubate_IP_WB</td>
- </tr>
- <tr height=15 style='height:15.0pt'>
-  <td height=15 align=right style='height:15.0pt'>19050761</td>
-  <td>5n</td>
-  <td>Tfx_Incubate_IP_WB</td>
- </tr>
-</table>
+pmid | expt | type
+11777939 | 1a | KOTag_IP_WB
+11777939 | 1b | KOTag_IP_WB
+11777939 | 3b | Transfect_IP_WB
+11777939 | 4a | Tfx_Incubate_IP_WB
+11777939 | 5[tl] | IP_WB
+11777939 | 7a | 3Tfx_IP_WB
+11777939 | 8c | Mutate_Tfx_Incubate_IP_WB
+12515821 | 1a | IP_WB
+12515821 | 1e | Transfect_IP_WB
+12515821 | 3a | 3Tfx_IP_WB
+12515821 |  3c | 3Tfx_IP_WB
+16520382 | 2a | Mutate_3Tfx_IP_WB
+16520382 | 2b | Mutate_3Tfx_IP_WB
+16520382 | 2c | Transfect_IP_WB
+16520382 | 2d | Transfect_IP_WB
+16520382 | 2e | 2Tfx_IP_WB
+19050761 | 1c | Incubate_IP_WB
+19050761 | 5j | Incubate_IP_WB
+19050761 | 5n | Tfx_Incubate_IP_WB

@@ -1,1 +1,0 @@
-We could detect interactions between H2AX and wild-type Eya1 or Eya3 only under DNA damage conditions both using transfected, tagged expression constructs for Eya1/3 and H2AX ( Fig. 2a ), and when examining endogenous Eya3 and H2AX proteins with specific antibodies ( Fig. 2b ).

@@ -1,6 +1,0 @@
-T1	binds-constituent1 0 3	Eya
-T3	binds-constituent2 36 40	H2AX
-T4	binds-controller 59 68	chromatin
-T2	process 79 113	co-immunoprecipitation experiments
-T5	binds-controller 120 145	fixed sonicated chromatin
-T6	cell-type 151 161	293T cells

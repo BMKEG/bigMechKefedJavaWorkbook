@@ -1,6 +1,0 @@
-T1	ip-molecule 18 21	shc
-T2	assay-molecule 22 26	grb2
-T3	cell-type 45 58	HEK 293 cells
-T4	transfection-molecule 76 106	the indicated p66shc construct
-T5	process 123 136	cotransfected
-T6	transfection-molecule 142 146	grb2

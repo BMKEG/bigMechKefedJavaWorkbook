@@ -1,9 +1,0 @@
-T2	binds-constituent2 53 71	signaling proteins
-T3	cell-type 75 84	293 cells
-T4	incubation-reagent 109 112	NGF
-T5	ip-molecule 114 126	trk-met-Gab1
-T6	ip-molecule 160 163	myc
-T7	process 92 103	stimulation
-T8	process 141 153	precipitated
-T9	process 207 215	detected
-T1	binds-constituent1 19 47	trk-met-Gab1 fusion proteins

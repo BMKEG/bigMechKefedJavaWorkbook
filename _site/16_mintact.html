@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    	<title>Generating the Big Mechanisms Evaluation Corpus</title>
+    	<title>MINT + INTACT DATA</title>
 
     	<script src="javascripts/toc.js"></script>
     	<script src="javascripts/jquery-2.1.0.min.js"></script>
@@ -18,14 +18,14 @@
 	<body>
 		<div class="wrapper">
       		<header>
-	    		<h1>Generating the Big Mechanisms Evaluation Corpus</h1>
-    			<p>Preliminary work for the program in downloading the full text of documents from the PMC lists .</p>
+	    		<h1>MINT + INTACT DATA</h1>
+    			<p>Large Scale Repository of High-Quality Molecular Interaction Data</p>
 
 			    <!-- <p class="view"><a href="https://github.com/BMKEG/systems-biology-kefed">View the Project on GitHub <small>BMKEG/systems-biology-kefed</small></a></p>-->
 				<ul>
-        			<li><a href="01aGenerativeModelForTextFromExperimentalObservations.html">Navigate to<strong>previous</strong></a></li>
+        			<li><a href="">Navigate to<strong>previous</strong></a></li>
         			<li><a href="index.html">Navigate to <strong>top</strong></a></li>
-        			<li><a href="04kefed1.html">Navigate to <strong>next</strong></a></li>
+        			<li><a href="">Navigate to <strong>next</strong></a></li>
 				</ul>
 				
 				
@@ -155,39 +155,15 @@
       		<section>
       		<div class="toc"></div>
 
-          	<ol>
-  <li>
-    <h2 id="bigmech-wiki-instructions--redundancy">BigMech Wiki Instructions + Redundancy</h2>
-    <p>This <a href="https://www.schafertmd.com/darpa/i2o/bigmechanism/wiki/images/f/f8/BigMech_PMC_OA_subset_IDs.txt">link on the Big Mechanisms wiki</a> provides a list of <strong>1,741</strong> PMC id values. Since some of the articles occur in more than one query, only <strong>840</strong> of these are unique. Here is a <a href="https://raw.githubusercontent.com/BMKEG/bigMechKefedJavaWorkbook/master/docs/BigMech_PMC_OA_unique_IDs.txt">list of these unique PMC id values</a>.</p>
-  </li>
-  <li>
-    <h2 id="preliminary-corpora">Preliminary Corpora</h2>
-    <p>Consistent with this list, we have attempted to download these documents to provide to the community as a shared resource. Pending additional bug checking, we now provide this as a resource for the community.</p>
-  </li>
-</ol>
+          	<h1 id="mint--intact-data">MINT + INTACT data</h1>
 
-<p>Given <a href="http://www.ncbi.nlm.nih.gov/pmc/tools/ftp/">the latest lists of the open access xml from PMC</a>, we were able to download <strong>812</strong> of these <strong>840</strong> documents .</p>
+<p>The MINT database provides access to 175 well-curated records of experiments linked
+to Figure legends. This is expanded enormously by the INTACT database which contains 1063
+papers (note that we only started with INTACT in 2016/03 but we include it here since 
+this work completely supercedes that involving MINT).</p>
 
-<ol>
-  <li>
-    <h2 id="corpus-organization">Corpus Organization</h2>
-    <ul>
-      <li>We organize directories of the corpus <code class="highlighter-rouge">Journal</code>/<code class="highlighter-rouge">Year</code>/<code class="highlighter-rouge">Volume</code></li>
-      <li><code class="highlighter-rouge">space</code> characters are replaced with <code class="highlighter-rouge">_</code> in Journal and Volume names.</li>
-      <li>Each article’s files are named according to it’s PubMed ID (pmid)</li>
-      <li>[<code class="highlighter-rouge">pmid</code>].pdf                  - The pdf file</li>
-      <li>[<code class="highlighter-rouge">pmid</code>]_pmc.xml        - The xml full text</li>
-    </ul>
-  </li>
-</ol>
-
-<p>We host the files for this on Amazon, so that they may only be downloaded from links on this site.</p>
-
-<ul>
-  <li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_pdf%2Bxml.zip">Corpus 1: PDF + XML Files (955.8MB)</a></li>
-  <li><a href="https://s3-us-west-2.amazonaws.com/bmkeg2/000_bigMech/bigMechCorpus_xml.zip">Corpus 2: XML Files (19.9MB)</a></li>
-</ul>
-
+<p><em>Note: we will develop these notes in relation to the discourse and experiment type
+analysis work soon.</em></p>
 
 
 	  	</section>

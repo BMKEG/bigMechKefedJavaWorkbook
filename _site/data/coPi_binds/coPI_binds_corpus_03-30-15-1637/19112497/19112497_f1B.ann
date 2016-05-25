@@ -1,9 +1,0 @@
-T1	cell-type 4 14	293T cells
-T2	transfection-molecule 61 88	epitope-tagged TRAF6 (FLAG)
-T3	transfection-molecule 92 102	TAK1 (Myc)
-T4	process 140 164	immunoprecipitation (IP)
-T5	ip-molecule 170 187	anti-FLAG agarose
-T6	entity 189 191	IP
-T7	entity 196 221	whole cell extracts (WCE)
-T8	assay-molecule 246 254	anti-Myc
-T9	assay-molecule 258 267	anti-FLAG

@@ -1,1 +1,0 @@
-To assess the importance of the TRAF6 RING finger function to interaction with the TAK1 complex, we performed a co-immunoprecipiation assay, and found that another TRAF6 mutant containing a defective RING finger (C85A/H87A) interacted more strongly with TAK1 than did wild-type TRAF6 ( Fig. 1B ).

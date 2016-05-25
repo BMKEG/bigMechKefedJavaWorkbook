@@ -1,1 +1,0 @@
-Serine 219 of Eya3 was identified by mass spectroscopy as a target residue for ATM/ATR phosphorylation [ 22 ], and a S219A Eya3 mutant failed to form damage-dependent nuclear foci or interact with H2AX after IR treatment ( Fig. 3c, d ), indicating that ATM/ATR phosphorylation of Eya3 on serine 219 is crucial for directing Eya-H2AX interactions.

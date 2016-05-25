@@ -1,1 +1,0 @@
-(b) 293T cells were transfected with 4 μg of Flag-TRAM with or without a plasmid encoding IRF-3 (untagged) as indicated. 24 h later, whole cell lysates were immunoprecipitated with anti–IRF-3, anti-Flag, or anti-CBP, and the immunoprecipitated complexes were immunoblotted for Flag-tagged TRAM and IRF-3. Whole cell lysates (WCL) were also analyzed for Flag-tagged proteins.

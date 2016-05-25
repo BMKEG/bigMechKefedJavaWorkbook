@@ -1,1 +1,0 @@
-By utilizing the TRAF6(1-358)-Gyrase B mutant (ΔK) to assess interaction with TAK1 in 293T cells, we found that ΔK interacted with TAK1 more strongly than wild-type TRAF6, though less strongly than C70A ( Fig. 2C ), demonstrating dispensability of TRAF6 autoubiquitination for complex formation with TAK1.

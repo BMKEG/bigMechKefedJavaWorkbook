@@ -1,1 +1,0 @@
-(B) 293T cells were transfected with equal amounts (1 µg) of epitope-tagged TRAF6 (FLAG) or TAK1 (Myc) expression plasmids and subjected to immunoprecipitation (IP) with anti-FLAG agarose. IP and whole cell extracts (WCE) were immunoblotted with anti-Myc or anti-FLAG as indicated.

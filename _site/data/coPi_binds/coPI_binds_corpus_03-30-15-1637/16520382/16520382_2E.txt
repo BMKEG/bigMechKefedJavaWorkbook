@@ -1,1 +1,0 @@
-In contrast, the in vivo binding affinity of p66shcP47A/P50A for grb2 was not appreciably diminished when compared with that of p66shcWT ( Fig. 2 E ). This indicates that phosphorylation of the targeted tyrosine residues is in part responsible for the binding of p66shc to grb2 and, more important, the consequent displacement of sos1 from grb2.

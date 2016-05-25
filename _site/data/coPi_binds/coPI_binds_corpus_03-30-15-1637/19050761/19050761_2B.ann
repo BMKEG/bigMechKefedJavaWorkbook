@@ -1,7 +1,0 @@
-T2	binds-constituent1 94 101	VEGFR-2
-T3	binds-constituent2 107 118	GST-SH2-Src
-T4	binds-catalysis 122 139	more than doubled
-T6	binds-site 179 205	the deletion of TKB domain
-T7	binds-catalysis 206 234	almost entirely is inhibited
-T8	binds-controller 250 255	c-Cbl
-T1	binds-controller 145 150	c-Cbl

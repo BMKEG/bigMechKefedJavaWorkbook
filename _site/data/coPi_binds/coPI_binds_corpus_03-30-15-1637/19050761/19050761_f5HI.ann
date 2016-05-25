@@ -1,8 +1,0 @@
-T1	entity 0 12	Cell lysates
-T2	cell-type 26 35	PAE cells
-T3	transfection-molecule 47 50	CKR
-T4	ip-molecule 81 84	GST
-T5	ip-molecule 86 97	GST-SH2-Src
-T6	ip-molecule 106 117	GST-SH3-Src
-T7	assay-molecule 138 144	IQGAP1
-T8	assay-molecule 154 165	anti-IQGAP1

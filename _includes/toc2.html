@@ -1,8 +1,8 @@
 {% for post in site.posts %}
-  {% assign currentdate = post.date | date: "%Y" %}
+  {% assign currentdate = post.date | date: "%B %Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ol>{% endunless %}
-    <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <h3 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
     <ol>
     {% assign date = currentdate %}
   {% endif %}

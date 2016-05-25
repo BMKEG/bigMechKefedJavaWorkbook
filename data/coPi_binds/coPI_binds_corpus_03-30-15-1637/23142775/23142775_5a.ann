@@ -1,7 +1,0 @@
-T1	incubation-reagent 23 31	c-di-GMP
-T2	incubation-reagent 35 43	c-di-AMP
-T3	cell-type 49 59	D2SC cells
-T4	binds-catalysis 67 75	enhanced
-T5	binds-constituent1 76 81	DDX41
-T6	binds-constituent2 82 87	STING
-T7	binds-complex 76 95	DDX41-STING complex

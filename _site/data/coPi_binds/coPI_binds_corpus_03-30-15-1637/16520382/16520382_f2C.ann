@@ -1,8 +1,0 @@
-T1	ip-molecule 18 22	sos1
-T2	assay-molecule 23 27	grb2
-T3	entity 28 42	coprecipitates
-T4	cell-type 46 53	HEK 293
-T5	transfection-molecule 71 79	p66shcWT
-T6	transfection-molecule 130 134	sos1
-T7	transfection-molecule 139 143	grb2
-T8	process 111 124	cotransfected

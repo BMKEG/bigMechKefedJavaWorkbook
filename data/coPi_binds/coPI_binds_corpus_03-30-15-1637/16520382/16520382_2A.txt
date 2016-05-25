@@ -1,1 +1,0 @@
-Sos1 functions as a ras-specific GEF when bound to grb2 and as a rac1-specific GEF when it is part of the sos1–eps8–e3b1 complex. We therefore examined the role of p66shc in regulating the formation of these sos1-containing complexes.

@@ -1,9 +1,0 @@
-T1	entity 4 34	Total cellular lysates (10 mg)
-T2	cell-type 49 68	−/− [Eps8myc] cells
-T3	process 74 97	immunoprecipitated (IP)
-T4	ip-molecule 103 136	the antibody indicated at the top
-T5	ip-molecule 138 162	ctr, irrelevant antibody
-T6	incubation-reagent 167 243	the presence or absence (−) of 40 ng/ml of the indicated peptides (peptides)
-T7	incubation-reagent 268 291	PPPPPVD Y TEDEE (PXXDY)
-T8	incubation-reagent 296 338	PPPPPVD A TEDEE (PXXDA, used as a control)
-T9	assay-molecule 364 388	the indicated antibodies

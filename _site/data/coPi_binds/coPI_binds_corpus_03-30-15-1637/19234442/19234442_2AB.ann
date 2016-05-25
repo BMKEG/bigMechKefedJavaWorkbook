@@ -1,8 +1,0 @@
-T2	binds-constituent1 37 41	H2AX
-T3	binds-constituent2 46 60	wild-type Eya1
-T4	binds-constituent2 64 68	Eya3
-T5	binds-controller 80 101	DNA damage conditions
-T1	transfection-molecule 159 165	Eya1/3
-T6	transfection-molecule 170 174	H2AX
-T7	assay-molecule 218 222	Eya3
-T8	assay-molecule 227 231	H2AX
