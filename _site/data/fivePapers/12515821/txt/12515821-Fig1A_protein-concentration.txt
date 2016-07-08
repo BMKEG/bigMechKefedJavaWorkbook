@@ -1,1 +1,0 @@
-4C3541F9-DDAD-893A-C274-A2D76A51DF4F	6340B7F8-71C2-16AC-CED6-A2D76A5150FD	5740426D-2D48-2E82-C627-A2D76A51C501	0DC2D044-880B-B32D-7084-A2D76A518125cell-type	immunoprecipitate	primary-antibody	protein-concentrationMEF	lysate	p85	6/7: highMEF	control	p85	0/7: noneMEF	Ab1	p85	3/7: low/moderateMEF	lysate	Ab1	6/7: highMEF	control	Ab1	0/7: noneMEF	Ab1	Ab1	7/7: very high
